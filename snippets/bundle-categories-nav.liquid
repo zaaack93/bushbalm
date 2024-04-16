@@ -1,0 +1,15 @@
+<nav class="bundle-categories-nav" data-bundle-categories-nav>
+  <div class="wrapper">
+    <ul class="bundle-categories-nav__list">
+      {%- for link in linklists[link_list].links -%}
+        <li class="bundle-categories-nav__link {% if link.active %}bundle-categories-nav__link--active{% endif %}"
+          data-bundle-categories-nav-item data-bundle-categories-nav-item-name="{{ link.title | handleize }}"
+        >
+          <a class="text-link" href="#{{ link.title | handleize }}" title="{{ link.title }}">
+            {{- link.title -}}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</nav>

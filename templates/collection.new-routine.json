@@ -1,0 +1,538 @@
+{
+  "sections": {
+    "f4a4ee61-cf07-4e66-9af8-da69674a50d7": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "New Year, New Routine.",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>Treat your bikini line to the skincare routine it deserves, with savings you'll love.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Find my routine",
+        "cta_link": "shopify:\/\/pages\/quiz",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/BermudaOilTextureShot_4f68074e-fdf9-4705-8b04-3e7c06a944ea.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/BermudaOilTextureShot_4f68074e-fdf9-4705-8b04-3e7c06a944ea.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4998,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_e3ed0cf3-e4de-405c-bb4c-300b346b900a.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "13cae593-e35b-456c-918e-c9ea8f905b79": {
+      "type": "skin-dictionary",
+      "blocks": {
+        "6a46fb4e-3d26-47f0-a290-f249a6569814": {
+          "type": "faq",
+          "settings": {
+            "question": "Waxing Routine",
+            "answer": "Ensure you are exfoliating your pubic area 2-3 times a week to help you avoid itching, razor burn and ingrown hairs that can come when the hair starts to grow back. Apply a soothing oil after your wax to quickly bring down redness, soothe the skin, and most importantly, prevent ingrown hairs.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "1d695828-9c30-4080-976f-a55183a4b9b3": {
+          "type": "faq",
+          "settings": {
+            "question": "Shaving Routine",
+            "answer": "Let's reduce the look of razor burn and ingrown hairs this year. Cleanse the area thoroughly with our Nourishing Body Wash before shaving. Exfoliating 2-3 times a week with a scrub helps soften the skin and hair. Applying a soothing treatment oil daily really helps reduce inflammation\/irritation and prevent razor burn from occurring even days after your shave.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "89c095ea-a0e5-4bca-a6f7-71ee1433b120": {
+          "type": "faq",
+          "settings": {
+            "question": "Brightening Routine",
+            "answer": "Using our Nordic Dry Brush on your dark spots 1-2 times weekly is necessary to break down the melanin pigments that cause dark spots on the skin's surface. Next, use an exfoliant to scrub away dull and dead skin cells and reveal healthy skin. Lastly, start applying a brightening oil daily. Our formula contains essential oils that will lighten the skin and fade the appearance of dark spots.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "91aca4d9-9317-4797-be76-556d95526069": {
+          "type": "faq",
+          "settings": {
+            "question": "Laser Routine",
+            "answer": "Unlike waxing where you want to grow out your hair, for laser you need to shave it all. Whichever area you are treating needs to be completely smooth and free of hair. It’s recommended to shave the night before, to avoid any chance of razor burn. Use a scrub and soothing oil to prep for your laser appointment and ensure your skin is smooth and razor burn free.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "6a46fb4e-3d26-47f0-a290-f249a6569814",
+        "1d695828-9c30-4080-976f-a55183a4b9b3",
+        "89c095ea-a0e5-4bca-a6f7-71ee1433b120",
+        "91aca4d9-9317-4797-be76-556d95526069"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "heading": "",
+        "copy": "",
+        "heading_faqs": "Find Your unique Routine",
+        "cta_link": "",
+        "cta_text": "",
+        "image_desktop": "shopify:\/\/shop_images\/Oil_Bundles.jpg",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16642068907ed79935": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/a_gift.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/a_gift.jpg",
+        "image_offset": 0,
+        "preheading": "Holiday Gift Guide",
+        "heading": "Bundle Up with Bushbalm",
+        "copy": "<p>Deck your shelves with skincare essentials for happy, bright, & more confident skin this holiday season<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16474638113ea6ec96": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "image_offset": 56,
+        "preheading": "Best Selling",
+        "heading": "Bundles & Kits",
+        "copy": "<p>Get 10% off all best selling bundles & kits <\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "1648170219598c9cf6": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align_desktop": "left",
+        "text_align_mobile": "left",
+        "enable_truncate": false,
+        "truncate_threshold": 25,
+        "image_desktop": "shopify:\/\/shop_images\/gift-guide-banner-mobile_1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skincare.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1662120607cf1c0136": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "all-is-calm",
+        "overwrite_heading": "<p>All is Calm Kit <\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Consider every skin concern handled with this routine essentials kit.<\/p><p>Feel fresh while reducing redness and the look of ingrown hairs and dark spots.<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "-16px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter By Concern",
+            "group_title": "Concerns",
+            "group_title_mobile": "By Concern",
+            "tags_list": "dark-spots, ingrown-hairs, razor-burn, keratosis-pilaris, stretchmarks, hyperpigmentation"
+          }
+        },
+        "cb6c9178-4d29-43e7-8c10-9fbc1dbfa091": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter By Type",
+            "group_title": "Type",
+            "group_title_mobile": "By Type",
+            "tags_list": "bundles-and-sets, bestsellers, exfoliating-scrubs, firming-creams, soothing-oils, tools-and-accessories, body-cleanser"
+          }
+        }
+      },
+      "block_order": [
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69",
+        "cb6c9178-4d29-43e7-8c10-9fbc1dbfa091"
+      ],
+      "disabled": true,
+      "settings": {
+        "pagination_count": 25
+      }
+    },
+    "16578967954f687c5c": {
+      "type": "featured-bundle",
+      "disabled": true,
+      "settings": {
+        "background_color": "#fdfdfd",
+        "featured_product": "",
+        "overwrite_heading": "<p>Special Offer<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p><\/p><p><a href=\"https:\/\/bushbalm.com\/products\/the-brightening-bikini-bundle\" title=\"https:\/\/bushbalm.com\/products\/the-brightening-bikini-bundle\"><strong>The Brightening Kit<\/strong><\/a> rejuvenates and brightens skin while improving the look of hyperpigmentation, dark spots, and discoloration anywhere on the body.<\/p><p>Includes:<\/p><p>- Bermuda Dark Spot Oil<\/p><p>- Bermuda Dark Exfoliating Scrub<\/p><p>- Piña Colada Dark Spot Oil<\/p><p>- Piña Colada Exfoliating Scrub<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": false,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1648169874ddc44262": {
+      "type": "featured-collections",
+      "blocks": {
+        "20d48985-7335-4a0c-834d-46e1c353882a": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_Step_Routine_for_dark_spots_6b843215-e42e-4c88-b11a-d3e3fc1f2570.png",
+            "bg_color": "#f8e2c9",
+            "bg_color_desktop": "#f8e2c9",
+            "marquee_text": "10% OFF",
+            "cta_text": "GET 10% OFF",
+            "cta_link": "shopify:\/\/products\/dark-spot-bikini-line-kit",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "20d48985-7335-4a0c-834d-46e1c353882a"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "165945805223509a5c": {
+      "type": "bundle-categories",
+      "blocks": {
+        "d336a806-ff59-4502-b9a8-c7ae20359f14": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Waxing",
+            "bundle_category_list": [
+              "post-wax-soothing-kit",
+              "vajacial-3-step-at-home-kit",
+              "vajacial-at-home-kit",
+              "trim-treat-bundle",
+              "pubic-hair-trimmer-holiday-kit"
+            ]
+          }
+        },
+        "57bd7c73-764f-46a0-9153-1a8d8507b0f2": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Shaving",
+            "bundle_category_list": [
+              "routine-ingrown-treatment",
+              "2-step-routine-keratosis-pilaris-bump-eraser",
+              "bump-free-bundle",
+              "3-pack-nude-ingrown-hair-oil",
+              "sensitive-skin-essentials",
+              "spa-day-nourishing-body-wash",
+              "unscented-nourishing-body-wash"
+            ]
+          }
+        },
+        "f067a4b3-5656-4e01-aae0-a44b8a58c89e": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Brightening",
+            "bundle_category_list": [
+              "2-step-routine-hyperpigmentation-dark-spots",
+              "2-step-hyperpigmentation-products",
+              "the-brightening-bundle",
+              "dark-spot-bikini-line-kit",
+              "3-step-routine-pina-colada-dark-spots-minimizer-kit",
+              "3-pack-bermuda-dark-spot-oil",
+              "bikini-dry-brush"
+            ]
+          }
+        },
+        "3f79154c-c01d-4613-a81a-5b1b4f739133": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Laser",
+            "bundle_category_list": [
+              "vajacial-at-home-kit",
+              "vajacial-3-step-at-home-kit",
+              "2-step-routine-hyperpigmentation-dark-spots",
+              "routine-ingrown-treatment",
+              "2-step-routine-keratosis-pilaris-bump-eraser",
+              "sensitive-skin-essentials",
+              "bump-free-bundle",
+              "spa-day-nourishing-body-wash",
+              "unscented-nourishing-body-wash"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "d336a806-ff59-4502-b9a8-c7ae20359f14",
+        "57bd7c73-764f-46a0-9153-1a8d8507b0f2",
+        "f067a4b3-5656-4e01-aae0-a44b8a58c89e",
+        "3f79154c-c01d-4613-a81a-5b1b4f739133"
+      ],
+      "settings": {
+        "all_bundles_enabled": false
+      }
+    },
+    "16481694831eab144b": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "heading": "Save 10%",
+        "copy": "Shop and save with all bundles & sets!",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1648170129ec2e66b8": {
+      "type": "trust-bar",
+      "blocks": {
+        "05076cc9-1dfe-4372-ab2d-a2ad6a0b89bc": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "10% OFF"
+          }
+        },
+        "fb723c01-5fc5-4b1e-9a68-ecd907d45a2c": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "10% OFF"
+          }
+        },
+        "2c7dcc07-1350-4510-9aa9-a7a96c085c6b": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "10% OFF"
+          }
+        },
+        "773e3d09-8b5b-4245-9916-b40e35458e67": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "10% OFF"
+          }
+        }
+      },
+      "block_order": [
+        "05076cc9-1dfe-4372-ab2d-a2ad6a0b89bc",
+        "fb723c01-5fc5-4b1e-9a68-ecd907d45a2c",
+        "2c7dcc07-1350-4510-9aa9-a7a96c085c6b",
+        "773e3d09-8b5b-4245-9916-b40e35458e67"
+      ],
+      "disabled": true,
+      "settings": {
+        "speed": 6000,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "16px"
+      }
+    },
+    "ecc35a84-1f5c-4d64-b342-efde5f7e800f": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "what's next",
+        "headline": "Ready to get started on your new skincare journey?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop All Products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "Take Our Quiz",
+        "cta_2_link": "shopify:\/\/pages\/quiz",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "164657908928936c34": {
+      "type": "image-carousel",
+      "blocks": {
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e9c8c440-0741-436c-94e9-7851b19970d5": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_-_Dark_Spot_Oil_for_All_Skin_Types_e0e2553e-d215-4d44-840c-b4ae0ce91822.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_Reviews_Tush_Cream_2d3bc290-fd7e-473d-92a8-00691310d98c.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "6efb635d-1c90-4b01-972a-7b100a712f04": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d",
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e",
+        "e9c8c440-0741-436c-94e9-7851b19970d5",
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30",
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542",
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8",
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d",
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c",
+        "6efb635d-1c90-4b01-972a-7b100a712f04"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "16px",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "16px"
+      }
+    },
+    "1647463826a7d93f8c": {
+      "type": "overlay-hero",
+      "disabled": true,
+      "settings": {
+        "heading": "10% Off",
+        "use_h1": true,
+        "copy": "",
+        "cta_text": "",
+        "cta_url": "",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": true
+      }
+    }
+  },
+  "order": [
+    "f4a4ee61-cf07-4e66-9af8-da69674a50d7",
+    "13cae593-e35b-456c-918e-c9ea8f905b79",
+    "16642068907ed79935",
+    "16474638113ea6ec96",
+    "1648170219598c9cf6",
+    "1662120607cf1c0136",
+    "main",
+    "16578967954f687c5c",
+    "1648169874ddc44262",
+    "165945805223509a5c",
+    "16481694831eab144b",
+    "1648170129ec2e66b8",
+    "ecc35a84-1f5c-4d64-b342-efde5f7e800f",
+    "164657908928936c34",
+    "1647463826a7d93f8c"
+  ]
+}

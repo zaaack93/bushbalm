@@ -1,0 +1,274 @@
+{
+  "sections": {
+    "42eade70-f0cd-48ce-a891-7e854e6608fc": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Reviews",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>Over 5,000+ verified reviews and hundreds of before and after results.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/bermuda_face_oil.webp",
+        "image_desktop": "shopify:\/\/shop_images\/bermuda_face_oil.webp",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 5000,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_de418c45-596c-4219-bd6b-3f6b79140609.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1661864305936deae2": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#fcf4eb",
+        "image_mobile": "shopify:\/\/shop_images\/BERMUDA_OIL-026_b88626f5-7bc1-4ed6-9478-2b9d1510561f.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/BERMUDA_OIL-026_b88626f5-7bc1-4ed6-9478-2b9d1510561f.jpg",
+        "image_offset": -56,
+        "preheading": "",
+        "heading": "Reviews",
+        "copy": "<p>Over 5,000+ verified reviews and hundreds of before and after results. <\/p>",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_text": "get started",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "8d465326-5e88-48d4-813e-f5ea231db846": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_Reviews_-_Bermuda_Scrub.jpg",
+            "content": "“I have been a fan of Bushbalm Bermuda oil for a while. The exfoliation, the quality ingredients, the  discoloration correction. This works wonders! Get this set!!! You won't regret it.”",
+            "name": "Attalie J.",
+            "product": "dark-spot-treatment",
+            "product_image": "shopify:\/\/shop_images\/Testimonial_Bermuda_Oil.png",
+            "cta_text": "Shop Bermuda"
+          }
+        },
+        "0fbb267b-20ee-4ef4-838e-365df79fe01d": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_Reviews_Tush_Cream.jpg",
+            "content": "“This cream smells so incredibly amazing and is so smooth on the skin. Truly does leave your skin feeling refreshed and soft. I've already started seeing a lot of improvement as well and its only been about a month since i started!”",
+            "name": "Anonymous",
+            "product": "tush-firming-cream",
+            "product_image": "shopify:\/\/shop_images\/Testimonial_Tush_Body_Cream.png",
+            "cta_text": "Shop Tush Cream"
+          }
+        },
+        "8d5e5310-d080-4b13-ab4d-c80b33ba424d": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_Reviews_Sweet_Escape_Collection.jpg",
+            "content": "“I absolutely love this stuff and swear by it. It works fantastically and has drastically reduced irritation from shaving in sensitive areas.”",
+            "name": "Anonymous",
+            "product": "sweet-escape-oil",
+            "product_image": "shopify:\/\/shop_images\/Testimonial_Sweet_Escape_Oil.png",
+            "cta_text": "Shop Sweet Escape"
+          }
+        },
+        "38c7088d-17cc-4ad8-a65d-b5239dfb027e": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bushbalm-testimonial-scrub.jpg",
+            "content": "“I love this product, leaves my skin so smooth, I pair it with the nude after shave oil and I have noticed my hair has thinned out and no more shaving rash”",
+            "name": "Amie",
+            "product": "nude-exfoliating-scrub",
+            "product_image": "shopify:\/\/shop_images\/Testimonial_Nude_Body_Scrub.png",
+            "cta_text": "Shop Nude Scrub"
+          }
+        },
+        "d03e0dba-46b5-4a75-a11c-7dbfa3171580": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_Reviews_-_Trimmer_-_Francesca.jpg",
+            "content": "“Listen. I know people say this all the time, but this is legit, I NEVER write reviews. I’m so happy with this purchase. I’m over the freakin moon. I got the trimmer about two months ago.\"",
+            "name": "Kaylen",
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair",
+            "product_image": "shopify:\/\/shop_images\/Testimonial_Francesca_Trimmer.png",
+            "cta_text": "Shop Francesca Trimmer"
+          }
+        }
+      },
+      "block_order": [
+        "8d465326-5e88-48d4-813e-f5ea231db846",
+        "0fbb267b-20ee-4ef4-838e-365df79fe01d",
+        "8d5e5310-d080-4b13-ab4d-c80b33ba424d",
+        "38c7088d-17cc-4ad8-a65d-b5239dfb027e",
+        "d03e0dba-46b5-4a75-a11c-7dbfa3171580"
+      ],
+      "disabled": true,
+      "settings": {
+        "intro": "Reviews",
+        "title": "Testimonials"
+      }
+    },
+    "16377692975274bcdf": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "Featured",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\"><\/div>",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1637779647e5c4c19a": {
+      "type": "all-reviews",
+      "disabled": true,
+      "settings": {
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"full-page\" data-take=\"5\" data-style-color-star=\"#f8a086\" data-style-color-verified=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1674665634c0430712": {
+      "type": "apps",
+      "blocks": {
+        "244c447a-08a3-46da-b8d2-e6e7a45e21c3": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "244c447a-08a3-46da-b8d2-e6e7a45e21c3"
+      ],
+      "settings": {
+      }
+    },
+    "1635520765056f7b91": {
+      "type": "image-carousel",
+      "blocks": {
+        "cf2f1d38-f43f-400b-8844-d0449dc7f41e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/underarm-darkening-before-and-after-dark-spot-oil.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "260cc582-89a2-4176-a9be-14fd546828af": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/razor-burn-on-thighs-before-and-after.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "928ce973-932f-484f-92ef-050c9c50228b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-underarms-ingrown-hairs-and-razor-burn.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "9c881747-c8a1-47d5-a444-a7e6c0af5ba2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-razor-burn-on-bikini-line.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "6d6d6841-3722-412c-be0a-1ea82aef773f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-After-Photo-Strawberry-Legs-KP.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "e060b848-0aa2-47b3-845b-e98b4401a06f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dark-spot-oil-underarm-darkening.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "cf2f1d38-f43f-400b-8844-d0449dc7f41e",
+        "260cc582-89a2-4176-a9be-14fd546828af",
+        "928ce973-932f-484f-92ef-050c9c50228b",
+        "9c881747-c8a1-47d5-a444-a7e6c0af5ba2",
+        "6d6d6841-3722-412c-be0a-1ea82aef773f",
+        "e060b848-0aa2-47b3-845b-e98b4401a06f"
+      ],
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "24px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "163776793047820b1a": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": true,
+        "intro": "Results",
+        "headline": "Seeing is believing. Explore our gallery of before and afters.",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "See results",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_2_text": "Shop Now",
+        "cta_2_link": "shopify:\/\/collections\/all",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    }
+  },
+  "order": [
+    "42eade70-f0cd-48ce-a891-7e854e6608fc",
+    "1661864305936deae2",
+    "testimonials",
+    "16377692975274bcdf",
+    "1637779647e5c4c19a",
+    "1674665634c0430712",
+    "1635520765056f7b91",
+    "163776793047820b1a"
+  ]
+}

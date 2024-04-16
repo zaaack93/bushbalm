@@ -1,0 +1,256 @@
+<script src="{{ 'related-products.js' | asset_url }}" defer="defer"></script>
+{{ 'related-products.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  case request.page_type
+    when 'page'
+      assign obj = page
+    when 'product'
+      assign obj = product
+    when 'article'
+      assign obj = article
+  endcase
+
+  assign related_meta_products = obj.metafields.custom_fields.related_products
+  assign item_limit = 3
+  assign item_count = 0
+-%}
+
+{% if related_meta_products != blank or section.blocks.size > 0 %}
+  <div class="related-products related-products--{{ section.id }}" data-related-products>
+    <div class="wrapper">
+      {% if section.settings.title != blank %}
+        <h2 class="related-products__title">{{ section.settings.title }}</h2>
+      {% endif %}
+
+      <div class="related-products__slider swiper-container" data-related-products-slider>
+        <div class="related-products__container swiper-wrapper">
+          {%- liquid
+            assign product_handles = ''
+            if related_meta_products != blank
+              assign product_handles = related_meta_products | prepend: '|'
+            else
+              for block in section.blocks
+                assign product_handles = product_handles | append: '|' | append: block.settings.product
+              endfor
+            endif
+            assign product_handles = product_handles | remove_first: '|' | split: '|'
+          -%}
+          {% if product_handles.size > 0 %}
+            {% for handle in product_handles %}
+              {%- liquid
+                assign related_product = all_products[handle]
+                if related_product == blank or item_count >= item_limit
+                  continue
+                endif
+                assign item_count = item_count | plus: 1
+              -%}
+              <div class="related-products__slide swiper-slide">
+                {% render 'collection-item' with product: related_product %}
+              </div>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+
+      <button class="related-products__controls related-products__controls--prev hide" data-related-products-slider-prev
+        aria-label="{{ 'general.accessibility.slider_prev' | t }}" title="{{ 'general.accessibility.slider_prev' | t }}">
+        {% render 'icon-chevron-left' %}
+      </button>
+
+      <button class="related-products__controls related-products__controls--next hide" data-related-products-slider-next
+        aria-label="{{ 'general.accessibility.slider_next' | t }}" title="{{ 'general.accessibility.slider_next' | t }}">
+        {% render 'icon-chevron-right' %}
+      </button>
+    </div>
+  </div>
+
+  {% render 'custom-spacing' with
+    section_name: 'related-products'
+  %}
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Related Products",
+    "blocks": [
+      {
+        "type": "related_product",
+        "name": "Related Product",
+        "limit": 3,
+        "settings": [
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Related Products"
+      },
+      {
+        "type": "paragraph",
+        "content": "Use the 'Related Products' custom field to override section blocks."
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Related Products"
+      }
+    ]
+  }
+{% endschema %}

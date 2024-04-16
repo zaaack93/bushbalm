@@ -1,0 +1,153 @@
+/* stylelint-disable */
+#fsb_container{display:none !important}
+
+.hc-custom-featured-products .featured-products__container{
+  flex-wrap:wrap;
+  padding: 0 24px;
+  gap:24px;
+}
+  .hc-custom-featured-products .hc-collection-item{
+    flex:1 0 calc(25% - 24px);
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:#f9f9f9;
+  }
+.hc-custom-featured-products .hc-collection-item .collection-item__info{
+  text-align:center;
+  padding:2rem 1rem 1rem;
+
+}
+.hc-collection-item .stamped-badge{
+  display:flex;
+  flex-direction:column;
+}
+.hc-collection-item .btn--chocolate{
+  margin-top:1rem;
+  background: #F8E2C9;
+  color: #000;
+}
+.hc-collection-item .btn--chocolate:hover{
+  background:#000;
+  color:#F8E2C9;
+}
+.hc-regular-price{
+  font-weight:bold;
+}
+
+#stamped-reviews-widget {font-family:'Montserrat', sans-serif !important;}
+
+/* search nav bar - HC - 12 Jan '23 */
+.hc-nav-flex{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+  height: 80%;
+}
+.hc-none{
+  display: none;
+}
+.hc-icon-search{
+  cursor: pointer;
+}
+.hc-search-nav{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px;
+}
+@media (max-width: 680px){
+  .hc-search-nav{
+    width: 100%;
+  }
+}
+.nav-modal{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  overflow: auto;
+  background-color: white;
+}
+.hc-search-nav .icon-close{
+  cursor: pointer;
+}
+.hc-search-nav .search-bar{
+  flex: 1;
+}
+@media (max-width: 1220px){
+  .site-header__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1220px){
+  .hc-icon-search, .site-header__bag{
+    display: flex;
+  }
+}
+
+/**
+  HC - Start: Two columns on mobile/product badge - 23 Feb '23
+*/
+
+@media screen and (max-width: 767px) {
+  .hc-collection-item__badge--heart {
+/*     background: url('https://cdn.shopify.com/s/files/1/1292/0701/t/266/assets/heart.png') no-repeat;
+    background-size: cover;
+    background-color: transparent !important;
+    border-radius: 0; */
+  }
+
+  .collection__grid {
+/*     scroll-padding: 1rem;
+    scroll-snap-type: both mandatory;
+    overflow: scroll;
+	height: 90vh; */
+  }
+
+  .collection__grid-item {
+	scroll-snap-align: start;
+	display: inline-block;
+  }
+
+  .collection-item__image {
+    margin-bottom: 5px !important;
+  }
+
+  .collection-item__copy {
+    font-size: 1.2rem !important;
+  }
+
+  .collection-item__info .ui-body-bold {
+    font-size: 1.4rem;
+  }
+
+  .collection-item__info {
+     margin-bottom: 3px; 
+  }
+
+  .hero-intro__content {
+    padding-bottom: 35px;
+  }
+
+  [class*=" stamped-fa-"]:before,
+  [class*=" stamped-icon-"]:before,
+  [class^=fa-]:before,
+  [class^=stamped-fa-]:before,
+  [class^=stamped-icon-]:before {
+    font-size: 9px !important;
+  }
+
+  .stamped-product-reviews-badge {
+    font-size: 12px !important;
+  }
+}

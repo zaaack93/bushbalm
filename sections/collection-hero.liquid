@@ -1,0 +1,312 @@
+<script src="{{ 'collection-hero.js' | asset_url }}" defer="defer"></script>
+{{ 'collection-hero.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign page_type = request.page_type
+  assign image_desktop = section.settings.image_desktop | default: collection.featured_image | img_url: '3200x'
+  assign image_desktop_loading = section.settings.image_desktop | default: collection.featured_image | img_url: '300x'
+  assign image_mobile = section.settings.image_mobile | default: collection.featured_image | img_url: '654x'
+  assign image_mobile_loading = section.settings.image_mobile | default: collection.featured_image | img_url: '300x'
+-%}
+
+<div class="collection-hero collection-hero--{{ section.id }}" role="region" aria-label="Hero">
+  <div class="collection-hero__container wrapper">
+    <div class="collection-hero__heading collection-hero__heading--desktop-{{ section.settings.text_align_desktop }} collection-hero__heading--mobile-{{ section.settings.text_align_mobile }}"
+    >
+      <h1 class="collection-hero__title">{{ collection.metafields.custom_fields["hero_title"] | default: collection.title }}</h1>
+
+      <img class="collection-hero__image lazyload small--hide"
+        alt="{{ collection.title }}"
+        src="{{ collection.metafields.custom_fields["hero_image_desktop"] | default: image_desktop_loading }}"
+        data-src="{{ collection.metafields.custom_fields["hero_image_desktop"] | default: image_desktop }}"
+      >
+      <img class="collection-hero__image lazyload medium-up--hide"
+        alt="{{ collection.title }}"
+        src="{{ collection.metafields.custom_fields["hero_image_mobile"] | default: image_mobile_loading }}"
+        data-src="{{ collection.metafields.custom_fields["hero_image_mobile"] | default: image_mobile }}"
+      >
+    </div>
+
+    {% if collection.metafields.custom_fields["enable_hero_copy"] == 1 %}
+      <div class="collection-hero__copy" data-collection-hero-copy>
+        {% if collection.metafields.custom_fields["hero_copy"] != blank %}
+          {% assign word_count = collection.metafields.custom_fields["hero_copy"] | split: ' ' %}
+          {% if section.settings.enable_truncate and word_count.size > section.settings.truncate_threshold %}
+            <div class="collection-hero__copy-less"
+              aria-hidden="false"
+              data-collection-hero-copy-less>
+              <p>
+                {{- collection.metafields.custom_fields["hero_copy"]
+                  | truncatewords: section.settings.truncate_threshold, '...'
+                -}}
+              </p>
+              <button type="button"
+                class="collection-hero__copy-expand"
+                title="{{ 'general.accessibility.truncate_more' | t }}"
+                aria-label="{{ 'general.accessibility.truncate_more' | t }}"
+                aria-expanded="false"
+                aria-controls="collection-hero-more--{{ section.id }}"
+                data-collection-hero-copy-expand>
+                {{- 'general.accessibility.truncate_more' | t -}}
+              </button>
+            </div>
+            <div class="collection-hero__copy-more"
+              id="collection-hero-more--{{ section.id }}"
+              aria-hidden="true"
+              data-collection-hero-copy-more>
+              <p>{{ collection.metafields.custom_fields["hero_copy"] }}</p>
+            </div>
+          {% else %}
+            <p>{{ collection.metafields.custom_fields["hero_copy"] }}</p>
+          {% endif %}
+        {% else %}
+          <p>{{ collection.description }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'collection-hero'
+%}
+
+{% schema %}
+  {
+    "name": "Collection Hero",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Alignment"
+      },
+      {
+        "type": "select",
+        "id": "text_align_desktop",
+        "label": "Text Alignment | Desktop",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "select",
+        "id": "text_align_mobile",
+        "label": "Text Alignment | Mobile",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "header",
+        "content": "Copy",
+        "info": "Copy displayed underneath Image/Title (enabled in Collection metafields)"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_truncate",
+        "label": "Enable Copy Truncation",
+        "info": "Copy that is over the threshold will be truncated with a Read More link that displays remainder when clicked"
+      },
+      {
+        "type": "number",
+        "id": "truncate_threshold",
+        "label": "Truncation Threshold",
+        "info": "Number of words to be truncated if reached",
+        "default": 25
+      },
+      {
+        "type": "header",
+        "content": "Imagery",
+        "info": "Images are pulled from Collection metafields. Default imagery defined here as backup"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Default Image | Desktop",
+        "info": "Dimensions: 3200 x 568"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Default Image | Mobile",
+        "info": "Dimensions: 654 x 320"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Collection Hero"
+      }
+    ]
+  }
+{% endschema %}

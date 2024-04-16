@@ -1,0 +1,107 @@
+<script type="text/javascript">
+  var klaviyo = klaviyo || [];
+  let latestAddedItem = null
+  let latestAddedTime = null
+
+  {% if customer %}
+    klaviyo.push(['identify', {
+      '$email': {{ customer.email | json }},
+      '$first_name': {{ customer.first_name | json }},
+      '$last_name': {{ customer.last_name | json }}
+    }]);
+  {% endif %}
+
+  function mapItemData(item, prefix = '') {
+    return {
+      [prefix + "ProductID"]: item.product_id,
+      [prefix + "ProductHandle"]: item.handle,
+      [prefix + "VariantID"]: item.variant_id,
+      [prefix + "SKU"]: item.sku,
+      [prefix + "ProductName"]: item.title,
+      [prefix + "Quantity"]: item.quantity,
+      [prefix + "Brand"]: item.vendor,
+      [prefix + "Price"]: item.discounted_price / 100,
+      [prefix + "CompareAtPrice"]: item.original_price / 100,
+      [prefix + "Discount"]: item.total_discount / 100,
+      [prefix + "RowTotal"]: item.line_price / 100,
+      [prefix + "Url"]: `${window.location.origin}${item.url}`,
+      [prefix + "ImageURL"]: item.image,
+    }
+  } 
+
+  function addedToCart(itemId = null) {
+    if (latestAddedItem === itemId && latestAddedTime !== null && (Date.now() - latestAddedTime) < 300) {
+      return
+    }
+    latestAddedItem = itemId
+    latestAddedTime = Date.now()
+
+    fetch(`${window.location.origin}/cart.js`)
+    .then(res => res.clone().json().then(data => {
+      const variantIds = {}
+      const itemNames = []
+      const itemsMapped = []
+      let addedItem = null
+
+      for (let i = 0; i < data.items.length; i++) {
+        const item = data.items[i]
+        variantIds[item.variant_id] = item.quantity
+        itemNames.push(item.title)
+        itemsMapped.push(mapItemData(item))
+
+        if (itemId !== null && item.id === itemId) {
+          addedItem = mapItemData(item, 'AddedItem')
+        }
+      }
+
+      var cart = {
+        '$value': data.total_price / 100,
+        'TotalPrice': data.total_price / 100,
+        'TotalDiscount': data.total_discount / 100,
+        'OriginalTotalPrice': data.original_total_price / 100,
+        'ItemsSubtotalPrice': data.items_subtotal_price / 100,
+        'CheckoutURL': `${window.location.origin}/cart/${Object.entries(variantIds).map(([key, value]) => `${key}:${value}`).join(',')}`,
+        'ItemNames': itemNames,
+        'Items': itemsMapped
+      }
+      if (addedItem !== null) {
+        cart = Object.assign(cart, addedItem)
+      } else if (typeof item !== 'undefined') {
+        cart = Object.assign(cart, Object.keys(item).reduce((a, c) => (a[`AddedItem${c}`] = item[c], a), {}))
+      }
+      klaviyo.push(['track', 'Added to Cart', cart])
+      if (typeof geq !== 'undefined') {
+        geq.addToCart(item);
+      }
+    }))
+  }
+  (function (ns, fetch) {
+    ns.fetch = function() {
+      const response = fetch.apply(this, arguments);
+      response.then(res => {
+        if (`${window.location.origin}/cart/add.js`
+          .includes(res.url)) {
+            let itemId = null
+            if(typeof arguments[1] === 'object' && arguments[1] !== null && Object.prototype.hasOwnProperty.call(arguments[1], 'body')) {
+              if (typeof arguments[1].body === 'string') {
+                try {
+                  const reqBody = JSON.parse(arguments[1].body)
+
+                  if(reqBody && reqBody.items && reqBody.items.length > 0) {
+                    itemId = reqBody.items[0].id
+                  }
+                } catch {}
+              }
+            }
+            addedToCart(itemId)
+        }
+      });
+      return response
+    }
+  }(window, window.fetch))
+  $(document).ajaxComplete(function(event, request, settings){
+    if(typeof settings !== 'undefined' && settings.url == "/cart/add.js"){
+      addedToCart()
+    }
+  })
+</script>

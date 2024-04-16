@@ -1,0 +1,77 @@
+{% if product.metafields.custom_fields["bundle_upsell_items"] != blank %}
+  <div class="bundle-upsells">
+    <h2>{{ section.settings.bundle_upsells_heading }}</h2>
+
+    <div class="bundle-upsells__container">
+      {% for item in product.metafields.custom_fields["bundle_upsell_items"] %}
+        {% assign bundle_product = all_products[item["product"]] %}
+        {% assign bundle_metafields = bundle_product.metafields.custom_fields["routine_bundle_options"] %}
+        {% assign bundle_discount = item["bundle_discount_percentage"] | times: 1.0 | divided_by: 100 %}
+
+        <div class="bundle-upsell"
+          data-bundle-upsell
+          data-bundle-upsell-discount="{{ bundle_discount }}">
+          {% assign original_bundle_price = 0 %}
+          <div class="hide" aria-hidden>
+            {% for variant in bundle_product.variants %}
+              <span data-upsell-bundle-variant="{{ variant.title }}"
+                data-upsell-bundle-variant-id="{{ variant.id }}"></span>
+            {% endfor %}
+
+            {% for product_option in bundle_product.options_with_values %}
+              {% assign this_step_metafields = bundle_metafields | where: "option_name", product_option.name | first %}
+              {% for value in product_option.values %}
+                {% assign this_step_product = this_step_metafields.products | where: "product_option_value", value | first %}
+                {% assign product_option_ref = all_products[this_step_product.product_reference] %}
+                {% if product_option_ref != blank %}
+                  {% if item["bundle_child_products"] contains product_option_ref.handle %}
+                    <span data-bundle-upsell-child="{{ product_option_ref.variants[0].id }}"
+                      data-bundle-upsell-child-title="{{ value }}"
+                      data-bundle-upsell-parent-title="{{ bundle_product.title }}">
+                      {{ product_option_ref.title }}
+                    </span>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </div>
+
+          {% if item["image"] != blank %}
+            {% assign bundle_image = item["image"] %}
+            {% assign bundle_image_backup = item["image"] %}
+          {% else %}
+            {% assign bundle_image = bundle_product.images[0] | img_url: '480x' %}
+            {% assign bundle_image_backup = bundle_product.images[0] | img_url: '100x' %}
+          {% endif %}
+        <a href= "{{bundle_product.url}}" id="pdp-bundle-upsell">
+          <img class="lazyload"
+            alt="{{ item["title"] | default: bundle_product.title | strip_html }}"
+            src="{{ bundle_image_backup }}"
+            data-src="{{ bundle_image }}">
+
+          <h3>{{ item["title"] | default: bundle_product.title }}</h3>
+        
+
+          {%- liquid
+            if bundle_product.compare_at_price > bundle_product.price
+              assign bundle_savings = bundle_product.compare_at_price | minus: bundle_product.price | money_without_currency
+            endif
+          -%}
+
+          <p>&dollar;{{ bundle_product.price | money_without_currency }}&nbsp;
+            {%- if bundle_savings -%}
+              <span>{{ 'products.product.save_money' | t: value: bundle_savings }}</span></p>
+            {%- endif -%}
+  
+          <button type="button"
+            class="btn"
+         {% comment %}   data-bundle-upsell-atc {% endcomment %}>
+          {% comment %}  {{- 'products.product.add_to_cart' | t -}}{% endcomment %}Learn More
+          </button>
+        </a>
+    
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

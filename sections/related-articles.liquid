@@ -1,0 +1,259 @@
+<script src="{{ 'related-articles.js' | asset_url }}" defer="defer"></script>
+{{ 'related-articles.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  case request.page_type
+    when 'page'
+      assign obj = page
+    when 'product'
+      assign obj = product
+    when 'article'
+      assign obj = article
+  endcase
+
+  assign related_meta_articles = obj.metafields.custom_fields.related_articles
+  assign related_meta_articles_tags = obj.metafields.custom_fields.related_articles_tags
+-%}
+
+{% if related_meta_products != blank or section.blocks.size > 0 %}
+  <div class="related-articles related-articles--{{ section.id }}">
+    <div class="wrapper">
+      <h2 class="related-articles__title">{{ section.settings.title }}</h2>
+
+      <div class="related-articles__grid article-grid">
+        {%- liquid
+          assign found_posts = 0
+
+          if related_meta_articles != blank
+            assign article_refs = related_meta_articles | replace: '.', '/' | split: '|'
+            for article_handle in article_refs limit: 4
+              assign blog_article = articles[article_handle]
+              render 'article-item' with article: blog_article
+
+              assign found_posts = found_posts | plus: 1
+            endfor
+          elsif related_meta_articles_tags != blank or article.tags != blank
+            if related_meta_articles_tags != blank
+              assign tag_list = related_meta_articles_tags | split: ','
+            else
+              assign tag_list = article.tags
+            endif
+
+            for tag in tag_list
+              assign tag = tag | strip
+              for blog_article in blog.articles
+                if blog_article.tags contains tag and blog_article.handle != article.handle
+                  render 'article-item' with article: blog_article
+                  assign found_posts = found_posts | plus: 1
+                endif
+
+                if found_posts == 4
+                  break
+                endif
+              endfor
+
+              if found_posts == 4
+                break
+              endif
+            endfor
+          else
+            for block in section.blocks
+              assign article = articles[block.settings.article]
+              render 'article-item' with article: article
+            endfor
+          endif
+        -%}
+      </div>
+    </div>
+  </div>
+
+  {% render 'custom-spacing' with
+    section_name: 'related-articles'
+  %}
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Related Articles",
+    "blocks": [
+      {
+        "type": "article",
+        "name": "Article",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "article",
+            "id": "article",
+            "label": "Article"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Related Articles"
+      },
+      {
+        "type": "paragraph",
+        "content": "If used on an article template, this section will automatically display articles with related tags. Use the 'Related Articles' custom field to define specific articles."
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Related Articles"
+      }
+    ]
+  }
+{% endschema %}

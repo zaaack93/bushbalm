@@ -1,0 +1,371 @@
+{
+  "sections": {
+    "1645126461654eb840": {
+      "type": "back-link",
+      "settings": {
+        "link_text": "Return to Guides",
+        "link_url": "shopify:\/\/pages\/guides",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16447726516ca700d5": {
+      "type": "content-nav",
+      "blocks": {
+        "6bafe578-ba56-4bbe-bc35-8282d8fb1ffb": {
+          "type": "link",
+          "settings": {
+            "uid": "step-1",
+            "text": "Step 1"
+          }
+        },
+        "d753c5e6-c9db-467d-b8ec-3c37f61478b7": {
+          "type": "link",
+          "settings": {
+            "uid": "step-2",
+            "text": "Step 2"
+          }
+        },
+        "c9e6370b-c5c4-47d2-921e-88fcd78cc0c8": {
+          "type": "link",
+          "settings": {
+            "uid": "step-3",
+            "text": "Step 3"
+          }
+        }
+      },
+      "block_order": [
+        "6bafe578-ba56-4bbe-bc35-8282d8fb1ffb",
+        "d753c5e6-c9db-467d-b8ec-3c37f61478b7",
+        "c9e6370b-c5c4-47d2-921e-88fcd78cc0c8"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "about-principles": {
+      "type": "about-principles",
+      "blocks": {
+        "8844e852-af8a-41cf-b690-355a6e0e0ee3": {
+          "type": "principle",
+          "settings": {
+            "text": "Clean your skin with our Nourishing Body Wash"
+          }
+        },
+        "22de24ff-80f5-4614-98aa-46c5b997dddf": {
+          "type": "principle",
+          "settings": {
+            "text": "Wet your skin & the Body Rock"
+          }
+        },
+        "f6f112f3-b8cf-4b92-9b1e-aa57de793418": {
+          "type": "principle",
+          "settings": {
+            "text": "Gently rub the Body Rock over rough patches and bumpy skin"
+          }
+        },
+        "0758ac42-8525-4d7e-909b-c8ce97e7a4b8": {
+          "type": "principle",
+          "settings": {
+            "text": "Use your Body Rock once per week, or more depending on sensitivity"
+          }
+        }
+      },
+      "block_order": [
+        "8844e852-af8a-41cf-b690-355a6e0e0ee3",
+        "22de24ff-80f5-4614-98aa-46c5b997dddf",
+        "f6f112f3-b8cf-4b92-9b1e-aa57de793418",
+        "0758ac42-8525-4d7e-909b-c8ce97e7a4b8"
+      ],
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/Body_Pumice_Stone.jpg",
+        "image_2": "shopify:\/\/shop_images\/Using_the_body_rock_by_bushbalm_pumice_stone.jpg",
+        "alignment": "top",
+        "headline": "The Body Rock",
+        "subheading": "",
+        "content": "How to Guide",
+        "intro": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "about-intro": {
+      "type": "about-intro",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dry_Brushing_Your_Leg_Explained.jpg",
+        "intro": "Guide",
+        "headline": "How to Dry Brush",
+        "content": "Dry brushing is a powerful way to exfoliate and detoxify the skin.",
+        "static_word": "Helps",
+        "speed_mobile": 700,
+        "delay_mobile": 1000,
+        "speed_desktop": 1000,
+        "delay_desktop": 2000
+      }
+    },
+    "16451262507c81784a": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#fff",
+        "image_offset": false,
+        "image_desktop": "shopify:\/\/shop_images\/What_is_a_pumice_stone.jpg",
+        "heading": "What is a pumice stone?",
+        "copy": "A pumice stone is a natural, porous stone made straight from the earth. A pumice is formed when lava and water mix together. When the mixture of water and lava cools down, it hardens and results in a light rock with a porous texture that is helpful for exfoliation. The porous holes in a pumice stone provide gentle exfoliating properties on the skin, which helps remove layers of dead skin instantly, leaving behind smooth, and radiant skin.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "24px"
+      }
+    },
+    "about-stats": {
+      "type": "about-stats",
+      "blocks": {
+        "258e72b7-232f-474e-a935-9dcc50cc0875": {
+          "type": "stat",
+          "settings": {
+            "intro": "So You Know",
+            "number": "",
+            "content": "\"It is possible to experience negative side effects while using a pumice stone if your skin is irritated or extremely sensitive. Do not use a pumice stone on irritated, broken, or sunburned skin or on your face.\"",
+            "supporting_title": "",
+            "supporting_content": "Read more on <a href=\"https:\/\/bushbalm.com\/products\/the-body-rock\">the product page<\/a>",
+            "background_color": "#c2d6ed"
+          }
+        },
+        "00747eec-602a-4d48-b856-8d32f59bed7a": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "We Give Back",
+            "content": "<p>For every x sold, we will donate back to curabitur blandit tempus porttitor. <br\/><br\/>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.<\/p>",
+            "logo": "shopify:\/\/shop_images\/logo_34239b05-5d0a-4589-b003-d9d1a48f3bbb.png",
+            "logo_max_width": 100,
+            "background_color": "#c2d6ed"
+          }
+        }
+      },
+      "block_order": [
+        "258e72b7-232f-474e-a935-9dcc50cc0875",
+        "00747eec-602a-4d48-b856-8d32f59bed7a"
+      ],
+      "settings": {
+      }
+    },
+    "1645126193af5509ff": {
+      "type": "skin-dictionary",
+      "blocks": {
+        "f4d0f81c-fd1d-4c7d-a082-187b6d77bee9": {
+          "type": "faq",
+          "settings": {
+            "question": "Start clean",
+            "answer": "Use our Nourishing Body Wash to clean skin and prepare for exfoliation.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "2a3985f5-a31e-4dc4-975d-c70a6c775933": {
+          "type": "faq",
+          "settings": {
+            "question": "Get wet",
+            "answer": "Always wet your Body Rock and skin prior to exfoliating. If you use the Body Rock on dry skin it's likely going to cause irritation.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "154da51e-36da-4f4b-b2fb-02cd6b301dbd": {
+          "type": "faq",
+          "settings": {
+            "question": "Gently rub",
+            "answer": "Gently rub the body rock on areas of your body you are looking to even out rough bumpy skin. The most common area for this to occur and benefit is the back of arms, as KP and rough bumpy skin is common",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "86dfd3fd-bc8f-4002-ab58-7bdebd014c68": {
+          "type": "faq",
+          "settings": {
+            "question": "Rinse clean & moisturize",
+            "answer": "After use please rinse clean the Body Rock. This helps prevent any sort of built up on the body rock. Additionally, hang to dry in your shower. \n\n<br> <br> \n\nRinse your skin clean and apply your favorite moisturizing soothing oil within 2 minutes of showering.",
+            "cta_link": "shopify:\/\/collections\/oils",
+            "cta_text": "Shop Soothing Oils"
+          }
+        }
+      },
+      "block_order": [
+        "f4d0f81c-fd1d-4c7d-a082-187b6d77bee9",
+        "2a3985f5-a31e-4dc4-975d-c70a6c775933",
+        "154da51e-36da-4f4b-b2fb-02cd6b301dbd",
+        "86dfd3fd-bc8f-4002-ab58-7bdebd014c68"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "heading": "Detailed Steps",
+        "copy": "The Body Rock",
+        "heading_faqs": "",
+        "cta_link": "",
+        "cta_text": "",
+        "image_mobile": "shopify:\/\/shop_images\/how_to_clean_your_new_pumice_stone.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/how_to_clean_a_pumice_stone.jpg",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164484447039fdfdb0": {
+      "type": "image-carousel",
+      "blocks": {
+        "1925c6c9-26b0-4291-bc39-29bc6316f731": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/how_to_clean_a_pumice_stone.jpg",
+            "link": "",
+            "link_title": "bikini line trimmer in armpit"
+          }
+        },
+        "b97c1a88-ff0e-4431-907c-0e498795912e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/What_is_a_pumice_stone.jpg",
+            "link": "",
+            "link_title": "charging your bikini line trimmer"
+          }
+        },
+        "55dad611-fbde-4727-a145-eb1da270621f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Using_the_body_rock_by_bushbalm_pumice_stone.jpg",
+            "link": "",
+            "link_title": "lubricating the blade of your bikini trimmer"
+          }
+        },
+        "3f1a8338-2e59-4b3b-983f-5e16ed004cd4": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body_Pumice_Stone.jpg",
+            "link": "",
+            "link_title": "Adding a guard to your bikini trimmer"
+          }
+        }
+      },
+      "block_order": [
+        "1925c6c9-26b0-4291-bc39-29bc6316f731",
+        "b97c1a88-ff0e-4431-907c-0e498795912e",
+        "55dad611-fbde-4727-a145-eb1da270621f",
+        "3f1a8338-2e59-4b3b-983f-5e16ed004cd4"
+      ],
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16451291452d25bfff": {
+      "type": "ingredient-faqs",
+      "blocks": {
+        "739db053-41fc-4f20-b4cb-f57a1a214e9b": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does a pumice stone last?",
+            "answer": "2-3 months <br><br> \n\nIf you are using your pumice stone roughly once a week, it should last you around 2-3 months. You should regularly inspect your pumice stone for signs of cracking or wear. Replace every 2-3 months for best results."
+          }
+        },
+        "80c8bca2-b93a-4486-8730-892fe7b298a4": {
+          "type": "faq",
+          "settings": {
+            "question": "Can a pumice stone help with hair removal?",
+            "answer": "Pumice stones could be used to remove small unwanted body hair, but before you attempt this do a small patch of hair to test first. To do so, rub the pumice stone in a small circular motion similar to the way you would exfoliate until body hair starts to rub off. It is recommended that you wait at least 24 hours after the patch test to see if your skin reacts poorly as this is a harsh form of removal, especially for those with sensitive skin. Once body hair noticeably rubs off, move to another area. When you are done this, rinse your skin under warm water to remove any remaining loose hairs. Ensure you follow up with a moisturizing body lotion."
+          }
+        },
+        "9d4c8821-bf2e-40b8-ad35-7cd01346cf49": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I use a pumice stone on my face?",
+            "answer": "We don't recommend it. <br> <br> \n\nThe skin on your face is very sensitive so ensure you do not exfoliate for much longer as over-use could cause redness, skin damage, or a burning sensation. Do not use the product on irritated, broken, or sunburned skin."
+          }
+        },
+        "be8a5478-c65a-4d76-be01-53247db44ffe": {
+          "type": "ingredient",
+          "settings": {
+            "title": "How do I clean it?",
+            "copy": "Ensure you are caring and cleaning for your pumice stone after each use as bacteria and fungus could grow inside the sone’s pores. You should also ensure that the stone drys completely before storing."
+          }
+        },
+        "28564855-e0b5-476c-8d9e-3ecd79d61382": {
+          "type": "ingredient",
+          "settings": {
+            "title": "How often should I use it?",
+            "copy": "You should use a pumice stone as a form of exfoliation once a week. It is very important to not over-exfoliate. You should not use the pumice stone on skin flare-ups or irritations."
+          }
+        }
+      },
+      "block_order": [
+        "739db053-41fc-4f20-b4cb-f57a1a214e9b",
+        "80c8bca2-b93a-4486-8730-892fe7b298a4",
+        "9d4c8821-bf2e-40b8-ad35-7cd01346cf49",
+        "be8a5478-c65a-4d76-be01-53247db44ffe",
+        "28564855-e0b5-476c-8d9e-3ecd79d61382"
+      ],
+      "settings": {
+        "heading_faq": "Additional FAQ's",
+        "heading_ingredients": "Most Common Questions",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "about-story": {
+      "type": "about-story",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dry_Brushing_to_prevent_irritation_from_shaving.jpg",
+        "background_color": "#fbf0e4",
+        "headline_1": "Step 1",
+        "content_1": "<p>Prior to showering or bathing use the dry brush, while dry. <\/p><p>We recommend dry brushing 1-3 times a week, depending on your skin's sensitivity. <\/p>",
+        "headline_2": "Step 2",
+        "content_2": "<p>Start at your feet and brush upwards towards your heart. This is a full body experience, so make sure to get your entire body. <\/p><p>Brush in long strokes. 5-10 seconds per area should do it! Be sure not to press too hard, as the fibres are already working for you. <\/p>"
+      }
+    },
+    "1641492588c7c9e95d": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "What’s next",
+        "headline": "Ready to get started on your new skincare journey?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "All Products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "Routines",
+        "cta_2_link": "shopify:\/\/pages\/routines",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1645126461654eb840",
+    "16447726516ca700d5",
+    "about-principles",
+    "about-intro",
+    "16451262507c81784a",
+    "about-stats",
+    "1645126193af5509ff",
+    "164484447039fdfdb0",
+    "16451291452d25bfff",
+    "about-story",
+    "1641492588c7c9e95d"
+  ]
+}

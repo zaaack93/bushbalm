@@ -1,0 +1,294 @@
+<script src="{{ 'shop-by-concern.js' | asset_url }}" defer="defer"></script>
+{{ 'shop-by-concern.css' | asset_url | stylesheet_tag }}
+
+<div class="shop-by-concern shop-by-concern--{{ section.id }}">
+  <div class="wrapper">
+    <div class="shop-by-concern__container">
+      <div class="shop-by-concern__content">
+        <div class="shop-by-concern__copy">
+          {% if section.settings.heading != blank %}
+            <h2 class="shop-by-concern__heading">{{ section.settings.heading }}</h2>
+          {% endif %}
+          {% if section.settings.subheading != blank %}
+            <p class="shop-by-concern__subheading">{{ section.settings.subheading }}</p>
+          {% endif %}
+        </div>
+        {% if section.blocks.size > 0 %}
+          <div class="shop-by-concern__links swiper-container"
+            data-shop-by-concern-links
+            data-shop-by-concern-links-speed-mobile="{{ section.settings.speed_mobile }}"
+            data-shop-by-concern-links-speed-desktop="{{ section.settings.speed_desktop }}"
+            data-shop-by-concern-links-delay-mobile="{{ section.settings.delay_mobile }}"
+            data-shop-by-concern-links-delay-desktop="{{ section.settings.delay_desktop }}">
+            <div class="swiper-wrapper">
+              {% for block in section.blocks %}
+                <a href="{{ block.settings.cta_link }}"
+                  class="shop-by-concern__link swiper-slide"
+                  title="{{ block.settings.cta_text }}"
+                  data-shop-by-concern-link>
+                  {{- block.settings.cta_text -}}
+                  <span>&nbsp;→</span>
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+      <div class="shop-by-concern__image">
+        {% render 'responsive-image' with
+          image: section.settings.image_mobile,
+          max_width: 654,
+          max_height: 654,
+          wrapper_class: 'shop-by-concern__image-mobile'
+        %}
+        {% render 'responsive-image' with
+          image: section.settings.image_desktop,
+          max_width: 1838,
+          max_height: 1356,
+          wrapper_class: 'shop-by-concern__image-desktop'
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'shop-by-concern'
+%}
+
+{% schema %}
+  {
+    "name": "Shop By Concern",
+    "blocks": [
+      {
+        "type": "link",
+        "name": "Link",
+        "settings": [
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA Text"
+          },
+          {
+            "type": "url",
+            "id": "cta_link",
+            "label": "CTA Link"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image | Mobile",
+        "info": "Dimensions: 654 x 654"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image | Desktop",
+        "info": "Dimensions: 1838 x 1356"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "header",
+        "content": "Carousel"
+      },
+      {
+        "type": "number",
+        "id": "speed_mobile",
+        "label": "Speed | Mobile",
+        "default": 700,
+        "info": "in milliseconds"
+      },
+      {
+        "type": "number",
+        "id": "delay_mobile",
+        "label": "Delay | Mobile",
+        "default": 1000,
+        "info": "in milliseconds"
+      },
+      {
+        "type": "number",
+        "id": "speed_desktop",
+        "label": "Speed | Desktop",
+        "default": 1000,
+        "info": "in milliseconds"
+      },
+      {
+        "type": "number",
+        "id": "delay_desktop",
+        "label": "Delay | Desktop",
+        "default": 2000,
+        "info": "in milliseconds"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Shop By Concern"
+      }
+    ]
+  }
+{% endschema %}

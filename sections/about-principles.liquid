@@ -1,0 +1,308 @@
+{{ 'about-principles.css' | asset_url | stylesheet_tag }}
+
+<div class="about-principles about-principles--{{ section.id }}">
+  <div class="wrapper">
+    <div class="grid">
+      <div class="about-principles__mobile about-principles__mobile--{{ section.settings.alignment }} grid__item medium--6 large--7">
+        <div class="about-principles__content medium-up--hide">
+          <h4>
+            {{ section.settings.headline }}
+          </h4>
+
+          {% if section.settings.subheading != blank %}
+            <h5>
+              {{ section.settings.subheading }}
+            </h5>
+          {% endif %}
+
+          <p>
+            {{ section.settings.content }}
+          </p>
+        </div>
+
+        <div class="about-principles__images">
+          {% render 'responsive-image' with
+            image: section.settings.image_1,
+            max_width: 376,
+            max_height: 511,
+            wrapper_class: 'about-principles__image-1 small--hide'
+          %}
+
+          {% render 'responsive-image' with
+            image: section.settings.image_2,
+            max_width: 800,
+            max_height: 693,
+            wrapper_class: 'about-principles__image-2',
+            auto_scale: true
+          %}
+        </div>
+      </div>
+
+      <div class="grid__item medium--6 large--5">
+        <div class="about-principles__content">
+          <h4 class="small--hide">
+            {{ section.settings.headline }}
+          </h4>
+
+          {% if section.settings.subheading != blank %}
+            <h5 class="small--hide">
+              {{ section.settings.subheading }}
+            </h5>
+          {% endif %}
+
+          <p class="small--hide">
+            {{ section.settings.content }}
+          </p>
+
+          {% if section.settings.intro != blank %}
+            <small>
+              {{ section.settings.intro }}
+            </small>
+          {% endif %}
+
+          <div class="about-principles__list">
+            {% for block in section.blocks %}
+              {% assign number_icon = 'number-' | append: forloop.index | append: '.svg' %}
+
+              <div class="about-principles__list-item">
+                <img class="lazyload" src="{{ number_icon | asset_url }}"
+                  alt="{{ 'general.accessibility.number_icon' | t: number: forloop.index }}"
+                  data-src="{{ number_icon | asset_url }}">
+                <p>{{ block.settings.text }}</p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'about-principles'
+%}
+
+{% schema %}
+  {
+    "name": "About Principles",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Image 1",
+        "info": "Dimensions 752 x 1022"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Image 2",
+        "info": "Dimensions 1022 x 1386"
+      },
+      {
+        "type": "select",
+        "id": "alignment",
+        "label": "Alignment | Mobile",
+        "options": [
+          {
+            "value": "top",
+            "label": "Content Top, Image Bottom"
+          },
+          {
+            "value": "bottom",
+            "label": "Content Bottom, Image Top"
+          }
+        ],
+        "default": "top"
+      },
+      {
+        "type": "text",
+        "id": "headline",
+        "label": "Headline"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "info": "(optional)"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content"
+      },
+      {
+        "type": "text",
+        "id": "intro",
+        "label": "Intro",
+        "info": "(optional)"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "principle",
+        "name": "Principle",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "About Principles"
+      }
+    ]
+  }
+{% endschema %}

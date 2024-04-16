@@ -1,0 +1,118 @@
+{{ 'press-intro.css' | asset_url | stylesheet_tag }}
+
+<div class="press-intro" role="region" aria-label="Press Intro">
+  <div class="wrapper press-intro__wrapper">
+    {% if section.settings.title != blank %}
+      <h1 class="press-intro__title">{{ section.settings.title }}</h1>
+    {% endif %}
+
+    {% if section.settings.copy != blank %}
+      <p class="press-intro__copy">{{ section.settings.copy }}</p>
+    {% endif %}
+
+    {% if section.settings.image_desktop != blank %}
+      <div class="press-intro__image">
+        {% render 'responsive-image' with
+          image: section.settings.image_desktop,
+          max_width: 782,
+          max_height: 577,
+          wrapper_class: 'small--hide'
+        %}
+
+        {% assign image_mobile = section.settings.image_mobile | default: section.settings.image_desktop %}
+        {% render 'responsive-image' with
+          image: image_mobile,
+          max_width: 782,
+          max_height: 577,
+          wrapper_class: 'medium-up--hide'
+        %}
+      </div>
+    {% endif %}
+
+    {% if section.settings.contact_title != blank %}
+      <h2 class="press-intro__contact-title">{{ section.settings.contact_title }}</h2>
+    {% endif %}
+
+    {% if section.settings.contact_copy != blank %}
+      <div class="press-intro__contact-copy">{{ section.settings.contact_copy }}</div>
+    {% endif %}
+
+    {% if section.settings.cta_text != blank and section.settings.cta_link %}
+      <a class="press-intro__cta btn btn--chocolate" href="{{ section.settings.cta_link }}" {% if section.settings.cta_target == true %}target="_blank"{% endif %}>{{ section.settings.cta_text }}</a>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Press Hero",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Press & Media"
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy"
+      },
+      {
+        "type": "header",
+        "content": "Contact"
+      },
+      {
+        "type": "text",
+        "id": "contact_title",
+        "label": "Contact Title"
+      },
+      {
+        "type": "richtext",
+        "id": "contact_copy",
+        "label": "Contact Copy"
+      },
+      {
+        "type": "header",
+        "content": "Call To Action"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "info": "Recommended character limit: 30"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link"
+      },
+      {
+        "type": "checkbox",
+        "id": "cta_target",
+        "label": "CTA Open New Window",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image | Desktop",
+        "info": "Dimensions: 782 x 577"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image | Mobile",
+        "info": "Dimensions: 327 x 241. Defaults to 'Image | Desktop'"
+      }
+    ]
+  }
+{% endschema %}

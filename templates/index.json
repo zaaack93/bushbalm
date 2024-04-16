@@ -1,0 +1,725 @@
+{
+  "sections": {
+    "4d45ff14-b112-462f-aa2e-e0ab32e2eddc": {
+      "type": "home-hero-options",
+      "disabled": true,
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Just Peachy Ingrown Hair Oil",
+        "heading_tag": "h2",
+        "title_sizing": "title_medium",
+        "subtitle": "Now Available",
+        "copy": "<p>Our limited edition bikini line essential that will make you feel juicy and refreshed!<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "SHOP NOW",
+        "cta_link": "shopify:\/\/collections\/just-peachy",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Just_Peachy_Hero_-_Lifestyle.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Just_Peachy_Hero_-_Lifestyle.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 6000,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_58ddd728-1cb4-4243-b948-361287d462e6.png",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "ee8c0333-6fc8-4aa1-9943-5b95d123f68d": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Skincare, Everywhere.",
+        "heading_tag": "h2",
+        "title_sizing": "title_medium",
+        "subtitle": "",
+        "copy": "<p>Clean and effective products for your bikini line and hair removal concerns.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "SHOP NOW",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/ScrubonBikiniLine_325bfc39-2761-4b67-a6fd-727053a97616.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/ScrubonBikiniLine_325bfc39-2761-4b67-a6fd-727053a97616.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 5000,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_58ddd728-1cb4-4243-b948-361287d462e6.png",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "home_hero_options_VBr6yt": {
+      "type": "home-hero-options",
+      "disabled": true,
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Skincare Everywhere, <br>For Everyone.",
+        "heading_tag": "h2",
+        "title_sizing": "title_medium",
+        "subtitle": "International Women's Day",
+        "copy": "<p>At Bushbalm, we are committed to fostering an environment that inspires, empowers, and uplifts women.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn More",
+        "cta_link": "shopify:\/\/pages\/international-womens-day",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/bushbalm-hero-image-two-girls-bermuda-and-pina-colada_02ec95bb-a1ea-4c1b-af26-8767dbb68ef3.png",
+        "image_desktop": "shopify:\/\/shop_images\/bushbalm-hero-image-two-girls-bermuda-and-pina-colada_02ec95bb-a1ea-4c1b-af26-8767dbb68ef3.png",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4992,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_de418c45-596c-4219-bd6b-3f6b79140609.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "166396155263cb2c50": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/mobile_1_072b8b69-c0dc-4420-a0b7-3416e8dc4bcd.svg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/US_Press_Bar.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "replo_collection_4_block_new_nCD9tJ": {
+      "type": "replo-collection-4-block-new",
+      "settings": {
+      }
+    },
+    "replo_collection_4_block_zV8aJk": {
+      "type": "replo-collection-4-block",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1663931263b799a410": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "62dc76ef-98c3-4c83-a65f-61930d925ff6": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-ultimate-ingrown-hair-routine",
+            "enable_sub_text": true
+          }
+        },
+        "9f80e8d9-f803-4dcc-8e1e-e4890420bd3d": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair",
+            "enable_sub_text": true
+          }
+        },
+        "af34ea26-5008-4a2f-9b34-f161a5e0bdab": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-ultimate-brightening-routine",
+            "enable_sub_text": true
+          }
+        },
+        "156ef553-f4ef-4ef5-891e-c8641d4795df": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-hydrogel-mask",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "62dc76ef-98c3-4c83-a65f-61930d925ff6",
+        "9f80e8d9-f803-4dcc-8e1e-e4890420bd3d",
+        "af34ea26-5008-4a2f-9b34-f161a5e0bdab",
+        "156ef553-f4ef-4ef5-891e-c8641d4795df"
+      ],
+      "settings": {
+        "heading": "Bestsellers",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "featured_product_6PjzNh": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "the-ultimate-ingrown-hair-routine",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p>✓ Routine to exfoliate, soothe, and treat ingrown hairs<\/p><p>✓ 100% Alcohol-free formula<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "2b3694cd-6aad-452f-9bf4-674b87cdefc1": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": ""
+      }
+    },
+    "25b22406-cc89-4aa9-a63f-f50ed35b30d1": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/holiday-website-image_e536170a-435c-421e-9c06-41c5819978fa.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/holiday-website-image_e536170a-435c-421e-9c06-41c5819978fa.jpg",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "Bundle Up With Bushbalm",
+        "copy": "<p>Shop gifts worth giving and getting this holiday season!<\/p>",
+        "cta_link": "shopify:\/\/collections\/holiday-gift-guide",
+        "cta_text": "GIFT GUIDE",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1663961664dd24d4fb": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/Before_and_after_using_Bushbalm_Skincare_Before_and_After.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/4_279ba924-c993-4ee9-87aa-d5372922e8db.jpg",
+        "image_offset": 0,
+        "preheading": "Before + After",
+        "heading": "Real People, <br>Real Results",
+        "copy": "<p>Explore our library of before and after results to find your new routine.<\/p>",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_text": "View More",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "hero_intro_wGCy6K": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/careers-hero-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/careers-hero-d.png",
+        "image_offset": 0,
+        "preheading": "International Women's Day",
+        "heading": "Skincare Everywhere, For Everyone",
+        "copy": "<p>At Bushbalm, we are committed to fostering an environment that inspires, empowers, and uplifts women.<\/p>",
+        "cta_link": "shopify:\/\/pages\/international-womens-day",
+        "cta_text": "Learn More",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "4c0517a9-1fa5-4f3f-aa17-20bcc1924afb": {
+      "type": "replo-ulta-find",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "0ff7d443-4568-43c6-b331-096ff68946a2": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "4d24e9b5-f7ad-48da-94c4-c435b79f704b": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-brightening-bundle",
+            "enable_sub_text": true
+          }
+        },
+        "adfd3113-e070-4fcf-8c64-8c86ce11c6fb": {
+          "type": "featured_product",
+          "settings": {
+            "product": "trim-treat-bundle",
+            "enable_sub_text": true
+          }
+        },
+        "ae478a29-7060-4f5d-87fc-ff095e362ec7": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bump-free-bundle",
+            "enable_sub_text": true
+          }
+        },
+        "98e64515-3d15-4ec9-b5f1-253951191fca": {
+          "type": "featured_product",
+          "settings": {
+            "product": "brightening-duo",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "4d24e9b5-f7ad-48da-94c4-c435b79f704b",
+        "adfd3113-e070-4fcf-8c64-8c86ce11c6fb",
+        "ae478a29-7060-4f5d-87fc-ff095e362ec7",
+        "98e64515-3d15-4ec9-b5f1-253951191fca"
+      ],
+      "settings": {
+        "heading": "Best Value",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "95a942ea-14d3-46a9-99fb-579aca059204": {
+      "type": "who-we-are",
+      "blocks": {
+        "c9c1d218-c7e1-47b9-b10e-36c4eb2b3da7": {
+          "type": "list_item",
+          "settings": {
+            "text": "Solve Skin Concerns, Everywhere"
+          }
+        },
+        "ee4ac929-9789-43eb-b8f2-7e291f3d863f": {
+          "type": "list_item",
+          "settings": {
+            "text": "Use Natural, Or Naturally Derived Ingredients"
+          }
+        },
+        "26d87f63-b9ab-4d9c-8486-c1df79b7748f": {
+          "type": "list_item",
+          "settings": {
+            "text": "Formulate For All Skin Types"
+          }
+        },
+        "11d094b8-cb89-4bb9-8e5a-dd8853daccff": {
+          "type": "list_item",
+          "settings": {
+            "text": "Do More of #1."
+          }
+        }
+      },
+      "block_order": [
+        "c9c1d218-c7e1-47b9-b10e-36c4eb2b3da7",
+        "ee4ac929-9789-43eb-b8f2-7e291f3d863f",
+        "26d87f63-b9ab-4d9c-8486-c1df79b7748f",
+        "11d094b8-cb89-4bb9-8e5a-dd8853daccff"
+      ],
+      "settings": {
+        "heading": "Who We Are",
+        "subheading": "Bushbalm was founded on the promise to solve ingrown hairs, razor burn and dark spots with natural products.",
+        "list_heading": "Our Principles",
+        "cta_text": "Get Started",
+        "cta_link": "shopify:\/\/collections\/all",
+        "image_desktop": "shopify:\/\/shop_images\/Who-We-Are-At-Bushbalm-Skincare-About-Us-Page_1c642d86-1673-4bc3-b523-9617d166b22f.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Who-We-Are-At-Bushbalm-Skincare-About-Us-Page_1c642d86-1673-4bc3-b523-9617d166b22f.jpg",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "664ed3ba-19e0-4142-a29d-19c49ab3834d": {
+      "type": "newsletter-signup",
+      "disabled": true,
+      "settings": {
+        "klaviyo_list_id": "SqDVUD",
+        "heading": "Win Today!",
+        "subheading": "Signup for a Chance to Win",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "479b76d3-c3e9-4d89-9915-351651037f56": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/Exfoliating_Scrubs.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Exfoliating_Scrubs.jpg",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "Take Our Quiz",
+        "copy": "<p>Not sure where to start? Take our 1 minute quiz to find your new routine.<\/p>",
+        "cta_link": "shopify:\/\/pages\/quiz",
+        "cta_text": "START NOW",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1672621116f752f40d": {
+      "type": "apps",
+      "blocks": {
+        "273fd7e1-945c-4560-bf83-56e6bde510d1": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "273fd7e1-945c-4560-bf83-56e6bde510d1"
+      ],
+      "settings": {
+      }
+    },
+    "16639644866c9fd03a": {
+      "type": "promo-banner",
+      "blocks": {
+        "2174da70-727f-4d64-b501-21207fb82d31": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Our Promise<\/p>",
+            "heading_color": "#271710"
+          }
+        }
+      },
+      "block_order": [
+        "2174da70-727f-4d64-b501-21207fb82d31"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px",
+        "reduce_size_on_mobile": true
+      }
+    },
+    "1663964536188587a8": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/company-promises-mobile.png",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/company-promises-desktop.png",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1635520765056f7b91": {
+      "type": "image-carousel",
+      "blocks": {
+        "cf2f1d38-f43f-400b-8844-d0449dc7f41e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer.png",
+            "link": "",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "260cc582-89a2-4176-a9be-14fd546828af": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Bushbalm Spa Day Body Wash"
+          }
+        },
+        "9c881747-c8a1-47d5-a444-a7e6c0af5ba2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Sweet Escape Oil Bushbalm"
+          }
+        },
+        "598aceb5-ca10-4c37-a99e-545fbc27b262": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "6d6d6841-3722-412c-be0a-1ea82aef773f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-Bushbalm-Influencer_1.png",
+            "link": "",
+            "link_title": "Bikini Trimmer by Bushbalm"
+          }
+        },
+        "e060b848-0aa2-47b3-845b-e98b4401a06f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "pH balanced body cleansers by Bushbalm"
+          }
+        },
+        "681003b2-4b04-428f-8520-c940f3eebeb1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Dark Spot Oil"
+          }
+        },
+        "a0ca106e-82c9-49c7-b744-777d78a73868": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Stretch Mark Cream"
+          }
+        },
+        "928ce973-932f-484f-92ef-050c9c50228b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kayla_Nicole_and_Bushbalm.jpg",
+            "link": "",
+            "link_title": "Bushbalm Influencer Holding Bottle"
+          }
+        },
+        "90612385-7cf8-4fef-a9b2-c307cc838494": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Pubic Hair Trimmer for Women"
+          }
+        },
+        "cc47aeb1-162a-4b67-9fdc-86d3eb5949d6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Dark Spot Treatment Routine"
+          }
+        },
+        "0ee240e7-32ea-40c3-b844-a2093565992a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "pH balanced body wash"
+          }
+        },
+        "a3e649aa-417f-47a4-ac36-ad3bd90c22ec": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Womens bikini trimmer that's waterproof"
+          }
+        },
+        "98490250-4171-46e0-a98d-b85b488389aa": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Routine for Hyperpigmentation for women"
+          }
+        },
+        "0b3b7b5b-eeb8-4109-9d9e-057ebc60d1f1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Razor Burn Oil for Women Bikini Line"
+          }
+        },
+        "845ab5e9-4a5e-4cd2-a963-7da04be5cfd2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Dark spot Treatment for Body Care"
+          }
+        },
+        "df9aaf79-f67d-4043-930e-4bbaf027dd8f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_75c4a56a-a8ea-43d4-a569-7618c754aa02.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "ff385534-dbf4-4632-bf90-3258095c2d27": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/18-bushbalm-influencer.png",
+            "link": "",
+            "link_title": "Razor Burn Natural Oil for Men"
+          }
+        }
+      },
+      "block_order": [
+        "cf2f1d38-f43f-400b-8844-d0449dc7f41e",
+        "260cc582-89a2-4176-a9be-14fd546828af",
+        "9c881747-c8a1-47d5-a444-a7e6c0af5ba2",
+        "598aceb5-ca10-4c37-a99e-545fbc27b262",
+        "6d6d6841-3722-412c-be0a-1ea82aef773f",
+        "e060b848-0aa2-47b3-845b-e98b4401a06f",
+        "681003b2-4b04-428f-8520-c940f3eebeb1",
+        "a0ca106e-82c9-49c7-b744-777d78a73868",
+        "928ce973-932f-484f-92ef-050c9c50228b",
+        "90612385-7cf8-4fef-a9b2-c307cc838494",
+        "cc47aeb1-162a-4b67-9fdc-86d3eb5949d6",
+        "0ee240e7-32ea-40c3-b844-a2093565992a",
+        "a3e649aa-417f-47a4-ac36-ad3bd90c22ec",
+        "98490250-4171-46e0-a98d-b85b488389aa",
+        "0b3b7b5b-eeb8-4109-9d9e-057ebc60d1f1",
+        "845ab5e9-4a5e-4cd2-a963-7da04be5cfd2",
+        "df9aaf79-f67d-4043-930e-4bbaf027dd8f",
+        "ff385534-dbf4-4632-bf90-3258095c2d27"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1664409965e03af427": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center> \n<h2> Skincare, Everywhere.<\/h2>\n<p> We're on a mission to save your bikini line one ingrown hair at a time. <\/p> \n<center>\n<br><a href=\"https:\/\/bushbalm.com\/collections\/all\" class=\"btn btn-primary\">Shop All Products<\/a>\n<\/center>\n<\/center>"
+      }
+    },
+    "featured_collection_carousel_Qw7UnF": {
+      "type": "featured-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "featured_collection": "best-sellers",
+        "background_color": "#fbf0e4",
+        "overwrite_heading": "Best Sellers",
+        "cta_url": "shopify:\/\/collections\/best-sellers",
+        "cta_text": "Shop All",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "ingredient_faqs_HWEpbP": {
+      "type": "ingredient-faqs",
+      "blocks": {
+        "faq_ngmiQz": {
+          "type": "faq",
+          "settings": {
+            "question": "How will my package arrive?",
+            "answer": "In a plain brown box. No custom branded tape!"
+          }
+        },
+        "faq_8RC4hb": {
+          "type": "faq",
+          "settings": {
+            "question": "",
+            "answer": ""
+          }
+        },
+        "ingredient_NqUJG8": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Security",
+            "copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_ngmiQz",
+        "faq_8RC4hb",
+        "ingredient_NqUJG8"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_faq": "FAQs",
+        "heading_ingredients": "What We Valiue",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "4d45ff14-b112-462f-aa2e-e0ab32e2eddc",
+    "ee8c0333-6fc8-4aa1-9943-5b95d123f68d",
+    "home_hero_options_VBr6yt",
+    "166396155263cb2c50",
+    "replo_collection_4_block_new_nCD9tJ",
+    "replo_collection_4_block_zV8aJk",
+    "1663931263b799a410",
+    "featured_product_6PjzNh",
+    "2b3694cd-6aad-452f-9bf4-674b87cdefc1",
+    "25b22406-cc89-4aa9-a63f-f50ed35b30d1",
+    "1663961664dd24d4fb",
+    "hero_intro_wGCy6K",
+    "4c0517a9-1fa5-4f3f-aa17-20bcc1924afb",
+    "0ff7d443-4568-43c6-b331-096ff68946a2",
+    "95a942ea-14d3-46a9-99fb-579aca059204",
+    "664ed3ba-19e0-4142-a29d-19c49ab3834d",
+    "479b76d3-c3e9-4d89-9915-351651037f56",
+    "1672621116f752f40d",
+    "16639644866c9fd03a",
+    "1663964536188587a8",
+    "1635520765056f7b91",
+    "1664409965e03af427",
+    "featured_collection_carousel_Qw7UnF",
+    "ingredient_faqs_HWEpbP"
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "sections": {
+    "1663503939c2df3407": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "right",
+        "bg_color": "#d9eae6",
+        "image_mobile": "shopify:\/\/shop_images\/Dr._Arumala_Gyno_Approved.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Dr_Arumala_2b18eb91-df38-4ea7-9de6-cf102d864d74.jpg",
+        "image_offset": -48,
+        "preheading": "",
+        "heading": "Get A Smoother Bikini Line",
+        "copy": "<p>The Best All-In-One Routines For your Bikini Line & Vulva <\/p>",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_text": "Shop Now",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16565267017b741a18": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "the-brightening-bikini-bundle",
+        "overwrite_heading": "<p>Special Offer<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p><a href=\"https:\/\/bushbalm.com\/products\/the-brightening-bikini-bundle\" title=\"https:\/\/bushbalm.com\/products\/the-brightening-bikini-bundle\">The Brightening Kit<\/a> rejuvenates and brightens skin while improving the look of hyperpigmentation, dark spots, and discoloration anywhere on the body.<\/p><p>Includes: <\/p><p>- Bermuda Dark Spot Oil <\/p><p>- Bermuda Dark Exfoliating Scrub<\/p><p>- Piña Colada Dark Spot Oil <\/p><p>- Piña Colada Exfoliating Scrub <\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "image_0": "shopify:\/\/shop_images\/Featured_Product_-_Homepage.png",
+        "image_1": "shopify:\/\/shop_images\/Oil.webp",
+        "image_2": "shopify:\/\/shop_images\/Dark_Spot_Hyperpigmentation_Bikini_Line_Corrector_631e5732-1480-456a-a126-5ad407d6dcf8.jpg",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "150px"
+      }
+    },
+    "166350577375b23325": {
+      "type": "promo-banner",
+      "blocks": {
+        "ca20cba2-39f4-4c61-b3b6-bbc126d9e0f3": {
+          "type": "promo_heading",
+          "disabled": true,
+          "settings": {
+            "heading": ""
+          }
+        },
+        "51bcf005-3ee1-47f8-acb0-fdf53eaaf2c8": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>► Over 100,000 Satisfied Bikini Lines <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ca20cba2-39f4-4c61-b3b6-bbc126d9e0f3",
+        "51bcf005-3ee1-47f8-acb0-fdf53eaaf2c8"
+      ],
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1663507972be020b4c": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Mobile_Bikini_Line_Illustration_ca5390e4-a856-4ba0-ada3-8fa5d45bd184.png",
+        "image_desktop": "shopify:\/\/shop_images\/Mobile_Bikini_Line_Illustration.png",
+        "heading": "Struggling with ingrown hairs or bikini bumps?",
+        "copy": "Driven by our passion for breaking down taboos we’re giving consumers an outlet to talk about clean skincare, down there and everywhere. \n\n[break] [break]\n\n[break] [break]\nWe see a world where everyone is confident in their skin—bikini line, underarms and everywhere else.\n[break][break]\n✓ Natural ✓ Vegan ✓ Cruelty Free",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16635052514c17b4db": {
+      "type": "featured-products",
+      "blocks": {
+        "778f55a3-4a2e-4396-8e70-1d1dbcf072c0": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "title": "Dark Spot Duo",
+            "copy": "brightens skin + softens dark spots <br> <h5><b>$44.10 <strike>$49.00 <\/strike><\/b><\/h5> \n <small> 4.8\/5 Stars <small><\/small><\/small>",
+            "rating": 4.5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": "(Save $4.90)"
+          }
+        },
+        "f2425b39-0e40-4ecf-b498-7845b6699e4c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "routine-ingrown-treatment",
+            "title": "Ingrown Free Duo",
+            "copy": "smoothes skin + softens irritation <br> <h5><b>$44.10 <strike>$49.00 <\/strike><\/b><\/h5> \n <small> 4.8\/5 Stars <small><\/small><\/small>",
+            "rating": 4.5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/routine-ingrown-treatment",
+            "badge_text": "(Save $4.90)"
+          }
+        },
+        "e49ed581-985b-4c0b-bf1b-18539b3d897c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-hyperpigmentation-products",
+            "title": "Brighter Days Duo",
+            "copy": "smoothes skin + softens irritation <br> <h5><b>$44.10 <strike>$49.00 <\/strike><\/b><\/h5> \n <small> 4.9\/5 Stars <small><\/small><\/small>",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/2-step-hyperpigmentation-products",
+            "badge_text": "(Save $4.90)"
+          }
+        }
+      },
+      "block_order": [
+        "778f55a3-4a2e-4396-8e70-1d1dbcf072c0",
+        "f2425b39-0e40-4ecf-b498-7845b6699e4c",
+        "e49ed581-985b-4c0b-bf1b-18539b3d897c"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1663505776b3b280f4": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Gyno_and_Derm_Approved.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Gyno_and_Derm_Approved.jpg",
+        "heading": "Meet Dr. Arumala",
+        "copy": "Dr. Arumala is a Obstetrician - Gynecologist & women’s health advocate. Her award winning expertise has helped elevate the Bushbalm product line to help her clients and so many more. \n[break]\nShe's won many awards, including \"Top Docs\" and \"Top 100 ObGyn.\"",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "16373478161b555e27": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align_desktop": "left",
+        "text_align_mobile": "left",
+        "enable_truncate": true,
+        "truncate_threshold": 14,
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Product_Collection.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Mobile_Product_Collection.jpg",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "65dbb04c-c235-4909-9eac-07e582678720": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter By Product",
+            "group_title": "Product Type",
+            "group_title_mobile": "By Type",
+            "tags_list": "bundles-and-sets, bestsellers, exfoliating-scrubs, firming-creams, soothing-oils, tools-and-accessories, body-cleanser"
+          }
+        },
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter By Concern",
+            "group_title": "Concerns",
+            "group_title_mobile": "By Concern",
+            "tags_list": "dark-spots, ingrown-hairs, razor-burn, keratosis-pilaris, stretchmarks, hyperpigmentation"
+          }
+        }
+      },
+      "block_order": [
+        "65dbb04c-c235-4909-9eac-07e582678720",
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69"
+      ],
+      "settings": {
+        "pagination_count": 70
+      }
+    },
+    "16635079678e729bee": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_boxed",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "#1 Sellers",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>The Top Picks for A Smoother Bikini Line<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "View Top Sellers",
+        "cta_link": "shopify:\/\/collections\/best-sellers",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Exfoliate_deeply_the_vikini_line_during_a_vajacial.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Exfoliate_deeply_the_vikini_line_during_a_vajacial.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4502,
+        "review_animation": true,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_456b3624-13e6-4367-8976-f48707537136.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1646578893a810ad61": {
+      "type": "press-highlights",
+      "blocks": {
+        "e3d6f8dd-2963-4799-8f17-4e70acc49752": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/forbes_14ef8883-1bcd-4086-8da4-3dd17c9fea35.png",
+            "logo_height": 23,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "0e206093-cb56-4eee-bc23-76dbcd95eda5": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Women's Health",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo": "shopify:\/\/shop_images\/womens-health-logo_8e16cad1-c1c0-448d-974b-7d2e3475787e.png",
+            "logo_height": 23,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        },
+        "82b51b70-b5fa-4c00-b666-854b5691f910": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo": "shopify:\/\/shop_images\/cha_2a57250a-c2b9-4d30-a006-b9cd91d35f42.png",
+            "logo_height": 22,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#ffffff",
+            "invert_logos": false
+          }
+        },
+        "752e0f78-fb3b-4dd1-8ab4-e9dcf505758d": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Elle",
+            "copy": "“The irresistibly creamy formula can be used anywhere you want a little extra firming action”",
+            "logo": "shopify:\/\/shop_images\/l-elle_5ffd084d-0256-4bdc-9b45-ae0a87760cc4.png",
+            "logo_height": 24,
+            "bg_color": "#7a482a",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "e3d6f8dd-2963-4799-8f17-4e70acc49752",
+        "0e206093-cb56-4eee-bc23-76dbcd95eda5",
+        "82b51b70-b5fa-4c00-b666-854b5691f910",
+        "752e0f78-fb3b-4dd1-8ab4-e9dcf505758d"
+      ],
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164657908928936c34": {
+      "type": "image-carousel",
+      "blocks": {
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e9c8c440-0741-436c-94e9-7851b19970d5": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_-_Dark_Spot_Oil_for_All_Skin_Types_e0e2553e-d215-4d44-840c-b4ae0ce91822.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_Reviews_Tush_Cream_2d3bc290-fd7e-473d-92a8-00691310d98c.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "6efb635d-1c90-4b01-972a-7b100a712f04": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d",
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e",
+        "e9c8c440-0741-436c-94e9-7851b19970d5",
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30",
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542",
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8",
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d",
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c",
+        "6efb635d-1c90-4b01-972a-7b100a712f04"
+      ],
+      "settings": {
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "16px",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "16px"
+      }
+    }
+  },
+  "order": [
+    "1663503939c2df3407",
+    "16565267017b741a18",
+    "166350577375b23325",
+    "1663507972be020b4c",
+    "16635052514c17b4db",
+    "1663505776b3b280f4",
+    "16373478161b555e27",
+    "main",
+    "16635079678e729bee",
+    "1646578893a810ad61",
+    "164657908928936c34"
+  ]
+}

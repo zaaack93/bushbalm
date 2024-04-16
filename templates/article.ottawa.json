@@ -1,0 +1,276 @@
+{
+  "sections": {
+    "164720802359559fbe": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ebf1f9",
+        "image_mobile": "shopify:\/\/shop_images\/Waxing_Salons_in_Ottawa_Downtown_Core.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Waxing_Salons_in_Ottawa_Downtown_Core.jpg",
+        "image_offset": 56,
+        "preheading": "Last Update March 23rd",
+        "heading": "Brazilian Waxing Salons in Ottawa",
+        "copy": "<p>Carrying Bushbalm Skincare<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16480513698f8a091b": {
+      "type": "who-we-are",
+      "blocks": {
+        "47f14495-f08d-47df-9e88-bcb17fcafd83": {
+          "type": "list_item",
+          "settings": {
+            "text": "Smudge Beauty Bar"
+          }
+        },
+        "369fe521-36c1-4f41-8f60-777da4a4541a": {
+          "type": "list_item",
+          "settings": {
+            "text": "Exhālō Spa"
+          }
+        },
+        "9e4519e1-2329-46b9-9ee0-cadf9cf46c37": {
+          "type": "list_item",
+          "settings": {
+            "text": "Sophia Esthetic"
+          }
+        },
+        "d4051e43-5779-4e45-bac6-6bf97250864f": {
+          "type": "list_item",
+          "settings": {
+            "text": "Tropix Gal Waxing"
+          }
+        }
+      },
+      "block_order": [
+        "47f14495-f08d-47df-9e88-bcb17fcafd83",
+        "369fe521-36c1-4f41-8f60-777da4a4541a",
+        "9e4519e1-2329-46b9-9ee0-cadf9cf46c37",
+        "d4051e43-5779-4e45-bac6-6bf97250864f"
+      ],
+      "settings": {
+        "heading": "Ottawa Waxing Salons",
+        "subheading": "We work with top waxing salons on their post-wax product lines!",
+        "list_heading": "Find Us In:",
+        "cta_text": "Get Started",
+        "cta_link": "",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skin_6.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skin_6.jpg",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "main": {
+      "type": "results-article",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "164720835853976d46": {
+      "type": "image-carousel",
+      "blocks": {
+        "7e3562f0-8b6f-4f70-b3ff-59aa9764f04b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-And-After-Photo-Ingrown-Hairs-Razor-Burn_11c5a296-6ed7-4e6c-9a68-3822418ac88c.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "24d9c6a3-2f1e-4445-8070-7c7a90948f42": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-razor-burn-bikini-line_5578e5d1-3c88-47e0-bcba-361bdbe4b990.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "00a1b407-3d6c-4b85-8701-d1f35f7ad1ac": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-underarm-razor-burn_8ce44aca-17b1-4e8c-955a-ac6b9f3cbf63.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "229e07a0-1fc9-474d-813d-b2bf3f2a335b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-razor-burn-on-bikini-line_e387b782-06e1-4413-9938-ff07f1e6b4ab.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "2d20070b-ed8e-4ed2-8fe1-6e1878877faa": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-underarms-ingrown-hairs-and-razor-burn_0874d6cc-08c3-46ef-9e44-b901bd38f272.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "7e3562f0-8b6f-4f70-b3ff-59aa9764f04b",
+        "24d9c6a3-2f1e-4445-8070-7c7a90948f42",
+        "00a1b407-3d6c-4b85-8701-d1f35f7ad1ac",
+        "229e07a0-1fc9-474d-813d-b2bf3f2a335b",
+        "2d20070b-ed8e-4ed2-8fe1-6e1878877faa"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "164720857324f38f5f": {
+      "type": "image-carousel",
+      "blocks": {
+        "975b9c1d-eb8f-478d-896d-f99964ba3aba": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown-hair-oil-before-and-after-photo.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "bc5dab62-de1e-4815-b665-95244fe609df": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-And-After-Dark-Spot-Underarms_b969a426-a238-437c-9deb-a439dd407bd6.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "ce0cb0c8-59a1-45b9-8eb6-e6fe63178ec8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-After-Picture-Dark-Spot-Oil_9de7cf68-6112-4c1c-beaf-a0c522b0c24b.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "72b74fc7-b479-468b-9102-de9b7127be3d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Inner_Thighs_Before_and_After.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "975b9c1d-eb8f-478d-896d-f99964ba3aba",
+        "bc5dab62-de1e-4815-b665-95244fe609df",
+        "ce0cb0c8-59a1-45b9-8eb6-e6fe63178ec8",
+        "72b74fc7-b479-468b-9102-de9b7127be3d"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "16480528082e9c39ff": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "All Waxing Salons in Ottawa",
+        "html": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m16!1m12!1m3!1d23585.79199343283!2d-75.75556295567453!3d45.38367732477989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swaxing%20salon%20near%20me!5e1!3m2!1sen!2sca!4v1647820427374!5m2!1sen!2sca\" width=\"2000\" height=\"1000\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>"
+      }
+    },
+    "16472085758f967712": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/close_up_of_no_razor_burn_on_someone_whos_used_this_routine.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/close_up_of_no_razor_burn_on_someone_whos_used_this_routine.jpg",
+        "heading": "The Benefits of Post Wax Products",
+        "copy": "By focusing on skincare after your wax you will minimize the likelihood of getting irritation and razor burn. Our soothing oils are best sellers at waxing salons for a reason!",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16472089778578d0c5": {
+      "type": "related-products",
+      "blocks": {
+        "80b38693-c81a-40a0-b932-02f537beea61": {
+          "type": "related_product",
+          "settings": {
+            "product": "routine-ingrown-treatment"
+          }
+        },
+        "469c2de8-9bcf-4d77-93d1-aa6434963238": {
+          "type": "related_product",
+          "settings": {
+            "product": "nude-exfoliating-scrub"
+          }
+        },
+        "e4afdf4c-f4c1-4609-931a-8095c74500fb": {
+          "type": "related_product",
+          "settings": {
+            "product": "sweet-escape-oil"
+          }
+        }
+      },
+      "block_order": [
+        "80b38693-c81a-40a0-b932-02f537beea61",
+        "469c2de8-9bcf-4d77-93d1-aa6434963238",
+        "e4afdf4c-f4c1-4609-931a-8095c74500fb"
+      ],
+      "settings": {
+        "title": "Waxing Salon Best Sellers",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164720910075edbe63": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Bushbalm Skincare",
+        "headline": "Get started with your new razor burn routine!",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Products",
+        "cta_link": "shopify:\/\/collections\/razor-burn",
+        "cta_2_text": "View Routine",
+        "cta_2_link": "shopify:\/\/collections\/razor-burn-routine",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "164720802359559fbe",
+    "16480513698f8a091b",
+    "main",
+    "164720835853976d46",
+    "164720857324f38f5f",
+    "16480528082e9c39ff",
+    "16472085758f967712",
+    "16472089778578d0c5",
+    "164720910075edbe63"
+  ]
+}

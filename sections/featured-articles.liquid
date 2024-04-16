@@ -1,0 +1,255 @@
+<script src="{{ 'featured-articles.js' | asset_url }}" defer="defer"></script>
+{{ 'featured-articles.css' | asset_url | stylesheet_tag }}
+
+<div class="featured-articles featured-articles--{{ section.id }}">
+  <div class="featured-articles__container wrapper">
+    {% if section.settings.heading != blank %}
+      <h2 class="featured-articles__heading">{{ section.settings.heading }}</h2>
+    {% endif %}
+    {% if section.settings.subheading != blank %}
+      <p class="featured-articles__subheading">{{ section.settings.subheading }}</p>
+    {% endif %}
+    <div class="featured-articles__grid">
+      {% for block in section.blocks %}
+        <div class="featured-articles__block">
+          {% assign article_image = block.settings.image | default: block.settings.article_ref.image %}
+          <a href="{{ block.settings.article_ref.url }}" title="{{ block.settings.article_ref.title }}">
+            {% render 'responsive-image' with
+              image: article_image,
+              max_width: 752,
+              max_height: 752,
+              wrapper_class: 'featured-articles__image'
+            %}
+          </a>
+          <a href="{{ block.settings.article_ref.url }}"
+            class="featured-articles__title"
+            title="{{ block.settings.article_ref.title }}">
+            {{- block.settings.title | default: block.settings.article_ref.title -}}
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="featured-articles__cta">
+      {% if section.settings.cta_text != blank and section.settings.cta_link != blank %}
+        <a href="{{ section.settings.cta_link }}" class="btn" title="{{ section.settings.cta_text }}">
+          {{- section.settings.cta_text -}}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'featured-articles'
+%}
+
+{% schema %}
+  {
+    "name": "Featured Articles",
+    "blocks": [
+      {
+        "type": "featured_article",
+        "name": "Featured Article",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "article",
+            "id": "article_ref",
+            "label": "Article"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "info": "Overrides article title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "Overrides article image - Dimensions: 752 x 752"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Articles"
+      }
+    ]
+  }
+{% endschema %}

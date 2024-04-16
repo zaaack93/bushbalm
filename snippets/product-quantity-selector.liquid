@@ -1,0 +1,23 @@
+<div class="product-quantity-selector" data-product-quantity-selector>
+  <button type="button"
+    class="product-quantity-selector__minus"
+    aria-label="Minus {{ product.title }} Quantity"
+    data-product-quantity-minus>
+    {% render 'icon-quantity-minus' %}
+  </button>
+
+  <input type="number"
+    class="product-quantity-selector__input"
+    min="1"
+    aria-label="{{ product.title }} Quantity Input"
+    max="{{ product.selected_or_first_available_variant.inventory_quantity }}"
+    value="1"
+    data-product-quantity-input>
+
+  <button type="button"
+    class="product-quantity-selector__plus"
+    aria-label="Plus {{ product.title }} Quantity"
+    data-product-quantity-plus>
+    {% render 'icon-quantity-plus' %}
+  </button>
+</div>

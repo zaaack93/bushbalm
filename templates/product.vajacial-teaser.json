@@ -1,0 +1,446 @@
+{
+  "sections": {
+    "c4f4e4cf-76b7-4490-a866-39b3b2150add": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center> <small> November 2nd, 2022 - 2pm EST <\/small> <br>\n<br>\n<h2> <b>Introducing the Ultimate Thirst Trap<\/b> <\/h2> \n<br>\n<p> Add To Your Calendar <\/p>\n\n<a target=\"_blank\" href=\"https:\/\/calendar.google.com\/calendar\/event?action=TEMPLATE&amp;tmeid=MTBlYzBucmgxa3FqNHBxZHI2NG5sNWc5MHYgbG9nYW5AbXlidXNoYmFsbS5jb20&amp;tmsrc=logan%40mybushbalm.com\"><img border=\"0\" src=\"https:\/\/www.google.com\/calendar\/images\/ext\/gc_button1_en.gif\"><\/a>\n<\/center>"
+      }
+    },
+    "4bf968cd-1864-45a4-b86b-af3336cb39d0": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": true,
+        "intro": "Product Launch",
+        "headline": "Introducing the Ultimate Thirst Trap",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "product",
+      "settings": {
+        "enable_paybright_widget": false,
+        "promo_banner_enable": true,
+        "promo_banner_always": true,
+        "promo_banner_klaviyo": "https:\/\/bushbalm.com\/pages\/wholesale-application",
+        "promo_banner_discount": 15,
+        "promo_banner_text": "Are you a waxing salon or retail store? <br>Want to carry this product?",
+        "promo_banner_cta": "Apply Today",
+        "product_form_enable": true,
+        "product_details_enable": true,
+        "info_accordion_enable": false,
+        "product_icons_enable": false,
+        "product_video_enable": false,
+        "ingredients_accordion_enable": true,
+        "ingredients_accordion_view": "View Full Ingredient List",
+        "ingredients_accordion_hide": "Hide Full Ingredient List",
+        "bundle_upsells_enable": false,
+        "bundle_upsells_heading": "Save with Bundles"
+      }
+    },
+    "f4bb3463-2cb1-4ba7-ac36-c807e04ab514": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Assests-2.png",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Assests-2.png",
+        "heading": "Made From",
+        "copy": "✓ <b>Hyaluronic Acid <\/b>to hydrate + smooth\n[break]\n✓ <b>Aloe Vera<\/b> to provide intense moisture\n[break]\n✓ <b>Green Tea Extract <\/b>to soothe redness + fight visible signs of aging",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "dabf9ad6-a06c-42fc-a032-b2c436583771": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Product_Image_1.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Product_Image_1.jpg",
+        "heading": "Whole New Level To Skincare, Down There",
+        "copy": "Why You Need This New Product\n[break]\n✓ You deserve it \n[break]\n✓ Your vulva is seriously jealous of your face care routine\n[break]\n✓ Hair removal irritation is the worst!\n[break]\n✓ To soothe irritation, redness, and bumps\n[break]\n✓ Plump, hydrate, soften, and pamper your skin",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "3d99f356-4726-4c79-b2ae-e539b5e2c6ab": {
+      "type": "press-grid",
+      "blocks": {
+        "6879d4b0-ac2d-436b-997c-cafc188551f5": {
+          "type": "press_item",
+          "settings": {
+            "title": "",
+            "copy": "“My bikini line skincare routine is just as elaborate as my face now.”",
+            "logo": "shopify:\/\/shop_images\/2_ac7e9b9c-e768-490a-a230-5d9ce1b5e4a2.jpg",
+            "logo_height": 80,
+            "link": ""
+          }
+        },
+        "b0b35290-7286-4341-a692-0ee71bfc6624": {
+          "type": "press_item",
+          "settings": {
+            "title": "",
+            "copy": "“Obsessed with hyaluronic acid and how hydrated it leaves my skin.”",
+            "logo": "shopify:\/\/shop_images\/1_746f1b0c-dfe3-463d-a411-5de94f1c14a2.jpg",
+            "logo_height": 80,
+            "link": ""
+          }
+        },
+        "b8e06b83-e3d2-4e11-a82e-fb6e4e37bac5": {
+          "type": "press_item",
+          "settings": {
+            "title": "",
+            "copy": "“I’m shocked at how cooling it feels!”",
+            "logo": "shopify:\/\/shop_images\/3_f8f34eb2-8662-45ad-841a-717af1ad60b3.jpg",
+            "logo_height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "6879d4b0-ac2d-436b-997c-cafc188551f5",
+        "b0b35290-7286-4341-a692-0ee71bfc6624",
+        "b8e06b83-e3d2-4e11-a82e-fb6e4e37bac5"
+      ],
+      "settings": {
+        "title": "What People Are Saying",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "c29778da-08f3-4cad-80d2-1889bed771cf": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Product_Image_1.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Product_Image_1.jpg",
+        "heading": "Whole New Level To Skincare, Downthere",
+        "copy": "Your Vulva's Going to Love This One",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1640360910f458615c": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "reviews_heading": "Customer Reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664207448eb27e55e": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "0cbc2c1e-1274-4d29-94b0-b7f56898854e": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "enable_sub_text": false
+          }
+        },
+        "92697d93-3d30-45da-baf0-2f74fc14bee1": {
+          "type": "featured_product",
+          "settings": {
+            "product": "trim-treat-bundle",
+            "enable_sub_text": false
+          }
+        },
+        "a4b7a087-56fb-4df2-b7c0-5080b341b962": {
+          "type": "featured_product",
+          "settings": {
+            "product": "3-step-routine-ingrown-hair-razor-burn-prevention",
+            "enable_sub_text": false
+          }
+        },
+        "ea2a190a-e34b-4622-b1af-6e8b1f02aa6d": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-keratosis-pilaris-bump-eraser",
+            "enable_sub_text": false
+          }
+        }
+      },
+      "block_order": [
+        "0cbc2c1e-1274-4d29-94b0-b7f56898854e",
+        "92697d93-3d30-45da-baf0-2f74fc14bee1",
+        "a4b7a087-56fb-4df2-b7c0-5080b341b962",
+        "ea2a190a-e34b-4622-b1af-6e8b1f02aa6d"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Top Bundles",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1640358772a04f298c": {
+      "type": "product-testimonial",
+      "disabled": true,
+      "settings": {
+        "testimonial_heading": "Why Our Customers Love Bushbalm",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1639422528f153a1af": {
+      "type": "related-products",
+      "blocks": {
+        "7659479a-4d2c-4b0f-8a98-8aef57ccc58b": {
+          "type": "related_product",
+          "settings": {
+            "product": "sweet-escape-oil"
+          }
+        },
+        "7c539845-d16a-4d67-9c68-10cc74f7a8f9": {
+          "type": "related_product",
+          "settings": {
+            "product": "the-body-rock"
+          }
+        },
+        "eec47424-74a1-4f29-ba7d-0263532987ba": {
+          "type": "related_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair"
+          }
+        }
+      },
+      "block_order": [
+        "7659479a-4d2c-4b0f-8a98-8aef57ccc58b",
+        "7c539845-d16a-4d67-9c68-10cc74f7a8f9",
+        "eec47424-74a1-4f29-ba7d-0263532987ba"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "You'll Also Love",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "165998729779233821": {
+      "type": "press-highlights",
+      "blocks": {
+        "9d143d8a-e1b6-49be-961f-92d409ddb80c": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo": "shopify:\/\/shop_images\/l-chate_0454c09f-f0d1-42dd-9a53-42670a9a6ea9.png",
+            "logo_height": 20,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "a9f264b6-1540-4886-9ef5-8c2bf8e9b2ba": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/forbes_0b608d75-c859-42ad-b555-affa5ce329a8.png",
+            "logo_height": 26,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "28cfb99d-516b-4f13-ac74-2435e45af064": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo": "shopify:\/\/shop_images\/l-elle_ced8cea4-7211-463f-a51d-f0effe86731b.png",
+            "logo_height": 28,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "9d143d8a-e1b6-49be-961f-92d409ddb80c",
+        "a9f264b6-1540-4886-9ef5-8c2bf8e9b2ba",
+        "28cfb99d-516b-4f13-ac74-2435e45af064"
+      ],
+      "disabled": true,
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1640359527307f5762": {
+      "type": "product-faqs",
+      "disabled": true,
+      "settings": {
+        "faqs_heading": "Frequently Asked Questions",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1640359978313819a2": {
+      "type": "product-stats",
+      "disabled": true,
+      "settings": {
+        "stats_ba_image": "shopify:\/\/shop_images\/Ingrown-hair-oil-before-and-after-photo_38fbccff-0437-4503-9b70-ce588e805c81.jpg",
+        "stats_ba_image_pills": true,
+        "stats_preheading": "Skin Concerns",
+        "stats_heading": "You aren't alone!",
+        "stats_subtext": "*Based on data from our 2021 Annual Customer Survey",
+        "stat_percentage_1": "94%",
+        "stat_copy_1": "Say they are actively struggling with ingrown hairs.",
+        "stat_percentage_2": "56%",
+        "stat_copy_2": "Say they are actively struggling with dark spots and hyperpigmentation.",
+        "stat_percentage_3": "54%",
+        "stat_copy_3": "Say they are actively struggling with razor burn.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "1664412132ebad910f": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "150355a8-dba8-4528-9214-99dc265317f9": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bikini_Trimmer_2.jpg",
+            "heading": "Bikini Trimmers",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/the-francesca-trimmer"
+          }
+        },
+        "3fb09787-14ba-4baf-9c56-c941477318a5": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spots_ed66b255-6d91-45d3-a079-394a2ce6b911.jpg",
+            "heading": "Dark Spots",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "b5af7a62-a831-454b-b260-d4fb9f9daa7b": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Razor_Burn_e26482a4-ab5f-4606-ab67-6f817764986d.jpg",
+            "heading": "Razor Burn",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "26d01d96-df9c-4e8f-8930-1dcec1afaf33": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hairs_e1e2de45-ce47-45ac-bd26-9782a93abfad.jpg",
+            "heading": "Ingrown Hairs",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        }
+      },
+      "block_order": [
+        "150355a8-dba8-4528-9214-99dc265317f9",
+        "3fb09787-14ba-4baf-9c56-c941477318a5",
+        "b5af7a62-a831-454b-b260-d4fb9f9daa7b",
+        "26d01d96-df9c-4e8f-8930-1dcec1afaf33"
+      ],
+      "disabled": true,
+      "settings": {
+        "carousel_heading": "Top Collections"
+      }
+    },
+    "8777358a-3a9b-47ec-aa7f-970d2c783fa1": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<a href=\"#\/UK_del\">Delivery within the UK<\/a> \n\n<h2 id=\"\/UK_del\">not sure what should go here<\/h2>"
+      }
+    },
+    "74631dbd-e7db-4c29-bb6f-5b63b455c873": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": true,
+        "intro": "Bushbalm",
+        "headline": "Natural Ingredients, Beautiful Results. ",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop All Products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "c4f4e4cf-76b7-4490-a866-39b3b2150add",
+    "4bf968cd-1864-45a4-b86b-af3336cb39d0",
+    "main",
+    "f4bb3463-2cb1-4ba7-ac36-c807e04ab514",
+    "dabf9ad6-a06c-42fc-a032-b2c436583771",
+    "3d99f356-4726-4c79-b2ae-e539b5e2c6ab",
+    "c29778da-08f3-4cad-80d2-1889bed771cf",
+    "1640360910f458615c",
+    "1664207448eb27e55e",
+    "1640358772a04f298c",
+    "1639422528f153a1af",
+    "165998729779233821",
+    "1640359527307f5762",
+    "1640359978313819a2",
+    "1664412132ebad910f",
+    "8777358a-3a9b-47ec-aa7f-970d2c783fa1",
+    "74631dbd-e7db-4c29-bb6f-5b63b455c873"
+  ]
+}

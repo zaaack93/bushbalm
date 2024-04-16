@@ -1,0 +1,79 @@
+{{ 'register.css' | asset_url | stylesheet_tag }}
+
+<div class="account-form account-form--register">
+  <div class="account-form__wrapper wrapper">
+    <div class="account-form__content">
+      {% form 'create_customer', data-validation-required: '' %}
+        <h1>{{ 'customer.register.title' | t }}</h1>
+
+        <div class="account-form__form-wrapper">
+          <div class="form-input-group" data-form-input-group>
+            <label for="firstName" class="visually-hidden">{{ 'customer.register.first_name' | t }}</label>
+            <input type="text"
+              name="customer[first_name]"
+              id="firstName"
+              placeholder="{{ 'customer.register.first_name' | t }}"
+              data-form-input
+              {% if form.first_name %}value="{{ form.first_name }}"{% endif %}>
+          </div>
+
+          <div class="form-input-group" data-form-input-group data-required-field-wrapper>
+            <label for="email" class="visually-hidden">{{ 'customer.register.email' | t }}</label>
+            <input type="email"
+              name="customer[email]"
+              id="email"
+              class="{% if form.errors contains 'email' %}input-error{% endif %}"
+              data-form-input
+              value="{% if form.email %}{{ form.email }}{% endif %}"
+              placeholder="{{ 'customer.register.email' | t }}"
+              spellcheck="false"
+              autocomplete="off"
+              autocapitalize="off"
+              data-required-field="valid email address is required"
+              data-required-field-pattern="^\w+([.-/+/-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$">
+            <span class="validation-error">&times;</span>
+          </div>
+
+          <div class="form-input-group" data-form-input-group data-required-field-wrapper>
+            <label for="createPassword" class="visually-hidden">{{ 'customer.register.password' | t }}</label>
+            <input type="password"
+              name="customer[password]"
+              id="createPassword"
+              class="{% if form.errors contains 'password' %}input-error{% endif %}"
+              placeholder="{{ 'customer.register.password' | t }}"
+              data-form-input
+              data-required-field="password must be 5 or more characters"
+              data-required-field-pattern="^.{5,}">
+            <span class="validation-error">&times;</span>
+          </div>
+
+          {% if form.errors %}
+            <div class="form-errors">
+              {%- render 'icon-error' -%}
+              {{- form.errors | default_errors -}}
+            </div>
+          {% endif %}
+
+          <button type="submit" class="btn btn--chocolate btn--full">{{ 'customer.register.submit' | t }}</button>
+
+          <div class="account-form__actions">
+            <p>
+              {{ 'customer.register.sign_in_message' | t }}
+              <a href="{{ routes.account_login_url }}" title="{{ 'customer.register.sign_in' | t }}">{{ 'customer.register.sign_in' | t }}</a>
+            </p>
+          </div>
+        </div>
+      {% endform %}
+    </div>
+
+    {% if shop.metafields.custom_fields["login_register_image"] != blank %}
+      <div class="account-form__image">
+        <img class="lazyload small--hide"
+          alt="{{ shop.metafields.custom_fields["login_register_image_alt_text"] }}"
+          src="{{ shop.metafields.custom_fields["login_register_image"] }}"
+          data-src="{{ shop.metafields.custom_fields["login_register_image"] }}"
+        >
+      </div>
+    {% endif %}
+  </div>
+</div>

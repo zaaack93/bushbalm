@@ -1,0 +1,261 @@
+<div class="cart-item-wrap {% if is_insurance_item %} cart-item-wrap--insurance{% endif %}"
+  data-cart-item
+  data-line-item-id="{{ item.id }}"
+  data-line-item-key="{{ item.key }}"
+  {%- if is_insurance_item -%}
+    data-cart-insurnace-item
+  {% endif %}
+  {% if item.properties._bundle_parent != blank %}
+    data-cart-bundle-item
+  {% endif %}
+>
+  <div class="cart-item">
+    {%- if is_insurance_item -%}
+      <div class="cart-item__image">
+    {%- else -%}
+      <a class="cart-item__image image-link" href="{{ item.url }}" title="{{ item.product.title }} - {{ item_line_price | money }}">
+    {%- endif -%}
+      {% assign item_image = item.variant.featured_image | default: item.image %}
+      {% render 'responsive-img' with
+        image: item_image,
+        max_width: 85,
+        max_height: 85,
+        id_suffix: 'ajaxcart'
+      %}
+    {%- if is_insurance_item -%}
+      </div>
+    {%- else -%}
+      </a>
+    {%- endif -%}
+
+    <div class="cart-item__content">
+      <h4 class="cart-item__title">
+        {%- unless is_insurance_item -%}
+          <a href="{{ item.url }}" title="{{ item.product.title }} - {{ item_line_price | money }}">
+        {%- endunless -%}
+        {{ item.product.metafields.custom_fields.cart_item_product_title | default: item.product.title }}
+        {%- unless is_insurance_item -%}
+          </a>
+        {%- endunless -%}
+      </h4>
+
+      {% if item.product.has_only_default_variant == false or item.product.metafields.custom_fields.cart_item_variant_title != blank %}
+        <p class="cart-item__variant">{{ item.product.metafields.custom_fields.cart_item_variant_title | default: item.variant.title }}</p>
+      {% endif %}
+
+      {% if item.selling_plan_allocation.selling_plan.id != blank %}
+        <div class="cart-item__subscription-info">
+          {% render 'icon-subscription' %}
+          <p>{{ item.selling_plan_allocation.selling_plan.name }}</p>
+        </div>
+      {% endif %}
+
+      {% if is_insurance_item %}
+        <div class="cart-item__price">
+          <span data-line-item-price>{{ item.line_price | money | remove: '.00' }}</span>
+        </div>
+      {% else %}
+        <div class="cart-item__content-footer">
+            {% unless hideQuantitySelector %}
+              {% render 'quantity-selector', item: item %}
+            {% endunless %}
+
+            <div class="cart-item__price">
+              {% if item.message and item.original_line_price > item.line_price and item.properties._bundle_parent != 'true' %}
+                <s data-line-item-original-price>{{ item.original_line_price | money | remove: '.00' | remove: 'CAD' }}</s>
+                <span data-line-item-price>{{ item.line_price | money | remove: '.00' | remove: 'CAD' }}</span>
+              {% elsif item.variant.compare_at_price > item.variant.price %}
+                <s data-line-item-compare-price data-variant-compare-price="{{ item.variant.compare_at_price }}">{{ item.variant.compare_at_price | times: item.quantity | money | remove: '.00' | remove: 'CAD' }}</s>
+                <span data-line-item-price>{{ item.line_price | money | remove: '.00' | remove: 'CAD' }}</span>
+              {% else %}
+                <span data-line-item-price>{{ item.line_price | money | remove: '.00' }}</span>
+              {% endif %}
+            </div>
+        </div>
+
+        {% if item.message %}
+          <p class="cart-item__message">{{ item.message }}</p>
+        {% endif %}
+      {% endif %}
+    </div>
+
+    <a class="cart-item__remove" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" title="{{ 'cart.general.remove' | t }} {{ item.product.title }}"
+      data-line-item-key="{{ item.key }}"
+      data-line-item-remove 
+    >
+      {%- render 'icon-cart-remove' -%}
+    </a>
+  </div>
+
+  {% comment %} Subscription item {% endcomment %}
+  {%- if item.selling_plan_allocation.selling_plan != blank or item.product.metafields.custom_fields.general_upsell_product == 1 -%}
+    {%- assign item_product_meta = item.product.metafields.custom_fields -%}
+    {%- if item_product_meta.subscription_upsell_product != blank -%}
+      {%- liquid
+        assign subscription_product = all_products[item_product_meta.subscription_upsell_product]
+        assign subscription_variant_id = subscription_product.subscription_upsell_variant_id | default: subscription_product.first_available_variant.id
+        assign subscription_product_discount = item_product_meta.subscription_upsell_discount
+        assign subscription_product_discount_text = item_product_meta.subscription_upsell_disct_text
+      -%}
+
+    {% unless subscription_product == blank or cart_item_product_ids contains subscription_product.id %}
+      <div class="ajaxcart__recommended-container" data-subscription-upsell>
+        <p class="ajaxcart__recommended">{{ 'cart.general.recommended' | t }}</p>
+        <button type="button" class="cart-item-upsell--recommended cart-item-upsell--{{ subscription_variant_id }}"
+          data-cart-item-subscription-add
+          data-subscription-discount="{{ subscription_product_discount }}"
+          data-subscription-discount-text="{{ subscription_product_discount_text }}"
+          data-subscription-variant-id="{{ subscription_variant_id }}"
+        >
+          <div class="cart-item-upsell--recommended__content">
+            {% if subscription_product_discount != blank %}
+              <p class="cart-item-upsell--recommended__badge">
+                {{ 'cart.general.save' | t | append: " " }}
+                {{ subscription_product_discount | remove: 'CAD' | remove: '.00' | append: "%" }}
+              </p>
+            {% endif %}
+            <h5 class="cart-item-upsell--recommended__title {% if subscription_product_discount != blank %}badge-spacing{% endif %}">{{ item_product_meta.subscription_upsell_title }}</h5>
+            <p class="cart-item-upsell--recommended__add">
+              <span>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 1.5V10.5" stroke="#271710" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M10.5 6H1.5" stroke="#271710" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                {{ item_product_meta.subscription_upsell_add_text | default: subscription_product.title }} |
+              </span>
+              {% if subscription_product_discount != blank or subscription_product_discount == 0 %}
+                <span>
+                  <span class="visually-hidden">Discounted price</span>
+                {{ 100 | minus: subscription_product_discount | times: 0.01 | times: subscription_product.price | money | remove: 'CAD' | remove: '.00' }}</span>
+                <strong>
+                  <span class="visually-hidden">Regular price</span>
+                  <s>{{ subscription_product.price | money | remove: 'CAD' | remove: '.00' }} </s>
+                </strong>
+              {% else %}
+                <span>
+                  <span class="visually-hidden">Regular price</span>
+                  {{ subscription_product.price | money | remove: 'CAD' | remove: '.00' }}
+                </span>
+              {% endif %}
+            </p>
+          </div>
+
+          <div class="cart-item-upsell--recommended__image img-cover">
+            {% render 'responsive-img' with
+              image: subscription_product.featured_image,
+              max_width: 120,
+              max_height: 120
+            %}
+          </div>
+
+          {% assign subscription_upsell_bg_color = item_product_meta.subscription_upsell_bg_color | slice: -7, 7 | default: '#DBE6F6' %}
+          {% assign subscription_upsell_pill_color = item_product_meta.subscription_upsell_pill | slice: -7, 7 | default: '#271710' %}
+          {% style %}
+            .cart-item-upsell--{{ subscription_variant_id }} {
+              --background-color: {{ subscription_upsell_bg_color }};
+            }
+            .cart-item-upsell--{{ subscription_variant_id }} .cart-item-upsell--recommended__badge {
+              --badge-text-color: {% if subscription_upsell_pill_color == "#271710" %}#ffffff{% else %}#271710{% endif %};
+              --badge-background-color: {{ subscription_upsell_pill_color }};
+            }
+          {% endstyle %}
+
+          {% render 'icon-tail-spin' %}
+        </button>
+      </div>
+    {% endunless %}
+    {%- endif -%}
+
+  {%- else %}
+  {% comment %} Regular item (not subscription) {% endcomment %}
+    {%- liquid
+      assign item_product_meta = item.product.metafields.custom_fields
+      if item.variant.metafields.custom_fields.upsell_bundle_enable == 1
+        assign item_product_meta = item.variant.metafields.custom_fields
+      endif
+    -%}
+    {%- if item_product_meta.upsell_bundle_enable == 1
+      and item_product_meta.upsell_bundle_product != blank
+      and item_product_meta.upsell_bundle_sibling_product != blank
+    -%}
+      {%- liquid
+        assign parent_bundle_product = all_products[item_product_meta.upsell_bundle_product]
+        assign sibling_product = all_products[item_product_meta.upsell_bundle_sibling_product]
+        assign parent_bundle_variant_id = parent_bundle_product.upsell_bundle_variant_id | default: parent_bundle_product.first_available_variant.id
+        assign bundle_upsell_discount = item_product_meta.bundle_upsell_discount
+      -%}
+      {% unless cart_item_product_ids contains sibling_product.id %}
+        <div class="cart-item-upsell--bundle__badge-container cart-item-upsell--{{ parent_bundle_variant_id }}">
+          <p class="cart-item-upsell--bundle__badge">
+            {{ 'cart.general.bundle_and_save' | t | append: " " }}
+            {{ bundle_upsell_discount | remove: 'CAD' | default: 'XX' | remove: '.00' | append: "%" }}
+          </p>
+          <button type="button" class="cart-item-upsell--bundle cart-item-upsell--{{ parent_bundle_variant_id }}"
+            data-cart-item-bundle-add
+            data-bundle-parent-variant-id="{{ parent_bundle_variant_id }}"
+            data-bundle-sibling-variant-id="{{ sibling_product.first_available_variant.id }}"
+          >
+            {% if item_product_meta.bundle_upsell_bg_image != blank %}
+              <div class="cart-item-upsell--bundle__background">
+                {{ item_product_meta.bundle_upsell_bg_image }}
+              </div>
+            {% endif %}
+
+            <div class="cart-item-upsell--bundle__content">
+              <h5 class="cart-item-upsell--bundle__title">{{ item_product_meta.bundle_upsell_title }}</h5>
+              <p class="cart-item-upsell--bundle__add">
+                <span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 1.5V10.5" stroke="#271710" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.5 6H1.5" stroke="#271710" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  {{ item_product_meta.bundle_upsell_add_text | default: sibling_product.title }} |
+                </span>
+                {% unless bundle_upsell_discount != blank %}
+                  {% assign bundle_upsell_discount = 1 %}
+                {% endunless %}
+                <span>
+                  <span class="visually-hidden">Bundle price</span>
+                  {{ parent_bundle_product.price | minus: item.price | money | remove: 'CAD' | remove: '.00' }}
+                </span>
+                <strong>
+                  <span class="visually-hidden">Regular price</span>
+                  <s>{{ sibling_product.price | money | remove: 'CAD' | remove: '.00' }} </s>
+                </strong>
+              </p>
+            </div>
+
+            <div class="cart-item-upsell--bundle__image img-cover">
+              {% render 'responsive-img' with
+                image: sibling_product.featured_image,
+                max_width: 120,
+                max_height: 120
+              %}
+            </div>
+
+            {% assign bundle_upsell_bg_color = item_product_meta.bundle_upsell_bg_color | slice: -7, 7 | default: '#FBCFC2' %}
+            {% assign bundle_upsell_bg_image = item_product_meta.bundle_upsell_bg_image %}
+            {% assign bundle_upsell_callout_color = item_product_meta.bundle_upsell_callout | slice: -7, 7 | default: '#271710' %}
+            {% style %}
+              .cart-item-upsell--{{ parent_bundle_variant_id }} {
+                --background-color: {% unless bundle_upsell_bg_image != blank %}{{ bundle_upsell_bg_color }}{% endunless %};
+              }
+              .cart-item-upsell--{{ parent_bundle_variant_id }} .cart-item-upsell--bundle__badge {
+                --callout-background-color: {{ bundle_upsell_callout_color }};
+                --callout-text-color: {% if bundle_upsell_callout_color == "#271710" %}#ffffff{% else %}#271710{% endif %};
+              }
+              .cart-item-upsell--{{ parent_bundle_variant_id }} .cart-item-upsell--bundle__content {
+                --upsell-content-color: {% if bundle_upsell_bg_image == blank %}#271710{% else %}#ffffff{% endif %};
+              }
+              .cart-item-upsell--{{ parent_bundle_variant_id }} .cart-item-upsell--bundle__add svg {
+                --add-svg-filter: {% if bundle_upsell_bg_image == blank %}none{% else %}brightness(100){% endif %};
+              }
+            {% endstyle %}
+
+            {% render 'icon-tail-spin' %}
+          </button>
+        </div>
+      {% endunless %}
+    {%- endif -%}
+  {%- endif %}
+</div>

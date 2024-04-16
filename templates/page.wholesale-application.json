@@ -1,0 +1,281 @@
+{
+  "sections": {
+    "164675107149428900": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_desktop": "shopify:\/\/shop_images\/Wholesale_Login_at_Bushbalm_Skincare_2.jpg",
+        "image_offset": 56,
+        "preheading": "WHOLESALE",
+        "heading": "Apply Today",
+        "copy": "<p>We will get back to you within 48 hours.<\/p>",
+        "cta_link": "",
+        "cta_text": "Apply Now",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "164684580205b9b5fa": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<script charset=\"utf-8\" type=\"text\/javascript\" src=\"\/\/js.hsforms.net\/forms\/v2.js\"><\/script>\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"21871179\",\n    formId: \"6d415c7c-6a94-4ec0-a25f-20b479fd5975\"\n  });\n<\/script>"
+      }
+    },
+    "165646535717d975d9": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<script charset=\"utf-8\" type=\"text\/javascript\" src=\"\/\/js.hsforms.net\/forms\/v2.js\"><\/script>\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"21871179\",\n    formId: \"6d415c7c-6a94-4ec0-a25f-20b479fd5975\"\n  });\n<\/script>"
+      }
+    },
+    "164684580551d98470": {
+      "type": "content",
+      "blocks": {
+        "073445e8-a1a8-4846-84d7-ec82f9dcb437": {
+          "type": "content_block",
+          "settings": {
+            "title": "Accessible Pricing",
+            "copy": "At Bushbalm we pride ourselves for having effective and affordable products. Join our wholesale program to get our best pricing available."
+          }
+        },
+        "da7fdc85-b324-45e9-9248-96c24fd3c6ea": {
+          "type": "content_block",
+          "settings": {
+            "title": "Fast Selling Items",
+            "copy": "Our natural or natural derived products will fly off your shelves! Beautiful packaging and in-demand items."
+          }
+        },
+        "11609c81-ace9-452d-b73d-35219188cb7a": {
+          "type": "content_block",
+          "settings": {
+            "title": "Back Bar Options",
+            "copy": "Our professional line is growing and we now carry a post-waxing backbar option. Exclusive to our wholesale program."
+          }
+        },
+        "8daffe35-a8fe-4457-b855-c8d006a081b6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Early Access & Promotions",
+            "copy": "Our wholesale community just launched our newest product with us! By joining you get exclusive access to products and ongoing promotions."
+          }
+        }
+      },
+      "block_order": [
+        "073445e8-a1a8-4846-84d7-ec82f9dcb437",
+        "da7fdc85-b324-45e9-9248-96c24fd3c6ea",
+        "11609c81-ace9-452d-b73d-35219188cb7a",
+        "8daffe35-a8fe-4457-b855-c8d006a081b6"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#f8e2c9",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Bikini_line.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bikini_line.jpg",
+        "image_size": "small",
+        "image_offset": -180,
+        "heading": "Wholesale Friends with Benefits",
+        "copy": "Looking for your next best seller? At Bushbalm we're retail ready, naturally derived and prepared to fly off your shelves!",
+        "subheading": "The benefits",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "main": {
+      "type": "wholesale-application",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wholesale-app.png",
+        "heading": "Wholesale Friends with Benefits",
+        "copy": "Looking for your next best seller? At Bushbalm we're retail ready, naturally derived and prepared to fly off your shelves!",
+        "list_heading": "Benefits",
+        "list_items": "Exclusive Pricing\nFast Selling Items \nBack Bar Options\nEarly Access & Promotions",
+        "form_preheading": "Application Form",
+        "form_heading": "Apply to Become a Wholesale Distributor",
+        "form_copy": "Please fill out your contact information below.",
+        "business_type_heading": "Type of Business",
+        "business_type_subheading": "Which best describes your business?",
+        "business_type_options": "Store\nSalon\nOther",
+        "more_info_heading": "Please tell us more about your business.",
+        "about_us_placeholder": "How Did You Hear About Us",
+        "about_us_options": "Friend\nSalon\nAdvertisement\nOther",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "164270581950cfbce4": {
+      "type": "trust-bar",
+      "blocks": {
+        "3596eacd-95fb-43fa-ab77-014e43d2d5da": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/vegan.svg?v=1635795607",
+            "title": "100% Vegan"
+          }
+        },
+        "c13180c9-efba-4488-b21c-1ee462198cdd": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/clean.svg?v=1635795607",
+            "title": "Clean Ingredients"
+          }
+        },
+        "9bbbd920-5e0a-4591-9348-a93ee1b9c174": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/conscious.svg?v=1635795607",
+            "title": "PH Conscious"
+          }
+        },
+        "7e976f76-169e-4e44-9771-1ab039836043": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/cruelty.svg?v=1635795607",
+            "title": "Cruelty Free"
+          }
+        },
+        "d440a76e-0f12-47d3-b5b6-78b199bc2eed": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/recommended.svg?v=1635795607",
+            "title": "Waxing Salon Recommended"
+          }
+        },
+        "1a07cfe9-3f88-4e61-a2f6-eead648a0248": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/gyno.svg?v=1635795607",
+            "title": "Gyno & Derm Approved"
+          }
+        }
+      },
+      "block_order": [
+        "3596eacd-95fb-43fa-ab77-014e43d2d5da",
+        "c13180c9-efba-4488-b21c-1ee462198cdd",
+        "9bbbd920-5e0a-4591-9348-a93ee1b9c174",
+        "7e976f76-169e-4e44-9771-1ab039836043",
+        "d440a76e-0f12-47d3-b5b6-78b199bc2eed",
+        "1a07cfe9-3f88-4e61-a2f6-eead648a0248"
+      ],
+      "disabled": true,
+      "settings": {
+        "speed": 8000,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16472661649fcd4018": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "Wholesale",
+        "headline": "Ready to start selling Bushbalm products?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "View Wholesale Site",
+        "cta_link": "https:\/\/pros.bushbalm.com\/",
+        "cta_2_text": "View Education",
+        "cta_2_link": "https:\/\/pros.bushbalm.com\/blogs\/education",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "164684666309796b6c": {
+      "type": "featured-products",
+      "blocks": {
+        "846ba064-d9f8-4421-9531-b0a43f8f3269": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "title": "Nude Ingrown Hair Oil",
+            "copy": "For ingrown hairs, post-hair removal and razor burn",
+            "rating": 5,
+            "cta_text": "",
+            "cta_link": "",
+            "badge_text": ""
+          }
+        },
+        "dea28966-36a7-42ee-b27f-e48227d9f78f": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda Dark Spot Oil",
+            "copy": "For dark spots and hyperpigmentation on the body and bikini line",
+            "rating": 5,
+            "cta_text": "",
+            "cta_link": "",
+            "badge_text": ""
+          }
+        },
+        "3c11c96b-6b5d-49d5-89c4-9bd9327db58a": {
+          "type": "featured_product",
+          "settings": {
+            "product": "spa-day-nourishing-body-wash",
+            "title": "Spa Day Nourishing Body Wash",
+            "copy": "Formulated to be safe on the bikini line and pH balanced",
+            "rating": 5,
+            "cta_text": "",
+            "cta_link": "",
+            "badge_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "846ba064-d9f8-4421-9531-b0a43f8f3269",
+        "dea28966-36a7-42ee-b27f-e48227d9f78f",
+        "3c11c96b-6b5d-49d5-89c4-9bd9327db58a"
+      ],
+      "settings": {
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "16427763400fe420d4": {
+      "type": "wholesale-quote",
+      "disabled": true,
+      "settings": {
+        "preheading": "Quote",
+        "heading": "Interested in a Quote?",
+        "copy": "Please fill out the form below.",
+        "items_heading": "Items you would like (please list)*",
+        "items_placeholder": "5 Nude Oil, 3 Trimmers",
+        "submit_text": "Submit For Quote",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "164675107149428900",
+    "164684580205b9b5fa",
+    "165646535717d975d9",
+    "164684580551d98470",
+    "main",
+    "164270581950cfbce4",
+    "16472661649fcd4018",
+    "164684666309796b6c",
+    "16427763400fe420d4"
+  ]
+}

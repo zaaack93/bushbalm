@@ -1,0 +1,88 @@
+<div class="collection-filters" data-collection-filters>
+  {% comment %} ----- FILTERS DESKTOP ----- {% endcomment %}
+  <div class="collection__filters-desktop small--hide">
+    {% for block in section.blocks %}
+      {% assign filter_options = block.settings.tags_list | split: ',' %}
+
+      {% if filter_options.size > 0 %}
+        {% unless block.settings.tags_list contains collection.handle %}
+          <div class="collection__filter-dropdown"
+            data-filter-dropdown="desktop--{{ forloop.index0 }}">
+            <button type="button"
+              class="collection__filter-toggle"
+              aria-controls="filter-dropdown-desktop"
+              aria-expanded="false"
+              data-filter-dropdown-toggle>
+              {{- block.settings.toggle_text -}}
+              {%- render 'icon-chevron-down' -%}
+            </button>
+
+            <div id="filter-dropdown-desktop"
+              class="collection__filter-options"
+              aria-hidden="true"
+              data-filter-dropdown-options>
+              <p class="collection__filter-group">{{ block.settings.group_title }}</p>
+
+              {% for filter_option in filter_options %}
+                {% assign tag = filter_option | strip %}
+                {% assign tag_string = tag | replace: '-', ' ' | replace: ' and ', ' & ' %}
+                {% assign title_replace = 'tag ' | append: tag %}
+
+                {% if current_tags contains tag %}
+                  <div class="collection__filter-option active">
+                    {{ tag_string | link_to_remove_tag: tag | replace: title_replace, tag_string }}
+                  </div>
+                {% else %}
+                  <div class="collection__filter-option">
+                    {{ tag_string | link_to_add_tag: tag | replace: title_replace, tag_string }}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% comment %} ----- FILTERS MOBILE ------ {% endcomment %}
+  <div class="collection__filters-mobile medium-up--hide" data-filter-dropdown>
+    <button type="button"
+      class="collection__filter-toggle"
+      aria-controls="filter-dropdown-mobile"
+      aria-expanded="false"
+      data-filter-dropdown-toggle="mobile">
+      {{- 'collections.filtering.filter' | t -}}
+      {%- render 'icon-chevron-down' -%}
+    </button>
+
+    <div id="filter-dropdown-mobile"
+      class="collection__filter-options"
+      aria-hidden="true"
+      data-filter-dropdown-options>
+      {% for block in section.blocks %}
+        {% unless block.settings.tags_list contains collection.handle %}
+          {% assign filter_options = block.settings.tags_list | split: ',' %}
+
+          <p class="collection__filter-group">{{ block.settings.group_title_mobile }}</p>
+
+          {% for filter_option in filter_options %}
+            {% assign tag = filter_option | strip %}
+            {% assign tag_string = tag | replace: '-', ' ' | replace: ' and ', ' & ' %}
+            {% assign title_replace = 'tag ' | append: tag %}
+
+            {% if current_tags contains tag %}
+              <div class="collection__filter-option active">
+                {{ tag_string | link_to_remove_tag: tag | replace: title_replace, tag_string }}
+              </div>
+            {% else %}
+              <div class="collection__filter-option">
+                {{ tag_string | link_to_add_tag: tag | replace: title_replace, tag_string }}
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

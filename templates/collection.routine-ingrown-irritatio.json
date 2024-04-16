@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "1639756146f1e44f06": {
+      "type": "back-link",
+      "disabled": true,
+      "settings": {
+        "link_text": "Back to list of routines",
+        "link_url": "shopify:\/\/pages\/routines",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1660316517c489ea10": {
+      "type": "before-and-after-slider",
+      "settings": {
+        "subtitle": "Ingrown Hairs, Razor Bumps, More",
+        "title": "The Routine",
+        "copy": "<p>This routine is designed to improve the look of ingrown hairs and irritation when used consistently overtime. <\/p><p>Exfoliating 2-3 times a week with the body scrub and applying the soothing oil daily will soften the skin and pubic hair making it more receptive to hair removal. <\/p><p>This will result in less resistance, irritation and fewer ingrown hairs. When ingrown hairs and irritation do pop-up make sure to apply the soothing oil.<\/p>",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_bg_color": "#f8e2c9",
+        "content_position": "right",
+        "before_image": "shopify:\/\/shop_images\/Dark_Spot_Before_and_After.jpg",
+        "after_image": "shopify:\/\/shop_images\/Ingrown_Hair_Before_and_After.jpg",
+        "image_container_width": 550,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "16603161786b501578": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "background_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Smoother, Everywhere.",
+        "heading_tag": "h1",
+        "title_sizing": "title_largest",
+        "subtitle": "Our Routines",
+        "copy": "<p>A simple two step routine for softer, irritation free skin. <\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Untitled_design_33.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Before_After_Bushbalm_9_b061c0b6-fc8a-4ae2-a32b-17e94efa971b.jpg",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca4d3cf3f0eb4af58e5a6ba2d29b4b72.mp4",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca4d3cf3f0eb4af58e5a6ba2d29b4b72.mp4",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 2344,
+        "review_animation": true,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_5dacc3f8-a8b3-4b10-bd10-8617ed9e4a99.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "163821237769b742c1": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align_desktop": "center",
+        "text_align_mobile": "left",
+        "enable_truncate": true,
+        "truncate_threshold": 20,
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Product_Collection_695ccc36-47ec-4f30-a8e3-69db09babe20.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Mobile_Product_Collection.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "main": {
+      "type": "routine-builder",
+      "settings": {
+        "upsells_heading": "Upgrade Your Routine",
+        "upsells_subheading": "& save 10%",
+        "upsells_cta_text": "Add To Routine",
+        "summary_heading": "Routine Summary",
+        "summary_subheading": "your items & savings",
+        "summary_subtotal_text": "Subtotal",
+        "summary_atc_text": "Add Routine To Bag",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1660316404ae60a56a": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Dark_Spot_Oil_32acf772-7e89-4001-aa1f-f16019febbbb.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Dark_Spot_Oil_32acf772-7e89-4001-aa1f-f16019febbbb.jpg",
+        "heading": "About the Routine",
+        "copy": "By sticking to this routine you'll see results in due time. Depending on your skin type you can see results in as little as 3 weeks. \n[break]\nFor best results stick to the recommend steps and ensure you are consisently applying the oils and scrubs.",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1660317337299d4a42": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Proven Results",
+        "headline": "Natural ingredients, <br>beautiful results",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "View Before & AFTERS",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_2_text": "Shop All Products",
+        "cta_2_link": "shopify:\/\/collections\/all",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16603283885ff7f0db": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "rgba(248, 226, 201, 0.5)",
+        "featured_product": "3-step-routine-ingrown-hair-razor-burn-prevention",
+        "overwrite_heading": "<p>Upgrade & Save<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>The 3 Step Routine for Ingrown Hairs, Razor Bumps & Irritation <\/p><p><\/p><p><\/p><p><strong>What's included: <\/strong><\/p><p>✓ Nordic Dry Brush <\/p><p>✓ Nude Ingrown Hair Oil <\/p><p>✓ Nude Exfoliating Scrub<\/p><p><\/p><p><\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1639756146f1e44f06",
+    "1660316517c489ea10",
+    "16603161786b501578",
+    "163821237769b742c1",
+    "main",
+    "1660316404ae60a56a",
+    "1660317337299d4a42",
+    "16603283885ff7f0db"
+  ]
+}

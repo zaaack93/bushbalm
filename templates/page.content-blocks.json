@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content",
+      "settings": {
+      }
+    },
+    "164140706257e7febd": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#fff",
+        "image_mobile": "shopify:\/\/shop_images\/04.png",
+        "image_desktop": "shopify:\/\/shop_images\/04.png",
+        "image_offset": 80,
+        "preheading": "Before + Afters",
+        "heading": "Real People,<br> Real Results",
+        "copy": "<p>Explore our library of before and afters,<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641416815c9c72777": {
+      "type": "content",
+      "blocks": {
+        "f71d570f-0946-43d2-8cf9-2e0d1941e0f8": {
+          "type": "content_block",
+          "settings": {
+            "title": "1. Exfoliate",
+            "copy": "Exfoliate skin with our Nude Ingrown Hair Exfoliating Scrub 2 to 3 times a week.",
+            "icon": "shopify:\/\/shop_images\/Nude_Ingrown_Scrub_by_Bushbalm.png"
+          }
+        },
+        "db458da7-2665-4a22-a85d-2ae745abc276": {
+          "type": "content_block",
+          "settings": {
+            "title": "2. Hydrogel Vajacial Mask",
+            "copy": "Unfold mask, remove backing on one side and place hydrogel on bikini area. Relax for 10-15 minutes.",
+            "icon": "shopify:\/\/shop_images\/Nude_Ingrown_Scrub_by_Bushbalm_2.png"
+          }
+        },
+        "59bcfc06-71ca-4b7e-b889-a1b651465b1d": {
+          "type": "content_block",
+          "settings": {
+            "title": "3. Soothe",
+            "copy": "Remove the mask, and apply our Nude Ingrown Hair Oil onto clean skin and massage gently until it begins to absorb.",
+            "icon": "shopify:\/\/shop_images\/Nude_Ingrown_Hair_Oil_by_Bushbalm.png"
+          }
+        }
+      },
+      "block_order": [
+        "f71d570f-0946-43d2-8cf9-2e0d1941e0f8",
+        "db458da7-2665-4a22-a85d-2ae745abc276",
+        "59bcfc06-71ca-4b7e-b889-a1b651465b1d"
+      ],
+      "settings": {
+        "uid": "product-guide",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Abby_Baffoe_Tik_Tok_Bushbalm_Vajacial_2d4cc118-9798-4d95-8203-c8fc8badd2c8.png",
+        "image_desktop": "shopify:\/\/shop_images\/Abby_Baffoe_Tik_Tok_Bushbalm_Vajacial_2d4cc118-9798-4d95-8203-c8fc8badd2c8.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "At Home Vajacial",
+        "copy": "",
+        "subheading": "Abby's Routine",
+        "cta_link": "shopify:\/\/products\/vajacial-hydrogel-mask-set",
+        "cta_text": "Get Yours Today",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "71ba6d78-36e2-412a-b9b4-2aa5532b2056": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#b7ddd6",
+        "padding": true,
+        "intro": "",
+        "headline": "\" To make sure I don't have ingrown hairs or bumps, I use Bushbalm's Vajacial. Since I've started using Bushbalm, I have not experienced one ingrown hair! \"",
+        "subline": "@abbybaffoe",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641416862ca4ca90a": {
+      "type": "content",
+      "blocks": {
+        "429eabfc-770b-4c01-b75d-f84a37b34f79": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 1 | Prep",
+            "copy": "Prior to showering begin your routine by dry brushing. Follow your dry brush by hopping in the showering and cleaning the skin with our Nourishing Body Wash.",
+            "icon": "shopify:\/\/shop_images\/icon-brush.png"
+          }
+        },
+        "8e3e8ad1-ae50-4f2d-928a-4a769c600c95": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 2 | Exfoliate",
+            "copy": "While in the shower grab your favorite Bushbalm scrub and exfoliate away dead skin cells and rejuvenate skin.",
+            "icon": "shopify:\/\/shop_images\/icon-scrub.png"
+          }
+        },
+        "86ab3f9f-1270-41f2-8165-877088f4ce20": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 3 | Soothe",
+            "copy": "Use your daily soothing oil to soften the skin and hair. Our top selling oils help reduce the appearance of ingrown hairs, dark spots, razor burn and more.",
+            "icon": "shopify:\/\/shop_images\/icon-oil.png"
+          }
+        },
+        "be7cda66-4b81-462e-a614-9e90b76b5d42": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 4 | Moisturize",
+            "copy": "As a final step you should lock in all the moisture you can. Grab our firming body cream and apply it where you need an extra lift.",
+            "icon": "shopify:\/\/shop_images\/icon-cream.png"
+          }
+        }
+      },
+      "block_order": [
+        "429eabfc-770b-4c01-b75d-f84a37b34f79",
+        "8e3e8ad1-ae50-4f2d-928a-4a769c600c95",
+        "86ab3f9f-1270-41f2-8165-877088f4ce20",
+        "be7cda66-4b81-462e-a614-9e90b76b5d42"
+      ],
+      "settings": {
+        "uid": "routine-guide",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/rg-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/rg-d.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Routine Guide",
+        "copy": "The skincare everywhere routine is designed to leave you with smooth skin, head to toe and front to back.",
+        "subheading": "Recommended Routine Steps",
+        "cta_link": "shopify:\/\/pages\/routines",
+        "cta_text": "Shop Our Routines",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "caf3f921-ee98-45a8-94cf-21018a504701": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#d8ebe6",
+        "image_mobile": "shopify:\/\/shop_images\/Dr_Arumala_80c1f363-839a-4033-a8b1-0f0f9c5f3964.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Dr_Arumala_80c1f363-839a-4033-a8b1-0f0f9c5f3964.jpg",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "Gyno approved, esthetician loved ",
+        "copy": "<p>Re-imagining bikini line skincare —  naturally<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "04d8a733-ed6c-4458-8885-d49989463655": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "",
+        "copy": "",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164140706257e7febd",
+    "1641416815c9c72777",
+    "71ba6d78-36e2-412a-b9b4-2aa5532b2056",
+    "1641416862ca4ca90a",
+    "caf3f921-ee98-45a8-94cf-21018a504701",
+    "04d8a733-ed6c-4458-8885-d49989463655"
+  ]
+}

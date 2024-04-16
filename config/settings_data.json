@@ -1,0 +1,467 @@
+{
+  "current": {
+    "hc_menu": "hc-mobile-nav-03-2-22",
+    "hc_menu_disable_on_collections": false,
+    "hc_menu_disable_on_products": false,
+    "favicon": "shopify:\/\/shop_images\/Favicon-white-background-bushbalm.png",
+    "enable_product_insurance": true,
+    "insurance_product": "shipping-insurance",
+    "schema_logo": "shopify:\/\/shop_images\/Artboard_1logo.png",
+    "schema_same_as": "https:\/\/www.instagram.com\/bushbalm\/?hl=en, https:\/\/www.tiktok.com\/@bushbalm?lang=en, \nhttps:\/\/www.facebook.com\/bushbalm\/, \nhttps:\/\/twitter.com\/bushbalm",
+    "additional_scripts": "<!-- START Google GA4 Script-->\n<script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-FM61EP64PP\"><\/script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-FM61EP64PP');\n<\/script>\n    <script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.6.0\/jquery.min.js\"><\/script>\n\n<!-- END Google GA4 Script-->\n\n<!-- START Google Site Verification -->\n  <meta name=\"google-site-verification\" content=\"UW2YMF40_OudlaA2PcN8VSH5LtXYfkY6S8Oytv_GwHU\">\n\n<!-- END Google Site Verification -->\n\n<!-- START Google Optimize -->\n\n  <script src=\"https:\/\/www.googleoptimize.com\/optimize.js?id=OPT-TXBVJQ4\"><\/script>\n\n<!-- END Google Optimize -->\n\n\n<!-- START Global site tag (gtag.js) - Google Ads: 823070530 -->\n\n    <script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=AW-823070530\"><\/script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n\n      gtag('config', 'AW-823070530');\n    <\/script>\n\n    <script>\n      gtag('event', 'page_view', {\n        'send_to': 'AW-823070530',\n        'value': 'replace with value',\n        'items': [{\n          'id': 'replace with value',\n          'google_business_vertical': 'retail'\n        }]\n      });\n    <\/script>\n\n<!-- END Global site tag (gtag.js) - Google Ads: 823070530 -->\n\n\n    <!-- START Hotjar Tracking Code -->\n<script>\n    (function(h,o,t,j,a,r){\n        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\n        h._hjSettings={hjid:2550768,hjsv:6};\n        a=o.getElementsByTagName('head')[0];\n        r=o.createElement('script');r.async=1;\n        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\n        a.appendChild(r);\n    })(window,document,'https:\/\/static.hotjar.com\/c\/hotjar-','.js?sv=');\n<\/script>\n\n    <!-- END Hotjar Tracking Code -->\n\n    <!-- START Klaviyo Site Wide -->\n\n  <script src=\"https:\/\/a.klaviyo.com\/media\/js\/onsite\/onsite.js\"><\/script>\n\n    <!-- END Klaviyo Site Wide -->\n\n    <!-- START Klaviyo Back In Stock -->\n\n<script>\n    var klaviyo = klaviyo || [];\n    klaviyo.init({\n      account: \"Q7rXBN\",\n      platform: \"shopify\"\n    });\n    klaviyo.enable(\"backinstock\",{ \n    trigger: {\n      product_page_text: \"Notify Me When Available\",\n      product_page_class: \"btn\",\n      product_page_text_align: \"center\",\n      product_page_margin: \"0px\",\n      replace_anchor: false\n    },\n    modal: {\n     headline: \"Join the Waitlist\",\n     body_content: \"Register to receive a notification when this item becomes available!\",\n     email_field_label: \"Email\",\n     button_label: \"Get Notified →\",\n     subscription_success_label: \"You're in! We'll let you know when it's available.\",\n     footer_content: '',\n     additional_styles: \"@import url('https:\/\/fonts.googleapis.com\/css?family=Helvetica+Neue');\",\n     drop_background_color: \"#000\",\n     background_color: \"#fff\",\n     text_color: \"#271710\",\n     button_text_color: \"#271710\",\n     button_background_color: \"#F8E2C9\",\n     close_button_color: \"#ccc\",\n     error_background_color: \"#fcd6d7\",\n     error_text_color: \"#C72E2F\",\n     success_background_color: \"#d3efcd\",\n     success_text_color: \"#1B9500\"\n    }\n  });\n<\/script>\n\n <!-- END Klaviyo Back In Stock -->\n\n    <!-- START Snap Pixel Code -->\n\n<script type=\"text\/javascript\">\n(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()\n{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};\na.queue=[];var s='script';r=t.createElement(s);r.async=!0;\nr.src=n;var u=t.getElementsByTagName(s)[0];\nu.parentNode.insertBefore(r,u);})(window,document,\n'https:\/\/sc-static.net\/scevent.min.js');\n\nsnaptr('init', '186c52e3-2840-41bf-8a8e-3f70275b73c8', {\n'user_email': '__INSERT_USER_EMAIL__'\n});\n\nsnaptr('track', 'PAGE_VIEW');\n\n<\/script>\n   \n    <!-- END Snap Pixel Code -->\n\n   <!-- START Klaviyo Forms -->\n\n   <script>\nwindow.addEventListener(\"klaviyoForms\", function(e) { \n  if (e.detail.type == 'open' || e.detail.type == 'embedOpen') {\n    ga('send', 'event', 'Klaviyo form', 'form_open', e.detail.formId);\n  }\n  if (e.detail.type == 'submit') {\n    ga('send', 'event', 'Klaviyo form', 'form_submit', e.detail.formId);\n  }\n  if (e.detail.type == 'stepSubmit') {\n    ga('send', 'event', 'Klaviyo form', 'form_step_submit', e.detail.metaData.$step_name);\n  }\n  if (e.detail.type == 'redirectedToUrl') {\n    ga('send', 'event', 'Klaviyo form', 'form_url_redirect', e.detail.formId);\n  }\n  if (e.detail.type == 'close') {\n    ga('send', 'event', 'Klaviyo form', 'form_close', e.detail.formId);\n  }\n});\n<\/script>\n\n<!-- END Klaviyo Forms -->\n\n<!-- START Stamped Reviews-->\n\n<script async type=\"text\/javascript\" id=\"stamped-script-widget\" data-api-key=\"pubkey-8Njsqy94dg8WJo5b0Hbl7021BrHcxN\" src=\"https:\/\/cdn1.stamped.io\/files\/widget.min.js\"><\/script>\n\n<!-- END Stamped Reviews-->\n\n<!-- Begin: Northbeam Pixel -->\n<script async type=\"text\/javascript\" src=\"\/\/j.northbeam.io\/ota-sp\/1820603f-2b32-4e82-9600-b461541171f6.js\"><\/script>\n<!-- End: Northbeam Pixel -->\n\n\n<style>.async-hide { opacity: 0 !important} \n<script>(function(a,s,y,n,c,h,i,d,e){s.className+=’ ‘+y;h.start=1*new Date;\nh.end=i=function(){s.className=s.className.replace(RegExp(‘ ?’+y),”)};\n(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;\n})(window,document.documentElement,’async-hide’,’dataLayer’,4000,\n{‘GTM_CONTAINER_ID‘:true});\n\n<!-- End: Google Optimize Anti Flicker --><\/style>",
+    "shipscout_test_response": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_full.png",
+    "checkout_accent_color": "#cca181",
+    "checkout_button_color": "#cca181",
+    "ajaxcart": true,
+    "sections": {
+      "mobile-nav": {
+        "type": "mobile-nav",
+        "settings": {
+          "title": "Skincare, Everywhere",
+          "menu": "2023-proposal-mobile-navigation",
+          "sublinks": "secondary-menu-mobile-pointer"
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu_left": "2023-nav-test-desktop-navigation-left",
+          "menu_right": "a-b-simplified-nav-test-desktop-right-9-26-22",
+          "enable_shop_cta": true,
+          "shop_text": "Our Roller Rescue Serum is back in stock - shop before it sells out!",
+          "shop_image": "shopify:\/\/shop_images\/Roller_Rescue_Application_onto_skin.jpg",
+          "shop_cta_text": "Shop Roller Rescue",
+          "shop_cta_link": "shopify:\/\/collections\/roller-rescue",
+          "show_link_bar": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/bushbalm-logo-full-rt.png",
+          "copyright": "Bushbalm Inc. Site by Pointer<br> 18 Louisa St. Suite 281, Ottawa, ON, K1R 6Y6 <br> Contact: team@mybushbalm.com",
+          "menu_collections": "footer-menu-1-pointer",
+          "menu_links": "footer-menu-2-pointer",
+          "menu_legal": "footer-menu-3-pointer",
+          "newsletter_heading": "First Time?",
+          "newsletter_subheading": "Subscribe and save 20%",
+          "klaviyo_list_id": "LM5dFn",
+          "facebook_link": "https:\/\/www.facebook.com\/bushbalm\/",
+          "twitter_link": "https:\/\/twitter.com\/bushbalm",
+          "instagram_link": "https:\/\/www.instagram.com\/bushbalm",
+          "tiktok_link": "https:\/\/www.tiktok.com\/@bushbalm"
+        }
+      },
+      "promo-bar": {
+        "type": "promo-bar",
+        "blocks": {
+          "184f14ac-7e99-492a-9e13-f83f3f77b59c": {
+            "type": "promo_message",
+            "settings": {
+              "text_desktop": "Free Shipping On Orders $50+",
+              "link_desktop": "shopify:\/\/collections\/all",
+              "text_mobile": "Free Shipping On Orders $50+",
+              "link_mobile": "shopify:\/\/collections\/all"
+            }
+          },
+          "dfed9b4e-8fc5-478e-a611-c28b51cfddfe": {
+            "type": "promo_message",
+            "settings": {
+              "text_desktop": "Limited time only — 2 free gifts in cart!",
+              "link_desktop": "https:\/\/bushbalm.com\/pages\/free-gift?utm_source=website&utm_medium=promo+banner&utm_campaign=promo-bar-freegift",
+              "text_mobile": "Limited time only — 2 free gifts in cart!",
+              "link_mobile": "https:\/\/bushbalm.com\/pages\/free-gift?utm_source=website&utm_medium=promo+banner&utm_campaign=promo-bar-freegift"
+            }
+          }
+        },
+        "block_order": [
+          "184f14ac-7e99-492a-9e13-f83f3f77b59c",
+          "dfed9b4e-8fc5-478e-a611-c28b51cfddfe"
+        ],
+        "settings": {
+          "bg_color": "#fbf0e4",
+          "color": "#271710"
+        }
+      },
+      "ajaxcart": {
+        "type": "ajaxcart",
+        "blocks": {
+          "a57c15b2-342b-46cf-a691-d5a1bfa097aa": {
+            "type": "free_shipping_tier",
+            "settings": {
+              "spend_amount": 50,
+              "progress_title": "Free Shipping",
+              "add_to_recieve_text": "<strong>Add [amount]<\/strong> to receive free shipping."
+            }
+          },
+          "848410a1-ce6d-4456-84f4-c79ef73f706b": {
+            "type": "reward_tier",
+            "settings": {
+              "spend_amount": 75,
+              "product": "travel-discovery-sweet-escape-ingrown-hair-oil",
+              "variant_id": "",
+              "progress_title": "Sweet Escape Travel Size",
+              "add_to_recieve_text": "<strong>Add [amount]<\/strong> to unlock a free Sweet Escape Travel Size",
+              "cart_item_title": "Free Gift",
+              "cart_item_desc": "Sweet Escape Travel Size"
+            }
+          },
+          "7ec70552-8c0e-43f1-8a49-3d085e940ccd": {
+            "type": "reward_tier",
+            "settings": {
+              "spend_amount": 125,
+              "product": "intimate-refreshing-wipes",
+              "variant_id": "",
+              "progress_title": "Intimate Refreshing Wipes",
+              "add_to_recieve_text": "<strong>Add [amount]<\/strong> to unlock a free Intimate Refreshing Wipes",
+              "cart_item_title": "Free Gift",
+              "cart_item_desc": "Intimate Refreshing Wipes"
+            }
+          },
+          "73d65658-afa1-4cbd-bd81-c6702ce77c16": {
+            "type": "reward_tier",
+            "disabled": true,
+            "settings": {
+              "product": "",
+              "variant_id": "",
+              "progress_title": "",
+              "add_to_recieve_text": "",
+              "cart_item_title": "",
+              "cart_item_desc": ""
+            }
+          }
+        },
+        "block_order": [
+          "a57c15b2-342b-46cf-a691-d5a1bfa097aa",
+          "848410a1-ce6d-4456-84f4-c79ef73f706b",
+          "7ec70552-8c0e-43f1-8a49-3d085e940ccd",
+          "73d65658-afa1-4cbd-bd81-c6702ce77c16"
+        ],
+        "settings": {
+          "enable_rewards": true,
+          "show_additional_checkout_button": false,
+          "carousel_title": "Popular Add-Ons",
+          "carousel_product_list": [
+            "copy-of-bermuda-travel-discovery",
+            "hydrogel-vajacial-triangle-mask",
+            "sweet-escape-travel-size",
+            "nude-travel-size"
+          ],
+          "carousel_product_name_1": "Bermuda Travel size",
+          "carousel_product_desc_1": "",
+          "carousel_product_name_2": "Vajacial Triangle Mask",
+          "carousel_product_desc_2": "",
+          "carousel_product_name_3": "Sweet Escape Travel Size",
+          "carousel_product_desc_3": "",
+          "carousel_product_name_4": "Nude Travel Size",
+          "carousel_product_desc_4": "",
+          "carousel_product_name_5": "",
+          "carousel_product_desc_5": "",
+          "carousel_product_name_6": "",
+          "carousel_product_desc_6": "",
+          "empty_title": "Your bag is empty.\nNot sure where to start?",
+          "empty_cta_text": "Start Here",
+          "empty_cta_url": "shopify:\/\/collections\/bundles"
+        }
+      },
+      "locations-header": {
+        "type": "locations-header",
+        "settings": {
+          "preheading": "Stockists",
+          "heading": "Where to Buy Bushbalm"
+        }
+      },
+      "locations-contact": {
+        "type": "locations-contact",
+        "settings": {
+          "form_preheading": "Stockist Form",
+          "form_heading": "Carrying Bushbalm But Not on the List?",
+          "form_copy": "Please fill out your contact information below."
+        }
+      },
+      "promo-banner-global": {
+        "type": "promo-banner-global",
+        "blocks": {
+          "473b9c19-54d6-4be0-9eed-22a9aa6ae638": {
+            "type": "promo_heading",
+            "disabled": true,
+            "settings": {
+              "heading": "<p>Bikini Ready Sale<\/p>"
+            }
+          },
+          "e6e81bc7-5935-428f-bc7f-e84a9bd04a84": {
+            "type": "promo_subheading",
+            "disabled": true,
+            "settings": {
+              "subheading": "<p>25% Off Select Products + Free Gifts<\/p>"
+            }
+          },
+          "c88328ec-d249-4755-aa17-116433ecdb64": {
+            "type": "promo_countdown_timer",
+            "disabled": true,
+            "settings": {
+              "countdown_timer_type": "set_date",
+              "countdown_timer_time_repeating": "",
+              "countdown_timer_time_set": "02-15-2023 08:00"
+            }
+          },
+          "bc89f7e0-8ab8-4b31-945e-76a7c77df8a5": {
+            "type": "promo_cta",
+            "disabled": true,
+            "settings": {
+              "cta_text": "Shop Now",
+              "cta_link": "shopify:\/\/collections\/v-day-kits"
+            }
+          },
+          "8fec5a9a-114f-4f1e-a8c3-e258a6fcd52c": {
+            "type": "promo_product_list",
+            "disabled": true,
+            "settings": {
+              "product_list": [
+                "mystery-gift"
+              ]
+            }
+          },
+          "241f85c3-8486-40c8-95b1-28874e8c3bd3": {
+            "type": "promo_product_list",
+            "settings": {
+              "product_list": [
+                "slant-tweezers",
+                "bikini-dry-brush"
+              ]
+            }
+          },
+          "8dd37d02-a972-4172-985b-235eef3d2643": {
+            "type": "promo_subheading",
+            "settings": {
+              "subheading": "<p>SPEND $75 GET FREE Tweezers<\/p><p>SPEND $125 GET A FREE Tweezers + Dry Brush<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "473b9c19-54d6-4be0-9eed-22a9aa6ae638",
+          "e6e81bc7-5935-428f-bc7f-e84a9bd04a84",
+          "c88328ec-d249-4755-aa17-116433ecdb64",
+          "bc89f7e0-8ab8-4b31-945e-76a7c77df8a5",
+          "8fec5a9a-114f-4f1e-a8c3-e258a6fcd52c",
+          "241f85c3-8486-40c8-95b1-28874e8c3bd3",
+          "8dd37d02-a972-4172-985b-235eef3d2643"
+        ],
+        "settings": {
+          "hide_all": true,
+          "disable_collection": false,
+          "disable_page": true,
+          "disable_product": false,
+          "disable_blog": true,
+          "disable_article": false,
+          "enable_sticky_mobile": false,
+          "enable_sticky_desktop": false,
+          "hide_banner_urls": "\/pages\/wholesale\n\/pages\/wholesale-application\n\/pages\/official-landing-v1-ls-bl\n\/pages\/lightening-underarms-naturally\n\/pages\/sweatcoin\n\/\n\/collections\/long-weekend-promo\n\/products\/roller-rescue-soothing-serum",
+          "bg_color": "#fde2da",
+          "enable_gradient": false,
+          "bg_gradient": "linear-gradient(270deg, rgba(255, 255, 255, 1), rgba(248, 226, 201, 1) 100%)",
+          "color": "#271710"
+        }
+      },
+      "sr-sl-quick-nav-1-1": {
+        "type": "sr-sl-quick-nav-1-1",
+        "blocks": {
+          "template--21762562654507__e5aa3ec2-844c-4a53-a3c6-cda334f4ece5-collection_block-2": {
+            "type": "collection_block",
+            "settings": {
+              "show_on": "all_devices",
+              "collection": "bundles",
+              "title": "Special Offers",
+              "image": "shopify:\/\/shop_images\/NEW_Ultimate_Ingrown_Hair_Routine.jpg",
+              "overlay_opacity": 10
+            }
+          },
+          "link_block_MhNBNq": {
+            "type": "link_block",
+            "disabled": true,
+            "settings": {
+              "show_on": "all_devices",
+              "url": "shopify:\/\/collections\/just-peachy",
+              "title": "Just Peachy Oil",
+              "image": "shopify:\/\/shop_images\/JUST_PEACHY_MAIN_IMAGE_2.jpg",
+              "overlay_opacity": 10
+            }
+          },
+          "f83b3286-4f4a-4a01-a756-7acbbf1b7799": {
+            "type": "collection_block",
+            "settings": {
+              "show_on": "all_devices",
+              "collection": "roller-rescue",
+              "title": "Roller Rescue",
+              "image": "shopify:\/\/shop_images\/Category_RollerRescue.jpg",
+              "overlay_opacity": 10
+            }
+          },
+          "template--21762562654507__e5aa3ec2-844c-4a53-a3c6-cda334f4ece5-collection_block-4": {
+            "type": "collection_block",
+            "settings": {
+              "show_on": "all_devices",
+              "collection": "dark-spots",
+              "title": "",
+              "image": "shopify:\/\/shop_images\/DTC_-_Main_Image_1_41a1e3a4-a293-411b-b4d5-fa26b7c42cdd.jpg",
+              "overlay_opacity": 10
+            }
+          },
+          "template--21762562654507__e5aa3ec2-844c-4a53-a3c6-cda334f4ece5-collection_block-6": {
+            "type": "collection_block",
+            "settings": {
+              "show_on": "all_devices",
+              "collection": "ingrown-hairs",
+              "title": "",
+              "image": "shopify:\/\/shop_images\/ingrown-hair.webp",
+              "overlay_opacity": 10
+            }
+          },
+          "117ce547-e3ad-4101-9c36-f64db9433777": {
+            "type": "product_block",
+            "settings": {
+              "show_on": "all_devices",
+              "product": "vajacial-hydrogel-mask",
+              "title": "Vajacial",
+              "image": "shopify:\/\/shop_images\/vajacial.webp",
+              "overlay_opacity": 10
+            }
+          },
+          "bcb9ec6b-9ea7-4aa1-bb3f-37e31aefde99": {
+            "type": "collection_block",
+            "settings": {
+              "show_on": "all_devices",
+              "collection": "razor-burn",
+              "title": "",
+              "image": "shopify:\/\/shop_images\/razor-burn.webp",
+              "overlay_opacity": 10
+            }
+          },
+          "96269351-ca1c-41d6-94cf-3169db391382": {
+            "type": "product_block",
+            "settings": {
+              "show_on": "all_devices",
+              "product": "the-francesca-bikini-trimmer-for-pubic-hair",
+              "title": "The Trimmer",
+              "overlay_opacity": 10
+            }
+          },
+          "afab23e4-2189-4061-bad5-39435c1eca4c": {
+            "type": "link_block",
+            "settings": {
+              "show_on": "all_devices",
+              "url": "shopify:\/\/pages\/quiz",
+              "title": "Take Quiz",
+              "image": "shopify:\/\/shop_images\/reviews.webp",
+              "overlay_opacity": 10
+            }
+          },
+          "98d23938-96f9-4554-8599-9303347e9554": {
+            "type": "collection_block",
+            "settings": {
+              "show_on": "all_devices",
+              "collection": "keratosis-pilaris",
+              "title": "",
+              "image": "shopify:\/\/shop_images\/keratosis-pilaris.webp",
+              "overlay_opacity": 10
+            }
+          },
+          "f7573c41-2ce2-4e92-a06d-beb18d9d1f68": {
+            "type": "collection_block",
+            "settings": {
+              "show_on": "all_devices",
+              "collection": "stretch-marks",
+              "title": "",
+              "image": "shopify:\/\/shop_images\/stretch-marks.webp",
+              "overlay_opacity": 10
+            }
+          },
+          "150b8a34-2d0f-4063-b2c6-8356bbe3bc8a": {
+            "type": "link_block",
+            "settings": {
+              "show_on": "all_devices",
+              "url": "shopify:\/\/blogs\/before-and-after",
+              "title": "Before + After",
+              "image": "shopify:\/\/shop_images\/before-and-after.webp",
+              "overlay_opacity": 10
+            }
+          }
+        },
+        "block_order": [
+          "template--21762562654507__e5aa3ec2-844c-4a53-a3c6-cda334f4ece5-collection_block-2",
+          "link_block_MhNBNq",
+          "f83b3286-4f4a-4a01-a756-7acbbf1b7799",
+          "template--21762562654507__e5aa3ec2-844c-4a53-a3c6-cda334f4ece5-collection_block-4",
+          "template--21762562654507__e5aa3ec2-844c-4a53-a3c6-cda334f4ece5-collection_block-6",
+          "117ce547-e3ad-4101-9c36-f64db9433777",
+          "bcb9ec6b-9ea7-4aa1-bb3f-37e31aefde99",
+          "96269351-ca1c-41d6-94cf-3169db391382",
+          "afab23e4-2189-4061-bad5-39435c1eca4c",
+          "98d23938-96f9-4554-8599-9303347e9554",
+          "f7573c41-2ce2-4e92-a06d-beb18d9d1f68",
+          "150b8a34-2d0f-4063-b2c6-8356bbe3bc8a"
+        ],
+        "settings": {
+          "disable_collection": false,
+          "disable_page": true,
+          "disable_product": true,
+          "disable_blog": true,
+          "disable_article": false,
+          "hide_urls": "\/pages\/wholesale\n\/pages\/wholesale-application\n\/pages\/official-landing-v1-ls-bl\n\/pages\/lightening-underarms-naturally\n\/pages\/sweatcoin\n\/collections\/long-weekend-promo\npages\/razor-burn\npages\/spot-treatment\npages\/vajacial-3\npages\/top-bikini-line-pubic-hair-trimmer\npages\/dg-razor-bumps\npages\/razor-burn-18\npages\/coming-soon-reset",
+          "devices": "mobile",
+          "card_format": "image",
+          "show_card_border": false,
+          "show_card_bg": false,
+          "image_rounding": "round",
+          "card_ratio": "square",
+          "use_padding": false,
+          "hover_effect": "border",
+          "selected_state": "border",
+          "title_font_style": "body",
+          "text_align": "center",
+          "section_border": "brand_style",
+          "mobile_card_format": "match_desktop",
+          "title_color": "#271710",
+          "border_color": "#e7e7e7",
+          "background_color": "#e7e7e7",
+          "hover_color": "rgba(0,0,0,0)",
+          "selected_color": "rgba(0,0,0,0)",
+          "section_background_color": "rgba(0,0,0,0)",
+          "section_border_color": "rgba(0,0,0,0)"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9901917232353999808": {
+        "type": "shopify:\/\/apps\/buddha-mega-menu-navigation\/blocks\/megamenu\/dbb4ce56-bf86-4830-9b3d-16efbef51c6f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "4291333794791649201": {
+        "type": "shopify:\/\/apps\/loyalty-rewards-and-referrals\/blocks\/embed-sdk\/6f172e67-4106-4ac0-89c5-b32a069b3101",
+        "disabled": false,
+        "settings": {
+          "disableBundledCSS": false,
+          "disableBundledFonts": false,
+          "useClassIsolator": false
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "ajaxcart": true
+    }
+  }
+}

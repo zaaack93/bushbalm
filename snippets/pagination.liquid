@@ -1,0 +1,34 @@
+{%- capture next_link -%}
+  <span class="ui-subtitle">{{ 'collections.pagination.next' | t }}</span>
+  {% render 'icon-pagination-next' %}
+{%- endcapture -%}
+{%- capture prev_link -%}
+  {% render 'icon-pagination-prev' %}
+  <span class="ui-subtitle">{{ 'collections.pagination.prev' | t }}</span>
+{%- endcapture -%}
+
+<nav class="pagination pagination--desktop small--hide" aria-label="Pagination">
+  {% unless paginate.previous %}
+    <span class="prev disabled"><a href="#">{{ prev_link }}</a></span>
+  {% endunless %}
+  {{ paginate | default_pagination | replace: '&laquo; Previous', prev_link | replace: 'Next &raquo;', next_link }}
+</nav>
+
+<nav class="pagination pagination--mobile medium-up--hide" role="pagination" aria-label="Pagination">
+  <span class="prev {% unless paginate.previous %}disabled{% endunless %}">
+    <a href="{% if paginate.previous %}{{ paginate.previous.url }}{% else %}#{% endif %}">
+      {{ prev_link }}
+    </a>
+  </span>
+
+  <span class="page-of-page">
+    <span aria-hidden="true">{{ paginate.current_page | append: ' / ' | append: paginate.pages }}</span>
+    <span class="visually-hidden">Page {{ paginate.current_page }} of {{ paginate.pages }}</span>
+  </span>
+
+  <span class="next {% unless paginate.next %}disabled{% endunless %}">
+    <a href="{% if paginate.next %}{{ paginate.next.url }}{% else %}#{% endif %}">
+      {{ next_link }}
+    </a>
+  </span>
+</nav>

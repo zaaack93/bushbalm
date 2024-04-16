@@ -1,0 +1,132 @@
+{
+  "sections": {
+    "166006335115230eda": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/happy_1800_x_2000_px_1.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/happy_1.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "166007383373bc810c": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/Landing_Page_-_Hero_-_Mobile.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/Landing_Page_-_Hero_-_Desktop.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "166007388551bdec14": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f7efa1",
+        "image_mobile": "shopify:\/\/shop_images\/Untitled_design_36.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Untitled_design_36.jpg",
+        "image_offset": 48,
+        "preheading": "All Natural",
+        "heading": "Brightening Skincare",
+        "copy": "<p>For your underarms, bikini line and more. <\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16600739501a37e1d5": {
+      "type": "featured-products",
+      "blocks": {
+        "ad2bbc51-9ab6-418f-a517-6d534df38e4c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Dark Spot Oil",
+            "copy": "Formulated to gently soften dark spots and brighten skin.",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Bermuda"
+          }
+        },
+        "754634be-9825-45f1-8032-d45ac9beb244": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-corrector",
+            "title": "Dark Spot Oil",
+            "copy": "Formulated with naturally derived ingredients to brighten, with a soft scent.",
+            "rating": 5,
+            "cta_text": "shop now",
+            "cta_link": "shopify:\/\/products\/dark-spot-corrector",
+            "badge_text": "Pina Colada"
+          }
+        },
+        "6ddff71e-5e15-4d06-a844-5731014984d7": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant",
+            "title": "Dark Spot Exfoliating Scrub",
+            "copy": "Natural sugar and botanical oils to exfoliate and brighten skin.",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/bermuda-dark-spot-exfoliant",
+            "badge_text": "Bermuda"
+          }
+        }
+      },
+      "block_order": [
+        "ad2bbc51-9ab6-418f-a517-6d534df38e4c",
+        "754634be-9825-45f1-8032-d45ac9beb244",
+        "6ddff71e-5e15-4d06-a844-5731014984d7"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "166007897263a6fc13": {
+      "type": "before-and-after-slider",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "copy": "",
+        "cta_text": "Learn More",
+        "cta_link": "",
+        "cta_bg_color": "#f8e2c9",
+        "content_position": "right",
+        "image_container_width": 550,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "166006335115230eda",
+    "166007383373bc810c",
+    "main",
+    "166007388551bdec14",
+    "16600739501a37e1d5",
+    "166007897263a6fc13"
+  ]
+}

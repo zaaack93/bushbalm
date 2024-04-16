@@ -1,0 +1,179 @@
+{% if product.metafields.custom_fields["product_ingredients_items"] != blank %}
+  <div class="product__ingredients">
+    <div class="product__ingredients-copy">
+      <h2>{{ product.metafields.custom_fields["product_ingredients_title"] }}</h2>
+      <p>{{ product.metafields.custom_fields["product_ingredients_copy"] }}</p>
+    </div>
+
+    <div class="product__ingredients-accordion">
+      {% for item in product.metafields.custom_fields["product_ingredients_items"] %}
+        <div class="product__accordion{% if forloop.first %} active{% endif %}"
+          data-accordion>
+          <div class="product__accordion-trigger">
+            <button id="product-ingredient-{{ forloop.index }}"
+              title="{{ item["title"] }}"
+              aria-label="{{ item["title"] }}"
+              aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}"
+              aria-controls="ingredient-content-{{ forloop.index }}"
+              data-accordion-trigger>
+              <div class="product__ingredients-trigger">
+                <img class="lazyload"
+                  alt="{{ item["title"] }}"
+                  src="{{ item["icon"] }}"
+                  data-src="{{ item["icon"] }}">
+                <span>{{ item["title"] }}</span>
+              </div>
+              <div aria-hidden>
+                {%- render 'icon-plus' -%}
+                {%- render 'icon-minus' -%}
+              </div>
+            </button>
+          </div>
+          <div id="ingredient-content-{{ forloop.index }}"
+            class="product__accordion-content product__ingredients-content"
+            aria-labelledby="product-ingredient-{{ forloop.index }}"
+            data-accordion-content>
+            <div class="product__accordion-item">
+              <p class="product__accordion-copy">{{ item["copy"] }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+{% comment %}       
+  <!--CFM Code Snippet starts here-->
+      <style>
+        /*Default Global Colors*/
+        :root {
+          --cfm-font-family: "Mont Regular"; /*Add your font family*/
+          --cfm-main-bg-color: #f8e2c9; /* V2 Add Add your Main side drawer background color code */
+          --cfm-main-text-color: #271010; /* Add your Main side drawer text color code*/
+          --cfm-component-bg-color: #f8e2c9; /* Add your Main side drawer  Component heading Background color code*/
+          --cfm-component-text-color: #271010; /* Add your Main side drawer  Component heading text color code*/
+          --cfm-ingredient-text-color: #271010; /* V2 Add your Ingredient Information Modal Text color code */
+          --cfm-main-button-text-color:  #271010; /* V2 Customize your View Ingredient List Link Text Color */
+        }
+
+
+/* Include this code above to turn the link into a button */
+      </style>
+      <script>
+        //replace the shopify validation token here
+        const validationToken =
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzVhN2U3OTQzM2NlOTAwMjIzZmM4ZWIiLCJzdG9yZVVybCI6Imh0dHBzOi8vYnVzaGJhbG0uY29tL2NvbGxlY3Rpb25zLyIsImlhdCI6MTY3OTU3OTY3NH0.YXYSeNWd9bsTwbMnS8-e_dkWOliDIALo4ZJnQ_eaR6Y';
+        //replace the Client name here
+        const clientName = 'bushbalm';
+        //Add Custom Product Attribute Heading Text
+        const productAttributesHeadingText = 'Attributes';
+        //Add Definition Heading Text
+        const definitionHeadingText = 'Definition:';
+        //Add Custom Notes Heading Text
+        const customNoteHeadingText = 'NOTE FROM BRAND';
+        //Add Custom Functions Heading Text
+        const functionsHeadingText = 'Purpose:';
+        //Add Custom Product Ingredient Attribute Heading Text
+        const productIngredientAttributesHeadingText = 'Qualities:';
+        //Add Custom Additional Details Heading Text
+        const additionalDetailsHeadingText = 'Additional Notes';
+      </script>
+
+
+      <!--CFM styles and scripts-->
+      <link
+        rel="stylesheet"
+        href="https://snippet-st1.clearforme.com/v2/style.css"
+      />
+      <script src="https://snippet-st1.clearforme.com/v2/script.js"></script>
+      <!--CFM Structure-->
+      {% assign current_variant = product.selected_or_first_available_variant %}
+      <span id="cfm-sku" class="cfm-sku">{{ current_variant.sku }}</span>
+
+
+      <div
+        id="ingredient-structure-container"
+        class="ingredient-structure-container"
+      >
+        <div class="button-container" onclick="handleButtonClick()">
+          <svg
+            viewBox="0 0 256.000000 256.000000"
+            preserveAspectRatio="xMidYMid meet"
+            class="ing-icon"
+          >
+            <g
+              transform="translate(0.000000,256.000000) scale(0.100000,-0.100000)"
+              fill="#000000"
+              stroke="none"
+            >
+              <path
+                d="M1655 2531 c-34 -15 -57 -49 -62 -93 -4 -35 0 -50 21 -81 l26 -38
+                  -204 -415 -204 -414 -591 0 -590 0 -12 -22 c-21 -39 -24 -224 -4 -319 38 -190
+                  120 -337 269 -484 102 -101 195 -168 339 -245 53 -28 97 -54 97 -57 0 -3 -14
+                  -21 -31 -41 -40 -45 -68 -108 -79 -175 -14 -93 -44 -87 405 -87 261 0 403 -4
+                  422 -11 15 -6 108 -16 206 -22 264 -16 353 9 478 133 90 89 143 196 168 342
+                  11 58 28 126 39 151 27 61 86 124 144 153 50 25 61 50 33 74 -16 13 -196 30
+                  -229 22 -14 -4 -18 -1 -13 9 48 116 61 154 74 213 15 75 19 227 7 292 -14 79
+                  8 73 -303 76 l-279 3 99 265 c55 146 111 295 125 331 24 65 26 67 67 72 59 8
+                  97 51 97 112 0 71 -26 91 -248 184 -188 79 -225 89 -267 72z m236 -142 c96
+                  -40 182 -79 192 -88 19 -19 15 -46 -9 -55 -18 -7 -385 145 -397 166 -14 21 -2
+                  48 21 48 11 0 97 -32 193 -71z m-46 -145 c63 -25 115 -49 115 -53 0 -3 -58
+                  -161 -129 -351 l-128 -345 -191 -3 c-106 -1 -192 -1 -192 1 0 15 393 797 401
+                  797 5 0 61 -21 124 -46z m451 -871 c16 -109 -12 -266 -72 -395 l-36 -76 -47
+                  -7 c-231 -32 -396 -137 -481 -308 -22 -43 -40 -86 -40 -93 0 -18 -24 -18 -39
+                  0 -14 16 -117 61 -177 76 -60 15 -117 61 -143 114 -41 87 -73 71 -96 -48 -8
+                  -43 -15 -109 -15 -147 l0 -69 -169 0 -168 0 -104 53 c-140 71 -246 144 -342
+                  236 -182 174 -269 362 -270 587 0 55 3 106 7 112 5 9 276 12 1096 12 l1089 0
+                  7 -47z m47 -585 c-49 -52 -83 -132 -108 -252 -27 -131 -46 -182 -93 -254 -77
+                  -119 -218 -189 -360 -180 l-53 3 146 180 c112 139 145 186 143 205 -2 18 -10
+                  26 -28 28 -23 3 -44 -20 -165 -172 -77 -97 -143 -176 -147 -176 -12 0 -9 193
+                  3 252 44 205 195 341 430 387 24 5 93 9 153 10 l110 1 -31 -32z m-940 -299
+                  c80 -23 141 -55 173 -91 19 -21 21 -31 15 -101 l-6 -78 -75 76 c-41 41 -80 75
+                  -87 75 -6 0 -19 -7 -27 -16 -23 -23 -8 -45 95 -142 49 -46 89 -88 89 -94 0
+                  -15 -90 -2 -151 21 -76 29 -124 74 -161 149 -30 61 -33 76 -37 180 l-3 114 52
+                  -36 c28 -20 84 -45 123 -57z m-229 -184 c4 -19 27 -64 51 -100 l45 -65 -280 0
+                  c-217 0 -280 3 -280 13 1 29 44 105 83 145 l41 42 167 0 167 0 6 -35z"
+              />
+              <path
+                d="M340 1285 c-17 -20 -6 -137 21 -235 34 -125 109 -245 146 -238 26 5
+                  40 35 26 56 -66 92 -105 190 -118 295 l-7 57 227 2 c204 3 229 5 239 21 8 12
+                  8 22 0 35 -10 15 -36 17 -266 20 -219 2 -257 0 -268 -13z"
+              />
+            </g>
+          </svg>
+          <button class="ingredient-cta">EXPLORE INGREDIENT BENEFITS</button>
+         
+        </div>
+      </div>
+      <!--CFM Code Snippet ends here-->
+  {% endcomment %}
+  
+    {% if product.metafields.custom_fields["full_ingredients_list"] != blank %}
+      <div class="product__ingredients-full">
+        <div class="product__accordion"
+        data-accordion>
+        <div class="product__accordion-trigger">
+          <button id="product-ingredients-full"
+            title="{{ section.settings.ingredients_accordion_view }}"
+            aria-label="{{ section.settings.ingredients_accordion_view }}"
+            aria-expanded="false"
+            aria-controls="ingredients-full-content"
+            data-accordion-trigger>
+            <span>{{ section.settings.ingredients_accordion_view }}</span>
+            <span>{{ section.settings.ingredients_accordion_hide }}</span>
+            <div aria-hidden>
+            </div>
+          </button>
+        </div>
+        <div id="ingredients-full-content"
+          class="product__accordion-content"
+          aria-labelledby="product-ingredients-full"
+          data-accordion-content>
+          <div class="product__accordion-item product__ingredients-item">
+            <p class="product__accordion-copy">{{ product.metafields.custom_fields["full_ingredients_list"] }}</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    {% endif %}
+  </div>
+{% endif %}

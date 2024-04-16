@@ -1,0 +1,191 @@
+{{ 'product-testimonial.css' | asset_url | stylesheet_tag }}
+
+{% if product.metafields.custom_fields["testimonial_text"] != blank %}
+  <div class="product__testimonial product-testimonial--{{ section.id }}">
+    <h3 class="small--hide">{{ section.settings.testimonial_heading }}</h3>
+    <p class="product__testimonial-text">
+      &ldquo;{{- product.metafields.custom_fields["testimonial_text"] -}}&rdquo;
+    </p>
+    {% if product.metafields.custom_fields["testimonial_name"] != blank %}
+      <p class="product__testimonial-name">
+        {{- product.metafields.custom_fields["testimonial_name"] -}}
+      </p>
+    {% endif %}
+  </div>
+
+  {% render 'custom-spacing' with
+    section_name: 'product-testimonial'
+  %}
+{% endif %}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "header",
+        "content": "Testimonial",
+        "info": "Set up with Product Metafields"
+      },
+      {
+        "type": "text",
+        "id": "testimonial_heading",
+        "label": "Heading",
+        "default": "Why Our Customers Love Bushbalm",
+        "info": "Desktop Only"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Testimonial"
+      }
+    ]
+  }
+{% endschema %}

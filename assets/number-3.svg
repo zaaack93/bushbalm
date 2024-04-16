@@ -1,0 +1,6 @@
+<svg class="icon-number icon-number--3" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+  role="img" aria-labelledby="icon-number-3-title icon-number-3-desc">
+  <title id="icon-number-3-title">Number Three</title>
+  <desc id="icon-number-3-desc">A bold number 3 icon with brown outline</desc>
+  <path d="M37.936 25.8648L45.6542 12.7845V10.6667H17.1026V21.2556H30.1017L24.4726 30.9101V33.8998H31.0882C33.7577 33.8998 35.4406 35.7062 35.4406 38.4468C35.4406 41.1874 33.7577 43.056 31.3204 43.056C28.883 43.056 27.2581 41.1874 27.1421 38.4468H16C16.2321 47.4161 22.2674 53.3334 31.2623 53.3334C40.4313 53.3334 46.8148 47.2293 46.8148 38.4468C46.8148 32.1558 43.3329 27.422 37.936 25.8648Z" stroke="#CCA181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

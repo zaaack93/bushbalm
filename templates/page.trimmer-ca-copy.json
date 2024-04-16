@@ -1,0 +1,493 @@
+{
+  "sections": {
+    "f9e54ea6-707f-4127-a751-bcf15ad89b4a": {
+      "type": "home-hero-image",
+      "disabled": true,
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/new_mobile_bfcm_gift_2.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/BFCM_Free_Gift_Desktop_1600_x_200_px_1400_x_200_px_1.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "page-content",
+      "settings": {
+      }
+    },
+    "9c9da9ed-9f49-4409-b909-c92032b709c9": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Meet Oprah's Favourite Trimmer",
+        "heading_tag": "h2",
+        "title_sizing": "title_large",
+        "subtitle": "",
+        "copy": "<p>Shop our best-selling trimmer for wherever you groom.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/products\/the-francesca-bikini-trimmer-for-pubic-hair",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Trimmer_Francesca_1_23a5e3ae-0707-4bf2-b41a-025a6414a53e.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Trimmer_Francesca_1_23a5e3ae-0707-4bf2-b41a-025a6414a53e.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4788,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_de418c45-596c-4219-bd6b-3f6b79140609.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "-44px"
+      }
+    },
+    "a3dac971-f3c6-4868-8a0c-cfad88b0e62f": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "",
+        "headline": "\"If you have sensitive skin, opt for this hardworking tool to avoid irritations like razor burn and ingrown hairs.\"",
+        "subline": "- Oprah Winfrey",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "05765392-c0db-4605-9f7e-37922dfd2c08": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/mobile_1_072b8b69-c0dc-4420-a0b7-3416e8dc4bcd.svg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/desktop_1_a82f1308-f624-4ab0-ae3b-f576b9a06392.svg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "31aa2022-465a-4761-9483-a64a89e076b4": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "the-francesca-bikini-trimmer-for-pubic-hair",
+        "overwrite_heading": "<p>The Francesca Trimmer<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p><\/p><p>Our award winning trimmer for wherever you groom. It's conveniently waterproof and features a strong 6000 RPM motor, up to 5 hours of battery life, as well as a USB cord for recharging.<\/p><p><\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "48px"
+      }
+    },
+    "16726243523cbfcb79": {
+      "type": "apps",
+      "blocks": {
+        "91de795c-5250-47ca-be35-d21c77a51d5b": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "title": "Buzz Worthy Reviews",
+            "auto_play": false,
+            "take": 30,
+            "color_title": "#271710",
+            "color_star": "#f7efa1",
+            "color_text": "#271710",
+            "color_link": "#6e99bd",
+            "review_ids": "",
+            "product_ids": "5598845534264, 6729924083768",
+            "category": "",
+            "product_brand": "",
+            "tags": "",
+            "min_rating": "none",
+            "fill_empty": false,
+            "random": false,
+            "with_photos": false
+          }
+        }
+      },
+      "block_order": [
+        "91de795c-5250-47ca-be35-d21c77a51d5b"
+      ],
+      "settings": {
+      }
+    },
+    "eb72717b-62d2-4a76-b6a5-c5762c6982f6": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "background_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Why You'll Love The Francesca",
+        "heading_tag": "h1",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>✓ Conveinently waterproof<\/p><p>✓ 5 hour battery life<\/p><p>✓ No nicks, pulls or tugs<\/p><p>✓ Choose your hair length<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "",
+        "position_desktop": "right",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/40adc0838ed94bec990f21525fc41c73.mp4",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/40adc0838ed94bec990f21525fc41c73.mp4",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "128px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "-12px"
+      }
+    },
+    "0aa1d382-302c-40bf-a736-073e94201947": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "b34cab31-bce5-40ab-84ec-d0aceb4dbe43": {
+          "type": "featured_product",
+          "settings": {
+            "product": "trim-treat-bundle",
+            "enable_sub_text": false
+          }
+        },
+        "a0da485b-0480-40b7-be99-2615eb4c1e30": {
+          "type": "featured_product",
+          "settings": {
+            "product": "pubic-hair-trimmer-holiday-kit",
+            "enable_sub_text": false
+          }
+        },
+        "5bfbc28b-aaa9-4ec0-a500-46989813c261": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "enable_sub_text": false
+          }
+        },
+        "b52cb326-933c-40bf-afb4-7aabe7a7287b": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "enable_sub_text": false
+          }
+        }
+      },
+      "block_order": [
+        "b34cab31-bce5-40ab-84ec-d0aceb4dbe43",
+        "a0da485b-0480-40b7-be99-2615eb4c1e30",
+        "5bfbc28b-aaa9-4ec0-a500-46989813c261",
+        "b52cb326-933c-40bf-afb4-7aabe7a7287b"
+      ],
+      "settings": {
+        "heading": "Best Sellers",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "6e707e37-628a-463b-ac22-6a47b12187c1": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center><a href=\"https:\/\/bushbalm.com\/collections\/all\" class=\"btn btn-primary\">Shop All Products<\/a><\/center>"
+      }
+    },
+    "bdcb70ab-78eb-40d5-8490-b542f770977c": {
+      "type": "image-link-carousel",
+      "disabled": true,
+      "settings": {
+        "carousel_heading": "Shop By Collection"
+      }
+    },
+    "6ae1b5ea-176d-445e-92b5-5434c091e2ce": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/before-and-after-trimming-with-a-female-trimmer_1080x1080_720x_c1b77f4f-c649-491d-b92d-d7a73db8eda9.webp",
+        "image_desktop": "shopify:\/\/shop_images\/before-and-after-trimming-with-a-female-trimmer_1080x1080_720x_c1b77f4f-c649-491d-b92d-d7a73db8eda9.webp",
+        "image_offset": 0,
+        "preheading": "Before + After",
+        "heading": "Our Results Do The Talking",
+        "copy": "<p>View hundreds of before and after results<\/p>",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_text": "VIEW MORE",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "c0ffb170-d7e0-4862-9b21-f2969834e764": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "Featured",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"5598845534264, 6729924083768\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "2c37f4b4-5efc-450a-b1d8-7711ce1ff3c6": {
+      "type": "promo-banner",
+      "blocks": {
+        "db454114-8988-440c-b14e-240c789680f1": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Our Promise<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "db454114-8988-440c-b14e-240c789680f1"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(255, 255, 255, 1), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "a63291a8-92fb-428c-b3b3-a42633099774": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/company-promises-mobile.png",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/company-promises-desktop.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "67f153c4-3a33-4256-8a68-45aba6fe1959": {
+      "type": "image-carousel",
+      "blocks": {
+        "7928f248-9deb-42c4-abc7-5c226732db79": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "a5f3e7cf-651f-4895-ac4b-0df106c8250a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/18-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "319e4955-6372-494c-a784-1e1af908875b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "d36019a3-d2dc-4129-aeca-d0bb6cce6f6e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "406b9051-9304-4d6d-8428-71c0c1c0f234": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "834775cb-6636-4f08-8368-09f8c0c9d43e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "f6fb8775-eb62-4607-b690-1f13a0e2e184": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "05da36a3-fc72-4a1e-bd92-2d70408ff436": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "9f930583-7c12-4af7-92be-7a2564225bea": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "901d0168-8a9d-48ac-ae88-7516d9a60a87": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "ffe4074e-8040-4a71-a7b8-f1f1d2c73bad": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-Bushbalm-Influencer_1.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "7364830f-9717-4531-80b4-6f6f9d710508": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cb77c1d1-0fc2-4e67-8383-b26b88afd55c": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-Bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cf667432-e3bb-498f-b7ae-e9f6b3cfa20b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "0140739d-b433-4883-abe3-478e942d19d6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "befc451f-1f4a-4182-b93b-3243b98e9f36": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "6a23ae3f-7a0e-48bc-afb8-e4621dcd9235": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "7928f248-9deb-42c4-abc7-5c226732db79",
+        "a5f3e7cf-651f-4895-ac4b-0df106c8250a",
+        "319e4955-6372-494c-a784-1e1af908875b",
+        "d36019a3-d2dc-4129-aeca-d0bb6cce6f6e",
+        "406b9051-9304-4d6d-8428-71c0c1c0f234",
+        "834775cb-6636-4f08-8368-09f8c0c9d43e",
+        "f6fb8775-eb62-4607-b690-1f13a0e2e184",
+        "05da36a3-fc72-4a1e-bd92-2d70408ff436",
+        "9f930583-7c12-4af7-92be-7a2564225bea",
+        "901d0168-8a9d-48ac-ae88-7516d9a60a87",
+        "ffe4074e-8040-4a71-a7b8-f1f1d2c73bad",
+        "7364830f-9717-4531-80b4-6f6f9d710508",
+        "cb77c1d1-0fc2-4e67-8383-b26b88afd55c",
+        "cf667432-e3bb-498f-b7ae-e9f6b3cfa20b",
+        "0140739d-b433-4883-abe3-478e942d19d6",
+        "befc451f-1f4a-4182-b93b-3243b98e9f36",
+        "6a23ae3f-7a0e-48bc-afb8-e4621dcd9235"
+      ],
+      "settings": {
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "6c4c799f-750e-4365-bf3b-441b2ab2d56e": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center> \n<h2> Skincare, Everywhere.<\/h2>\n<p> We're on a mission to save your bikini line one ingrown hair at a time. <\/p> \n<center>\n<br><a href=\"https:\/\/bushbalm.com\/collections\/all\" class=\"btn btn-primary\">Shop All Products<\/a>\n<\/center>\n<\/center>"
+      }
+    }
+  },
+  "order": [
+    "f9e54ea6-707f-4127-a751-bcf15ad89b4a",
+    "main",
+    "9c9da9ed-9f49-4409-b909-c92032b709c9",
+    "a3dac971-f3c6-4868-8a0c-cfad88b0e62f",
+    "05765392-c0db-4605-9f7e-37922dfd2c08",
+    "31aa2022-465a-4761-9483-a64a89e076b4",
+    "16726243523cbfcb79",
+    "eb72717b-62d2-4a76-b6a5-c5762c6982f6",
+    "0aa1d382-302c-40bf-a736-073e94201947",
+    "6e707e37-628a-463b-ac22-6a47b12187c1",
+    "bdcb70ab-78eb-40d5-8490-b542f770977c",
+    "6ae1b5ea-176d-445e-92b5-5434c091e2ce",
+    "c0ffb170-d7e0-4862-9b21-f2969834e764",
+    "2c37f4b4-5efc-450a-b1d8-7711ce1ff3c6",
+    "a63291a8-92fb-428c-b3b3-a42633099774",
+    "67f153c4-3a33-4256-8a68-45aba6fe1959",
+    "6c4c799f-750e-4365-bf3b-441b2ab2d56e"
+  ]
+}

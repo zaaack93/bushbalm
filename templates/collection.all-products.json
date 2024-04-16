@@ -1,0 +1,900 @@
+{
+  "sections": {
+    "8d5b7a2d-8686-4919-94ed-6c2c5e1edb3f": {
+      "type": "home-hero-image",
+      "disabled": true,
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/new_mobile_bfcm_gift_2.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/BFCM_Free_Gift_Desktop_1600_x_200_px_1400_x_200_px_1.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664208232df9144eb": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": 0,
+        "preheading": "Introducing",
+        "heading": "{{ collection.title }}",
+        "copy": "",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16602548838c7c4387": {
+      "type": "promo-banner",
+      "blocks": {
+        "68fd7729-4623-406c-a5c7-e8d07a165bde": {
+          "type": "promo_heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Best Sellers<\/p>",
+            "heading_color": "#271710"
+          }
+        },
+        "86dca6df-7c35-4e83-86fa-d240d3e58478": {
+          "type": "single_image",
+          "disabled": true,
+          "settings": {
+            "single_image": "shopify:\/\/shop_images\/Merchandising_-_Free_Gifts_Headers_2_c763a388-f328-4a60-8de7-391ebd132517.png",
+            "single_image_width_mobile": 170,
+            "single_image_width_desktop": 250
+          }
+        },
+        "7e86f1b0-2482-4fba-83e3-0a406410af0d": {
+          "type": "promo_product_list",
+          "settings": {
+            "product_list": [
+              "the-body-rock",
+              "tush-cream-100ml"
+            ]
+          }
+        },
+        "fa184678-4f90-4a46-a149-bc3db430fc81": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>SPEND $75 GET Body Rock<\/p><p>SPEND $125 GET Body Rock + Tush Cream<\/p>",
+            "subheading_color": "#271710"
+          }
+        },
+        "caa6a173-0b73-461e-90bf-227591eaa62d": {
+          "type": "promo_cta",
+          "disabled": true,
+          "settings": {
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "68fd7729-4623-406c-a5c7-e8d07a165bde",
+        "86dca6df-7c35-4e83-86fa-d240d3e58478",
+        "7e86f1b0-2482-4fba-83e3-0a406410af0d",
+        "fa184678-4f90-4a46-a149-bc3db430fc81",
+        "caa6a173-0b73-461e-90bf-227591eaa62d"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#fde2da",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "24px",
+        "margin_bottom_desktop": "16px",
+        "reduce_size_on_mobile": true
+      }
+    },
+    "16579047098eaa4056": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "vajacial-hydrogel-mask",
+        "overwrite_heading": "<p>Hydrogel Vajacial Mask<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p><strong>Back in Stock!<\/strong><\/p><p>Take your bikini line self-care to the next level with the Hydrogel Vajacial Mask.<\/p><p>This innovative product soothes, cools, and reduces redness, while also rejuvenating your bikini line.<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16578967954f687c5c": {
+      "type": "featured-bundle",
+      "disabled": true,
+      "settings": {
+        "background_color": "#fdfdfd",
+        "featured_product": "discovery-kit",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p><\/p><p>Not sure where to start? Try out all three of our bestselling oils to find your match with The Starter Kit.<\/p><p><\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": false,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1648169874ddc44262": {
+      "type": "featured-collections",
+      "blocks": {
+        "20d48985-7335-4a0c-834d-46e1c353882a": {
+          "type": "featured_collection",
+          "settings": {
+            "bg_color": "#f8e2c9",
+            "bg_color_desktop": "#f8e2c9",
+            "marquee_text": "10% OFF",
+            "cta_text": "GET 10% OFF",
+            "cta_link": "shopify:\/\/products\/dark-spot-bikini-line-kit",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "20d48985-7335-4a0c-834d-46e1c353882a"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1648170219598c9cf6": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align_desktop": "center",
+        "text_align_mobile": "center",
+        "enable_truncate": true,
+        "truncate_threshold": 25,
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skincare.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skincare.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16474638113ea6ec96": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "image_offset": 56,
+        "preheading": "Best Selling",
+        "heading": "Bundles & Kits",
+        "copy": "<p>Get 10% off all best selling bundles & kits <\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16481694831eab144b": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "heading": "Save 10%",
+        "copy": "Shop and save with all bundles & sets!",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16474639365c6d3545": {
+      "type": "content",
+      "blocks": {
+        "eb0027e1-02d1-4bfa-9c57-47c289283294": {
+          "type": "content_block",
+          "settings": {
+            "title": "15% Off",
+            "copy": "Every subscription order comes with an automatic 15% discount. Saving you money & time!"
+          }
+        },
+        "ff8507a0-2ff5-401e-a539-cf6ba59bf992": {
+          "type": "content_block",
+          "settings": {
+            "title": "Delivery Schedule",
+            "copy": "Choose between 1,2 and 3 month deliveries giving you full control of your skincare routine."
+          }
+        },
+        "3b819579-589a-47cc-91f2-5f8e563803cb": {
+          "type": "content_block",
+          "settings": {
+            "title": "Never Run Out!",
+            "copy": "Results start with your routine! By subscribing you'll never stock out. Consider this your skincare insurance."
+          }
+        },
+        "73a9f432-992b-40a8-981d-7e74a7c7e534": {
+          "type": "content_block",
+          "settings": {
+            "title": "Full Control",
+            "copy": "Skip, push or add new items to your subscription. You have full control — we're just here to help!"
+          }
+        }
+      },
+      "block_order": [
+        "eb0027e1-02d1-4bfa-9c57-47c289283294",
+        "ff8507a0-2ff5-401e-a539-cf6ba59bf992",
+        "3b819579-589a-47cc-91f2-5f8e563803cb",
+        "73a9f432-992b-40a8-981d-7e74a7c7e534"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "increase_spacing": true,
+        "image_size": "small",
+        "image_offset": -45,
+        "heading": "Let's fill your shower!",
+        "copy": "On your schedule — at 15% off.",
+        "subheading": "Subscription Benefits",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "16px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "16px"
+      }
+    },
+    "1648170129ec2e66b8": {
+      "type": "trust-bar",
+      "blocks": {
+        "05076cc9-1dfe-4372-ab2d-a2ad6a0b89bc": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "10% OFF"
+          }
+        },
+        "fb723c01-5fc5-4b1e-9a68-ecd907d45a2c": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "10% OFF"
+          }
+        },
+        "2c7dcc07-1350-4510-9aa9-a7a96c085c6b": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "10% OFF"
+          }
+        },
+        "773e3d09-8b5b-4245-9916-b40e35458e67": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "10% OFF"
+          }
+        }
+      },
+      "block_order": [
+        "05076cc9-1dfe-4372-ab2d-a2ad6a0b89bc",
+        "fb723c01-5fc5-4b1e-9a68-ecd907d45a2c",
+        "2c7dcc07-1350-4510-9aa9-a7a96c085c6b",
+        "773e3d09-8b5b-4245-9916-b40e35458e67"
+      ],
+      "disabled": true,
+      "settings": {
+        "speed": 6000,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "16px"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter By Concern",
+            "group_title": "Concerns",
+            "group_title_mobile": "By Concern",
+            "tags_list": "dark-spots, ingrown-hairs, razor-burn, keratosis-pilaris, stretchmarks, hyperpigmentation"
+          }
+        },
+        "cb6c9178-4d29-43e7-8c10-9fbc1dbfa091": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter By Type",
+            "group_title": "Type",
+            "group_title_mobile": "By Type",
+            "tags_list": "bundles-and-sets, bestsellers, exfoliating-scrubs, firming-creams, soothing-oils, tools-and-accessories, body-cleanser"
+          }
+        }
+      },
+      "block_order": [
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69",
+        "cb6c9178-4d29-43e7-8c10-9fbc1dbfa091"
+      ],
+      "disabled": true,
+      "settings": {
+        "pagination_count": 25
+      }
+    },
+    "16589344532cb948c4": {
+      "type": "bundle-categories",
+      "blocks": {
+        "bundle_category_VpGYzT": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "All Products",
+            "bundle_category_list": [
+              "roller-rescue-soothing-serum",
+              "the-ultimate-ingrown-hair-routine",
+              "radiant-reset-exfoliating-toner-pads",
+              "the-ultimate-brightening-routine",
+              "the-francesca-bikini-trimmer-for-pubic-hair",
+              "ingrown-hair-oil",
+              "nude-exfoliating-scrub",
+              "dark-spot-treatment",
+              "bermuda-dark-spot-exfoliant",
+              "vajacial-hydrogel-mask",
+              "tush-firming-cream",
+              "sweet-escape-oil",
+              "sweet-escape-scrub",
+              "dark-spot-corrector",
+              "brightening-body-scrub",
+              "roller-rescue-refill",
+              "spa-day-nourishing-body-wash",
+              "intimate-refreshing-wipes",
+              "bikini-dry-brush",
+              "exfoliating-glove",
+              "slant-tweezers",
+              "travel-pouch",
+              "just-peachy-ingrown-hair-oil",
+              "ingrown-hair-routine-peach"
+            ]
+          }
+        },
+        "bundle_category_jY6kdG": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Ingrown Hairs",
+            "bundle_category_list": [
+              "roller-rescue-soothing-serum",
+              "ingrown-hair-oil",
+              "nude-exfoliating-scrub",
+              "ingrown-hair-minimzer-kit",
+              "routine-ingrown-treatment",
+              "emergency-bikini-line-prep-kit",
+              "bump-free-bundle",
+              "vajacial-3-step-at-home-kit"
+            ]
+          }
+        },
+        "bundle_category_nD4tty": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Dark Spots",
+            "bundle_category_list": [
+              "radiant-reset-exfoliating-toner-pads",
+              "brightening-duo",
+              "the-ultimate-brightening-routine",
+              "dark-spot-treatment",
+              "bermuda-dark-spot-exfoliant",
+              "2-step-routine-hyperpigmentation-dark-spots",
+              "the-brightening-bundle"
+            ]
+          }
+        },
+        "bundle_category_agwwTX": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Trimming",
+            "bundle_category_list": [
+              "the-francesca-bikini-trimmer-for-pubic-hair",
+              "trim-treat-bundle",
+              "pubic-hair-trimmer-holiday-kit"
+            ]
+          }
+        },
+        "bundle_category_f6PMbh": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Vajacials",
+            "bundle_category_list": [
+              "vajacial-hydrogel-mask",
+              "vajacial-at-home-kit",
+              "vajacial-3-step-at-home-kit"
+            ]
+          }
+        },
+        "2e5aaa4b-df41-4c68-bcd8-be51bfd32019": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Bundles",
+            "bundle_category_list": [
+              "routine-ingrown-treatment",
+              "2-step-routine-hyperpigmentation-dark-spots",
+              "2-step-routine-keratosis-pilaris-bump-eraser",
+              "2-step-hyperpigmentation-products",
+              "vajacial-3-step-at-home-kit",
+              "pubic-hair-trimmer-holiday-kit"
+            ]
+          }
+        },
+        "3aa57969-4015-4679-97d4-dc5aad0ea15d": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Francesca Trimmer",
+            "bundle_category_list": [
+              "the-francesca-bikini-trimmer-for-pubic-hair",
+              "trim-treat-bundle",
+              "pubic-hair-trimmer-holiday-kit"
+            ]
+          }
+        },
+        "844be4bf-f21f-44a0-9b8f-d079bc1ff190": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Roller Rescue Soothing Serum",
+            "bundle_category_list": [
+              "roller-rescue-soothing-serum",
+              "ingrown-hair-minimzer-kit",
+              "roller-rescue-refill"
+            ]
+          }
+        },
+        "cdf058e9-dded-4361-8ae6-58b70866f9ba": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Soothing Oils",
+            "bundle_category_list": [
+              "ingrown-hair-oil",
+              "sweet-escape-oil",
+              "dark-spot-treatment",
+              "dark-spot-corrector",
+              "frosted-cranberry-ingrown-hair-oil"
+            ]
+          }
+        },
+        "3036bb78-a144-4ebd-a3ad-ef8a0e80a818": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Exfoliants",
+            "bundle_category_list": [
+              "nude-exfoliating-scrub",
+              "sweet-escape-scrub",
+              "bermuda-dark-spot-exfoliant",
+              "brightening-body-scrub"
+            ]
+          }
+        },
+        "f4bc5265-74e9-465e-802b-9c9628507d8e": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Hydrogel Vajacials",
+            "bundle_category_list": [
+              "vajacial-hydrogel-mask",
+              "vajacial-at-home-kit",
+              "vajacial-3-step-at-home-kit",
+              "festival-prep-kit",
+              "hydrogel-vajacial-triangle-mask",
+              "hydrogel-vajacial-side-strips"
+            ]
+          }
+        },
+        "aa725651-d7b8-45bb-87a0-9153efd31c81": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Best Value",
+            "bundle_category_list": [
+              "the-brightening-bundle",
+              "bump-free-bundle",
+              "trim-treat-bundle",
+              "pubic-hair-trimmer-holiday-kit",
+              "3-pack-bermuda-dark-spot-oil",
+              "3-pack-nude-ingrown-hair-oil",
+              "frosty-scents",
+              "sexy-scents-bundle",
+              "skin-so-bright-2-step-set",
+              "skin-so-smooth-2-step-set",
+              "discovery-kit",
+              "twice-as-nice"
+            ]
+          }
+        },
+        "dfff67db-5119-43ed-933c-5fc28d7b1c41": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Feminine Wash",
+            "bundle_category_list": [
+              "intimate-refreshing-wipes",
+              "spa-day-nourishing-body-wash",
+              "unscented-nourishing-body-wash",
+              "cleansing-kit",
+              "2-pack-body-wash",
+              "2-pack-unscented-nourishing-body-wash",
+              "festival-survival-kit",
+              "sensitive-skin-essentials",
+              "all-is-calm"
+            ]
+          }
+        },
+        "5dbd4507-0164-4de5-8d65-8add772cc576": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Firming Creams",
+            "bundle_category_list": [
+              "summer-skin-essentials",
+              "tush-firming-cream",
+              "the-booty-bundle",
+              "tight-bright-bundle",
+              "mamas-bundle"
+            ]
+          }
+        },
+        "cc3fac3e-9701-4620-9c26-2ac74d5478d2": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Tools + Accessories",
+            "bundle_category_list": [
+              "bikini-dry-brush",
+              "slant-tweezers",
+              "the-body-rock",
+              "shower-cap",
+              "travel-pouch",
+              "trimmer-head-replacement",
+              "the-francesca-trimmer-charging-cable",
+              "exfoliating-glove"
+            ]
+          }
+        },
+        "849fb14c-6e4b-4f60-92ce-bbc56d7628fc": {
+          "type": "bundle_category",
+          "disabled": true,
+          "settings": {
+            "bundle_category_name": "Giftcard",
+            "bundle_category_list": [
+              "skincare-everywhere-gift-card"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "bundle_category_VpGYzT",
+        "bundle_category_jY6kdG",
+        "bundle_category_nD4tty",
+        "bundle_category_agwwTX",
+        "bundle_category_f6PMbh",
+        "2e5aaa4b-df41-4c68-bcd8-be51bfd32019",
+        "3aa57969-4015-4679-97d4-dc5aad0ea15d",
+        "844be4bf-f21f-44a0-9b8f-d079bc1ff190",
+        "cdf058e9-dded-4361-8ae6-58b70866f9ba",
+        "3036bb78-a144-4ebd-a3ad-ef8a0e80a818",
+        "f4bc5265-74e9-465e-802b-9c9628507d8e",
+        "aa725651-d7b8-45bb-87a0-9153efd31c81",
+        "dfff67db-5119-43ed-933c-5fc28d7b1c41",
+        "5dbd4507-0164-4de5-8d65-8add772cc576",
+        "cc3fac3e-9701-4620-9c26-2ac74d5478d2",
+        "849fb14c-6e4b-4f60-92ce-bbc56d7628fc"
+      ],
+      "settings": {
+        "all_bundles_enabled": false
+      }
+    },
+    "1646578893a810ad61": {
+      "type": "press-highlights",
+      "blocks": {
+        "e3d6f8dd-2963-4799-8f17-4e70acc49752": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo_height": 23,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "0e206093-cb56-4eee-bc23-76dbcd95eda5": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Women's Health",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo_height": 23,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        },
+        "82b51b70-b5fa-4c00-b666-854b5691f910": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo_height": 22,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#ffffff",
+            "invert_logos": false
+          }
+        },
+        "752e0f78-fb3b-4dd1-8ab4-e9dcf505758d": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Elle",
+            "copy": "“The irresistibly creamy formula can be used anywhere you want a little extra firming action”",
+            "logo_height": 24,
+            "bg_color": "#7a482a",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "e3d6f8dd-2963-4799-8f17-4e70acc49752",
+        "0e206093-cb56-4eee-bc23-76dbcd95eda5",
+        "82b51b70-b5fa-4c00-b666-854b5691f910",
+        "752e0f78-fb3b-4dd1-8ab4-e9dcf505758d"
+      ],
+      "disabled": true,
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164657908928936c34": {
+      "type": "image-carousel",
+      "blocks": {
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d": {
+          "type": "image_block",
+          "settings": {
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e9c8c440-0741-436c-94e9-7851b19970d5": {
+          "type": "image_block",
+          "settings": {
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30": {
+          "type": "image_block",
+          "settings": {
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542": {
+          "type": "image_block",
+          "settings": {
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "6efb635d-1c90-4b01-972a-7b100a712f04": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d",
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e",
+        "e9c8c440-0741-436c-94e9-7851b19970d5",
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30",
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542",
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8",
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d",
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c",
+        "6efb635d-1c90-4b01-972a-7b100a712f04"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "16px",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "16px"
+      }
+    },
+    "1647463826a7d93f8c": {
+      "type": "overlay-hero",
+      "disabled": true,
+      "settings": {
+        "heading": "10% Off",
+        "use_h1": true,
+        "copy": "",
+        "cta_text": "",
+        "cta_url": "",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": true
+      }
+    },
+    "05b2eb2c-d8ba-4c1b-b14f-056a203b1f36": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "ef8b06e5-d37d-4f23-995d-f8ee7232e1c1": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturizing_Post_Wax.jpg",
+            "heading": "Ingrown Hairs",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        },
+        "0b872320-84e5-4d94-aba9-d2a1b9137ed7": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Brightening_Products.jpg",
+            "heading": "Dark Spots",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "849d6905-d527-4fcc-ab68-cf17b8617b06": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Post_Waxing_Oil.jpg",
+            "heading": "Razor Burn",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "03c21e72-0935-4358-9050-0057abad9c1c": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nordic_Dry_Brush_by_Bushbalm.jpg",
+            "heading": "Body Tools",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/tools-accessories"
+          }
+        },
+        "761635c7-50b9-4a75-829c-ea5302581a86": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Francesca_Trimmer_5c07c7a2-483c-49ef-8dd8-4210d06ab26c.jpg",
+            "heading": "Trimmer",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/the-francesca-trimmer"
+          }
+        },
+        "1ed37225-4879-41b0-8400-29bab29b8197": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BOGO_02_1.png",
+            "heading": "Bestsellers",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/best-sellers"
+          }
+        },
+        "794592fa-b1c9-42f0-9e6d-ce409b8d6454": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/All_Products.jpg",
+            "heading": "Special Offers",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/bundles"
+          }
+        }
+      },
+      "block_order": [
+        "ef8b06e5-d37d-4f23-995d-f8ee7232e1c1",
+        "0b872320-84e5-4d94-aba9-d2a1b9137ed7",
+        "849d6905-d527-4fcc-ab68-cf17b8617b06",
+        "03c21e72-0935-4358-9050-0057abad9c1c",
+        "761635c7-50b9-4a75-829c-ea5302581a86",
+        "1ed37225-4879-41b0-8400-29bab29b8197",
+        "794592fa-b1c9-42f0-9e6d-ce409b8d6454"
+      ],
+      "settings": {
+        "carousel_heading": "explore more"
+      }
+    }
+  },
+  "order": [
+    "8d5b7a2d-8686-4919-94ed-6c2c5e1edb3f",
+    "1664208232df9144eb",
+    "16602548838c7c4387",
+    "16579047098eaa4056",
+    "16578967954f687c5c",
+    "1648169874ddc44262",
+    "1648170219598c9cf6",
+    "16474638113ea6ec96",
+    "16481694831eab144b",
+    "16474639365c6d3545",
+    "1648170129ec2e66b8",
+    "main",
+    "16589344532cb948c4",
+    "1646578893a810ad61",
+    "164657908928936c34",
+    "1647463826a7d93f8c",
+    "05b2eb2c-d8ba-4c1b-b14f-056a203b1f36"
+  ]
+}

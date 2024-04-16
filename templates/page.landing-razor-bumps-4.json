@@ -1,0 +1,653 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1646106738a8db4cc3": {
+      "type": "home-hero",
+      "settings": {
+        "title": "Razor Burn",
+        "copy": "From your underarms to your bikini line — razor burn has met it's match!",
+        "cta_text": "Shop Collection",
+        "cta_link": "shopify:\/\/collections\/razor-burn",
+        "position_desktop": "right",
+        "position_mobile": "center",
+        "image_desktop": "shopify:\/\/shop_images\/Razor_Burn_Bikini_Line.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Razor_Burn_Bikini_Line.jpg",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/s\/files\/1\/1292\/0701\/files\/Bushbalm-How-to-application-video.mp4?v=1647096443",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/1292\/0701\/files\/Bushbalm-How-to-application-video.mp4?v=1647096443",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 5000,
+        "review_animation": true,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/stamped_264fec9e-8eb6-4b3d-a9fd-b61de515650e.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1646106985da5e5552": {
+      "type": "press-highlights",
+      "blocks": {
+        "0044a21e-f327-4a83-bda1-ff467422fcfe": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/forbes.png",
+            "logo_height": 26,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#ffffff",
+            "invert_logos": false
+          }
+        },
+        "76d475b3-c2cc-4c53-9acd-bab3a5c4f864": {
+          "type": "testimonial",
+          "settings": {
+            "title": "elle",
+            "copy": "\"If your prefer shaving the old fashioned way, it might be time for a high-tech upgrade.\"",
+            "logo": "shopify:\/\/shop_images\/l-elle_0042d789-fe16-4fe3-9242-771041bdc55d.png",
+            "logo_height": 28,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "245c30ac-7ee4-4a47-a532-dfbf39bf5b59": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo": "shopify:\/\/shop_images\/cha.png",
+            "logo_height": 24,
+            "bg_color": "#7a482a",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "0044a21e-f327-4a83-bda1-ff467422fcfe",
+        "76d475b3-c2cc-4c53-9acd-bab3a5c4f864",
+        "245c30ac-7ee4-4a47-a532-dfbf39bf5b59"
+      ],
+      "settings": {
+        "cta_text": "View All Press",
+        "cta_link": "shopify:\/\/pages\/press",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16473057401b0030e2": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "",
+        "headline": "View Our Top Selling Routines for Razor Burn",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "bb09bd71-f129-4855-94b1-032b33b88179": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "3-step-routine-ingrown-hair-razor-burn-prevention",
+        "overwrite_heading": "<p>3 Step Routine<br\/><\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Formulated for redness, razor burn and ingrown hairs.<\/p><p><\/p><p><strong>Includes:<\/strong><\/p><p>✓ Nordic Dry Brush<\/p><p>✓ Nude Ingrown Hair Oil<\/p><p>✓ Nude Exfoliating Scrub<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": false,
+        "image_0": "shopify:\/\/shop_images\/Amazon_Product_Images_-_Nude_3_Step.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1647358324e6242f6f": {
+      "type": "content",
+      "blocks": {
+        "d7c41c6a-c571-4540-b906-16e8bbe74e61": {
+          "type": "content_block",
+          "settings": {
+            "title": "Use Daily",
+            "copy": "Add a few drops onto clean skin and massage gently until it begins to absorb. For best results, apply the oils within 2 minutes of showering or bathing."
+          }
+        },
+        "120d7e4d-d87e-42dd-91d0-efb32cfd3602": {
+          "type": "content_block",
+          "settings": {
+            "title": "Recommended Areas",
+            "copy": "Bikini line, underarms, legs, neck or anywhere else skin is experiencing ingrown hairs or razor burn and bumps."
+          }
+        }
+      },
+      "block_order": [
+        "d7c41c6a-c571-4540-b906-16e8bbe74e61",
+        "120d7e4d-d87e-42dd-91d0-efb32cfd3602"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/105_900x_f3f671d6-1549-4aa8-bed1-52ccd91ebb00.webp",
+        "image_desktop": "shopify:\/\/shop_images\/105_900x_f3f671d6-1549-4aa8-bed1-52ccd91ebb00.webp",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Razor Burn + Ingrown Hair Oil",
+        "copy": "<p>Bestseller<\/p><h2>\n<b> $20.80 <\/b> <strike>$26<\/strike>    (Save 20%) <\/h2>\n\n<p>Made from the highest quality of natural oils to ensure a soft and luxurious feeling on your skin. Adding the Ingrown Hair Oil to your daily skincare routine will quickly soften your skin and hair found in your most sensitive areas, relieve redness after shaving or waxing, and improve the look of ingrown hairs, razor burn, and bumps.<\/p>",
+        "subheading": "How to Use",
+        "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+        "cta_text": "Shop Now",
+        "cta_alignment": "center",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "895a5eb7-5ed3-4f29-a3ac-5cbbe2ae0ba5": {
+      "type": "who-we-are",
+      "blocks": {
+        "2022025d-ecbe-400c-93d7-0707f0001229": {
+          "type": "list_item",
+          "settings": {
+            "text": "Ingrown Hairs + Razor Burn"
+          }
+        },
+        "a58b82fe-b55c-4157-8eca-a549847eaf21": {
+          "type": "list_item",
+          "settings": {
+            "text": "Dark Spots + Hyperpigmentation"
+          }
+        },
+        "c321d486-2bd8-45d6-86d1-854f732b3b55": {
+          "type": "list_item",
+          "settings": {
+            "text": "Post-Waxing + Hair Removal"
+          }
+        },
+        "9d7b9611-8b62-4cba-873a-cecb0141e564": {
+          "type": "list_item",
+          "settings": {
+            "text": "... and any of your most frustrating skin concerns"
+          }
+        }
+      },
+      "block_order": [
+        "2022025d-ecbe-400c-93d7-0707f0001229",
+        "a58b82fe-b55c-4157-8eca-a549847eaf21",
+        "c321d486-2bd8-45d6-86d1-854f732b3b55",
+        "9d7b9611-8b62-4cba-873a-cecb0141e564"
+      ],
+      "settings": {
+        "heading": "Who We Are",
+        "subheading": "Bushbalm was founded on the promise to solve ingrown hairs, razor burn and dark spots with natural products.",
+        "list_heading": "Our Principles",
+        "cta_text": "Get Started",
+        "cta_link": "",
+        "image_desktop": "shopify:\/\/shop_images\/ingrown-hair-darker-skin-grey-bg_-_Edited.png",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164694999516bab311": {
+      "type": "content",
+      "blocks": {
+        "572a9088-6606-48fe-a906-4a13e881fecf": {
+          "type": "content_block",
+          "settings": {
+            "title": "Nordic Dry Brush",
+            "copy": "Developed to stimulate and revitalize; this natural sisal brush helps exfoliate the skin to reveal smoother and more radiant looking skin."
+          }
+        },
+        "9c687013-3092-40c0-baa9-db7e17f59bae": {
+          "type": "content_block",
+          "settings": {
+            "title": "Nude Ingrown Hair Oil",
+            "copy": "Made from the highest quality of natural oils to ensure a soft and luxurious feeling on your skin. Nude is our signature barely-there scent that leaves the skin feeling fresh and smelling clean."
+          }
+        },
+        "788e1199-22d5-498f-bcf4-57473cfef727": {
+          "type": "content_block",
+          "settings": {
+            "title": "Nude Exfoliating Scrub",
+            "copy": "An exfoliating scrub formulated with sugar and a hydrating blend of mixed oils that soothes and hydrates skin, while diminishing the appearance of ingrown hairs."
+          }
+        },
+        "1d67c342-545d-4922-824b-e2f0ab51d1e3": {
+          "type": "content_block",
+          "settings": {
+            "title": "",
+            "copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "572a9088-6606-48fe-a906-4a13e881fecf",
+        "9c687013-3092-40c0-baa9-db7e17f59bae",
+        "788e1199-22d5-498f-bcf4-57473cfef727",
+        "1d67c342-545d-4922-824b-e2f0ab51d1e3"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Nude_3_Step_Routine.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Nude_3_Step_Routine.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Razor Burn + Ingrown Hair",
+        "copy": "<p>3 Step Routine<\/p><h2>\n<b> $56 <\/b> <strike>$70<\/strike>    (Save 20%) <\/h2>\n\nFormulated for redness, razor burn and ingrown hairs.",
+        "subheading": "What's Included",
+        "cta_link": "shopify:\/\/products\/3-step-routine-ingrown-hair-razor-burn-prevention",
+        "cta_text": "CLAIM OFFER",
+        "cta_alignment": "center",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16461071595e93fe24": {
+      "type": "image-carousel",
+      "blocks": {
+        "e7f66584-19ea-4467-a93d-40608db4c68f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/underarm-darkening-before-and-after-dark-spot-oil.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "0544a331-dac3-443a-bdff-4e441fed1e93": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-After-Picture-Dark-Spot-Oil.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "823e57f6-c6b0-43ee-8d41-4c53ef1e6fe7": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-razor-burn-bikini-line.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "9e8c327c-d5de-42a3-8ead-38d679d7f344": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_3.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "dbcf7706-fb1d-4d85-ba2b-e59ab94a7e87": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_4.jpg",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        },
+        "1ec429e0-ae04-4045-a212-697562af66e7": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_a4a1366f-5de8-49a0-8447-9fdcdd5fa00c.png",
+            "link": "shopify:\/\/blogs\/before-and-after",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "e7f66584-19ea-4467-a93d-40608db4c68f",
+        "0544a331-dac3-443a-bdff-4e441fed1e93",
+        "823e57f6-c6b0-43ee-8d41-4c53ef1e6fe7",
+        "9e8c327c-d5de-42a3-8ead-38d679d7f344",
+        "dbcf7706-fb1d-4d85-ba2b-e59ab94a7e87",
+        "1ec429e0-ae04-4045-a212-697562af66e7"
+      ],
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "164695000481f899c5": {
+      "type": "content",
+      "blocks": {
+        "6bd82e56-2bde-446f-957b-69e89cbd6ad4": {
+          "type": "content_block",
+          "settings": {
+            "title": "Jojoba Seed Oil",
+            "copy": "Helps soften skin while increasing hydration and smoothness.",
+            "icon": "shopify:\/\/shop_images\/2d13d035e148--Jojoba-ce7203.png"
+          }
+        },
+        "87f4fb6d-79e2-4f14-a6ee-9b9b2e763bb7": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tea Tree Oil",
+            "copy": "Fresh and revitalizing, helps calm skin and reduces redness after inflammation.",
+            "icon": "shopify:\/\/shop_images\/2d13d035e148--Tea-Tree-23256b.png"
+          }
+        },
+        "a27c1764-44fe-4cc5-9dce-3ad97f1966c8": {
+          "type": "content_block",
+          "settings": {
+            "title": "Copaiba Balsam Oil",
+            "copy": "Helps soothe and relieve redness due to dryness, leaving skin looking revitalized and refreshed.",
+            "icon": "shopify:\/\/shop_images\/2d13d035e148--Copaiba-Oil-42a743.png"
+          }
+        },
+        "ad746bb5-104c-457f-b2c6-2f575cd4fa75": {
+          "type": "content_block",
+          "settings": {
+            "title": "Grapeseed Oil",
+            "copy": "High in vitamin A + E and phenolic antioxidants, Grape Seed Oil infuses skin and body hair with intense, soothing moisture.",
+            "icon": "shopify:\/\/shop_images\/2d13d035e148--Grapeseed-Oil-136c74.png"
+          }
+        }
+      },
+      "block_order": [
+        "6bd82e56-2bde-446f-957b-69e89cbd6ad4",
+        "87f4fb6d-79e2-4f14-a6ee-9b9b2e763bb7",
+        "a27c1764-44fe-4cc5-9dce-3ad97f1966c8",
+        "ad746bb5-104c-457f-b2c6-2f575cd4fa75"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/nude_2_step.webp",
+        "image_desktop": "shopify:\/\/shop_images\/nude_2_step.webp",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Razor Burn + Ingrown Hair",
+        "copy": "<p>2 Step Routine<\/p><h2>\n<b> $39.20 <\/b> <strike>$49<\/strike>    (Save 20%) <\/h2>\n\nOur classic two step routine is the perfect pair for smooth, soft skin.",
+        "subheading": "Key Ingredients",
+        "cta_link": "shopify:\/\/products\/routine-ingrown-treatment",
+        "cta_text": "CLAIM OFFER",
+        "cta_alignment": "center",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1646106902c0fcb600": {
+      "type": "featured-reviews",
+      "settings": {
+        "intro": "Reviews + Testimonials",
+        "headline": "Razor Burn Oil",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"10164299470, 6798600077368, 1931313381432, 6798600077368\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "ac838ecd-6e69-47fd-bfca-0c1c23170994": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "2beee451-cf59-4f1d-80eb-64b54ac61ee1": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bump-free-bundle",
+            "enable_sub_text": true
+          }
+        },
+        "201e6c6e-2819-4f09-afc8-41007a982701": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-keratosis-pilaris-bump-eraser",
+            "enable_sub_text": true
+          }
+        },
+        "a7370ae3-328f-411a-b911-94f7b7dd36e0": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-3-step-at-home-kit",
+            "enable_sub_text": true
+          }
+        },
+        "0c4eca12-2db0-48ac-ae38-6ddfca8a80d2": {
+          "type": "featured_product",
+          "settings": {
+            "product": "pubic-hair-trimmer-holiday-kit",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "2beee451-cf59-4f1d-80eb-64b54ac61ee1",
+        "201e6c6e-2819-4f09-afc8-41007a982701",
+        "a7370ae3-328f-411a-b911-94f7b7dd36e0",
+        "0c4eca12-2db0-48ac-ae38-6ddfca8a80d2"
+      ],
+      "settings": {
+        "heading": "Save on Bundles",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1647306158567a7f68": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Skin Quiz",
+        "headline": "Not sure if it's razor burn, ingrown hairs or hyperpigmentation?",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "↓ Take Our Quiz ↓",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16470309838aea56c7": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<div class=\"octane-ai-quiz \" data-quiz-id=\"TkAG1iWBlfYT1foL\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/euqkhkdccgflmqpl\/quiz.js\" async defer><\/script>"
+      }
+    },
+    "16468553299fa4396e": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "Take our Skin Quiz",
+        "html": "<div class=\"octane-ai-quiz \" data-quiz-id=\"ftnPPwxP42dmswNf\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/euqkhkdccgflmqpl\/quiz.js\" async=\"\" defer><\/script>\n\n<script src=\"https:\/\/app.octaneai.com\/zi142qm19pkbcgzs\/quiz.js\" async=\"\" defer><\/script>"
+      }
+    },
+    "1646355453a4b2c8b9": {
+      "type": "who-we-are",
+      "blocks": {
+        "9fa6e360-cba8-45f9-a4b7-d30c283f7f0c": {
+          "type": "list_item",
+          "settings": {
+            "text": "Dark Spots & Hyperpigmentation"
+          }
+        },
+        "9c1b94ae-bf75-4db2-bf32-5efa4e3aad73": {
+          "type": "list_item",
+          "settings": {
+            "text": "Ingrown Hairs & Razor Burn"
+          }
+        },
+        "f016b4ee-458a-4941-b8da-e0dae10c692a": {
+          "type": "list_item",
+          "settings": {
+            "text": "Post-Waxing & Hair Removal"
+          }
+        },
+        "9a19ee82-144f-4cba-a397-a4e284cf0a77": {
+          "type": "list_item",
+          "settings": {
+            "text": "... and any of your most frustrating skin concerns."
+          }
+        }
+      },
+      "block_order": [
+        "9fa6e360-cba8-45f9-a4b7-d30c283f7f0c",
+        "9c1b94ae-bf75-4db2-bf32-5efa4e3aad73",
+        "f016b4ee-458a-4941-b8da-e0dae10c692a",
+        "9a19ee82-144f-4cba-a397-a4e284cf0a77"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Why Bushbalm?",
+        "subheading": "Bushbalm was founded on the promise to solve ingrown hairs, razor burn and dark spots with natural products.",
+        "list_heading": "Our Expertise",
+        "cta_text": "Get Started",
+        "cta_link": "shopify:\/\/collections\/all",
+        "image_desktop": "shopify:\/\/shop_images\/Cartoon.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/1_d06836f3-b23a-49d0-9a8d-b221fe50a342.jpg",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1646107277d64d993b": {
+      "type": "related-products",
+      "blocks": {
+        "8f25041e-1a99-403f-97be-3ab195b42fcf": {
+          "type": "related_product",
+          "settings": {
+            "product": "3-step-routine-ingrown-hair-razor-burn-prevention"
+          }
+        },
+        "908aee27-be90-4a2f-b6d4-441580c68768": {
+          "type": "related_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots"
+          }
+        },
+        "e6a088d0-b4dc-47d5-a9b4-cd89af775c2a": {
+          "type": "related_product",
+          "settings": {
+            "product": "2-step-routine-keratosis-pilaris-bump-eraser"
+          }
+        }
+      },
+      "block_order": [
+        "8f25041e-1a99-403f-97be-3ab195b42fcf",
+        "908aee27-be90-4a2f-b6d4-441580c68768",
+        "e6a088d0-b4dc-47d5-a9b4-cd89af775c2a"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Razor Burn Bundles",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1646107348018a5808": {
+      "type": "overlay-hero",
+      "disabled": true,
+      "settings": {
+        "heading": "Why Bushbalm?",
+        "use_h1": false,
+        "copy": "Bushbalm was founded on the promise to solve ingrown hairs, razor burn and dark spots with natural products.",
+        "cta_text": "Get Started",
+        "cta_url": "shopify:\/\/collections\/all",
+        "image_desktop": "shopify:\/\/shop_images\/Cartoon.jpg",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": false
+      }
+    },
+    "1647306598aea83ee5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#cca181",
+        "padding": true,
+        "intro": "Get Started",
+        "headline": "Want to see the full razor burn collection?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "SHOP NOW",
+        "cta_link": "shopify:\/\/collections\/razor-burn",
+        "cta_2_text": "View Reviews",
+        "cta_2_link": "shopify:\/\/pages\/reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1646106738a8db4cc3",
+    "1646106985da5e5552",
+    "16473057401b0030e2",
+    "bb09bd71-f129-4855-94b1-032b33b88179",
+    "1647358324e6242f6f",
+    "895a5eb7-5ed3-4f29-a3ac-5cbbe2ae0ba5",
+    "164694999516bab311",
+    "16461071595e93fe24",
+    "164695000481f899c5",
+    "1646106902c0fcb600",
+    "ac838ecd-6e69-47fd-bfca-0c1c23170994",
+    "1647306158567a7f68",
+    "16470309838aea56c7",
+    "16468553299fa4396e",
+    "1646355453a4b2c8b9",
+    "1646107277d64d993b",
+    "1646107348018a5808",
+    "1647306598aea83ee5"
+  ]
+}

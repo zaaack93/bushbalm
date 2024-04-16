@@ -1,0 +1,368 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "c99b8a00-7316-4162-9d6c-6c2d047d20f6": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "background_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "5 Places to Use Our Viral Dark Spot Oil",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>This multi-purpose natural oil can help more than just the bikini line.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn How",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/BB_Roti15.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/BB_Roti15.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1fa37a1c-6aa1-4325-aa04-95e3ab3ca0b0": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/US_Press_Bar_75af2039-3f95-4427-bca8-ecb42d5575bd.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/US_Press_Bar.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "9ac09b0d-8676-45d6-8d3c-58191939464b": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "dark-spot-treatment",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p>Our dark spot oil is formulated with 6 natural ingredients to help improve the look of dark spots found anywhere on the body. <\/p><p>The proprietary blend of botanical and essential oils acts as a natural exfoliant, brightens + softens skin while reducing the appearance of dark spots.<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1689081867bec97044": {
+      "type": "apps",
+      "blocks": {
+        "08c098be-2a5c-4558-afef-94782a08ecd4": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "title": "See What The Hype Is About",
+            "auto_play": false,
+            "take": 30,
+            "color_title": "",
+            "color_star": "",
+            "color_text": "",
+            "color_link": "",
+            "review_ids": "",
+            "product_ids": "7607933534264, 7607932944440, 7607931600952, 7607933665336, 7607931502648, 7607934681144, 7607932289080, 7607931961400",
+            "category": "",
+            "product_brand": "",
+            "tags": "",
+            "min_rating": "none",
+            "fill_empty": false,
+            "random": false,
+            "with_photos": false
+          }
+        }
+      },
+      "block_order": [
+        "08c098be-2a5c-4558-afef-94782a08ecd4"
+      ],
+      "settings": {
+      }
+    },
+    "40a0df0a-c113-4162-a1f2-61b55d1c32a7": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "Bermuda Dark Spot Oil",
+        "html": "<center><h3> 5 Places to Use Our Viral Oil<\/h3><\/center><br><center><\/center>"
+      }
+    },
+    "471ac907-1d0c-4f88-b0a6-87e2dc7e390a": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/BB_Roti12.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/BB_Roti12.jpg",
+        "heading": "Legs",
+        "copy": "Our Bermuda oil is great for whatever your grooming routine is.\n[break]\nWhether you wax, shave or let it grow, this oil helps to soothe and soften hair, and brighten the skin leaving your legs feeling smooth and revitalized.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "112154b8-8b3d-4172-bb8c-7e2f99f08e8c": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/BB_Roti13.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/BB_Roti13.jpg",
+        "heading": "Bikini Line",
+        "copy": "Bermuda Oil helps to replenish moisture, reduce redness, and hyperpigmentation for a bright + bump free bikini line.\n\n[break]For external use only.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "d24a00e8-1564-4e05-982f-740167b5f964": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_9.38.04_AM.png",
+        "image_desktop": "shopify:\/\/shop_images\/Screen_Shot_2023-07-11_at_9.38.04_AM.png",
+        "heading": "Eyebrows",
+        "copy": "For healthy brows - use Bermuda oil. It contains a ton of nourishing ingredients that will soften and condition the hair and skin, promoting healthier hair growth and giving your eyebrows a fuller, more defined look.\n[break]",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "abca2c3a-ef4c-4a14-956e-28859d71e68b": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/BB_Roti06.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/BB_Roti06.jpg",
+        "heading": "Underarms",
+        "copy": "Pro Tip: Pair our dark spot oil with our sugar scrub! [break]\n\nExfoliation is essential for moisturization and to prepare for shaving. It not only preps the skin but can help soften hair and improve the look of dark spots, hyperpigmentation,ingrown hairs and razor burn.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "fd5e21b0-9a44-4113-bd44-9d1d03efce83": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/BB_Roti07.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/BB_Roti07.jpg",
+        "heading": "Upper Lip",
+        "copy": "Made with naturally derived ingredients, Bermuda is safe to use on the face.[break]\nUse this soothing and brightening oil on the upper lips, especially after hair removal. This will help brighten + soften the skin and allow hair follicles to grow back cleanly.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "bed13875-ff8a-4eb2-9453-4b1d8f0f82d4": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "Before + Afters",
+        "html": "<center><h3> Real People,<br>\nReal Results.\n<\/h3><\/center><br><center><\/center>"
+      }
+    },
+    "26382e40-9b42-4fa6-8a72-e0f46bd12db6": {
+      "type": "image-carousel",
+      "blocks": {
+        "3b97289c-62f3-4be9-84ab-9b70f43d5fb4": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_1.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "24491e5f-2393-48b3-a7f3-aa2933d62973": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_and_After_-_Pina.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e0f38f3c-ef13-4516-86fa-a6c3b0be1ff1": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_2.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "fde2789e-4bfb-45df-b764-c66d47eed6b7": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spots_Bushbalm_Before_and_After_540x_cec0b6ce-a283-4b05-b83b-317aeca84ba2.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "7c6c681c-4056-41eb-a21c-b1023902eb04": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-And-After-Dark-Under-Arms-Dark-Spot-Oil_1080x1080_540x_c69f048a-ce8d-470d-b9f3-b492f2804c52.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "60316bba-c0d4-4421-8f54-ecef7e369ccd": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_and_After_Dark_Underarm_Treatment.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "3b97289c-62f3-4be9-84ab-9b70f43d5fb4",
+        "24491e5f-2393-48b3-a7f3-aa2933d62973",
+        "e0f38f3c-ef13-4516-86fa-a6c3b0be1ff1",
+        "fde2789e-4bfb-45df-b764-c66d47eed6b7",
+        "7c6c681c-4056-41eb-a21c-b1023902eb04",
+        "60316bba-c0d4-4421-8f54-ecef7e369ccd"
+      ],
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16600739501a37e1d5": {
+      "type": "featured-products",
+      "blocks": {
+        "ad2bbc51-9ab6-418f-a517-6d534df38e4c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Dark Spot Oil",
+            "copy": "Formulated to gently soften dark spots and brighten skin.",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Bermuda"
+          }
+        },
+        "754634be-9825-45f1-8032-d45ac9beb244": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "title": "2 Step Dark Spot Routine",
+            "copy": "Formulated with naturally derived ingredients to brighten, with a soft scent.",
+            "rating": 5,
+            "cta_text": "shop now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": "Top Seller"
+          }
+        },
+        "6ddff71e-5e15-4d06-a844-5731014984d7": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant",
+            "title": "Dark Spot Exfoliating Scrub",
+            "copy": "Natural sugar and botanical oils to exfoliate and brighten skin.",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/bermuda-dark-spot-exfoliant",
+            "badge_text": "Bermuda"
+          }
+        }
+      },
+      "block_order": [
+        "ad2bbc51-9ab6-418f-a517-6d534df38e4c",
+        "754634be-9825-45f1-8032-d45ac9beb244",
+        "6ddff71e-5e15-4d06-a844-5731014984d7"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1d577459-57d5-4ca8-9477-39bd34b141ef": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": ""
+      }
+    },
+    "35ab981f-994f-4237-80e8-6f3f7583acd3": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Bushbalm",
+        "headline": "Skincare, Everywhere",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Get Bikini Ready",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c99b8a00-7316-4162-9d6c-6c2d047d20f6",
+    "1fa37a1c-6aa1-4325-aa04-95e3ab3ca0b0",
+    "9ac09b0d-8676-45d6-8d3c-58191939464b",
+    "1689081867bec97044",
+    "40a0df0a-c113-4162-a1f2-61b55d1c32a7",
+    "471ac907-1d0c-4f88-b0a6-87e2dc7e390a",
+    "112154b8-8b3d-4172-bb8c-7e2f99f08e8c",
+    "d24a00e8-1564-4e05-982f-740167b5f964",
+    "abca2c3a-ef4c-4a14-956e-28859d71e68b",
+    "fd5e21b0-9a44-4113-bd44-9d1d03efce83",
+    "bed13875-ff8a-4eb2-9453-4b1d8f0f82d4",
+    "26382e40-9b42-4fa6-8a72-e0f46bd12db6",
+    "16600739501a37e1d5",
+    "1d577459-57d5-4ca8-9477-39bd34b141ef",
+    "35ab981f-994f-4237-80e8-6f3f7583acd3"
+  ]
+}

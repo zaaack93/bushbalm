@@ -1,0 +1,371 @@
+{
+  "sections": {
+    "intro": {
+      "type": "press-intro",
+      "settings": {
+        "title": "Press + Media",
+        "copy": "\"Bottom line these products work (and they look good while doing it)\". -Refinery29",
+        "contact_title": "Want to write about Bushbalm Skincare?",
+        "contact_copy": "<p>Contact us directly: david@mybushbalm.com<\/p>",
+        "cta_text": "",
+        "cta_link": "#",
+        "cta_target": false,
+        "image_desktop": "shopify:\/\/shop_images\/press-image-desktop.png",
+        "image_mobile": "shopify:\/\/shop_images\/press-image-mobile.png"
+      }
+    },
+    "highlights": {
+      "type": "press-highlights",
+      "blocks": {
+        "40cd3a1f-b821-4819-80f0-9854d59aa58a": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the Products Has Been Created to Take Care of Our Most Sensitive Areas That Have Been Largely Forgotten by Mainstream Beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/l-forbes.png",
+            "logo_height": 23,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "9bee0d67-9002-4e25-8a4f-639b70f4e933": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think Lusciously Scented Oil Blends and Scrubs Packed With Nourishing Ingredients Like Jojoba and Copaiba Oils”",
+            "logo": "shopify:\/\/shop_images\/l-chate.png",
+            "logo_height": 18,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#cca181",
+            "invert_logos": false
+          }
+        },
+        "f8b93e92-1ab7-4bb1-b0b9-6483996c98bd": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "title": "Elle",
+            "copy": "“The Irresistibly Creamy Formula Can Be Used Anywhere You Want a Little Extra Firming Action”",
+            "logo": "shopify:\/\/shop_images\/l-elle.png",
+            "logo_height": 28,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "a4d6a328-5b5a-4419-ad36-98ec12d1db78": {
+          "type": "testimonial",
+          "settings": {
+            "title": "BuzzFeed",
+            "copy": "“Their Result-Driven Collection of Products Targets Such Grievances as Ingrown Hair Revention, Dark Spot Treatment, and Razor Burn relief.”",
+            "logo": "shopify:\/\/shop_images\/l-buzz.png",
+            "logo_height": 19,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        }
+      },
+      "block_order": [
+        "40cd3a1f-b821-4819-80f0-9854d59aa58a",
+        "9bee0d67-9002-4e25-8a4f-639b70f4e933",
+        "f8b93e92-1ab7-4bb1-b0b9-6483996c98bd",
+        "a4d6a328-5b5a-4419-ad36-98ec12d1db78"
+      ],
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "grid": {
+      "type": "press-grid",
+      "blocks": {
+        "e7b50f38-7ec7-4f9c-9ddc-1d606bbbd853": {
+          "type": "press_item",
+          "settings": {
+            "title": "Beauty Independent",
+            "copy": "Bushbalm Brings Products For Every Body With A Bikini Line To Ulta Beauty - Beauty Independent",
+            "logo": "shopify:\/\/shop_images\/bi-logotype-full.svg",
+            "logo_height": 50,
+            "link": "https:\/\/www.beautyindependent.com\/bushbalm-brings-products-bikini-line-ulta-beauty\/"
+          }
+        },
+        "a12a343e-4878-4d0f-b69e-6ce0bc4dd8f2": {
+          "type": "press_item",
+          "settings": {
+            "title": "Refinery 29",
+            "copy": "The Oil & Exfoliant Combo That Saved My Bikini Line",
+            "logo": "shopify:\/\/shop_images\/Refinery29_logo.svg_1308ce41-a328-4e0d-9274-a916a29475bc.png",
+            "logo_height": 70,
+            "link": "https:\/\/www.refinery29.com\/en-ca\/bushbalm-review-bikini-line-ingrown-hairs"
+          }
+        },
+        "e912d0e3-d7a5-487e-980f-b1145a8f2360": {
+          "type": "press_item",
+          "settings": {
+            "title": "Oprah Daily",
+            "copy": "Best Bikini Trimmers and Electric Shavers for Women",
+            "logo": "shopify:\/\/shop_images\/Oprah_Logo.png",
+            "logo_height": 60,
+            "link": "https:\/\/www.oprahdaily.com\/beauty\/skin-makeup\/g31989667\/best-bikini-trimmer\/"
+          }
+        },
+        "d73c4243-f8e5-48f2-aee8-33bc731d2d2a": {
+          "type": "press_item",
+          "settings": {
+            "title": "Pop Sugar",
+            "copy": "This Device Makes Razor Burn a Thing of the Past",
+            "logo": "shopify:\/\/shop_images\/popsugar-vector-logo.png",
+            "logo_height": 150,
+            "link": "https:\/\/www.popsugar.com\/beauty\/bushbalm-francesca-trimmer-review-48800134"
+          }
+        },
+        "278e1f01-d030-4ba2-8e91-d332377783fb": {
+          "type": "press_item",
+          "disabled": true,
+          "settings": {
+            "title": "Buzzfeed",
+            "copy": "37 Products That Will Make You A Believer",
+            "logo": "shopify:\/\/shop_images\/Union.png",
+            "logo_height": 19,
+            "link": "https:\/\/www.buzzfeed.com\/daniellehealy\/products-make-you-believer"
+          }
+        },
+        "f8eeb9c9-8e53-47a8-88d4-0a22205f2851": {
+          "type": "press_item",
+          "disabled": true,
+          "settings": {
+            "title": "Elle",
+            "copy": "Best Electric Razors For Impossibly Smooth Skin",
+            "logo": "shopify:\/\/shop_images\/Elle_Logo.png",
+            "logo_height": 28,
+            "link": "https:\/\/www.elle.com\/beauty\/g37679585\/best-electric-razors-for-women\/"
+          }
+        },
+        "0df362c1-6c50-4047-b89d-de4680827a3c": {
+          "type": "press_item",
+          "settings": {
+            "title": "Real Simple",
+            "copy": "What Causes Dark Underarms—and How to Get Rid of It, According to Derms",
+            "logo": "shopify:\/\/shop_images\/real_simple_logo_4b3da285-da51-4477-b48c-c5779c4e8e1c.png",
+            "logo_height": 49,
+            "link": "https:\/\/www.realsimple.com\/beauty-fashion\/skincare\/how-to-get-rid-of-dark-underarms"
+          }
+        },
+        "3d1653b0-c915-4ce7-aa58-8d4519d33bae": {
+          "type": "press_item",
+          "settings": {
+            "title": "Beauty",
+            "copy": "I Got A Vajacial So You Don’t Have To",
+            "logo": "shopify:\/\/shop_images\/Refinery29_logo.svg_1308ce41-a328-4e0d-9274-a916a29475bc.webp",
+            "logo_height": 55,
+            "link": "https:\/\/www.refinery29.com\/en-us\/vajacial-treatment-steps-benefits-cost"
+          }
+        },
+        "bc1d9b61-4999-40e0-a1f7-db8653d3f426": {
+          "type": "press_item",
+          "settings": {
+            "title": "Bustle",
+            "copy": "The Best Ways To Get Rid Of & Prevent Red Bumps From Shaving, According To Dermatologists",
+            "logo": "shopify:\/\/shop_images\/Bustle_Logo.png",
+            "logo_height": 25,
+            "link": "https:\/\/www.bustle.com\/life\/best-ways-to-get-rid-of-prevent-red-bumps-from-shaving-according-to-dermatologists"
+          }
+        },
+        "8b9602a5-9fd1-439e-aa85-df7fa1a42dc7": {
+          "type": "press_item",
+          "settings": {
+            "title": "Harper's Bazaar",
+            "copy": "Supreme stress relievers",
+            "logo": "shopify:\/\/shop_images\/harpers-bazaar-logo-font-free-download-1200x675.jpg",
+            "logo_height": 130,
+            "link": "https:\/\/www.harpersbazaar.com\/fashion\/trends\/g37039475\/gifts-for-new-moms\/"
+          }
+        },
+        "d94a7bc1-00ff-46ea-863e-e229ea892745": {
+          "type": "press_item",
+          "settings": {
+            "title": "CNN",
+            "copy": "All the products you need to take care of your lockdown facial hair",
+            "logo": "shopify:\/\/shop_images\/Frame.png",
+            "logo_height": 31,
+            "link": "https:\/\/www.cnn.com\/2021\/03\/05\/cnn-underscored\/beard-products-canada\/index.html?fbclid=IwAR0TTYk6-IxRQhakyQEzGmf_Bmnh-fzEon4xbRJt2jlVm_BCDeYPY7kU_VY"
+          }
+        },
+        "fa4a7229-3da7-4607-a2e3-429ca7ca243d": {
+          "type": "press_item",
+          "settings": {
+            "title": "Forbes",
+            "copy": "Valentine's Day Gift Guide: The Best Skincare for Stress Relief",
+            "logo": "shopify:\/\/shop_images\/Union_30048e35-2e6d-4db3-b0c7-9a19074deaf5.png",
+            "logo_height": 23,
+            "link": "https:\/\/www.forbes.com\/sites\/annahaines\/2021\/02\/04\/valentines-day-gift-guide-the-best-skincare-for-stress-relief\/?sh=2b7674f02839"
+          }
+        },
+        "c3a175a0-e53c-49d3-aa67-f38a1a5de60a": {
+          "type": "press_item",
+          "settings": {
+            "title": "Today Show",
+            "copy": "Your underarms deserve some love — refresh your routine with these expert tips",
+            "logo": "shopify:\/\/shop_images\/today_show_logo.png",
+            "logo_height": 58,
+            "link": "https:\/\/www.today.com\/shop\/underarm-care-tips-t245408"
+          }
+        },
+        "d7a03c5a-d43e-4f53-981b-fae5fb7eeab4": {
+          "type": "press_item",
+          "settings": {
+            "title": "Buzzfeed",
+            "copy": "35 Products That'll Make You Say, \"Oh, Other People Have That Problem Too\"",
+            "logo": "shopify:\/\/shop_images\/Union.png",
+            "logo_height": 19,
+            "link": "https:\/\/www.buzzfeed.com\/katyherman\/problem-solving-products-small-specific-personal-problems"
+          }
+        },
+        "89b2e01a-187f-4f10-840e-7010b8e18a42": {
+          "type": "press_item",
+          "settings": {
+            "title": "Real Simple",
+            "copy": "Ask a Beauty Editor: The Best Products for Ingrown Hair",
+            "logo": "shopify:\/\/shop_images\/real_simple_logo_4b3da285-da51-4477-b48c-c5779c4e8e1c.png",
+            "logo_height": 55,
+            "link": "https:\/\/www.realsimple.com\/beauty-fashion\/skincare\/ingrown-hair-treatment"
+          }
+        },
+        "e4496262-d807-4102-b098-4c354174ff47": {
+          "type": "press_item",
+          "settings": {
+            "title": "SHAPE",
+            "copy": "This Bikini Trimmer Duo Saves My Sensitive Skin from Razor Bumps",
+            "logo": "shopify:\/\/shop_images\/SHAPE-Logo-1.png",
+            "logo_height": 29,
+            "link": "https:\/\/www.shape.com\/lifestyle\/beauty-style\/bushbalm-bikini-trimmer-shave-oil-review"
+          }
+        },
+        "d2605354-9428-4d25-bc95-c4e97866f9f2": {
+          "type": "press_item",
+          "settings": {
+            "title": "US Weekly",
+            "copy": "The Best Body Wash for Acne: Our 8 Favorite Picks",
+            "logo": "shopify:\/\/shop_images\/Untitled_design_22.png",
+            "logo_height": -9,
+            "link": "https:\/\/www.usmagazine.com\/shop-with-us\/news\/best-body-wash-for-acne\/"
+          }
+        },
+        "352bfbed-381a-4ac3-8ad6-0dafea4f80b7": {
+          "type": "press_item",
+          "settings": {
+            "title": "Mind Body Green",
+            "copy": "How To Get Rid Of Razor Bumps: Quick Derm-Approved Tips + Products Recs",
+            "logo": "shopify:\/\/shop_images\/Frame_4.png",
+            "logo_height": 41,
+            "link": "https:\/\/www.mindbodygreen.com\/articles\/how-to-get-rid-of-razor-bumps"
+          }
+        },
+        "b0733883-f693-4922-b557-a3884ae38cd6": {
+          "type": "press_item",
+          "settings": {
+            "title": "Byrdie",
+            "copy": "Stretch Marks 101: What Causes Them (and How to Treat Them, if You Want)",
+            "logo": "shopify:\/\/shop_images\/Screen_Shot_2023-01-04_at_1.01.48_PM.png",
+            "link": "https:\/\/www.byrdie.com\/what-causes-stretch-marks-6362419"
+          }
+        },
+        "7ad5fa32-f5f4-49db-8f99-a49be5f54b1d": {
+          "type": "press_item",
+          "settings": {
+            "title": "Marie Claire",
+            "copy": "Exactly How to Shave Your Legs, According to Experts",
+            "logo": "shopify:\/\/shop_images\/Screen_Shot_2023-01-04_at_1.12.26_PM.png",
+            "link": "https:\/\/www.marieclaire.com\/beauty\/a32731980\/how-to-shave-your-legs\/"
+          }
+        },
+        "1f30f10f-37dd-4470-9cdd-7bbc649ca73c": {
+          "type": "press_item",
+          "settings": {
+            "title": "Women's Health",
+            "copy": "It's Time To Upgrade To An Electric Razor For Your Legs",
+            "logo": "shopify:\/\/shop_images\/Screen_Shot_2023-01-04_at_1.11.47_PM.png",
+            "link": "https:\/\/www.womenshealthmag.com\/beauty\/g35032350\/best-electric-razor-for-women\/"
+          }
+        },
+        "9b4e5305-9b74-4dd2-b901-9a8a80f9cf28": {
+          "type": "press_item",
+          "disabled": true,
+          "settings": {
+            "title": "Cosmo",
+            "copy": "19 Best Bikini Trimmers and Razors for Smooth-as-Hell Skin",
+            "link": "https:\/\/www.cosmopolitan.com\/style-beauty\/beauty\/g32082297\/best-bikini-trimmers-razors\/"
+          }
+        },
+        "31e430d1-c33f-4903-bf03-86073a258ab8": {
+          "type": "press_item",
+          "settings": {
+            "title": "Well + Good",
+            "copy": "The Complete Guide to At-Home Vagina Facials, Your Secret Weapon for Preventing Ingrowns and Scarring",
+            "logo": "shopify:\/\/shop_images\/Screen_Shot_2023-01-04_at_1.15.12_PM_1.png",
+            "link": "https:\/\/www.wellandgood.com\/at-home-vagina-facial\/"
+          }
+        },
+        "fd7e8f35-2f7c-48b8-aeba-e4b117e3db67": {
+          "type": "press_item",
+          "settings": {
+            "title": "Allure",
+            "copy": "I Took TikTok's Advice and Started Shaving Down There With a Beard Trimmer",
+            "logo": "shopify:\/\/shop_images\/Screen_Shot_2023-01-04_at_1.19.53_PM.png",
+            "link": "https:\/\/www.allure.com\/story\/shaving-pubic-hair-with-beard-trimmer-review"
+          }
+        }
+      },
+      "block_order": [
+        "e7b50f38-7ec7-4f9c-9ddc-1d606bbbd853",
+        "a12a343e-4878-4d0f-b69e-6ce0bc4dd8f2",
+        "e912d0e3-d7a5-487e-980f-b1145a8f2360",
+        "d73c4243-f8e5-48f2-aee8-33bc731d2d2a",
+        "278e1f01-d030-4ba2-8e91-d332377783fb",
+        "f8eeb9c9-8e53-47a8-88d4-0a22205f2851",
+        "0df362c1-6c50-4047-b89d-de4680827a3c",
+        "3d1653b0-c915-4ce7-aa58-8d4519d33bae",
+        "bc1d9b61-4999-40e0-a1f7-db8653d3f426",
+        "8b9602a5-9fd1-439e-aa85-df7fa1a42dc7",
+        "d94a7bc1-00ff-46ea-863e-e229ea892745",
+        "fa4a7229-3da7-4607-a2e3-429ca7ca243d",
+        "c3a175a0-e53c-49d3-aa67-f38a1a5de60a",
+        "d7a03c5a-d43e-4f53-981b-fae5fb7eeab4",
+        "89b2e01a-187f-4f10-840e-7010b8e18a42",
+        "e4496262-d807-4102-b098-4c354174ff47",
+        "d2605354-9428-4d25-bc95-c4e97866f9f2",
+        "352bfbed-381a-4ac3-8ad6-0dafea4f80b7",
+        "b0733883-f693-4922-b557-a3884ae38cd6",
+        "7ad5fa32-f5f4-49db-8f99-a49be5f54b1d",
+        "1f30f10f-37dd-4470-9cdd-7bbc649ca73c",
+        "9b4e5305-9b74-4dd2-b901-9a8a80f9cf28",
+        "31e430d1-c33f-4903-bf03-86073a258ab8",
+        "fd7e8f35-2f7c-48b8-aeba-e4b117e3db67"
+      ],
+      "settings": {
+        "title": "All Press Mentions",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "highlights",
+    "grid"
+  ]
+}

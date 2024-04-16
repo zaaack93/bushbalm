@@ -1,0 +1,154 @@
+<script src="{{ 'testimonials.js' | asset_url }}" defer="defer"></script>
+{{ 'testimonials.css' | asset_url | stylesheet_tag }}
+
+<div class="testimonials" role="region" aria-label="Testimonials" data-testimonials>
+  <div class="testimonials__mobile-header large--hide">
+    <div class="wrapper">
+      <small class="ui-label">{{ section.settings.intro }}</small>
+
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="grid">
+      <div class="testimonials__carousel-wrapper grid__item large--7">
+        <div class="swiper-container" data-testimonials-carousel>
+          <div class="swiper-wrapper">
+            {% for i in (1..4) %}
+              {% for block in section.blocks %}
+                {% if forloop.first %}
+                  {% assign testimonial_content = block.settings.content %}
+                  {% assign testimonial_name = block.settings.name %}
+                  {% assign testimonial_product_image = block.settings.product_image %}
+                  {% assign testimonial_cta_text = block.settings.cta_text %}
+                  {% capture testimonial_cta_link %}/products/{{ block.settings.product }}{% endcapture %}
+                {% endif %}
+
+                <div class="swiper-slide"
+                  data-content="{{ block.settings.content }}"
+                  data-name="{{ block.settings.name }}"
+                  data-image="{{ block.settings.product_image | img_url: '544x544' }}"
+                  data-cta-text="{{ block.settings.cta_text }}"
+                  data-cta-link="/products/{{ block.settings.product }}"
+                >
+                  {% render 'responsive-image' with
+                    image: block.settings.image,
+                    max_width: 522,
+                    max_height: 783
+                  %}
+                </div>
+              {% endfor %}
+            {% endfor %}
+          </div>
+        </div>
+
+        <img class="testimonials__product-image lazyload" data-src="{{ testimonial_product_image | img_url: '544x544' }}" alt="{{ testimonial_cta_text }}" data-testimonial-image>
+      </div>
+
+      <div class="testimonials__content-wrapper grid__item large--5">
+        <div class="testimonials__content">
+          <small class="medium-down--hide ui-label">{{ section.settings.intro }}</small>
+
+          <h1 class="medium-down--hide">{{ section.settings.title }}</h1>
+
+          <button class="testimonials__control testimonials__control--prev"
+            aria-label="{{ 'general.accessibility.slider_prev' | t }}"
+            title="{{ 'general.accessibility.slider_prev' | t }}"
+            data-testimonials-carousel-prev
+          >
+            {% render 'icon-chevron-left' %}
+          </button>
+
+          <button class="testimonials__control testimonials__control--next"
+            aria-label="{{ 'general.accessibility.slider_next' | t }}"
+            title="{{ 'general.accessibility.slider_next' | t }}"
+            data-testimonials-carousel-next
+          >
+            {% render 'icon-chevron-right' %}
+          </button>
+
+          <p data-testimonial-content>
+            {{ testimonial_content }}
+          </p>
+
+          <span data-testimonial-name>
+            {{ testimonial_name }}
+          </span>
+
+          <a class="btn btn--full btn--chocolate" href="{{ testimonial_cta_link }}" title="{{ testimonial_cta_text }}" data-testimonial-cta>
+            {{ testimonial_cta_text }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "text",
+        "id": "intro",
+        "label": "Intro",
+        "default": "Reviews",
+        "info": "Recommended character limit: 20"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Testimonials",
+        "info": "Recommended character limit: 15"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "testimonial",
+        "name": "Testimonial",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "Dimensions 1044 x 1566"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Content",
+            "info": "Recommended character limit: 200"
+          },
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Name"
+          },
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          },
+          {
+            "type": "image_picker",
+            "id": "product_image",
+            "label": "Product Image",
+            "info": "Dimensions 544 x 544"
+          },
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA Text",
+            "info": "Recommended character limit: 25"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Testimonials"
+      }
+    ]
+  }
+{% endschema %}

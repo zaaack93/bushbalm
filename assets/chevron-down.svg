@@ -1,0 +1,6 @@
+<svg class="icon-chevron-down" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+  role="img" aria-labelledby="icon-chevron-down-title icon-chevron-down-desc">
+  <title id="icon-chevron-down-title">Chevron</title>
+  <desc id="icon-chevron-down-desc">Simple chevron pointing downwards</desc>
+  <path d="M18 10.125L12.375 16.375L6.75 10.125" stroke="#271710" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

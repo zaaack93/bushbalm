@@ -1,0 +1,354 @@
+{
+  "sections": {
+    "1643224628cc67ed9c": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Francesca_Trimmer_13f7bab2-df38-43a4-9367-c1f4e57b089c.png",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "image_offset": 0,
+        "preheading": "Coming Soon",
+        "heading": "International Shipping",
+        "copy": "<p>We're opening up international shipments shortly! Get on the waitlist, so you don't miss out. <\/p>",
+        "cta_link": "#",
+        "cta_text": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "16486717256ef02cb0": {
+      "type": "newsletter-signup",
+      "settings": {
+        "klaviyo_list_id": "VCb8U9",
+        "heading": "Join the waitlist!",
+        "subheading": "International Shipping",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1643225040d334f133": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#fbefe3",
+        "image_offset": true,
+        "image_mobile": "shopify:\/\/shop_images\/wwa-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/wwa-d.png",
+        "heading": "Who We Are",
+        "copy": "Bushbalm™ is a skincare brand that solves common skin challenges that aren't often talked about, and we're proud of it!\n[break]\nWe have an evolving natural skincare product line - specifically, but not limited to, targeting areas that are commonly ignored. Think bikini line, underarms, legs, tush, or anywhere else on the body that deserves extra care. \n[break]\nWhether you trim, groom, remove – or let your body hair grow our products were created to take care of your most sensitive areas while making sure you feel confident in your skin down there and everywhere with results that you will see and feel.\n[break]\nFace quality skincare. Targeted results. Everywhere.",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16432256850641a2a8": {
+      "type": "skin-dictionary",
+      "blocks": {
+        "a79eb6d5-1cba-4cbc-af48-3b7264fb3a66": {
+          "type": "faq",
+          "settings": {
+            "question": "Ingrown Hair & Razor Burn",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "5c3d04f6-298d-4a08-95d1-90cf3b76ae8c": {
+          "type": "faq",
+          "settings": {
+            "question": "Darks Spots & Hyperpigmentation",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "2facfda4-5e37-4218-b5e1-744d4cf6807e": {
+          "type": "faq",
+          "settings": {
+            "question": "Karatosis Pilaris",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "2a329af0-d593-4e9f-bd03-689013eb800c": {
+          "type": "faq",
+          "settings": {
+            "question": "Stretch Marks",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "a79eb6d5-1cba-4cbc-af48-3b7264fb3a66",
+        "5c3d04f6-298d-4a08-95d1-90cf3b76ae8c",
+        "2facfda4-5e37-4218-b5e1-744d4cf6807e",
+        "2a329af0-d593-4e9f-bd03-689013eb800c"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "heading": "Concerns We Tackle",
+        "copy": "",
+        "heading_faqs": "Without Harsh Chemicals",
+        "cta_link": "shopify:\/\/pages\/routines",
+        "cta_text": "Shop By Skin Concern",
+        "image_mobile": "shopify:\/\/shop_images\/cwt-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/cwt-d.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "1643227062199c206a": {
+      "type": "press-highlights",
+      "blocks": {
+        "a63bb45f-999a-4c79-9fa8-dbf2dd569d98": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the Products Has Been Created to Take Care of Our Most Sensitive Areas That Have Been Largely Forgotten by Mainstream Beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/l-forbes.png",
+            "logo_height": 23,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "8ea3e3aa-838d-416e-ba7d-c6a5ba9d92c2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think Lusciously Scented Oil Blends and Scrubs Packed With Nourishing Ingredients Like Jojoba and Copaiba Oils”",
+            "logo": "shopify:\/\/shop_images\/l-chate.png",
+            "logo_height": 18,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#cca181",
+            "invert_logos": false
+          }
+        },
+        "83f116c5-2ca2-4aa7-a526-e8ad929259af": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Elle",
+            "copy": "“The Irresistibly Creamy Formula Can Be Used Anywhere You Want a Little Extra Firming Action”",
+            "logo": "shopify:\/\/shop_images\/l-elle.png",
+            "logo_height": 28,
+            "bg_color": "#7a482a",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        },
+        "38761c5f-ccd6-4e6b-929b-0667dc4377d7": {
+          "type": "testimonial",
+          "settings": {
+            "title": "BuzzFeed",
+            "copy": "“Their Result-Driven Collection of Products Targets Such Grievances as Ingrown Hair Revention, Dark Spot Treatment, and Razor Burn relief.”",
+            "logo": "shopify:\/\/shop_images\/l-buzz.png",
+            "logo_height": 19,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "a63bb45f-999a-4c79-9fa8-dbf2dd569d98",
+        "8ea3e3aa-838d-416e-ba7d-c6a5ba9d92c2",
+        "83f116c5-2ca2-4aa7-a526-e8ad929259af",
+        "38761c5f-ccd6-4e6b-929b-0667dc4377d7"
+      ],
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1643227530af8868cd": {
+      "type": "featured-products",
+      "blocks": {
+        "20e2e2e7-7f62-47ef-9db0-775d4e05e516": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "title": "Nude Ingrown Oil",
+            "copy": "Soothes skin and ensures ingrown hairs, razor bumps and burns long gone!",
+            "rating": 5,
+            "cta_text": "Shop Nude Oil",
+            "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+            "badge_text": "Most Loved"
+          }
+        },
+        "0d1cd3e4-fa10-4ac7-9651-d1ce59dfa0f1": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda Dark Spot Oil",
+            "copy": "Naturally reduces the look of hyperpigmentation and dark spots found anywhere on the body.",
+            "rating": 5,
+            "cta_text": "Shop Burmuda Oil",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "On Sale"
+          }
+        },
+        "acb13798-6eb7-417b-b0cc-1231ae5cb551": {
+          "type": "featured_product",
+          "settings": {
+            "product": "tush-firming-cream",
+            "title": "Tush Firming Cream",
+            "copy": "A firming cream made to treat your body that will smoothen and soften the appearance of skin.",
+            "rating": 5,
+            "cta_text": "Shop Tush Cream",
+            "cta_link": "shopify:\/\/products\/tush-firming-cream",
+            "badge_text": "New Release"
+          }
+        }
+      },
+      "block_order": [
+        "20e2e2e7-7f62-47ef-9db0-775d4e05e516",
+        "0d1cd3e4-fa10-4ac7-9651-d1ce59dfa0f1",
+        "acb13798-6eb7-417b-b0cc-1231ae5cb551"
+      ],
+      "settings": {
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1643231464804f4a37": {
+      "type": "about-principles",
+      "disabled": true,
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/jd1.png",
+        "image_2": "shopify:\/\/shop_images\/jd2.png",
+        "alignment": "bottom",
+        "headline": "The Journey & Deal",
+        "subheading": "Founded in 2015. Ottawa's 2nd fastest growing company in 2020!",
+        "content": "The Bushbalm™ Team has grown from a founding couple to well over 10 staff. The team is located in Ottawa, Canada, but ships worldwide. After the Dragon's Den appearance Bushbalm™ has expanded its product line and brought on new team members. Additionally, you can now find Bushbalm™ products in Indigo and Urban Outfitters.",
+        "intro": "",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16432281468ed3be1f": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#fbefe3",
+        "padding": true,
+        "intro": "You Deserve It",
+        "headline": "Ready for smooth skin everywhere?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Start Shopping",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1643228162a4d0a82f": {
+      "type": "image-carousel",
+      "blocks": {
+        "a2534dc5-e313-4e5a-af86-f2f7820171aa": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-1.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "efa3f3c6-4901-420b-bf26-e0c8a5a39c35": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-2.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "59dfbaab-9ef1-4cbd-9660-1b25ddca1181": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-3.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "3d808b77-4b1f-4d0c-b6f6-1e9897376afc": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-4.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "0820af28-3ce4-4948-a735-7feaec220107": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-5.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "b4844ba4-f7e8-4d0c-be0e-a2b833b92565": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-6.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "a2534dc5-e313-4e5a-af86-f2f7820171aa",
+        "efa3f3c6-4901-420b-bf26-e0c8a5a39c35",
+        "59dfbaab-9ef1-4cbd-9660-1b25ddca1181",
+        "3d808b77-4b1f-4d0c-b6f6-1e9897376afc",
+        "0820af28-3ce4-4948-a735-7feaec220107",
+        "b4844ba4-f7e8-4d0c-be0e-a2b833b92565"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    }
+  },
+  "order": [
+    "1643224628cc67ed9c",
+    "16486717256ef02cb0",
+    "1643225040d334f133",
+    "16432256850641a2a8",
+    "1643227062199c206a",
+    "1643227530af8868cd",
+    "1643231464804f4a37",
+    "16432281468ed3be1f",
+    "1643228162a4d0a82f"
+  ]
+}

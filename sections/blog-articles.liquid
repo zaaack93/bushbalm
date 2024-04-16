@@ -1,0 +1,305 @@
+<script src="{{ 'blog-articles.js' | asset_url }}" defer="defer"></script>
+{{ 'blog-articles.css' | asset_url | stylesheet_tag }}
+
+{% assign blog_carousel = nil %}
+
+{% paginate blog.articles by 8 %}
+  {% if paginate.current_page == 1 and section.settings.display_blog_carousel %}
+    {%- liquid
+      assign desktop_bg_image_1x = section.settings.hero_image_desktop | img_url: '1920x'
+      assign desktop_bg_image_2x = section.settings.hero_image_desktop | img_url: '3840x'
+      if blog.metafields.custom_fields.hero_image_desktop != blank
+        assign desktop_bg_image_1x = blog.metafields.custom_fields.hero_image_desktop | replace: '.jpg', '_1920x.jpg' | replace: '.png', '_1920x.png'
+        assign desktop_bg_image_2x = blog.metafields.custom_fields.hero_image_desktop | replace: '.jpg', '_3840x.jpg' | replace: '.png', '_3840x.png'
+      endif
+
+      assign mobile_bg_image_1x = section.settings.hero_image_mobile | img_url: '750x'
+      assign mobile_bg_image_2x = section.settings.hero_image_mobile | img_url: '1500x'
+      if blog.metafields.custom_fields.hero_image_mobile != blank
+        assign mobile_bg_image_1x = blog.metafields.custom_fields.hero_image_mobile | replace: '.jpg', '_750x.jpg' | replace: '.png', '_750x.png'
+        assign mobile_bg_image_2x = blog.metafields.custom_fields.hero_image_mobile | replace: '.jpg', '_1500x.jpg' | replace: '.png', '_1500x.png'
+      endif
+    -%}
+
+    {{ 'overlay-hero.css' | asset_url | stylesheet_tag }}
+
+    <div class="overlay-hero overlay-hero--{{ section.id }} lazyload{% if section.settings.display_overlay %} overlay-hero--overlay{% endif %}" role="region" aria-label="Hero"
+      data-bgset="{{ mobile_bg_image_1x }} 750w, {{ mobile_bg_image_2x }} 1500w [(max-width: 750px)] |
+      {{ desktop_bg_image_1x }} 1920w, {{ desktop_bg_image_1x }} 3840w"
+    >
+      <div class="overlay-hero__wrapper wrapper overlay-hero__wrapper--content-{{ section.settings.content_position_desktop }}">
+        <div class="overlay-hero__content overlay-hero__content--{{ section.settings.text_align_mobile }}">
+          <h1 class="overlay-hero__heading">{{ blog.metafields.custom_fields.hero_title | default: section.settings.hero_heading | newline_to_br }}</h1>
+          <p class="overlay-hero__copy">{{ blog.metafields.custom_fields.hero_copy | default: section.settings.hero_copy }}</p>
+          {% if section.settings.cta_text_hero != blank and section.settings.cta_url != blank %}
+            <a class="btn" href="{{ section.settings.cta_url }}">{{ section.settings.cta_text_hero }}</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  {% if paginate.current_page > 1 %}
+    {% assign blog_nav_class = 'medium-up--hide' %}
+  {% endif %}
+  {% render 'blog-nav' with link_list: section.settings.blog_menu, class: blog_nav_class %}
+
+  {% if paginate.current_page == 1 and section.settings.display_blog_carousel %}
+    {% if section.blocks.size > 0 %}
+      <script src="{{ 'image-link-carousel.js' | asset_url }}" defer="defer"></script>
+      {{ 'image-link-carousel.css' | asset_url | stylesheet_tag }}
+
+      {% capture blog_carousel %}
+        {% render 'image-link-carousel' with section: section %}
+      {% endcapture %}
+    {% endif %}
+  {% endif %}
+
+  <div class="blog-articles {% if paginate.current_page > 1 %}blog-articles--secondary{% endif %}">
+    <div class="blog-title-search wrapper">
+      <div class="blog-title-search__row">
+        {% if paginate.current_page > 1 %}
+          <h1 class="blog-title-search__title small--hide">
+            {{- 'blogs.article.all' | t -}}
+          </h1>
+        {% else %}
+          <h2 class="blog-title-search__title small--hide">
+            {{- 'blogs.article.all' | t -}}
+          </h2>
+        {% endif %}
+
+        {% assign placeholder = 'general.search.placeholder_blog' | t %}
+        {% render 'search-bar' with placeholder: placeholder, search_type: 'article' %}
+      </div>
+    </div>
+
+    {% if paginate.current_page == 1 and section.settings.display_featured_article %}
+      <div class="blog-articles__featured wrapper">
+        {% if blog.metafields.custom_fields["featured_article"] != blank %}
+          {% assign article_blog_handle = blog.metafields.custom_fields["featured_article"] | split: "." %}
+          {% for article in blogs[article_blog_handle[0]].articles %}
+            {% if article.handle contains article_blog_handle[1] %}
+              {% assign featured_article = article %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+
+          {% if featured_article != blank %}
+            {% render 'article-item' with
+              article: featured_article,
+              featured: true,
+              excerpt: featured_article.excerpt,
+              image: featured_article.image
+            %}
+          {% endif %}
+        {% else %}
+          {% render 'article-item' with
+            article: section.settings.featured_article,
+            featured: true,
+            excerpt: section.settings.featured_article_excerpt,
+            image: section.settings.featured_article_image
+          %}
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="article-grid article-grid--first wrapper">
+      {% for article in blog.articles %}
+        {% render 'article-item' with article: article %}
+
+        {% if blog_carousel != blank and paginate.current_page == 1 and forloop.index == 4 %}
+          </div>
+            {{ blog_carousel }}
+          <div class="article-grid article-grid--second wrapper">
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% if paginate.pages > 1 %}
+      {% render 'pagination', paginate: paginate %}
+    {% endif %}
+  </div>
+{% endpaginate %}
+
+{% schema %}
+  {
+    "name": "Blog Articles",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Hero",
+        "info": "Only displays on the first page of results. Settings can be overridden using metafields on each blog."
+      },
+      {
+        "type": "image_picker",
+        "id": "hero_image_desktop",
+        "label": "Image - Desktop",
+        "info": "3840 x 1396"
+      },
+      {
+        "type": "image_picker",
+        "id": "hero_image_mobile",
+        "label": "Image - Mobile",
+        "info": "750 x 554"
+      },
+      {
+        "type": "textarea",
+        "id": "hero_heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "hero_copy",
+        "label": "Copy"
+      },
+      {
+        "type": "text",
+        "id": "cta_text_hero",
+        "label": "CTA Text",
+        "info": "Recommended character limit: 15"
+      },
+      {
+        "type": "url",
+        "id": "cta_url",
+        "label": "CTA URL"
+      },
+      {
+        "type": "select",
+        "id": "text_align_mobile",
+        "label": "Text Align - Mobile",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "radio",
+        "id": "content_position_desktop",
+        "label": "Content Position - Desktop",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "display_overlay",
+        "label": "Display Overlay",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Blog Navigation",
+        "info": "Only displays on the first page of results"
+      },
+      {
+        "type": "link_list",
+        "id": "blog_menu",
+        "label": "Blog Menu"
+      },
+      {
+        "type": "header",
+        "content": "Featured Article",
+        "info": "Only displays on the first page of results"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_featured_article",
+        "label": "Display Featured Article",
+        "default": true
+      },
+      {
+        "type": "article",
+        "id": "featured_article",
+        "label": "Featured Article",
+        "info": "Can be overridden using the \"Featured Article\" custom field"
+      },
+      {
+        "type": "image_picker",
+        "id": "featured_article_image",
+        "label": "Image",
+        "info": "1840 x 1220. Will use article image by default"
+      },
+      {
+        "type": "textarea",
+        "id": "featured_article_excerpt",
+        "label": "Will use article excerpt by default"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "default": "Read",
+        "info": "Recommended character limit: 15"
+      },
+      {
+        "type": "header",
+        "content": "Topic Carousel",
+        "info": "Only displays on the first page of results"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_blog_carousel",
+        "label": "Display Topic Carousel",
+        "info": "Will displays a carousel of image links after the first 4 blog articles",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "carousel_heading",
+        "label": "Topic Carousel Heading",
+        "default": "Articles by Topic"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "topic",
+        "name": "Topic",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "538 x 538"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "info": "Recommended character limit: 20"
+          },
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA Text",
+            "default": "View All",
+            "info": "Recommended character limit: 15"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link URL"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,184 @@
+<footer class="site-footer" role="contentinfo" aria-label="Site Footer">
+  <div class="site-footer__container">
+    <div class="site-footer__logo">
+      <a href="{{ routes.root_url }}" title="{{ shop.name }} Logo">
+        {% if section.settings.logo != blank %}
+          <img src="{{ section.settings.logo | img_url: '92x' }}" alt="{{ shop.name }} Logo">
+        {% else %}
+          {% render 'icon-bushbalm-logo' %}
+        {% endif %}
+      </a>
+    </div>
+    <div class="site-footer__links">
+      {% if section.settings.menu_collections != blank %}
+        <ul class="site-footer__menu site-footer__menu--collections">
+          {% for link in linklists[section.settings.menu_collections].links %}
+            <li><a class="footer-nav" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if section.settings.menu_links != blank %}
+        <ul class="site-footer__menu site-footer__menu--links">
+          {% for link in linklists[section.settings.menu_links].links %}
+            <li><a class="footer-nav" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <ul class="site-footer__menu site-footer__menu--social">
+        {% if section.settings.facebook_link != blank %}
+          <li>
+            <a class="footer-nav" href="{{ section.settings.facebook_link }}"
+              title="{{ 'general.accessibility.social_facebook_title' | t }}">
+              {{- 'general.accessibility.social_facebook' | t -}}
+            </a>
+          </li>
+        {% endif %}
+        {% if section.settings.instagram_link != blank %}
+          <li>
+            <a class="footer-nav" href="{{ section.settings.instagram_link }}"
+              title="{{ 'general.accessibility.social_ig_title' | t }}">
+              {{- 'general.accessibility.social_ig' | t -}}
+            </a>
+          </li>
+        {% endif %}
+        {% if section.settings.twitter_link != blank %}
+          <li>
+            <a class="footer-nav" href="{{ section.settings.twitter_link }}"
+              title="{{ 'general.accessibility.social_twitter_title' | t }}">
+              {{- 'general.accessibility.social_twitter' | t -}}
+            </a>
+          </li>
+        {% endif %}
+        {% if section.settings.tiktok_link != blank %}
+          <li>
+            <a class="footer-nav" href="{{ section.settings.tiktok_link }}"
+              title="{{ 'general.accessibility.social_tiktok_title' | t }}">
+              {{- 'general.accessibility.social_tiktok' | t -}}
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+    <div class="site-footer__legal">
+      {% if section.settings.menu_legal != blank %}
+        <ul class="site-footer__legal-links">
+          {% for link in linklists[section.settings.menu_legal].links %}
+            <li><a class="footer-nav" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+    {% if section.settings.klaviyo_list_id != blank %}
+      <div class="site-footer__newsletter">
+        {% if section.settings.newsletter_heading != blank %}
+          <h3>{{ section.settings.newsletter_heading }}</h3>
+        {% endif %}
+        {% if section.settings.newsletter_subheading != blank %}
+          <p>{{ section.settings.newsletter_subheading }}</p>
+        {% endif %}
+        {% render 'newsletter-form' with
+          list_id: section.settings.klaviyo_list_id
+        %}
+      </div>
+    {% endif %}
+    {% if section.settings.copyright != blank %}
+      <div class="site-footer__copyright">
+        <p>&copy;{{ 'now' | date: "%Y" }}&nbsp;{{ section.settings.copyright }}</p> <br>
+        {%- if shop.features.follow_on_shop? -%}
+          <div class="site-footer__item site-footer__item--one-half">
+            <div class="site-footer__item-inner">
+              {{ shop | login_button: action: 'follow' }}
+            </div>
+          </div>
+        {%- endif -%}
+      </div>
+    {% endif %}
+  </div>
+</footer>
+
+{% schema %}
+  {
+    "name": "Footer",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo",
+        "info": "(Optional - Replaces SVG Logo) Dimensions: 92 x 92"
+      },
+      {
+        "type": "textarea",
+        "id": "copyright",
+        "label": "Copyright Text",
+        "default": "Bushbalm. Site by Pointer",
+        "info": "Follows copyright and year (Example: ©2021)"
+      },
+      {
+        "type": "header",
+        "content": "Menus"
+      },
+      {
+        "type": "link_list",
+        "id": "menu_collections",
+        "label": "Collections Menu"
+      },
+      {
+        "type": "link_list",
+        "id": "menu_links",
+        "label": "Links Menu"
+      },
+      {
+        "type": "link_list",
+        "id": "menu_legal",
+        "label": "Legal Menu"
+      },
+      {
+        "type": "header",
+        "content": "Newsletter"
+      },
+      {
+        "type": "text",
+        "id": "newsletter_heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "newsletter_subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "text",
+        "id": "klaviyo_list_id",
+        "label": "Klaviyo List ID"
+      },
+      {
+        "type": "header",
+        "content": "Social Links"
+      },
+      {
+        "type": "url",
+        "id": "facebook_link",
+        "label": "Facebook URL"
+      },
+      {
+        "type": "url",
+        "id": "twitter_link",
+        "label": "Twitter URL"
+      },
+      {
+        "type": "url",
+        "id": "instagram_link",
+        "label": "Instagram URL"
+      },
+      {
+        "type": "url",
+        "id": "tiktok_link",
+        "label": "TikTok URL"
+      }
+    ]
+  }
+{% endschema %}

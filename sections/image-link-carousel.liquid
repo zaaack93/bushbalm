@@ -1,0 +1,53 @@
+<script src="{{ 'image-link-carousel.js' | asset_url }}" defer="defer"></script>
+{{ 'image-link-carousel.css' | asset_url | stylesheet_tag }}
+
+{% render 'image-link-carousel' with section: section %}
+
+{% schema %}
+  {
+    "name": "Image Link Carousel",
+    "settings": [
+      {
+        "type": "text",
+        "id": "carousel_heading",
+        "label": "Heading",
+        "default": "Articles by Topic"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "topic",
+        "name": "Image Link",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "538 x 538"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA Text",
+            "default": "View All"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image Link Carousel"
+      }
+    ]
+  }
+{% endschema %}

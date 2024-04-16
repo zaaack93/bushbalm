@@ -1,0 +1,362 @@
+<script data-cfasync="false" type="text/javascript">if (typeof Shopify === "undefined") var Shopify = {}; Shopify.cart = {{ cart | json }};</script> 
+<div id="sca-fg-owl-carousel">
+  <div id="freegift_cart_container" class="sca-fg-cart-container" style="display: none;">
+    <div id="freegift_message" class="owl-carousel"></div>
+  </div>
+  <div id="sca-fg-slider-cart" style="display: none;">
+    <div class="sca-fg-cart-title">
+      <strong>Select your free gift (s)</strong>
+    </div>
+    <div id="sca_freegift_list" class="owl-carousel"></div>
+  </div>
+</div>
+<div id="sca_fg_cart">
+{% if settings.ajaxcart == true and template == 'cart' %}
+  {% layout none %}
+  <script>
+    window.location.href = '{{ routes.root_url }}?cart_redirect';
+  </script>
+{% else %}
+  <div class="ajaxcart" role="region" aria-label="Cart" data-drawer="cart">
+    <div class="ajaxcart__header">
+      <h3>{{ 'cart.general.title' | t }}</h3>
+
+      {% if cart.item_count > 0 %}
+        <span class="ajaxcart__count">{{ 'cart.general.item_count' | t: count: cart.item_count }}</span>
+      {% endif %}
+
+      <button type="button" class="ajaxcart__close" aria-label="Close Cart" data-drawer-close>
+        {% render 'icon-close' %}
+      </button>
+    </div>
+
+    <div class="ajaxcart__content">
+      <div class="ajaxcart-tiers">
+        <ul class="ajaxcart-tiers__list">
+          {%- liquid
+            assign first_locked_block_index = nil
+            assign first_locked_block_spend_amount = 0
+            assign block_variant_ids = ''
+          -%}
+
+          {% for block in section.blocks %}
+            {%- assign block_spend_amount = block.settings.spend_amount | times: 100 -%}
+            {%- assign block_variant_id = block.settings.variant_id | default: all_products[block.settings.product].first_available_variant.id -%}
+            <li class="ajaxcart-tiers__tier ajaxcart-tiers__tier--{% if block_spend_amount > cart.total_price %}locked{% else %}active{% endif %}"
+              {% if block.type == 'reward_tier' %}
+                data-reward-tier
+                data-variant-id="{{ block_variant_id }}"
+                data-qualified="{% if block_spend_amount > cart.total_price %}true{% else %}false{% endif %}"
+              {% endif %}
+            >
+              {% render 'icon-tier-star' %}
+              {% render 'icon-tier-lock' %}
+              <span>{{ block.settings.progress_title }}</span>
+            </li>
+
+            {%- liquid
+              assign block_variant_ids = block_variant_ids | append: ',' | append: block_variant_id
+
+              if first_locked_block_index != blank
+                continue
+              endif
+
+              if block_spend_amount > cart.total_price
+                assign first_locked_block_index = forloop.index0
+              endif
+            -%}
+          {% endfor %}
+        </ul>
+
+        {%- liquid
+          assign first_locked_block_real_index = first_locked_block_index | plus: 0
+          assign block_size = section.blocks.size | append: '.0' | times: 1
+          assign tier_percentage_value = 1 | divided_by: block_size | times: 100
+          assign progress = first_locked_block_real_index | times: tier_percentage_value
+        -%}
+
+        <span class="visually-hidden">Rewards Progress: {{ progress }}%</span>
+        <div class="ajaxcart-rewards-progress" max="100" value="{{ progress }}" aria-hidden="true">
+          <span class="ajaxcart-rewards-progress__fill" style="width: {{ progress }}%;"></span>
+        </div>
+
+        {%- liquid
+          assign block_variant_ids = block_variant_ids | remove_first: ',' | split: ','
+          assign first_locked_block = section.blocks[first_locked_block_index]
+          assign first_locked_block_spend_amount = first_locked_block.settings.spend_amount | times: 100
+          assign amount_left = first_locked_block_spend_amount | minus: cart.total_price
+          assign amount_text = amount_left | money | append: '</strong>'
+        -%}
+
+        <p data-cart-tier-add-text><strong>{{ first_locked_block.settings.add_to_recieve_text | replace: '[amount]', amount_text }}</p>
+
+        {% for block in section.blocks %}
+          {%- liquid
+            assign block_product_variant_id = block.settings.variant_id | default: all_products[block.settings.product].first_available_variant.id | times: 1
+            assign matching_reward_items = cart.items | where: 'variant_id', block_product_variant_id
+          -%}
+          {% for cart_item in matching_reward_items %}
+            {%- if cart_item.properties._cart_reward == 'true' -%}
+              <div class="ajaxcart-reward-item">
+                <div class="ajaxcart-reward-item__image">
+                  {% render 'responsive-image' with
+                    image: cart_item.image,
+                    max_width: 85,
+                    max_height: 85,
+                    id_suffix: 'ajaxcart-reward'
+                  %}
+                </div>
+
+                <div class="ajaxcart-reward-item__content">
+                  <h4 class="ajaxcart-reward-item__title">{{ block.settings.cart_item_title }}</h4>
+                  <p class="ajaxcart-reward-item__copy">{{ block.settings.cart_item_desc }}</p>
+                </div>
+              </div>
+            {%- endif -%}
+          {% endfor %}
+        {% endfor %}
+      </div>
+
+      {% if cart.item_count > 0 %}
+        <div class="ajaxcart__items" role="region" data-line-item-count="{{ cart.items.size }}" data-ajaxcart-content aria="{{ 'general.accessibility.cart_items' | t }}">
+          {% for item in cart.items %}
+{% comment %}
+    LOOP SUBSCRIPTIONS (https://apps.shopify.com/loop-subscriptions)
+    DO NOT modify this source code because
+    It is automatically generated from LOOP SUBSCRIPTIONS BUNDLE DESIGN
+    If you need to make change, please contact the Loop support team
+    LOOP BUNDLE CODE STARTS
+{% endcomment %}
+    {% assign isBundleItem = false %}
+    {%- for property in item.properties -%}
+        {% if property.first == '_bundleId' %}
+            {% assign isBundleItem = true %}
+            {% break %}
+        {% endif %}
+    {%- endfor -%}
+    {% if isBundleItem == true %}
+        {% continue %}
+    {% endif %}
+{% comment %}
+    LOOP BUNDLE CODE ENDS
+{% endcomment %}
+            {%- if item.properties._cart_reward == 'true' -%}
+              {%- continue -%}
+            {%- endif -%}
+
+            <div class="cart-item" data-line-item-key="{{ item.key }}">
+              <a class="cart-item__image image-link" href="{{ item.url }}" title="{{ item.product.title }} - {{ item.line_price | money }}">
+                {% render 'responsive-image' with
+                  image: item.image,
+                  max_width: 85,
+                  max_height: 85,
+                  id_suffix: 'ajaxcart'
+                %}
+              </a>
+
+              <div class="cart-item__content">
+                <h4 class="ui-subtitle">
+                  <a href="{{ item.url }}" title="{{ item.product.title }} - {{ item.line_price | money }}">
+                    {{ item.product.title }}
+                  </a>
+                </h4>
+
+                {% unless item.product.has_only_default_variant %}
+                  <span>{{ item.variant.title }}</span>
+                {% endunless %}
+
+                {% assign property_size = item.properties | size %}
+                {% if property_size > 0 %}
+                  <small>
+                    {% for p in item.properties %}
+                      {% unless p.last == blank %}
+                        {{ p.first }}:
+                        {% if p.last contains '/uploads/' %}
+                          <a href="{{ p.last }}" title="{{ p.first }}">{{ p.last | split: '/' | last }}</a>
+                        {% else %}
+                          {{ p.last }}
+                        {% endif %}
+                        <br>
+                      {% endunless %}
+                    {% endfor %}
+                  </small>
+                {% endif %}
+
+                <div class="cart-item__content-footer">
+                  {% render 'quantity-selector', item: item %}
+
+                  {% if item.message and item.original_line_price > item.line_price %}
+                    <s data-line-item-original-price>{{ item.original_line_price | money }}</s>
+                    <span data-line-item-price>{{ item.line_price | money }}</span>
+                    <span>{{ item.message }}</span>
+                  {% else %}
+                    <span data-line-item-price>{{ item.line_price | money }}</span>
+                  {% endif %}
+                </div>
+              </div>
+
+              <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" title="{{ 'cart.general.remove' | t }} {{ item.product.title }}"
+                data-line-item-key="{{ item.key }}"
+                data-line-item-remove
+              >
+                {{ 'cart.general.remove' | t }}
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="ajaxcart__footer">
+          <p>{{ 'cart.general.subtotal' | t }}</p>
+
+          <p data-cart-subtotal>{{ cart.total_price | money }}</p>
+
+          <p>{{ 'cart.general.shipping_at_checkout' | t }}</p>
+
+          <a class="btn btn--full" href="/checkout" title="{{ 'cart.general.checkout' | t }}">{{ 'cart.general.checkout' | t }}</a>
+        </div>
+      {% else %}
+        <div class="ajaxcart__empty">
+          <h3>{{ section.settings.empty_title }}</h3>
+          {% if section.settings.empty_cta_text != blank %}
+            <a class="btn" href="{{ section.settings.empty_cta_url }}">{{ section.settings.empty_cta_text }}</a>
+          {% endif %}
+
+          {% if section.settings.empty_image != blank %}
+            {% render 'responsive-image' with
+              image: section.settings.empty_image,
+              max_width: 500,
+              max_height: 500
+            %}
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Cart",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "title",
+        "default": "Rewards"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA text"
+      },
+      {
+        "type": "url",
+        "id": "cta_url",
+        "label": "CTA URL"
+      },
+      {
+        "type": "header",
+        "content": "Empty Cart Settings"
+      },
+      {
+        "type": "textarea",
+        "id": "empty_title",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "empty_copy",
+        "label": "Copy"
+      },
+      {
+        "type": "text",
+        "id": "empty_cta_text",
+        "label": "CTA Text"
+      },
+      {
+        "type": "url",
+        "id": "empty_cta_url",
+        "label": "CTA URL"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image",
+        "info": "800 x 800"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "free_shipping_tier",
+        "name": "Free Shipping Tier",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "number",
+            "id": "spend_amount",
+            "label": "Spend Amount",
+            "info": "Cart total threshold to get free shipping. Format: 20"
+          },
+          {
+            "type": "text",
+            "id": "progress_title",
+            "label": "Title",
+            "default": "Free Shipping"
+          }
+        ]
+      },
+      {
+        "type": "reward_tier",
+        "name": "Reward Tier",
+        "limit": 3,
+        "settings": [
+          {
+            "type": "number",
+            "id": "spend_amount",
+            "label": "Spend Amount",
+            "info": "Cart total threshold to claim this rewards. Format: 20"
+          },
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          },
+          {
+            "type": "text",
+            "id": "variant_id",
+            "label": "Variant ID",
+            "info": "Optional. Product's first variant will be used by default"
+          },
+          {
+            "type": "text",
+            "id": "progress_title",
+            "label": "Progress Item Title"
+          },
+          {
+            "type": "textarea",
+            "id": "add_to_recieve_text",
+            "label": "Add to Recieve Text",
+            "info": "Example: Add [amount] to receive a free sample. [amount] will be replaced by the amount required to receive gift"
+          },
+          {
+            "type": "header",
+            "content": "Cart Item Settings",
+            "info": "Settings for item once added to cart"
+          },
+          {
+            "type": "text",
+            "id": "cart_item_title",
+            "label": "Cart Item Title",
+            "info": "Optional. Product Title will be used by default"
+          },
+          {
+            "type": "textarea",
+            "id": "cart_item_desc",
+            "label": "Cart Item Description"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+</div>

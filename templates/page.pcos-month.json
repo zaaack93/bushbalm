@@ -1,0 +1,536 @@
+{
+  "sections": {
+    "eac87ce7-267b-4fa5-afeb-735e111f8ca4": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Over 10 Million Women Are Affected By PCOS.",
+        "heading_tag": "h2",
+        "title_sizing": "title_large",
+        "subtitle": "Did You KNow",
+        "copy": "<p>View our routine essentials for helping with PCOS symptoms.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "",
+        "cta_link": "shopify:\/\/collections\/the-nude-collection",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/3_8e9cb9ad-58c9-4e90-aa81-628f7ad74933.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/3_8e9cb9ad-58c9-4e90-aa81-628f7ad74933.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 5000,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_b4f928f1-7c81-4ad7-a664-abe899803eb4.png",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "f786d7ac-9bc6-4b11-9ba3-9725f008c462": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/logos_mobile.webp",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/Logs_desktop.webp",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "about-stats": {
+      "type": "about-stats",
+      "blocks": {
+        "258e72b7-232f-474e-a935-9dcc50cc0875": {
+          "type": "stat",
+          "settings": {
+            "intro": "PCOS Symptoms",
+            "number": "",
+            "content": "Common symptoms of PCOS include: darkened skin on the neck, groin, underarms or skin folds, as well as excessive hair growth in androgen-sensitive areas like face, breasts, lower back.",
+            "supporting_title": "",
+            "supporting_content": "",
+            "background_color": "#fde2da"
+          }
+        },
+        "00747eec-602a-4d48-b856-8d32f59bed7a": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "Our Mission",
+            "content": "<p>Common symptoms of PCOS include: <\/p><p>-darkened skin on the neck, groin, underarms or skin folds, <\/p><p>-as well as excessive hair growth in androgen-sensitive areas like face, breasts, lower back.<\/p>",
+            "logo_max_width": 100,
+            "background_color": "#c2d6ed"
+          }
+        }
+      },
+      "block_order": [
+        "258e72b7-232f-474e-a935-9dcc50cc0875",
+        "00747eec-602a-4d48-b856-8d32f59bed7a"
+      ],
+      "settings": {
+      }
+    },
+    "8310a097-5b6c-4e29-80f2-989f6eb262b2": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "background_full",
+        "hero_options_desktop": "background_png_overlay",
+        "title": "\"Holy Grail Products\"",
+        "heading_tag": "h1",
+        "title_sizing": "title_large",
+        "subtitle": "",
+        "copy": "<p>Meg Boggs shares how she shaves her face with PCOS.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "",
+        "cta_link": "shopify:\/\/collections\/the-nude-collection",
+        "position_desktop": "right",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8aade41a40344ad0927f9b77f27b3970.mp4",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8aade41a40344ad0927f9b77f27b3970.mp4",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_count": 0,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "0d7b7f8d-e916-4fc8-bd42-59ac3e1735da": {
+      "type": "content",
+      "blocks": {
+        "20331605-d57a-48e3-b90c-fa6789d32c7b": {
+          "type": "content_block",
+          "settings": {
+            "title": "Nude Ingrown Hair Scrub",
+            "copy": "Exfoliating before shaving is a must. Exfoliating the skin helps to remove dirt and dead skin cells which keeps your skin clean, and unclogs pores leading to a smoother, more painless shave.",
+            "icon": "shopify:\/\/shop_images\/Nude_Scrub.png"
+          }
+        },
+        "13985d67-9d9c-4ccd-8e29-af24ee9ffa6d": {
+          "type": "content_block",
+          "settings": {
+            "title": "Nude Ingrown Hair Oil",
+            "copy": "After your shave be sure to oil and moisturize the skin. By applying 2-3 pumps of oil, you are helping seal in moisture and protect skin from irritation, ingrown hairs, and razor burn.",
+            "icon": "shopify:\/\/shop_images\/Nude_Oil.png"
+          }
+        }
+      },
+      "block_order": [
+        "20331605-d57a-48e3-b90c-fa6789d32c7b",
+        "13985d67-9d9c-4ccd-8e29-af24ee9ffa6d"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_desktop": "shopify:\/\/shop_images\/meg_boggs.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "How to shave your body with PCOS",
+        "copy": "",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/routine-ingrown-treatment",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "about-intro": {
+      "type": "about-intro",
+      "blocks": {
+        "e5a5dda6-fc90-40ef-ab75-93918ab0089b": {
+          "type": "word",
+          "settings": {
+            "word": "stretch marks"
+          }
+        },
+        "6fa7ac5c-8c28-4ae5-a595-2763ada27d04": {
+          "type": "word",
+          "settings": {
+            "word": "dark spots"
+          }
+        },
+        "defa49f4-0f79-448c-94d8-06a9b00bf375": {
+          "type": "word",
+          "settings": {
+            "word": "ingrown hairs"
+          }
+        },
+        "a93ec1ad-bedc-4c15-8a9a-5b3819be2b2f": {
+          "type": "word",
+          "settings": {
+            "word": "razor burn"
+          }
+        },
+        "8b955326-bbc6-4051-9779-3bd31f8fcc63": {
+          "type": "word",
+          "settings": {
+            "word": "keratosis pilaris"
+          }
+        }
+      },
+      "block_order": [
+        "e5a5dda6-fc90-40ef-ab75-93918ab0089b",
+        "6fa7ac5c-8c28-4ae5-a595-2763ada27d04",
+        "defa49f4-0f79-448c-94d8-06a9b00bf375",
+        "a93ec1ad-bedc-4c15-8a9a-5b3819be2b2f",
+        "8b955326-bbc6-4051-9779-3bd31f8fcc63"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/meg_boggs.png",
+        "intro": "About us",
+        "headline": "Skincare,\nEverywhere",
+        "content": "No matter how niche of a skin concern, we're working on a solution.",
+        "static_word": "Think",
+        "speed_mobile": 700,
+        "delay_mobile": 1000,
+        "speed_desktop": 1000,
+        "delay_desktop": 2000
+      }
+    },
+    "e6b23531-a07b-4050-9c39-eea867045cf0": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "routine-ingrown-treatment",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p><\/p><p><\/p><p>✓ Hydrates skin <\/p><p>✓ Softens body hair <\/p><p>✓ Buffs away dead skin cells<\/p><p>✓ Unclogs pores and leaves skin hydrated + smooth<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "f680969f-5c2f-437a-be11-cbb6c3b55b99": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#fbf0e3",
+        "padding": true,
+        "intro": "",
+        "headline": "PCOS causes excessive hair growth on my face. I’ve learned the hard way that this routine is essential if I want to avoid ingrown hairs and razor burn. This is the best for literally any area you shave and not have to deal with the aftrermath.",
+        "subline": "@Meg.Boggs",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "shopify:\/\/collections\/the-nude-collection",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "10f100b3-9103-4c5f-8866-f632e4360713": {
+      "type": "home-hero-options",
+      "disabled": true,
+      "settings": {
+        "hero_options_mobile": "background_full",
+        "hero_options_desktop": "background_png_overlay",
+        "title": "\"Holy Grail Products\"",
+        "heading_tag": "h1",
+        "title_sizing": "title_large",
+        "subtitle": "",
+        "copy": "<p>Reish shares how she  treats her post-hair removal irritation.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "",
+        "cta_link": "shopify:\/\/collections\/the-nude-collection",
+        "position_desktop": "right",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/427bbdec2186432885cc516b05cd1e1a.mov",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/427bbdec2186432885cc516b05cd1e1a.mov",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_count": 0,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "8e369196-541d-44ca-b63a-2c1fc67689dc": {
+      "type": "featured-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "featured_collection": "the-nude-collection",
+        "background_color": "#ffffff",
+        "overwrite_heading": "PCOS Favourites",
+        "cta_url": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "d441d4b9-b6c7-40aa-9c57-9b26b1341b76": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/BEfore_After_PCOS_Hyperpigmentation_and_dark_spots.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/BEfore_After_PCOS_Hyperpigmentation_and_dark_spots.jpg",
+        "image_offset": 0,
+        "preheading": "Struggling with Hyperpigmentation?",
+        "heading": "Say Goodbye to Dark Spots",
+        "copy": "<p>Our line of dark spot products helps to reduce the appearance of dark spots seen on the body as a result of PCOS.<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "0b924278-adbe-438b-b1b8-b6dbf47f68ba": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "2-step-routine-hyperpigmentation-dark-spots",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p><\/p><p><\/p><p>✓ Hydrates skin <\/p><p>✓ Unclogs pores and leaves skin hydrated + smooth<\/p><p>✓ Lemon Peel Oil acts as a natural brightening agent<\/p><p><\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "b66d99a5-f901-4813-84c9-9b26b45ed7a4": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "be8952bd-1428-4a2d-ba44-456ee53ccc72": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "enable_sub_text": true
+          }
+        },
+        "fe3455e0-55c6-453c-9bef-ac1a9195a098": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "enable_sub_text": true
+          }
+        },
+        "544512ea-80da-4937-959d-f72d3d5cb6a1": {
+          "type": "featured_product",
+          "settings": {
+            "product": "routine-ingrown-treatment",
+            "enable_sub_text": true
+          }
+        },
+        "6d586bc2-c494-4450-bfc9-229fb022262c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "be8952bd-1428-4a2d-ba44-456ee53ccc72",
+        "fe3455e0-55c6-453c-9bef-ac1a9195a098",
+        "544512ea-80da-4937-959d-f72d3d5cb6a1",
+        "6d586bc2-c494-4450-bfc9-229fb022262c"
+      ],
+      "settings": {
+        "heading": "PCOS Favourites",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "about-story": {
+      "type": "about-story",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare-Pubic-Oil.jpg",
+        "background_color": "#fbf0e4",
+        "headline_1": "Who We Are",
+        "content_1": "<p>Bushbalm is a skincare brand that solves common skin challenges that aren't often talked about, and we're proud of it!<\/p><p><br\/><\/p><p>We have an evolving natural skincare product line - specifically, but not limited to, targeting areas that are commonly ignored. Think bikini line, underarms, legs, tush, or anywhere else on the body that deserves extra care.<\/p><p><br\/><\/p><p>Whether you trim, groom, remove – or let your body hair grow our products were created to take care of your most sensitive areas while making sure you feel confident in your skin down there and everywhere with results that you will see and feel.<\/p><p><br\/><\/p><p>Face quality skincare. Targeted results. Everywhere.<\/p>",
+        "headline_2": "Our Story",
+        "content_2": "<p>The idea behind Bushbalm was created by accident like many great ideas are. While on their honeymoon one of the founding couples was getting ready for a little cross-pollination when the husband put an oil down there to \"freshen up\", only to realize the skin benefits that could come of this unintentional discovery.<\/p><p><br\/><\/p><p>Fast forward a number of years and countless hours of research and Bushbalm is now taking face quality skincare to areas and skin concerns that have seemingly been ignored by the beauty industry. Think the likes of ingrown hairs, razor burn, dark spots, and more.<\/p><p><br\/><\/p><p>Since founding, Bushbalm has become The Skincare, Everywhere Company focused on providing natural products for your most frustrating skin concerns, wherever they are!<\/p>"
+      }
+    },
+    "9a0e8b9d-c386-4768-a014-7441c2a17554": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_boxed",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Gyno + Derm Approved",
+        "heading_tag": "h2",
+        "title_sizing": "title_large",
+        "subtitle": "",
+        "copy": "<p>We work with gynecologists and dermatologists to formulate best in class products that are effective and safe to use, everywhere.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Get Started",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Dr._Arumala_Gyno_Approved_afc64c74-ea21-45fa-8b3d-125dea2729da.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Dr._Arumala_Gyno_Approved_afc64c74-ea21-45fa-8b3d-125dea2729da.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "0f74d133-e2f2-43c3-8bd5-e3da052d1463": {
+      "type": "image-carousel",
+      "blocks": {
+        "31e7d4a3-5413-4e87-bd1a-dffa46917edd": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_c02dcb61-62f6-48be-8972-b8f7e0b508d7.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "11e6f32e-e14c-494f-bb85-13db3398d9ff": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_2_dbf54765-e4ee-494f-a26c-5bdb8766d2f7.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e58be457-b2ce-4652-8713-83e17b79523d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_JC_b66ed39a-3000-4113-9f01-cbda2bf08b81.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "852693c2-aa80-4fb9-b056-1c7e914d23eb": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_d1f0d20d-2007-49a1-a574-e70dbfebca94.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "494553fe-ba8c-43c9-9eff-74c94412a27d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_4.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "2b39f289-e3ff-4c0a-bc50-bf80795d6fc8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_1.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "31e7d4a3-5413-4e87-bd1a-dffa46917edd",
+        "11e6f32e-e14c-494f-bb85-13db3398d9ff",
+        "e58be457-b2ce-4652-8713-83e17b79523d",
+        "852693c2-aa80-4fb9-b056-1c7e914d23eb",
+        "494553fe-ba8c-43c9-9eff-74c94412a27d",
+        "2b39f289-e3ff-4c0a-bc50-bf80795d6fc8"
+      ],
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641492588c7c9e95d": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "What’s next",
+        "headline": "Ready to get started on your new skincare journey?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "SHOP our products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "Read Our Reviews",
+        "cta_2_link": "shopify:\/\/pages\/reviews",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "104px"
+      }
+    }
+  },
+  "order": [
+    "eac87ce7-267b-4fa5-afeb-735e111f8ca4",
+    "f786d7ac-9bc6-4b11-9ba3-9725f008c462",
+    "about-stats",
+    "8310a097-5b6c-4e29-80f2-989f6eb262b2",
+    "0d7b7f8d-e916-4fc8-bd42-59ac3e1735da",
+    "about-intro",
+    "e6b23531-a07b-4050-9c39-eea867045cf0",
+    "f680969f-5c2f-437a-be11-cbb6c3b55b99",
+    "10f100b3-9103-4c5f-8866-f632e4360713",
+    "8e369196-541d-44ca-b63a-2c1fc67689dc",
+    "d441d4b9-b6c7-40aa-9c57-9b26b1341b76",
+    "0b924278-adbe-438b-b1b8-b6dbf47f68ba",
+    "b66d99a5-f901-4813-84c9-9b26b45ed7a4",
+    "about-story",
+    "9a0e8b9d-c386-4768-a014-7441c2a17554",
+    "0f74d133-e2f2-43c3-8bd5-e3da052d1463",
+    "1641492588c7c9e95d"
+  ]
+}

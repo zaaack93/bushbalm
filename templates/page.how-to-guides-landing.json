@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "header": {
+      "type": "collection-landing-hero",
+      "settings": {
+        "heading": "How to Guides",
+        "copy": "Step by Step Instructions",
+        "bg_image_mobile": "shopify:\/\/shop_images\/routines-mobile-hero.jpg"
+      }
+    },
+    "1645127954515590b0": {
+      "type": "back-link",
+      "settings": {
+        "link_text": "Back to start here page",
+        "link_url": "shopify:\/\/pages\/start-here",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1637355745571a6ceb": {
+      "type": "cta-block-grid",
+      "blocks": {
+        "8730feeb-026a-4bc3-807c-429a572391c5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dry_Brushing_Guide_Example_654_x_482_px.jpg",
+            "heading": "How to Dry Brush",
+            "heading_mobile": "How to Dry Brush",
+            "copy": "",
+            "url": "shopify:\/\/pages\/how-to-dry-brush"
+          }
+        },
+        "d736c380-109b-444c-ba87-73ae349b84c8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trimming_1.jpg",
+            "heading": "How to use The Francesca Trimmer",
+            "heading_mobile": "How to use The Francesca",
+            "copy": "",
+            "url": "shopify:\/\/pages\/guide-francesca-trimmer"
+          }
+        },
+        "3b9ae99c-7e1a-42a2-9746-a742106ee4e9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Using_the_body_rock_by_bushbalm_pumice_stone.jpg",
+            "heading": "How to use The Body Rock",
+            "heading_mobile": "How to use The Body Rock",
+            "copy": "",
+            "url": "shopify:\/\/pages\/how-to-use-the-body-rock"
+          }
+        },
+        "a6b62731-c84e-4d6f-83fb-d3e313899d75": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hyperpigmentation_Routine.jpg",
+            "heading": "How to Combine Routines",
+            "heading_mobile": "How to Combine Routines",
+            "copy": "",
+            "url": "shopify:\/\/collections\/hyperpigmentation-routine"
+          }
+        },
+        "fcb72fee-f98f-4772-a0ac-6e8b9eb032b2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Keratosis_Pilaris_Routine_20a2f74f-2219-4a33-a19d-c10bd0ef0a6c.jpg",
+            "heading": "How to Clean Down There",
+            "heading_mobile": "How to Clean Down There",
+            "copy": "",
+            "url": "shopify:\/\/collections\/keratosis-pilaris-routine"
+          }
+        },
+        "3dcef7fa-c8bb-43ae-8dbb-166847ce03b6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stretch_Marks_d8d7b21b-a9d9-429a-8781-a6abaec3767b.jpg",
+            "heading": "View All Routines",
+            "heading_mobile": "View All Routines",
+            "copy": "",
+            "url": "shopify:\/\/pages\/routines"
+          }
+        }
+      },
+      "block_order": [
+        "8730feeb-026a-4bc3-807c-429a572391c5",
+        "d736c380-109b-444c-ba87-73ae349b84c8",
+        "3b9ae99c-7e1a-42a2-9746-a742106ee4e9",
+        "a6b62731-c84e-4d6f-83fb-d3e313899d75",
+        "fcb72fee-f98f-4772-a0ac-6e8b9eb032b2",
+        "3dcef7fa-c8bb-43ae-8dbb-166847ce03b6"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "1645127954515590b0",
+    "1637355745571a6ceb"
+  ]
+}

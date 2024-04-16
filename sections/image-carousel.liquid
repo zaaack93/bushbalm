@@ -1,0 +1,251 @@
+<script src="{{ 'image-carousel.js' | asset_url }}" defer="defer"></script>
+{{ 'image-carousel.css' | asset_url | stylesheet_tag }}
+
+<div class="image-carousel image-carousel--{{ section.id }}">
+  <div class="image-carousel__container swiper-container" data-image-carousel>
+    <div class="image-carousel__wrapper swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="image-carousel__block swiper-slide" data-image-carousel-slide>
+          {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}"
+              target="_blank"
+              class="image-carousel__block-link"
+              title="{{ block.settings.link_title | default: block.settings.link }}">
+          {% else %}
+            <div class="image-carousel__block-wrapper">
+          {% endif %}
+              {% render 'responsive-image' with
+                image: block.settings.image,
+                max_width: 680,
+                max_height: 680,
+                wrapper_class: 'image-carousel__image',
+                lazy_loading: true  <!-- Add lazy loading attribute -->
+              %}
+          {% if block.settings.link != blank %}
+            {% if block.settings.link_icon != blank %}
+              <div class="image-carousel__block-hover">
+                {% render 'responsive-image' with
+                  image: block.settings.link_icon,
+                  max_width: 128,
+                  max_height: 128,
+                  wrapper_class: 'image-carousel__block-hover-icon'
+                %}
+              </div>
+            {% endif %}
+            </a>
+          {% else %}
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="image-carousel__nav-wrapper">
+      <button class="image-carousel__nav image-carousel__nav--prev" data-image-carousel-nav-prev>
+        {% render 'icon-chevron-left' %}
+      </button>
+      <button class="image-carousel__nav image-carousel__nav--next" data-image-carousel-nav-next>
+        {% render 'icon-chevron-right' %}
+      </button>
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'image-carousel'
+%}
+
+{% schema %}
+  {
+    "name": "Image Carousel",
+    "blocks": [
+      {
+        "type": "image_block",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "Dimensions: 680 x 680"
+          },
+          {
+            "type": "header",
+            "content": "Optional"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "link_title",
+            "label": "Link Title",
+            "info": "For accessibility"
+          },
+          {
+            "type": "image_picker",
+            "id": "link_icon",
+            "label": "Link Icon",
+            "info": "Dimensions: 128 x 128"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image Carousel"
+      }
+    ]
+  }
+{% endschema %}

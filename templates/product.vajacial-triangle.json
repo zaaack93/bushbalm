@@ -1,0 +1,697 @@
+{
+  "sections": {
+    "5f0ea608-8768-413b-a291-fe40a7491848": {
+      "type": "promo-banner",
+      "blocks": {
+        "fe6d7b98-4d8e-41c0-b5a0-355df8fb8e75": {
+          "type": "single_image",
+          "disabled": true,
+          "settings": {
+            "single_image": "shopify:\/\/shop_images\/Merchandising_-_Free_Gifts_Headers_2_c763a388-f328-4a60-8de7-391ebd132517.png",
+            "single_image_width_mobile": 170,
+            "single_image_width_desktop": 250
+          }
+        },
+        "9b41fd03-eb89-43ca-9d72-8d69c085907c": {
+          "type": "promo_product_list",
+          "settings": {
+            "product_list": [
+              "the-body-rock",
+              "tush-cream-100ml"
+            ]
+          }
+        },
+        "8d682948-728b-4d80-8242-ca90edcbe33b": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>SPEND $75 GET Body Rock<\/p><p>SPEND $125 GET Body Rock + Tush Cream<\/p>"
+          }
+        },
+        "f2db4c90-728d-4e30-bf7e-fed5c60c0daf": {
+          "type": "promo_cta",
+          "disabled": true,
+          "settings": {
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "fe6d7b98-4d8e-41c0-b5a0-355df8fb8e75",
+        "9b41fd03-eb89-43ca-9d72-8d69c085907c",
+        "8d682948-728b-4d80-8242-ca90edcbe33b",
+        "f2db4c90-728d-4e30-bf7e-fed5c60c0daf"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#fde2da",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "49de2805-74bc-46f6-bb6b-0d475bc6ee94": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "Coming Soon",
+        "headline": "The First Ever Hydrogel Vajacial Mask",
+        "subline": "November 2nd, 2022",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "24px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "f3384692-df15-42ad-82b1-1ca4afae3c5c": {
+      "type": "newsletter-signup",
+      "disabled": true,
+      "settings": {
+        "klaviyo_list_id": "WjpuMv",
+        "heading": "Join the Waitlist",
+        "subheading": "Subscribe & Get Early Access",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "product",
+      "custom_css": [
+        ".ingredient-structure-container {margin-top: 15px; border: none;}",
+        ".button-container {display: flex; flex-direction: row; padding: 12px; background-color: #f8e2c9; justify-content: left; align-items: left;}",
+        ".ingredient-cta {font-family: \"Mont Regular\"; font-weight: bold; font-size: 15px; font-color: #271010; padding-left: 25px; padding-right: 35px;}"
+      ],
+      "settings": {
+        "enable_paybright_widget": false,
+        "promo_banner_enable": true,
+        "promo_banner_always": true,
+        "promo_banner_klaviyo": "https:\/\/bushbalm.com\/pages\/wholesale-application",
+        "promo_banner_discount": 15,
+        "promo_banner_text": "Are you a waxing salon or retail store? <br>Want to carry the vajacial?",
+        "promo_banner_cta": "Apply Today",
+        "product_form_enable": true,
+        "product_details_enable": true,
+        "info_accordion_enable": true,
+        "product_icons_enable": false,
+        "product_video_enable": true,
+        "ingredients_accordion_enable": true,
+        "ingredients_accordion_view": "View Full Ingredients",
+        "ingredients_accordion_hide": "Hide Full Ingredients ",
+        "bundle_upsells_enable": false,
+        "bundle_upsells_heading": "Save with Bundles",
+        "checkout_buttons": false,
+        "hide_before_and_after_images": true
+      }
+    },
+    "cca0284e-e269-4c6e-b8ce-b3e1cb57bff9": {
+      "type": "image-carousel",
+      "blocks": {
+        "c9e5a159-001d-480a-a126-7b4a44c29b5a": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vajacial-Selfie-_mrvmrc_-NR.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "dc436dec-5dfc-4008-972c-4a5e089f728b": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BushBalm_Static_photo_2_1.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "dc114c61-de9d-42e1-aa85-e9045e99dcd3": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_CFB235556AC7-1.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "36cca2cb-9f64-473d-bb82-6d5948da91dd": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BushBalm_Static_photo_3_1.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "ab9f68b8-a605-40fd-9e8e-2b5ccb0ded79": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-22_at_1.23.10_PM.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cc8acf1b-2448-44dc-b1b3-800046c999ff": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vajacial-BL-_sdesilvaa-NR.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "234821f2-4620-47d5-8b70-1e1f0da712b8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_5017aff3-24a4-4600-8b83-24627f1134d7.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "7d6722e7-7dc2-4a82-b81f-e2993d290362": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_ba968ba9-bd98-4828-a935-65c57cab23dc.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "01d70db4-ed91-4a4e-aad9-35af87db3916": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_79f24926-b919-4f87-b02e-fcb0d4d2b838.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "a1117542-324d-421d-840b-a4731b9eef19": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_f9d25131-164c-42b3-b6fa-92d8743de9c4.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "70c6e0a7-333b-4b00-8ac0-e491611e5d5a": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11_f2894ead-1379-4762-8b06-aae545883770.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "202b290c-16d2-4701-9e69-608c3fcafc2e": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "c1bc18e3-cfbe-447e-888b-24deba35a105": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "8749b852-e90f-4d1e-96d3-c571bad29d0b": {
+          "type": "image_block",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "c9e5a159-001d-480a-a126-7b4a44c29b5a",
+        "dc436dec-5dfc-4008-972c-4a5e089f728b",
+        "dc114c61-de9d-42e1-aa85-e9045e99dcd3",
+        "36cca2cb-9f64-473d-bb82-6d5948da91dd",
+        "ab9f68b8-a605-40fd-9e8e-2b5ccb0ded79",
+        "cc8acf1b-2448-44dc-b1b3-800046c999ff",
+        "234821f2-4620-47d5-8b70-1e1f0da712b8",
+        "7d6722e7-7dc2-4a82-b81f-e2993d290362",
+        "01d70db4-ed91-4a4e-aad9-35af87db3916",
+        "a1117542-324d-421d-840b-a4731b9eef19",
+        "70c6e0a7-333b-4b00-8ac0-e491611e5d5a",
+        "202b290c-16d2-4701-9e69-608c3fcafc2e",
+        "c1bc18e3-cfbe-447e-888b-24deba35a105",
+        "8749b852-e90f-4d1e-96d3-c571bad29d0b"
+      ],
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "f5e40631-f12f-4c35-8def-04ae6254d855": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Hydrogel_Vajacial_Mask_At_Home_2.png",
+        "image_desktop": "shopify:\/\/shop_images\/Hydrogel_Vajacial_Mask_At_Home_2.png",
+        "heading": "Our #1 solution for irritated skin on the bikini line caused by hair removal",
+        "copy": "This revolutionary mask works to cool and soothe the skin post-hair removal to help stop irritation and ingrown hairs in their tracks.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "cdb7da2e-1fde-4b22-91f8-ae115a607be0": {
+      "type": "product-stats",
+      "disabled": true,
+      "settings": {
+        "stats_ba_image": "shopify:\/\/shop_images\/vajacial_results_badge.jpg",
+        "stats_ba_image_pills": true,
+        "stats_preheading": "Insant Results",
+        "stats_heading": "Experience results from the hydrogel vajacial mask in as little as 10 minutes.",
+        "stats_subtext": "",
+        "stat_percentage_1": "",
+        "stat_copy_1": "",
+        "stat_percentage_2": "",
+        "stat_copy_2": "",
+        "stat_percentage_3": "",
+        "stat_copy_3": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "2217558a-706c-4e64-acc6-aeaf425e0cd0": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_654_x_482_px.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_654_x_482_px.jpg",
+        "image_offset": 0,
+        "preheading": "After just 10 minutes",
+        "heading": "Instant Hydration",
+        "copy": "<p>Experience the Vajacial Results for Yourself<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "abe2e9ab-d6ec-451e-a5e8-28c826f450cc": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/vajacial_results_badge.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/vajacial_results_badge.jpg",
+        "heading": "Instant hydration",
+        "copy": "Experience results in as little as 10 minutes. Our Hydrogel Vajacial Mask will leave you relaxed and hydrated.\n\n[break] \n\nThe following before and after was done in a waxing salon immediately after a brazilian wax.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1640358772a04f298c": {
+      "type": "product-testimonial",
+      "settings": {
+        "testimonial_heading": "Hype for Hydrogel",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1640360910f458615c": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "reviews_heading": "Customer Reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664207448eb27e55e": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "0cbc2c1e-1274-4d29-94b0-b7f56898854e": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "enable_sub_text": false
+          }
+        },
+        "92697d93-3d30-45da-baf0-2f74fc14bee1": {
+          "type": "featured_product",
+          "settings": {
+            "product": "trim-treat-bundle",
+            "enable_sub_text": false
+          }
+        },
+        "a4b7a087-56fb-4df2-b7c0-5080b341b962": {
+          "type": "featured_product",
+          "settings": {
+            "product": "3-step-routine-ingrown-hair-razor-burn-prevention",
+            "enable_sub_text": false
+          }
+        },
+        "ea2a190a-e34b-4622-b1af-6e8b1f02aa6d": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-keratosis-pilaris-bump-eraser",
+            "enable_sub_text": false
+          }
+        }
+      },
+      "block_order": [
+        "0cbc2c1e-1274-4d29-94b0-b7f56898854e",
+        "92697d93-3d30-45da-baf0-2f74fc14bee1",
+        "a4b7a087-56fb-4df2-b7c0-5080b341b962",
+        "ea2a190a-e34b-4622-b1af-6e8b1f02aa6d"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Top Bundles",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "e00ea78c-23db-42e1-8ed0-dc76ca504ba2": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Assests.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Assests.jpg",
+        "heading": "A new level of selfcare, down there",
+        "copy": "Experience the luxury of a vajacial mask from the comfort of your own home. Unwind, relax and have the smoothest bikini line on the block.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "fc25a412-e15a-402a-9d0c-660eb1557250": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Hydrogel_Mask_by_Bushbalm.png",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Hydrogel_Mask_by_Bushbalm.png",
+        "heading": "This is no ordinary sheet mask —  meet hydrogel",
+        "copy": "This unique mask is made from a hydrogel material that contours to the body to lock in moisture and transfer the serum deep into the skin. [break]\nIt has an instant cooling and soothing sensation – leaving you cool, calm, and collected within seconds of application!",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "2358f1cb-2340-4277-8bf3-0e357b351d59": {
+      "type": "press-grid",
+      "blocks": {
+        "2abb06dd-a32b-4886-afcb-44ef4332b397": {
+          "type": "press_item",
+          "settings": {
+            "title": "",
+            "copy": "“My bikini line skincare routine is just as elaborate as my face now.”",
+            "logo": "shopify:\/\/shop_images\/1_746f1b0c-dfe3-463d-a411-5de94f1c14a2.jpg",
+            "logo_height": 80,
+            "link": ""
+          }
+        },
+        "2f269add-22c7-4249-81ea-4191eac6d1a9": {
+          "type": "press_item",
+          "settings": {
+            "title": "",
+            "copy": "“Obsessed with hyaluronic acid and how hydrated it leaves my skin.”",
+            "logo": "shopify:\/\/shop_images\/2_ac7e9b9c-e768-490a-a230-5d9ce1b5e4a2.jpg",
+            "logo_height": 80,
+            "link": ""
+          }
+        },
+        "aeb0487e-efba-4e9b-9851-e67e2af97cba": {
+          "type": "press_item",
+          "settings": {
+            "title": "",
+            "copy": "“I’m shocked at how cooling it feels!”",
+            "logo": "shopify:\/\/shop_images\/3_f8f34eb2-8662-45ad-841a-717af1ad60b3.jpg",
+            "logo_height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2abb06dd-a32b-4886-afcb-44ef4332b397",
+        "2f269add-22c7-4249-81ea-4191eac6d1a9",
+        "aeb0487e-efba-4e9b-9851-e67e2af97cba"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "What People Are Saying",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "simple_html_XM83zT": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<div style=\"display: block !important;\">\n\t  <script type=\"module\">\n\t\t\/\/ container query polyfill\n\t\tif (!(\"container\" in document.documentElement.style)) {\n\t\t  import(\"https:\/\/unpkg.com\/container-query-polyfill@^0.2.0\");\n\t\t}\n\t  <\/script>\n\t  <script src=\"https:\/\/shoppables.archive.com\/ugc_feed.js\" defer type=\"module\"><\/script>\n\t  <link rel=\"preload stylesheet\" href=\"https:\/\/shoppables.archive.com\/ugc_feed.css\" as=\"style\">\n  \n\t  <div data-widget-host=\"habitat-static-feed\" style=\"display: block !important;\">\n\t\t<script type=\"text\/props\">\n\t\t{\n\t\t\t\"feedId\": \"a20b6313-8abf-46f1-98f7-c060224d3727\",\n\t\t\t\"platformType\": \"standalone\"\n\t\t}\n\t\t<\/script>\n\t  <\/div>\n\t<\/div>"
+      }
+    },
+    "1664972751c88bdf85": {
+      "type": "apps",
+      "blocks": {
+        "e261c49a-22ca-493d-881b-454670f9f10c": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "e261c49a-22ca-493d-881b-454670f9f10c"
+      ],
+      "settings": {
+      }
+    },
+    "1640359527307f5762": {
+      "type": "product-faqs",
+      "settings": {
+        "faqs_heading": "Frequently Asked Questions",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1640359978313819a2": {
+      "type": "product-stats",
+      "disabled": true,
+      "settings": {
+        "stats_ba_image": "shopify:\/\/shop_images\/Ingrown-hair-oil-before-and-after-photo_38fbccff-0437-4503-9b70-ce588e805c81.jpg",
+        "stats_ba_image_pills": true,
+        "stats_preheading": "Skin Concerns",
+        "stats_heading": "You aren't alone!",
+        "stats_subtext": "*Based on data from our 2021 Annual Customer Survey",
+        "stat_percentage_1": "94%",
+        "stat_copy_1": "Say they are actively struggling with ingrown hairs.",
+        "stat_percentage_2": "56%",
+        "stat_copy_2": "Say they are actively struggling with dark spots and hyperpigmentation.",
+        "stat_percentage_3": "54%",
+        "stat_copy_3": "Say they are actively struggling with razor burn.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "1659987476c8281db6": {
+      "type": "image-carousel",
+      "blocks": {
+        "afc8d4a2-477a-44a4-bf6b-c252c4f32167": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_and_after_using_Bushbalm_Skincare_Before_and_After.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "364a5d24-9607-4738-b64d-844257b34e53": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "909e6fe1-645a-48e1-911c-aa120614775f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cdc841a6-a9f6-4215-88df-f656418eb247": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "14380d9e-487c-42ac-82b8-bae00e792d65": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_c3c4193a-4ba4-40b2-aae5-2a9db386da87.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "b0313340-0c96-4c87-a965-d58225d4815b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_IC.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "afc8d4a2-477a-44a4-bf6b-c252c4f32167",
+        "364a5d24-9607-4738-b64d-844257b34e53",
+        "909e6fe1-645a-48e1-911c-aa120614775f",
+        "cdc841a6-a9f6-4215-88df-f656418eb247",
+        "14380d9e-487c-42ac-82b8-bae00e792d65",
+        "b0313340-0c96-4c87-a965-d58225d4815b"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "24px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664412132ebad910f": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "150355a8-dba8-4528-9214-99dc265317f9": {
+          "type": "topic",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bikini_Trimmer_2.jpg",
+            "heading": "Bikini Trimmers",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/the-francesca-trimmer"
+          }
+        },
+        "3fb09787-14ba-4baf-9c56-c941477318a5": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spots_ed66b255-6d91-45d3-a079-394a2ce6b911.jpg",
+            "heading": "Dark Spots",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "b5af7a62-a831-454b-b260-d4fb9f9daa7b": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Razor_Burn_e26482a4-ab5f-4606-ab67-6f817764986d.jpg",
+            "heading": "Razor Burn",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "26d01d96-df9c-4e8f-8930-1dcec1afaf33": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hairs_e1e2de45-ce47-45ac-bd26-9782a93abfad.jpg",
+            "heading": "Ingrown Hairs",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        }
+      },
+      "block_order": [
+        "150355a8-dba8-4528-9214-99dc265317f9",
+        "3fb09787-14ba-4baf-9c56-c941477318a5",
+        "b5af7a62-a831-454b-b260-d4fb9f9daa7b",
+        "26d01d96-df9c-4e8f-8930-1dcec1afaf33"
+      ],
+      "settings": {
+        "carousel_heading": "Top Collections"
+      }
+    }
+  },
+  "order": [
+    "5f0ea608-8768-413b-a291-fe40a7491848",
+    "49de2805-74bc-46f6-bb6b-0d475bc6ee94",
+    "f3384692-df15-42ad-82b1-1ca4afae3c5c",
+    "main",
+    "cca0284e-e269-4c6e-b8ce-b3e1cb57bff9",
+    "f5e40631-f12f-4c35-8def-04ae6254d855",
+    "cdb7da2e-1fde-4b22-91f8-ae115a607be0",
+    "2217558a-706c-4e64-acc6-aeaf425e0cd0",
+    "abe2e9ab-d6ec-451e-a5e8-28c826f450cc",
+    "1640358772a04f298c",
+    "1640360910f458615c",
+    "1664207448eb27e55e",
+    "e00ea78c-23db-42e1-8ed0-dc76ca504ba2",
+    "fc25a412-e15a-402a-9d0c-660eb1557250",
+    "2358f1cb-2340-4277-8bf3-0e357b351d59",
+    "simple_html_XM83zT",
+    "1664972751c88bdf85",
+    "1640359527307f5762",
+    "1640359978313819a2",
+    "1659987476c8281db6",
+    "1664412132ebad910f"
+  ]
+}

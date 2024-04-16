@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "164678882466993697": {
+      "type": "overlay-hero",
+      "settings": {
+        "heading": "Need a hand?",
+        "use_h1": false,
+        "copy": "Take our quiz and learn the best products for your skin and routine. \n\n <br>\n↓",
+        "cta_text": "",
+        "cta_url": "",
+        "image_desktop": "shopify:\/\/shop_images\/Bikini_line.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Bikini_line.jpg",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": true
+      }
+    },
+    "main": {
+      "type": "quiz",
+      "settings": {
+        "heading": "Quiz",
+        "quiz_code": "<div class=\"octane-ai-quiz \" data-quiz-id=\"ftnPPwxP42dmswNf\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/euqkhkdccgflmqpl\/quiz.js\" async=\"\" defer><\/script>"
+      }
+    }
+  },
+  "order": [
+    "164678882466993697",
+    "main"
+  ]
+}

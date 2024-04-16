@@ -1,0 +1,368 @@
+{
+  "sections": {
+    "05329e6f-1b47-4ea6-9689-6d0b81b3394f": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Intimate Refreshing Wipes",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "Introducing",
+        "copy": "<p>Perfectly designed for those on the go. Simply wipe and dispose!<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "BUY WIPES",
+        "cta_link": "shopify:\/\/products\/intimate-refreshing-wipes",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Intimate_Wipes.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Intimate_Wipes.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 5000,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_de418c45-596c-4219-bd6b-3f6b79140609.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "bcf204f5-ca09-4240-9b48-9059fc7c4bcc": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/logos_mobile.webp",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/Logs_desktop_5e54f003-eb7e-4b1d-983c-6c1dd6f36b80.webp",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164321795572cec49d": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "Featured",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "4aa80c47-f71f-440c-82a8-adf5d7f463d7": {
+      "type": "content",
+      "blocks": {
+        "1d803b0a-f74c-4487-bb7a-aca361872b30": {
+          "type": "content_block",
+          "settings": {
+            "title": "",
+            "copy": ""
+          }
+        }
+      },
+      "block_order": [
+        "1d803b0a-f74c-4487-bb7a-aca361872b30"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Cleansing_Wipes_Pack_Bushbalm.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Cleansing_Wipes_Pack_Bushbalm.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Refresh + Reset",
+        "copy": "At Bushbalm we believe your bikini line deserves best-in-class skincare too.<br><br>\n\nWe've created a product that will instantly clean and refresh your skin. \n<br><br>\nEach pack comes with 15 individually packaged wipes, so you can be squeaky clean at any time.",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/intimate-refreshing-wipes",
+        "cta_text": "LEARN MORE",
+        "cta_alignment": "left",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "4266c316-05a4-45a2-b3b8-f458a0c6b465": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "intimate-refreshing-wipes",
+        "overwrite_heading": "<p>Intimate Refreshing Wipes<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>The flushable wipes are designed for your most intimate areas. They help to cleanse and refresh skin while relieving redness after hair removal, or physical activity. <\/p><p><\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "1643221181db6483e9": {
+      "type": "image-carousel",
+      "blocks": {
+        "ef15cb8d-a558-4956-b5c6-e7dbbc47abd6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-1.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "88fdf03d-5cbb-4758-84f3-5e2d92daea53": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-2.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "d21cc781-bf7d-4518-a1ed-0807b4f8f57b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-3.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "f911fcf7-fdab-427e-aee5-c381ccac6db3": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-4.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "54ca8922-4304-4358-a5b2-54702da0d5e2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-5.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "2ea3669b-1c52-485e-bca8-b6d19c3d49d0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-6.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "ef15cb8d-a558-4956-b5c6-e7dbbc47abd6",
+        "88fdf03d-5cbb-4758-84f3-5e2d92daea53",
+        "d21cc781-bf7d-4518-a1ed-0807b4f8f57b",
+        "f911fcf7-fdab-427e-aee5-c381ccac6db3",
+        "54ca8922-4304-4358-a5b2-54702da0d5e2",
+        "2ea3669b-1c52-485e-bca8-b6d19c3d49d0"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "adf0a291-2c4c-4ad3-a0df-3cc843a901a9": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "e30b417d-6056-4190-9809-7ad9a277a101": {
+          "type": "featured_product",
+          "disabled": true,
+          "settings": {
+            "product": "festival-survival-kit",
+            "enable_sub_text": true
+          }
+        },
+        "14f42f1c-dbc9-4286-a4d3-86232137bb50": {
+          "type": "featured_product",
+          "settings": {
+            "product": "cleansing-kit",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "e30b417d-6056-4190-9809-7ad9a277a101",
+        "14f42f1c-dbc9-4286-a4d3-86232137bb50"
+      ],
+      "settings": {
+        "heading": "Special Offers",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "b70bdd15-f09e-4382-b4dd-7bd96a84efde": {
+      "type": "content",
+      "blocks": {
+        "1bd43a03-2e8f-4839-af74-30f51dec8f83": {
+          "type": "content_block",
+          "settings": {
+            "title": "10% Aloe Vera Juice",
+            "copy": "Helps provide skin with intense moisture to reduce the appearance of redness."
+          }
+        },
+        "0f47dba2-2dc7-4d78-ad4b-3594942b8f62": {
+          "type": "content_block",
+          "settings": {
+            "title": "Chamomile Extract",
+            "copy": "Enhances suppleness of the skin, while soothing + balancing pH level."
+          }
+        },
+        "83d99f06-e9f5-48bc-b587-584a31f116cf": {
+          "type": "content_block",
+          "settings": {
+            "title": "Cucumber Extract",
+            "copy": "Helps to reduce the appearance of redness + dehydrated skin and provide moisture."
+          }
+        },
+        "eb006b1c-a641-465c-8d5c-ed2f42f1e5d1": {
+          "type": "content_block",
+          "settings": {
+            "title": "Oat Kernel Extract",
+            "copy": "Acts as a natural skin cleanser, removing dirt and helps nourish + moisturize skin leaving a soft after-feel"
+          }
+        }
+      },
+      "block_order": [
+        "1bd43a03-2e8f-4839-af74-30f51dec8f83",
+        "0f47dba2-2dc7-4d78-ad4b-3594942b8f62",
+        "83d99f06-e9f5-48bc-b587-584a31f116cf",
+        "eb006b1c-a641-465c-8d5c-ed2f42f1e5d1"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/New_Product_Hint_2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/New_Product_Hint_2.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Ingredients You Can Pronounce",
+        "copy": "",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/intimate-refreshing-wipes",
+        "cta_text": "Shop Now",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "1643216724c4c43865": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "d2342399-5a92-43e2-a6c7-4a672ea3ee45": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-hyper.png",
+            "heading": "Hyperpigmentation",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/hyperpigmentation"
+          }
+        },
+        "8344604c-f9da-4c77-8086-4d994bd8e955": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-dark.png",
+            "heading": "Dark Spots",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "49cc7a17-aaa2-43e8-be6f-048851777134": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-kp.png",
+            "heading": "Keratosis Pilaris",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/keratosis-pilaris"
+          }
+        },
+        "639ea0ff-87f1-4437-87a6-095de2a8362b": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-ingrown.png",
+            "heading": "Ingrown Hairs",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        },
+        "136b3748-5704-4d51-b361-17a1e98fb028": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-razor.png",
+            "heading": "Razor Burn",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/razor-burn"
+          }
+        }
+      },
+      "block_order": [
+        "d2342399-5a92-43e2-a6c7-4a672ea3ee45",
+        "8344604c-f9da-4c77-8086-4d994bd8e955",
+        "49cc7a17-aaa2-43e8-be6f-048851777134",
+        "639ea0ff-87f1-4437-87a6-095de2a8362b",
+        "136b3748-5704-4d51-b361-17a1e98fb028"
+      ],
+      "settings": {
+        "carousel_heading": "Innovation for Your Bikini Line"
+      }
+    },
+    "16432207612c90bfd5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": true,
+        "intro": "",
+        "headline": "Your Bikini Line Skincare Experts",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Read Reviews",
+        "cta_link": "shopify:\/\/pages\/reviews",
+        "cta_2_text": "TAKE QUIZ",
+        "cta_2_link": "shopify:\/\/pages\/quiz",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "05329e6f-1b47-4ea6-9689-6d0b81b3394f",
+    "bcf204f5-ca09-4240-9b48-9059fc7c4bcc",
+    "164321795572cec49d",
+    "4aa80c47-f71f-440c-82a8-adf5d7f463d7",
+    "4266c316-05a4-45a2-b3b8-f458a0c6b465",
+    "1643221181db6483e9",
+    "adf0a291-2c4c-4ad3-a0df-3cc843a901a9",
+    "b70bdd15-f09e-4382-b4dd-7bd96a84efde",
+    "1643216724c4c43865",
+    "16432207612c90bfd5"
+  ]
+}

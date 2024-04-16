@@ -1,0 +1,869 @@
+{
+  "sections": {
+    "8a4d157d-0e1c-4225-83ee-04c420bdc3c7": {
+      "type": "home-hero-image",
+      "disabled": true,
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/new_mobile_bfcm_gift_2.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/BFCM_Free_Gift_Desktop_1600_x_200_px_1400_x_200_px_1.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1660061119d0842b23": {
+      "type": "promo-banner",
+      "blocks": {
+        "e77258ea-8abc-4aee-99a2-dfb549570a08": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Bikini Line Kits<\/p>"
+          }
+        },
+        "f0b7ced3-a585-4076-9438-7db4932a915d": {
+          "type": "promo_product_list",
+          "settings": {
+            "product_list": [
+              "2-step-routine-keratosis-pilaris-bump-eraser",
+              "routine-ingrown-treatment",
+              "pubic-hair-trimmer-holiday-kit"
+            ]
+          }
+        },
+        "f5915617-3c01-4073-a122-a507fd3894c2": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>Shop Kits & <\/p><p><strong>Save 10% Plus <\/strong><\/p>"
+          }
+        },
+        "54021b1c-0a7e-4f7e-bfc3-3e1b37aabdd9": {
+          "type": "promo_cta",
+          "settings": {
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/collections\/bundles"
+          }
+        }
+      },
+      "block_order": [
+        "e77258ea-8abc-4aee-99a2-dfb549570a08",
+        "f0b7ced3-a585-4076-9438-7db4932a915d",
+        "f5915617-3c01-4073-a122-a507fd3894c2",
+        "54021b1c-0a7e-4f7e-bfc3-3e1b37aabdd9"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "enable_gradient": true,
+        "bg_gradient": "linear-gradient(270deg, rgba(248, 226, 201, 1), rgba(255, 255, 255, 1) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1646156986ac48a59c": {
+      "type": "home-hero",
+      "settings": {
+        "title": "Skincare, Down There",
+        "copy": "All with natural ingredients.",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "position_mobile": "bottom",
+        "image_desktop": "shopify:\/\/shop_images\/Hero_Image_Skincare_Down_there_Desktop.png",
+        "image_mobile": "shopify:\/\/shop_images\/Hero_Image_Skincare_Downthere_Mobile.png",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2137d41b9ebc45d79497e14139183a26.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/54ec6dcc156a4691aafe60e0aca680c9.mp4",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4000,
+        "review_animation": true,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/stamped_57294e6d-b953-464d-87c1-a1e983c25b11.png",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164486074805c0abea": {
+      "type": "trust-bar",
+      "blocks": {
+        "dcc44e29-20a8-47f5-be1b-e5f708861d6a": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/recommended.svg?v=1635795607",
+            "title": "Waxing Salon Recommended"
+          }
+        },
+        "b335d032-689a-419c-aac6-e1b11cd06526": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/vegan.svg?v=1635795607",
+            "title": "Vegan"
+          }
+        },
+        "f6d5127c-9b77-43dc-acad-d809398a2c04": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/cruelty.svg?v=1635795607",
+            "title": "Cruelty Free"
+          }
+        },
+        "e7c0540a-986c-47ef-abc6-0974833781c1": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/conscious.svg?v=1635795607",
+            "title": "pH Conscious"
+          }
+        },
+        "c4d66126-a559-414f-a536-678c2699317a": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/gyno.svg?v=1635795607",
+            "title": "Gyno Approved"
+          }
+        },
+        "044a84c3-a9ad-4c6a-97f9-8b6afbdcde11": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/clean.svg?v=1635795607",
+            "title": "Clean Ingredients"
+          }
+        }
+      },
+      "block_order": [
+        "dcc44e29-20a8-47f5-be1b-e5f708861d6a",
+        "b335d032-689a-419c-aac6-e1b11cd06526",
+        "f6d5127c-9b77-43dc-acad-d809398a2c04",
+        "e7c0540a-986c-47ef-abc6-0974833781c1",
+        "c4d66126-a559-414f-a536-678c2699317a",
+        "044a84c3-a9ad-4c6a-97f9-8b6afbdcde11"
+      ],
+      "settings": {
+        "speed": 8000,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "63d8af16-c1da-4e99-90b3-bcc2cd5582c6": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "2e95229b-efda-4a63-b1bc-bd9703b3dce9": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "enable_sub_text": true
+          }
+        },
+        "785f60a8-5879-41a1-8a64-48f15f0b7d55": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "enable_sub_text": true
+          }
+        },
+        "cc712563-57c5-46dc-85a0-b3aa2d3617fc": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sweet-escape-oil",
+            "enable_sub_text": true
+          }
+        },
+        "0c099cf7-4a60-4678-bf1b-3f3404f8bfef": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-corrector",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "2e95229b-efda-4a63-b1bc-bd9703b3dce9",
+        "785f60a8-5879-41a1-8a64-48f15f0b7d55",
+        "cc712563-57c5-46dc-85a0-b3aa2d3617fc",
+        "0c099cf7-4a60-4678-bf1b-3f3404f8bfef"
+      ],
+      "settings": {
+        "heading": "Bestselling Oils",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16448560070d612359": {
+      "type": "featured-products",
+      "blocks": {
+        "a6aa2a9b-1bed-4c88-a9ce-1c1cdfb350f1": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "title": "Nude Ingrown Hair Oil",
+            "copy": "Softens and smoothes skin after shaving or waxing",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+            "badge_text": ""
+          }
+        },
+        "c65bb58f-27ed-44c6-afc4-786175f56d14": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda Dark Spot Oil",
+            "copy": "Naturally reduces the look of dark spots and discoloration",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Best Seller"
+          }
+        },
+        "f3f73baa-9d07-4f92-b737-e19e9aaf42fb": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sweet-escape-oil",
+            "title": "Sweet Escape Ingrown Hair Oil",
+            "copy": "Naturally softens the appearance of ingrown hairs and razor burn",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/sweet-escape-oil",
+            "badge_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "a6aa2a9b-1bed-4c88-a9ce-1c1cdfb350f1",
+        "c65bb58f-27ed-44c6-afc4-786175f56d14",
+        "f3f73baa-9d07-4f92-b737-e19e9aaf42fb"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1644857088ebfcfbbb": {
+      "type": "press-highlights",
+      "blocks": {
+        "8d7a156a-ba82-4eef-8ea9-b9b21936f796": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the Products Has Been Created to Take Care of Our Most Sensitive Areas That Have Been Largely Forgotten by Mainstream Beauty Brands.\"",
+            "logo": "shopify:\/\/shop_images\/l-forbes_2d56a80b-d29f-401b-b7a0-7c75513dc8ed.png",
+            "logo_height": 17,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "2db2f34f-70a6-450e-b2c8-3af0c8dd49b3": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Think Lusciously Scented Oil Blends and Scrubs Packed With Nourishing Ingredients Like Jojoba and Copaiba Oils”",
+            "logo": "shopify:\/\/shop_images\/l-chate_aa3b5b77-a6dd-4ea9-befe-5f301429adcf.png",
+            "logo_height": 14,
+            "bg_color": "#a96b4b",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "62a73cd3-be50-45b2-8505-e8b832b09b27": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Their Result-Driven Collection of Products Targets Such Grievances as Ingrown Hairs, Dark Spots and Razor Burn.”",
+            "logo": "shopify:\/\/shop_images\/l-buzz_bc421365-b61c-4ea4-9a73-0ab267bd8d56.png",
+            "logo_height": 18,
+            "bg_color": "#a96b4b",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "8d7a156a-ba82-4eef-8ea9-b9b21936f796",
+        "2db2f34f-70a6-450e-b2c8-3af0c8dd49b3",
+        "62a73cd3-be50-45b2-8505-e8b832b09b27"
+      ],
+      "settings": {
+        "cta_text": "See All Press",
+        "cta_link": "shopify:\/\/pages\/old-url-structre",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16448614917632d723": {
+      "type": "before-and-after",
+      "blocks": {
+        "aa36fb42-1521-4e2e-ae53-cbe6b8cff7d0": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "2-step-routine-hyperpigmentation-dark-spots",
+            "product_title": "2 Step Routine",
+            "product_copy": "Dark Spots & Hyperpigmentation",
+            "cta_text": "Shop the Routine",
+            "image_1": "shopify:\/\/shop_images\/Before_After_Bushbalm_a41e9625-83bc-47c6-a495-ac6244f93852.jpg",
+            "image_1_testimonial": "BEFORE",
+            "image_2": "shopify:\/\/shop_images\/Before_After_Bushbalm_2_3eb2dde5-8daf-456b-9d56-3dc5379ec8b7.jpg",
+            "image_2_testimonial": "AFTER",
+            "image_3_testimonial": ""
+          }
+        },
+        "eec13fd6-cf6f-412f-987a-5485b7ac4a30": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "routine-ingrown-treatment",
+            "product_title": "2 Step Routine",
+            "product_copy": "Ingrown Hairs & Razor Burn",
+            "cta_text": "Shop the Routine",
+            "image_1": "shopify:\/\/shop_images\/Before_After_Bushbalm_9_1062be0b-acac-4689-8378-2ba0e714dd7c.jpg",
+            "image_1_testimonial": "BEFORE",
+            "image_2": "shopify:\/\/shop_images\/Before_After_Bushbalm_10.jpg",
+            "image_2_testimonial": "AFTER",
+            "image_3_testimonial": ""
+          }
+        },
+        "3f9ea4fa-c1f5-42d3-a50b-79754baa7371": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "3-step-routine-keratosis-pilaris",
+            "product_title": "3 Step Routine",
+            "product_copy": "Ingrown Hairs, Razor Burn & KP",
+            "cta_text": "Shop the Routine",
+            "image_1": "shopify:\/\/shop_images\/Before_After_Bushbalm_3.jpg",
+            "image_1_testimonial": "BEFORE",
+            "image_2": "shopify:\/\/shop_images\/Before_After_Bushbalm_4.jpg",
+            "image_2_testimonial": "AFTER",
+            "image_3_testimonial": ""
+          }
+        },
+        "61f37439-2ecf-4194-9331-1eba9f45560a": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "ingrown-hair-oil",
+            "product_title": "Nude Ingrown Hair Oil",
+            "product_copy": "hydrates + softens",
+            "cta_text": "Shop the Oil",
+            "image_1": "shopify:\/\/shop_images\/Before_After_Bushbalm_5.jpg",
+            "image_1_testimonial": "BEFORE",
+            "image_2": "shopify:\/\/shop_images\/Before_After_Bushbalm_6.jpg",
+            "image_2_testimonial": "AFTER",
+            "image_3_testimonial": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa36fb42-1521-4e2e-ae53-cbe6b8cff7d0",
+        "eec13fd6-cf6f-412f-987a-5485b7ac4a30",
+        "3f9ea4fa-c1f5-42d3-a50b-79754baa7371",
+        "61f37439-2ecf-4194-9331-1eba9f45560a"
+      ],
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/Untitled_design_27.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Before_and_After_-_Homepage_-_Desktop.jpg",
+        "heading": "Before & After Results",
+        "subheading": "See for yourself.",
+        "cta_text": "See the Results",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#000000",
+        "gradient_angle_mobile": 285,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#000000",
+        "gradient_angle_desktop": 0,
+        "enable_cta_slide": true,
+        "cta_slide_title": "Want more?",
+        "cta_slide_copy": "We've got plenty.",
+        "cta_slide_cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_slide_cta_text": "View Full Gallery",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "1644936192146c5d81": {
+      "type": "newsletter-signup",
+      "disabled": true,
+      "settings": {
+        "klaviyo_list_id": "LM5dFn",
+        "heading": "Welcome Offer",
+        "subheading": "Claim 20% off your first order!",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "164615955320f83ffc": {
+      "type": "featured-collections",
+      "blocks": {
+        "d17e95cd-4326-4021-8a3c-cc810588b6fc": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-Bushbalm-Influencer_1.png",
+            "bg_color": "#f8e2c9",
+            "bg_color_desktop": "#f8e2c9",
+            "marquee_text": "Trimmer",
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/the-francesca-bikini-trimmer-for-pubic-hair",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "e167dde3-d03b-4582-88d9-7855b7184365": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-Bushbalm-influencer.png",
+            "bg_color": "#f8a086",
+            "bg_color_desktop": "#f8a086",
+            "marquee_text": "Soothing Oils",
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/collections\/oils",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "35b410be-e7ce-4e8c-97b1-a6481f1fc62c": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-bushbalm-influencer.png",
+            "bg_color": "#85addc",
+            "bg_color_desktop": "#85addc",
+            "marquee_text": "Body Creams",
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/collections\/body-creams",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "6513a1f0-66b4-406a-a512-6c6aa3644c56": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer.png",
+            "bg_color": "#f8e2c9",
+            "bg_color_desktop": "#f8e2c9",
+            "marquee_text": "Body Cleansers",
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/collections\/body-cleansers",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "f7338a2d-44b9-4c41-b5ed-f7db31d02e36": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Scrub.jpg",
+            "bg_color": "#acc69f",
+            "bg_color_desktop": "#acc69f",
+            "marquee_text": "Exfoliating Scrubs",
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/collections\/exfoliators",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "d17e95cd-4326-4021-8a3c-cc810588b6fc",
+        "e167dde3-d03b-4582-88d9-7855b7184365",
+        "35b410be-e7ce-4e8c-97b1-a6481f1fc62c",
+        "6513a1f0-66b4-406a-a512-6c6aa3644c56",
+        "f7338a2d-44b9-4c41-b5ed-f7db31d02e36"
+      ],
+      "settings": {
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "16448611164b2d5398": {
+      "type": "who-we-are",
+      "blocks": {
+        "925d6a5d-951a-49c0-aec5-7e0f9a0cc3b6": {
+          "type": "list_item",
+          "settings": {
+            "text": "Formulated with natural ingredients"
+          }
+        },
+        "71d0dc14-02fd-4ffc-92d9-dad5607d2e96": {
+          "type": "list_item",
+          "settings": {
+            "text": "Reduces the appearance of hyperpigmentation \nand dark spots"
+          }
+        },
+        "416dfe84-82e3-4f1b-861e-71fe7d729784": {
+          "type": "list_item",
+          "settings": {
+            "text": "Effective on all skin types"
+          }
+        }
+      },
+      "block_order": [
+        "925d6a5d-951a-49c0-aec5-7e0f9a0cc3b6",
+        "71d0dc14-02fd-4ffc-92d9-dad5607d2e96",
+        "416dfe84-82e3-4f1b-861e-71fe7d729784"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Who We Are",
+        "subheading": "Bushbalm was founded on the promise to solve ingrown hairs, razor burn and dark spots with natural products.",
+        "list_heading": "Why Bermuda",
+        "cta_text": "Get Started",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164485693843dd53d6": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align_desktop": "left",
+        "text_align_mobile": "left",
+        "enable_truncate": false,
+        "truncate_threshold": 25,
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16461587710f480360": {
+      "type": "related-products",
+      "blocks": {
+        "d56278b5-c28d-48a7-bb8b-38619f72b150": {
+          "type": "related_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots"
+          }
+        },
+        "5a16e7bc-5942-476c-bdea-9bc0772e51a4": {
+          "type": "related_product",
+          "settings": {
+            "product": "3-step-routine-ingrown-hair-razor-burn-prevention"
+          }
+        },
+        "61c6c181-affb-4e4e-89c3-d2b5056f9d16": {
+          "type": "related_product",
+          "settings": {
+            "product": "2-step-routine-keratosis-pilaris-bump-eraser"
+          }
+        }
+      },
+      "block_order": [
+        "d56278b5-c28d-48a7-bb8b-38619f72b150",
+        "5a16e7bc-5942-476c-bdea-9bc0772e51a4",
+        "61c6c181-affb-4e4e-89c3-d2b5056f9d16"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Bundle & Save 10%",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1644862083c8c00cc4": {
+      "type": "shop-by-concern",
+      "blocks": {
+        "9a1803fe-75bb-4fb2-a728-047f510f758b": {
+          "type": "link",
+          "settings": {
+            "cta_text": "ingrown hairs",
+            "cta_link": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        },
+        "3ed93b87-cc9c-4fe0-aca4-d2e900c8d5c3": {
+          "type": "link",
+          "settings": {
+            "cta_text": "keratosis pilaris",
+            "cta_link": "shopify:\/\/collections\/keratosis-pilaris"
+          }
+        },
+        "06170b86-4c0d-42f4-8974-dd732cda88ee": {
+          "type": "link",
+          "settings": {
+            "cta_text": "razor burn",
+            "cta_link": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "11fa8813-39ef-4f98-b139-30dd222cf7fb": {
+          "type": "link",
+          "settings": {
+            "cta_text": "stretch marks",
+            "cta_link": "shopify:\/\/collections\/stretch-marks"
+          }
+        },
+        "11badd98-8b61-45c0-8f2a-a22fcd30f4c4": {
+          "type": "link",
+          "settings": {
+            "cta_text": "dark spots",
+            "cta_link": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "d85d3324-ab14-40d2-bcaa-fd11408131cd": {
+          "type": "link",
+          "settings": {
+            "cta_text": "hyperpigmentation",
+            "cta_link": "shopify:\/\/collections\/hyperpigmentation"
+          }
+        },
+        "1c102a43-6769-463c-9298-766075a79144": {
+          "type": "link",
+          "settings": {
+            "cta_text": "hair removal",
+            "cta_link": "shopify:\/\/products\/the-francesca-bikini-trimmer-for-pubic-hair"
+          }
+        }
+      },
+      "block_order": [
+        "9a1803fe-75bb-4fb2-a728-047f510f758b",
+        "3ed93b87-cc9c-4fe0-aca4-d2e900c8d5c3",
+        "06170b86-4c0d-42f4-8974-dd732cda88ee",
+        "11fa8813-39ef-4f98-b139-30dd222cf7fb",
+        "11badd98-8b61-45c0-8f2a-a22fcd30f4c4",
+        "d85d3324-ab14-40d2-bcaa-fd11408131cd",
+        "1c102a43-6769-463c-9298-766075a79144"
+      ],
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skincare_Bikini_Line.png",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skincare_Bikini_Line.png",
+        "heading": "Shop Concerns",
+        "subheading": "Whatever your concern, we can help.",
+        "speed_mobile": 700,
+        "delay_mobile": 1000,
+        "speed_desktop": 1000,
+        "delay_desktop": 2000,
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1646159416e966db2b": {
+      "type": "image-carousel",
+      "blocks": {
+        "6db30c15-ba5b-4147-a727-7457705258c0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer_6c2ad168-b87b-4436-bfdc-0795c22fe9a0.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "79494d70-3a88-4ab4-ae49-57a18624245f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer_5f7623c8-5839-4ac5-900c-7c72fac7a7c8.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e2256bfc-8bba-473b-8a8a-50c06d8449f3": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-Bushbalm-influencer_d32b8fcf-48bc-42d1-b4d0-aa9871448c8d.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "654006b8-6649-49a2-81c7-a1059f56f9fe": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer_ba09ffc4-e4d6-4288-b77f-c40faf91b493.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "a08c4362-9a7d-463a-a44e-a5718e1483f5": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer_a9f674a1-aa52-4d39-b71d-f927061087da.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "6db30c15-ba5b-4147-a727-7457705258c0",
+        "79494d70-3a88-4ab4-ae49-57a18624245f",
+        "e2256bfc-8bba-473b-8a8a-50c06d8449f3",
+        "654006b8-6649-49a2-81c7-a1059f56f9fe",
+        "a08c4362-9a7d-463a-a44e-a5718e1483f5"
+      ],
+      "settings": {
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1646158410d9507734": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "Featured",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16461584172d75942a": {
+      "type": "all-reviews",
+      "disabled": true,
+      "settings": {
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"full-page\" data-take=\"5\" data-style-color-star=\"#f8a086\" data-style-color-verified=\"#271710\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "16726222585f82142c": {
+      "type": "apps",
+      "blocks": {
+        "9d64208c-fccd-4df9-9a38-0c831b319c45": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "9d64208c-fccd-4df9-9a38-0c831b319c45"
+      ],
+      "settings": {
+      }
+    },
+    "1646158949328569bf": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align_desktop": "left",
+        "text_align_mobile": "left",
+        "enable_truncate": false,
+        "truncate_threshold": 25,
+        "image_desktop": "shopify:\/\/shop_images\/Razor_Burn_44920fe7-5311-4180-8e16-4bbba693408c.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Razor_Burn_1574_x_1158_px.jpg",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "dbbb2237-1f68-48e6-956b-0320f6a1db09": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter by Product",
+            "group_title": "Product Type",
+            "group_title_mobile": "By Type",
+            "tags_list": "bundles-and-sets, bestsellers, exfoliating-scrubs, firming-creams, soothing-oils, tools-and-accessories"
+          }
+        },
+        "a68d3e06-d536-4015-afff-c53403da0bb1": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter By Concern",
+            "group_title": "Concerns",
+            "group_title_mobile": "By Concern",
+            "tags_list": "dark-spots, ingrown-hairs, razor-burn, keratosis-pilaris, stretchmarks, hyperpigmentation"
+          }
+        }
+      },
+      "block_order": [
+        "dbbb2237-1f68-48e6-956b-0320f6a1db09",
+        "a68d3e06-d536-4015-afff-c53403da0bb1"
+      ],
+      "settings": {
+        "pagination_count": 50
+      }
+    },
+    "16448623640eb72065": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Skincare Everywhere",
+        "headline": "Ready to start your skincare journey?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "View Before & Afters",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_2_text": "Build A Routine",
+        "cta_2_link": "shopify:\/\/pages\/routines",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "8a4d157d-0e1c-4225-83ee-04c420bdc3c7",
+    "1660061119d0842b23",
+    "1646156986ac48a59c",
+    "164486074805c0abea",
+    "63d8af16-c1da-4e99-90b3-bcc2cd5582c6",
+    "16448560070d612359",
+    "1644857088ebfcfbbb",
+    "16448614917632d723",
+    "1644936192146c5d81",
+    "164615955320f83ffc",
+    "16448611164b2d5398",
+    "164485693843dd53d6",
+    "16461587710f480360",
+    "1644862083c8c00cc4",
+    "1646159416e966db2b",
+    "1646158410d9507734",
+    "16461584172d75942a",
+    "16726222585f82142c",
+    "1646158949328569bf",
+    "main",
+    "16448623640eb72065"
+  ]
+}

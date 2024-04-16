@@ -1,0 +1,223 @@
+	{% assign locale = shop_locale.iso_code %}
+	{% if locale == null %}
+		{% assign locale = localization.language.iso_code %}
+	{% endif %}
+	{% if locale == null %}
+		{% assign locale = request.locale.iso_code %}
+	{% endif %}
+	{% if routes.root_url == '/' %}
+		{% assign locale = null %}
+	{% endif %}
+
+<script src="{{ 'account.js' | asset_url }}" defer="defer"></script>
+{{ 'account.css' | asset_url | stylesheet_tag }}
+
+<div class="account">
+  <div class="account__container wrapper">
+    <h1 class="medium-up--hide">{{ 'customer.account.order_history' | t }}</h1>
+
+    {% capture account_dropdown_content %}
+      <option value="{{ routes.account_url }}" {% if request.path == routes.account_url or request.path contains 'orders' %}selected{% endif %}>{{ 'customer.orders.title' | t }}</option>
+      <option value="{{ routes.account_addresses_url }}" {% if request.path == routes.account_addresses_url %}selected{% endif %}>{{ 'customer.addresses.title' | t }}</option>
+      
+      <option value="/a/loop_subscriptions/auth?customer_id={{customer.id}}&myshopify_domain={{shop.permanent_domain}}&locale={{ locale }}&rootUrl={{ routes.root_url }}">Manage Subscriptions</option>
+      
+      {% comment%}
+      {% if customer.metafields.subscriptions.customer_string %}
+        <option value="/tools/recurring/login">{{ 'customer.account.manage_subscriptions' | t }}</option>
+      {% endif %}
+      {% endcomment%}
+      
+      <option value="{{ routes.account_logout_url }}">{{ 'layout.customer.log_out' | t }}</option>
+    {% endcapture %}
+
+    <div class="medium-up--hide">
+      {% render 'custom-dropdown' with
+        dropdown_content: account_dropdown_content,
+        attrs: 'data-account-page-selector'
+      %}
+    </div>
+
+    <div class="account__main account__orders" data-account-dashboard-orders>
+      <h1 class="small--hide">{{ 'customer.account.order_history' | t }}</h1>
+      {% if customer.orders.size != 0 %}
+        {% for order in customer.orders %}
+          <div class="account__order{% if forloop.first %} active{% endif %}" data-account-dashboard-order>
+            <button class="account__order-toggle medium-up--hide" data-account-dashboard-order-toggle>
+              <span>{{ 'customer.orders.order_number' | t }}&nbsp;{{ order.order_number }}</span>
+              {%- render 'icon-plus' -%}
+              {%- render 'icon-minus' -%}
+            </button>
+
+            <div class="account__order-info">
+              <div class="account__order-image">
+                {% assign order_product = order.line_items[0].product %}
+
+                <a href="{{ order_product.url }}" title="{{ order_product.title }}">
+                  <img src="{{ order_product.featured_image | img_url: '120x' }}" class="lazyload" alt="{{ order_product.title }}">
+                </a>
+              </div>
+
+              <div class="account__order-details">
+                <p class="account__order-number small--hide">
+                  {{- 'customer.orders.order_number' | t -}}&nbsp;{{- order.order_number -}}
+                </p>
+                <p class="account__order-date"><strong>{{ 'customer.orders.date' | t }}</strong>&nbsp;{{ order.created_at | date: '%b, %d, %Y' }}</p>
+                <p class="account__order-status"><strong>{{ 'customer.orders.status' | t }}</strong>&nbsp;{{ order.fulfillment_status_label }}</p>
+
+                <div class="account__order-actions">
+                  <a class="medium-down--hide" href="{{ order.customer_url }}" title="{{ 'customer.orders.details' | t }}">
+                    {{ 'customer.orders.details' | t }}
+                  </a>
+
+                  {% assign modal_trigger = 'order-details-' | append: order.id %}
+                  <button type="button" class="large--hide" data-open-modal="{{ modal_trigger }}">{{ 'customer.orders.details' | t }}</button>
+
+                  <p class="account__order-total" aria-label="{{ 'customer.orders.total' | t }}">
+                    {{- order.total_price | money -}}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {% if order.order_status_url != blank %}
+              <div class="account__order-track">
+                <a href="{{ order.order_status_url }}" class="btn btn--chocolate" target="_blank" title="{{ 'customer.orders.track' | t }}">
+                  {{- 'customer.orders.track' | t -}}
+                </a>
+              </div>
+            {% endif %}
+          </div>
+
+          {% capture modal_title %}
+            {{ 'customer.order.title' | t: name: order.name | replace: '#', 'No.' }}
+          {% endcapture %}
+
+          {% capture modal_content %}
+            {% if order.cancelled %}
+              {% assign cancelled_at = order.cancelled_at | date: "%B %d, %Y %I:%M%p" %}
+              <p>{{ 'customer.order.cancelled' | t: date: cancelled_at }}</p>
+              <p>{{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason }}</p>
+            {% endif %}
+            <p class="account-order__order-date">
+              <strong>{{ 'customer.order.date_label' | t }}</strong>
+              &nbsp;{{- 'customer.order.date' | t: date: order.created_at | date: "%B %d, %Y %I:%M%p" -}}
+            </p>
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                  <th>{{ 'customer.order.product' | t }}</th>
+                  <th>{{ 'customer.order.sku' | t }}</th>
+                  <th>{{ 'customer.order.price' | t }}</th>
+                  <th>{{ 'customer.order.quantity' | t }}</th>
+                  <th>{{ 'customer.order.total' | t }}</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {% for line_item in order.line_items %}
+                  <tr id="{{ line_item.key }}" class="responsive-table-row">
+                    <td data-label="{{ 'customer.order.product' | t }}">
+                      {{ line_item.title | link_to: line_item.product.url }}
+                      {% if line_item.fulfillment %}
+                        <dl>
+                          <dt>{{ 'customer.order.fulfilled_at' | t }}</dt>
+                          <dd>{{ line_item.fulfillment.created_at | date: format: 'month_day_year' }}</dd>
+
+                          {% if line_item.fulfillment.tracking_url %}
+                            <dt>{{ 'customer.order.tracking_url' | t }}</dt>
+                            <dd>
+                              <a href="{{ line_item.fulfillment.tracking_url }}" title="{{ 'customer.order.track_shipment' | t }}">
+                                {{ 'customer.order.track_shipment' | t }}
+                              </a>
+                            </dd>
+                          {% endif %}
+
+                          <dt>{{ 'customer.order.tracking_company' | t }}</dt>
+                          <dd>{{ line_item.fulfillment.tracking_company }}</dd>
+
+                          {% if line_item.fulfillment.tracking_number %}
+                            <dt>{{ 'customer.order.tracking_number' | t }}</dt>
+                            <dd>{{ line_item.fulfillment.tracking_number }}</dd>
+                          {% endif %}
+                        </dl>
+                      {% endif %}
+                    </td>
+                    <td data-label="{{ 'customer.order.sku' | t }}">{{ line_item.sku }}</td>
+                    <td data-label="{{ 'customer.order.price' | t }}">{{ line_item.price | money }}</td>
+                    <td data-label="{{ 'customer.order.quantity' | t }}">{{ line_item.quantity }}</td>
+                    <td data-label="{{ 'customer.order.total' | t }}">{{ line_item.quantity | times: line_item.price | money }}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+
+              <tfoot>
+                <tr class="responsive-table-row">
+                  <td colspan="4" class="small--hide">{{ 'customer.order.subtotal' | t }}</td>
+                  <td data-label="{{ 'customer.order.subtotal' | t }}">{{ order.subtotal_price | money }}</td>
+                </tr>
+
+                {% for discount in order.discounts %}
+                  <tr>
+                    <td colspan="4" class="small--hide">{{ discount.code }} {{ 'customer.order.discount' | t }}</td>
+                    <td data-label="{{ 'customer.order.discount' | t }}">{{ discount.savings | money }}</td>
+                  </tr>
+                {% endfor %}
+
+                {% for shipping_method in order.shipping_methods %}
+                  <tr>
+                    <td colspan="4" class="small--hide">{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})</td>
+                    <td data-label="{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})">{{ shipping_method.price | money }}</td>
+                  </tr>
+                {% endfor %}
+
+                {% for tax_line in order.tax_lines %}
+                  <tr>
+                    <td colspan="4" class="small--hide">{{ 'customer.order.tax' | t }} ({{ tax_line.title }} {{ tax_line.rate | times: 100 }}%)</td>
+                    <td data-label="{{ 'customer.order.tax' | t }} ({{ tax_line.title }} {{ tax_line.rate | times: 100 }}%)">{{ tax_line.price | money }}</td>
+                  </tr>
+                {% endfor %}
+
+                <tr>
+                  <td colspan="4" class="small--hide">{{ 'customer.order.total' | t }}</td>
+                  <td data-label="{{ 'customer.order.total' | t }}">{{ order.total_price | money }} {{ order.currency }}</td>
+                </tr>
+              </tfoot>
+            </table>
+          {% endcapture %}
+
+          {% render 'modal' with id: modal_trigger, content: modal_content, overlay_view: true, overlay_view_title: modal_title, additional_classes: "modal--account account-order" %}
+
+        {% endfor %}
+      {% else %}
+        <div class="account__empty">
+          <p>{{ 'customer.orders.none' | t }}</p>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="account__nav-desktop small--hide">
+      <span>{{ 'customer.account.order_history' | t }}</span>
+      <a href="{{ routes.account_addresses_url }}" title="{{ 'customer.account.view_addresses' | t }}">
+        {{- 'customer.addresses.title' | t -}}&nbsp;({{- customer.addresses_count -}})
+      </a>
+        
+      <a href="/a/loop_subscriptions/auth?customer_id={{customer.id}}&myshopify_domain={{shop.permanent_domain}}&locale={{ locale }}&rootUrl={{ routes.root_url }}" title="{{ 'customer.account.manage_subscriptions' | t }}">
+        Manage Subscriptions
+      </a>
+      
+      {% comment%}
+      {% if customer.metafields.subscriptions.customer_string %}
+        <a href="/tools/recurring/login" title="{{ 'customer.account.manage_subscriptions' | t }}">
+          {{- 'customer.account.manage_subscriptions' | t -}}
+        </a>
+      {% endif %}
+      {% endcomment %}
+      
+      <a href="{{ routes.account_logout_url }}" title="{{ 'layout.customer.log_out' | t }}">
+        {{- 'layout.customer.log_out' | t -}}
+      </a>
+    </div>
+
+  </div>
+</div>

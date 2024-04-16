@@ -1,0 +1,69 @@
+{%- capture price -%}
+    {%- if product.compare_at_price > product.price -%}
+      {%- assign original_price = product.compare_at_price | money -%}
+      {%- assign sale_price = product.price | money -%}
+      <span class="visually-hidden">
+        {{ 'general.accessibility.strikethough_price' | t: original: original_price, sale: sale_price }}
+      </span>
+      <span class="hc-regular-price" aria-hidden="true">{{ product.price | money_without_trailing_zeros | remove: ' CAD' }}</span>
+      <s aria-hidden="true">{{ product.compare_at_price | money_without_trailing_zeros | remove: ' CAD' }}</s>
+    {% else %}
+      <span class="hc-regular-price" aria-hidden="true">{{ product.price | money_without_trailing_zeros | remove: ' CAD' }}</span>
+    {% endif %}
+  {% endcapture %}
+
+<div class="collection-item hc-collection-item">
+  <a class="collection-item__image image-link
+    {% if product.metafields.custom_fields["collection_item_hover_image"] != blank %} has-hover{% endif %}"
+    href="{{ product.url | within: collection }}"
+    title="{{ product.title }} - {{ product.price | money }}">
+    {% render 'responsive-image' with
+      image: product.featured_image,
+      max_width: 600,
+      max_height: 600,
+      wrapper_class: 'collection-item__image'
+    %}
+    {% render 'collection-item-badge' with product: product %}
+  </a>
+
+  
+
+  <div class="collection-item__info">
+    <h4 class="ui-body-bold">
+      <a href="{{ product.url | within: collection }}"
+        title="{{ product.title }} - {{ product.price | money }}">
+        {{- product.metafields.custom_fields["collection_item_title"] | default: product.title | strip_html -}}
+      </a>
+    </h4>
+    {% if block.settings.enable_sub_text %}
+      <p class="ui-body">
+        {{ product.metafields.custom_fields['collection_item_secondary_text'] }}
+      </p>
+    {% endif %}
+
+    
+    <div class="hc-price">
+     {{ price }}
+    </div>
+    <div class="collection-item__reviews">
+      <!-- Stamped - Begin Star Rating Badge -->
+      <span
+      class="stamped-product-reviews-badge stamped-main-badge"
+      data-id="{{ product.id }}"
+      data-product-sku="{{product.selected_or_first_available_variant.sku}}"
+      data-product-title="{{product.title}}"
+      data-product-type="{{product.type}}"
+      style="display: block;">
+      </span>
+      <!-- Stamped - End Star Rating Badge -->
+    </div>
+      <button class="btn btn--chocolate btn--full" href="{{ product.url }}"
+      data-collection-item-add-to-cart
+      data-variant-id="{{ product.first_available_variant.id }}"
+    >
+      {{ 'products.product.add_to_cart' | t }} 
+    </button>
+  </div>
+  
+ 
+</div>

@@ -1,0 +1,217 @@
+<script src="{{ 'promo-banner.js' | asset_url }}" defer="defer"></script>
+{{ 'promo-banner.css' | asset_url | stylesheet_tag }}
+
+{% render 'promo-banner' with section: section %}
+
+{% schema %}
+  {
+    "name": "Promo Banner",
+    "blocks": [
+      {
+        "type": "promo_heading",
+        "name": "Heading",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "heading",
+            "label": "Heading"
+          }
+        ]
+      },
+      {
+        "type": "promo_subheading",
+        "name": "Subheading",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "subheading",
+            "label": "Subheading"
+          }
+        ]
+      },
+      {
+        "type": "promo_product_list",
+        "name": "Product Images",
+        "settings": [
+          {
+            "type": "product_list",
+            "id": "product_list",
+            "label": "Product Images",
+            "info": "The product images will get displayed",
+            "limit": 7
+          }
+        ]
+      },
+      {
+        "type": "single_image",
+        "name": "Single Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "single_image",
+            "label": "Image"
+          },
+          {
+            "type": "range",
+            "id": "single_image_width_mobile",
+            "min": 95,
+            "max": 335,
+            "step": 5,
+            "unit": "px",
+            "label": "Image Width | Mobile",
+            "default": 170
+          },
+          {
+            "type": "range",
+            "id": "single_image_width_desktop",
+            "min": 95,
+            "max": 450,
+            "step": 5,
+            "unit": "px",
+            "label": "Image Width | Desktop",
+            "default": 250
+          }
+        ]
+      },
+      {
+        "type": "promo_countdown_timer",
+        "name": "Countdown Timer",
+        "settings": [
+          {
+            "type": "radio",
+            "id": "countdown_timer_type",
+            "label": "Countdown Timer Setting",
+            "options": [
+              {
+                "value": "repeating",
+                "label": "Repeating"
+              },
+              {
+                "value": "set_date",
+                "label": "Set date"
+              }
+            ],
+            "default": "repeating"
+          },
+          {
+            "type": "text",
+            "id": "countdown_timer_time_repeating",
+            "label": "Countdown Time | Repeating",
+            "info": "Use the format 'HH:mm' in military time (i.e., 05:30 means that the timer will start at 5 hours and 30 minutes)"
+          },
+          {
+            "type": "text",
+            "id": "countdown_timer_time_set",
+            "label": "Countdown Time | Set date",
+            "info": "Use the format: 'MM-DD-YYYY HH:mm' (i.e., 01-25-2022 13:00)"
+          }
+        ]
+      },
+      {
+        "type": "promo_cta",
+        "name": "CTA",
+        "settings": [
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA text",
+            "info": "Default: SHOP NOW",
+            "default": "Shop now"
+          },
+          {
+            "type": "url",
+            "id": "cta_link",
+            "label": "CTA link"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "hide_all",
+        "label": "Hide global promo banner",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "disable_collection",
+        "label": "Disable on collections",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "disable_page",
+        "label": "Disable on pages",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "disable_product",
+        "label": "Disable on products",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "disable_blog",
+        "label": "Disable on blogs",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "disable_article",
+        "label": "Disable on articles",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sticky_mobile",
+        "label": "Enable Sticky Banner | Mobile",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sticky_desktop",
+        "label": "Enable Sticky Banner | Desktop",
+        "default": false
+      },
+      {
+        "type": "textarea",
+        "id": "hide_banner_urls",
+        "label": "Hide banner on:",
+        "info": "List of URLs to hide from the header banner (one per line, i.e., /pages/about)"
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color",
+        "default": "#F8E2C9",
+        "info": "Will be 75% opacity"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_gradient",
+        "label": "Enable Gradient Background",
+        "default": false,
+        "info": "Enabling Gradient Background will override the background color"
+      },
+      {
+        "type": "color_background",
+        "id": "bg_gradient",
+        "label": "Background Gradient Color",
+        "default": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5))",
+        "info": "Recommended to only use two color stops"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Text Color",
+        "default": "#271710"
+      }
+    ]
+  }
+{% endschema %}

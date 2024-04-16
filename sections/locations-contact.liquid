@@ -1,0 +1,63 @@
+<script src="{{ 'locations-contact.js' | asset_url }}" defer="defer"></script>
+{{ 'locations-contact.css' | asset_url | stylesheet_tag }}
+
+
+<div class="locations__contact">
+  <div class="cta cta--{{ section.id }}{% if section.settings.padding %} cta--padding{% endif %}"
+    role="region" aria-label="CTA">
+    <div class="wrapper">
+      <small class="ui-label">{{ section.settings.intro }}</small>
+
+      <center> <h3>Not listed? Submit your location to be added!</h3></center><br>
+
+      {% if section.settings.cta_style == 'button' %}
+        {% assign button_class = 'btn btn--chocolate' %}
+        {% assign button_class_2 = 'btn btn--2 btn--chocolate' %}
+      {% else %}
+        {% assign button_class = 'link-text' %}
+        {% assign button_class_2 = 'link-text link-text--2' %}
+      {% endif %}
+
+      {% if section.settings.subline != blank %}
+        <h4 class="link-text">Not listed? Submit your location to be added.</h4>
+      {% endif %}
+      <center><p class="locations__contact-preheading">GET LISTED </p></center><br>
+
+      <center><a class="btn btn--chocolate" href="https://forms.monday.com/forms/91fab85d6e75b0edb4e976add23bb784?r=use1" title="{{ section.settings.cta_text }}">
+        Click Here
+      </a></center>
+
+      {% if section.settings.cta_2_text != blank %}
+        <a class="{{ button_class_2 }}" href="{{ section.settings.cta_2_link }}" title="{{ section.settings.cta_2_text }}">
+          {{ section.settings.cta_2_text }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Locations Contact",
+    "settings": [
+      {
+        "type": "text",
+        "id": "form_preheading",
+        "label": "Preheading",
+        "default": "Stockist Form"
+      },
+      {
+        "type": "text",
+        "id": "form_heading",
+        "label": "Heading",
+        "default": "Carrying Bushbalm But Not on the List?"
+      },
+      {
+        "type": "textarea",
+        "id": "form_copy",
+        "label": "Copy",
+        "default": "Please fill out your contact information below."
+      }
+    ]
+  }
+{% endschema %}

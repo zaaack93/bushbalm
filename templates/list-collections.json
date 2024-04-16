@@ -1,0 +1,532 @@
+{
+  "sections": {
+    "16618761875328c4ac": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_desktop": "shopify:\/\/shop_images\/Exfoliating_Scrubs.jpg",
+        "image_offset": 40,
+        "preheading": "",
+        "heading": "Skincare, Everywhere",
+        "copy": "<p>Find the collection for your skin concern today.<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "16618757078294c907": {
+      "type": "featured-collections",
+      "blocks": {
+        "7ac95c7b-61e4-478e-b650-9ea4096bc4b8": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hairs_Irritation.jpg",
+            "bg_color": "#f8e2c9",
+            "bg_color_desktop": "#f8e2c9",
+            "marquee_text": "Ingrown Hairs + Irritation",
+            "cta_text": "Solve Ingrown Hairs",
+            "cta_link": "shopify:\/\/collections\/best-sellers",
+            "cta_color": "#fafafa",
+            "cta_color_desktop": "#fafafa"
+          }
+        },
+        "36431f0a-654c-4ca6-9e98-372694743e92": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Exfoliating_Scrubs.jpg",
+            "bg_color": "#8ebee6",
+            "bg_color_desktop": "#8ebee6",
+            "marquee_text": "Exfoliating Scrubs",
+            "cta_text": "Shop Scrubs",
+            "cta_link": "shopify:\/\/collections\/exfoliators",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "43da1841-aca5-4e6b-a868-f46c7acf811e": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Underarm_Discoloration.jpg",
+            "bg_color": "#f7efa1",
+            "bg_color_desktop": "#f7efa1",
+            "marquee_text": "Dark Spots",
+            "cta_text": "Solve Dark Spots",
+            "cta_link": "shopify:\/\/collections\/dark-spots",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "3cc4da8e-e911-486a-9ae4-fc1ecfc37528": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trimmer.jpg",
+            "bg_color": "#b8ddd6",
+            "bg_color_desktop": "#b8ddd6",
+            "marquee_text": "Award Winning Trimmer",
+            "cta_text": "Shop Trimmer",
+            "cta_link": "shopify:\/\/collections\/the-francesca-trimmer",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "87c9c30d-f07d-49de-903e-984cc113c7ce": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Keratosis_Pilaris_e08c41c7-3b2f-40db-a33b-a2ca201c20ce.jpg",
+            "bg_color": "#cca181",
+            "bg_color_desktop": "#cca181",
+            "marquee_text": "Keratosis Pilaris",
+            "cta_text": "Solve  Rough Bumpy Skin",
+            "cta_link": "shopify:\/\/collections\/keratosis-pilaris",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "c6739b66-96c2-4d2f-b518-b3bbde677abb": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bath_and_body.webp",
+            "bg_color": "#acc69f",
+            "bg_color_desktop": "#acc69f",
+            "marquee_text": "Feminine Washes",
+            "cta_text": "Shop Feminine Washes",
+            "cta_link": "shopify:\/\/collections\/body-cleansers",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "8f61f921-771d-4489-b9dc-30f7c133e48e": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stretch_Mark_Firming_Creams.jpg",
+            "bg_color": "#f8a086",
+            "bg_color_desktop": "#f8a086",
+            "marquee_text": "Stretch Marks + Firming Cream",
+            "cta_text": "Solve Stretch Marks",
+            "cta_link": "shopify:\/\/collections\/stretch-marks",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "0c58268e-bdbe-4613-b65c-47ff46487d3e": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vajacials.jpg",
+            "bg_color": "#b8ddd6",
+            "bg_color_desktop": "#b8ddd6",
+            "marquee_text": "Hydrogel Vajacials",
+            "cta_text": "Shop Vajacials",
+            "cta_link": "shopify:\/\/collections\/vajacial",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "6b628dab-98af-4245-8b27-2a30ba3765df": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_Bushbalm_Skincare.webp",
+            "bg_color": "#f7efa1",
+            "bg_color_desktop": "#f7efa1",
+            "marquee_text": "Underarm Discoloration",
+            "cta_text": "Solve Discoloration",
+            "cta_link": "shopify:\/\/collections\/hyperpigmentation",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "77b409dd-fd3a-45b5-9002-c4de3ddd39f5": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/All_Products.jpg",
+            "bg_color": "#f8e2c9",
+            "bg_color_desktop": "#f8e2c9",
+            "marquee_text": "All Products",
+            "cta_text": "Shop All",
+            "cta_link": "shopify:\/\/collections\/all",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "7ac95c7b-61e4-478e-b650-9ea4096bc4b8",
+        "36431f0a-654c-4ca6-9e98-372694743e92",
+        "43da1841-aca5-4e6b-a868-f46c7acf811e",
+        "3cc4da8e-e911-486a-9ae4-fc1ecfc37528",
+        "87c9c30d-f07d-49de-903e-984cc113c7ce",
+        "c6739b66-96c2-4d2f-b518-b3bbde677abb",
+        "8f61f921-771d-4489-b9dc-30f7c133e48e",
+        "0c58268e-bdbe-4613-b65c-47ff46487d3e",
+        "6b628dab-98af-4245-8b27-2a30ba3765df",
+        "77b409dd-fd3a-45b5-9002-c4de3ddd39f5"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164686287108d799e1": {
+      "type": "shop-by-concern",
+      "blocks": {
+        "94877fe6-51a8-481a-af63-b2500c7d3ddc": {
+          "type": "link",
+          "settings": {
+            "cta_text": "razor burn",
+            "cta_link": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "f10a2dab-d2f2-4755-98f4-5bbea795623c": {
+          "type": "link",
+          "settings": {
+            "cta_text": "ingrown hairs",
+            "cta_link": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        },
+        "edff8793-61ca-4e4d-8d98-71b3943850ef": {
+          "type": "link",
+          "settings": {
+            "cta_text": "hyperpigmentation",
+            "cta_link": "shopify:\/\/collections\/hyperpigmentation"
+          }
+        },
+        "e9397d8b-31ef-4e21-87d5-9a765c6a8f2f": {
+          "type": "link",
+          "settings": {
+            "cta_text": "hair removal",
+            "cta_link": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "96a58c15-b0b2-4de8-8a9c-512641ecdfd4": {
+          "type": "link",
+          "settings": {
+            "cta_text": "razor burn",
+            "cta_link": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "c5d7266f-74ca-4de4-9551-fc8f6b216d6e": {
+          "type": "link",
+          "settings": {
+            "cta_text": "stretch marks",
+            "cta_link": "shopify:\/\/collections\/stretch-marks"
+          }
+        },
+        "b84b34e0-4ba2-424d-b661-531920e6b5fe": {
+          "type": "link",
+          "settings": {
+            "cta_text": "hydration",
+            "cta_link": "shopify:\/\/collections\/body-cleansers"
+          }
+        },
+        "52a32685-7132-4de3-83b2-d468c00f0545": {
+          "type": "link",
+          "settings": {
+            "cta_text": "best sellers",
+            "cta_link": "shopify:\/\/collections\/best-sellers"
+          }
+        }
+      },
+      "block_order": [
+        "94877fe6-51a8-481a-af63-b2500c7d3ddc",
+        "f10a2dab-d2f2-4755-98f4-5bbea795623c",
+        "edff8793-61ca-4e4d-8d98-71b3943850ef",
+        "e9397d8b-31ef-4e21-87d5-9a765c6a8f2f",
+        "96a58c15-b0b2-4de8-8a9c-512641ecdfd4",
+        "c5d7266f-74ca-4de4-9551-fc8f6b216d6e",
+        "b84b34e0-4ba2-424d-b661-531920e6b5fe",
+        "52a32685-7132-4de3-83b2-d468c00f0545"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/2_b3753e69-ce0a-4f80-98ad-64752f5cf2e8.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/2_b3753e69-ce0a-4f80-98ad-64752f5cf2e8.jpg",
+        "heading": "All Collections",
+        "subheading": "Everything you need from Bushbalm Skincare.",
+        "speed_mobile": 700,
+        "delay_mobile": 1000,
+        "speed_desktop": 1000,
+        "delay_desktop": 2000,
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "list-collections",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "e67354f1-eaa5-4bc3-8313-3ede7287fd09": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center>\n<h4> By Product Type <\/h4>\n<p><\/p>\n<\/center>"
+      }
+    },
+    "c2fa5339-c2c1-4670-9c75-b3ef5ab30f25": {
+      "type": "cta-block-grid",
+      "blocks": {
+        "d2d652ed-84b2-4644-8ffd-5eab7bd9d12a": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/During_Bushbalm_Vajacial.jpg",
+            "heading": "Hydrogel Vajacial Masks",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/vajacial"
+          }
+        },
+        "6a27a4a6-11df-4fd0-81be-0d77973072bb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hairs_Irritation.jpg",
+            "heading": "Soothing Oils",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/soothing-oils-1"
+          }
+        },
+        "cac869d5-c14f-4237-bc5b-f067afe2ad09": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Underarm_Discoloration.jpg",
+            "heading": "Brightening Oils",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/brightening-oils"
+          }
+        },
+        "ee24d59e-bedf-466a-a554-278c71bfab35": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bikini_and_Pubic_Trimmer.jpg",
+            "heading": "Bikini Trimmer",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/the-francesca-trimmer"
+          }
+        },
+        "4e401a57-9d33-44a9-9a92-e448f71341e8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_04f96354-d06d-4f27-90b0-9d950102787d.jpg",
+            "heading": "Exfoliating Scrubs",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/exfoliators"
+          }
+        },
+        "d03b3fae-caa7-4f11-b060-bc07ff0177e7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nordic_Dry_Brush_by_Bushbalm.jpg",
+            "heading": "Dry Brushes",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/products\/bikini-dry-brush"
+          }
+        },
+        "33cfc6d3-5a2f-41f9-b098-6d684144f25b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/body_rock.jpg",
+            "heading": "Body Tools",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/tools-accessories"
+          }
+        },
+        "b528c101-08f7-4ca4-8fd3-f0bbc8bcc994": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Body_Cleanser_by_Bushbalm_Spa_Day_0d88c325-f645-4bdb-bddb-231ed65852a8.png",
+            "heading": "Feminine Washes",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/body-cleansers"
+          }
+        },
+        "1a27d131-18eb-42c8-86b5-c8db1b0789bb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stretch-Mark-Cream_b802c519-d88c-48b0-b401-348f3a9ee618.png",
+            "heading": "Firming Creams",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/body-creams"
+          }
+        }
+      },
+      "block_order": [
+        "d2d652ed-84b2-4644-8ffd-5eab7bd9d12a",
+        "6a27a4a6-11df-4fd0-81be-0d77973072bb",
+        "cac869d5-c14f-4237-bc5b-f067afe2ad09",
+        "ee24d59e-bedf-466a-a554-278c71bfab35",
+        "4e401a57-9d33-44a9-9a92-e448f71341e8",
+        "d03b3fae-caa7-4f11-b060-bc07ff0177e7",
+        "33cfc6d3-5a2f-41f9-b098-6d684144f25b",
+        "b528c101-08f7-4ca4-8fd3-f0bbc8bcc994",
+        "1a27d131-18eb-42c8-86b5-c8db1b0789bb"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "a61506f3-3ca1-4d89-87cc-52ada7f1c26a": {
+      "type": "featured-collection-carousel",
+      "settings": {
+        "featured_collection": "bundles",
+        "background_color": "#fbf0e4",
+        "overwrite_heading": "Special Offers",
+        "cta_url": "shopify:\/\/collections\/bundles",
+        "cta_text": "Shop All",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "8aea0f6e-851c-4767-80a9-471d8b723738": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center>\n<h4> By Skin Concern <\/h4>\n<p><\/p>\n<\/center>"
+      }
+    },
+    "8c3afe11-4077-4874-b93a-f25ad0e763eb": {
+      "type": "cta-block-grid",
+      "blocks": {
+        "bf5e33ab-111d-4c5d-b417-dda5ac7ffae7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Brightening_Products.jpg",
+            "heading": "Dark Spots + Brightening",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "177bc51f-0a6f-4383-9df2-23e036bf4478": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/How_to_do_a_vajacial.jpg",
+            "heading": "Post-Wax Irritation",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/post-wax-irritation"
+          }
+        },
+        "0894665b-ab7e-44c8-a8b4-48fe3d104936": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nude_Discovery.jpg",
+            "heading": "Ingrown Hairs + Razor Burn",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        },
+        "8b9eb0f3-417d-4613-b549-fb56b7cd75c4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stretch_Mark_Firming_Creams.jpg",
+            "heading": "Stretchmarks",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/stretch-marks"
+          }
+        },
+        "ecc8e836-7882-40d6-a27d-c332660211ed": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BERMUDA_OIL-016.jpg",
+            "heading": "Hyperpigmentation",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/hyperpigmentation"
+          }
+        },
+        "4fc3825b-49b5-4021-bca6-3cccfefb9424": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sweet_Escape_Scrub.jpg",
+            "heading": "Keratosis Pilaris",
+            "heading_mobile": "",
+            "copy": "",
+            "url": "shopify:\/\/collections\/keratosis-pilaris"
+          }
+        }
+      },
+      "block_order": [
+        "bf5e33ab-111d-4c5d-b417-dda5ac7ffae7",
+        "177bc51f-0a6f-4383-9df2-23e036bf4478",
+        "0894665b-ab7e-44c8-a8b4-48fe3d104936",
+        "8b9eb0f3-417d-4613-b549-fb56b7cd75c4",
+        "ecc8e836-7882-40d6-a27d-c332660211ed",
+        "4fc3825b-49b5-4021-bca6-3cccfefb9424"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "8c30e5e0-95ea-4ec6-aa13-de3bab919002": {
+      "type": "featured-collections",
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "a4e2344c-fd1b-4c3b-99b5-b50d26c67a0d": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "What's next",
+        "headline": "Ready to get started on your new skincare journey?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop All Products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "Take Our Quiz",
+        "cta_2_link": "shopify:\/\/pages\/quiz",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "104px"
+      }
+    }
+  },
+  "order": [
+    "16618761875328c4ac",
+    "16618757078294c907",
+    "164686287108d799e1",
+    "main",
+    "e67354f1-eaa5-4bc3-8313-3ede7287fd09",
+    "c2fa5339-c2c1-4670-9c75-b3ef5ab30f25",
+    "a61506f3-3ca1-4d89-87cc-52ada7f1c26a",
+    "8aea0f6e-851c-4767-80a9-471d8b723738",
+    "8c3afe11-4077-4874-b93a-f25ad0e763eb",
+    "8c30e5e0-95ea-4ec6-aa13-de3bab919002",
+    "a4e2344c-fd1b-4c3b-99b5-b50d26c67a0d"
+  ]
+}

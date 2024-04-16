@@ -1,0 +1,13 @@
+{%- liquid
+  assign cart_count = 0
+
+  for item in cart.items
+    if item.properties._cart_reward != blank
+      continue
+    endif
+
+    assign cart_count = cart_count | plus: item.quantity
+  endfor
+
+  echo cart_count
+-%}

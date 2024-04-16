@@ -1,0 +1,237 @@
+<script src="{{ 'home-hero-image.js' | asset_url }}" defer="defer"></script>
+{{ 'home-hero-image.css' | asset_url | stylesheet_tag }}
+
+<div class="home-hero-image home-hero-image--{{ section.id }}" role="region" aria-label="Hero">
+  <div class="home-hero-image__container">
+    <div class="home-hero-image__imagery">
+      {% if section.settings.linkable_image_link_mobile != blank %}
+        <a href="{{ section.settings.linkable_image_link_mobile }}"
+          tabindex="0" title="{{ section.settings.linkable_image_mobile.alt | default: "Call to action banner" }}"
+          class="medium-up--hide"
+        >
+      {% endif %}
+
+      {% if section.settings.linkable_image_mobile != blank %}
+        {{ section.settings.linkable_image_mobile | image_url: width: 750 | image_tag: widths: '350, 750', class: 'home-hero-image__imagery-image medium-up--hide' }}
+      {% endif %}
+
+      {% if section.settings.linkable_image_link_mobile != blank %}
+        </a>
+      {% endif %}
+
+      {% if section.settings.linkable_image_link_desktop != blank %}
+        <a href="{{ section.settings.linkable_image_link_desktop }}"
+          tabindex="0" title="{{ section.settings.linkable_image_desktop.alt | default: "Call to action banner" }}"
+          class="small--hide"
+        >
+      {% endif %}
+
+      {% if section.settings.linkable_image_desktop != blank %}
+        {{ section.settings.linkable_image_desktop | image_url: width: 1920 | image_tag: widths: '960, 1920', class: 'home-hero-image__imagery-image small--hide' }}
+      {% endif %}
+
+      {% if section.settings.linkable_image_link_desktop != blank %}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'home-hero-image'
+%}
+
+{% schema %}
+  {
+    "name": "Home Hero Image",
+    "settings": [
+      {
+        "type": "url",
+        "id": "linkable_image_link_mobile",
+        "label": "Image Link | Mobile"
+      },
+      {
+        "type": "url",
+        "id": "linkable_image_link_desktop",
+        "label": "Image Link | Desktop"
+      },
+      {
+        "type": "header",
+        "content": "Images"
+      },
+      {
+        "type": "image_picker",
+        "id": "linkable_image_mobile",
+        "label": "Image Hero | Mobile",
+        "info": "Alt text is highly recommended"
+      },
+      {
+        "type": "image_picker",
+        "id": "linkable_image_desktop",
+        "label": "Image Hero | Desktop",
+        "info": "Alt text is highly recommended"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "128px",
+            "label": "128px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "128px",
+            "label": "128px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Hero Image"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,45 @@
+{{ 'cart-carousel.css' | asset_url | stylesheet_tag }}
+
+<div class="cart-carousel__content-wrapper">
+  <div class="swiper-container" data-cart-carousel>
+    <div class="cart-carousel__wrapper swiper-wrapper">
+      {% assign current_index = 0 %}
+      {% for carousel_product in section.settings.carousel_product_list %}
+        {% if current_index == 3 %}{% break %}{% endif %}
+        {% if cart_item_product_ids contains carousel_product.id %}
+          {% continue %}
+        {% endif %}
+        <div class="cart-carousel__slide swiper-slide">
+          {% render 'cart-carousel-item' with
+            product: carousel_product,
+            section: section,
+            index: forloop.index
+          %}
+        </div>
+        {% assign current_index = current_index | plus: 1 %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="cart-carousel__control-wrapper">
+  <button class="cart-carousel__control cart-carousel__control--prev swiper-button-prev"
+    aria-label="{{ 'general.accessibility.slider_prev' | t }}"
+    title="{{ 'general.accessibility.slider_prev' | t }}"
+    data-cart-carousel-carousel-prev
+  >
+    {% render 'icon-chevron-left' %}
+    <span class="prev">{{ 'cart.general.prev' | t }}</span>
+  </button>
+
+  <div class="cart-carousel__pagination swiper-pagination"></div>
+
+  <button class="cart-carousel__control cart-carousel__control--next swiper-button-next"
+    aria-label="{{ 'general.accessibility.slider_next' | t }}"
+    title="{{ 'general.accessibility.slider_next' | t }}"
+    data-cart-carousel-carousel-next
+  >
+    {% render 'icon-chevron-right' %}
+    <span class="next">{{ 'cart.general.next' | t }}</span>
+  </button>
+</div>

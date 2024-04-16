@@ -1,0 +1,223 @@
+<script src="{{ 'trust-bar.js' | asset_url }}" defer="defer"></script>
+{{ 'trust-bar.css' | asset_url | stylesheet_tag }}
+
+<div class="trust-bar trust-bar--{{ section.id }} swiper-container"
+  data-trust-bar
+  data-trust-bar-speed="{{ section.settings.speed }}"
+  data-trust-bar-length="{{ section.blocks.size }}">
+  <div class="trust-bar__container swiper-wrapper smooth-scroll"
+    data-trust-bar-swiper-wrapper>
+    {% for block in section.blocks %}
+      <div class="trust-bar__block swiper-slide">
+        {% if block.settings.icon_url != blank %}
+          <div class="trust-bar__icon">
+            <img class="lazyload" src="{{ block.settings.icon_url }}"
+              alt="{{ block.settings.title | default: 'Trust Icon' }}"
+              data-src="{{ block.settings.icon_url }}">
+          </div>
+        {% endif %}
+        {% if block.settings.title != blank %}
+          <p class="trust-bar__title">
+            {{- block.settings.title -}}
+          </p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'trust-bar'
+%}
+
+{% schema %}
+  {
+    "name": "Trust Bar",
+    "blocks": [
+      {
+        "type": "trust_block",
+        "name": "Trust Block",
+        "limit": 8,
+        "settings": [
+          {
+            "type": "text",
+            "id": "icon_url",
+            "label": "Icon URL",
+            "info": "SVG Format. Paste URL from Files - Dimensions: 56 x 56"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "header",
+        "content": "Slider"
+      },
+      {
+        "type": "number",
+        "id": "speed",
+        "label": "Speed",
+        "default": 8000,
+        "info": "(in ms)"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Trust Bar"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,644 @@
+{
+  "sections": {
+    "1658495723600d4723": {
+      "type": "promo-banner",
+      "blocks": {
+        "fb55ba21-3073-4602-9a5d-5de0793c8411": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Special Offer<\/p>"
+          }
+        },
+        "6ed4085b-c605-44cc-9d94-2dd9bd9253fd": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "ee31b691-70b5-4356-8210-0503fbf26bb2": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>The Brightening Bundle <\/p>"
+          }
+        },
+        "55828e53-3b59-4b01-8731-806bf12d17ad": {
+          "type": "promo_product_list",
+          "settings": {
+            "product_list": [
+              "the-brightening-bikini-bundle"
+            ]
+          }
+        },
+        "9b609255-b800-4590-bda9-4c3d21157775": {
+          "type": "promo_countdown_timer",
+          "disabled": true,
+          "settings": {
+            "countdown_timer_type": "repeating",
+            "countdown_timer_time_repeating": "05:34",
+            "countdown_timer_time_set": ""
+          }
+        },
+        "92c1ad6a-df36-430b-8038-1c25bc06ba98": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>Save $20<\/p>"
+          }
+        },
+        "4a97b4d3-a4a2-4941-b15e-8a2dd3d1c0e7": {
+          "type": "promo_cta",
+          "settings": {
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/the-brightening-bikini-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "fb55ba21-3073-4602-9a5d-5de0793c8411",
+        "6ed4085b-c605-44cc-9d94-2dd9bd9253fd",
+        "ee31b691-70b5-4356-8210-0503fbf26bb2",
+        "55828e53-3b59-4b01-8731-806bf12d17ad",
+        "9b609255-b800-4590-bda9-4c3d21157775",
+        "92c1ad6a-df36-430b-8038-1c25bc06ba98",
+        "4a97b4d3-a4a2-4941-b15e-8a2dd3d1c0e7"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1658495161bf5edb5e": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Say Goodbye to Dark Spots & Hyperpigmentation",
+        "heading_tag": "h1",
+        "title_sizing": "title_smallest",
+        "subtitle": "",
+        "copy": "<p>Made with all natural ingredients.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Dark_Oil.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Dark_Spots_on_Bikini_Line_Treatment_1568x_bbe1fb1b-f543-4f47-825f-c4a80b4241a9.webp",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 230,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4000,
+        "review_animation": true,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_c09e937a-9d63-40ba-9e19-00be3563281e.png",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "88px",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "83c55d8b-3f98-4f66-8b64-1c17b3935274": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "832b2a34-3d41-4fa8-a6f1-09fb6992700d": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "enable_sub_text": true
+          }
+        },
+        "5743cba7-6ddd-4da9-a042-9d65abdf340b": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "enable_sub_text": true
+          }
+        },
+        "a94a9a2a-8518-4525-97fd-5fde5dd51a49": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-hyperpigmentation-products",
+            "enable_sub_text": true
+          }
+        },
+        "bb87c7b1-7916-44d8-a347-bb7da3df637b": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-corrector",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "832b2a34-3d41-4fa8-a6f1-09fb6992700d",
+        "5743cba7-6ddd-4da9-a042-9d65abdf340b",
+        "a94a9a2a-8518-4525-97fd-5fde5dd51a49",
+        "bb87c7b1-7916-44d8-a347-bb7da3df637b"
+      ],
+      "settings": {
+        "heading": "Dark Spot Collection",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "165849777087ed52fa": {
+      "type": "image-carousel",
+      "blocks": {
+        "5e7c809d-2da5-4d8c-aa8b-5dff20ad8abd": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13_d411d3b3-cec4-4c3e-b53b-187c117c4a4c.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "9ab264aa-8bfb-4694-8908-4337c7d9b4bd": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dark-spot-oil-underarm-darkening_a241097e-6a23-430d-89f2-b16473c07a15.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "7ce41d59-1279-4fba-a6b7-fdb7eae72d05": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "559cad45-bf9f-4105-93af-32c15b4ab00b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "51fc3ff7-2e3b-4b11-b79d-c58a3b38036f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Underarms_1296x_de909144-ca1a-40d9-a0ce-4d12d756a01a.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "948d00ac-59a9-4d25-8ac6-6ea2a44330d6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_and_after_Bushbalm_6.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "80972a4c-c7d4-436f-840e-87dca3b1f66e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_and_after_Bushbalm_8.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "5e7c809d-2da5-4d8c-aa8b-5dff20ad8abd",
+        "9ab264aa-8bfb-4694-8908-4337c7d9b4bd",
+        "7ce41d59-1279-4fba-a6b7-fdb7eae72d05",
+        "559cad45-bf9f-4105-93af-32c15b4ab00b",
+        "51fc3ff7-2e3b-4b11-b79d-c58a3b38036f",
+        "948d00ac-59a9-4d25-8ac6-6ea2a44330d6",
+        "80972a4c-c7d4-436f-840e-87dca3b1f66e"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "16585365807f685221": {
+      "type": "featured-reviews",
+      "settings": {
+        "intro": "See what our <i>Bushbabes<\/i> are saying",
+        "headline": "Verified Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"6939828995\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "fba96d95-168c-4492-99a0-317c60a7500e": {
+      "type": "home-hero-options",
+      "disabled": true,
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Skincare, <i>Everywhere<\/i> Made Simple",
+        "heading_tag": "h2",
+        "title_sizing": "title_medium",
+        "subtitle": "",
+        "copy": "<p>A natural solution to improve the look of dark spots and hyperpigmentation everywhere on the body.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Dark Spot Collection",
+        "cta_link": "shopify:\/\/collections\/dark-spots",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Product_Image_Pictures_15.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Product_Image_Pictures_16.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1658505166a2e289e0": {
+      "type": "home-hero",
+      "settings": {
+        "title": "The Routine",
+        "copy": "✓ Oil Daily <br> \n✓ Scrub 3x Weekly<br> ✓ Dry Brush 2x Weekly",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/dark-spots",
+        "position_desktop": "right",
+        "position_mobile": "bottom",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/55b81e33960c4ba3a59ac65a499203ee.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/55b81e33960c4ba3a59ac65a499203ee.mp4",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "d3c9ed1b-4264-4fd5-879e-ce8470dcadc7": {
+      "type": "promo-banner",
+      "blocks": {
+        "e81a5635-4f6c-4f31-a152-5bfaddf6c25f": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Get The Best Of Both Worlds<\/p>"
+          }
+        },
+        "3d972ce9-2f3b-4bc9-8a31-95ffeaa424cd": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "e81a5635-4f6c-4f31-a152-5bfaddf6c25f",
+        "3d972ce9-2f3b-4bc9-8a31-95ffeaa424cd"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1660481184f380e703": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "the-brightening-bundle",
+        "overwrite_heading": "<p>The Brightening Bundle<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Our entire brightening collection at a discount. <\/p><p><\/p><p><strong>Bundle & Save <\/strong><\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "-24px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "2322379d-7bd0-41e8-b080-a90f7d0c7d98": {
+      "type": "content-list",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "image_mobile": "shopify:\/\/shop_images\/count_1294_x_1294_px_2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/count_1294_x_1294_px_2.jpg",
+        "heading": "What's the Difference?",
+        "copy": "<b> Similarities:<\/b>\n<br>\n<br>\n✔ Made with the same Ingredients\n<br>\n✔  For all Skintypes<br>\n✔ ph Conscious<br>\n✔ Clean ingredients<br>\n✔ 100% vegan + crulety free<br>\n✔ Gyno + derm approved<br>\n✔ Waxing salong recommended\n<br>\n<br>\n<b> Differences:<\/b>\n<br><br>\n<b>Bermuda<\/b> has a  clean scent with refreshing notes of lemon.\n<br>\n<b>Piña Colada<\/b> has a tropical scent with playful notes of pineapple + coconut",
+        "subheading": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1658503577bcb5184d": {
+      "type": "who-we-are",
+      "blocks": {
+        "672ac121-516d-42b6-b466-0a66a763e315": {
+          "type": "list_item",
+          "settings": {
+            "text": "Hair Removal Irritation"
+          }
+        },
+        "0bcf4c21-594e-419b-80cd-47e4ec118148": {
+          "type": "list_item",
+          "settings": {
+            "text": "Brightening Skin & Rejuvenating"
+          }
+        },
+        "6c738346-5ad1-44a7-85b3-e74f0d2ba922": {
+          "type": "list_item",
+          "settings": {
+            "text": "Dark Spots & Hyperpigmentation"
+          }
+        },
+        "1d718e6a-075d-4470-8e15-43028f487f8d": {
+          "type": "list_item",
+          "settings": {
+            "text": "Razor Burn, Ingrown Hairs & More."
+          }
+        }
+      },
+      "block_order": [
+        "672ac121-516d-42b6-b466-0a66a763e315",
+        "0bcf4c21-594e-419b-80cd-47e4ec118148",
+        "6c738346-5ad1-44a7-85b3-e74f0d2ba922",
+        "1d718e6a-075d-4470-8e15-43028f487f8d"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Who We Are",
+        "subheading": "Bushbalm was founded on the promise to solve ingrown hairs, razor burn and dark spots with natural products.",
+        "list_heading": "Our Focuses",
+        "cta_text": "Get Started",
+        "cta_link": "shopify:\/\/collections\/dark-spots",
+        "image_desktop": "shopify:\/\/shop_images\/Brightening_Underarms.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Lighten_Underarms.jpg",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "page-content",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1641568172773a0f0d": {
+      "type": "content-nav",
+      "blocks": {
+        "f8a05f9b-8e20-4b72-b927-a5ee5eab8145": {
+          "type": "link",
+          "settings": {
+            "uid": "product-guide",
+            "text": "Product Guide"
+          }
+        },
+        "dee0625a-9bcb-44c7-b998-9661473e3cdd": {
+          "type": "link",
+          "settings": {
+            "uid": "routine-guide",
+            "text": "Routine Guide"
+          }
+        },
+        "8b4b1c32-f02e-4bf8-84b8-d8ecea8eb6b4": {
+          "type": "link",
+          "settings": {
+            "uid": "ingredients-info",
+            "text": "Ingredients & Information"
+          }
+        },
+        "1327cba3-29dd-4f8b-ac70-159eda2fcea2": {
+          "type": "link",
+          "settings": {
+            "uid": "skin-dictionary",
+            "text": "Skin Dictionary"
+          }
+        }
+      },
+      "block_order": [
+        "f8a05f9b-8e20-4b72-b927-a5ee5eab8145",
+        "dee0625a-9bcb-44c7-b998-9661473e3cdd",
+        "8b4b1c32-f02e-4bf8-84b8-d8ecea8eb6b4",
+        "1327cba3-29dd-4f8b-ac70-159eda2fcea2"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1658536953e96cb7cf": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@bushbalm\/video\/7091652236241128709\" data-video-id=\"7091652236241128709\" style=\"max-width: 605px;min-width: 325px;\"> <section> <a target=\"_blank\" title=\"@bushbalm\" href=\"https:\/\/www.tiktok.com\/@bushbalm\">@bushbalm<\/a> @Brynta’s underarms skincare routine for dark spots 🤯 <a title=\"darkspots\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/darkspots\">#darkspots<\/a> <a title=\"armpit\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/armpit\">#armpit<\/a> <a title=\"fyp\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/fyp\">#fyp<\/a> <a title=\"razorbumps\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/razorbumps\">#razorbumps<\/a> <a title=\"ingrownhair\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/ingrownhair\">#ingrownhair<\/a> <a title=\"shavingtips\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/shavingtips\">#shavingtips<\/a> <a title=\"hyperpigmentation\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/hyperpigmentation\">#hyperpigmentation<\/a> <a title=\"hairremoval\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/hairremoval\">#hairremoval<\/a> <a target=\"_blank\" title=\"♬ Jiggle Jiggle - Duke &amp; Jones &amp; Louis Theroux\" href=\"https:\/\/www.tiktok.com\/music\/Jiggle-Jiggle-7075729123557100294\">♬ Jiggle Jiggle - Duke &amp; Jones &amp; Louis Theroux<\/a> <\/section> <\/blockquote> <script async=\"\" src=\"https:\/\/www.tiktok.com\/embed.js\"><\/script>"
+      }
+    },
+    "4368c6e9-ca2d-4359-81ad-eed0b1cb5e39": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "",
+        "headline": "",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Bermuda",
+        "cta_link": "shopify:\/\/collections\/the-bermuda-collection",
+        "cta_2_text": "Shop Piña Colada",
+        "cta_2_link": "shopify:\/\/collections\/pina-colada-collection",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16585046398834c5aa": {
+      "type": "related-products",
+      "blocks": {
+        "1ce830aa-01fb-4045-81be-ea19b0e98b40": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-treatment"
+          }
+        },
+        "6256b0e2-9cdf-4c12-a754-339bf4c265ca": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-corrector"
+          }
+        },
+        "e0a5584b-28df-42fe-a024-84a0e64f1151": {
+          "type": "related_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant"
+          }
+        }
+      },
+      "block_order": [
+        "1ce830aa-01fb-4045-81be-ea19b0e98b40",
+        "6256b0e2-9cdf-4c12-a754-339bf4c265ca",
+        "e0a5584b-28df-42fe-a024-84a0e64f1151"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Top Picks",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1658496128e39b1022": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#f8e2c9",
+        "featured_product": "dark-spot-corrector",
+        "overwrite_heading": "<p>Piña Colada Brightening & Dark Spot Oil<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Step #1 <\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164530578629186e59": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "645be047-4140-4d44-a97c-7023b3ccb34a": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_c45d3859-58a2-4f68-a294-cf8d73ebb4eb.jpg",
+            "heading": "Exfoliating Tools",
+            "cta_text": "View Products",
+            "url": "shopify:\/\/collections\/tools-accessories"
+          }
+        },
+        "b4e9db75-75df-48a0-a36e-c59ad1109ed0": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bikini_Line_Trimmer_Bushbalm.jpg",
+            "heading": "Bikini Timmer",
+            "cta_text": "View Products",
+            "url": "shopify:\/\/products\/the-francesca-bikini-trimmer-for-pubic-hair"
+          }
+        },
+        "0d37d491-8a38-434b-92ab-51c15677a31b": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4th_of_July.jpg",
+            "heading": "Bikini Bumps",
+            "cta_text": "View Products",
+            "url": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "a9b140ad-ba1e-472b-8a01-1f5f652043be": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_28.jpg",
+            "heading": "Dark Spots",
+            "cta_text": "View Products",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        }
+      },
+      "block_order": [
+        "645be047-4140-4d44-a97c-7023b3ccb34a",
+        "b4e9db75-75df-48a0-a36e-c59ad1109ed0",
+        "0d37d491-8a38-434b-92ab-51c15677a31b",
+        "a9b140ad-ba1e-472b-8a01-1f5f652043be"
+      ],
+      "settings": {
+        "carousel_heading": "More Products"
+      }
+    },
+    "1641845067211255f4": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Proven Skincare",
+        "headline": "Natural ingredients,<br>beautiful results",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "See the results",
+        "cta_2_link": "shopify:\/\/blogs\/before-and-after",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1658495723600d4723",
+    "1658495161bf5edb5e",
+    "83c55d8b-3f98-4f66-8b64-1c17b3935274",
+    "165849777087ed52fa",
+    "16585365807f685221",
+    "fba96d95-168c-4492-99a0-317c60a7500e",
+    "1658505166a2e289e0",
+    "d3c9ed1b-4264-4fd5-879e-ce8470dcadc7",
+    "1660481184f380e703",
+    "2322379d-7bd0-41e8-b080-a90f7d0c7d98",
+    "1658503577bcb5184d",
+    "main",
+    "1641568172773a0f0d",
+    "1658536953e96cb7cf",
+    "4368c6e9-ca2d-4359-81ad-eed0b1cb5e39",
+    "16585046398834c5aa",
+    "1658496128e39b1022",
+    "164530578629186e59",
+    "1641845067211255f4"
+  ]
+}

@@ -1,0 +1,515 @@
+<script src="{{ 'routine-builder.js' | asset_url }}" defer="defer"></script>
+{{ 'routine-builder.css' | asset_url | stylesheet_tag }}
+
+{% assign bundle_product = all_products[collection.metafields.custom_fields["routine_bundle_product"]] %}
+{% assign bundle_metafields = bundle_product.metafields.custom_fields["routine_bundle_options"] %}
+{% assign bundle_discount = collection.metafields.custom_fields["routine_discount_percentage"] | times: 1.0 | divided_by: 100 %}
+{% assign bundle_children_price_total = 0 %}
+
+<div class="routine-builder routine-builder--{{ section.id }}">
+  {% if bundle_product != blank %}
+    <div class="routine-builder__steps routine-builder__steps--quantity-{{ bundle_product.options_with_values.size }}">
+      {% for product_option in bundle_product.options_with_values %}
+        {% assign step_count = forloop.index %}
+        {% assign this_step_metafields = bundle_metafields | where: "option_name", product_option.name | first %}
+        <div class="routine-builder__step" data-routine-builder-step>
+          {% for value in product_option.values %}
+            {% assign this_step_product = this_step_metafields.products | where: "product_option_value", value | first %}
+            {% assign product_option_ref = all_products[this_step_product.product_reference] %}
+            {% if forloop.index == 1 %}
+              {% assign bundle_children_price_total = bundle_children_price_total | plus: product_option_ref.price %}
+            {% endif %}
+            <div class="routine-builder__step-content{% if product_option.selected_value == value %} active{% endif %}"
+              data-routine-builder-product-option="{{ value }}"
+              data-routine-builder-product-id="{{ product_option_ref.variants[0].id }}">
+              <a class="routine-builder__step-image
+                {% if product_option_ref.metafields.custom_fields["collection_item_hover_image"] != blank %} has-hover{% endif %}"
+                href="{{ product_option_ref.url }}"
+                title="{{ product_option_ref.title }}">
+                <img class="lazyload"
+                  alt="{{ product_option_ref.title }}"
+                  src="{{ product_option_ref.featured_image | img_url: '300x' }}"
+                  data-src="{{ product_option_ref.featured_image | img_url: '1024x' }}">
+                {% if product_option_ref.metafields.custom_fields["collection_item_hover_image"] != blank %}
+                  <img class="hover-image lazyload"
+                    alt="{{ product_option_ref.title }}"
+                    src="{{ product_option_ref.metafields.custom_fields["collection_item_hover_image"] }}"
+                    data-src="{{ product_option_ref.metafields.custom_fields["collection_item_hover_image"] }}">
+                {% endif %}
+                <span class="routine-builder__step-badge">
+                  {{- 'products.product.step_number' | t: number: step_count -}}
+                </span>
+              </a>
+              <a class="routine-builder__step-title"
+                href="{{ product_option_ref.url }}"
+                title="{{ product_option_ref.title }}">
+                {{- product_option_ref.title -}}
+              </a>
+              {% if this_step_product.product_info != blank %}
+                <p class="routine-builder__step-copy">
+                  {{- this_step_product.product_info -}}
+                </p>
+              {% endif %}
+            </div>
+          {% endfor %}
+          <label class="visually-hidden"
+            for="routine-builder-select--{{ forloop.index }}">
+            {{- product_option.name -}}
+          </label>
+          <select class="routine-builder__step-select"
+            id="routine-builder-select--{{ forloop.index }}"
+            name="{{ product_option.name }}"
+            data-routine-builder-selector
+            data-routine-builder-selector-step="{{ step_count }}">
+            {% for value in product_option.values %}
+              <option {% if product_option.selected_value == value %}selected{% endif %}>
+                {{- value -}}
+              </option>
+            {% endfor %}
+          </select>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if collection.metafields.custom_fields["upsell_products"] != blank %}
+    <div class="routine-builder__upsells">
+      <div class="routine-builder__upsells-header">
+        <h2>
+          {{- collection.metafields.custom_fields["routine_upsells_heading"]
+            | default: section.settings.upsells_heading
+          -}}
+        </h2>
+        {% if collection.metafields.custom_fields["routine_upsells_subheading"] != blank %}
+          <p>{{ collection.metafields.custom_fields["routine_upsells_subheading"] }}</p>
+        {% elsif section.settings.upsells_subheading != blank %}
+          <p>{{ section.settings.upsells_subheading }}</p>
+        {% endif %}
+      </div>
+      <div class="routine-builder__upsells-list">
+        {% for upsell_item in collection.metafields.custom_fields["upsell_products"] %}
+          {% assign upsell_product = all_products[upsell_item["product"]] %}
+          {% if upsell_product != blank %}
+            <div class="routine-builder__upsell" data-routine-builder-upsell="{{ upsell_product.variants[0].id }}">
+              <a href="{{ upsell_product.url }}"
+                class="routine-builder__upsell-image-wrapper"
+                title="{{ upsell_item["product_title"] | default: upsell_product.title }}">
+                {% render 'responsive-image' with
+                  image: upsell_product.featured_image,
+                  max_width: 244,
+                  max_height: 244,
+                  wrapper_class: 'routine-builder__upsell-image'
+                %}
+                {% render 'icon-circle-checked' %}
+              </a>
+              <div class="routine-builder__upsell-content">
+                <a href="{{ upsell_product.url }}"
+                  class="routine-builder__upsell-title"
+                  title="{{ upsell_item["product_title"] | default: upsell_product.title }}">
+                  {{- upsell_item["product_title"] | default: upsell_product.title -}}
+                </a>
+                {% if upsell_item["product_copy"] != blank %}
+                  <p class="routine-builder__upsell-copy">
+                    {{- upsell_item["product_copy"] -}}
+                  </p>
+                {% endif %}
+                {% assign upsell_price = upsell_product.price | money_without_currency %}
+                <p class="routine-builder__upsell-price">
+                  &dollar;{{- upsell_price | replace: '.00', '' -}}
+                </p>
+                <button type="button"
+                  class="routine-builder__upsell-add btn btn--full btn--chocolate"
+                  title="{{ section.settings.upsells_cta_text }}"
+                  aria-label="{{ section.settings.upsells_cta_text }}"
+                  data-routine-builder-upsell-add>
+                  {{- section.settings.upsells_cta_text -}}
+                </button>
+                <button type="button"
+                  class="routine-builder__upsell-remove btn btn--full btn--secondary"
+                  title=""
+                  aria-label=""
+                  data-routine-builder-upsell-remove>
+                  {{- 'products.product.remove' | t -}}
+                  {%- render 'icon-close-small' -%}
+                </button>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="routine-builder__summary">
+    <div class="routine-builder__summary-container">
+      <div class="routine-builder__summary-header">
+        <h2>{{ section.settings.summary_heading }}</h2>
+        {% if section.settings.summary_subheading != blank %}
+          <p>{{ section.settings.summary_subheading }}</p>
+        {% endif %}
+      </div>
+      {% if bundle_product != blank %}
+        <div class="routine-builder__summary-list">
+          {% for product_option in bundle_product.options_with_values %}
+            {% assign step_count = forloop.index %}
+            {% assign this_step_metafields = bundle_metafields | where: "option_name", product_option.name | first %}
+            {% for value in product_option.values %}
+              {% assign this_step_product = this_step_metafields.products | where: "product_option_value", value | first %}
+              {% assign product_option_ref = all_products[this_step_product.product_reference] %}
+              {% if product_option_ref != blank %}
+                {% assign product_price = product_option_ref.price %}
+                {% assign product_discount = bundle_children_price_total | minus: bundle_product.price | divided_by: bundle_product.options.size %}
+                {% assign product_price_discounted = product_price | minus: product_discount %}
+                <div class="routine-builder__summary-item{% if product_option.selected_value == value %} active{% endif %}"
+                  data-routine-builder-summary-item="{{ value }}"
+                  data-routine-builder-summary-item-price="{{ product_price_discounted }}"
+                  data-routine-builder-summary-item-price-original="{{ product_price }}"
+                  data-routine-builder-summary-product-id="{{ product_option_ref.variants[0].id }}"
+                  data-routine-builder-summary-bundle-title="{{ bundle_product.title }}"
+                  data-routine-builder-summary-step="{{ step_count }}">
+                  <div class="routine-builder__summary-image small--hide">
+                    <img class="lazyload"
+                      alt="{{ product_option_ref.title }}"
+                      src="{{ product_option_ref.featured_image | img_url: '100x' }}"
+                      data-src="{{ product_option_ref.featured_image | img_url: '208x' }}">
+                  </div>
+                  <div class="routine-builder__summary-info">
+                    <p class="routine-builder__summary-step">
+                      {{- 'products.product.step_number' | t: number: step_count -}}
+                    </p>
+                    <p class="routine-builder__summary-title">{{ product_option_ref.title }}</p>
+                  </div>
+                  <div class="routine-builder__summary-subtotal">
+                    {%- capture original_price -%}
+                      &dollar;{{- product_price
+                        | money_without_currency
+                        | replace: '.00', ''
+                      -}}
+                    {%- endcapture -%}
+                    {%- capture bundle_price -%}
+                      &dollar;{{- product_price_discounted
+                        | money_without_currency
+                        | replace: '.00', ''
+                      -}}
+                    {%- endcapture -%}
+                    <p aria-label="{{ 'general.accessibility.strikethough_price'
+                      | t: original: original_price, sale: bundle_price }}">
+                      {{- bundle_price -}}
+                      <span aria-hidden>{{ original_price }}</span>
+                    </p>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+
+          {% if collection.metafields.custom_fields["upsell_products"] != blank %}
+            {% for upsell_item in collection.metafields.custom_fields["upsell_products"] %}
+              {% assign upsell_product = all_products[upsell_item["product"]] %}
+              {% if upsell_product != blank %}
+                {% assign product_price = upsell_product.price %}
+                {% assign product_discount = product_price | times: bundle_discount %}
+                {% assign product_price_discounted = product_price | minus: product_discount %}
+                <div class="routine-builder__summary-item"
+                  data-routine-builder-summary-upsell="{{ upsell_product.variants[0].id }}"
+                  data-routine-builder-summary-upsell-price="{{ product_price_discounted }}"
+                  data-routine-builder-summary-upsell-price-original="{{ product_price }}">
+                  <div class="routine-builder__summary-image small--hide">
+                    <img class="lazyload"
+                      alt="{{- upsell_item["product_title"] | default: upsell_product.title -}}"
+                      src="{{ upsell_product.featured_image | img_url: '100x' }}"
+                      data-src="{{ upsell_product.featured_image | img_url: '208x' }}" >
+                  </div>
+                  <div class="routine-builder__summary-info">
+                    <p class="routine-builder__summary-step">
+                      {{- 'products.product.add_on' | t -}}
+                    </p>
+                    <p class="routine-builder__summary-title">
+                      {{- upsell_item["product_title"] | default: upsell_product.title -}}
+                    </p>
+                  </div>
+                  <div class="routine-builder__summary-subtotal">
+                    {%- capture original_price -%}
+                      &dollar;{{- product_price
+                        | money_without_currency
+                        | replace: '.00', ''
+                      -}}
+                    {%- endcapture -%}
+                    {%- capture bundle_price -%}
+                      &dollar;{{- product_price_discounted
+                        | money_without_currency
+                        | replace: '.00', ''
+                      -}}
+                    {%- endcapture -%}
+                    <p aria-label="{{ 'general.accessibility.strikethough_price'
+                      | t: original: original_price, sale: bundle_price }}">
+                      {{- bundle_price -}}
+                      <span aria-hidden>{{ original_price }}</span>
+                    </p>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}
+
+      <div class="routine-builder__total">
+        <div class="routine-builder__total-line">
+          <p>{{ section.settings.summary_subtotal_text }}</p>
+          <p>
+            <span data-routine-builder-total></span>
+            <span data-routine-builder-total-original></span>
+          </p>
+        </div>
+        <button type="button"
+          class="btn btn--full btn--chocolate"
+          title="{{ section.settings.summary_atc_text }}"
+          data-routine-builder-atc
+          data-routine-builder-atc-primary
+          data-routine-builder-atc-discount="{{ bundle_discount }}">
+          {{- section.settings.summary_atc_text -}}
+          &nbsp;&#124;&nbsp;<span data-routine-builder-total></span>
+        </button>
+      </div>
+
+      <div class="routine-builder__sticky medium-up--hide"
+        data-routine-builder-sticky>
+        <button type="button"
+          class="btn btn--full btn--chocolate"
+          title="{{ section.settings.summary_atc_text }}"
+          data-routine-builder-atc>
+          {{- section.settings.summary_atc_text -}}
+          &nbsp;&#124;&nbsp;<span data-routine-builder-total></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if bundle_product != blank %}
+  <div class="hide">
+    {% for variant in bundle_product.variants %}
+      <div data-routine-bundle-variant="{{ variant.title }}"
+        data-routine-bundle-variant-id="{{ variant.id }}"></div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% render 'custom-spacing' with
+  section_name: 'routine-builder'
+%}
+
+{% schema %}
+  {
+    "name": "Routine Builder",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Bundle Product",
+        "info": "Routine Bundle Product is set in Collection metafields"
+      },
+      {
+        "type": "header",
+        "content": "Upsells",
+        "info": "Upsell products set up in Collection metafields. Default copy defined below (copy overrides exist in metafields)"
+      },
+      {
+        "type": "text",
+        "id": "upsells_heading",
+        "label": "Upsells Heading",
+        "default": "Upgrade Your Routine"
+      },
+      {
+        "type": "textarea",
+        "id": "upsells_subheading",
+        "label": "Upsells Subheading"
+      },
+      {
+        "type": "text",
+        "id": "upsells_cta_text",
+        "label": "Upsells CTA Text",
+        "default": "Add To Routine",
+        "info": "Recommended character limit: 15"
+      },
+      {
+        "type": "header",
+        "content": "Summary",
+        "info": "Routine summary and product breakdown with prices/subtotal along with Add To Cart CTA"
+      },
+      {
+        "type": "text",
+        "id": "summary_heading",
+        "label": "Summary Heading",
+        "default": "Routine Summary"
+      },
+      {
+        "type": "textarea",
+        "id": "summary_subheading",
+        "label": "Summary Subheading"
+      },
+      {
+        "type": "text",
+        "id": "summary_subtotal_text",
+        "label": "Subtotal Text",
+        "default": "Subtotal",
+        "info": "Recommended character limit: 15"
+      },
+      {
+        "type": "text",
+        "id": "summary_atc_text",
+        "label": "Add To Cart Text",
+        "default": "Add Routine To Bag",
+        "info": "Recommended character limit: 20"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ]
+  }
+{% endschema %}

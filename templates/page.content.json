@@ -1,0 +1,466 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content",
+      "settings": {
+      }
+    },
+    "1641568172773a0f0d": {
+      "type": "content-nav",
+      "blocks": {
+        "f8a05f9b-8e20-4b72-b927-a5ee5eab8145": {
+          "type": "link",
+          "settings": {
+            "uid": "product-guide",
+            "text": "Product Guide"
+          }
+        },
+        "dee0625a-9bcb-44c7-b998-9661473e3cdd": {
+          "type": "link",
+          "settings": {
+            "uid": "routine-guide",
+            "text": "Routine Guide"
+          }
+        },
+        "8b4b1c32-f02e-4bf8-84b8-d8ecea8eb6b4": {
+          "type": "link",
+          "settings": {
+            "uid": "ingredients-info",
+            "text": "Ingredients & Information"
+          }
+        },
+        "1327cba3-29dd-4f8b-ac70-159eda2fcea2": {
+          "type": "link",
+          "settings": {
+            "uid": "skin-dictionary",
+            "text": "Skin Dictionary"
+          }
+        }
+      },
+      "block_order": [
+        "f8a05f9b-8e20-4b72-b927-a5ee5eab8145",
+        "dee0625a-9bcb-44c7-b998-9661473e3cdd",
+        "8b4b1c32-f02e-4bf8-84b8-d8ecea8eb6b4",
+        "1327cba3-29dd-4f8b-ac70-159eda2fcea2"
+      ],
+      "settings": {
+      }
+    },
+    "164140706257e7febd": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#d8ebe6",
+        "image_mobile": "shopify:\/\/shop_images\/sh-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/sh-d.png",
+        "image_offset": 80,
+        "preheading": "Learn",
+        "heading": "Start Here",
+        "copy": "<p>Everything you need to know to start your skincare journey with Bushbalm<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641416815c9c72777": {
+      "type": "content",
+      "blocks": {
+        "f71d570f-0946-43d2-8cf9-2e0d1941e0f8": {
+          "type": "content_block",
+          "settings": {
+            "title": "Exfoliating Scrubs",
+            "copy": "Formulated with sugar and a hydrating blend of mixed oils that brightens and hydrates skin.",
+            "icon": "shopify:\/\/shop_images\/icon-scrub.png"
+          }
+        },
+        "db458da7-2665-4a22-a85d-2ae745abc276": {
+          "type": "content_block",
+          "settings": {
+            "title": "Soothing Oils",
+            "copy": "Formulated with natural ingredients to help improve the look of dark spots, ingrown hairs, razor burn and more.",
+            "icon": "shopify:\/\/shop_images\/icon-oil.png"
+          }
+        },
+        "59bcfc06-71ca-4b7e-b889-a1b651465b1d": {
+          "type": "content_block",
+          "settings": {
+            "title": "Moisturizers",
+            "copy": "Formulated with naturally derived ingredients to leave your skin feeling soft and hydrated.",
+            "icon": "shopify:\/\/shop_images\/icon-cream.png"
+          }
+        },
+        "e0afeadc-986e-4a34-9ec1-59ff618765f6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tools & Accessories",
+            "copy": "Ranging from our signature trimmer to various exfoliating tools, such as the Nordic Dry Brush and Body Rock.",
+            "icon": "shopify:\/\/shop_images\/icon-trimmer.png"
+          }
+        }
+      },
+      "block_order": [
+        "f71d570f-0946-43d2-8cf9-2e0d1941e0f8",
+        "db458da7-2665-4a22-a85d-2ae745abc276",
+        "59bcfc06-71ca-4b7e-b889-a1b651465b1d",
+        "e0afeadc-986e-4a34-9ec1-59ff618765f6"
+      ],
+      "settings": {
+        "uid": "product-guide",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/pg-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/pg-d.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Product Guide",
+        "copy": "Theses guides give you all the instructions and best practices for all Bushbalm products.",
+        "subheading": "Our Products",
+        "cta_link": "shopify:\/\/pages\/guides",
+        "cta_text": "View Detailed Guides",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1641416862ca4ca90a": {
+      "type": "content",
+      "blocks": {
+        "429eabfc-770b-4c01-b75d-f84a37b34f79": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 1 | Prep",
+            "copy": "Prior to showering begin your routine by dry brushing. Follow your dry brush by hopping in the showering and cleaning the skin with our Nourishing Body Wash.",
+            "icon": "shopify:\/\/shop_images\/icon-brush.png"
+          }
+        },
+        "8e3e8ad1-ae50-4f2d-928a-4a769c600c95": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 2 | Exfoliate",
+            "copy": "While in the shower grab your favorite Bushbalm scrub and exfoliate away dead skin cells and rejuvenate skin.",
+            "icon": "shopify:\/\/shop_images\/icon-scrub.png"
+          }
+        },
+        "86ab3f9f-1270-41f2-8165-877088f4ce20": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 3 | Soothe",
+            "copy": "Use your daily soothing oil to soften the skin and hair. Our top selling oils help reduce the appearance of ingrown hairs, dark spots, razor burn and more.",
+            "icon": "shopify:\/\/shop_images\/icon-oil.png"
+          }
+        },
+        "be7cda66-4b81-462e-a614-9e90b76b5d42": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 4 | Moisturize",
+            "copy": "As a final step you should lock in all the moisture you can. Grab our firming body cream and apply it where you need an extra lift.",
+            "icon": "shopify:\/\/shop_images\/icon-cream.png"
+          }
+        }
+      },
+      "block_order": [
+        "429eabfc-770b-4c01-b75d-f84a37b34f79",
+        "8e3e8ad1-ae50-4f2d-928a-4a769c600c95",
+        "86ab3f9f-1270-41f2-8165-877088f4ce20",
+        "be7cda66-4b81-462e-a614-9e90b76b5d42"
+      ],
+      "settings": {
+        "uid": "routine-guide",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/rg-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/rg-d.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Routine Guide",
+        "copy": "The skincare everywhere routine is designed to leave you with smooth skin, head to toe and front to back.",
+        "subheading": "Recommended Routine Steps",
+        "cta_link": "shopify:\/\/collections\/bundles",
+        "cta_text": "Shop Our Routines",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164141693005ae3d54": {
+      "type": "content",
+      "blocks": {
+        "532cb324-64ea-4ef4-b2d4-ff81bb876417": {
+          "type": "content_block",
+          "settings": {
+            "title": "Jojoba Oil",
+            "copy": "Rich in fatty acids and packed with Vitamin E, A and D, Jojoba Oil soothes the skin and relieves irritation and discomfort."
+          }
+        },
+        "52dde30c-51c0-4e56-a253-579260c9140d": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tea Tree Oil",
+            "copy": "Packed with antibacterial, anti-inflammatory, antiviral, and anti-fungal properties, tea tree provides a soothing sensation to calm redness, swelling and inflammation."
+          }
+        },
+        "5091a131-2f92-4801-9966-4e2c48358105": {
+          "type": "content_block",
+          "settings": {
+            "title": "Copaiba Oil",
+            "copy": "Infused with Beta-Caryophyllene, Copaiba is a natural anti-inflammatory agent that will soothe and heal skin irritations."
+          }
+        },
+        "2185e73a-3ee3-4662-bb4f-7972cdf16c54": {
+          "type": "content_block",
+          "settings": {
+            "title": "Grapeseed Oil",
+            "copy": "High in vitamin E and phenolic antioxidants, Grape seed Oil protects and preserves the skin's soft and supple appearance."
+          }
+        }
+      },
+      "block_order": [
+        "532cb324-64ea-4ef4-b2d4-ff81bb876417",
+        "52dde30c-51c0-4e56-a253-579260c9140d",
+        "5091a131-2f92-4801-9966-4e2c48358105",
+        "2185e73a-3ee3-4662-bb4f-7972cdf16c54"
+      ],
+      "settings": {
+        "uid": "ingredients-info",
+        "alignment": "right",
+        "bg_color": "#f8e2c9",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/ii-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/ii-d.png",
+        "image_size": "large",
+        "image_offset": -180,
+        "heading": "Ingredients & Information",
+        "copy": "We formulate all of our products with high quality, naturally derived ingredients.",
+        "subheading": "Key Ingredients",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1641493641f76b6efd": {
+      "type": "ingredient-faqs",
+      "blocks": {
+        "94c502d0-9561-44ac-8e5b-1bf6d71a3e9f": {
+          "type": "faq",
+          "settings": {
+            "question": "Why these ingredients?",
+            "answer": "Our choice in ingredients goes back to our belief that you should have access to naturally or naturally derived skincare options."
+          }
+        },
+        "138bfdc5-45de-4318-bdf9-3c80a3942976": {
+          "type": "faq",
+          "settings": {
+            "question": "Are these ingredients safe?",
+            "answer": "We formulate our products to be safe for your most sensitive areas. Always spot check for allergies and ask your physician if required."
+          }
+        },
+        "786009d4-fef3-4ab2-9cde-7ce9a3f05285": {
+          "type": "faq",
+          "settings": {
+            "question": "What is Bushbalm?",
+            "answer": "Bushbalm is a skincare company that strives to be the #1 natural product line for your bikini line and underarms. The products are formulated to prevent ingrown hairs, sooth redness, relieve irritation and soften the appearance of dark spots."
+          }
+        },
+        "0507ffbb-a36b-48d0-b295-0852573dbef4": {
+          "type": "faq",
+          "settings": {
+            "question": "Is Bushbalm cruelty free?",
+            "answer": "Yes, Bushbalm Skincare is cruelty free and vegan."
+          }
+        },
+        "ec222636-9808-445e-8a8e-a53de6086631": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Sugar",
+            "copy": "All of our exfoliating body scrubs are sugar based, because sugar gently exfoliates for soft, renewed, glowing skin."
+          }
+        },
+        "0e493999-4952-49ac-84a0-b54a0150c24a": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Natural Oils",
+            "copy": "Formulated with a blend of botanicals and essential oils to help skin feel soft and smooth."
+          }
+        },
+        "3091a411-5cd0-4c31-9b7e-8d3d93043d5b": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Aloe Vera",
+            "copy": "This beauty powerhouse has antioxidant properties, helps calms the skin, soothes redness, and provides mega-hydration for healthy-looking, glowing skin."
+          }
+        },
+        "2765a16e-050b-46d2-a280-ade608c88526": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Mango Seed Butter",
+            "copy": "A powerful moisturizing ingredient that has similar benefits to cocoa butter. The light, but silky rich ingredient melts in and visibly softens the skin, with no greasy after feel."
+          }
+        }
+      },
+      "block_order": [
+        "94c502d0-9561-44ac-8e5b-1bf6d71a3e9f",
+        "138bfdc5-45de-4318-bdf9-3c80a3942976",
+        "786009d4-fef3-4ab2-9cde-7ce9a3f05285",
+        "0507ffbb-a36b-48d0-b295-0852573dbef4",
+        "ec222636-9808-445e-8a8e-a53de6086631",
+        "0e493999-4952-49ac-84a0-b54a0150c24a",
+        "3091a411-5cd0-4c31-9b7e-8d3d93043d5b",
+        "2765a16e-050b-46d2-a280-ade608c88526"
+      ],
+      "settings": {
+        "heading_faq": "Frequently Asked Questions",
+        "heading_ingredients": "Secondary Ingredients",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641499882f58975c7": {
+      "type": "skin-dictionary",
+      "blocks": {
+        "d4e00827-8337-4707-996e-c6bd987371a2": {
+          "type": "faq",
+          "settings": {
+            "question": "Ingrown Hair & Razor Burn",
+            "answer": "An ingrown hair occurs when a shaved or tweezed hair grows back into the skin. It can cause inflammation, pain and tiny bumps in the area where the hair was removed. Ingrown hair is a common condition that results from hair removal.",
+            "cta_link": "shopify:\/\/products\/2-step-routine-keratosis-pilaris-bump-eraser",
+            "cta_text": "View the Routine"
+          }
+        },
+        "9a62e037-8af7-4a3d-a9f0-03022a8819f6": {
+          "type": "faq",
+          "settings": {
+            "question": "Dark Spots & Hyperpigmentation",
+            "answer": "Dark spots refer to patches of skin that are darker in color than the skin surrounding it. The contrast of light and dark patches creates the appearance of an uneven skin tone. This is a very common skin concern.",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "cta_text": "View the Routine"
+          }
+        },
+        "6e02b7b3-0ea0-4299-9515-52a5530fccf7": {
+          "type": "faq",
+          "settings": {
+            "question": "Keratosis Pilaris",
+            "answer": "Keratosis Pilaris, also known as KP or \"chicken skin\", is a very common skin condition that creates small, hard bumps on the surface of the skin. These bumps form as a result of an excess buildup of keratin; keratin is a protein that is part of the skin and hair. Currently, it is unknown what causes this buildup in the first place. Nonetheless, the extra keratin clogs the pores and causes a bumpy rash to appear. KP is commonly found on the upper arms, thighs, chest, elbows, and the tush.",
+            "cta_link": "shopify:\/\/products\/3-step-routine-keratosis-pilaris",
+            "cta_text": "View the Routine"
+          }
+        },
+        "1dc91679-c233-4a49-9301-bc520af9ab24": {
+          "type": "faq",
+          "settings": {
+            "question": "Razor Burn & Bumps",
+            "answer": "Razor burn is the result of an unpleasant interaction between the razor blade, body hair, and skin. The symptoms of razor burn include; redness, irritation, discomfort, and stinging.",
+            "cta_link": "shopify:\/\/products\/vajacial-3-step-at-home-kit",
+            "cta_text": "View the Routine"
+          }
+        }
+      },
+      "block_order": [
+        "d4e00827-8337-4707-996e-c6bd987371a2",
+        "9a62e037-8af7-4a3d-a9f0-03022a8819f6",
+        "6e02b7b3-0ea0-4299-9515-52a5530fccf7",
+        "1dc91679-c233-4a49-9301-bc520af9ab24"
+      ],
+      "settings": {
+        "uid": "skin-dictionary",
+        "alignment": "left",
+        "heading": "Skin Dictionary",
+        "copy": "Common skin concerns the beauty industry has often ignored. Find the definition and recommended routine.",
+        "heading_faqs": "Skin Concerns Defined",
+        "cta_link": "shopify:\/\/pages\/routines",
+        "cta_text": "Shop By Skin Concern",
+        "image_mobile": "shopify:\/\/shop_images\/sd-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/sd-d.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "164530578629186e59": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "645be047-4140-4d44-a97c-7023b3ccb34a": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_c45d3859-58a2-4f68-a294-cf8d73ebb4eb.jpg",
+            "heading": "Body Rock",
+            "cta_text": "View Guide",
+            "url": "shopify:\/\/pages\/how-to-use-the-body-rock"
+          }
+        },
+        "b4e9db75-75df-48a0-a36e-c59ad1109ed0": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bikini_Line_Trimmer_Bushbalm.jpg",
+            "heading": "Francesca Trimmer",
+            "cta_text": "View Guide",
+            "url": "shopify:\/\/pages\/guide-francesca-trimmer"
+          }
+        },
+        "0d37d491-8a38-434b-92ab-51c15677a31b": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dry_Brushing_Guide_1.jpg",
+            "heading": "Nordic Dry Brush",
+            "cta_text": "View Guide",
+            "url": "shopify:\/\/pages\/how-to-dry-brush"
+          }
+        }
+      },
+      "block_order": [
+        "645be047-4140-4d44-a97c-7023b3ccb34a",
+        "b4e9db75-75df-48a0-a36e-c59ad1109ed0",
+        "0d37d491-8a38-434b-92ab-51c15677a31b"
+      ],
+      "settings": {
+        "carousel_heading": "All Product Guides"
+      }
+    },
+    "1641845067211255f4": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Proven Skincare",
+        "headline": "Natural ingredients,<br>beautiful results",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "See the results",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_2_text": "Read the reviews",
+        "cta_2_link": "shopify:\/\/pages\/reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1641568172773a0f0d",
+    "164140706257e7febd",
+    "1641416815c9c72777",
+    "1641416862ca4ca90a",
+    "164141693005ae3d54",
+    "1641493641f76b6efd",
+    "1641499882f58975c7",
+    "164530578629186e59",
+    "1641845067211255f4"
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "sections": {
+    "165237582079c83cde": {
+      "type": "before-and-after",
+      "blocks": {
+        "cb18e967-644e-4845-8ae6-6ff0e1e7cff3": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "@_nhinds",
+            "product_ref": "shave-down-essentials",
+            "product_title": "Shave Down Kit",
+            "product_copy": "Save 10% while supplies last of the Shave Down Kit.",
+            "cta_text": "Claim Offer",
+            "image_1": "shopify:\/\/shop_images\/BB9288A2-13EF-4BB5-BCA0-0CAAA630B8A1.jpg",
+            "image_1_testimonial": "\"Nude Oil also allows | my skin to GLISTEN\"",
+            "image_2_testimonial": "",
+            "image_3_testimonial": ""
+          }
+        },
+        "76d00c54-ed5b-4c92-89bf-a3e59561c93a": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "@baileyandison",
+            "product_ref": "ingrown-hair-oil",
+            "product_title": "Nude Ingrown Hair & Razor Burn Oil",
+            "product_copy": "#1 Seller",
+            "cta_text": "Shop Now",
+            "image_1": "shopify:\/\/shop_images\/Works_on_Sun_Spots_1920_x_1920_px_2.png",
+            "image_1_testimonial": "\"Being in tight bathing suit this | oil gives me confidence\"",
+            "image_2_testimonial": "",
+            "image_3_testimonial": ""
+          }
+        },
+        "ad6d146b-184b-4efa-8299-9df7dbf2ebc5": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "@catiedeloof",
+            "product_ref": "spa-day-nourishing-body-wash",
+            "product_title": "Spa Day Nourishing Body Wash",
+            "product_copy": "Best for Hydration",
+            "cta_text": "Shop Now",
+            "image_1": "shopify:\/\/shop_images\/faves-section-catie-deloof_137c01f6-8507-40f7-a3d6-2513757db2e9.jpg",
+            "image_1_testimonial": "\"This really helps my sensitive | skin stay hydrated\"",
+            "image_2_testimonial": "",
+            "image_3_testimonial": ""
+          }
+        },
+        "b3013730-17ba-42fc-ae59-122c751aadf5": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "@tessciep",
+            "product_ref": "nourishing-body-wash",
+            "product_title": "Nourishing Body Wash",
+            "product_copy": "pH Balanced & Ultra Hydrating",
+            "cta_text": "Shop Now",
+            "image_1": "shopify:\/\/shop_images\/faves-section-tessa-cieplucha.jpg",
+            "image_1_testimonial": "\"Bushbalm makes me | comfortable and confident\"",
+            "image_2_testimonial": "",
+            "image_3_testimonial": ""
+          }
+        }
+      },
+      "block_order": [
+        "cb18e967-644e-4845-8ae6-6ff0e1e7cff3",
+        "76d00c54-ed5b-4c92-89bf-a3e59561c93a",
+        "ad6d146b-184b-4efa-8299-9df7dbf2ebc5",
+        "b3013730-17ba-42fc-ae59-122c751aadf5"
+      ],
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/bailey-andison-hero_mobile_v2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/bailey-andison-hero_desktop_1.jpg",
+        "heading": "Olympian Approved",
+        "subheading": "The Preferred Shaving Kit to Help Prevent Ingrown Hairs & Razor Burn",
+        "cta_text": "Meet the Pros",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#000000",
+        "gradient_angle_mobile": 180,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#000000",
+        "gradient_angle_desktop": 0,
+        "enable_cta_slide": true,
+        "cta_slide_title": "Save 10%",
+        "cta_slide_copy": "Shop the Shave Down Kit",
+        "cta_slide_cta_link": "shopify:\/\/products\/shave-down-essentials",
+        "cta_slide_cta_text": "Shop the Kit",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16523789796eb2b60a": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/make-a-splash_mobile_9a751415-4412-428f-ac51-25826040275a.png",
+        "image_desktop": "shopify:\/\/shop_images\/make-a-splash_mobile_9ad0ad9e-46bb-46e3-8a26-d16e715153d5.png",
+        "image_offset": 0,
+        "preheading": "★★★★★ <br> $44.10 <strike> $49.00<\/strike> (Save 10%)",
+        "heading": "The Shave <br>Down Kit",
+        "copy": "<p>The 2 Step Routine used by Olympic Swimmers to Help Prevent Ingrown Hairs and Razor Burn<\/p>",
+        "cta_link": "shopify:\/\/products\/shave-down-essentials",
+        "cta_text": "Claim Offer",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "164874041562c0682a": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#e4effc",
+        "image_offset": true,
+        "image_mobile": "shopify:\/\/shop_images\/bailey-andison-hero_mobile_7cfb9acf-853c-4507-bf20-947d46ac7548.png",
+        "image_desktop": "shopify:\/\/shop_images\/bailey-andison_desktop_b31a13e0-b4e7-4f4b-8091-12560f51f0d9.png",
+        "heading": "Bailey Andison <br> <small> 2021 TOKYO OLYMPIC SWIMMER<\/small>",
+        "copy": "“Being a swimmer and being in a tight bathing suit, this oil gives me confidence and makes me feel comfortable whenever I go on the pool deck”\n[break]\n<a href=\"https:\/\/bushbalm.com\/collections\/olympic\"><small><u>Shop the Collection<\/u><\/small> <\/a>\n[break]",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1652376175d6f42aa2": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#e4effc",
+        "image_offset": true,
+        "image_mobile": "shopify:\/\/shop_images\/natalie-hinds_mobile_8f19863b-3762-498d-aae4-31da75ef2d98.png",
+        "image_desktop": "shopify:\/\/shop_images\/natalie-hinds_desktop_3aeb5989-b733-4141-80dc-b27ffd66950a.png",
+        "heading": "Natalie Hinds <br> <small> 2020 US OLYMPIAN & BRONZE MEDALIST<\/small>",
+        "copy": "\"Bushbalm has completely smoothed my skin to the max! I no longer worry about razor bumps or irritated skin while getting ready for practice or hanging by the pool. The Nude Oil also allows my skin to GLISTEN in the sun while retaining much needed moisture. I love these products!\"\n[break]\n<a href=\"https:\/\/bushbalm.com\/collections\/olympic\"><small><u>Shop the Collection<\/u><\/small> <\/a>\n[break]",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16523765673af916f5": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#e4effc",
+        "image_offset": true,
+        "image_mobile": "shopify:\/\/shop_images\/sydney-pickrem_mobile_a5a80039-45c6-49e4-86fd-22aefae6121f.png",
+        "image_desktop": "shopify:\/\/shop_images\/sydney-pickrem_desktop_3ac21784-0b00-461b-8ce5-86745e287731.png",
+        "heading": "Sydney Pickrem<br> <small> 2021 CANADIAN OLYMPIC BRONZE MEDALIST<\/small>",
+        "copy": "\"Thank you Bushbalm! You always make my skin feel the best and make me feel ready for my competition.\"\n[break] \n<a href=\"https:\/\/bushbalm.com\/collections\/olympic\"><small><u>Shop the Collection<\/u><\/small> <\/a>\n[break]",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1646106985da5e5552": {
+      "type": "press-highlights",
+      "blocks": {
+        "76d475b3-c2cc-4c53-9acd-bab3a5c4f864": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/forbes.png",
+            "logo_height": 18,
+            "bg_color": "#ffffff",
+            "color": "#271710",
+            "cta_bg_color": "#e4effc",
+            "invert_logos": false
+          }
+        },
+        "0044a21e-f327-4a83-bda1-ff467422fcfe": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo": "shopify:\/\/shop_images\/cha.png",
+            "logo_height": 14,
+            "bg_color": "#ffffff",
+            "color": "#271710",
+            "cta_bg_color": "#e4effc",
+            "invert_logos": false
+          }
+        },
+        "245c30ac-7ee4-4a47-a532-dfbf39bf5b59": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Women's Health",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo": "shopify:\/\/shop_images\/womens-health-logo_8e16cad1-c1c0-448d-974b-7d2e3475787e.png",
+            "logo_height": 18,
+            "bg_color": "#ffffff",
+            "color": "#271710",
+            "cta_bg_color": "#e4effc",
+            "invert_logos": false
+          }
+        },
+        "0d8ff580-033b-44dc-9d2b-1dd62a1a62a9": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "title": "Elle",
+            "copy": "“The irresistibly creamy formula can be used anywhere you want a little extra firming action”",
+            "logo": "shopify:\/\/shop_images\/l-elle_5ffd084d-0256-4bdc-9b45-ae0a87760cc4.png",
+            "logo_height": 24,
+            "bg_color": "#e4effc",
+            "color": "#271710",
+            "cta_bg_color": "#fafafa",
+            "invert_logos": false
+          }
+        }
+      },
+      "block_order": [
+        "76d475b3-c2cc-4c53-9acd-bab3a5c4f864",
+        "0044a21e-f327-4a83-bda1-ff467422fcfe",
+        "245c30ac-7ee4-4a47-a532-dfbf39bf5b59",
+        "0d8ff580-033b-44dc-9d2b-1dd62a1a62a9"
+      ],
+      "settings": {
+        "cta_text": "View All Press",
+        "cta_link": "shopify:\/\/pages\/old-url-structre",
+        "bg_color": "#ffffff",
+        "cta_bg_color": "#e4effc",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "1652378479e1472168": {
+      "type": "most-loved-grid",
+      "blocks": {
+        "3ab920f0-6783-4638-9164-0921a0428143": {
+          "type": "most_loved_product",
+          "settings": {
+            "product_ref": "ingrown-hair-oil",
+            "pos_x_direction": "left",
+            "pos_x_desktop": 8,
+            "pos_y_desktop": 41,
+            "pos_x_mobile": 6,
+            "pos_y_mobile": 61,
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/badge-trusted.svg?v=1635888823",
+            "icon_info": "",
+            "badge_position": "top-left"
+          }
+        },
+        "e26a7a98-36bd-49a4-8a0f-a7fcef8432b3": {
+          "type": "most_loved_product",
+          "settings": {
+            "product_ref": "spa-day-nourishing-body-wash",
+            "pos_x_direction": "left",
+            "pos_x_desktop": 19,
+            "pos_y_desktop": 5,
+            "pos_x_mobile": 6,
+            "pos_y_mobile": 0,
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/badge-ph.svg?v=1635888823",
+            "icon_info": "",
+            "badge_position": "top-left"
+          }
+        },
+        "5d43dc0f-bf2d-4b4e-8d85-15138d1566d4": {
+          "type": "most_loved_product",
+          "settings": {
+            "product_ref": "nude-exfoliating-scrub",
+            "pos_x_direction": "right",
+            "pos_x_desktop": 25,
+            "pos_y_desktop": 0,
+            "pos_x_mobile": 6,
+            "pos_y_mobile": 3,
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/badge-mag.svg?v=1635888823",
+            "icon_info": "",
+            "badge_position": "top-left"
+          }
+        },
+        "516cac5e-748e-4617-8c32-2220bd466f77": {
+          "type": "most_loved_product",
+          "settings": {
+            "product_ref": "nourishing-body-wash",
+            "pos_x_direction": "right",
+            "pos_x_desktop": 11,
+            "pos_y_desktop": 36,
+            "pos_x_mobile": 6,
+            "pos_y_mobile": 53,
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/badge-gyno.svg?v=1635888823",
+            "icon_info": "",
+            "badge_position": "top-left"
+          }
+        }
+      },
+      "block_order": [
+        "3ab920f0-6783-4638-9164-0921a0428143",
+        "e26a7a98-36bd-49a4-8a0f-a7fcef8432b3",
+        "5d43dc0f-bf2d-4b4e-8d85-15138d1566d4",
+        "516cac5e-748e-4617-8c32-2220bd466f77"
+      ],
+      "settings": {
+        "heading": "Our Faves",
+        "subheading": "Olympic Swimmer Top Picks",
+        "cta_text": "See More",
+        "cta_link": "shopify:\/\/collections\/olympic",
+        "height_mobile": 671,
+        "height_desktop": 734,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1652380139b874d8a2": {
+      "type": "wholesale-hero",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/testimonial-video_desktop_with-badge.png",
+        "image_desktop": "shopify:\/\/shop_images\/testimonial-video_desktop_with-badge_35916318-7b0f-4b3b-870f-aeaefb892fd7.png",
+        "heading": "Testimonial",
+        "copy": "Meet Bailey Andison",
+        "cta_link": "https:\/\/www.youtube.com\/watch?v=dGJ5vHTprFk",
+        "cta_text": "Watch the Video",
+        "cta_link_2": "shopify:\/\/products\/shave-down-essentials",
+        "cta_text_2": "Shop Her Kit",
+        "account_cta_heading": "",
+        "account_cta_text": "",
+        "account_cta_link": "",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "16524573652e691acd": {
+      "type": "overlay-hero",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "use_h1": true,
+        "copy": "",
+        "cta_text": "",
+        "cta_url": "",
+        "image_desktop": "shopify:\/\/shop_images\/make-a-splash_desktop.png",
+        "image_mobile": "shopify:\/\/shop_images\/make-a-splash_mobile.png",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": false
+      }
+    },
+    "16461393875c7c6ea5": {
+      "type": "featured-products",
+      "blocks": {
+        "3ce66a8e-be91-4354-a494-5fe90546bbe2": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "title": "Nude Oil",
+            "copy": "For Ingrown Hairs & Razor Burn",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+            "badge_text": "Best Seller"
+          }
+        },
+        "91771687-30e8-4436-909c-7b6901197fb0": {
+          "type": "featured_product",
+          "settings": {
+            "product": "nude-exfoliating-scrub",
+            "title": "Nude Scrub",
+            "copy": "For Exfoliation & Hydration",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/sweet-escape-oil",
+            "badge_text": ""
+          }
+        },
+        "af5e0dfa-e4c7-4ac9-9a24-c4a28297e121": {
+          "type": "featured_product",
+          "settings": {
+            "product": "routine-ingrown-treatment",
+            "title": "The Shave Down Kit",
+            "copy": "Bundle & Save",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Save 10%"
+          }
+        }
+      },
+      "block_order": [
+        "3ce66a8e-be91-4354-a494-5fe90546bbe2",
+        "91771687-30e8-4436-909c-7b6901197fb0",
+        "af5e0dfa-e4c7-4ac9-9a24-c4a28297e121"
+      ],
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1646107909705b7f75": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#e4effc",
+        "padding": true,
+        "intro": "",
+        "headline": "Ready to shave like an Olympic expert?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "View Reviews",
+        "cta_2_link": "shopify:\/\/pages\/reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "165237582079c83cde",
+    "16523789796eb2b60a",
+    "164874041562c0682a",
+    "1652376175d6f42aa2",
+    "16523765673af916f5",
+    "1646106985da5e5552",
+    "1652378479e1472168",
+    "1652380139b874d8a2",
+    "16524573652e691acd",
+    "16461393875c7c6ea5",
+    "1646107909705b7f75",
+    "main"
+  ]
+}

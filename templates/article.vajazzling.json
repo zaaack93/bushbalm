@@ -1,0 +1,762 @@
+{
+  "sections": {
+    "1660256312e871f5c4": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "background_png_overlay",
+        "hero_options_desktop": "background_png_overlay",
+        "title": "Vajazzle's Hot in 2024",
+        "heading_tag": "h1",
+        "title_sizing": "title_largest",
+        "subtitle": "New Trend",
+        "copy": "<p>Vajazzling is making a comeback! Find out why.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Vajazzle_Blog_Hero_Background.jpg",
+        "png_overlay_mobile": "shopify:\/\/shop_images\/Vajazzling_-_Newest_Trend.png",
+        "image_desktop": "shopify:\/\/shop_images\/Blog_Vajazzle_-_Background_Hero_Image.jpg",
+        "png_overlay_desktop": "shopify:\/\/shop_images\/Vajazzling.png",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#000000",
+        "gradient_angle_mobile": 155,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "4.5",
+        "review_count": 3044,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_de418c45-596c-4219-bd6b-3f6b79140609.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "128px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "-124px"
+      }
+    },
+    "16602572638553e8b9": {
+      "type": "who-we-are",
+      "blocks": {
+        "f97e4a72-26c5-4802-b0ed-381b740852eb": {
+          "type": "list_item",
+          "settings": {
+            "text": "The Heart"
+          }
+        },
+        "4d1b23d5-e0dc-4189-b411-067067442890": {
+          "type": "list_item",
+          "settings": {
+            "text": "The Cowboy Hat"
+          }
+        },
+        "1011ea41-814b-41e0-a95b-e016ccb53263": {
+          "type": "list_item",
+          "settings": {
+            "text": "The Classic Cat"
+          }
+        },
+        "260b65cf-e0dd-47f8-bab3-4569f13389c1": {
+          "type": "list_item",
+          "settings": {
+            "text": "The Signature Bow"
+          }
+        }
+      },
+      "block_order": [
+        "f97e4a72-26c5-4802-b0ed-381b740852eb",
+        "4d1b23d5-e0dc-4189-b411-067067442890",
+        "1011ea41-814b-41e0-a95b-e016ccb53263",
+        "260b65cf-e0dd-47f8-bab3-4569f13389c1"
+      ],
+      "settings": {
+        "heading": "The History Of Vajazzling",
+        "subheading": "Vajazzling, a whimsical and intriguing beauty trend, combines the words \"vagina\" and \"bedazzling.\" It's the art of decorating the pubic area with crystals, glitter, and other sparkly adornments, creating a unique and eye-catching look. \n\n<br> <br> This trend emerged into popular culture in the early 2000s and gained significant attention in the 2010s.",
+        "list_heading": "Top 4 Vajazzle Designs",
+        "cta_text": "Top 4 Vajazzle Designs",
+        "cta_link": "",
+        "image_desktop": "shopify:\/\/shop_images\/vajazzle-cowboy-lifestyle.png",
+        "image_mobile": "shopify:\/\/shop_images\/Vajazzle_Cowboy_Hat_Design_654_x_654_px.jpg",
+        "full_width": false,
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "166025756244939102": {
+      "type": "promo-banner",
+      "blocks": {
+        "ffbe2133-5bbf-4607-8ebc-5b92d23ad179": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Best Vajazzle Moments<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ffbe2133-5bbf-4607-8ebc-5b92d23ad179"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "16602567682fd8acea": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Jennifer_Love_Hewitt_Vajazzling_on_Conan_Show_c12586c4-c1d1-4014-9177-c2862a425a8a.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Jennifer_Love_Hewitt_Vajazzling_on_Conan_Show.jpg",
+        "heading": "2010 Jennifer Love Hewitt Coins the Term Vajazzle On Conan",
+        "copy": "In a memorable and lively television moment, Jennifer Love Hewitt brought the quirky trend of vajazzling into the spotlight during her appearance on the Conan show. With her characteristic charm and a twinkle in her eye, she enthusiastically described the process and allure of vajazzling, captivating both Conan and the audience. <br> <br> Jennifer's candid discussion about adorning the bikini area with glittering crystals not only injected fun into the conversation but also opened up a broader dialogue about intimate beauty practices. Her playful and open attitude towards this unique form of self-expression was both refreshing and entertaining, making it a standout segment in the show's history.",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1660256859188a27cb": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/The_Only_Way_Is_Essex_Vajazzle_Episode_060993b4-2f36-4a78-a85f-7c9d9a350c55.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/The_Only_Way_Is_Essex_Vajazzle_Episode.jpg",
+        "heading": "2012 The Only Way Is Essex Tv Show Gets Vajazzled",
+        "copy": "\"The Only Way Is Essex\" (TOWIE), a renowned British reality TV show, brought the vajazzling trend into the limelight in one of its episodes, showcasing the beauty and grooming practices popular in Essex. The episode featured scenes in a beauty salon where the vajazzling process was demonstrated and discussed among the cast. \n<br><br> \nThis particular TOWIE episode played a pivotal role in popularizing vajazzling in the UK, especially among younger audiences. The show's portrayal of vajazzling, filled with lighthearted and humorous exchanges, reflected its overall approach of blending entertainment with contemporary lifestyle and fashion trends, making it a notable moment in the history of beauty trends.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "promo_banner_XRK8xJ": {
+      "type": "promo-banner",
+      "blocks": {
+        "promo_heading_YbJz9D": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Top 4 Vajazzle Designs of 2024<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "promo_heading_YbJz9D"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "16602569871fe0e821": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Heart_Vajazzle_Design.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Heart_Vajazzle_Design_2eb19045-d886-44ad-81df-611f3642becf.jpg",
+        "heading": "1) The Heart",
+        "copy": "A heart vajazzle is an intimate body art where sparkling crystals form a heart shape on the pubic area, post-waxing. This simple, romantic design uses shimmering stones to create a playful, eye-catching symbol of love. It's a popular choice for adding a whimsical touch to intimate grooming, blending charm with a hint of sparkle.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1660257042aec54f64": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Cowboy_Hat_Vajazzle_Design.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Cowboy_Hat_Vajazzle_Design_e2571631-dfa3-44ba-bf50-6f4dadc209aa.jpg",
+        "heading": "2) The Cowboy Hat",
+        "copy": "A cowboy hat vajazzle is a unique and playful intimate body art design, where crystals or rhinestones are arranged to resemble a classic cowboy hat. Applied to the smooth skin of the pubic area, this design adds a touch of whimsy and a nod to Western style. The sparkling stones create a striking and fun visual, making it a quirky and adventurous choice for personal grooming with a hint of flair.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1660257099618fc534": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Cat_Vajazzle_Design.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Cat_Vajazzle_Design_a2457d21-ab07-4d52-a10f-8ea31ed12c98.jpg",
+        "heading": "3) The Classic Cat",
+        "copy": "A cat face vajazzle is an adorable intimate body art, using crystals or rhinestones to create a playful cat face design on smooth skin. This whimsical choice, featuring sparkling whiskers and ears, adds a fun and unique touch to intimate grooming.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "content_simple_EFmCQE": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Bow_Vajazzle_Design.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bow_Vajazzle_Design_bf11f765-d52b-4d75-94b6-4172e9a7d2ad.jpg",
+        "heading": "4) The Signature Bow",
+        "copy": "A bow vajazzle is a sweet and stylish form of intimate body art, where crystals or rhinestones create the shape of a delicate bow. This design adds a touch of elegance and femininity to intimate grooming, with the sparkling stones providing a subtle yet captivating embellishment on smooth skin.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "content_7jX3JV": {
+      "type": "content",
+      "blocks": {
+        "content_block_X6Yfty": {
+          "type": "content_block",
+          "settings": {
+            "title": "Exclusive Products",
+            "copy": "Get access to exclusive products only available to waxing salon professionals.",
+            "icon": "shopify:\/\/shop_images\/Vajazzling_-_Newest_Trend.png"
+          }
+        },
+        "content_block_mRw7qk": {
+          "type": "content_block",
+          "settings": {
+            "title": "Best Selling Aftercare",
+            "copy": "Give your clients the best aftercare products on the market. From irritation to ingrown hairs we have you covered.",
+            "icon": "shopify:\/\/shop_images\/Pina_Colada_Body_Scrub.jpg"
+          }
+        },
+        "content_block_W8TdNp": {
+          "type": "content_block",
+          "settings": {
+            "title": "Inventor of the Vajacial",
+            "copy": "Home of the first ever fully formed Hydrogel Vajacial Mask.",
+            "icon": "shopify:\/\/shop_images\/vajacialtrianglemaskpackaging.jpg"
+          }
+        },
+        "content_block_YXPCL6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Trusted by Thousands of Estheticians",
+            "copy": "The Bushbalm aftercare is trusted by over 4,000 waxing salon professionals and growing.",
+            "icon": "shopify:\/\/shop_images\/2_53a0f077-f6fa-4c6f-9e9f-07de038ba5b1.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_X6Yfty",
+        "content_block_mRw7qk",
+        "content_block_W8TdNp",
+        "content_block_YXPCL6"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Waxing_Salon_Offering_Vajazzles_Kim.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Waxing_Salon_Offering_Vajazzles.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Are you a waxing salon looking to offer vajazzles?",
+        "copy": "Join the Bushbalm Professional Program to begin offering vajazzles today!",
+        "subheading": "Program Benefits",
+        "cta_link": "shopify:\/\/pages\/wholesale",
+        "cta_text": "Learn More",
+        "cta_alignment": "left",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1660257711e530e5e0": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "background_png_overlay",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Looking for bikini line skincare?",
+        "heading_tag": "h1",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "",
+        "copy_alignment": "copy_left",
+        "cta_text": "View All Products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "png_overlay_mobile": "shopify:\/\/shop_images\/Untitled_design_46.png",
+        "png_overlay_desktop": "shopify:\/\/shop_images\/Untitled_design_46.png",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca4d3cf3f0eb4af58e5a6ba2d29b4b72.mp4",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca4d3cf3f0eb4af58e5a6ba2d29b4b72.mp4",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 140,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4000,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_c09e937a-9d63-40ba-9e19-00be3563281e.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1645903101282b3b06": {
+      "type": "image-carousel",
+      "blocks": {
+        "43950189-d951-4117-ad63-585e86c81486": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Treatment.jpg",
+            "link": "",
+            "link_title": "Before and After Picture of Dark Underarms"
+          }
+        },
+        "690ca172-2c27-4ab5-946f-7dfe47eb1cc6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shaving_Trimmer_Pubic_Hair.jpg",
+            "link": "",
+            "link_title": "Before and after photo of hyperpigmentation in the underarms"
+          }
+        },
+        "4264da5c-da8f-4f8c-924d-f6664d7fe06a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_32acf772-7e89-4001-aa1f-f16019febbbb.jpg",
+            "link": "",
+            "link_title": "close up image of before and after of dark spots on the bikini line"
+          }
+        },
+        "1825790c-b006-4492-b2c9-613683e5069b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_33.jpg",
+            "link": "",
+            "link_title": "before and after of ingrown hairs and dark spots on the bikini line"
+          }
+        },
+        "c57f547b-164d-48e7-8fbd-487e677f9049": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_31.jpg",
+            "link": "",
+            "link_title": "hyperpigmentation before and after on the bikini line"
+          }
+        },
+        "546edb62-8f7a-40f5-bb16-dc956b4952eb": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_01c604bf-baf6-4a25-a92d-1507f8c6914e.jpg",
+            "link": "",
+            "link_title": "underarm darkening before and after"
+          }
+        }
+      },
+      "block_order": [
+        "43950189-d951-4117-ad63-585e86c81486",
+        "690ca172-2c27-4ab5-946f-7dfe47eb1cc6",
+        "4264da5c-da8f-4f8c-924d-f6664d7fe06a",
+        "1825790c-b006-4492-b2c9-613683e5069b",
+        "c57f547b-164d-48e7-8fbd-487e677f9049",
+        "546edb62-8f7a-40f5-bb16-dc956b4952eb"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1660257976d0fbb6b6": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "vajacial-hydrogel-mask",
+        "overwrite_heading": "<p>Hydrogel Vajazial Mask Set <\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>The #1 Fastest Way To Solve Razor Burn & Bikini Irritation<\/p><p>✓ Results in 10 minutes<\/p><p>✓ Easy to apply<\/p><p>✓ Safe for after waxing, shaving and laser hair removal<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "main": {
+      "type": "article",
+      "disabled": true,
+      "settings": {
+        "enable_sharing": true,
+        "enable_twitter_share": true,
+        "enable_facebook_share": true,
+        "enable_pinterest_share": true,
+        "enable_link_share": true
+      }
+    },
+    "1645885072a421d2c7": {
+      "type": "content",
+      "blocks": {
+        "e3833214-5a54-4594-8856-837fbaee03d7": {
+          "type": "content_block",
+          "settings": {
+            "title": "Jojoba Seed Oil",
+            "copy": "Helps soften skin while increasing hydration and smoothness.",
+            "icon": "shopify:\/\/shop_images\/Jojoba_825dc920-6f06-4c7f-9937-723bf8331ea2.png"
+          }
+        },
+        "8ff91c7f-c63d-4484-a3cb-1128130db2f3": {
+          "type": "content_block",
+          "settings": {
+            "title": "Lemon Peel Oil",
+            "copy": "Acts as a natural exfoliant and helps brightens skin, while reducing the appearance of dark spots.",
+            "icon": "shopify:\/\/shop_images\/Lemon.png"
+          }
+        },
+        "d6ca68d2-2a0f-4290-be23-0139498a1bf6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tea Tree Oil",
+            "copy": "Fresh and revitalizing, helps calms skin and reduces redness after inflammation.",
+            "icon": "shopify:\/\/shop_images\/Tea_Tree.png"
+          }
+        },
+        "8fa1a8d4-e4ed-41e5-9448-a2199c75588b": {
+          "type": "content_block",
+          "settings": {
+            "title": "Grapeseed Oil",
+            "copy": "High in vitamin A & E; Grape seed Oil infuses skin and body hair with intense, soothing moisture.",
+            "icon": "shopify:\/\/shop_images\/Grapdeseed.png"
+          }
+        }
+      },
+      "block_order": [
+        "e3833214-5a54-4594-8856-837fbaee03d7",
+        "8ff91c7f-c63d-4484-a3cb-1128130db2f3",
+        "d6ca68d2-2a0f-4290-be23-0139498a1bf6",
+        "8fa1a8d4-e4ed-41e5-9448-a2199c75588b"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "hero-ingredients",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Hero Ingredients",
+        "copy": "Formulated with 6 natural ingredients to help improve the look of dark spots found anywhere on the body. The proprietary blend of botanical and essential oils acts as a natural exfoliant, brightens and softens skin while reducing the appearance of dark spots.",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "cta_text": "View Bermuda",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "164584866322f21831": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_mobile": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare-Pubic-Oil.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare-Pubic-Oil.jpg",
+        "image_offset": -32,
+        "preheading": "Bermuda",
+        "heading": "Dark Spot Oil",
+        "copy": "<p>Formulated to soften the appearance of Dark Spots & Hyperpigmentation<\/p>",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "cta_text": "Shop Now",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16458860213f812f21": {
+      "type": "featured-products",
+      "blocks": {
+        "416fae57-9e1d-4882-94c9-5d333aed86cb": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "title": "2 Step Routine",
+            "copy": "soften + soothe",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": ""
+          }
+        },
+        "e74ac24d-e943-4bba-9a6e-4538f428245e": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda  Dark Spot Oil",
+            "copy": "vitamin C + jojoba",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Best Seller"
+          }
+        },
+        "ce73ff40-c206-443c-a5e4-dc8ad242d5ac": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-bikini-line-kit",
+            "title": "3 Step Routine",
+            "copy": "bundle + save",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-bikini-line-kit",
+            "badge_text": "Best Value"
+          }
+        }
+      },
+      "block_order": [
+        "416fae57-9e1d-4882-94c9-5d333aed86cb",
+        "e74ac24d-e943-4bba-9a6e-4538f428245e",
+        "ce73ff40-c206-443c-a5e4-dc8ad242d5ac"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164589715870b52dc6": {
+      "type": "testimonials",
+      "blocks": {
+        "ceba1576-a7f8-4a14-b4a6-90fb57385356": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_-_Dark_Spot_Oil_for_All_Skin_Types_e0e2553e-d215-4d44-840c-b4ae0ce91822.png",
+            "content": "\"I am a huge fan of this oil, and it smells fantastic!  Paired with the Bermuda Scrub, it effectively diminishes dark spots.\"",
+            "name": "- Jane B",
+            "product": "dark-spot-treatment",
+            "product_image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+            "cta_text": "Shop Bermuda"
+          }
+        },
+        "4e0cda3c-cf3d-41d8-a44b-ae7a06f698c4": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+            "content": "\"I purchased the bundle pack where this oil came with the exfoliator and have been using it for a month and have seen great improvements.  If only the oil came in a bigger size!\"",
+            "name": "Dark Spot Routine",
+            "product": "dark-spot-bikini-line-kit",
+            "product_image": "shopify:\/\/shop_images\/3_Step_Routine_for_dark_spots.png",
+            "cta_text": "Shop the Routine"
+          }
+        },
+        "a9712be6-1421-442b-8ae4-c1d025aa6e4b": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+            "content": "\"This set really makes a difference in such a sort amount of time! I love it and my mom did too!\"",
+            "name": "- Melissa",
+            "product": "dark-spot-bikini-line-kit",
+            "product_image": "shopify:\/\/shop_images\/3_Step_Routine_for_dark_spots_d6629768-2510-4682-9752-edd764154477.png",
+            "cta_text": "Shop the Routine"
+          }
+        }
+      },
+      "block_order": [
+        "ceba1576-a7f8-4a14-b4a6-90fb57385356",
+        "4e0cda3c-cf3d-41d8-a44b-ae7a06f698c4",
+        "a9712be6-1421-442b-8ae4-c1d025aa6e4b"
+      ],
+      "disabled": true,
+      "settings": {
+        "intro": "Results",
+        "title": "Testimonials"
+      }
+    },
+    "164588714879dac2b0": {
+      "type": "content",
+      "blocks": {
+        "48f31c00-ed39-4f6f-b43e-3b228fb74b0c": {
+          "type": "content_block",
+          "settings": {
+            "title": "Nude Ingrown Hair Oil",
+            "copy": "Add a few drops onto clean skin and massage gently until it begins to absorb. For best results, apply the oils within 2 minutes of showering or bathing.",
+            "icon": "shopify:\/\/shop_images\/Nudeingrownhairoil.jpg"
+          }
+        },
+        "f8640712-3375-4a26-8da1-63068ecb99c6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Nude Exfoliating Scrub",
+            "copy": "Apply the exfoliating scrub to your bikini line 2-3 times per week while showering. This will help the skin and hair soften.",
+            "icon": "shopify:\/\/shop_images\/nudescrubf9.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "48f31c00-ed39-4f6f-b43e-3b228fb74b0c",
+        "f8640712-3375-4a26-8da1-63068ecb99c6"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Nude_2_step_routine_main_image.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Nude_2_step_routine_main_image.jpg",
+        "image_size": "small",
+        "image_offset": -45,
+        "heading": "Recommended routine for smooth skin where you apply your vajazzle",
+        "copy": "Softening the skin and hair is critical to achieve the optimal pubic hair.",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/routine-ingrown-treatment",
+        "cta_text": "Shop The Routine",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "164589754355f62b8c": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "product-advice",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajazzel_Tips.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajazzel_Tips.jpg",
+        "heading": "Vajazzle Advice",
+        "copy": "The process of vajazzling typically starts with a professional bikini wax to create a smooth canvas. However, if you shave or do another form of hair removal you can still vajazzle [break] Once the skin is clean and hair-free, small crystals or rhinestones are applied using a skin-safe adhesive. These designs can be simple and subtle or elaborate and bold, depending on personal preference.",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1645897817a64ecdb5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Our Mission",
+        "headline": "Make the worlds best bikini line skincare!",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "View All Products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "View Before & Afters",
+        "cta_2_link": "shopify:\/\/blogs\/before-and-after",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164590364180ea843a": {
+      "type": "related-products",
+      "blocks": {
+        "related_product_BF7CR8": {
+          "type": "related_product",
+          "settings": {
+            "product": "vajacial-hydrogel-mask"
+          }
+        },
+        "related_product_VNcWyB": {
+          "type": "related_product",
+          "settings": {
+            "product": "routine-ingrown-treatment"
+          }
+        },
+        "related_product_NtLzhm": {
+          "type": "related_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair"
+          }
+        }
+      },
+      "block_order": [
+        "related_product_BF7CR8",
+        "related_product_VNcWyB",
+        "related_product_NtLzhm"
+      ],
+      "settings": {
+        "title": "Top Selling",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1660256312e871f5c4",
+    "16602572638553e8b9",
+    "166025756244939102",
+    "16602567682fd8acea",
+    "1660256859188a27cb",
+    "promo_banner_XRK8xJ",
+    "16602569871fe0e821",
+    "1660257042aec54f64",
+    "1660257099618fc534",
+    "content_simple_EFmCQE",
+    "content_7jX3JV",
+    "1660257711e530e5e0",
+    "1645903101282b3b06",
+    "1660257976d0fbb6b6",
+    "main",
+    "1645885072a421d2c7",
+    "164584866322f21831",
+    "16458860213f812f21",
+    "164589715870b52dc6",
+    "164588714879dac2b0",
+    "164589754355f62b8c",
+    "1645897817a64ecdb5",
+    "164590364180ea843a"
+  ]
+}

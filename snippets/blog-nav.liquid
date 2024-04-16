@@ -1,0 +1,22 @@
+<nav class="blog-nav {{ class }}" data-blog-nav>
+  <div class="wrapper">
+    <ul class="blog-nav__list">
+      {%- for link in linklists[link_list].links -%}
+        {% assign all_filtered = true %}
+        {% if canonical_url contains 'tagged' and link.title == 'All' %}
+          {% assign all_filtered = false %}
+        {% endif %}
+        <li class="blog-nav__link {% if link.active and all_filtered %}blog-nav__link--active{% endif %}"
+          data-blog-nav-item
+          {% if link.active %}
+            aria-current="true"
+          {% endif %}
+        >
+          <a class="text-link" href="{{ link.url }}" title="{{ link.title }}">
+            {{- link.title -}}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</nav>

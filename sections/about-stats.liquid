@@ -1,0 +1,132 @@
+{{ 'about-stats.css' | asset_url | stylesheet_tag }}
+
+<div class="about-stats">
+  <div class="wrapper">
+    <div class="grid">
+      {% for block in section.blocks %}
+        <div class="grid__item medium-up--6 text-center">
+          <div class="about-stats__block about-stats__block--{{ block.type }}" style="background-color: {{ block.settings.background_color }};">
+            <div class="display-table">
+              <div class="display-table-cell">
+                {% if block.type == 'stat' %}
+                  <small>
+                    {{ block.settings.intro }}
+                  </small>
+
+                  <h4>
+                    {{ block.settings.number }}
+                  </h4>
+
+                  <p>
+                    {{ block.settings.content }}
+                  </p>
+
+                  <hr>
+
+                  <small>
+                    {{ block.settings.supporting_title }}
+                  </small>
+
+                  <span>
+                    {{ block.settings.supporting_content }}
+                  </span>
+                {% else %}
+                  <h4>
+                    {{ block.settings.title }}
+                  </h4>
+
+                  {{ block.settings.content }}
+
+                  {% render 'responsive-image' with
+                    image: block.settings.logo,
+                    max_width: block.settings.logo_max_width,
+                    max_height: 1000
+                  %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Stats",
+    "blocks": [
+      {
+        "type": "stat",
+        "name": "Stat",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "text",
+            "id": "intro",
+            "label": "Intro"
+          },
+          {
+            "type": "text",
+            "id": "number",
+            "label": "Number"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Content"
+          },
+          {
+            "type": "text",
+            "id": "supporting_title",
+            "label": "Supporting Title"
+          },
+          {
+            "type": "textarea",
+            "id": "supporting_content",
+            "label": "Supporting Content"
+          },
+          {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background Color",
+            "default": "#FDE7E0"
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "name": "Content",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          },
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+          },
+          {
+            "type": "number",
+            "id": "logo_max_width",
+            "label": "Logo max width"
+          },
+          {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background Color",
+            "default": "#C2D6ED"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,448 @@
+{
+  "sections": {
+    "a4ad2e52-6510-401b-87e1-1041c274f4d8": {
+      "type": "promo-banner",
+      "blocks": {
+        "708e44d6-8fb0-4124-9c79-81d94efe61f0": {
+          "type": "promo_countdown_timer",
+          "settings": {
+            "countdown_timer_type": "set_date",
+            "countdown_timer_time_repeating": "",
+            "countdown_timer_time_set": "11-02-09:00"
+          }
+        }
+      },
+      "block_order": [
+        "708e44d6-8fb0-4124-9c79-81d94efe61f0"
+      ],
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "165711180419fba8bb": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/6_c26b3cde-1e86-4c19-95fd-ec36ffe9eb92.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/6_c26b3cde-1e86-4c19-95fd-ec36ffe9eb92.jpg",
+        "heading": "Our Biggest Drop Ever",
+        "copy": "Piña Colada is launching on July 10th 2022. \n[break] \nSubscribe below to get early access and beat the rush.",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "16571109645993c671": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<div class=\"klaviyo-form-TQXVSY\"><\/div>"
+      }
+    },
+    "1653925358da695c12": {
+      "type": "wholesale-hero",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/our.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/our.jpg",
+        "heading": "Product Drop",
+        "copy": "Our Biggest of  the Year",
+        "cta_link": "shopify:\/\/collections\/pina-colada-collection",
+        "cta_text": "View the Collection",
+        "cta_link_2": "",
+        "cta_text_2": "Piña Colada Scrub",
+        "account_cta_heading": "",
+        "account_cta_text": "",
+        "account_cta_link": "",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "24px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16534281069c7763ca": {
+      "type": "wholesale-hero",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/NEW.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/NEW.jpg",
+        "heading": "Get VIP Access",
+        "copy": "Our Biggest Launch Ever",
+        "cta_link": "shopify:\/\/pages\/vipaccess-subscribe-page",
+        "cta_text": "Join SMS List",
+        "cta_link_2": "https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?a=Q7rXBN&g=RtN65t",
+        "cta_text_2": "Join Email List",
+        "account_cta_heading": "",
+        "account_cta_text": "",
+        "account_cta_link": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1643214850cc04a5ca": {
+      "type": "overlay-hero",
+      "settings": {
+        "heading": "Launching Soon",
+        "use_h1": true,
+        "copy": "Subscribe for early access.",
+        "cta_text": "Subscribe",
+        "cta_url": "https:\/\/pscr.pt\/2JIGYd",
+        "image_desktop": "shopify:\/\/shop_images\/NEW.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/NEW.jpg",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": true
+      }
+    },
+    "16539249613c766081": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<div class=\"klaviyo-form-SRLzxL\"><\/div>"
+      }
+    },
+    "165342711728611af0": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_desktop": "shopify:\/\/shop_images\/NEW_1294_x_1294_px.png",
+        "heading": "Our Biggest Launch Yet",
+        "copy": "Join our SMS list and get exclusive early access!",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16451188813bdfb795": {
+      "type": "newsletter-signup",
+      "disabled": true,
+      "settings": {
+        "klaviyo_list_id": "VEGbez",
+        "heading": "Drop Alerts",
+        "subheading": "Subscribe to the exclusive list",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164321518184bc3a90": {
+      "type": "who-we-are",
+      "blocks": {
+        "202a1dce-2af9-41ef-b8dd-d7a5631c2854": {
+          "type": "list_item",
+          "settings": {
+            "text": "Set our Inventory"
+          }
+        },
+        "6f3f49af-2678-48f5-a353-970e8ab833d9": {
+          "type": "list_item",
+          "settings": {
+            "text": "Launch to the Early Access VIP List"
+          }
+        },
+        "0e0bde91-228b-4f1a-9c2e-b6aaa1690297": {
+          "type": "list_item",
+          "settings": {
+            "text": "Launch to the General Public"
+          }
+        },
+        "fc706f77-60e3-4f55-aa32-ce4c9e964c69": {
+          "type": "list_item",
+          "settings": {
+            "text": "Sell out. Guaranteed!"
+          }
+        }
+      },
+      "block_order": [
+        "202a1dce-2af9-41ef-b8dd-d7a5631c2854",
+        "6f3f49af-2678-48f5-a353-970e8ab833d9",
+        "0e0bde91-228b-4f1a-9c2e-b6aaa1690297",
+        "fc706f77-60e3-4f55-aa32-ce4c9e964c69"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "How We Launch",
+        "subheading": "At Bushbalm we launch products on the regular. Everything from skincare for the bikini line to tools and exfoliants. Our dark spot collection often sells out, so you'll want to make sure you get on this list!",
+        "list_heading": "Our Launch Process",
+        "cta_text": "Shop All Products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "image_desktop": "shopify:\/\/shop_images\/wwa-desktop.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/wwa-mobile.jpg",
+        "full_width": false,
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "164321795572cec49d": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "Featured",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1643218123dd0fce30": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/jd-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/jd-d.png",
+        "heading": "The Journey & Deal",
+        "copy": "Founded in 2015. Ottawa's 2nd fasts growing company in 2020!\n[break]\nThe Bushbalm™ Team has grown from a founding couple to well over 10 staff. The team is located in Ottawa, Canada, but ships worldwide. After the Dragon's Den appearance Bushbalm™ has expanded its product line and brought on new team members. Additionally, you can now find Bushbalm™ products in Indigo and Urban Outfitters.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1643221181db6483e9": {
+      "type": "image-carousel",
+      "blocks": {
+        "ef15cb8d-a558-4956-b5c6-e7dbbc47abd6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-1.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "88fdf03d-5cbb-4758-84f3-5e2d92daea53": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-2.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "d21cc781-bf7d-4518-a1ed-0807b4f8f57b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-3.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "f911fcf7-fdab-427e-aee5-c381ccac6db3": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-4.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "54ca8922-4304-4358-a5b2-54702da0d5e2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-5.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "2ea3669b-1c52-485e-bca8-b6d19c3d49d0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-6.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "ef15cb8d-a558-4956-b5c6-e7dbbc47abd6",
+        "88fdf03d-5cbb-4758-84f3-5e2d92daea53",
+        "d21cc781-bf7d-4518-a1ed-0807b4f8f57b",
+        "f911fcf7-fdab-427e-aee5-c381ccac6db3",
+        "54ca8922-4304-4358-a5b2-54702da0d5e2",
+        "2ea3669b-1c52-485e-bca8-b6d19c3d49d0"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1643220490dc52e3f2": {
+      "type": "related-products",
+      "blocks": {
+        "c7d8fc6b-1bcd-412b-bc42-657c20b36d91": {
+          "type": "related_product",
+          "settings": {
+            "product": "spa-day-nourishing-body-wash"
+          }
+        },
+        "765caa29-6b50-4dbe-b64b-709f7e7c322f": {
+          "type": "related_product",
+          "settings": {
+            "product": "unscented-nourishing-body-wash"
+          }
+        },
+        "b7829d59-b9c8-4a79-8fd8-e827c1039513": {
+          "type": "related_product",
+          "settings": {
+            "product": "tush-firming-cream"
+          }
+        }
+      },
+      "block_order": [
+        "c7d8fc6b-1bcd-412b-bc42-657c20b36d91",
+        "765caa29-6b50-4dbe-b64b-709f7e7c322f",
+        "b7829d59-b9c8-4a79-8fd8-e827c1039513"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Recent Launches",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1665666643483caa66": {
+      "type": "apps",
+      "blocks": {
+        "dd8a9df5-c4ab-4f44-b37a-60ccfe5fb348": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "T4E56G"
+          }
+        }
+      },
+      "block_order": [
+        "dd8a9df5-c4ab-4f44-b37a-60ccfe5fb348"
+      ],
+      "settings": {
+      }
+    },
+    "1643216724c4c43865": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "d2342399-5a92-43e2-a6c7-4a672ea3ee45": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-hyper.png",
+            "heading": "Hyperpigmentation",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/hyperpigmentation"
+          }
+        },
+        "8344604c-f9da-4c77-8086-4d994bd8e955": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-dark.png",
+            "heading": "Dark Spots",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "49cc7a17-aaa2-43e8-be6f-048851777134": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-kp.png",
+            "heading": "Keratosis Pilaris",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/keratosis-pilaris"
+          }
+        },
+        "639ea0ff-87f1-4437-87a6-095de2a8362b": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-ingrown.png",
+            "heading": "Ingrown Hairs",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        },
+        "136b3748-5704-4d51-b361-17a1e98fb028": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-razor.png",
+            "heading": "Razor Burn",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/razor-burn"
+          }
+        }
+      },
+      "block_order": [
+        "d2342399-5a92-43e2-a6c7-4a672ea3ee45",
+        "8344604c-f9da-4c77-8086-4d994bd8e955",
+        "49cc7a17-aaa2-43e8-be6f-048851777134",
+        "639ea0ff-87f1-4437-87a6-095de2a8362b",
+        "136b3748-5704-4d51-b361-17a1e98fb028"
+      ],
+      "settings": {
+        "carousel_heading": "Other Product Lines"
+      }
+    },
+    "16432207612c90bfd5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#fbefe3",
+        "padding": true,
+        "intro": "Skincare, Everywhere",
+        "headline": "Explore our other cult followed products!",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "a4ad2e52-6510-401b-87e1-1041c274f4d8",
+    "165711180419fba8bb",
+    "16571109645993c671",
+    "1653925358da695c12",
+    "16534281069c7763ca",
+    "1643214850cc04a5ca",
+    "16539249613c766081",
+    "165342711728611af0",
+    "16451188813bdfb795",
+    "164321518184bc3a90",
+    "164321795572cec49d",
+    "1643218123dd0fce30",
+    "1643221181db6483e9",
+    "1643220490dc52e3f2",
+    "1665666643483caa66",
+    "1643216724c4c43865",
+    "16432207612c90bfd5"
+  ]
+}

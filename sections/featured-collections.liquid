@@ -1,0 +1,282 @@
+<script src="{{ 'featured-collections.js' | asset_url }}" defer="defer"></script>
+{{ 'featured-collections.css' | asset_url | stylesheet_tag }}
+
+<div class="featured-collections featured-collections--{{ section.id }} swiper-container" data-featured-collection-slider>
+  <div class="featured-collections__container swiper-wrapper">
+    {% for block in section.blocks %}
+      <div class="featured-collections__block featured-collections__block--{{ forloop.index }} swiper-slide"
+        data-featured-collection-slide>
+        {% if block.settings.marquee_text != blank %}
+          <div class="featured-collections__marquee">
+            {% render 'marquee' with
+              marquee_text: block.settings.marquee_text
+            %}
+          </div>
+        {% endif %}
+        {% if block.settings.image != blank %}
+          {% render 'responsive-image' with
+            image: block.settings.image,
+            max_width: 896,
+            max_height: 896,
+            wrapper_class: 'featured-collections__image'
+          %}
+        {% endif %}
+        {% if block.settings.cta_text != blank and block.settings.cta_link != blank %}
+          <a href="{{ block.settings.cta_link }}"
+            class="featured-collections__cta--{{ forloop.index }} btn btn--full"
+            title="{{ block.settings.cta_text }}">
+            {{- block.settings.cta_text -}}
+          </a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  <div class="featured-collections__nav-wrapper">
+    <button class="featured-collections__nav featured-collections__nav--prev small--hide" data-featured-collections-nav-prev>
+      {% render 'icon-chevron-left' %}
+    </button>
+    <button class="featured-collections__nav featured-collections__nav--next small--hide" data-featured-collections-nav-next>
+      {% render 'icon-chevron-right' %}
+    </button>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'featured-collections'
+%}
+
+{% style %}
+  {% for block in section.blocks %}
+    .featured-collections--{{ section.id }} .featured-collections__block--{{ forloop.index }} {
+      background-color: {{ block.settings.bg_color }};
+    }
+
+    .featured-collections--{{ section.id }} .featured-collections__cta--{{ forloop.index }} {
+      background-color: {{ block.settings.cta_color }};
+    }
+
+    @media (min-width: 750px) {
+      .featured-collections--{{ section.id }} .featured-collections__block--{{ forloop.index }} {
+        background-color: {{ block.settings.bg_color_desktop }};
+      }
+
+      .featured-collections--{{ section.id }} .featured-collections__cta--{{ forloop.index }} {
+        background-color: {{ block.settings.cta_color_desktop }};
+      }
+    }
+  {% endfor %}
+{% endstyle %}
+
+{% schema %}
+  {
+    "name": "Featured Collections",
+    "blocks": [
+      {
+        "type": "featured_collection",
+        "name": "Featured Collection",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "Dimensions: 896 x 896"
+          },
+          {
+            "type": "color",
+            "id": "bg_color",
+            "label": "Background Color | Mobile",
+            "default": "#F8E2C9"
+          },
+          {
+            "type": "color",
+            "id": "bg_color_desktop",
+            "label": "Background Color | Desktop",
+            "default": "#F8E2C9"
+          },
+          {
+            "type": "text",
+            "id": "marquee_text",
+            "label": "Marquee Text | Mobile"
+          },
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA Text"
+          },
+          {
+            "type": "url",
+            "id": "cta_link",
+            "label": "CTA Link"
+          },
+          {
+            "type": "color",
+            "id": "cta_color",
+            "label": "CTA Color | Mobile",
+            "default": "#FFFFFF"
+          },
+          {
+            "type": "color",
+            "id": "cta_color_desktop",
+            "label": "CTA Color | Desktop",
+            "default": "#FFFFFF"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Collections"
+      }
+    ]
+  }
+{% endschema %}

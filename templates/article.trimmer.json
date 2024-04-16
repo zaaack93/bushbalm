@@ -1,0 +1,161 @@
+{
+  "sections": {
+    "16600807966a2de89a": {
+      "type": "promo-banner",
+      "blocks": {
+        "bab640cd-465e-4a84-b895-100c4a92cf8e": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>#1 Body Trimmer <\/p>"
+          }
+        },
+        "15a018b1-9481-4b87-be56-23198d74617e": {
+          "type": "promo_product_list",
+          "settings": {
+            "product_list": [
+              "the-francesca-bikini-trimmer-for-pubic-hair"
+            ]
+          }
+        },
+        "3b09b80e-eca9-4c8e-8bdc-ac11fad0b2f0": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>Rated by Oprah Daily<\/p>"
+          }
+        },
+        "33d93201-94aa-4e9e-a4d7-4ba1fee78d78": {
+          "type": "promo_cta",
+          "settings": {
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/the-francesca-bikini-trimmer-for-pubic-hair"
+          }
+        }
+      },
+      "block_order": [
+        "bab640cd-465e-4a84-b895-100c4a92cf8e",
+        "15a018b1-9481-4b87-be56-23198d74617e",
+        "3b09b80e-eca9-4c8e-8bdc-ac11fad0b2f0",
+        "33d93201-94aa-4e9e-a4d7-4ba1fee78d78"
+      ],
+      "settings": {
+        "bg_color": "#F8E2C9",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710"
+      }
+    },
+    "main": {
+      "type": "article",
+      "settings": {
+        "enable_sharing": true,
+        "enable_twitter_share": true,
+        "enable_facebook_share": true,
+        "enable_pinterest_share": true,
+        "enable_link_share": true
+      }
+    },
+    "16379492308b6f383e": {
+      "type": "related-products",
+      "blocks": {
+        "a407af35-8eca-4b77-af15-acebfef4e4c3": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-treatment"
+          }
+        },
+        "e01c8fc1-8eec-46a0-848d-b08101853b22": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-corrector"
+          }
+        },
+        "f412f636-22c5-4374-b212-e06aaca745d1": {
+          "type": "related_product",
+          "settings": {
+            "product": "pubic-hair-trimmer-holiday-kit"
+          }
+        }
+      },
+      "block_order": [
+        "a407af35-8eca-4b77-af15-acebfef4e4c3",
+        "e01c8fc1-8eec-46a0-848d-b08101853b22",
+        "f412f636-22c5-4374-b212-e06aaca745d1"
+      ],
+      "settings": {
+        "title": "Related Products",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1637963148de8f9c5a": {
+      "type": "related-articles",
+      "blocks": {
+        "5d711475-a501-4be8-a801-a9a3826dfda3": {
+          "type": "article",
+          "settings": {
+            "article": "how-to-guides\/francesca-trimmer"
+          }
+        },
+        "a559d9f3-d80e-4048-a056-505790a0d0f2": {
+          "type": "article",
+          "settings": {
+            "article": "skincare-everywhere\/menopause-and-skincare"
+          }
+        },
+        "e6bbe4ad-e972-4199-8580-c7692c030268": {
+          "type": "article",
+          "settings": {
+            "article": "dark-spots\/how-to-get-rid-of-ingrown-hair-scars"
+          }
+        },
+        "0ecfd80f-af92-4f00-bd1b-9992b7156498": {
+          "type": "article",
+          "settings": {
+            "article": "skincare-everywhere\/what-is-a-vajacial"
+          }
+        }
+      },
+      "block_order": [
+        "5d711475-a501-4be8-a801-a9a3826dfda3",
+        "a559d9f3-d80e-4048-a056-505790a0d0f2",
+        "e6bbe4ad-e972-4199-8580-c7692c030268",
+        "0ecfd80f-af92-4f00-bd1b-9992b7156498"
+      ],
+      "settings": {
+        "title": "Related Articles",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1647206499578f6b09": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "About Us",
+        "headline": "From razor burn to dark spots — we're here to help.",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "View Reviews",
+        "cta_2_link": "shopify:\/\/pages\/reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "16600807966a2de89a",
+    "main",
+    "16379492308b6f383e",
+    "1637963148de8f9c5a",
+    "1647206499578f6b09"
+  ]
+}

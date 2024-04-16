@@ -1,0 +1,281 @@
+<script src="{{ 'wholesale-hero.js' | asset_url }}" defer="defer"></script>
+{{ 'wholesale-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="wholesale-hero wholesale-hero--{{ section.id }}" role="region" aria-label="Wholesale Hero">
+  <div class="wholesale-hero__wrapper wrapper">
+    <div class="wholesale-hero__content">
+      <h1>{{ section.settings.heading | default: page.title }}</h1>
+      {% if section.settings.copy != blank %}
+        <p class="wholesale-hero__copy">{{ section.settings.copy }}</p>
+      {% endif %}
+      {% if section.settings.cta_text != blank and section.settings.cta_link != blank %}
+        <a href="{{ section.settings.cta_link }}" class="btn btn--chocolate">
+          {{- section.settings.cta_text -}}
+        </a>
+      {% endif %}
+      {% if section.settings.cta_text_2 != blank and section.settings.cta_link_2 != blank %}
+        <a href="{{ section.settings.cta_link_2 }}" class="btn btn--chocolate">
+          {{- section.settings.cta_text_2 -}}
+        </a>
+      {% endif %}
+      {% if section.settings.account_cta_heading != blank %}
+        <p class="wholesale-hero__cta-heading">{{ section.settings.account_cta_heading }}</p>
+      {% endif %}
+      {% if section.settings.account_cta_text != blank and section.settings.account_cta_link != blank %}
+        <a href="{{ section.settings.account_cta_link }}" class="wholesale-hero__cta">
+          {{- section.settings.account_cta_text -}}
+        </a>
+      {% endif %}
+    </div>
+    <div class="wholesale-hero__image">
+      {% if section.settings.image_mobile != blank %}
+        {% render 'responsive-image' with
+          image: section.settings.image_mobile,
+          max_width: 654,
+          max_height: 480,
+          wrapper_class: 'wholesale-hero__image-wrapper medium-up--hide'
+        %}
+      {% endif %}
+      {% if section.settings.image_desktop != blank %}
+        {% render 'responsive-image' with
+          image: section.settings.image_desktop,
+          max_width: 1632,
+          max_height: 1200,
+          wrapper_class: 'wholesale-hero__image-wrapper small--hide'
+        %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'wholesale-hero'
+%}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "header",
+        "content": "Imagery"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image | Mobile",
+        "info": "Dimensions: 654 x 480"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image | Desktop",
+        "info": "Dimensions: 1632 x 1200"
+      },
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "info": "Page Title used by default"
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link 1"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text 1",
+        "info": "Recommended character limit: 20"
+      },
+      {
+        "type": "url",
+        "id": "cta_link_2",
+        "label": "CTA Link 2"
+      },
+      {
+        "type": "text",
+        "id": "cta_text_2",
+        "label": "CTA Text 2",
+        "info": "Recommended character limit: 20"
+      },
+      {
+        "type": "text",
+        "id": "account_cta_heading",
+        "label": "Account CTA Heading"
+      },
+      {
+        "type": "text",
+        "id": "account_cta_text",
+        "label": "Account CTA Text"
+      },
+      {
+        "type": "url",
+        "id": "account_cta_link",
+        "label": "Account CTA Link"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Wholesale Hero"
+      }
+    ]
+  }
+{% endschema %}

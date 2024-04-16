@@ -1,0 +1,539 @@
+{
+  "sections": {
+    "1664477130794562bd": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_boxed",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Turn Them On With Bushbalm",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "Scented. Soothing. Sexy.",
+        "copy": "<p>Outercourse rituals from the bikini line skincare experts.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/soothing-oils",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/1568x1310_Homepage_-_Desktop.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/1568x1310_Homepage_-_Desktop.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4569,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_f4b5ef13-c142-4859-a9b3-fe92cb763170.png",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1663867227190afc41": {
+      "type": "home-hero-image",
+      "disabled": true,
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/1294_X_1756_Content_-_Desktop_-_Large_1.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/1294_X_1756_Content_-_Desktop_-_Large_1.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664477888294562c9": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "sexy-scents-bundle",
+        "overwrite_heading": "<p>Sexy Scents Bundle<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Our top selling scented soothing oils for a smooth and fresh smelling bikini line. <\/p><p><\/p><p>Comes with: <\/p><p>- Sweet Escape Oil <\/p><p>- Pina Colada Oil <\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "-24px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664204555e4330260": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "f8de31b3-25b5-4ff4-9cab-3f18367babbf": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oils_a5c53f7e-6d9b-4aec-bdff-0ef13ccbd5c6.jpg",
+            "heading": "Fruity + Tropical",
+            "cta_text": "Shop Pina Colada",
+            "url": "shopify:\/\/collections\/pina-colada-collection"
+          }
+        },
+        "43497211-4390-48e6-aad0-41431de3fc16": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hair_Products_a1329dcb-fd52-42a6-9e6a-7313c38f4fa5.jpg",
+            "heading": "Tangerine + Vanilla",
+            "cta_text": "Shop Sweet Escape",
+            "url": "shopify:\/\/collections\/the-sweet-escape-collection"
+          }
+        },
+        "972110f4-65bf-457b-a03b-86fa9636bbd1": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-Bushbalm-influencer_8a05aa1f-ed55-4fd7-81c7-73151a4cac71.png",
+            "heading": "Zesty + Lemon",
+            "cta_text": "Shop Bermuda",
+            "url": ""
+          }
+        },
+        "f512db67-b0d9-43b3-8623-63959bea596a": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NUDE_OIL-004_896f1b71-a1b9-481d-bd39-92b889032df4.jpg",
+            "heading": "Clean + Fresh",
+            "cta_text": "Shop Nude",
+            "url": "shopify:\/\/collections\/the-nude-collection"
+          }
+        }
+      },
+      "block_order": [
+        "f8de31b3-25b5-4ff4-9cab-3f18367babbf",
+        "43497211-4390-48e6-aad0-41431de3fc16",
+        "972110f4-65bf-457b-a03b-86fa9636bbd1",
+        "f512db67-b0d9-43b3-8623-63959bea596a"
+      ],
+      "disabled": true,
+      "settings": {
+        "carousel_heading": "Our Scents"
+      }
+    },
+    "16638664800e50fb34": {
+      "type": "home-hero-options",
+      "disabled": true,
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Turn them on with Bushbalm",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Mobile_Bikini_Line_Illustration_ca5390e4-a856-4ba0-ada3-8fa5d45bd184.png",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1f1139ae-92f8-4854-b57e-08185771ad90": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Product_Image_Pictures_2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Product_Image_Pictures_2.jpg",
+        "heading": "Smooth and In the Mood",
+        "copy": "With an arousing aroma of tangerine and vanilla, this 100% natural oil is a favourite, especially among couples. \n[break]\nApply directly onto the skin, and rub anywhere you (<i>or your partner<\/i> ) desire",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "166386685707568847": {
+      "type": "home-hero-image",
+      "disabled": true,
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/750x1370_Homepage_-_Mobile_1568_x_1310_px_1_81824bb5-c998-4365-a1eb-e44993d8c92f.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/Untitled_2400_x_800_px.jpg",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1664476617dd070fc9": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center> \n<h2> The Ultimate Thirst trap<\/h2>\n<p> Try our soothing oils to give your partner a sweet smelling surprise. <\/p> \n<center>\n<br><a href=\"https:\/\/bushbalm.com\/collections\/soothing-oils\" class=\"btn btn-primary\">Shop Now<\/a>\n<br> <br>\n<small> EXTERNAL USE ONLY <\/small>\n<\/center>\n<\/center>"
+      }
+    },
+    "1664477001c6cddf96": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@bushbalm\/video\/7150733612474715398\" data-video-id=\"7150733612474715398\" style=\"max-width: 605px;min-width: 325px;\"> <section> <a target=\"_blank\" title=\"@bushbalm\" href=\"https:\/\/www.tiktok.com\/@bushbalm?refer=embed\">@bushbalm<\/a> @byferggie’s trick for the next time you’re going to bed with your boo 😉😍 <a title=\"ingrownhair\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/ingrownhair?refer=embed\">#ingrownhair<\/a> <a title=\"razorbumps\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/razorbumps?refer=embed\">#razorbumps<\/a> <a title=\"shaveroutine\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/shaveroutine?refer=embed\">#shaveroutine<\/a> <a title=\"bodycare\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/bodycare?refer=embed\">#bodycare<\/a> <a title=\"fyp\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/fyp?refer=embed\">#fyp<\/a> <a title=\"shavingtips\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/shavingtips?refer=embed\">#shavingtips<\/a> <a title=\"razorburn\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/razorburn?refer=embed\">#razorburn<\/a> <a title=\"boyfriend\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/boyfriend?refer=embed\">#boyfriend<\/a> <a title=\"showertok\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/showertok?refer=embed\">#showertok<\/a> <a target=\"_blank\" title=\"♬ Rihanna x Burna boy x Last Last xKevin Dave Mashup - Kevindaveprod\" href=\"https:\/\/www.tiktok.com\/music\/Rihanna-x-Burna-boy-x-Last-Last-xKevin-Dave-Mashup-7132615826309516074?refer=embed\">♬ Rihanna x Burna boy x Last Last xKevin Dave Mashup - Kevindaveprod<\/a> <\/section> <\/blockquote> <script async=\"\" src=\"https:\/\/www.tiktok.com\/embed.js\"><\/script>"
+      }
+    },
+    "1664826622211c467b": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<blockquote class=\"tiktok-embed\" cite=\"https:\/\/www.tiktok.com\/@bushbalm\/video\/7150287877262331142\" data-video-id=\"7150287877262331142\" style=\"max-width: 605px;min-width: 325px;\"> <section> <a target=\"_blank\" title=\"@bushbalm\" href=\"https:\/\/www.tiktok.com\/@bushbalm?refer=embed\">@bushbalm<\/a> POV: you just got a ‘wyd’ text from your man 😉 <a title=\"ingrownhair\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/ingrownhair?refer=embed\">#ingrownhair<\/a> <a title=\"razorbumps\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/razorbumps?refer=embed\">#razorbumps<\/a> <a title=\"shaveroutine\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/shaveroutine?refer=embed\">#shaveroutine<\/a> <a title=\"bodycare\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/bodycare?refer=embed\">#bodycare<\/a> <a title=\"bikiniline\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/bikiniline?refer=embed\">#bikiniline<\/a> <a title=\"fyp\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/fyp?refer=embed\">#fyp<\/a> <a title=\"shaving\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/shaving?refer=embed\">#shaving<\/a> <a title=\"pov\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/pov?refer=embed\">#pov<\/a> <a title=\"shavingtips\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/shavingtips?refer=embed\">#shavingtips<\/a> <a title=\"hairremoval\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/hairremoval?refer=embed\">#hairremoval<\/a> <a title=\"razorburn\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/razorburn?refer=embed\">#razorburn<\/a> <a title=\"boyfriend\" target=\"_blank\" href=\"https:\/\/www.tiktok.com\/tag\/boyfriend?refer=embed\">#boyfriend<\/a> <a target=\"_blank\" title=\"♬ original sound - Sam Smith\" href=\"https:\/\/www.tiktok.com\/music\/original-sound-7133278078339533573?refer=embed\">♬ original sound - Sam Smith<\/a> <\/section> <\/blockquote> <script async=\"\" src=\"https:\/\/www.tiktok.com\/embed.js\"><\/script>"
+      }
+    },
+    "1664477857affc650c": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "Add in Videos",
+        "html": ""
+      }
+    },
+    "1664824675feafadba": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "<big>See Why Couples Love Our Oils<\/big>",
+        "html": "<div id=\"stamped-reviews-widget\" data-widget-type=\"full-page\" data-review-ids=\" 58121150,51396458,46702619, 8859826,64139253,54052814,54052583,47864893 ,40448393,40448002,40447987,24900567,12991697,24900333,51635587,24900366\"><\/div>"
+      }
+    },
+    "1664477022717f435e": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "416ac7f2-707a-4cc7-b67e-f8eddf9592f7": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sweet-escape-oil",
+            "enable_sub_text": true
+          }
+        },
+        "ce58e283-2ac9-4785-abfc-ae249befc82e": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-corrector",
+            "enable_sub_text": true
+          }
+        },
+        "c09531b8-04be-4ab1-96d3-47f760a57281": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "enable_sub_text": true
+          }
+        },
+        "ff713ac4-bdad-4e6f-b230-80845b9aff87": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "416ac7f2-707a-4cc7-b67e-f8eddf9592f7",
+        "ce58e283-2ac9-4785-abfc-ae249befc82e",
+        "c09531b8-04be-4ab1-96d3-47f760a57281",
+        "ff713ac4-bdad-4e6f-b230-80845b9aff87"
+      ],
+      "settings": {
+        "heading": "Best Selling Oils",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16639574185078352a": {
+      "type": "content-list",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "image_mobile": "shopify:\/\/shop_images\/Gynacologist_Approved_Skincare.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Gynacologist_Approved_Skincare.jpg",
+        "heading": "Prep Your Skin for Sex",
+        "copy": "How to use Bushbalm soothing oils\n<br>\n<br>\nAt Bushbalm wer're about skin confidence everywhere, including the bedroom. \n<br>\n<br>\n“Here’s my little tip… if you’re going to bed with your boo, you take a shower, after you dry off you take the oil and you’re going to apply everywhere and you will smell soooo good.”",
+        "subheading": "FOR External use only",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1663956502fd1bf023": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Gynacologist_Approved_Skincare.jpg",
+        "heading": "Prep Your Skin for Sex",
+        "copy": "How to use Bushbalm soothing oils",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16639651186a58a3a0": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "346e8dd8-df61-4d47-9ebe-6f401b2baabb": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RTS_tex_Gif_1065.jpg",
+            "heading": "Fruity + Tropical",
+            "cta_text": "Explore Pina Colada",
+            "url": "shopify:\/\/collections\/pina-colada-collection"
+          }
+        },
+        "2a2a4504-7dbc-4176-8a35-aeecd429c4a9": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_ac1b25c8-781c-4231-911a-92e891c28955.jpg",
+            "heading": "Citrus + Sweet",
+            "cta_text": "Explore Sweet Escape",
+            "url": "shopify:\/\/collections\/the-sweet-escape-collection"
+          }
+        },
+        "cae6cd9a-f875-4e2d-baef-8d107badabaf": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_spot_Oil_by_Bushbalm.jpg",
+            "heading": "Zesty + Lemon",
+            "cta_text": "Explore Bermuda",
+            "url": "shopify:\/\/collections\/the-bermuda-collection"
+          }
+        },
+        "2b337a35-3632-4028-a619-8d1c58a35155": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pubic_Hair_Oil_for_Inngrown_Hairs.jpg",
+            "heading": "Clean + Fresh",
+            "cta_text": "Explore Nude",
+            "url": "shopify:\/\/collections\/the-nude-collection"
+          }
+        }
+      },
+      "block_order": [
+        "346e8dd8-df61-4d47-9ebe-6f401b2baabb",
+        "2a2a4504-7dbc-4176-8a35-aeecd429c4a9",
+        "cae6cd9a-f875-4e2d-baef-8d107badabaf",
+        "2b337a35-3632-4028-a619-8d1c58a35155"
+      ],
+      "disabled": true,
+      "settings": {
+        "carousel_heading": "Our scents"
+      }
+    },
+    "16638674971a55f421": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "Featured",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-review-ids=\"54382767, 23232323433\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16638664834f8d32bf": {
+      "type": "2-up-content",
+      "blocks": {
+        "dcc2512c-bf5a-454d-9fb7-dd097cb2287a": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/652_X_482_Content_-_Mobile_2.jpg"
+          }
+        },
+        "4ba3df7e-4d37-4e9f-8023-8ddaacf607a4": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_ec395968-aa84-4d5c-a055-8fff393bcd27.jpg"
+          }
+        },
+        "28e32f75-31f3-48f9-9685-bf7e3ba89c11": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_90f6db9a-23fb-4233-aff4-ef23ddf53e92.jpg"
+          }
+        },
+        "bf0d5646-1d91-45aa-a9ba-a50fa0f19e95": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_86c0e5b4-097c-4063-8f1b-6b18dfec1c50.jpg"
+          }
+        },
+        "be9a540f-e4cc-4283-a133-53eeb5cd2dbf": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "dcc2512c-bf5a-454d-9fb7-dd097cb2287a",
+        "4ba3df7e-4d37-4e9f-8023-8ddaacf607a4",
+        "28e32f75-31f3-48f9-9685-bf7e3ba89c11",
+        "bf0d5646-1d91-45aa-a9ba-a50fa0f19e95",
+        "be9a540f-e4cc-4283-a133-53eeb5cd2dbf"
+      ],
+      "disabled": true,
+      "settings": {
+        "intro": "Why Couples love our oil",
+        "title": "Treat your skin  and your partner!",
+        "content": "",
+        "cta_text": "SHOP NOW",
+        "cta_link": ""
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "166447756037e063f2": {
+      "type": "all-reviews",
+      "disabled": true,
+      "settings": {
+        "stamped_widget": "<div>\n<br><br><center><h3> Verified Reviews <\/h3><\/center>\n<\/div>\n\n<div id=\"stamped-reviews-widget\" data-widget-type=\"full-page\" data-take=\"3\" data-style-color-star=\"#f8a086\" data-style-color-verified=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-product-ids=\"6939851395, 7603971850296, 9927630734\"><\/div>",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16648244100d760ada": {
+      "type": "apps",
+      "blocks": {
+        "8f70b633-9daf-4eec-b854-5cc88c328882": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "handle"
+          }
+        },
+        "7aabf647-e8a4-4237-bef1-de6cf02379df": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/badge-ribbon-image\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "api_key": "",
+            "store_hash": "",
+            "label1": "",
+            "label2": "",
+            "width": "",
+            "height": ""
+          }
+        },
+        "86811b6a-eff0-4d97-a690-6c270630f266": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/full-page\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "product_image": false,
+            "take": 30,
+            "label_substitute": "",
+            "color_star": "#f7efa1",
+            "color_verified": "#f8e2c9",
+            "color_text": "#1a1b18",
+            "color_link": "#cca181",
+            "review_ids": "",
+            "product_ids": "",
+            "category": "",
+            "product_brand": "",
+            "tags": "",
+            "min_rating": "none",
+            "fill_empty": false,
+            "random": false,
+            "with_photos": false
+          }
+        }
+      },
+      "block_order": [
+        "8f70b633-9daf-4eec-b854-5cc88c328882",
+        "7aabf647-e8a4-4237-bef1-de6cf02379df",
+        "86811b6a-eff0-4d97-a690-6c270630f266"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "166489716070047e4b": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Bushbalm",
+        "headline": "Skin Confidence, Everywhere",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Now",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1664477130794562bd",
+    "1663867227190afc41",
+    "1664477888294562c9",
+    "1664204555e4330260",
+    "16638664800e50fb34",
+    "1f1139ae-92f8-4854-b57e-08185771ad90",
+    "166386685707568847",
+    "1664476617dd070fc9",
+    "1664477001c6cddf96",
+    "1664826622211c467b",
+    "1664477857affc650c",
+    "1664824675feafadba",
+    "1664477022717f435e",
+    "16639574185078352a",
+    "1663956502fd1bf023",
+    "16639651186a58a3a0",
+    "16638674971a55f421",
+    "16638664834f8d32bf",
+    "main",
+    "166447756037e063f2",
+    "16648244100d760ada",
+    "166489716070047e4b"
+  ]
+}

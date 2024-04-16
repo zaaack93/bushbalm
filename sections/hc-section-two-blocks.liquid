@@ -1,0 +1,103 @@
+<div class="wrapper">
+
+          {% for block in section.blocks %}
+            <div class="block-container">
+              <div class="img-content-container">
+                <div class="img-container" >
+                  <a href="{{ block.settings.cta_link }}">
+                    <img src="{{ block.settings.desktop_image | img_url: '1024x260' }}">
+                  </a>
+                </div>
+                <div class="img-container-mobile hc-hidden" >
+                  <a href="{{ block.settings.cta_link }}">
+                     <img src="{{ block.settings.mobile_image | img_url: '400x400' }}">
+                  </a>
+                </div>
+                <div class="content-container">
+                  <div class="title-container">
+                    <span class="">{{  block.settings.title }}</span>
+                  </div>
+                  <div class="subtitle-container">
+                      <p class="">{{ block.settings.subtitle }}</p>
+                  </div>
+                  <div class="cta-container">
+                    {% if block.settings.CTA_layout == "button" %}
+                      <a href="{{ block.settings.cta_link }}" class="cta-button btn btn-primary">{{ block.settings.cta_text }}</a>
+                    {% else %}
+                      <a href="{{ block.settings.cta_link }}" class="cta-text">{{ block.settings.cta_text }}</a>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+          </div>
+        {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name":"hc-section-two-blocks",
+    "class":"hc-section-two-blocks",
+    "max_blocks": 2,
+    "blocks": [
+      {
+        "type": "image-CTA",
+        "name": "image-CTA",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "desktop_image",
+            "label": "Desktop Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "mobile_image",
+            "label": "Mobile Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Title Placeholder"
+          },
+          {
+            "type": "text",
+            "id": "subtitle",
+            "label": "Subtitle"
+          },
+          {
+            "type": "select",
+            "id": "CTA_layout",
+            "label": "CTA layout",
+            "options": [
+              {
+                "value": "button",
+                "label": "Button"
+              },
+              {
+                "value": "text",
+                "label": "Text"
+              }
+            ],
+            "default": "button"
+          },
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA Text",
+            "default": "Shop Now"
+          },
+          {
+            "type": "url",
+            "id": "cta_link",
+            "label": "CTA Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "hc-section-two-blocks"
+      }
+    ]
+  }
+{% endschema %}

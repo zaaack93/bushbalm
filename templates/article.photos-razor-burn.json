@@ -1,0 +1,224 @@
+{
+  "sections": {
+    "164720802359559fbe": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_mobile": "shopify:\/\/shop_images\/Exfoliating_your_pubic_area_to_prevent_razor_burn.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bikini_line.jpg",
+        "image_offset": -16,
+        "preheading": "Image Library",
+        "heading": "Razor Burn Photos",
+        "copy": "<p>You aren't alone! Razor burn is a common skin concern.<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "main": {
+      "type": "results-article",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "164720835853976d46": {
+      "type": "image-carousel",
+      "blocks": {
+        "7e3562f0-8b6f-4f70-b3ff-59aa9764f04b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-And-After-Photo-Ingrown-Hairs-Razor-Burn_11c5a296-6ed7-4e6c-9a68-3822418ac88c.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "24d9c6a3-2f1e-4445-8070-7c7a90948f42": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-razor-burn-bikini-line_5578e5d1-3c88-47e0-bcba-361bdbe4b990.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "00a1b407-3d6c-4b85-8701-d1f35f7ad1ac": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-underarm-razor-burn_8ce44aca-17b1-4e8c-955a-ac6b9f3cbf63.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "229e07a0-1fc9-474d-813d-b2bf3f2a335b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-razor-burn-on-bikini-line_e387b782-06e1-4413-9938-ff07f1e6b4ab.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "2d20070b-ed8e-4ed2-8fe1-6e1878877faa": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-underarms-ingrown-hairs-and-razor-burn_0874d6cc-08c3-46ef-9e44-b901bd38f272.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "7e3562f0-8b6f-4f70-b3ff-59aa9764f04b",
+        "24d9c6a3-2f1e-4445-8070-7c7a90948f42",
+        "00a1b407-3d6c-4b85-8701-d1f35f7ad1ac",
+        "229e07a0-1fc9-474d-813d-b2bf3f2a335b",
+        "2d20070b-ed8e-4ed2-8fe1-6e1878877faa"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "164720857324f38f5f": {
+      "type": "image-carousel",
+      "blocks": {
+        "975b9c1d-eb8f-478d-896d-f99964ba3aba": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown-hair-oil-before-and-after-photo.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "bc5dab62-de1e-4815-b665-95244fe609df": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-And-After-Dark-Spot-Underarms_b969a426-a238-437c-9deb-a439dd407bd6.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "ce0cb0c8-59a1-45b9-8eb6-e6fe63178ec8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-After-Picture-Dark-Spot-Oil_9de7cf68-6112-4c1c-beaf-a0c522b0c24b.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "72b74fc7-b479-468b-9102-de9b7127be3d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Inner_Thighs_Before_and_After.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "975b9c1d-eb8f-478d-896d-f99964ba3aba",
+        "bc5dab62-de1e-4815-b665-95244fe609df",
+        "ce0cb0c8-59a1-45b9-8eb6-e6fe63178ec8",
+        "72b74fc7-b479-468b-9102-de9b7127be3d"
+      ],
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1648311106c6ac71cf": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<h2> What causes razor burn?<\/h2>\n<p> There are many causes of razor burn, of which, the location you get razor burn matters. If you are experiencing razor burn on your neck you're cause is likely due to your shaving practices. If you get razor burn in other areas it could simply be due to sensitive skin. Find more information on our blogs about razor burn, ingrown hairs and bikini line dark spots. <\/p>"
+      }
+    },
+    "16472085758f967712": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/close_up_of_no_razor_burn_on_someone_whos_used_this_routine.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/close_up_of_no_razor_burn_on_someone_whos_used_this_routine.jpg",
+        "heading": "Top Products for Razor Burn",
+        "copy": "Whether you're experiencing razor burn on your neck, armpits or bikini line we've got an assortment of products to help relieve it.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16472089778578d0c5": {
+      "type": "related-products",
+      "blocks": {
+        "80b38693-c81a-40a0-b932-02f537beea61": {
+          "type": "related_product",
+          "settings": {
+            "product": "routine-ingrown-treatment"
+          }
+        },
+        "469c2de8-9bcf-4d77-93d1-aa6434963238": {
+          "type": "related_product",
+          "settings": {
+            "product": "nude-exfoliating-scrub"
+          }
+        },
+        "e4afdf4c-f4c1-4609-931a-8095c74500fb": {
+          "type": "related_product",
+          "settings": {
+            "product": "sweet-escape-oil"
+          }
+        }
+      },
+      "block_order": [
+        "80b38693-c81a-40a0-b932-02f537beea61",
+        "469c2de8-9bcf-4d77-93d1-aa6434963238",
+        "e4afdf4c-f4c1-4609-931a-8095c74500fb"
+      ],
+      "settings": {
+        "title": "Recommended Razor Burn Product",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164720910075edbe63": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Bushbalm Skincare",
+        "headline": "Get started with your new razor burn routine!",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Products",
+        "cta_link": "shopify:\/\/collections\/razor-burn",
+        "cta_2_text": "View Routine",
+        "cta_2_link": "shopify:\/\/collections\/razor-burn-routine",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "164720802359559fbe",
+    "main",
+    "164720835853976d46",
+    "164720857324f38f5f",
+    "1648311106c6ac71cf",
+    "16472085758f967712",
+    "16472089778578d0c5",
+    "164720910075edbe63"
+  ]
+}

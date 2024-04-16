@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "f743da7d-cd9c-4810-a469-78ff4b919260": {
+      "type": "cta",
+      "custom_css": [
+        ".cta .ui-label {color: white;}",
+        ".cta h3 {color: white; font-weight: 600;}"
+      ],
+      "settings": {
+        "bg_color": "#9d2841",
+        "padding": true,
+        "intro": "Thanks For Guessing",
+        "headline": "You've been entered to win!",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "36967ba6-134c-4c0b-8f9d-53c5682a64f2": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#fff",
+        "image_mobile": "shopify:\/\/shop_images\/blurred_cranberry.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/blurred_cranberry.jpg",
+        "image_offset": -24,
+        "preheading": "JOIN THE WAITLIST",
+        "heading": "A New Scent Is Coming Soon...",
+        "copy": "<p>Sign up to find out first what our new scent will be!<\/p>",
+        "cta_link": "https:\/\/bushbalm.pscrpt.io\/797lss",
+        "cta_text": "SIGN UP NOW",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "95b42b97-4a1e-4671-91ec-28884247845c": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "",
+        "headline": "",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "Other Featured Retailers",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "dcaab9ab-c833-4b30-9364-3ab9f76c795c": {
+      "type": "image-carousel",
+      "blocks": {
+        "671221c0-5d4a-4229-b02a-7b0862736f5d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amazon_logo.jpg",
+            "link": "https:\/\/www.amazon.com\/stores\/page\/BE988270-6D60-4A10-B4F6-56DE67288965?store_ref=storeRecs_sa__x&amp=&ref_=nb_sb_ss_w_stores-v2-t1_k0_11_9_1_1&crid=2PFI293YBKELC&amp=&sprefix=bushbalm+&amp=&redirect_store_id=BE988270-6D60-4A10-B4F6-56DE67288965",
+            "link_title": "Amazon"
+          }
+        },
+        "6c10ffd3-3f5d-4f6c-80d2-ea615f6c9f99": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_335172d6-a48f-4018-8cea-896a99446110.jpg",
+            "link": "https:\/\/www.anthropologie.com\/en-ca\/brands\/bushbalm",
+            "link_title": "Anthropologie"
+          }
+        },
+        "6d9664f8-0383-477c-b3a4-97fd2a9380d2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fff_logo.jpg",
+            "link": "https:\/\/fabfitfun.com\/get-the-box",
+            "link_title": "Fab Fit Fun"
+          }
+        }
+      },
+      "block_order": [
+        "671221c0-5d4a-4229-b02a-7b0862736f5d",
+        "6c10ffd3-3f5d-4f6c-80d2-ea615f6c9f99",
+        "6d9664f8-0383-477c-b3a4-97fd2a9380d2"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "f743da7d-cd9c-4810-a469-78ff4b919260",
+    "36967ba6-134c-4c0b-8f9d-53c5682a64f2",
+    "main",
+    "95b42b97-4a1e-4671-91ec-28884247845c",
+    "dcaab9ab-c833-4b30-9364-3ab9f76c795c"
+  ]
+}

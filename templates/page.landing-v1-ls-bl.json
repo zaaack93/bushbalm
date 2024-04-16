@@ -1,0 +1,342 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1658942122c3847486": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_png_overlay",
+        "hero_options_desktop": "two_up_full",
+        "title": "Bikini Line, Confidence.",
+        "heading_tag": "h1",
+        "title_sizing": "title_largest",
+        "subtitle": "NATURAL | VEGAN | ALL SKIN TYPES",
+        "copy": "<p>Finally skincare for: <\/p><p>✓ ingrown hairs<\/p><p>✓ razor bumps<\/p><p>✓ irritation<\/p><p><\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Screen_Shot_2022-07-03_at_6.26.09_PM.png",
+        "png_overlay_mobile": "shopify:\/\/shop_images\/Untitled_design_46.png",
+        "png_overlay_desktop": "shopify:\/\/shop_images\/Untitled_design_46.png",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca4d3cf3f0eb4af58e5a6ba2d29b4b72.mp4",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca4d3cf3f0eb4af58e5a6ba2d29b4b72.mp4",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1658943000ac2abcaf": {
+      "type": "before-and-after-slider",
+      "settings": {
+        "subtitle": "Before + After",
+        "title": "Fight Bikini Bumps, Naturally",
+        "copy": "<p>Adding the Ingrown Hair Oil to your daily skincare routine will quickly soften your skin and hair found in your most sensitive areas, relieve redness after shaving or waxing, and improve the look of ingrown hairs, razor burn, and bumps.<\/p>",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+        "cta_bg_color": "#f8e2c9",
+        "content_position": "right",
+        "before_image": "shopify:\/\/shop_images\/2_839f2130-325b-4c61-8a69-68621371d942.jpg",
+        "after_image": "shopify:\/\/shop_images\/1_20fbbad3-05e9-4850-8c6b-3deafe77a3c8.jpg",
+        "image_container_width": 550,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "1658943311b01cbb81": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "ingrown-hair-oil",
+        "overwrite_heading": "<p>Nude Ingrown Hair & Bump Oil<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>The antioxidant rich blend of oils will moisturize and rejuvenate your skin.<\/p><p>✓ Naturally Derived <\/p><p>✓ Vegan<\/p><p>✓ Cruelty Free <\/p><p>✓ Gentle on Skin<\/p><p><\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "150px"
+      }
+    },
+    "1658943700bfa738e7": {
+      "type": "content",
+      "blocks": {
+        "c94fb017-bf07-40ea-a2b8-56cb4d32db36": {
+          "type": "content_block",
+          "settings": {
+            "title": "✓  Ingrown Hairs",
+            "copy": "Formulated to relieve the appearance of ingrown hairs with natural ingredients"
+          }
+        },
+        "b4070a5a-2176-42c2-8bf9-63a5eb8a8da8": {
+          "type": "content_block",
+          "settings": {
+            "title": "✓  Razor Bumps",
+            "copy": "If you shave your bikini line or underarms the oils help soften the hair prior, and reduce the appearance of razor bumps."
+          }
+        },
+        "eaba858d-b4e1-44b8-9838-8931a8df5cc8": {
+          "type": "content_block",
+          "settings": {
+            "title": "✓  Post Waxing Irritation",
+            "copy": "Our Nude Ingrown Hair Oil is trusted by 1,000's of waxing professionals across North America"
+          }
+        },
+        "31a13b53-c70c-466e-b89e-b3c8b6c3c5b9": {
+          "type": "content_block",
+          "settings": {
+            "title": "✓  Redness & Itch",
+            "copy": "Another common concern is itch and overall redness. The Nude Ingrown Hair Oil softens and soothes."
+          }
+        }
+      },
+      "block_order": [
+        "c94fb017-bf07-40ea-a2b8-56cb4d32db36",
+        "b4070a5a-2176-42c2-8bf9-63a5eb8a8da8",
+        "eaba858d-b4e1-44b8-9838-8931a8df5cc8",
+        "31a13b53-c70c-466e-b89e-b3c8b6c3c5b9"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Clean_Effective_Ingredients.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Clean_Effective_Ingredients.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "The Benefits",
+        "copy": "Made from the highest quality of natural oils to ensure a soft and luxurious feeling on your skin. Nude is our signature barely-there scent that leaves the skin feeling fresh and smelling clean.",
+        "subheading": "",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16589441982351ff81": {
+      "type": "image-carousel",
+      "blocks": {
+        "5d21c17e-aeb7-455a-b2ee-5c93807956f2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_and_after_Bushbalm_8.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "353591b9-3601-464d-81c0-084540bb4def": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "d79c4683-b3d1-4196-93e6-9aad27d070b2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mariah.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "8df53562-9f29-480d-a227-2f64d6b48fab": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_and_after_Bushbalm_4.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "88efa40a-8998-4c9e-961e-ab67e9f39725": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.webp",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "5d21c17e-aeb7-455a-b2ee-5c93807956f2",
+        "353591b9-3601-464d-81c0-084540bb4def",
+        "d79c4683-b3d1-4196-93e6-9aad27d070b2",
+        "8df53562-9f29-480d-a227-2f64d6b48fab",
+        "88efa40a-8998-4c9e-961e-ab67e9f39725"
+      ],
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1658943413ab1a7b80": {
+      "type": "ingredient-faqs",
+      "blocks": {
+        "dbd53293-cd76-4c2e-9926-1e9fd3734b5c": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Jojoba Oil",
+            "copy": "Helps soften skin while increasing hydration and smoothness."
+          }
+        },
+        "f353115f-687b-4d74-bbbd-63a8516eb35f": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Grapeseed Oil",
+            "copy": "High in vitamin A & E and phenolic antioxidants, Grape seed Oil infuses skin and body hair with intense, soothing moisture."
+          }
+        },
+        "986707da-a7fa-4c3b-b85d-274f1888165b": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Tea Tree Oil",
+            "copy": "Fresh and revitalizing, helps calms skin and reduces redness after inflammation."
+          }
+        },
+        "782128b3-5e81-43f8-b679-06e1fc079fc9": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Copaiba Balsam Oil",
+            "copy": "Helps soothe and relieve redness due to dryness, leaving skin looking revitalized and refreshed."
+          }
+        },
+        "f87b364a-c1af-4803-8bb3-fbdf78c3c5b7": {
+          "type": "faq",
+          "settings": {
+            "question": "How does it work?",
+            "answer": "Our Nude Ingrown Hair Oil works by softening the skin and hair, so you can see smooth skin have a shave or wax."
+          }
+        },
+        "5fc1a038-a196-4377-985a-7cc6ae7bfa74": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I add it to my routine?",
+            "answer": "For best results, use the Ingrown Hair Oil day and night, as well as the Exfoliating Scrub 3x per week."
+          }
+        }
+      },
+      "block_order": [
+        "dbd53293-cd76-4c2e-9926-1e9fd3734b5c",
+        "f353115f-687b-4d74-bbbd-63a8516eb35f",
+        "986707da-a7fa-4c3b-b85d-274f1888165b",
+        "782128b3-5e81-43f8-b679-06e1fc079fc9",
+        "f87b364a-c1af-4803-8bb3-fbdf78c3c5b7",
+        "5fc1a038-a196-4377-985a-7cc6ae7bfa74"
+      ],
+      "settings": {
+        "heading_faq": "FAQs",
+        "heading_ingredients": "Key Ingredients",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16589446085960de7d": {
+      "type": "featured-reviews",
+      "settings": {
+        "intro": "Featured",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"9927630734\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16589446350f3c8c7c": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#fafafa",
+        "padding": true,
+        "intro": "Bushbalm",
+        "headline": "Skin Confidence, <i>Everywhere. <\/i>",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "165894389616805eff": {
+      "type": "press-grid",
+      "blocks": {
+        "d6830595-8090-40b2-afa7-bf7650201aca": {
+          "type": "press_item",
+          "settings": {
+            "title": "",
+            "copy": "\"The Oil & Exfoliant That Saved My Bikini Line\"",
+            "logo": "shopify:\/\/shop_images\/Refinery29_logo_2_b0ffdb2b-c3ec-4402-8b08-b3c34d6476bb.png",
+            "logo_height": 50,
+            "link": ""
+          }
+        },
+        "960dadd6-5956-4d02-8623-1c66a5d157a7": {
+          "type": "press_item",
+          "settings": {
+            "title": "",
+            "copy": "\"The #1 Bikini Trimmer\"",
+            "logo": "shopify:\/\/shop_images\/Oprah.webp",
+            "logo_height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d6830595-8090-40b2-afa7-bf7650201aca",
+        "960dadd6-5956-4d02-8623-1c66a5d157a7"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Press",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658942122c3847486",
+    "1658943000ac2abcaf",
+    "1658943311b01cbb81",
+    "1658943700bfa738e7",
+    "16589441982351ff81",
+    "1658943413ab1a7b80",
+    "16589446085960de7d",
+    "16589446350f3c8c7c",
+    "165894389616805eff"
+  ]
+}

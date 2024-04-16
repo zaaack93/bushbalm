@@ -1,0 +1,23 @@
+{%- liquid
+  assign quantity_max = item.variant.inventory_quantity
+  if item.variant.inventory_policy == 'continue'
+    assign quantity_max = 999
+  endif
+-%}
+<div class="quantity-selector" data-quantity-selector>
+  <button class="quantity-selector__minus" type="button" aria-label="Minus {{ item.product.title }} Quantity" data-quantity-minus data-quantity-adjust>
+    {% render 'icon-quantity-minus' %}
+  </button>
+
+  <input class="quantity-selector__input" type="number" aria-label="{{ item.product.title }} Quantity Input"
+    min="0"
+    max="{{ quantity_max }}"
+    value="{{ item.quantity }}"
+    data-line-item-key="{{ item.key }}"
+    data-quantity-input
+  >
+
+  <button class="quantity-selector__plus" type="button" aria-label="Plus {{ item.product.title }} Quantity" data-quantity-plus data-quantity-adjust>
+    {% render 'icon-quantity-plus' %}
+  </button>
+</div>

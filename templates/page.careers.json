@@ -1,0 +1,227 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content",
+      "settings": {
+      }
+    },
+    "164201967645d609b8": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/Careers_Page_Login.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Careers_at_Bushbalm_Skincare.jpg",
+        "image_offset": 0,
+        "preheading": "Careers",
+        "heading": "Work With Us",
+        "copy": "<p>Help us, as we look to tackle the world's most common skin concerns, no matter where they are. <\/p>",
+        "cta_link": "https:\/\/careers.bushbalm.com\/pages\/job-openings",
+        "cta_text": "VIEW OPENings",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "24px"
+      }
+    },
+    "1642086190495d8f9a": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#fbefe3",
+        "image_offset": true,
+        "image_mobile": "shopify:\/\/shop_images\/who-we-are-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/who-we-are-d.png",
+        "heading": "Who We Are",
+        "copy": "Bushbalm is a skincare brand that solves common skin challenges that aren't often talked about, and we're proud of it!\n[break]\nWe have an evolving natural skincare product line - specifically, but not limited to, targeting areas that are commonly ignored. Think bikini line, underarms, legs, tush, or anywhere else on the body that deserves extra care. \n[break]\nWhether you trim, groom, remove – or let your body hair grow our products were created to take care of your most sensitive areas while making sure you feel confident in your skin down there and everywhere with results that you will see and feel.\n[break]\nFace quality skincare. Targeted results. Everywhere.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164208949190f25b3b": {
+      "type": "content-list",
+      "blocks": {
+        "f767eb11-bf9a-4686-a541-fe9c8b8c90a0": {
+          "type": "list_item",
+          "settings": {
+            "text": "Health Benefits",
+            "icon": "shopify:\/\/shop_images\/circle-checked.png"
+          }
+        },
+        "5aee4e56-ec6f-4060-89e0-6928d9f47108": {
+          "type": "list_item",
+          "settings": {
+            "text": "Lifestyle Spending Account",
+            "icon": "shopify:\/\/shop_images\/circle-checked.png"
+          }
+        },
+        "daaf8ffe-1857-44ba-ad94-7eb85c98296e": {
+          "type": "list_item",
+          "settings": {
+            "text": "Office Culture & Environment",
+            "icon": "shopify:\/\/shop_images\/circle-checked.png"
+          }
+        },
+        "b70c5fe3-2263-4bff-ba40-e184fe2b0e64": {
+          "type": "list_item",
+          "settings": {
+            "text": "Flexible Working Hours",
+            "icon": "shopify:\/\/shop_images\/circle-checked.png"
+          }
+        }
+      },
+      "block_order": [
+        "f767eb11-bf9a-4686-a541-fe9c8b8c90a0",
+        "5aee4e56-ec6f-4060-89e0-6928d9f47108",
+        "daaf8ffe-1857-44ba-ad94-7eb85c98296e",
+        "b70c5fe3-2263-4bff-ba40-e184fe2b0e64"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "image_mobile": "shopify:\/\/shop_images\/our-work-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/our-work-d.png",
+        "heading": "Our Workplace",
+        "copy": "At Bushbalm we take pride in our teams and the environment around them. Expect to join a fast paced, fun group of passionate individuals!",
+        "subheading": "The Benefits",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "1642095972b03c46f0": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#fbefe3",
+        "padding": true,
+        "intro": "Ready to redefine skincare?",
+        "headline": "Apply Today",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "View Open Positions",
+        "cta_link": "https:\/\/careers.bushbalm.com\/pages\/job-openings",
+        "cta_2_text": "",
+        "cta_2_link": "#",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "16453146878cd9a7c0": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "87c9fe2e-c36c-4c5e-bd1d-af2f88ed8718": {
+          "type": "topic",
+          "settings": {
+            "heading": "Email Marketing Specialist",
+            "cta_text": "View Role",
+            "url": ""
+          }
+        },
+        "0b6a16d7-57af-49ec-a7fe-6cb8dbf1ff8d": {
+          "type": "topic",
+          "settings": {
+            "heading": "Customer Service Rep",
+            "cta_text": "View Role",
+            "url": "shopify:\/\/pages\/careers-customer-service-rep"
+          }
+        }
+      },
+      "block_order": [
+        "87c9fe2e-c36c-4c5e-bd1d-af2f88ed8718",
+        "0b6a16d7-57af-49ec-a7fe-6cb8dbf1ff8d"
+      ],
+      "disabled": true,
+      "settings": {
+        "carousel_heading": "All Open Roles"
+      }
+    },
+    "1660160023967c1930": {
+      "type": "cta-block-grid",
+      "blocks": {
+        "c7d9db5e-2ec5-4e01-b4fd-3e00da3ec375": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-presenting-pie-chart.jpg",
+            "heading": "Director of Retention Marketing",
+            "heading_mobile": "Director of Retention Marketing",
+            "copy": "Learn more.",
+            "url": "https:\/\/bushbalm.com\/pages\/director-of-retention-marketing"
+          }
+        },
+        "f087f9cc-97bd-443b-a746-6c7f5041c3f5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/artist-designer-at-work.jpg",
+            "heading": "Graphic Designer",
+            "heading_mobile": "Graphic Designer",
+            "copy": "Learn more.",
+            "url": "https:\/\/bushbalm.com\/pages\/graphic-designer-12-month-contract"
+          }
+        },
+        "28f0e4be-2f08-4362-8bc1-a7b66476062d": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/helping-senior-with-technology.jpg",
+            "heading": "Marketing and Communications Intern",
+            "heading_mobile": "Marketing and Communications Intern",
+            "copy": "Learn more.",
+            "url": "https:\/\/bushbalm.com\/pages\/marketing-and-communications-intern"
+          }
+        },
+        "04123a88-d62f-464f-9273-5e9fc1644fba": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/closeup-hands-on-laptop.jpg",
+            "heading": "Internships",
+            "heading_mobile": "Internships",
+            "copy": "We hire interns all semesters.",
+            "url": "shopify:\/\/pages\/internships"
+          }
+        },
+        "7ce79da7-fe08-4f0c-9790-cfa93ec30cc1": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-gold-fashion-backpack.jpg",
+            "heading": "Inquire About Open Roles",
+            "heading_mobile": "Inquire About Open Roles",
+            "copy": "We're always looking for new talent, so please connect with us via email.",
+            "url": "mailto:careers@mybushbalm.com?subject=I'd%20like%20to%20learn%20more%20about%20open%20roles%20at%20Bushbalm&body=Bushbalm%20Team%2C%0D%0A%0D%0AMy%20name%20is..."
+          }
+        }
+      },
+      "block_order": [
+        "c7d9db5e-2ec5-4e01-b4fd-3e00da3ec375",
+        "f087f9cc-97bd-443b-a746-6c7f5041c3f5",
+        "28f0e4be-2f08-4362-8bc1-a7b66476062d",
+        "04123a88-d62f-464f-9273-5e9fc1644fba",
+        "7ce79da7-fe08-4f0c-9790-cfa93ec30cc1"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 3,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164201967645d609b8",
+    "1642086190495d8f9a",
+    "164208949190f25b3b",
+    "1642095972b03c46f0",
+    "16453146878cd9a7c0",
+    "1660160023967c1930"
+  ]
+}

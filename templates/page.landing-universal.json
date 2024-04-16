@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "165999617769ec160e": {
+      "type": "2-up-content",
+      "blocks": {
+        "f29a9024-c049-4553-a572-52a9f0d2ccca": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_36.jpg"
+          }
+        },
+        "8fb3fb63-34e3-46e1-830c-c47bb9500b0a": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hair_Treatment_for_Bikini_Line.jpg"
+          }
+        },
+        "c9992b02-c3e9-45ee-ac22-52bcdd5731ad": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_Bikini_Trimmer.jpg"
+          }
+        },
+        "24882845-8bfa-4b0e-86c2-ef093393de73": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_33.jpg"
+          }
+        },
+        "71ebfb8b-3561-4834-b3a2-7827bfe8e892": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_31.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f29a9024-c049-4553-a572-52a9f0d2ccca",
+        "8fb3fb63-34e3-46e1-830c-c47bb9500b0a",
+        "c9992b02-c3e9-45ee-ac22-52bcdd5731ad",
+        "24882845-8bfa-4b0e-86c2-ef093393de73",
+        "71ebfb8b-3561-4834-b3a2-7827bfe8e892"
+      ],
+      "settings": {
+        "intro": "Bushbalm",
+        "title": "Bikini Line Skincare",
+        "content": "Finally skincare for:<br>\n✓ Dark Spots\n✓ Ingrown Hairs <br> \n✓ Bikini Bumps ✓ Hair Removal",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "1659997061ab3df5cb": {
+      "type": "home-hero-image",
+      "disabled": true,
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/Dark_Spots_on_Bikini_Line_Illustration.webp",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1659996859ac7c179e": {
+      "type": "before-and-after-slider",
+      "settings": {
+        "subtitle": "",
+        "title": "Our Results",
+        "copy": "<p>Get results in as little as 2 weeks. <\/p><p><\/p><p>· 100% Naturally Derived <\/p><p>·  Plant Derived Ingredients <\/p><p>· Formulated for All Skin Types <\/p><p>· Gentle on Skin and Hair <\/p>",
+        "cta_text": "Learn More",
+        "cta_link": "",
+        "cta_bg_color": "#f8e2c9",
+        "content_position": "right",
+        "before_image": "shopify:\/\/shop_images\/Dark_Spot_Before_and_After.jpg",
+        "after_image": "shopify:\/\/shop_images\/Ingrown_Hair_Before_and_After.jpg",
+        "image_container_width": 550,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16599966647508e3b8": {
+      "type": "bundle-categories",
+      "blocks": {
+        "161515c7-8255-401c-bcb3-be12a5aea5b2": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Top Sellers",
+            "bundle_category_list": [
+              "dark-spot-treatment",
+              "ingrown-hair-oil",
+              "dark-spot-corrector"
+            ]
+          }
+        },
+        "bc25f6ef-a8f4-4996-9936-2bd59d3a3858": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Bright Skin",
+            "bundle_category_list": [
+              "2-step-routine-hyperpigmentation-dark-spots",
+              "2-step-hyperpigmentation-products"
+            ]
+          }
+        },
+        "1d35cc5a-a637-4884-8990-356b2df65ca4": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Hydrogel Vajacials",
+            "bundle_category_list": [
+              "vajacial-hydrogel-mask-set",
+              "vajacial-at-home-kit",
+              "vajacial-3-step-at-home-kit"
+            ]
+          }
+        },
+        "01b45e47-fb41-4e1c-a861-5019dfe2af21": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Smooth Skin",
+            "bundle_category_list": [
+              "routine-ingrown-treatment",
+              "2-step-routine-keratosis-pilaris-bump-eraser"
+            ]
+          }
+        },
+        "748fbc29-0b08-46fe-912f-acc02a661164": {
+          "type": "bundle_category",
+          "settings": {
+            "bundle_category_name": "Bikini Trimmers",
+            "bundle_category_list": [
+              "the-francesca-bikini-trimmer-for-pubic-hair",
+              "trim-treat-bundle",
+              "pubic-hair-trimmer-holiday-kit"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "161515c7-8255-401c-bcb3-be12a5aea5b2",
+        "bc25f6ef-a8f4-4996-9936-2bd59d3a3858",
+        "1d35cc5a-a637-4884-8990-356b2df65ca4",
+        "01b45e47-fb41-4e1c-a861-5019dfe2af21",
+        "748fbc29-0b08-46fe-912f-acc02a661164"
+      ],
+      "settings": {
+        "all_bundles_enabled": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165999617769ec160e",
+    "1659997061ab3df5cb",
+    "1659996859ac7c179e",
+    "16599966647508e3b8"
+  ]
+}

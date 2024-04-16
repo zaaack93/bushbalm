@@ -1,0 +1,284 @@
+<script src="{{ 'content-simple.js' | asset_url }}" defer="defer"></script>
+{{ 'content-simple.css' | asset_url | stylesheet_tag }}
+
+<div class="content-simple content-simple--{{ section.id }}
+  {% if section.settings.image_offset %} content-simple--image-offset{% endif %}"
+  data-scroll-to-uid="{{ section.settings.uid }}">
+  <div class="content-simple__wrapper content-simple__wrapper--{{ section.settings.alignment }}">
+    <div class="content-simple__container">
+      {% if section.settings.heading != blank %}
+        <h2>{{ section.settings.heading }}</h2>
+      {% endif %}
+      {% if section.settings.copy != blank %}
+        <p>{{ section.settings.copy | replace: '[break]', '<br>' }}</p>
+      {% endif %}
+    </div>
+    <div class="content-simple__image">
+      {% if section.settings.image_mobile != blank %}
+        {% render 'responsive-image' with
+          image: section.settings.image_mobile,
+          max_width: 654,
+          max_height: 482,
+          wrapper_class: 'content-simple__image-wrapper large--hide'
+        %}
+      {% endif %}
+      {% if section.settings.image_desktop != blank %}
+        {% assign wrapper_class = 'content-simple__image-wrapper' %}
+        {% if section.settings.image_mobile != blank %}
+          {% assign wrapper_class = wrapper_class | append: ' medium-down--hide' %}
+        {% endif %}
+        {% render 'responsive-image' with
+          image: section.settings.image_desktop,
+          max_width: 1294,
+          max_height: 1294,
+          wrapper_class: wrapper_class
+        %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% style %}
+  .content-simple--{{ section.id }} {
+    --content-bg-color: {{ section.settings.bg_color }};
+  }
+{% endstyle %}
+
+{% render 'custom-spacing' with
+  section_name: 'content-simple'
+%}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "header",
+        "content": "Unique Identifier",
+        "info": "For Content Nav Section"
+      },
+      {
+        "type": "text",
+        "id": "uid",
+        "label": "Unique ID",
+        "info": "No spaces (Example: product-guide)"
+      },
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "select",
+        "id": "alignment",
+        "label": "Alignment | Desktop",
+        "options": [
+          {
+            "value": "left",
+            "label": "Content Left, Image Right"
+          },
+          {
+            "value": "right",
+            "label": "Content Right, Image Left"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "checkbox",
+        "id": "image_offset",
+        "label": "Image Offset",
+        "default": false,
+        "info": "Top offset on mobile, bottom offset on desktop"
+      },
+      {
+        "type": "header",
+        "content": "Imagery"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image | Mobile",
+        "info": "Dimensions: 654 x 482 (optional - 'Image | Desktop' used by default )"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image | Desktop",
+        "info": "Dimensions: 1294 x 1294"
+      },
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy",
+        "info": "Use [break] to separate paragraphs"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Content (Simple)"
+      }
+    ]
+  }
+{% endschema %}

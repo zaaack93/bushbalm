@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "404",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/404-mobile.png",
+        "image_desktop": "shopify:\/\/shop_images\/404-desktop.png",
+        "preheading": "Page Not Found",
+        "heading": "Oops!",
+        "copy": "We’re not being cheeky, there really is nothing else back here.",
+        "cta_text": "Back To Shop",
+        "cta_link": "\/"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

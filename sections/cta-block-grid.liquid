@@ -1,0 +1,238 @@
+{%- assign section_name = 'cta-block-grid' -%}
+
+<script src="{{ section_name | append: '.js' | asset_url }}" defer="defer"></script>
+{{ section_name | append: '.css' | asset_url | stylesheet_tag }}
+
+<section class="{{ section_name }} {{ section_name }}--{{ section.id }} wrapper" aria-label="Link Grid">
+  <div class="cta-block-grid__grid">
+    {% for block in section.blocks %}
+      <a class="cta-block-grid-item" href="{{ block.settings.url }}">
+        <div class="cta-block-grid-item__image small--hide img-cover">
+          {% render 'responsive-img' with
+            image: block.settings.image,
+            max_width: 511,
+            max_height: 500
+          %}
+        </div>
+        <div class="cta-block-grid-item__content">
+          <h3 class="ui-subtitle">
+            <span class="small--hide">{{ block.settings.heading }}</span>
+            <span class="medium-up--hide">{{ block.settings.heading_mobile | default: block.settings.heading }}</span>
+          </h3>
+          <p>{{ block.settings.copy }}</p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+{% style %}
+  #cta-block-grid--{{ section.id }} .cta-block-grid__grid {
+    --desktop-columns: {{ section.settings.columns_desktop }};
+  }
+{% endstyle %}
+
+{% render 'custom-spacing' with
+  section_name: section_name
+%}
+
+{% schema %}
+  {
+    "name": "CTA Block Grid",
+    "settings": [
+      {
+        "type": "range",
+        "id": "columns_desktop",
+        "label": "Columns - Desktop",
+        "min": 2,
+        "max": 4,
+        "step": 1,
+        "default": 3
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "96px"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "1022 x 448"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "heading_mobile",
+            "label": "Heading - Mobile",
+            "info": "Optional. Will use Heading by default"
+          },
+          {
+            "type": "textarea",
+            "id": "copy",
+            "label": "Copy"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "CTA Block Grid"
+      }
+    ]
+  }
+{% endschema %}

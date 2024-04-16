@@ -1,0 +1,393 @@
+<script src="{{ 'featured-product.js' | asset_url }}" defer="defer"></script>
+{{ 'featured-product.css' | asset_url | stylesheet_tag }}
+
+{% assign featured_product = section.settings.featured_product %}
+{% assign featured_images = featured_product.media | where: "media_type", "image" %}
+
+<div class="featured-product featured-product--{{ section.id }} product-collection">
+  <div class="featured-product__container wrapper product-collection__container">
+    {% if featured_product != blank %}
+      <div class="featured-product__carousel-wrapper mobile-show">
+        <div class="swiper-container" data-featured-product-carousel>
+          <div class="swiper-wrapper">
+            {% for i in (0..2) %}
+              <div class="swiper-slide">
+                {% assign image_position = 'image_' | append: i %}
+                {% assign image_i = section.settings[image_position] | default: featured_images[i] %}
+                {{ image_i | image_url: width: 574 | image_tag: loading: 'lazy', widths: '200, 300, 400, 500, 574' }}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <div class="featured-product__content product-collection__content">
+        <!-- Stamped - Begin Star Rating Badge -->
+        <span
+        class="stamped-product-reviews-badge stamped-main-badge"
+        data-id="{{ featured_product.id }}"
+        data-product-sku="{{ featured_product.selected_or_first_available_variant.sku }}"
+        data-product-title="{{ featured_product.title }}"
+        data-product-type="{{ featured_product.type }}"
+        style="display: block;">
+        </span>
+        <script>setTimeout(function(){StampedFn.loadBadges()},2000);</script>
+        <script> window.stamped_force_jquery = true; </script>
+        <!-- Stamped - End Star Rating Badge -->
+
+        {% if section.settings.overwrite_heading != blank %}
+          <h1>{{ section.settings.overwrite_heading }}</h1>
+        {% else %}
+          <h1>{{ featured_product.title }}</h1>
+        {% endif %}
+        {%- unless section.settings.subheading == blank or section.settings.subheading_enable == false -%}
+          <div class="subheading">{{ section.settings.subheading }}</div>
+        {%- endunless -%}
+
+        {% unless section.settings.price_enable == false %}
+          <div class="featured-product__price product-collection__price">
+            {%- liquid
+              if featured_product.compare_at_price > featured_product.price
+                assign featured_product_savings = featured_product.compare_at_price | minus: featured_product.price | money_without_trailing_zeros | remove: "$"
+              endif
+            -%}
+            <p>
+              <span class="visually-hidden">
+                {{ 'general.accessibility.strikethough_price' | t: original: original_price, sale: sale_price }}
+              </span>
+              {{ featured_product.price | money_without_trailing_zeros | remove: ' CAD' }}
+              {%- if featured_product_savings -%}
+                <s class="thin-strike" aria-hidden="true">{{ featured_product.compare_at_price | money_without_trailing_zeros | remove: ' CAD' }}</s>
+                <span>{{ 'products.product.save_money' | t: value: featured_product_savings }}</span>
+              {%- endif -%}
+            </p>
+          </div>
+        {% endunless %}
+
+        {% unless section.settings.cta_button_enable == false %}
+          <form class="featured-product__button product-collection__button" data-product-form>
+            <input name="id" type="hidden" value="{{ featured_product.first_available_variant.id }}">
+            <button type="button"
+              class="btn btn--chocolate btn--full"
+              data-product-submit
+              data-cart-carousel-item-atc>
+              {{- 'products.product.add_to_cart' | t -}}
+            </button>
+          </form>
+        {% endunless %}
+
+        {% unless section.settings.cta_button_2_enable == false %}
+          <div class="featured-product__view-details">
+            <a href="{{ section.settings.cta_button_url | default: featured_product.url }}"
+              title="{{ section.settings.cta_button_text | default: featured_product.title }}"
+            >
+              {% capture view_details %}
+                {{ 'products.product.view_details' | t | upcase }}
+              {% endcapture %}
+              {{ section.settings.cta_button_text | default: view_details | upcase }} →
+            </a>
+          </div>
+        {% endunless %}
+      </div>
+
+      <div class="featured-product__gallery{% if section.settings.enable_negative_margin_desktop %} featured-product__gallery--overlap{% endif %} desktop-show">
+        {% assign image_0 = section.settings.image_0 | default: featured_product.featured_image %}
+        {% assign image_1 = section.settings.image_1 | default: featured_images[1] %}
+        {% assign image_2 = section.settings.image_2 | default: featured_images[2] %}
+        <div class="featured-product__gallery--left">
+          <div class="featured-product__gallery-img">
+            {{ image_0 | image_url: width: 1024 | image_tag: loading: 'lazy', widths: '200, 300, 400, 500, 600, 700, 800, 900, 1024' }}
+          </div>
+        </div>
+        <div class="featured-product__gallery--right">
+          <div class="featured-product__gallery-img">
+            {{ image_1 | image_url: width: 480 | image_tag: loading: 'lazy', widths: '200, 300, 400, 480' }}
+          </div>
+          <div class="featured-product__gallery-img">
+            {{ image_2 | image_url: width: 480 | image_tag: loading: 'lazy', widths: '200, 300, 400, 480' }}
+          </div>
+        </div>
+      {% else %}
+        <h3 class="text-center">Select Product</h3>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'featured-product',
+  breakpoint: 1025
+%}
+
+{% style %}
+  .featured-product--{{ section.id }} {
+    --background-color: {{ section.settings.background_color | default: '#fff4e4' }};
+  }
+{% endstyle %}
+
+{% schema %}
+  {
+    "name": "Featured Product",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Background Color"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "rgba(248, 226, 201, 0.5)"
+      },
+      {
+        "type": "header",
+        "content": "Featured Product"
+      },
+      {
+        "type": "product",
+        "id": "featured_product",
+        "label": "Featured product"
+      },
+      {
+        "type": "richtext",
+        "id": "overwrite_heading",
+        "label": "Overwrite title",
+        "info": "Optional. The featured product name will get displayed by default."
+      },
+      {
+        "type": "checkbox",
+        "id": "subheading_enable",
+        "label": "Display Subheading",
+        "default": true
+      },
+      {
+        "type": "richtext",
+        "id": "subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "checkbox",
+        "id": "price_enable",
+        "label": "Display Price",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "cta_button_enable",
+        "label": "Display CTA Button 1",
+        "info": "Add to bag button",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "cta_button_2_enable",
+        "label": "Display CTA Button 2",
+        "info": "View details button",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Images"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_negative_margin_desktop",
+        "label": "Enable gallery overlap",
+        "default": true,
+        "info": "If checked, images will overlap the next section"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_0",
+        "label": "Overwrite Left main image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Overwrite Top right image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Overwrite Bottom right image"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "-32px",
+            "label": "-32px"
+          },
+          {
+            "value": "-24px",
+            "label": "-24px"
+          },
+          {
+            "value": "-16px",
+            "label": "-16px"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "-48px",
+            "label": "-48px"
+          },
+          {
+            "value": "-32px",
+            "label": "-32px"
+          },
+          {
+            "value": "-16px",
+            "label": "-16px"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "48px",
+            "label": "48px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "80px",
+            "label": "80px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Product"
+      }
+    ]
+  }
+{% endschema %}

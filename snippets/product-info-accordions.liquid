@@ -1,0 +1,151 @@
+<div class="product__info-accordions">
+  {% if product.metafields.custom_fields["whats_included"] != blank %}
+    <div class="product__accordion" data-accordion>
+      <div class="product__accordion-trigger">
+        <button id="included-trigger"
+          title="{{ 'products.info_accordion.included_title' | t }}"
+          aria-label="{{ 'products.info_accordion.included_title' | t }}"
+          aria-expanded="false"
+          aria-controls="included-content"
+          data-accordion-trigger>
+          <span>{{ 'products.info_accordion.included_title' | t }}</span>
+          <div aria-hidden>
+            {%- render 'icon-plus' -%}
+            {%- render 'icon-minus' -%}
+          </div>
+        </button>
+      </div>
+      <div id="included-content"
+        class="product__accordion-content"
+        aria-labelledby="included-trigger"
+        data-accordion-content>
+        {% for item in product.metafields.custom_fields["whats_included"] %}
+          <div class="product__accordion-item">
+            <p class="product__accordion-title">{{ item["title"] }}</p>
+            <p class="product__accordion-copy">{{ item["copy"] }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if product.metafields.custom_fields["additional_information_copy"] != blank %}
+    <div class="product__accordion" data-accordion>
+      <div class="product__accordion-trigger">
+        <button id="additional-info-trigger"
+          title="{{ 'products.info_accordion.additional_info_title' | t }}"
+          aria-label="{{ 'products.info_accordion.additional_info_title' | t }}"
+          aria-expanded="false"
+          aria-controls="additional-info-content"
+          data-accordion-trigger>
+          <span>{{ 'products.info_accordion.additional_info_title' | t }}</span>
+          <div aria-hidden>
+            {%- render 'icon-plus' -%}
+            {%- render 'icon-minus' -%}
+          </div>
+        </button>
+      </div>
+      <div id="additional-info-content"
+        class="product__accordion-content"
+        aria-labelledby="additional-info-trigger"
+        data-accordion-content>
+        <div class="product__accordion-item">
+          <p class="product__accordion-copy">{{ product.metafields.custom_fields["additional_information_copy"] }}</p>
+        </div>
+        {% if product.metafields.custom_fields["pdf_file_upload"] != blank %}
+          <a class="btn"
+            href="{{ product.metafields.custom_fields["pdf_file_upload"] }}"
+            download="{{ product.title }}"
+            target="_blank"
+            title="{{ 'products.info_accordion.additional_info_download_title' | t }}">
+            {{- 'products.info_accordion.additional_info_download_pdf' | t -}}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if product.metafields.custom_fields["how_to_use_it"] != blank %}
+    <div class="product__accordion" data-accordion>
+      <div class="product__accordion-trigger">
+        <button id="how-to-use-trigger"
+          title="{{ 'products.info_accordion.how_to_use_title' | t }}"
+          aria-label="{{ 'products.info_accordion.how_to_use_title' | t }}"
+          aria-expanded="false"
+          aria-controls="how-to-use-content"
+          data-accordion-trigger>
+          <span>{{ 'products.info_accordion.how_to_use_title' | t }}</span>
+          <div aria-hidden>
+            {%- render 'icon-plus' -%}
+            {%- render 'icon-minus' -%}
+          </div>
+        </button>
+      </div>
+      <div id="how-to-use-content"
+        class="product__accordion-content"
+        aria-labelledby="how-to-use-trigger"
+        data-accordion-content>
+        {% for item in product.metafields.custom_fields["how_to_use_it"] %}
+          <div class="product__accordion-item product__accordion-item--how-to-use">
+            {% if item["icon"] != blank %}
+              <img class="lazyload"
+                alt="{{ item["title"] }}"
+                src="{{ item["icon"] }}"
+                data-src="{{ item["icon"] }}">
+            {% endif %}
+            <div>
+              <p class="product__accordion-title">{{ item["title"] }}</p>
+              <p>{{ item["copy"] }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if product.metafields.custom_fields["before_after_copy"] != blank %}
+    <div class="product__accordion" data-accordion>
+      <div class="product__accordion-trigger">
+        <button id="before-after-trigger"
+          title="{{ 'products.info_accordion.before_after_title' | t }}"
+          aria-label="{{ 'products.info_accordion.before_after_title' | t }}"
+          aria-expanded="false"
+          aria-controls="before-after-content"
+          data-accordion-trigger>
+          <span>{{ 'products.info_accordion.before_after_title' | t }}</span>
+          <div aria-hidden>
+            {%- render 'icon-plus' -%}
+            {%- render 'icon-minus' -%}
+          </div>
+        </button>
+      </div>
+      <div id="before-after-content"
+        class="product__accordion-content"
+        aria-labelledby="before-after-trigger"
+        data-accordion-content>
+        <div class="product__before-after">
+          <div>
+            {% for item in product.metafields.custom_fields["before_after_copy"] %}
+              <div class="product__accordion-item">
+                <p class="product__accordion-title">{{ item["title"] }}</p>
+                <p class="product__accordion-copy">{{ item["copy"] }}</p>
+              </div>
+            {% endfor %}
+          </div>
+          {% if product.metafields.custom_fields["before_after_image"] != blank %}
+            <div class="product__accordion-item product__accordion-item--before-after">
+              <img class="lazyload"
+                alt="{{ 'products.info_accordion.before_after_title' | t }}"
+                src="{{ product.metafields.custom_fields["before_after_image"] }}"
+                data-src="{{ product.metafields.custom_fields["before_after_image"] }}">
+              {% unless product.metafields.custom_fields["hide_before_after_pills"] == 1 %}
+                <span aria-hidden>{{ 'products.info_accordion.before_badge' | t }}</span>
+                <span aria-hidden>{{ 'products.info_accordion.after_badge' | t }}</span>
+              {% endunless %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</div>

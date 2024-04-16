@@ -1,0 +1,525 @@
+{
+  "sections": {
+    "about-intro": {
+      "type": "about-intro",
+      "blocks": {
+        "e5a5dda6-fc90-40ef-ab75-93918ab0089b": {
+          "type": "word",
+          "settings": {
+            "word": "stretch marks"
+          }
+        },
+        "6fa7ac5c-8c28-4ae5-a595-2763ada27d04": {
+          "type": "word",
+          "settings": {
+            "word": "dark spots"
+          }
+        },
+        "defa49f4-0f79-448c-94d8-06a9b00bf375": {
+          "type": "word",
+          "settings": {
+            "word": "ingrown hairs"
+          }
+        },
+        "a93ec1ad-bedc-4c15-8a9a-5b3819be2b2f": {
+          "type": "word",
+          "settings": {
+            "word": "razor burn"
+          }
+        },
+        "8b955326-bbc6-4051-9779-3bd31f8fcc63": {
+          "type": "word",
+          "settings": {
+            "word": "keratosis pilaris"
+          }
+        },
+        "0319e978-dadc-43ce-a269-fe4edc12690d": {
+          "type": "word",
+          "settings": {
+            "word": "wax irritation"
+          }
+        }
+      },
+      "block_order": [
+        "e5a5dda6-fc90-40ef-ab75-93918ab0089b",
+        "6fa7ac5c-8c28-4ae5-a595-2763ada27d04",
+        "defa49f4-0f79-448c-94d8-06a9b00bf375",
+        "a93ec1ad-bedc-4c15-8a9a-5b3819be2b2f",
+        "8b955326-bbc6-4051-9779-3bd31f8fcc63",
+        "0319e978-dadc-43ce-a269-fe4edc12690d"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare.jpg",
+        "intro": "Our Results",
+        "headline": "Before + After",
+        "content": "Solving your most frustrating skin concerns everyday",
+        "static_word": "Treat",
+        "speed_mobile": 700,
+        "delay_mobile": 1000,
+        "speed_desktop": 1000,
+        "delay_desktop": 2000
+      }
+    },
+    "dff53e25-ec2d-4dd2-a01c-0863b9cd89a7": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#FFFFFF",
+        "padding": false,
+        "intro": "5,000+ people are using Bushbalm in their skincare routine",
+        "headline": "",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "Start Now →",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "345f17e9-5f4c-4f4f-b3a6-860531984b56": {
+      "type": "content",
+      "blocks": {
+        "ef2737b3-d950-49e8-b0f1-7b68297f0bcb": {
+          "type": "content_block",
+          "settings": {
+            "title": "Bermuda Oil",
+            "copy": "Use the dark spot oil daily to soften the appearance of dark spots and more.",
+            "icon": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil.png"
+          }
+        },
+        "a6873391-d17b-4da3-95b2-a9859a72b2c0": {
+          "type": "content_block",
+          "settings": {
+            "title": "Bermuda Exfoliating Scrub",
+            "copy": "Use the exfoliating scrub 2-3 times a week for faster results",
+            "icon": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_92f4db9d-abea-4463-bb7e-fa9a9799fdea.png"
+          }
+        }
+      },
+      "block_order": [
+        "ef2737b3-d950-49e8-b0f1-7b68297f0bcb",
+        "a6873391-d17b-4da3-95b2-a9859a72b2c0"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Before_and_After_-_Pina.webp",
+        "image_desktop": "shopify:\/\/shop_images\/Before_and_After_-_Pina.webp",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Literally Magic",
+        "copy": "\"Amazing!! After a month of using it I can see the difference. I have tried home remedies and nothing worked. This is a game changer product!\" <br><br>\n- Tina P.",
+        "subheading": "View Her Routine",
+        "cta_link": "shopify:\/\/products\/2-step-routine-keratosis-pilaris-bump-eraser",
+        "cta_text": "Shop Dark Spot Kit",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "3fc9241b-b523-46aa-8e0d-5c4d66339423": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Before_and_After_-_Pina.webp",
+        "heading": "Literally Magic",
+        "copy": "\"Amazing!! After a month of using it I can see the difference. I have tried home remedies and nothing worked. This is a game changer product!\"[break]\n- Tina",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "28bc79d7-ccb6-4bcc-8900-0f1f97bcd2ea": {
+      "type": "content",
+      "blocks": {
+        "f91d6bf8-81eb-45e5-aa70-004538a233a9": {
+          "type": "content_block",
+          "settings": {
+            "title": "2 Step Sweet Escape Ingrown Hair Kit",
+            "copy": "This 2-step routine is formulated to leave skin hydrated and soft while reducing the appearance of ingrown hairs, razor burn, and bumps.",
+            "icon": "shopify:\/\/shop_images\/Untitled_design_4_128de7cf-0f08-42c2-ae9d-817f0370c865.png"
+          }
+        }
+      },
+      "block_order": [
+        "f91d6bf8-81eb-45e5-aa70-004538a233a9"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/2-Step_Nude.png",
+        "image_desktop": "shopify:\/\/shop_images\/2-Step_Nude.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Feeling More Confident Than Ever",
+        "copy": "\"I will forever repurchase this item! i have always had problems with ingrown hairs and razor burn on my bikini line and this and the scrub are truly the only products that have helped when used consistently!\" <br><br>\n-Andrea F.",
+        "subheading": "View Her Routine",
+        "cta_link": "shopify:\/\/products\/2-step-routine-keratosis-pilaris-bump-eraser",
+        "cta_text": "Shop Ingrown Kit",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "d505b7af-e6ae-4d49-a432-5457c52d7ab3": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/2-Step_Nude.png",
+        "image_desktop": "shopify:\/\/shop_images\/2-Step_Nude.png",
+        "heading": "Feeling more confident than ever!",
+        "copy": "\"I will forever repurchase this item! i have always had problems with ingrown hairs and razor burn on my bikini line and this and the scrub are truly the only products that have helped when used consistently!\"\n[break]-Andrea F.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "dad6f315-74ff-4a20-9c65-283140ef7cb9": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/bushbalm_dark_spot_results.webp",
+        "heading": "Game Changer",
+        "copy": "I have avoided shaving for so long because of my terrible and itchy ingrown hairs. This is genuinely the best product and an absolute game changer for me. No more itchiness",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "2c24b2b5-7acb-402b-aa5f-fce8db68de45": {
+      "type": "content",
+      "blocks": {
+        "5f7b07b1-3466-496f-ad7b-3eed83cbae65": {
+          "type": "content_block",
+          "settings": {
+            "title": "The Trimmer Kit",
+            "copy": "This kit comes with everything you need to prep your skin by exfoliating before, and pamper it after you're done trimming.",
+            "icon": "shopify:\/\/shop_images\/TRIMMER_KIKT.png"
+          }
+        }
+      },
+      "block_order": [
+        "5f7b07b1-3466-496f-ad7b-3eed83cbae65"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_2.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Every Girl’s Must-Haves",
+        "copy": "\"I’ve never looked forward to hair removal until I found this product!! My scars have lightened tremendously and honestly I haven’t had an ingrown since. This should be in everyone’s bathroom.\"<br><br>-Jailen P.",
+        "subheading": "View Her Routine",
+        "cta_link": "shopify:\/\/products\/pubic-hair-trimmer-holiday-kit",
+        "cta_text": "Shop Trimmer Kit",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "92407525-6054-40ca-8167-52a916096f1d": {
+      "type": "content",
+      "blocks": {
+        "0c36f508-f090-4ecb-b97e-dc44789f0c1d": {
+          "type": "content_block",
+          "settings": {
+            "title": "Hydrogel Vajacial Set",
+            "copy": "Boost your post-hair removal routine with a hydrogel mask. Formulated with a blend of hyaluronic acid, aloe, green tea extract to calm and soothe your skin.",
+            "icon": "shopify:\/\/shop_images\/Nude_Ingrown_Scrub_by_Bushbalm_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "0c36f508-f090-4ecb-b97e-dc44789f0c1d"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Before_After_-_Vajacial_3.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Before_After_-_Vajacial_3.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Never knew I needed this",
+        "copy": "\"Trust me when I say BUY THIS. I've never felt softer down under! I love you Bushbalm!\"\n<br><br>- Hayley N.",
+        "subheading": "View Her Routine",
+        "cta_link": "shopify:\/\/products\/vajacial-hydrogel-mask-set",
+        "cta_text": "Shop Vajacial",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "e34f1867-1e20-4d20-ab8b-0c91e62d5cc2": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "All Photos are from actual bushbalm customers",
+        "html": "<small><center> Results may vary.<\/center><\/small>"
+      }
+    },
+    "about-principles": {
+      "type": "about-principles",
+      "blocks": {
+        "8844e852-af8a-41cf-b690-355a6e0e0ee3": {
+          "type": "principle",
+          "settings": {
+            "text": "Solve Skin Concerns, \nEverywhere"
+          }
+        },
+        "22de24ff-80f5-4614-98aa-46c5b997dddf": {
+          "type": "principle",
+          "settings": {
+            "text": "Use Natural, Or Naturally \nDerived Ingredients"
+          }
+        },
+        "f6f112f3-b8cf-4b92-9b1e-aa57de793418": {
+          "type": "principle",
+          "settings": {
+            "text": "Formulate For All \nSkin Types"
+          }
+        },
+        "0758ac42-8525-4d7e-909b-c8ce97e7a4b8": {
+          "type": "principle",
+          "settings": {
+            "text": "Do More Of #1."
+          }
+        }
+      },
+      "block_order": [
+        "8844e852-af8a-41cf-b690-355a6e0e0ee3",
+        "22de24ff-80f5-4614-98aa-46c5b997dddf",
+        "f6f112f3-b8cf-4b92-9b1e-aa57de793418",
+        "0758ac42-8525-4d7e-909b-c8ce97e7a4b8"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Who-We-Are-At-Bushbalm-Skincare-About-Us-Page.jpg",
+        "alignment": "bottom",
+        "headline": "Hi, We're Bushbalm!",
+        "subheading": "",
+        "content": "At Bushbalm we care deeply about you and your skin. We do this by providing high quality ingredients, thoughtful routines and results you can see and feel.",
+        "intro": "Our Principles",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "3ae76175-910c-4338-b7a9-87199efc6302": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "cabd79cd-3947-4b53-add2-1dba5a93242f": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sweet-escape-oil",
+            "enable_sub_text": true
+          }
+        },
+        "bff8b1fd-ece3-493f-b55d-8b8de986725f": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair",
+            "enable_sub_text": true
+          }
+        },
+        "f10b0b78-9e41-4ea9-83b0-3c45a5d8a623": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-bikini-line-kit",
+            "enable_sub_text": true
+          }
+        },
+        "2cdb8f18-3a67-407d-b62c-455efbd98f12": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-3-step-at-home-kit",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "cabd79cd-3947-4b53-add2-1dba5a93242f",
+        "bff8b1fd-ece3-493f-b55d-8b8de986725f",
+        "f10b0b78-9e41-4ea9-83b0-3c45a5d8a623",
+        "2cdb8f18-3a67-407d-b62c-455efbd98f12"
+      ],
+      "settings": {
+        "heading": "Shop Bestsellers",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "0cb0bb5f-143c-4955-9108-5893262990c0": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_boxed",
+        "hero_options_desktop": "two_up_boxed",
+        "top_icon": "shopify:\/\/shop_images\/gynecologist-approved_87a22b7f-eddd-46c8-8619-0afc0a1fb53e.png",
+        "title": "",
+        "heading_tag": "h1",
+        "title_sizing": "title_largest",
+        "subtitle": "Gyno + Derm Approved",
+        "copy": "<p>We work with gynecologists and dermatologists to formulate best in class products that are effective and safe to use, everywhere. <\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Shop All Products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Dr._Arumala_Gyno_Approved_afc64c74-ea21-45fa-8b3d-125dea2729da.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Dr._Arumala_Gyno_Approved_afc64c74-ea21-45fa-8b3d-125dea2729da.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "80px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "52px"
+      }
+    },
+    "about-story": {
+      "type": "about-story",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vajacial_Before_and_After_Photo_3c7bdba1-4b3b-4125-a2d8-3ebb29daae40.jpg",
+        "background_color": "#fbf0e4",
+        "headline_1": "Over 5,000  Five Star Reviews",
+        "content_1": "<p>Bushbalm is a skincare brand that solves common skin challenges that aren't often talked about, and we're proud of it! Whether you are struggling with post wax irritation or ingrown hairs we have a solution. <\/p>",
+        "headline_2": "The Science",
+        "content_2": "<p>We work with gynecologist and dermatologist to formulate best in class products that are effective and safe to use, everywhere. <\/p><p><\/p><p>Our believe is that you should have high quality formulations, for your entire body. <\/p>"
+      }
+    },
+    "about-stats": {
+      "type": "about-stats",
+      "blocks": {
+        "258e72b7-232f-474e-a935-9dcc50cc0875": {
+          "type": "stat",
+          "settings": {
+            "intro": "Did you know",
+            "number": "50%",
+            "content": "When you apply your moisturizer has a big eff",
+            "supporting_title": "Our Mission",
+            "supporting_content": "We're building the next generation a safe space to learn, grow and become their best naturally brave selves.",
+            "background_color": "#fde7e0"
+          }
+        },
+        "00747eec-602a-4d48-b856-8d32f59bed7a": {
+          "type": "content",
+          "settings": {
+            "title": "We Give Back",
+            "content": "<p>For every x sold, we will donate back to curabitur blandit tempus porttitor. <br\/><br\/>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.<\/p>",
+            "logo": "shopify:\/\/shop_images\/logo_34239b05-5d0a-4589-b003-d9d1a48f3bbb.png",
+            "logo_max_width": 100,
+            "background_color": "#c2d6ed"
+          }
+        }
+      },
+      "block_order": [
+        "258e72b7-232f-474e-a935-9dcc50cc0875",
+        "00747eec-602a-4d48-b856-8d32f59bed7a"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "ae0389d6-6587-40e5-aa8a-c01c47dc9ea0": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#f8e2c9",
+        "featured_product": "dark-spot-treatment",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p>Formulated to soften the appearance of dark spots, hyperpigmentation and more. <\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641492588c7c9e95d": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "What’s next",
+        "headline": "Ready to get started on your new skincare journey?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "find my routine",
+        "cta_link": "shopify:\/\/pages\/quiz",
+        "cta_2_text": "Discover Bushbalm",
+        "cta_2_link": "shopify:\/\/collections\/all",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "104px"
+      }
+    }
+  },
+  "order": [
+    "about-intro",
+    "dff53e25-ec2d-4dd2-a01c-0863b9cd89a7",
+    "345f17e9-5f4c-4f4f-b3a6-860531984b56",
+    "3fc9241b-b523-46aa-8e0d-5c4d66339423",
+    "28bc79d7-ccb6-4bcc-8900-0f1f97bcd2ea",
+    "d505b7af-e6ae-4d49-a432-5457c52d7ab3",
+    "dad6f315-74ff-4a20-9c65-283140ef7cb9",
+    "2c24b2b5-7acb-402b-aa5f-fce8db68de45",
+    "92407525-6054-40ca-8167-52a916096f1d",
+    "e34f1867-1e20-4d20-ab8b-0c91e62d5cc2",
+    "about-principles",
+    "3ae76175-910c-4338-b7a9-87199efc6302",
+    "0cb0bb5f-143c-4955-9108-5893262990c0",
+    "about-story",
+    "about-stats",
+    "ae0389d6-6587-40e5-aa8a-c01c47dc9ea0",
+    "1641492588c7c9e95d"
+  ]
+}

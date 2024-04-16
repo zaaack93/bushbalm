@@ -1,0 +1,31 @@
+{% if product.metafields.custom_fields["video_url"] != blank %}
+  <div class="product__video" data-product-video>
+    <video controls>
+      <source src="{{ product.metafields.custom_fields["video_url"] }}" type="video/mp4">
+      <p>{{ 'general.accessibility.video_unsupported' | t }}</p>
+    </video>
+
+    <div class="product__video-overlay">
+      <button type="button"
+        aria-label="{{ 'general.accessibility.video_play' | t }}"
+        data-product-video-trigger>
+        {%- render 'icon-play-circle' -%}
+      </button>
+      {% if product.metafields.custom_fields["video_title"] != blank %}
+        <p>{{ product.metafields.custom_fields["video_title"] }}</p>
+      {% endif %}
+      {% if product.metafields.custom_fields["video_placeholder_image_desk"] != blank %}
+        <img class="small--hide"
+          alt="{{ product.metafields.custom_fields["video_title"] | default: product.title }}"
+          src="{{ product.metafields.custom_fields["video_placeholder_image_desk"] }}"
+          loading="lazy">
+      {% endif %}
+      {% if product.metafields.custom_fields["video_placeholder_image_mobile"] != blank %}
+        <img class="medium-up--hide"
+          alt="{{ product.metafields.custom_fields["video_title"] | default: product.title }}"
+          src="{{ product.metafields.custom_fields["video_placeholder_image_mobile"] }}"
+          loading="lazy">
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

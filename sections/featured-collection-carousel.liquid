@@ -1,0 +1,231 @@
+<script src="{{ 'featured-collection-carousel.js' | asset_url }}" defer="defer"></script>
+{{ 'featured-collection-carousel.css' | asset_url | stylesheet_tag }}
+
+<div class="featured-collection-carousel featured-collection-carousel--{{ section.id }} swiper-container" data-featured-collection-carousel-slider>
+  <div class="featured-collection-carousel__header">
+    <h1 class="featured-collection-carousel__title">{{ section.settings.overwrite_heading | default: section.settings.featured_collection.title }}</h1>
+    <a class="btn btn--sienna small--hide" href="{{ section.settings.cta_url | default: section.settings.featured_collection.url }}">
+      {% assign shop_all = 'collections.general.shop_all' | t %}
+      {{ section.settings.cta_text | default: shop_all | upcase }}
+    </a>
+  </div>
+  <div class="featured-collection-carousel__container swiper-wrapper">
+    {% for product in section.settings.featured_collection.products %}
+      <div class="featured-collection-carousel__slide swiper-slide"
+        data-featured-collection-carousel-slide>
+        {% render 'featured-collection-carousel-item' with product: product %}
+      </div>
+    {% endfor %}
+  </div>
+  <div class="featured-collection-carousel__nav-wrapper">
+    <button class="featured-collection-carousel__nav featured-collection-carousel__nav--prev small--hide" data-featured-collection-carousel-nav-prev>
+      {% render 'icon-chevron-left' %}
+    </button>
+    <button class="featured-collection-carousel__nav featured-collection-carousel__nav--next small--hide" data-featured-collection-carousel-nav-next>
+      {% render 'icon-chevron-right' %}
+    </button>
+  </div>
+  <a class="featured-collection-carousel__button btn btn--sienna large--hide" href="{{ section.settings.cta_url | default: section.settings.featured_collection.url }}">
+    {% assign shop_all = 'collections.general.shop_all' | t %}
+    {{ section.settings.cta_text | default: shop_all | upcase }}
+  </a>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'featured-collection-carousel'
+%}
+
+{% style %}
+  .featured-collection-carousel--{{ section.id }} {
+    background-color: {{ section.settings.background_color | default: '#FBF0E4' }};
+  }
+{% endstyle %}
+
+{% schema %}
+  {
+    "name": "Featured Collection Crsl",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "featured_collection",
+        "label": "Featured Collection"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#FBF0E4"
+      },
+      {
+        "type": "text",
+        "id": "overwrite_heading",
+        "label": "Overwrite Collection Title"
+      },
+      {
+        "type": "url",
+        "id": "cta_url",
+        "label": "CTA URL",
+        "info": "The 'Shop All' URL. By default, it will link to the featured collection's page"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "info": "The 'Shop All' text"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Collection Crsl"
+      }
+    ]
+  }
+{% endschema %}

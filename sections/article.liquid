@@ -1,0 +1,183 @@
+<script src="{{ 'article.js' | asset_url }}" defer="defer"></script>
+{{ 'article.css' | asset_url | stylesheet_tag }}
+
+{% capture article_toc_share %}
+  <div class="article-toc-share">
+    {% if article.metafields.custom_fields["table_of_contents"] != blank %}
+      <div class="article-toc">
+        <h3 class="article-toc__title">{{ 'blogs.article.table_of_contents_title' | t }}</h3>
+
+        <ol>
+          {% for item in article.metafields.custom_fields["table_of_contents"] %}
+            {% if item["link_text"] != blank %}
+              <li class="ui-subtitle">
+                <a href="#{{ item["target_id"] }}">{{ item["link_text"] }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+      </div>
+    {% endif %}
+
+    {% if section.settings.enable_sharing %}
+      {% render 'article-share-links' with share_settings: section.settings, article: article %}
+    {% endif %}
+  </div>
+{% endcapture %}
+
+<article class="article wrapper">
+  {% render 'breadcrumbs' %}
+
+  {% if article.image %}
+    <div class="article-hero">
+      {% if article.metafields.custom_fields["hero_image_mobile"] != blank %}
+        <img class="medium-up--hide" src="{{ article.metafields.custom_fields["hero_image_mobile"] }}" alt="{{ article.title }}" width="100%" />
+        {% assign desktop_image_class = 'small--hide' %}
+      {% endif %}
+      {% render 'responsive-image' with
+        image: article.image,
+        max_width: 2000,
+        max_height: 1024,
+        wrapper_class: desktop_image_class
+      %}
+    </div>
+  {% endif %}
+
+  <div class="article-content">
+    <div class="article-content__left">
+      {{ article_toc_share }}
+    </div>
+
+    <div class="article-content__right">
+      {% if article.tags != blank %}
+        <span class="article-tag">{{ article.tags | first }}</span>
+      {% endif %}
+
+      <h1 class="article__title">{{ article.title }}</h1>
+
+      {% capture date %}<span class="uppercase">{{ article.published_at | date: '%b %d, %Y' }}</span>{% endcapture %}
+      <p class="article__date-author">{{ 'blogs.article.author_on_date_html' | t: author: article.author, date: date }}</p>
+
+      {{ article_toc_share }}
+
+      <div class="article__content rte">
+        {%- liquid
+          assign article_content = article.content
+          for item in article.metafields.custom_fields["table_of_contents"]
+            assign target_tag = '[toc-target=' | append: item["target_id"] | append: ']'
+            unless article_content contains target_tag
+              continue
+            endunless
+
+            assign target_span = '<span id="' | append: item["target_id"] | append: '"></span>'
+            assign article_content = article_content | replace_first: target_tag, target_span
+          endfor
+        %}
+
+        {{ article_content }}
+      </div>
+
+      <ul class="article-prev-next">
+        <li class="article-prev-next__prev">
+          {% if blog.previous_article %}
+            <a href="{{ blog.previous_article }}">
+              <span class="ui-subtitle small--hide">{% render 'icon-chevron-left' %} {{ 'blogs.article.previous_article' | t }}</span>
+              <span class="ui-subtitle medium-up--hide">{% render 'icon-chevron-left' %} {{ 'blogs.article.previous_article_mobile' | t }}</span>
+              <span class="article-prev-next__article-title">{{ blog.previous_article.title }}</span>
+            </a>
+          {% endif %}
+        </li>
+        <li class="article-prev-next__next">
+          {% if blog.next_article %}
+            <a href="{{ blog.next_article }}">
+              <span class="ui-subtitle small--hide">{{ 'blogs.article.next_article' | t }} {% render 'icon-chevron-right' %}</span>
+              <span class="ui-subtitle medium-up--hide">{{ 'blogs.article.next_article_mobile' | t }} {% render 'icon-chevron-right' %}</span>
+              <span class="article-prev-next__article-title">{{ blog.next_article.title }}</span>
+            </a>
+          {% endif %}
+        </li>
+      </ul>
+
+      <div class="article-author">
+        <h2 class="article-author__title ui-subtitle">{{ 'blogs.article.about_the_author' | t }}</h2>
+
+        <div class="article-author__grid">
+          {%- liquid
+            assign author_meta = shop.metafields.custom_fields.blog_author_info | where: 'email', article.user.email | first
+            assign author_image = author_meta.image | replace: '.jpg', '_500x.jpg'
+            if author_image == blank
+              assign author_image = article.user.image | img_url: 'medium'
+            endif
+            assign author_name = author_meta.name | default: article.author
+            assign author_bio = author_meta.bio | default: article.user.bio
+          -%}
+          {% if author_image != blank %}
+            <div class="article-author__image img-cover">
+              <img src="{{ author_image }}" alt="Image of {{ author_name }}" width="300" />
+            </div>
+          {% endif %}
+
+          <div class="article-author__content">
+            <h3 class="ui-body-bold">{{ author_name }}</h3>
+            {% if author_bio != blank %}
+              <p>{{ author_bio }}</p>
+            {% endif %}
+          </div>
+
+          {% if author_meta.instagram_link != blank and author_meta.article_tag != blank %}
+            <div class="article-author__links">
+              <span class="article-author__social-link">{{ author_meta.instagram_link }}</span>
+              {% if author_meta.article_tag != blank %}
+                {{ 'blogs.article.blogs_by_author' | t: name: article.user.first_name | link_to_tag: author_meta.article_tag | replace: 'title=', 'class="btn" title=' }}
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+{% render 'schema-article' %}
+
+{% schema %}
+  {
+    "name": "Article",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Social Sharing"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sharing",
+        "label": "Enable",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_twitter_share",
+        "label": "Enable Twitter Share",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_facebook_share",
+        "label": "Enable Facebook Share",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_pinterest_share",
+        "label": "Enable Pinterest Share",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_link_share",
+        "label": "Enable Link Share",
+        "default": true
+      }
+    ]
+  }
+{% endschema %}

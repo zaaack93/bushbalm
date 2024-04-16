@@ -1,0 +1,292 @@
+{{ 'product-stats.css' | asset_url | stylesheet_tag }}
+
+<div class="product-stats product-stats--{{ section.id }}">
+  <div class="product-stats__container">
+    {% if product.metafields.custom_fields["stats_before_after_image"] != blank %}
+      {% assign stats_image = product.metafields.custom_fields["stats_before_after_image"] %}
+      {% assign stats_image_backup = product.metafields.custom_fields["stats_before_after_image"] %}
+      {% assign stats_image_pills = product.metafields.custom_fields["stats_before_after_image_pills"] %}
+    {% else %}
+      {% assign stats_image = section.settings.stats_ba_image | img_url: '1024x' %}
+      {% assign stats_image_backup = section.settings.stats_ba_image | img_url: '256x' %}
+      {% assign stats_image_pills = section.settings.stats_ba_image_pills %}
+    {% endif %}
+
+    {% if stats_image != blank %}
+      <div class="product-stats__image">
+        <img class="lazyload"
+          alt="{{ product.title }}"
+          src="{{ stats_image_backup }}"
+          data-src="{{ stats_image }}">
+        {% if stats_image_pills == 1 or stats_image_pills == true %}
+          <span aria-hidden>{{ 'products.stats.before_badge' | t }}</span>
+          <span aria-hidden>{{ 'products.stats.after_badge' | t }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="product-stats__content">
+      <h3>{{ product.metafields.custom_fields["stats_preheading"] | default: section.settings.stats_preheading }}</h3>
+      <p class="product-stats__heading">
+        {{- product.metafields.custom_fields["stats_heading"] | default: section.settings.stats_heading -}}
+      </p>
+
+      <div class="product-stats__stats">
+        <div class="product-stats__stat">
+          <p class="product-stats__stat-percent">
+            {{- product.metafields.custom_fields["stat_percentage_1"] | default: section.settings.stat_percentage_1 -}}
+          </p>
+          <p class="product-stats__stat-copy">
+            {{- product.metafields.custom_fields["stat_copy_1"] | default: section.settings.stat_copy_1 -}}
+          </p>
+        </div>
+        <div class="product-stats__stat">
+          <p class="product-stats__stat-percent">
+            {{- product.metafields.custom_fields["stat_percentage_2"] | default: section.settings.stat_percentage_2 -}}
+          </p>
+          <p class="product-stats__stat-copy">
+            {{- product.metafields.custom_fields["stat_copy_2"] | default: section.settings.stat_copy_2 -}}
+          </p>
+        </div>
+        <div class="product-stats__stat">
+          <p class="product-stats__stat-percent">
+            {{- product.metafields.custom_fields["stat_percentage_3"] | default: section.settings.stat_percentage_3 -}}
+          </p>
+          <p class="product-stats__stat-copy">
+            {{- product.metafields.custom_fields["stat_copy_3"] | default: section.settings.stat_copy_3 -}}
+          </p>
+        </div>
+      </div>
+      <div class="product-stats__subtext">
+        <p>{{ product.metafields.custom_fields["stats_subtext"] | default: section.settings.stats_subtext }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'product-stats'
+%}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "header",
+        "content": "Stats",
+        "info": "Defaults setup below. Override defaults with Product Metafields"
+      },
+      {
+        "type": "image_picker",
+        "id": "stats_ba_image",
+        "label": "Before & After Image",
+        "info": "Dimensions: 1024 x 1024"
+      },
+      {
+        "type": "checkbox",
+        "id": "stats_ba_image_pills",
+        "label": "Before & After Image Pills",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "stats_preheading",
+        "label": "Preheading",
+        "default": "Proven Effective"
+      },
+      {
+        "type": "textarea",
+        "id": "stats_heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "stats_subtext",
+        "label": "Subtext"
+      },
+      {
+        "type": "text",
+        "id": "stat_percentage_1",
+        "label": "Stat 1 - Percentage"
+      },
+      {
+        "type": "textarea",
+        "id": "stat_copy_1",
+        "label": "Stat 1 - Copy"
+      },
+      {
+        "type": "text",
+        "id": "stat_percentage_2",
+        "label": "Stat 2 - Percentage"
+      },
+      {
+        "type": "textarea",
+        "id": "stat_copy_2",
+        "label": "Stat 2 - Copy"
+      },
+      {
+        "type": "text",
+        "id": "stat_percentage_3",
+        "label": "Stat 3 - Percentage"
+      },
+      {
+        "type": "textarea",
+        "id": "stat_copy_3",
+        "label": "Stat 3 - Copy"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Stats"
+      }
+    ]
+  }
+{% endschema %}

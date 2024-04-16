@@ -1,0 +1,691 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "disabled": true,
+      "settings": {
+        "enable_sharing": true,
+        "enable_twitter_share": true,
+        "enable_facebook_share": true,
+        "enable_pinterest_share": true,
+        "enable_link_share": true
+      }
+    },
+    "164588719397d2f43d": {
+      "type": "content-nav",
+      "blocks": {
+        "a61d669b-9dd5-4543-bdaf-b4462b918d75": {
+          "type": "link",
+          "settings": {
+            "uid": "hero-ingredients",
+            "text": "Hero Ingredients"
+          }
+        },
+        "fa5d3b76-96a4-4c3e-8b81-19ce904d6431": {
+          "type": "link",
+          "settings": {
+            "uid": "product-instructions",
+            "text": "Instructions"
+          }
+        },
+        "679d2bab-2b02-4c54-9c1a-f06d8b56b7a5": {
+          "type": "link",
+          "settings": {
+            "uid": "product-advice",
+            "text": "Advice"
+          }
+        },
+        "01db11be-2f73-4a11-9ad2-dc5b3076b69f": {
+          "type": "link",
+          "settings": {
+            "uid": "how-to-recycle",
+            "text": "Recycling"
+          }
+        }
+      },
+      "block_order": [
+        "a61d669b-9dd5-4543-bdaf-b4462b918d75",
+        "fa5d3b76-96a4-4c3e-8b81-19ce904d6431",
+        "679d2bab-2b02-4c54-9c1a-f06d8b56b7a5",
+        "01db11be-2f73-4a11-9ad2-dc5b3076b69f"
+      ],
+      "settings": {
+      }
+    },
+    "16458981045c2d7270": {
+      "type": "back-link",
+      "settings": {
+        "link_text": "back to all product guides",
+        "link_url": "shopify:\/\/blogs\/how-to-guides",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164584807367844877": {
+      "type": "home-hero",
+      "settings": {
+        "title": "#1 Seller for Dark Spots",
+        "copy": "Bermuda Dark Spot Oil",
+        "cta_text": "View Bermuda",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "position_desktop": "right",
+        "position_mobile": "bottom",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/Bermuda-Oil-By-Bushbalm-Dark-Spots.mp4?v=1646153022",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/Dark_Spot_Oil_by_Bushbalm_Mobile.mp4?v=1646153275",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 600,
+        "review_animation": true,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "01d44c4e-432a-4032-860b-18c4e3ad388a": {
+      "type": "about-principles",
+      "blocks": {
+        "aa95d4d7-5ffe-4a4a-b2dc-1c5ec52c3dce": {
+          "type": "principle",
+          "settings": {
+            "text": "Use the oil daily 1-2 times per day. Best to use within 2 minutes of bathing or showering."
+          }
+        },
+        "ea4ad268-52c7-4874-a6c2-f912d7479f03": {
+          "type": "principle",
+          "settings": {
+            "text": "Use the exfoliating dark spot scrub at least 2-3 times per week. This will help strengthen the impact of the dark spot oils."
+          }
+        },
+        "a07b4e45-4764-47f1-91d0-1ba2a6622207": {
+          "type": "principle",
+          "settings": {
+            "text": "Add additional exfoliation with our Nordic Dry Brush or Mini Exfoliating Mitt to help speed up the process."
+          }
+        }
+      },
+      "block_order": [
+        "aa95d4d7-5ffe-4a4a-b2dc-1c5ec52c3dce",
+        "ea4ad268-52c7-4874-a6c2-f912d7479f03",
+        "a07b4e45-4764-47f1-91d0-1ba2a6622207"
+      ],
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/Bermuda_Scrub_6a78fcf7-3aea-46da-9a90-f26177f56456.jpg",
+        "image_2": "shopify:\/\/shop_images\/PINA_OIL_BIKINI_LINE.jpg",
+        "alignment": "top",
+        "headline": "Getting Results, Naturally.",
+        "subheading": "Results can take between 1-2 months.",
+        "content": "Since our Dark Spot Collection is naturally derived results will take time. Follow this routine to get the fastest results.",
+        "intro": "ROUTINE STEPS",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1645886685ca379c03": {
+      "type": "featured-reviews",
+      "settings": {
+        "intro": "",
+        "headline": "Verified Review",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"10164299470, 6798599454776, 6798599618616\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1645885072a421d2c7": {
+      "type": "content",
+      "blocks": {
+        "e3833214-5a54-4594-8856-837fbaee03d7": {
+          "type": "content_block",
+          "settings": {
+            "title": "Jojoba Seed Oil",
+            "copy": "Helps soften skin while increasing hydration and smoothness.",
+            "icon": "shopify:\/\/shop_images\/Jojoba_825dc920-6f06-4c7f-9937-723bf8331ea2.png"
+          }
+        },
+        "8ff91c7f-c63d-4484-a3cb-1128130db2f3": {
+          "type": "content_block",
+          "settings": {
+            "title": "Lemon Peel Oil",
+            "copy": "Acts as a natural exfoliant and helps brightens skin, while reducing the appearance of dark spots.",
+            "icon": "shopify:\/\/shop_images\/Lemon.png"
+          }
+        },
+        "d6ca68d2-2a0f-4290-be23-0139498a1bf6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tea Tree Oil",
+            "copy": "Fresh and revitalizing, helps calms skin and reduces redness after inflammation.",
+            "icon": "shopify:\/\/shop_images\/Tea_Tree.png"
+          }
+        },
+        "8fa1a8d4-e4ed-41e5-9448-a2199c75588b": {
+          "type": "content_block",
+          "settings": {
+            "title": "Grapeseed Oil",
+            "copy": "High in vitamin A & E; Grape seed Oil infuses skin and body hair with intense, soothing moisture.",
+            "icon": "shopify:\/\/shop_images\/Grapdeseed.png"
+          }
+        }
+      },
+      "block_order": [
+        "e3833214-5a54-4594-8856-837fbaee03d7",
+        "8ff91c7f-c63d-4484-a3cb-1128130db2f3",
+        "d6ca68d2-2a0f-4290-be23-0139498a1bf6",
+        "8fa1a8d4-e4ed-41e5-9448-a2199c75588b"
+      ],
+      "settings": {
+        "uid": "hero-ingredients",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Hero Ingredients",
+        "copy": "Formulated with 6 natural ingredients to help improve the look of dark spots found anywhere on the body. The proprietary blend of botanical and essential oils acts as a natural exfoliant, brightens and softens skin while reducing the appearance of dark spots.",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "cta_text": "View Bermuda",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "164584866322f21831": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_mobile": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare-Pubic-Oil.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare-Pubic-Oil.jpg",
+        "image_offset": -32,
+        "preheading": "Bermuda",
+        "heading": "Dark Spot Oil",
+        "copy": "<p>Formulated to soften the appearance of Dark Spots & Hyperpigmentation<\/p>",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "cta_text": "Shop Now",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16458860213f812f21": {
+      "type": "featured-products",
+      "blocks": {
+        "416fae57-9e1d-4882-94c9-5d333aed86cb": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "title": "2 Step Routine",
+            "copy": "soften + soothe",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": ""
+          }
+        },
+        "e74ac24d-e943-4bba-9a6e-4538f428245e": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda  Dark Spot Oil",
+            "copy": "vitamin C + jojoba",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Best Seller"
+          }
+        },
+        "ce73ff40-c206-443c-a5e4-dc8ad242d5ac": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-bikini-line-kit",
+            "title": "3 Step Routine",
+            "copy": "bundle + save",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-bikini-line-kit",
+            "badge_text": "Best Value"
+          }
+        }
+      },
+      "block_order": [
+        "416fae57-9e1d-4882-94c9-5d333aed86cb",
+        "e74ac24d-e943-4bba-9a6e-4538f428245e",
+        "ce73ff40-c206-443c-a5e4-dc8ad242d5ac"
+      ],
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164589715870b52dc6": {
+      "type": "testimonials",
+      "blocks": {
+        "ceba1576-a7f8-4a14-b4a6-90fb57385356": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_-_Dark_Spot_Oil_for_All_Skin_Types_e0e2553e-d215-4d44-840c-b4ae0ce91822.png",
+            "content": "\"I am a huge fan of this oil, and it smells fantastic!  Paired with the Bermuda Scrub, it effectively diminishes dark spots.\"",
+            "name": "- Jane B",
+            "product": "dark-spot-treatment",
+            "product_image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+            "cta_text": "Shop Bermuda"
+          }
+        },
+        "4e0cda3c-cf3d-41d8-a44b-ae7a06f698c4": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+            "content": "\"I purchased the bundle pack where this oil came with the exfoliator and have been using it for a month and have seen great improvements.  If only the oil came in a bigger size!\"",
+            "name": "Dark Spot Routine",
+            "product": "dark-spot-bikini-line-kit",
+            "product_image": "shopify:\/\/shop_images\/3_Step_Routine_for_dark_spots.png",
+            "cta_text": "Shop the Routine"
+          }
+        },
+        "a9712be6-1421-442b-8ae4-c1d025aa6e4b": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+            "content": "\"This set really makes a difference in such a sort amount of time! I love it and my mom did too!\"",
+            "name": "- Melissa",
+            "product": "dark-spot-bikini-line-kit",
+            "product_image": "shopify:\/\/shop_images\/3_Step_Routine_for_dark_spots_d6629768-2510-4682-9752-edd764154477.png",
+            "cta_text": "Shop the Routine"
+          }
+        }
+      },
+      "block_order": [
+        "ceba1576-a7f8-4a14-b4a6-90fb57385356",
+        "4e0cda3c-cf3d-41d8-a44b-ae7a06f698c4",
+        "a9712be6-1421-442b-8ae4-c1d025aa6e4b"
+      ],
+      "settings": {
+        "intro": "Results",
+        "title": "Testimonials"
+      }
+    },
+    "1645903101282b3b06": {
+      "type": "image-carousel",
+      "blocks": {
+        "43950189-d951-4117-ad63-585e86c81486": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/underarm-darkening-before-and-after-dark-spot-oil.jpg",
+            "link": "",
+            "link_title": "Before and After Picture of Dark Underarms"
+          }
+        },
+        "690ca172-2c27-4ab5-946f-7dfe47eb1cc6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_4.jpg",
+            "link": "",
+            "link_title": "Before and after photo of hyperpigmentation in the underarms"
+          }
+        },
+        "4264da5c-da8f-4f8c-924d-f6664d7fe06a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_3.jpg",
+            "link": "",
+            "link_title": "close up image of before and after of dark spots on the bikini line"
+          }
+        },
+        "1825790c-b006-4492-b2c9-613683e5069b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_a4a1366f-5de8-49a0-8447-9fdcdd5fa00c.png",
+            "link": "",
+            "link_title": "before and after of ingrown hairs and dark spots on the bikini line"
+          }
+        },
+        "c57f547b-164d-48e7-8fbd-487e677f9049": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-After-Picture-Dark-Spot-Oil.jpg",
+            "link": "",
+            "link_title": "hyperpigmentation before and after on the bikini line"
+          }
+        },
+        "546edb62-8f7a-40f5-bb16-dc956b4952eb": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dark-spot-oil-underarm-darkening.jpg",
+            "link": "",
+            "link_title": "underarm darkening before and after"
+          }
+        },
+        "4cd4fff3-a70c-4bb5-bcbe-c439bea623a2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-And-After-Dark-Under-Arms-Dark-Spot-Oil.jpg",
+            "link": "",
+            "link_title": "before and after underarm discoloration"
+          }
+        }
+      },
+      "block_order": [
+        "43950189-d951-4117-ad63-585e86c81486",
+        "690ca172-2c27-4ab5-946f-7dfe47eb1cc6",
+        "4264da5c-da8f-4f8c-924d-f6664d7fe06a",
+        "1825790c-b006-4492-b2c9-613683e5069b",
+        "c57f547b-164d-48e7-8fbd-487e677f9049",
+        "546edb62-8f7a-40f5-bb16-dc956b4952eb",
+        "4cd4fff3-a70c-4bb5-bcbe-c439bea623a2"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "164588714879dac2b0": {
+      "type": "content",
+      "blocks": {
+        "48f31c00-ed39-4f6f-b43e-3b228fb74b0c": {
+          "type": "content_block",
+          "settings": {
+            "title": "Use Daily",
+            "copy": "Add a few drops onto clean skin and massage gently until it begins to absorb. For best results, apply the oils within 2 minutes of showering or bathing."
+          }
+        },
+        "f8640712-3375-4a26-8da1-63068ecb99c6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Recommended Areas",
+            "copy": "Bikini line, underarms, legs, neck or anywhere else skin is experiencing dark spots, hyperpigmentation or discoloration."
+          }
+        }
+      },
+      "block_order": [
+        "48f31c00-ed39-4f6f-b43e-3b228fb74b0c",
+        "f8640712-3375-4a26-8da1-63068ecb99c6"
+      ],
+      "settings": {
+        "uid": "product-instructions",
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Reviews_-_Bermuda_Scrub.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/dark-spot-oil-by-bushbalm-skincare.png",
+        "image_size": "small",
+        "image_offset": -45,
+        "heading": "Instructions",
+        "copy": "Helping you get the results faster!",
+        "subheading": "",
+        "cta_link": "shopify:\/\/collections\/dark-spot-routine",
+        "cta_text": "Shop Full Routine",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16379492308b6f383e": {
+      "type": "related-products",
+      "blocks": {
+        "a407af35-8eca-4b77-af15-acebfef4e4c3": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-treatment"
+          }
+        },
+        "e01c8fc1-8eec-46a0-848d-b08101853b22": {
+          "type": "related_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots"
+          }
+        },
+        "f412f636-22c5-4374-b212-e06aaca745d1": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-bikini-line-kit"
+          }
+        }
+      },
+      "block_order": [
+        "a407af35-8eca-4b77-af15-acebfef4e4c3",
+        "e01c8fc1-8eec-46a0-848d-b08101853b22",
+        "f412f636-22c5-4374-b212-e06aaca745d1"
+      ],
+      "settings": {
+        "title": "Bundle & Save",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164589754355f62b8c": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "product-advice",
+        "alignment": "left",
+        "bg_color": "#fafafa",
+        "image_offset": true,
+        "image_desktop": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+        "heading": "Advice",
+        "copy": "For best results use the oils daily, within 2 minutes of showering, as this is when the skin is more absorbent. \n\n[break] \nTo speed up the process of lightening dark spots and hyperpigmentation we recommend pairing your oil with our scrub and\/or dry brush. This breaks down the melanin at a faster rate.",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1645897539bad36590": {
+      "type": "featured-reviews",
+      "settings": {
+        "intro": "",
+        "headline": "All Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"10164299470\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1645897024f6cecc9f": {
+      "type": "all-reviews",
+      "settings": {
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"full-page\" data-take=\"5\" data-style-color-star=\"#f8a086\" data-style-color-verified=\"#271710\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-product-ids=\"10164299470, 6798599454776, 6798599618616\"><\/div>",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164590364180ea843a": {
+      "type": "related-products",
+      "blocks": {
+        "45420f10-5cdb-443d-a258-a79107a58b13": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-treatment"
+          }
+        },
+        "30f8f449-ce91-4c4d-9af1-4f03bf65853e": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-bikini-line-kit"
+          }
+        },
+        "17633b9b-8f85-4e28-9670-f5ee4a1334a4": {
+          "type": "related_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant"
+          }
+        }
+      },
+      "block_order": [
+        "45420f10-5cdb-443d-a258-a79107a58b13",
+        "30f8f449-ce91-4c4d-9af1-4f03bf65853e",
+        "17633b9b-8f85-4e28-9670-f5ee4a1334a4"
+      ],
+      "settings": {
+        "title": "Best Sellers",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16459022665be88fbd": {
+      "type": "content",
+      "blocks": {
+        "03c96ce6-c5a3-4885-9bc2-1a97cc0f64f9": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 1",
+            "copy": "Remove the pump and lid from the bottle. The lid can't be recycled due to it's components."
+          }
+        },
+        "75f5b707-3f2c-405a-8db0-d0a3001b9647": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 2",
+            "copy": "Rinse and clean the empty bottle. The container has to be clean and should have no remaining product left."
+          }
+        },
+        "6ba5b303-3c1e-41df-b3a2-0cd7ea8230c9": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 3",
+            "copy": "The bottle can now be recycled. Recycle the bottle, but dispose of the lid."
+          }
+        },
+        "f369a7e2-b5c0-4c0b-b7f4-8cec01637233": {
+          "type": "content_block",
+          "settings": {
+            "title": "You did it!",
+            "copy": "Thanks for taking the time to recycle!  At Bushbalm we know we aren't perfect, but are making strides to reduce our impact on the earth."
+          }
+        }
+      },
+      "block_order": [
+        "03c96ce6-c5a3-4885-9bc2-1a97cc0f64f9",
+        "75f5b707-3f2c-405a-8db0-d0a3001b9647",
+        "6ba5b303-3c1e-41df-b3a2-0cd7ea8230c9",
+        "f369a7e2-b5c0-4c0b-b7f4-8cec01637233"
+      ],
+      "settings": {
+        "uid": "how-to-recycle",
+        "alignment": "right",
+        "bg_color": "#cca181",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+        "image_desktop": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "How to Recycle",
+        "copy": "Help us keep the earth a little cleaner. Follow these steps to appropriately recycle your empty Bushbalm skincare products.",
+        "subheading": "Steps",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1637963148de8f9c5a": {
+      "type": "related-articles",
+      "blocks": {
+        "5d711475-a501-4be8-a801-a9a3826dfda3": {
+          "type": "article",
+          "settings": {
+            "article": "how-to-guides\/how-to-properly-shave-your-legs"
+          }
+        },
+        "a559d9f3-d80e-4048-a056-505790a0d0f2": {
+          "type": "article",
+          "settings": {
+            "article": "skincare-everywhere\/3-reasons-why-your-pubic-hair-itches-after-you-trim-it"
+          }
+        },
+        "e6bbe4ad-e972-4199-8580-c7692c030268": {
+          "type": "article",
+          "settings": {
+            "article": "how-to-guides\/how-to-use-the-francesca-trimmer"
+          }
+        }
+      },
+      "block_order": [
+        "5d711475-a501-4be8-a801-a9a3826dfda3",
+        "a559d9f3-d80e-4048-a056-505790a0d0f2",
+        "e6bbe4ad-e972-4199-8580-c7692c030268"
+      ],
+      "settings": {
+        "title": "Additional Guides",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1645897817a64ecdb5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": true,
+        "intro": "Our Mission",
+        "headline": "Solve common skin concerns — naturally!",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Start your routine",
+        "cta_link": "shopify:\/\/collections\/dark-spot-routine",
+        "cta_2_text": "View Before & Afters",
+        "cta_2_link": "shopify:\/\/blogs\/before-and-after",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164588719397d2f43d",
+    "16458981045c2d7270",
+    "164584807367844877",
+    "01d44c4e-432a-4032-860b-18c4e3ad388a",
+    "1645886685ca379c03",
+    "1645885072a421d2c7",
+    "164584866322f21831",
+    "16458860213f812f21",
+    "164589715870b52dc6",
+    "1645903101282b3b06",
+    "164588714879dac2b0",
+    "16379492308b6f383e",
+    "164589754355f62b8c",
+    "1645897539bad36590",
+    "1645897024f6cecc9f",
+    "164590364180ea843a",
+    "16459022665be88fbd",
+    "1637963148de8f9c5a",
+    "1645897817a64ecdb5"
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "sections": {
+    "d21287f7-480c-4508-96c0-d3849c6c820e": {
+      "type": "promo-banner",
+      "blocks": {
+        "f285f6dd-3d35-4673-a92c-081baf2c4564": {
+          "type": "single_image",
+          "disabled": true,
+          "settings": {
+            "single_image": "shopify:\/\/shop_images\/Merchandising_-_Free_Gifts_Headers_2_c763a388-f328-4a60-8de7-391ebd132517.png",
+            "single_image_width_mobile": 170,
+            "single_image_width_desktop": 250
+          }
+        },
+        "2c160c56-ab2a-4046-8acd-9d6d1a2f1e9b": {
+          "type": "promo_product_list",
+          "disabled": true,
+          "settings": {
+            "product_list": [
+              "the-body-rock",
+              "tush-cream-100ml"
+            ]
+          }
+        },
+        "f71ee349-045f-4d01-b79e-70f5c579f4dc": {
+          "type": "promo_subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "<p>Available THIS WEEK ONLY<\/p>",
+            "subheading_color": "#271710"
+          }
+        },
+        "60dabb23-f789-4724-ade4-eaa55cc3da95": {
+          "type": "promo_cta",
+          "disabled": true,
+          "settings": {
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "promo_heading_NtbPkr": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p><strong>SALE SPECIAL<\/strong><\/p>",
+            "heading_color": "#271710"
+          }
+        },
+        "promo_subheading_xtzztb": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>Only 250 Available<\/p>",
+            "subheading_color": "#271710"
+          }
+        }
+      },
+      "block_order": [
+        "f285f6dd-3d35-4673-a92c-081baf2c4564",
+        "2c160c56-ab2a-4046-8acd-9d6d1a2f1e9b",
+        "f71ee349-045f-4d01-b79e-70f5c579f4dc",
+        "60dabb23-f789-4724-ade4-eaa55cc3da95",
+        "promo_heading_NtbPkr",
+        "promo_subheading_xtzztb"
+      ],
+      "settings": {
+        "bg_color": "#fbf0e4",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default",
+        "reduce_size_on_mobile": true
+      }
+    },
+    "main": {
+      "type": "product",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_paybright_widget": true,
+        "promo_banner_enable": false,
+        "promo_banner_always": true,
+        "promo_banner_klaviyo": "https:\/\/bushbalm.com\/pages\/wholesale-application",
+        "promo_banner_discount": 15,
+        "promo_banner_text": "Are you a waxing salon or retail store? <br>Want to be a stockist?",
+        "promo_banner_cta": "Apply Today",
+        "product_form_enable": true,
+        "product_details_enable": true,
+        "info_accordion_enable": true,
+        "product_icons_enable": false,
+        "product_video_enable": false,
+        "ingredients_accordion_enable": true,
+        "ingredients_accordion_view": "View Full Ingredients",
+        "ingredients_accordion_hide": "Hide Full Ingredients",
+        "bundle_upsells_enable": true,
+        "bundle_upsells_heading": "Save with Bundles",
+        "checkout_buttons": false,
+        "hide_before_and_after_images": true
+      }
+    },
+    "1640358772a04f298c": {
+      "type": "product-testimonial",
+      "settings": {
+        "testimonial_heading": "Why Our Customers Love Bushbalm",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1640359978313819a2": {
+      "type": "product-stats",
+      "settings": {
+        "stats_ba_image": "shopify:\/\/shop_images\/Ingrown-hair-oil-before-and-after-photo_38fbccff-0437-4503-9b70-ce588e805c81.jpg",
+        "stats_ba_image_pills": true,
+        "stats_preheading": "Skin Concerns",
+        "stats_heading": "You aren't alone!",
+        "stats_subtext": "*Based on data from our 2021 Annual Customer Survey",
+        "stat_percentage_1": "94%",
+        "stat_copy_1": "Say they are actively struggling with ingrown hairs.",
+        "stat_percentage_2": "56%",
+        "stat_copy_2": "Say they are actively struggling with dark spots and hyperpigmentation.",
+        "stat_percentage_3": "54%",
+        "stat_copy_3": "Say they are actively struggling with razor burn.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "hero_intro_bQiwgc": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Gyno_and_Derm_Approved_1574x_7494811b-bd6e-49df-8eeb-5e5b658e1860.webp",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Gyno_and_Derm_Approved_1574x_7494811b-bd6e-49df-8eeb-5e5b658e1860.webp",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "Expert Approved",
+        "copy": "<p>We work with gynecologists and dermatologists to formulate best in class products that are effective and safe to use, everywhere.<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1659987476c8281db6": {
+      "type": "image-carousel",
+      "blocks": {
+        "afc8d4a2-477a-44a4-bf6b-c252c4f32167": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer_680x_da2e1887-6f90-4a2a-b2c1-c49a009e078b.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "364a5d24-9607-4738-b64d-844257b34e53": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roller_Rescue_Serum_UGC.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "909e6fe1-645a-48e1-911c-aa120614775f": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ugc_vajacial_2_eeb4aecd-1945-41c3-879e-dc60500a9a0a.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cdc841a6-a9f6-4215-88df-f656418eb247": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nude_Ingrown_Hair_Oil_4e0bf76f-95cb-41b9-a3f0-00e4f92d3451.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "14380d9e-487c-42ac-82b8-bae00e792d65": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Roller_Rescue_Underarm_Application_UGC.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "b0313340-0c96-4c87-a965-d58225d4815b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vajacial_Esty_6f08a143-3926-401b-b001-95fd0599e734.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "afc8d4a2-477a-44a4-bf6b-c252c4f32167",
+        "364a5d24-9607-4738-b64d-844257b34e53",
+        "909e6fe1-645a-48e1-911c-aa120614775f",
+        "cdc841a6-a9f6-4215-88df-f656418eb247",
+        "14380d9e-487c-42ac-82b8-bae00e792d65",
+        "b0313340-0c96-4c87-a965-d58225d4815b"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "24px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1640360910f458615c": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "reviews_heading": "Customer Reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664972751c88bdf85": {
+      "type": "apps",
+      "blocks": {
+        "e261c49a-22ca-493d-881b-454670f9f10c": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "handle"
+          }
+        }
+      },
+      "block_order": [
+        "e261c49a-22ca-493d-881b-454670f9f10c"
+      ],
+      "settings": {
+      }
+    },
+    "1640359527307f5762": {
+      "type": "product-faqs",
+      "settings": {
+        "faqs_heading": "Frequently Asked Questions",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664412132ebad910f": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "150355a8-dba8-4528-9214-99dc265317f9": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bikini_Trimmer_2.jpg",
+            "heading": "Bikini Trimmers",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/the-francesca-trimmer"
+          }
+        },
+        "3fb09787-14ba-4baf-9c56-c941477318a5": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spots_ed66b255-6d91-45d3-a079-394a2ce6b911.jpg",
+            "heading": "Dark Spots",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "b5af7a62-a831-454b-b260-d4fb9f9daa7b": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Razor_Burn_e26482a4-ab5f-4606-ab67-6f817764986d.jpg",
+            "heading": "Razor Burn",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "26d01d96-df9c-4e8f-8930-1dcec1afaf33": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hairs_e1e2de45-ce47-45ac-bd26-9782a93abfad.jpg",
+            "heading": "Ingrown Hairs",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        }
+      },
+      "block_order": [
+        "150355a8-dba8-4528-9214-99dc265317f9",
+        "3fb09787-14ba-4baf-9c56-c941477318a5",
+        "b5af7a62-a831-454b-b260-d4fb9f9daa7b",
+        "26d01d96-df9c-4e8f-8930-1dcec1afaf33"
+      ],
+      "disabled": true,
+      "settings": {
+        "carousel_heading": "Top Collections"
+      }
+    },
+    "1639422528f153a1af": {
+      "type": "related-products",
+      "blocks": {
+        "eec47424-74a1-4f29-ba7d-0263532987ba": {
+          "type": "related_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair"
+          }
+        },
+        "7c539845-d16a-4d67-9c68-10cc74f7a8f9": {
+          "type": "related_product",
+          "settings": {
+            "product": "radiant-reset-exfoliating-toner-pads"
+          }
+        },
+        "7659479a-4d2c-4b0f-8a98-8aef57ccc58b": {
+          "type": "related_product",
+          "settings": {
+            "product": "travel-discovery-nude-ingrown-hair-oil"
+          }
+        }
+      },
+      "block_order": [
+        "eec47424-74a1-4f29-ba7d-0263532987ba",
+        "7c539845-d16a-4d67-9c68-10cc74f7a8f9",
+        "7659479a-4d2c-4b0f-8a98-8aef57ccc58b"
+      ],
+      "settings": {
+        "title": "You'll Also Love",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "165998729779233821": {
+      "type": "press-highlights",
+      "blocks": {
+        "9d143d8a-e1b6-49be-961f-92d409ddb80c": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo": "shopify:\/\/shop_images\/l-chate_0454c09f-f0d1-42dd-9a53-42670a9a6ea9.png",
+            "logo_height": 20,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "a9f264b6-1540-4886-9ef5-8c2bf8e9b2ba": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/forbes_0b608d75-c859-42ad-b555-affa5ce329a8.png",
+            "logo_height": 26,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "28cfb99d-516b-4f13-ac74-2435e45af064": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo": "shopify:\/\/shop_images\/l-elle_ced8cea4-7211-463f-a51d-f0effe86731b.png",
+            "logo_height": 28,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "9d143d8a-e1b6-49be-961f-92d409ddb80c",
+        "a9f264b6-1540-4886-9ef5-8c2bf8e9b2ba",
+        "28cfb99d-516b-4f13-ac74-2435e45af064"
+      ],
+      "disabled": true,
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "d21287f7-480c-4508-96c0-d3849c6c820e",
+    "main",
+    "1640358772a04f298c",
+    "1640359978313819a2",
+    "hero_intro_bQiwgc",
+    "1659987476c8281db6",
+    "1640360910f458615c",
+    "1664972751c88bdf85",
+    "1640359527307f5762",
+    "1664412132ebad910f",
+    "1639422528f153a1af",
+    "165998729779233821"
+  ]
+}

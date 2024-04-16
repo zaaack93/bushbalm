@@ -1,0 +1,476 @@
+{
+  "sections": {
+    "57daa70c-911f-464f-8e58-36da91f908d7": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "",
+        "headline": "Congrats you've been entered!",
+        "subline": "Competition Details Below",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "4df570bc-b630-482d-80f9-bf39caa7e19a": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_boxed",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Festival Kit Giveaway",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>1 lucky winner will get a limited edition kit featuring our newest product launching soon.<\/p><p><\/p><p><\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/GIFS_and_random_shapes_23.png",
+        "image_desktop": "shopify:\/\/shop_images\/GIFS_and_random_shapes_23.png",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "-44px"
+      }
+    },
+    "b7c36d28-52e6-4a02-87fb-59eafe7c78a1": {
+      "type": "newsletter-signup",
+      "disabled": true,
+      "settings": {
+        "klaviyo_list_id": "SqDVUD",
+        "heading": "Win Today!",
+        "subheading": "Enter the Vajacial Giveaway",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "9966442d-cfc5-4781-b301-4bed7391bdeb": {
+      "type": "newsletter-signup",
+      "disabled": true,
+      "settings": {
+        "klaviyo_list_id": "T6t9Bg",
+        "heading": "Win Today",
+        "subheading": "Join the Vajacial Giveaway",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "24px"
+      }
+    },
+    "7867d775-33cb-45cc-9f78-f78ad463e1ef": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<div class=\"klaviyo-form-R2HJWs\"><\/div>"
+      }
+    },
+    "1643214850cc04a5ca": {
+      "type": "overlay-hero",
+      "disabled": true,
+      "settings": {
+        "heading": "Dragons' Den",
+        "use_h1": true,
+        "copy": "We Landed A Deal on CBC Dragons' Den in the Summer of 2020 with Arlene Dickinson.",
+        "cta_text": "Watch The Pitch",
+        "cta_url": "https:\/\/www.cbc.ca\/dragonsden\/m_pitches\/bushbalm",
+        "image_desktop": "shopify:\/\/shop_images\/dd1-d.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/dd1-m.jpg",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": true
+      }
+    },
+    "d535b9e8-adcf-4249-b8ab-09dff275f34f": {
+      "type": "content-list",
+      "blocks": {
+        "5cd09a4b-d81b-449f-b534-173d9561ddcd": {
+          "type": "list_item",
+          "settings": {
+            "text": "✓ The competition is only open to those in the United States and Canada."
+          }
+        },
+        "b27ff205-97b3-4fa0-9981-32936c30fef0": {
+          "type": "list_item",
+          "settings": {
+            "text": "✓ If selected you'll win our limited edition Festival Survival Kit, which includes our starter kit + newest product launching soon."
+          }
+        },
+        "4164feff-bd01-4990-9e50-5840d22cc50f": {
+          "type": "list_item",
+          "settings": {
+            "text": "✓ If you aren't selected, we will keep in touch with you in regards to future offers, promotions and launches."
+          }
+        }
+      },
+      "block_order": [
+        "5cd09a4b-d81b-449f-b534-173d9561ddcd",
+        "b27ff205-97b3-4fa0-9981-32936c30fef0",
+        "4164feff-bd01-4990-9e50-5840d22cc50f"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Starter_Kit.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Starter_Kit.jpg",
+        "heading": "Contest Guideline",
+        "copy": "We're giving away a limited edition kit. \n<br>",
+        "subheading": "Rules",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "c66d3e35-36fd-4e07-9f7b-7823e90dd0cc": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<center><a href=\"https:\/\/bushbalm.com\/collections\/all\" class=\"btn btn-primary\">Enter Now<\/a><\/center>"
+      }
+    },
+    "1643216724c4c43865": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "86c80989-4d66-4b88-8d36-1778b90421ee": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-chafing.png",
+            "heading": "Razor Burn",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "d2342399-5a92-43e2-a6c7-4a672ea3ee45": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-hyper.png",
+            "heading": "Hyperpigmentation",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/hyperpigmentation"
+          }
+        },
+        "8344604c-f9da-4c77-8086-4d994bd8e955": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-dark.png",
+            "heading": "Dark Spots",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "49cc7a17-aaa2-43e8-be6f-048851777134": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-kp.png",
+            "heading": "Keratosis Pilaris",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/keratosis-pilaris"
+          }
+        },
+        "639ea0ff-87f1-4437-87a6-095de2a8362b": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-ingrown.png",
+            "heading": "Ingrown Hairs",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        },
+        "136b3748-5704-4d51-b361-17a1e98fb028": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ic-razor.png",
+            "heading": "Stretch Marks",
+            "cta_text": "View All",
+            "url": "shopify:\/\/collections\/stretch-marks"
+          }
+        }
+      },
+      "block_order": [
+        "86c80989-4d66-4b88-8d36-1778b90421ee",
+        "d2342399-5a92-43e2-a6c7-4a672ea3ee45",
+        "8344604c-f9da-4c77-8086-4d994bd8e955",
+        "49cc7a17-aaa2-43e8-be6f-048851777134",
+        "639ea0ff-87f1-4437-87a6-095de2a8362b",
+        "136b3748-5704-4d51-b361-17a1e98fb028"
+      ],
+      "disabled": true,
+      "settings": {
+        "carousel_heading": "Concerns We Tackle"
+      }
+    },
+    "164321795572cec49d": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "Featured",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "9a08277b-08e5-4494-b6ca-a02cc0287dc9": {
+      "type": "newsletter-signup",
+      "disabled": true,
+      "settings": {
+        "klaviyo_list_id": "SqDVUD",
+        "heading": "Win Today",
+        "subheading": "Enter the Vajacial Giveaway",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16432207612c90bfd5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#fbefe3",
+        "padding": true,
+        "intro": "You Deserve It",
+        "headline": "Ready for smooth skin everywhere?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Start Shopping",
+        "cta_link": "shopify:\/\/pages\/routines-landing-hidden",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "aefc950c-d5bf-4bb5-a969-c57c5a606914": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "a621a569-0330-4c24-9bc9-f20300d96f9f": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "enable_sub_text": true
+          }
+        },
+        "13993e7b-9fa8-4ae8-878a-e481d4ee3e47": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair",
+            "enable_sub_text": true
+          }
+        },
+        "e7ddd85a-317d-48fe-b47e-31cbd0521320": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "enable_sub_text": true
+          }
+        },
+        "41d4bb83-15e5-43fd-bae5-dd045e54537c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-hydrogel-mask",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "a621a569-0330-4c24-9bc9-f20300d96f9f",
+        "13993e7b-9fa8-4ae8-878a-e481d4ee3e47",
+        "e7ddd85a-317d-48fe-b47e-31cbd0521320",
+        "41d4bb83-15e5-43fd-bae5-dd045e54537c"
+      ],
+      "settings": {
+        "heading": "Top Sellers",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1643220490dc52e3f2": {
+      "type": "related-products",
+      "blocks": {
+        "c7d8fc6b-1bcd-412b-bc42-657c20b36d91": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-treatment"
+          }
+        },
+        "765caa29-6b50-4dbe-b64b-709f7e7c322f": {
+          "type": "related_product",
+          "settings": {
+            "product": "ingrown-hair-oil"
+          }
+        },
+        "ae3c8fd5-dd8e-4805-a286-d9757eb06893": {
+          "type": "related_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair"
+          }
+        }
+      },
+      "block_order": [
+        "c7d8fc6b-1bcd-412b-bc42-657c20b36d91",
+        "765caa29-6b50-4dbe-b64b-709f7e7c322f",
+        "ae3c8fd5-dd8e-4805-a286-d9757eb06893"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Top Sellers",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1643221181db6483e9": {
+      "type": "image-carousel",
+      "blocks": {
+        "ef15cb8d-a558-4956-b5c6-e7dbbc47abd6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-1.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "88fdf03d-5cbb-4758-84f3-5e2d92daea53": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-2.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "d21cc781-bf7d-4518-a1ed-0807b4f8f57b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-3.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "f911fcf7-fdab-427e-aee5-c381ccac6db3": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-4.png",
+            "link": "https:\/\/www.instagram.com\/bushbalm",
+            "link_title": "Bushbalm on Instagram"
+          }
+        },
+        "54ca8922-4304-4358-a5b2-54702da0d5e2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-5.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "2ea3669b-1c52-485e-bca8-b6d19c3d49d0": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/igc-6.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "ef15cb8d-a558-4956-b5c6-e7dbbc47abd6",
+        "88fdf03d-5cbb-4758-84f3-5e2d92daea53",
+        "d21cc781-bf7d-4518-a1ed-0807b4f8f57b",
+        "f911fcf7-fdab-427e-aee5-c381ccac6db3",
+        "54ca8922-4304-4358-a5b2-54702da0d5e2",
+        "2ea3669b-1c52-485e-bca8-b6d19c3d49d0"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1656075063e7272a35": {
+      "type": "2-up-content",
+      "blocks": {
+        "03bf9dab-9210-40b4-8956-5857a04d8e20": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_d78128d0-46c8-4179-8e80-cc2916b362b4.jpg"
+          }
+        },
+        "159e1586-aa86-42c6-a193-46029cd1714c": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_1abcc964-1224-4979-9fd6-9c127e192ea9.jpg"
+          }
+        },
+        "63ca523f-080e-44e6-9c90-e5ee98121c4a": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_3f24f1a1-2cf0-458f-892b-2b1126bd8ffa.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "03bf9dab-9210-40b4-8956-5857a04d8e20",
+        "159e1586-aa86-42c6-a193-46029cd1714c",
+        "63ca523f-080e-44e6-9c90-e5ee98121c4a"
+      ],
+      "disabled": true,
+      "settings": {
+        "intro": "100% Natural & Plant Derived",
+        "title": "The #1 Routine for Razor Burn & Ingrown Hairs",
+        "content": "Treat yourself to a nice scrub to exfoliate and buff your skin for a radiant glow. Use this scrub 2-3 times a week in the shower.",
+        "cta_text": "Learn More",
+        "cta_link": ""
+      }
+    }
+  },
+  "order": [
+    "57daa70c-911f-464f-8e58-36da91f908d7",
+    "4df570bc-b630-482d-80f9-bf39caa7e19a",
+    "b7c36d28-52e6-4a02-87fb-59eafe7c78a1",
+    "9966442d-cfc5-4781-b301-4bed7391bdeb",
+    "7867d775-33cb-45cc-9f78-f78ad463e1ef",
+    "1643214850cc04a5ca",
+    "d535b9e8-adcf-4249-b8ab-09dff275f34f",
+    "c66d3e35-36fd-4e07-9f7b-7823e90dd0cc",
+    "1643216724c4c43865",
+    "164321795572cec49d",
+    "9a08277b-08e5-4494-b6ca-a02cc0287dc9",
+    "16432207612c90bfd5",
+    "aefc950c-d5bf-4bb5-a969-c57c5a606914",
+    "1643220490dc52e3f2",
+    "1643221181db6483e9",
+    "1656075063e7272a35"
+  ]
+}

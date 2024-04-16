@@ -1,0 +1,91 @@
+{{ 'about-story.css' | asset_url | stylesheet_tag }}
+
+<div class="about-story">
+  <div class="about-story__background small--hide"></div>
+
+  <div class="wrapper">
+    <div class="grid">
+      <div class="grid__item medium-up--hide">
+        {% render 'responsive-image' with
+          image: section.settings.image,
+          max_width: 800,
+          max_height: 800,
+          auto_scale: true
+        %}
+      </div>
+
+      <div class="grid__item medium--6 large--5 push--large--1">
+        <div class="about-story__content">
+          <h4>{{ section.settings.headline_1 }}</h4>
+          {{ section.settings.content_1 }}
+        </div>
+
+        <div class="about-story__content about-story__content--2">
+          <h4>{{ section.settings.headline_2 }}</h4>
+          {{ section.settings.content_2 }}
+        </div>
+      </div>
+
+      <div class="grid__item small--hide medium--6 large--5 push--large--2">
+        {% render 'responsive-image' with
+          image: section.settings.image,
+          max_width: 800,
+          max_height: 800,
+          auto_scale: true
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  @media (max-width: 750px) {
+    .about-story {
+      background-color: {{ section.settings.background_color }};
+    }
+  }
+
+  .about-story__background {
+    background-color: {{ section.settings.background_color }};
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "About Story",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image",
+        "info": "Dimensions 1294 x 1294"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#fbf0e4"
+      },
+      {
+        "type": "text",
+        "id": "headline_1",
+        "label": "Headline 1"
+      },
+      {
+        "type": "richtext",
+        "id": "content_1",
+        "label": "Content 1"
+      },
+      {
+        "type": "text",
+        "id": "headline_2",
+        "label": "Headline 2"
+      },
+      {
+        "type": "richtext",
+        "id": "content_2",
+        "label": "Content 2"
+      }
+    ]
+  }
+{% endschema %}

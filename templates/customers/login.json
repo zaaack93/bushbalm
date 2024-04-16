@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "1644967539a4d85347": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": true,
+        "intro": "Are you a wholesaler?",
+        "headline": "Login to the dedicated wholesale portal below",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "USA",
+        "cta_link": "https:\/\/stockist.bushbalm.com\/",
+        "cta_2_text": "Canada",
+        "cta_2_link": "https:\/\/wholesale.bushbalm.com\/",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "login",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "1644967539a4d85347",
+    "main"
+  ]
+}

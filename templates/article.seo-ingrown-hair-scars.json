@@ -1,0 +1,769 @@
+{
+  "sections": {
+    "1660256312e871f5c4": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "background_png_overlay",
+        "hero_options_desktop": "background_png_overlay",
+        "title": "How To Get Rid of Ingrown Hair Scars",
+        "heading_tag": "h1",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>Getting discolouration and scarring from ingrown hairs is very common.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Ingrown_Hairs_Scars_d329410b-6599-4b65-91ba-c8707067039c.png",
+        "png_overlay_mobile": "shopify:\/\/shop_images\/Getting_Rid_of_Ingrown_Hair_Scars.png",
+        "image_desktop": "shopify:\/\/shop_images\/Ingrown_Hairs_Scars.png",
+        "png_overlay_desktop": "shopify:\/\/shop_images\/Getting_Rid_of_Ingrown_Hair_Scars.png",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#0860a9",
+        "gradient_angle_mobile": 225,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#0860a9",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.89",
+        "review_count": 2300,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_de418c45-596c-4219-bd6b-3f6b79140609.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "128px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "-44px"
+      }
+    },
+    "16602572638553e8b9": {
+      "type": "who-we-are",
+      "blocks": {
+        "f97e4a72-26c5-4802-b0ed-381b740852eb": {
+          "type": "list_item",
+          "settings": {
+            "text": "Exfoliate 2-3 times per week"
+          }
+        },
+        "4d1b23d5-e0dc-4189-b411-067067442890": {
+          "type": "list_item",
+          "settings": {
+            "text": "Apply a dark spot oil"
+          }
+        },
+        "1011ea41-814b-41e0-a95b-e016ccb53263": {
+          "type": "list_item",
+          "settings": {
+            "text": "Apply a moisturizer daily"
+          }
+        },
+        "260b65cf-e0dd-47f8-bab3-4569f13389c1": {
+          "type": "list_item",
+          "disabled": true,
+          "settings": {
+            "text": "The Landing Strip"
+          }
+        }
+      },
+      "block_order": [
+        "f97e4a72-26c5-4802-b0ed-381b740852eb",
+        "4d1b23d5-e0dc-4189-b411-067067442890",
+        "1011ea41-814b-41e0-a95b-e016ccb53263",
+        "260b65cf-e0dd-47f8-bab3-4569f13389c1"
+      ],
+      "settings": {
+        "heading": "Healing Ingrown Hair Scars",
+        "subheading": "As an ingrown hair heals the skin is irritated and the pigment often never recovers. Below you'll find the routine to get rid of ingrown hair scarring.",
+        "list_heading": "Step by Step",
+        "cta_text": "START HEALING SCARS",
+        "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+        "image_desktop": "shopify:\/\/shop_images\/2606072_alt05.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/2606072_alt05.jpg",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16602567682fd8acea": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/2606075_alt02.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/2606075_alt02.jpg",
+        "heading": "Do ingrown hairs leave scars?",
+        "copy": "Yes. Just like any irritation to the skin there is a chance you can get a scar. Ingrown hairs often lead to redness and irritation, which can lead to what are often referred to as 'dark spots'.",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1660256859188a27cb": {
+      "type": "content-simple",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_desktop": "shopify:\/\/shop_images\/Razor_Burn_Prevention.jpg",
+        "heading": "Where are ingrown hairs most common?",
+        "copy": "Depending on your hair growth you can get ingrown hairs in many locations. Some of the most common in men are on the neckline and women commonly get ingrown hairs on their bikini line. \n\nMost common places for ingrown hairs: \n<br>\n<ul>\n<li>pubic area <\/li>\n<li>neckline <\/li>\n<li>back of neck<\/li>\n<li>nipple hair<\/li>\n<\/ul>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "a6e23784-268f-4447-8610-931ec6915d68": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#FFFFFF",
+        "padding": false,
+        "intro": "",
+        "headline": "Looking for a product to solve ingrown hair scars?",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "Try Bermuda Dark Spot Oil",
+        "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "2f954d52-abbd-4c1a-a2cf-f4699d5430b7": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#fff1e2",
+        "featured_product": "2-step-routine-hyperpigmentation-dark-spots",
+        "overwrite_heading": "<p>2 Step Dark Spot Routine<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Formulated to soften the appearance of ingrown hair scars and dark spots<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16602569871fe0e821": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_desktop": "shopify:\/\/shop_images\/2606072_alt03.jpg",
+        "heading": "Can I get laser to remove ingrown hair scars?",
+        "copy": "<p>Yes. Using laser treatment on scaring is very common. However, we recommend seeing your doctor or trying more natural treatments and products prior to going with laser treatment. We recommend <a href=\"https:\/\/www.aad.org\/public\/cosmetic\/scars-stretch-marks\/laser-treatment-scar\" title=\"Removing scars with laser treatment \">reading the article by the AAD on questions you should ask before using laser<\/a>. <\/p>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1660257042aec54f64": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_desktop": "shopify:\/\/shop_images\/The_Martini_Glass_Pubic_Hair_Style.webp",
+        "heading": "The Martini Glass",
+        "copy": "A slightly smaller version of the Bermuda Triangle. Growing out some pubic hair, while keeping it clean around the edges. It's really common to purchase a bikini trimmer to groom the sides of your pubic hair.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1660257099618fc534": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_desktop": "shopify:\/\/shop_images\/Landing_Strip_Pubic_Hair_Style.webp",
+        "heading": "The Landing Strip",
+        "copy": "A common pubic hair style that's come and gone. However, in 2022 the landing stripe is making a serious comeback. Next time you get a wax just ask for one!",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1660257711e530e5e0": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "background_png_overlay",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Ever tried pubic care products?",
+        "heading_tag": "h1",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+        "position_desktop": "right",
+        "png_overlay_mobile": "shopify:\/\/shop_images\/Untitled_design_46.png",
+        "png_overlay_desktop": "shopify:\/\/shop_images\/Untitled_design_46.png",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca4d3cf3f0eb4af58e5a6ba2d29b4b72.mp4",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca4d3cf3f0eb4af58e5a6ba2d29b4b72.mp4",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 140,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4000,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_c09e937a-9d63-40ba-9e19-00be3563281e.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1645903101282b3b06": {
+      "type": "image-carousel",
+      "blocks": {
+        "43950189-d951-4117-ad63-585e86c81486": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Treatment.jpg",
+            "link": "",
+            "link_title": "Before and After Picture of Dark Underarms"
+          }
+        },
+        "690ca172-2c27-4ab5-946f-7dfe47eb1cc6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shaving_Trimmer_Pubic_Hair.jpg",
+            "link": "",
+            "link_title": "Before and after photo of hyperpigmentation in the underarms"
+          }
+        },
+        "4264da5c-da8f-4f8c-924d-f6664d7fe06a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_32acf772-7e89-4001-aa1f-f16019febbbb.jpg",
+            "link": "",
+            "link_title": "close up image of before and after of dark spots on the bikini line"
+          }
+        },
+        "1825790c-b006-4492-b2c9-613683e5069b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_33.jpg",
+            "link": "",
+            "link_title": "before and after of ingrown hairs and dark spots on the bikini line"
+          }
+        },
+        "c57f547b-164d-48e7-8fbd-487e677f9049": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_31.jpg",
+            "link": "",
+            "link_title": "hyperpigmentation before and after on the bikini line"
+          }
+        },
+        "546edb62-8f7a-40f5-bb16-dc956b4952eb": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_01c604bf-baf6-4a25-a92d-1507f8c6914e.jpg",
+            "link": "",
+            "link_title": "underarm darkening before and after"
+          }
+        }
+      },
+      "block_order": [
+        "43950189-d951-4117-ad63-585e86c81486",
+        "690ca172-2c27-4ab5-946f-7dfe47eb1cc6",
+        "4264da5c-da8f-4f8c-924d-f6664d7fe06a",
+        "1825790c-b006-4492-b2c9-613683e5069b",
+        "c57f547b-164d-48e7-8fbd-487e677f9049",
+        "546edb62-8f7a-40f5-bb16-dc956b4952eb"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1660257976d0fbb6b6": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "the-francesca-bikini-trimmer-for-pubic-hair",
+        "overwrite_heading": "<p>Bikini & Pubic Hair Trimmer<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Looking to groom your pubic hair? Give the Francesca Trimmer a try. <\/p><p>✓ Waterproof <\/p><p>✓ Rechargeable <\/p><p>✓ Convenient <\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "main": {
+      "type": "article",
+      "disabled": true,
+      "settings": {
+        "enable_sharing": true,
+        "enable_twitter_share": true,
+        "enable_facebook_share": true,
+        "enable_pinterest_share": true,
+        "enable_link_share": true
+      }
+    },
+    "164584807367844877": {
+      "type": "home-hero",
+      "disabled": true,
+      "settings": {
+        "title": "2022 Pubic Hair Trends & Styles",
+        "copy": "Learn the most popular pubic hair styles today.",
+        "cta_text": "Shop Pubic Hair Oils",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "position_mobile": "bottom",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/Bermuda-Oil-By-Bushbalm-Dark-Spots.mp4?v=1646153022",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/Dark_Spot_Oil_by_Bushbalm_Mobile.mp4?v=1646153275",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "4.8",
+        "review_count": 600,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1645886685ca379c03": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "",
+        "headline": "Verified Review",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"10164299470, 6798599454776, 6798599618616\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1645885072a421d2c7": {
+      "type": "content",
+      "blocks": {
+        "e3833214-5a54-4594-8856-837fbaee03d7": {
+          "type": "content_block",
+          "settings": {
+            "title": "Jojoba Seed Oil",
+            "copy": "Helps soften skin while increasing hydration and smoothness.",
+            "icon": "shopify:\/\/shop_images\/Jojoba_825dc920-6f06-4c7f-9937-723bf8331ea2.png"
+          }
+        },
+        "8ff91c7f-c63d-4484-a3cb-1128130db2f3": {
+          "type": "content_block",
+          "settings": {
+            "title": "Lemon Peel Oil",
+            "copy": "Acts as a natural exfoliant and helps brightens skin, while reducing the appearance of dark spots.",
+            "icon": "shopify:\/\/shop_images\/Lemon.png"
+          }
+        },
+        "d6ca68d2-2a0f-4290-be23-0139498a1bf6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tea Tree Oil",
+            "copy": "Fresh and revitalizing, helps calms skin and reduces redness after inflammation.",
+            "icon": "shopify:\/\/shop_images\/Tea_Tree.png"
+          }
+        },
+        "8fa1a8d4-e4ed-41e5-9448-a2199c75588b": {
+          "type": "content_block",
+          "settings": {
+            "title": "Grapeseed Oil",
+            "copy": "High in vitamin A & E; Grape seed Oil infuses skin and body hair with intense, soothing moisture.",
+            "icon": "shopify:\/\/shop_images\/Grapdeseed.png"
+          }
+        }
+      },
+      "block_order": [
+        "e3833214-5a54-4594-8856-837fbaee03d7",
+        "8ff91c7f-c63d-4484-a3cb-1128130db2f3",
+        "d6ca68d2-2a0f-4290-be23-0139498a1bf6",
+        "8fa1a8d4-e4ed-41e5-9448-a2199c75588b"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "hero-ingredients",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Hero Ingredients",
+        "copy": "Formulated with 6 natural ingredients to help improve the look of dark spots found anywhere on the body. The proprietary blend of botanical and essential oils acts as a natural exfoliant, brightens and softens skin while reducing the appearance of dark spots.",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "cta_text": "View Bermuda",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "164584866322f21831": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_mobile": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare-Pubic-Oil.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare-Pubic-Oil.jpg",
+        "image_offset": -32,
+        "preheading": "Bermuda",
+        "heading": "Dark Spot Oil",
+        "copy": "<p>Formulated to soften the appearance of Dark Spots & Hyperpigmentation<\/p>",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "cta_text": "Shop Now",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16458860213f812f21": {
+      "type": "featured-products",
+      "blocks": {
+        "416fae57-9e1d-4882-94c9-5d333aed86cb": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "title": "2 Step Routine",
+            "copy": "soften + soothe",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": ""
+          }
+        },
+        "e74ac24d-e943-4bba-9a6e-4538f428245e": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda  Dark Spot Oil",
+            "copy": "vitamin C + jojoba",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Best Seller"
+          }
+        },
+        "ce73ff40-c206-443c-a5e4-dc8ad242d5ac": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-bikini-line-kit",
+            "title": "3 Step Routine",
+            "copy": "bundle + save",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-bikini-line-kit",
+            "badge_text": "Best Value"
+          }
+        }
+      },
+      "block_order": [
+        "416fae57-9e1d-4882-94c9-5d333aed86cb",
+        "e74ac24d-e943-4bba-9a6e-4538f428245e",
+        "ce73ff40-c206-443c-a5e4-dc8ad242d5ac"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164589715870b52dc6": {
+      "type": "testimonials",
+      "blocks": {
+        "ceba1576-a7f8-4a14-b4a6-90fb57385356": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_-_Dark_Spot_Oil_for_All_Skin_Types_e0e2553e-d215-4d44-840c-b4ae0ce91822.png",
+            "content": "\"I am a huge fan of this oil, and it smells fantastic!  Paired with the Bermuda Scrub, it effectively diminishes dark spots.\"",
+            "name": "- Jane B",
+            "product": "dark-spot-treatment",
+            "product_image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+            "cta_text": "Shop Bermuda"
+          }
+        },
+        "4e0cda3c-cf3d-41d8-a44b-ae7a06f698c4": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+            "content": "\"I purchased the bundle pack where this oil came with the exfoliator and have been using it for a month and have seen great improvements.  If only the oil came in a bigger size!\"",
+            "name": "Dark Spot Routine",
+            "product": "dark-spot-bikini-line-kit",
+            "product_image": "shopify:\/\/shop_images\/3_Step_Routine_for_dark_spots.png",
+            "cta_text": "Shop the Routine"
+          }
+        },
+        "a9712be6-1421-442b-8ae4-c1d025aa6e4b": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+            "content": "\"This set really makes a difference in such a sort amount of time! I love it and my mom did too!\"",
+            "name": "- Melissa",
+            "product": "dark-spot-bikini-line-kit",
+            "product_image": "shopify:\/\/shop_images\/3_Step_Routine_for_dark_spots_d6629768-2510-4682-9752-edd764154477.png",
+            "cta_text": "Shop the Routine"
+          }
+        }
+      },
+      "block_order": [
+        "ceba1576-a7f8-4a14-b4a6-90fb57385356",
+        "4e0cda3c-cf3d-41d8-a44b-ae7a06f698c4",
+        "a9712be6-1421-442b-8ae4-c1d025aa6e4b"
+      ],
+      "disabled": true,
+      "settings": {
+        "intro": "Results",
+        "title": "Testimonials"
+      }
+    },
+    "164588714879dac2b0": {
+      "type": "content",
+      "blocks": {
+        "48f31c00-ed39-4f6f-b43e-3b228fb74b0c": {
+          "type": "content_block",
+          "settings": {
+            "title": "Use Daily",
+            "copy": "Add a few drops onto clean skin and massage gently until it begins to absorb. For best results, apply the oils within 2 minutes of showering or bathing."
+          }
+        },
+        "f8640712-3375-4a26-8da1-63068ecb99c6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Recommended Areas",
+            "copy": "Bikini line, underarms, legs, neck or anywhere else skin is experiencing dark spots, hyperpigmentation or discoloration."
+          }
+        }
+      },
+      "block_order": [
+        "48f31c00-ed39-4f6f-b43e-3b228fb74b0c",
+        "f8640712-3375-4a26-8da1-63068ecb99c6"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Ingrown_Hair_Treatment_for_Bikini_Line.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Ingrown_Hair_Treatment_for_Bikini_Line.jpg",
+        "image_size": "small",
+        "image_offset": -45,
+        "heading": "The Routine to Soften Your Pubic Hair",
+        "copy": "Softening the skin and hair is critical to achieve the optimal pubic hair.",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/routine-ingrown-treatment",
+        "cta_text": "View the Routine",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16379492308b6f383e": {
+      "type": "related-products",
+      "blocks": {
+        "a407af35-8eca-4b77-af15-acebfef4e4c3": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-treatment"
+          }
+        },
+        "e01c8fc1-8eec-46a0-848d-b08101853b22": {
+          "type": "related_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots"
+          }
+        },
+        "f412f636-22c5-4374-b212-e06aaca745d1": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-bikini-line-kit"
+          }
+        }
+      },
+      "block_order": [
+        "a407af35-8eca-4b77-af15-acebfef4e4c3",
+        "e01c8fc1-8eec-46a0-848d-b08101853b22",
+        "f412f636-22c5-4374-b212-e06aaca745d1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Bundle & Save",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164589754355f62b8c": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "product-advice",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_desktop": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+        "heading": "Pubic Hair Advice",
+        "copy": "For best results use oils daily, within 2 minutes of showering, as this is when the skin and pubic hair is more absorbent. \n\n[break] \nTo get the softest skin and be itch free we recommend also exfoliating your pubic hair between 2-3 times a week.",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "164590364180ea843a": {
+      "type": "related-products",
+      "blocks": {
+        "45420f10-5cdb-443d-a258-a79107a58b13": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-treatment"
+          }
+        },
+        "30f8f449-ce91-4c4d-9af1-4f03bf65853e": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-bikini-line-kit"
+          }
+        },
+        "17633b9b-8f85-4e28-9670-f5ee4a1334a4": {
+          "type": "related_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant"
+          }
+        }
+      },
+      "block_order": [
+        "45420f10-5cdb-443d-a258-a79107a58b13",
+        "30f8f449-ce91-4c4d-9af1-4f03bf65853e",
+        "17633b9b-8f85-4e28-9670-f5ee4a1334a4"
+      ],
+      "settings": {
+        "title": "Best Sellers",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16abac55-0cf1-407f-bcff-ee56a3ccdd7f": {
+      "type": "content",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#FFFFFF",
+        "increase_spacing": false,
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "",
+        "copy": "",
+        "subheading": "",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1645897817a64ecdb5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Our Mission",
+        "headline": "Solve common skin concerns — naturally!",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Start your routine",
+        "cta_link": "shopify:\/\/collections\/dark-spot-routine",
+        "cta_2_text": "View Before & Afters",
+        "cta_2_link": "shopify:\/\/blogs\/before-and-after",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1660256312e871f5c4",
+    "16602572638553e8b9",
+    "16602567682fd8acea",
+    "1660256859188a27cb",
+    "a6e23784-268f-4447-8610-931ec6915d68",
+    "2f954d52-abbd-4c1a-a2cf-f4699d5430b7",
+    "16602569871fe0e821",
+    "1660257042aec54f64",
+    "1660257099618fc534",
+    "1660257711e530e5e0",
+    "1645903101282b3b06",
+    "1660257976d0fbb6b6",
+    "main",
+    "164584807367844877",
+    "1645886685ca379c03",
+    "1645885072a421d2c7",
+    "164584866322f21831",
+    "16458860213f812f21",
+    "164589715870b52dc6",
+    "164588714879dac2b0",
+    "16379492308b6f383e",
+    "164589754355f62b8c",
+    "164590364180ea843a",
+    "16abac55-0cf1-407f-bcff-ee56a3ccdd7f",
+    "1645897817a64ecdb5"
+  ]
+}

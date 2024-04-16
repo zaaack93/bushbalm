@@ -1,0 +1,117 @@
+[
+  {
+    "name": "HC Mobile Nav",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Menus"
+      },
+      {
+        "type": "link_list",
+        "id": "hc_menu",
+        "label": "Menu",
+        "default": "main-menu"
+      },
+      {
+        "type": "header",
+        "content": "Disable on specific pages"
+      },
+      {
+        "type": "checkbox",
+        "id": "hc_menu_disable_on_pages",
+        "label": "Disable on pages",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "hc_menu_disable_on_collections",
+        "label": "Disable on collections",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "hc_menu_disable_on_products",
+        "label": "Disable on products",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "hc_menu_disable_on_blogs",
+        "label": "Disable on blogs",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "hc_menu_disable_on_articles",
+        "label": "Disable on articles",
+        "default": false
+      }
+    ]
+  },
+  {
+    "name": "Favicon",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon image",
+        "info": "Dimensions: 64 x 64 (.png format)"
+      }
+    ]
+  },
+  {
+    "name": "Shipping Insurance",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_product_insurance",
+        "label": "Enable product insurance",
+        "default": true
+      },
+      {
+        "type": "product",
+        "id": "insurance_product",
+        "label": "Insurance product"
+      }
+    ]
+  },
+  {
+    "name": "Schema",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "schema_logo",
+        "label": "Company Logo",
+        "info": "Minimum Dimensions: 112 x 112"
+      },
+      {
+        "type": "textarea",
+        "id": "schema_same_as",
+        "label": "Social Media URLs",
+        "info": "Comma separated list of social media URLs"
+      }
+    ]
+  },
+  {
+    "name": "Scripts",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "additional_scripts",
+        "label": "Additional Scripts",
+        "info": "Scripts to be added to site globally (before closing <\/head> in theme.liquid)"
+      }
+    ]
+  },
+  {
+    "name": "Ship Scout",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "shipscout_test_response",
+        "label": "Use test response",
+        "default": true
+      }
+    ]
+  }
+]

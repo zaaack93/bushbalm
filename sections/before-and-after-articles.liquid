@@ -1,0 +1,85 @@
+<script src="{{ 'before-and-after-articles.js' | asset_url }}" defer="defer"></script>
+{{ 'before-and-after-articles.css' | asset_url | stylesheet_tag }}
+
+{% if blog.articles.size > 0 %}
+  <div class="before-and-after-articles" data-before-after-articles>
+    {% render 'blog-nav' with
+      link_list: section.settings.blog_menu,
+      class: 'blog-nav--before-and-after'
+    %}
+    <div class="before-and-after-articles__wrapper wrapper">
+      {% paginate blog.articles by section.settings.posts_per_page %}
+        <div class="before-and-after-articles__list">
+          {% for article in blog.articles %}
+            <button
+              type="button"
+              class="before-and-after-articles__item"
+              id="before-and-after-modal-trigger"
+              title="{{ 'general.accessibility.read_post' | t: title: article.title }}"
+              aria-label="{{ 'general.accessibility.read_post' | t: title: article.title }}"
+              aria-controls="before-and-after-modal"
+              data-before-after-article-trigger="{{ article.handle }}">
+              {% render 'responsive-image' with
+                image: article.image,
+                max_width: 750,
+                max_height: 750,
+                wrapper_class: 'before-and-after-articles__item-image'
+              %}
+              <span aria-hidden>{% render 'icon-zoom' %}</span>
+            </button>
+          {% endfor %}
+        </div>
+        {% if paginate.pages > 1 %}
+          {% render 'pagination', paginate: paginate %}
+        {% endif %}
+      {% endpaginate %}
+    </div>
+
+    <div
+      class="before-and-after-articles__modal"
+      id="before-and-after-modal"
+      aria-labelledby="before-and-after-modal-trigger"
+      data-before-after-article-modal>
+      <div class="before-and-after-articles__modal-container" data-before-after-article-modal-container></div>
+      <div class="before-and-after-articles__modal-close">
+        <button
+          type="button"
+          aria-label="{{ 'blogs.article.close_blog_modal' | t }}"
+          data-before-after-article-modal-close>
+          {% render 'icon-close-small' %}
+        </button>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Before & After Articles",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Blog Navigation",
+        "info": "Only displays on the first page of results"
+      },
+      {
+        "type": "link_list",
+        "id": "blog_menu",
+        "label": "Blog Menu"
+      },
+      {
+        "type": "header",
+        "content": "Blog"
+      },
+      {
+        "type": "range",
+        "id": "posts_per_page",
+        "label": "Posts Per Page",
+        "min": 8,
+        "max": 20,
+        "step": 4,
+        "default": 12
+      }
+    ]
+  }
+{% endschema %}

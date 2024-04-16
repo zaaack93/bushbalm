@@ -1,0 +1,50 @@
+<script src="{{ 'content-nav.js' | asset_url }}" defer="defer"></script>
+{{ 'content-nav.css' | asset_url | stylesheet_tag }}
+
+<div class="content-nav" data-content-nav>
+  <div class="swiper-container" data-content-nav-slider>
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide">
+          <button
+            {% if forloop.first %}class="active"{% endif %}
+            title="Scroll to {{ block.settings.text }}"
+            aria-label="Scroll to {{ block.settings.text }}"
+            data-content-nav-link="{{ block.settings.uid }}">
+            {{- block.settings.text -}}
+          </button>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "blocks": [
+      {
+        "type": "link",
+        "name": "Scroll Link",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "text",
+            "id": "uid",
+            "label": "Unique Identifier"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Link Text"
+          }
+        ]
+      }
+    ],
+    "limit": 1,
+    "presets": [
+      {
+        "name": "Content Nav"
+      }
+    ]
+  }
+{% endschema %}

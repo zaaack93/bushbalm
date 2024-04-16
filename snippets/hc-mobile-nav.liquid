@@ -1,0 +1,102 @@
+{% assign disableOnPages = settings.hc_menu_disable_on_pages %}
+{% assign disableOnCollections = settings.hc_menu_disable_on_collections %}
+{% assign disableOnProducts = settings.hc_menu_disable_on_products %}
+{% assign disableOnBlogs = settings.hc_menu_disable_on_blogs %}
+{% assign disableOnArticles = settings.hc_menu_disable_on_articles %}
+{% assign pageType = request.page_type %}
+
+{%- capture hcMobileNav -%}
+<div class="hc__mobile-menu-wrapper">
+  <div class="hc__links-container">
+    {% for link in linklists[settings.hc_menu].links %}
+        <a class="hc__mobile-nav__link-main" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+    {% endfor %}
+  </div>
+</div>
+{%- endcapture -%}
+
+
+{% case pageType %}
+
+{% when 'page' %}
+  {% if disableOnPages %}
+
+  {% else %}  
+    {{hcMobileNav}}
+  {% endif %}
+
+{% when 'collection' %}  
+  {% if disableOnCollections %}
+
+  {% else %}  
+    {{hcMobileNav}}
+  {% endif %}
+
+{% when 'product' %}    
+  {% if disableOnProducts %}
+
+  {% else %}  
+    {{hcMobileNav}}
+  {% endif %}
+
+{% when 'blog' %}      
+  {% if disableOnBlogs %}
+
+  {% else %}  
+    {{hcMobileNav}}
+  {% endif %}
+
+{% when 'article' %}   
+  {% if disableOnArticles %}
+
+  {% else %}  
+    {{hcMobileNav}}
+  {% endif %}
+
+{% else %}
+  {{hcMobileNav}}
+
+{% endcase %}
+
+<style>
+  .hc__mobile-menu-wrapper {
+    display: none;
+  }
+  
+  @media screen and (max-width: 767px) {
+/*     .hc__header-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #shopify-section-hc-mobile-nav {
+      order: 3;      
+    } */
+    
+    .hc__mobile-menu-wrapper {
+      display: block;
+      padding: 5px 24px;
+    }
+
+    .hc__links-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      overflow: auto;
+      position: relative;
+      width: 100%;
+      text-transform: uppercase;
+    }
+  
+    .hc__mobile-nav__link-main {
+      white-space: nowrap;
+      padding: 10px 0.8rem;
+      outline: 2px solid transparent;
+      outline-offset: 2px;
+      justify-content: flex-start;
+      align-items: center;
+      display: flex;
+    }
+   
+  }  
+</style>

@@ -1,0 +1,755 @@
+<script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
+{{ 'product.css' | asset_url | stylesheet_tag }}
+
+<div class="product" data-product>
+  {% assign current_variant = product.selected_or_first_available_variant %}
+  {% assign featured_image = current_variant.featured_image | default: product.featured_image %}
+  <div
+    class="product__images-mobile swiper-container large--hide"
+    data-product-images
+  >
+    <div class="swiper-wrapper">
+      {% for image in product.images %}
+        {%- unless section.settings.hide_before_and_after_images == true
+          and image.id == 41105996251435
+          or image.id == 41105996415275
+          or image.id == 41105503453483
+          or image.id == 41105503420715
+          or image.id == 41105998741803
+          or image.id == 41105998709035
+          or image.id == 41105991008555
+          or image.id == 41105990975787
+          or image.id == 41106017157419
+          or image.id == 41106017190187
+          or image.id == 41106019582251
+          or image.id == 41106019647787
+          or image.id == 43840377422123
+          or image.id == 36714835312696
+          or image.id == 43856245457195
+          or image.id == 43856240607531
+          or image.id == 42816395542827
+          or image.id == 41106099503403
+          or image.id == 41106117853483
+          or image.id == 41106074698027
+          or image.id == 41106074272043
+          or image.id == 41106108317995
+          or image.id == 41106096455979
+          or image.id == 41106113397035
+          or image.id == 43840400654635
+          or image.id == 43840369262891
+          or image.id == 41106092851499
+          or image.id == 42561579778347
+          or image.id == 41106089476395
+          or image.id == 42570302587179
+          or image.id == 41106137973035
+          or image.id == 41106084266283
+          or image.id == 41106025939243
+          or image.id == 41106038325547
+          or image.id == 43856281207083
+          or image.id == 41106092818731
+          or image.id == 41106089378091
+          or image.id == 41106138661163
+          or image.id == 41106084233515
+          or image.id == 41106025906475
+          or image.id == 41106038358315
+          or image.id == 43856281567531
+        -%}
+          {% assign zoom_id = 'mobile-image-zoom--' | append: forloop.index %}
+          <div class="swiper-slide" data-mobile-image-id="{{ image.id }}">
+            {%
+              render 'responsive-image' with
+              image: image,
+              max_width: 750,
+              max_height: 750
+            %}
+            {% render 'product-image-badge' %}
+            <button
+              class="product__zoom-mobile"
+              aria-hidden
+              data-open-modal="{{ zoom_id }}"
+            >
+              {% render 'icon-zoom' %}
+            </button>
+          </div>
+          {% capture zoom_modal_content %}
+            {% render 'responsive-image' with
+              image: image,
+              max_width: 750,
+              max_height: 750
+            %}
+          {% endcapture %}
+          {%
+            render 'modal' with
+            content: zoom_modal_content,
+            id: zoom_id,
+            full_height_content: true,
+            additional_classes: 'product-image-modal'
+          %}
+        {%- endunless -%}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="product__container wrapper">
+    <div class="product__gallery">
+      <div class="product__gallery-container">
+        <div class="product__images medium-down--hide" data-product-images-container-desktop>
+          {% for image in product.images %}
+            <div
+              id="image-{{ forloop.index }}"
+              role="tab-panel"
+              aria-label="{{ product.title }} Image {{ forloop.index }}"
+              aria-labelledby="thumbnail-{{ forloop.index }}"
+            >
+              {% capture product_image_state %}
+                {% unless featured_image == image %}
+                  hide
+                {% endunless %}
+              {% endcapture %}
+
+              {% capture img_attr %}
+                data-zoom="{{ image | img_url: '2000x' }}"
+              {% endcapture %}
+
+              {%
+                render 'responsive-image' with
+                image: image,
+                max_width: 800,
+                max_height: 800,
+                wrapper_class: product_image_state,
+                wrapper_attributes: "data-product-image-wrapper",
+                image_attributes: img_attr,
+                id_suffix: 'product-desktop'
+              %}
+            </div>
+          {% endfor %}
+
+          {% render 'product-image-badge' %}
+
+          <div class="product__zoom-icon" aria-hidden>
+            {% render 'icon-zoom' %}
+          </div>
+        </div>
+
+        {% if product.images.size > 1 %}
+          <div
+            class="product__thumbnails-container swiper-container medium-down--hide"
+            data-product-thumnails-container
+          >
+            <ul
+              class="product__thumbnails swiper-wrapper"
+              role="tablist"
+              aria-label="{{ product.title }} Thumbnails"
+            >
+              {% for image in product.images %}
+                <li
+                  id="thumbnail-{{ forloop.index }}"
+                  class="product__thumbnail swiper-slide{% if forloop.first %} active{% endif %}"
+                  tabindex="0"
+                  role="tab"
+                  aria-label="{{ product.title }} Thumbnail {{ forloop.index }}"
+                  aria-controls="image-{{ forloop.index }}"
+                  aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+                  data-image-id="{{ image.id }}"
+                  data-product-thumbnail
+                >
+                  {%
+                    render 'responsive-image' with
+                    image: image,
+                    max_width: 104,
+                    max_height: 104,
+                    id_suffix: 'thumbnail'
+                  %}
+                </li>
+              {% endfor %}
+            </ul>
+            <button
+              class="product__thumbnails-nav product__thumbnails-nav--prev"
+              data-product-thumnails-prev
+            >
+              {%- render 'icon-chevron-up' -%}
+            </button>
+            <button
+              class="product__thumbnails-nav product__thumbnails-nav--next"
+              data-product-thumnails-next
+            >
+              {%- render 'icon-chevron-down' -%}
+            </button>
+          </div>
+        {% endif %}
+      </div>
+
+      {% if section.settings.product_video_enable %}
+        <div class="medium-down--hide">
+          {% render 'product-video' %}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="product__details">
+      {% capture classes %}product__form{% if product.variants.size == 1 %} product__form--single{% endif %}
+      {% unless section.settings.product_form_enable %} product__form--hidden{% endunless %}
+      {% if product.variants.size > 1 and product.metafields.custom_fields["routine_bundle_options"] != blank %} product__form--bundle{% endif %}
+      {% endcapture %}
+      {% form 'product', product, class: classes, data-product-form: '', data-loop-product-id: product.id %}
+
+          <form class="product__form{% if product.variants.size == 1 %} product__form--single{% endif %}
+          {% unless section.settings.product_form_enable %} product__form--hidden{% endunless %}
+          {% if product.variants.size > 1 and product.metafields.custom_fields["routine_bundle_options"] != blank %} product__form--bundle{% endif %}"
+          action="{{ routes.cart_add_url }}"
+          method="post"
+          enctype="multipart/form-data"
+          data-product-form>
+
+        <!-- Stamped - Begin Star Rating Badge -->
+        <span
+          class="stamped-product-reviews-badge stamped-main-badge"
+          data-id="{{ product.id }}"
+          data-product-sku="{{product.selected_or_first_available_variant.sku}}"
+          data-product-title="{{product.title}}"
+          data-product-type="{{product.type}}"
+          style="display: block;"
+        >
+        </span>
+        <!-- Stamped - End Star Rating Badge -->
+
+        {% if product.variants.size == 1 and product.metafields.custom_fields.variant_info_above != blank %}
+          <div
+            class="
+              product__variant-info product__variant-info--above
+              {% if product.metafields.custom_fields["variant_info_above_bold"] == 1 %}product__variant-info--bold{% endif %}
+            "
+          >
+            <p class="active">{{ product.metafields.custom_fields.variant_info_above }}</p>
+          </div>
+        {% else %}
+          <div class="product__variant-info product__variant-info--above">
+            {% for variant in product.variants %}
+              {% if variant.metafields.custom_fields.variant_info_above != blank %}
+                <p
+                  {% if variant.metafields.custom_fields.variant_info_above_bold == 1 %}
+                    class="text-bold"
+                  {% endif %}
+                  data-product-variant-text="{{ variant.id }}"
+                  {% if variant == product.selected_or_first_available_variant %}
+                    class="active"
+                  {% endif %}
+                >
+                  {{- variant.metafields.custom_fields.variant_info_above -}}
+                </p>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <h1>{{ product.metafields.custom_fields.product_title | default: product.title }}</h1>
+
+        {% if product.variants.size == 1 and product.metafields.custom_fields.variant_info != blank %}
+          <div
+            class="
+              product__variant-info
+              {% if product.metafields.custom_fields["variant_info_below_bold"] == 1 %}product__variant-info--bold{% endif %}
+            "
+          >
+            <p class="active">{{ product.metafields.custom_fields.variant_info }}</p>
+          </div>
+        {% else %}
+          <div class="product__variant-info">
+            {% for variant in product.variants %}
+              {% if variant.metafields.custom_fields.variant_info != blank %}
+                <p
+                  {% if variant.metafields.custom_fields.variant_info_below_bold == 1 %}
+                    class="text-bold"
+                  {% endif %}
+                  data-product-variant-text="{{ variant.id }}"
+                  {% if variant == product.selected_or_first_available_variant %}
+                    class="active"
+                  {% endif %}
+                >
+                  {{- variant.metafields.custom_fields.variant_info -}}
+                </p>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <div class="product__meta">           
+       {% unless product.compare_at_price %} 
+        <span class="product__price" data-product-price>
+            {{ current_variant.price | money_without_currency }}
+          </span>
+        {% endunless %}
+
+
+          {% if product.compare_at_price_max > product.price %}
+          <span class="product__price" data-product-price style="color:tomato;">
+            {{ current_variant.price | money_without_currency }}
+          </span>
+          <span class="product__price product__price--compare" data-product-compare-price>
+              {{ current_variant.compare_at_price | money_without_currency }}
+            </span>
+            <span class="product__price">
+              {% assign save = current_variant.compare_at_price
+                | minus: current_variant.price
+                | money_without_currency
+                | replace: '.00', ''
+              %}
+              {{- 'products.product.save_money' | t: value: save -}}
+            </span>
+          {% endif %}
+
+          {% if section.settings.enable_paybright_widget %}
+            {% comment %}
+              <script id="pb_prequalify" src="https://app.paybright.com/dist/sdk.js?public_key=IccCHRnakjHhegTZXwmFhLNRFFAQp2q8pWwJqvRDyzS28NT1XM&financedamount=${{ product.price | divided_by: 100.00 | round: 2 }}"></script>
+              <script>
+                pb_prequalify_init();
+              </script>
+              <div class="paybright-widget-container"></div>
+            {% endcomment %}
+            <div class="affirm__widget"></div>
+          {% endif %}
+        </div>
+        {%- style -%}
+          #loop {
+            order: 5;
+            margin-bottom: 16px;
+          }
+          p.estimateDD {
+            visibility: hidden;
+            order: 9;
+          }
+          @media screen and (max-width: 600px){
+            .estimateDD { font-size:12px; }
+          }
+        {%- endstyle -%}
+        <div id="loop">
+          {% comment %}
+            DO NOT modify this source code
+             <!-- START - LOOP WIDGET POSITION TEST LINE 258 TO 368 -->
+          {% endcomment %}
+          {% assign template_exists = false %}
+          {% capture template_content %}
+                  {% render 'loop-subscriptions', type: 'product-widget', product: product %}
+              {% endcapture %}
+
+          {% if template_content contains 'Rendering loop-subscriptions' %}
+            {% assign template_exists = true %}
+          {% endif %}
+
+          {% if template_exists %}
+            {% render 'loop-subscriptions', type: 'product-widget', product: product %}
+          {% endif %}
+          {% comment %}
+            <!-- END - LOOP WIDGET POSITION TEST LINE 258 TO 368 -->
+          {% endcomment %}
+        </div>
+        <!-- START - ESTIMATED SHIPPING DELIVERY COPY -->
+        {% assign startDay = 5 | times: 86400 %}
+        {% assign endDay = 7 | times: 86400 %}
+        <p class="estimateDD" style="text-align:center;">
+          <span>Estimated delivery date:</span>
+          <strong>
+            {{- 'now' | date: '%s' | plus: startDay | date: '%a, %b %d' }} -
+            {{ 'now' | date: '%s' | plus: endDay | date: '%a, %b %d' -}}
+          </strong>
+        </p>
+        <!-- END - ESTIMATED SHIPPING DELIVERY COPY -->
+        {% if product.variants.size > 1 and product.metafields.custom_fields.routine_bundle_options != blank %}
+          {% render 'product-bundle-builder' %}
+        {% endif %}
+
+        <select class="hide" name="id" id="productSelect-{{ product.id }}" data-product-select>
+          {% for variant in product.variants %}
+            {% if variant.available %}
+              <option
+                {% if variant == product.selected_or_first_available_variant %}
+                  selected="selected"
+                {% endif %}
+                data-sku="{{ variant.sku }}"
+                data-price="{{ variant.price }}"
+                value="{{ variant.id }}"
+              >
+                {{ variant.title }} - {{ variant.price | money_with_currency }}
+              </option>
+            {% else %}
+              <option disabled="disabled">{{ variant.title }} - {{ 'products.product.sold_out' | t }}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+
+        <div class="product__form-atc">
+          {% render 'product-quantity-selector' %}
+
+          <button
+            type="button"
+            name="add"
+            class="product__submit btn btn--full btn--chocolate"
+            data-product-submit
+            {% if product.variants.size > 1 and product.metafields.custom_fields.routine_bundle_options != blank %}
+              data-product-bundle-builder-atc
+            {% endif %}
+          >
+            <span class="visually-hidden">{{ product.title }} - <span data-product-price></span></span>
+            <span>
+              <span data-product-submit-text>{{ 'products.product.add_to_cart' | t }}</span>
+              &nbsp;&#124;&nbsp;<span data-product-price data-product-price-quantity></span>
+            </span>
+          </button>
+        </div>
+        {% if section.settings.checkout_buttons %}
+          {% comment %} This is the dynamic checkout button  <div class="hc-dynamic-buttons">{{ form | payment_button }}</div> {% endcomment %}
+
+          {% if product.handle == 'ingrown-hair-oil' %}
+            <div class="hc-dynamic-buttons">
+              <a
+                href="https://www.ulta.com/p/ingrown-hair-oil-pimprod2037965?sku=2606074"
+                class="btn btn--ulta btn--full init ulta-btn"
+                >OR BUY AT ULTA BEAUTY</a
+              ><br>
+              <br>
+            </div>
+
+          {% elsif product.handle == 'dark-spot-corrector' %}
+            <div class="hc-dynamic-buttons">
+              <a
+                href="https://www.ulta.com/p/dark-spot-oil-pimprod2037964?sku=2606076"
+                class="btn btn--ulta btn--full init ulta-btn"
+                >OR BUY AT ULTA BEAUTY</a
+              ><br>
+              <br>
+            </div>
+
+          {% elsif product.handle == 'frosted-cranberry-ingrown-hair-oil' %}
+            <div class="hc-dynamic-buttons">
+              <a
+                href="https://www.ulta.com/p/ingrown-hair-oil-pimprod2037965?sku=2617211"
+                class="btn btn--ulta btn--full init ulta-btn"
+                >OR BUY AT ULTA BEAUTY</a
+              ><br>
+              <br>
+            </div>
+
+          {% elsif product.handle == 'the-francesca-bikini-trimmer-for-pubic-hair' %}
+            <div class="hc-dynamic-buttons">
+              <a
+                href="https://www.ulta.com/p/francesca-pubic-body-hair-trimmer-pimprod2041475?sku=2617209"
+                class="btn btn--ulta btn--full init ulta-btn"
+                >OR BUY AT ULTA BEAUTY</a
+              ><br>
+              <br>
+            </div>
+
+          {% elsif product.handle == 'nude-exfoliating-scrub' %}
+            <div class="hc-dynamic-buttons">
+              <a
+                href="https://www.ulta.com/p/ingrown-hair-exfoliating-scrub-pimprod2037967?sku=2606075"
+                class="btn btn--ulta btn--full init ulta-btn"
+                >OR BUY AT ULTA BEAUTY</a
+              ><br>
+              <br>
+            </div>
+
+          {% elsif product.handle == 'sweet-escape-oil' %}
+            <div class="hc-dynamic-buttons">
+              <a
+                href="https://www.ulta.com/p/ingrown-hair-oil-pimprod2037965?sku=2606078"
+                class="btn btn--ulta btn--full init ulta-btn"
+                >OR BUY AT ULTA BEAUTY</a
+              ><br>
+              <br>
+            </div>
+
+          {% elsif product.handle == 'roller-rescue-soothing-serum' %}
+            <div class="hc-dynamic-buttons">
+              <a
+                href="https://www.ulta.com/p/roller-rescue-soothing-serum-with-ahabha-pimprod2041905?sku=2617210"
+                class="btn btn--ulta btn--full init ulta-btn"
+                >OR BUY AT ULTA BEAUTY</a
+              ><br>
+              <br>
+            </div>
+
+          {% elsif product.handle == '2-step-hyperpigmentation-products'
+            or '2-step-routine-hyperpigmentation-dark-spots'
+            or 'dark-spot-bikini-line-kit'
+            or '3-step-routine-pina-colada-dark-spots-minimizer-kit'
+          %}
+            <div class="hc-dynamic-buttons">
+              <button type="button" class="btn btn--buyNow btn--full init" data-buy-now><span>Buy now</span></button>
+              <script>
+                document.querySelector('[data-buy-now]').addEventListener('click', () => {
+                  let addToCartForm = document.querySelector('form[action$="/cart/add"]');
+                  let formData = new FormData(addToCartForm);
+                  fetch(window.Shopify.routes.root + 'cart/add.js', {
+                    method: 'POST',
+                    body: formData
+                  })
+                  .then(response => {
+                    window.location.href = '/checkout';
+                    return response.json();
+                  })
+                  .catch((error) => {
+                    console.error('Error:', error);
+                  });
+                });
+              </script>
+              <br>
+              <br>
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endform %}
+
+      {% if section.settings.promo_banner_enable %}
+        {% render 'product-promo' %}
+      {% endif %}
+
+      {% if section.settings.product_details_enable %}
+        {% if product.metafields.custom_fields.product_details_text != blank %}
+          <div class="product__description">
+            <h2>{{ 'products.product.details_heading' | t }}</h2>
+            <p>{{ product.metafields.custom_fields.product_details_text }}</p>
+          </div>
+        {% elsif product.description != blank %}
+          <div class="product__description rte">
+            <h2>{{ 'products.product.details_heading' | t }}</h2>
+            {{ product.description }}
+          </div>
+        {% endif %}
+      {% endif %}
+
+      {% if section.settings.info_accordion_enable %}
+        {% render 'product-info-accordions' %}
+      {% endif %}
+
+      {% if section.settings.product_icons_enable and product.metafields.custom_fields.product_icons != blank %}
+        <div class="product__icons">
+          {% for item in product.metafields.custom_fields.product_icons %}
+            <div class="product__icon">
+              <img
+                class="lazyload"
+                alt="{{ item["text"] }}"
+                src="{{ item["icon"] }}"
+                data-src="{{ item["icon"] }}"
+              >
+              <p>{{ item.text }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if section.settings.product_video_enable %}
+        <div class="large--hide">
+          {% render 'product-video' %}
+        </div>
+      {% endif %}
+
+      {% if section.settings.ingredients_accordion_enable %}
+        {% render 'product-ingredients' %}
+      {% endif %}
+
+      {% if section.settings.bundle_upsells_enable %}
+        {% render 'bundle-upsells' %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% render 'schema-product' %}
+
+{% style %}
+  div[data-testid="ShopifyPay-button"]{
+    border-radius: 32px;
+  }
+{% endstyle %}
+
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    var selectCallback = function(variant, selector) {
+      product.form({
+        variant: variant,
+        selector: selector
+      });
+    };
+
+    new Shopify.OptionSelectors('productSelect-{{ product.id }}', {
+      product: {{ product | json }},
+      onVariantSelected: selectCallback,
+      enableHistoryState: false
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Product",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Paybright"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_paybright_widget",
+      "label": "Enable Paybright widget",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Promo Banner",
+      "info": "Displayed on user's second visit to the site"
+    },
+    {
+      "type": "checkbox",
+      "id": "promo_banner_enable",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "promo_banner_always",
+      "label": "Always Show",
+      "default": false,
+      "info": "Show to user regardless of visit count"
+    },
+    {
+      "type": "text",
+      "id": "promo_banner_klaviyo",
+      "label": "Klaviyo Link",
+      "default": "https://manage.kmail-lists.com/subscriptions/subscribe?a=NUAVpz&g=KZSWSR",
+      "info": "Link to the desired klaviyo subscribe form"
+    },
+    {
+      "type": "number",
+      "id": "promo_banner_discount",
+      "label": "Discount Percentage",
+      "default": 20
+    },
+    {
+      "type": "textarea",
+      "id": "promo_banner_text",
+      "label": "Text",
+      "default": "Or pay only [] on your first order by joining our mailing list.",
+      "info": "[] is replaced by product price with discount applied"
+    },
+    {
+      "type": "text",
+      "id": "promo_banner_cta",
+      "label": "CTA Text",
+      "default": "Redeem offer",
+      "info": "Opens Klaviyo form"
+    },
+    {
+      "type": "header",
+      "content": "Product Form"
+    },
+    {
+      "type": "checkbox",
+      "id": "product_form_enable",
+      "label": "Enable",
+      "default": true,
+      "info": "Disabling removes Add To Cart"
+    },
+    {
+      "type": "header",
+      "content": "Product Details",
+      "info": "Set up with Product Metafields"
+    },
+    {
+      "type": "checkbox",
+      "id": "product_details_enable",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Info Accordion",
+      "info": "Set up with Product Metafields"
+    },
+    {
+      "type": "checkbox",
+      "id": "info_accordion_enable",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Product Icons",
+      "info": "Set up with Product Metafields"
+    },
+    {
+      "type": "checkbox",
+      "id": "product_icons_enable",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Product Video",
+      "info": "Set up with Product Metafields"
+    },
+    {
+      "type": "checkbox",
+      "id": "product_video_enable",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Ingredients Accordion",
+      "info": "Set up with Product Metafields"
+    },
+    {
+      "type": "checkbox",
+      "id": "ingredients_accordion_enable",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "ingredients_accordion_view",
+      "label": "View Full Ingredients CTA Text",
+      "default": "View Full Ingredient List"
+    },
+    {
+      "type": "text",
+      "id": "ingredients_accordion_hide",
+      "label": "Hide Full Ingredients CTA Text",
+      "default": "Hide Full Ingredient List"
+    },
+    {
+      "type": "header",
+      "content": "Bundle Upsells",
+      "info": "Set up with Product Metafields"
+    },
+    {
+      "type": "checkbox",
+      "id": "bundle_upsells_enable",
+      "label": "Enable",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "bundle_upsells_heading",
+      "label": "Heading",
+      "default": "Save with Bundles"
+    },
+    {
+      "type": "header",
+      "content": "Dynamic checkout buttons"
+    },
+    {
+      "type": "checkbox",
+      "id": "checkout_buttons",
+      "label": "Enable dymanic checkout buttons",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_before_and_after_images",
+      "label": "Hide before and after images",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

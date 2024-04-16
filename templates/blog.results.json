@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "1642188508faf9a154": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#fbf0e4",
+        "image_mobile": "shopify:\/\/shop_images\/Before_After_Bushbalm.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Before_and_after_bushbalm_larger.jpg",
+        "image_offset": -72,
+        "preheading": "Results",
+        "heading": "Before & After",
+        "copy": "<p>We love seeing before and after results! If you'd like to submit please send an email to <a href=\"mailto:team@mybushbalm.com\" title=\"mailto:team@mybushbalm.com\">team@mybushbalm.com<\/a><\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "main": {
+      "type": "before-and-after-articles",
+      "settings": {
+        "blog_menu": "results-blog-tags-pointer",
+        "posts_per_page": 8
+      }
+    },
+    "16538591709da62663": {
+      "type": "featured-products",
+      "blocks": {
+        "69725261-70a8-4d7d-bab2-d5639caaf92c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Dark Spot Oil",
+            "copy": "For dark spots, hyperpigmentation & overall hydration.",
+            "rating": 5,
+            "cta_text": "Learn More",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": ""
+          }
+        },
+        "753c1692-f3ed-4023-8c7f-a8bff7cbdab7": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sweet-escape-oil",
+            "title": "Sweet Escape Oil",
+            "copy": "For ingrown hairs, razor burn and overall hydration.",
+            "rating": 5,
+            "cta_text": "Learn More",
+            "cta_link": "",
+            "badge_text": ""
+          }
+        },
+        "aeeeee75-8582-4c96-b416-6e11d1856a0d": {
+          "type": "featured_product",
+          "settings": {
+            "product": "nude-exfoliating-scrub",
+            "title": "Nude Exfoliating Body Scrub",
+            "copy": "For ingrown hairs, razor burn & ultra hydrating exfoliation",
+            "rating": 5,
+            "cta_text": "Learn More",
+            "cta_link": "shopify:\/\/products\/routine-ingrown-treatment",
+            "badge_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "69725261-70a8-4d7d-bab2-d5639caaf92c",
+        "753c1692-f3ed-4023-8c7f-a8bff7cbdab7",
+        "aeeeee75-8582-4c96-b416-6e11d1856a0d"
+      ],
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1642188513e6d80475": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Reviews",
+        "headline": "See what people are saying about Bushbalm.",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Read Reviews",
+        "cta_link": "shopify:\/\/pages\/reviews",
+        "cta_2_text": "Shop Now",
+        "cta_2_link": "shopify:\/\/collections\/all",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1642188508faf9a154",
+    "main",
+    "16538591709da62663",
+    "1642188513e6d80475"
+  ]
+}

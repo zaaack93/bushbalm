@@ -1,0 +1,528 @@
+{
+  "sections": {
+    "1664206522221d0530": {
+      "type": "promo-banner",
+      "blocks": {
+        "4a522749-7c96-4096-be4a-d89cb0353257": {
+          "type": "single_image",
+          "disabled": true,
+          "settings": {
+            "single_image": "shopify:\/\/shop_images\/Merchandising_-_Free_Gifts_Headers_2_c763a388-f328-4a60-8de7-391ebd132517.png",
+            "single_image_width_mobile": 170,
+            "single_image_width_desktop": 250
+          }
+        },
+        "74913465-313e-4e2f-b661-92730699bb9e": {
+          "type": "promo_heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Best Sellers<\/p>",
+            "heading_color": "#271710"
+          }
+        },
+        "23da44c1-bc3a-4c13-bd45-14bfe7d01e4a": {
+          "type": "promo_product_list",
+          "disabled": true,
+          "settings": {
+            "product_list": [
+              "the-body-rock",
+              "tush-cream-100ml"
+            ]
+          }
+        },
+        "1bfd36be-6df0-4043-9948-e98159e52241": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>Something Radiant Is Coming Soon..<br\/><a href=\"https:\/\/bushbalm.com\/pages\/coming-soon-reset\" title=\"https:\/\/bushbalm.com\/pages\/coming-soon-reset\"><span style=\"text-decoration:underline\">Sign Up For Early Access<\/span><\/a><\/p>",
+            "subheading_color": "#271710"
+          }
+        },
+        "88047b85-b470-4075-8459-0ab5ee5574fc": {
+          "type": "promo_cta",
+          "disabled": true,
+          "settings": {
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "4a522749-7c96-4096-be4a-d89cb0353257",
+        "74913465-313e-4e2f-b661-92730699bb9e",
+        "23da44c1-bc3a-4c13-bd45-14bfe7d01e4a",
+        "1bfd36be-6df0-4043-9948-e98159e52241",
+        "88047b85-b470-4075-8459-0ab5ee5574fc"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#c89adf",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0",
+        "reduce_size_on_mobile": true
+      }
+    },
+    "e63cf194-7456-4826-b263-d53129805a6d": {
+      "type": "home-hero-image",
+      "disabled": true,
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/new_mobile_bfcm_gift_2.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/BFCM_Free_Gift_Desktop_1600_x_200_px_1400_x_200_px_1.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16642057410e2620ca": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": 0,
+        "preheading": "Shop The Line",
+        "heading": "{{ collection.title }}",
+        "copy": "<p>{{ collection.metafields.custom.collection_secondary_header_text.value }}<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "aed21697-5d79-4bb2-97d0-f03504167f0f": {
+      "type": "trust-bar",
+      "blocks": {
+        "f131dbc7-c3e3-4bd4-9a98-fee3a6f84daa": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "25% Off"
+          }
+        },
+        "ba733cad-0e60-4246-98a0-72dc9087bd87": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "25% Off"
+          }
+        },
+        "527321e4-937c-4784-85c6-85bbd83d9d0b": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "25% Off"
+          }
+        },
+        "eca1117c-963c-414c-964f-b23f6cd92aa8": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "",
+            "title": "25% Off"
+          }
+        }
+      },
+      "block_order": [
+        "f131dbc7-c3e3-4bd4-9a98-fee3a6f84daa",
+        "ba733cad-0e60-4246-98a0-72dc9087bd87",
+        "527321e4-937c-4784-85c6-85bbd83d9d0b",
+        "eca1117c-963c-414c-964f-b23f6cd92aa8"
+      ],
+      "disabled": true,
+      "settings": {
+        "speed": 8000,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16565267017b741a18": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "bikini-ready-body-bundle",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p><strong>Limited Time Savings!<\/strong><\/p><p>✓2 <strong>Free<\/strong> Gifts + <strong>Free<\/strong> Shipping<\/p><p>✓ Guaranteed to get your bikini line + body spring break ready<\/p><p>✓ Available for this week only<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "image_2": "shopify:\/\/shop_images\/nourishingbodywashspaday.jpg",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "150px"
+      }
+    },
+    "16373478161b555e27": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align_desktop": "left",
+        "text_align_mobile": "left",
+        "enable_truncate": true,
+        "truncate_threshold": 14,
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Product_Collection.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Mobile_Product_Collection.jpg",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "65dbb04c-c235-4909-9eac-07e582678720": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter By Product",
+            "group_title": "Product Type",
+            "group_title_mobile": "By Type",
+            "tags_list": "bundles-and-sets, bestsellers, exfoliating-scrubs, firming-creams, soothing-oils, tools-and-accessories, body-cleanser, vajacial-masks"
+          }
+        },
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69": {
+          "type": "tag_filter_group",
+          "disabled": true,
+          "settings": {
+            "toggle_text": "Filter By Concern",
+            "group_title": "Concerns",
+            "group_title_mobile": "By Concern",
+            "tags_list": "dark-spots, ingrown-hairs, razor-burn, keratosis-pilaris, stretchmarks, hyperpigmentation"
+          }
+        }
+      },
+      "block_order": [
+        "65dbb04c-c235-4909-9eac-07e582678720",
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69"
+      ],
+      "settings": {
+        "pagination_count": 70
+      }
+    },
+    "1646578893a810ad61": {
+      "type": "press-highlights",
+      "blocks": {
+        "e3d6f8dd-2963-4799-8f17-4e70acc49752": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/forbes_14ef8883-1bcd-4086-8da4-3dd17c9fea35.png",
+            "logo_height": 23,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "0e206093-cb56-4eee-bc23-76dbcd95eda5": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Women's Health",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo": "shopify:\/\/shop_images\/womens-health-logo_8e16cad1-c1c0-448d-974b-7d2e3475787e.png",
+            "logo_height": 23,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        },
+        "82b51b70-b5fa-4c00-b666-854b5691f910": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo": "shopify:\/\/shop_images\/cha_2a57250a-c2b9-4d30-a006-b9cd91d35f42.png",
+            "logo_height": 22,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#ffffff",
+            "invert_logos": false
+          }
+        },
+        "752e0f78-fb3b-4dd1-8ab4-e9dcf505758d": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Elle",
+            "copy": "“The irresistibly creamy formula can be used anywhere you want a little extra firming action”",
+            "logo": "shopify:\/\/shop_images\/l-elle_5ffd084d-0256-4bdc-9b45-ae0a87760cc4.png",
+            "logo_height": 24,
+            "bg_color": "#7a482a",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "e3d6f8dd-2963-4799-8f17-4e70acc49752",
+        "0e206093-cb56-4eee-bc23-76dbcd95eda5",
+        "82b51b70-b5fa-4c00-b666-854b5691f910",
+        "752e0f78-fb3b-4dd1-8ab4-e9dcf505758d"
+      ],
+      "disabled": true,
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164657908928936c34": {
+      "type": "image-carousel",
+      "blocks": {
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e9c8c440-0741-436c-94e9-7851b19970d5": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_-_Dark_Spot_Oil_for_All_Skin_Types_e0e2553e-d215-4d44-840c-b4ae0ce91822.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_Reviews_Tush_Cream_2d3bc290-fd7e-473d-92a8-00691310d98c.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "6efb635d-1c90-4b01-972a-7b100a712f04": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d",
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e",
+        "e9c8c440-0741-436c-94e9-7851b19970d5",
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30",
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542",
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8",
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d",
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c",
+        "6efb635d-1c90-4b01-972a-7b100a712f04"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "16px",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "16px"
+      }
+    },
+    "166420573137eecc02": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align_desktop": "left",
+        "text_align_mobile": "left",
+        "enable_truncate": false,
+        "truncate_threshold": 25,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16642235253ed9d004": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "3cf45ad3-afe1-4012-9346-48f77379efcb": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_Bushbalm_Skincare.webp",
+            "heading": "Dark Spots",
+            "cta_text": "Shop Collection",
+            "url": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "63af78f2-2438-42f6-8736-e5aca7dab5dd": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hair_Producs.jpg",
+            "heading": "Ingrown Hair + Razor Burn",
+            "cta_text": "Shop Collection",
+            "url": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        },
+        "6979dc92-8dff-4fa7-9b22-06384d1f0ca9": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_2.jpg",
+            "heading": "Bundles + Sets",
+            "cta_text": "Shop Collection",
+            "url": "shopify:\/\/collections\/bundles"
+          }
+        },
+        "8f6a0b68-125a-47bd-91d2-f18b64246df9": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1294_X_1756_Content_-_Desktop_-_Large_2.jpg",
+            "heading": "Bestsellers",
+            "cta_text": "Shop Collection",
+            "url": "shopify:\/\/collections\/best-sellers"
+          }
+        },
+        "33299eb9-5cd3-4d36-8833-e20914a99699": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Toots_and_Accessories.jpg",
+            "heading": "Body Tools",
+            "cta_text": "Shop Collection",
+            "url": "shopify:\/\/collections\/tools-accessories"
+          }
+        },
+        "ec67e423-7411-4651-a311-100d20f9898a": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bikini_Pubic_Hair_Trimmer_95bf3e90-405c-42e5-b297-36bee2927114.jpg",
+            "heading": "Trimmer",
+            "cta_text": "Shop Collection",
+            "url": "shopify:\/\/collections\/the-francesca-trimmer"
+          }
+        }
+      },
+      "block_order": [
+        "3cf45ad3-afe1-4012-9346-48f77379efcb",
+        "63af78f2-2438-42f6-8736-e5aca7dab5dd",
+        "6979dc92-8dff-4fa7-9b22-06384d1f0ca9",
+        "8f6a0b68-125a-47bd-91d2-f18b64246df9",
+        "33299eb9-5cd3-4d36-8833-e20914a99699",
+        "ec67e423-7411-4651-a311-100d20f9898a"
+      ],
+      "settings": {
+        "carousel_heading": "Explore More"
+      }
+    },
+    "16642065148e6155bb": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "0c7d395d-f382-4e55-9118-f1b6bae04523": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "enable_sub_text": true
+          }
+        },
+        "cecfed80-9e20-4a2b-a782-8204b9f60499": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair",
+            "enable_sub_text": true
+          }
+        },
+        "cf39efa0-e2ca-483a-b9ad-6aa51174bde2": {
+          "type": "featured_product",
+          "settings": {
+            "product": "routine-ingrown-treatment",
+            "enable_sub_text": true
+          }
+        },
+        "3ccae324-069e-46fe-b09c-9ff6ff7335da": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sweet-escape-oil",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "0c7d395d-f382-4e55-9118-f1b6bae04523",
+        "cecfed80-9e20-4a2b-a782-8204b9f60499",
+        "cf39efa0-e2ca-483a-b9ad-6aa51174bde2",
+        "3ccae324-069e-46fe-b09c-9ff6ff7335da"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    }
+  },
+  "order": [
+    "1664206522221d0530",
+    "e63cf194-7456-4826-b263-d53129805a6d",
+    "16642057410e2620ca",
+    "aed21697-5d79-4bb2-97d0-f03504167f0f",
+    "16565267017b741a18",
+    "16373478161b555e27",
+    "main",
+    "1646578893a810ad61",
+    "164657908928936c34",
+    "166420573137eecc02",
+    "16642235253ed9d004",
+    "16642065148e6155bb"
+  ]
+}

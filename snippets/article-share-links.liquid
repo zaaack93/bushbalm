@@ -1,0 +1,41 @@
+<div class="article-share-links">
+  <span class="article-share-links__title ui-body-bold">{{ 'blogs.article.share' | t }}</span>
+  <ul>
+    {% if share_settings.enable_twitter_share == true %}
+      <li>
+        <a href="http://twitter.com/share?url=[url]" title="Share on Twitter" data-article-share-button>
+          Twitter
+        </a>
+      </li>
+    {% endif %}
+
+    {% if share_settings.enable_facebook_share == true %}
+      <li>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=[url]" title="Share on Facebook" data-article-share-button>
+          Facebook
+        </a>
+      </li>
+    {% endif %}
+
+    {% if share_settings.enable_pinterest_share == true %}
+      <li>
+        {% assign pinterest_link = "https://pinterest.com/pin/create/button/?url=[url]&media=&description=" %}
+        {% if article.metafields.custom_fields["article_meta_data_image"] != blank %}
+          {% capture pinterest_link %}https://pinterest.com/pin/create/button/?url=[url]&media={{ article.metafields.custom_fields["article_meta_data_image"] }}&description={% endcapture %}
+        {% endif %}
+        <a href="{{ pinterest_link }}" title="Share on Pinterest" data-article-share-button>
+          Pinterest
+        </a>
+      </li>
+    {% endif %}
+
+    {% if share_settings.enable_link_share == true %}
+      <li>
+        <button class="copy-link-button" data-copy-link="{{ article.url }}" title="Copy Link">
+          Copy
+        </button>
+      </li>
+      <textarea class="hide" data-link>{{ article.url }}</textarea>
+    {% endif %}
+  </ul>
+</div>

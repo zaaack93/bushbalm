@@ -1,0 +1,72 @@
+{% comment %}
+  ====================================================
+                COLLECTION ITEM SIMPLE
+  ====================================================
+
+
+  Example of rendering snippet:
+  ====================================================
+  {% render 'collection-item-simple' with
+    additional_classes: 'swiper-slide',
+    product_ref: block.settings.product,
+    title: block.settings.title,
+    copy: block.settings.copy,
+    rating: block.settings.rating,
+    cta_text: block.settings.cta_text,
+    cta_link: block.settings.cta_link,
+    badge_text: block.settings.badge_text
+  %}
+  ====================================================
+
+
+  Properties:
+  ====================================================
+  additional_classes:   OPTIONAL
+  product_ref:          REQUIRED
+  title:                OPTIONAL
+  copy:                 OPTIONAL
+  rating:               OPTIONAL
+  cta_text:             OPTIONAL
+  cta_link:             OPTIONAL
+  badge_text:           OPTIONAL
+  ====================================================
+{% endcomment %}
+
+{% if product_ref != blank %}
+  {% assign title = title | default: product_ref.title %}
+  {% assign copy = copy | default: product_ref.description %}
+
+  <div class="collection-item-simple {{ additional_classes }}">
+    <div class="collection-item-simple__container">
+      <a class="collection-item-simple__image" href="{{ product_ref.url }}" title="{{ title }}">
+        {% render 'responsive-image' with
+          image: product_ref.featured_image,
+          max_width: 480,
+          max_height: 652,
+          wrapper_class: 'collection-item-simple__image-wrapper'
+        %}
+        {% if badge_text != blank %}
+          <div class="collection-item-simple__badge">
+            <span>{{ badge_text }}</span>
+          </div>
+        {% else %}
+          {% render  'collection-item-badge' with product: product_ref %}
+        {% endif %}
+      </a>
+      <a class="collection-item-simple__title" href="{{ product_ref.url }}" title="{{ title }}">{{ title }}</a>
+      {% if copy != blank %}
+        <p>{{ copy }}</p>
+      {% endif %}
+      {% if rating != blank %}
+        <div class="collection-item-simple__rating" aria-label="{{ 'general.accessibility.rating_label' | t: rating: rating }}">
+          {% render 'star-rating' with rating: rating %}
+        </div>
+      {% endif %}
+    </div>
+    {% if cta_text != blank %}
+      <a class="btn" href="{{ cta_link | default: product_ref.url }}" title="{{ cta_text }}">
+        {{- cta_text -}}
+      </a>
+    {% endif %}
+  </div>
+{% endif %}

@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "blog-articles": {
+      "type": "blog-articles",
+      "blocks": {
+        "8df51dc9-39b0-4b2e-bbfd-811b9327fc63": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hairs.jpg",
+            "heading": "Ingrown Hairs",
+            "cta_text": "View All",
+            "url": "shopify:\/\/blogs\/ingrown-hairs"
+          }
+        },
+        "e15ab387-b72d-4c37-bb26-c63b2e59555e": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Razor_Burn.jpg",
+            "heading": "Razor Burn",
+            "cta_text": "View All",
+            "url": "shopify:\/\/blogs\/razor-burn"
+          }
+        },
+        "deac0339-6344-43b8-8ed6-fe10f0d9bd50": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skincare_Everywhere.jpg",
+            "heading": "Skincare, Everywhere",
+            "cta_text": "View All",
+            "url": "shopify:\/\/blogs\/skincare-everywhere"
+          }
+        },
+        "3db4ca82-0d2a-40f5-b725-0c450218c09a": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spots.jpg",
+            "heading": "Dark Spots",
+            "cta_text": "View All",
+            "url": "shopify:\/\/blogs\/dark-spots"
+          }
+        },
+        "d84e5f51-3ade-4c68-8fd1-3bd7f147ade0": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Keratosis_Pilaris.jpg",
+            "heading": "Keratosis Pilaris",
+            "cta_text": "View All",
+            "url": "shopify:\/\/blogs\/keratosis-pilaris"
+          }
+        },
+        "dc96972f-77d6-4679-b189-f9d5e5929469": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pubic_hair_removal.jpg",
+            "heading": "Hair Removal",
+            "cta_text": "View All",
+            "url": "shopify:\/\/blogs\/pubic-hair-removal"
+          }
+        },
+        "08c38dcb-84ea-4242-bd37-7b3f9e132e65": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/How_to_Guides_b83e9010-c3bc-4616-a9ea-9174c6e493c3.jpg",
+            "heading": "How to Guides",
+            "cta_text": "View All",
+            "url": "shopify:\/\/blogs\/how-to-guides"
+          }
+        }
+      },
+      "block_order": [
+        "8df51dc9-39b0-4b2e-bbfd-811b9327fc63",
+        "e15ab387-b72d-4c37-bb26-c63b2e59555e",
+        "deac0339-6344-43b8-8ed6-fe10f0d9bd50",
+        "3db4ca82-0d2a-40f5-b725-0c450218c09a",
+        "d84e5f51-3ade-4c68-8fd1-3bd7f147ade0",
+        "dc96972f-77d6-4679-b189-f9d5e5929469",
+        "08c38dcb-84ea-4242-bd37-7b3f9e132e65"
+      ],
+      "settings": {
+        "hero_image_desktop": "shopify:\/\/shop_images\/Skincare_Everywhere_Blog_by_Bushbalm.jpg",
+        "hero_image_mobile": "shopify:\/\/shop_images\/Skincare_Everywhere_Blog_Hero_Image.jpg",
+        "hero_heading": "Skincare, Everywhere",
+        "hero_copy": "A blog for your skin concerns, everywhere.",
+        "cta_text_hero": "",
+        "cta_url": "",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": true,
+        "blog_menu": "blogs",
+        "display_featured_article": true,
+        "featured_article": "skincare-everywhere\/gynecologist-insights-on-dark-spots",
+        "featured_article_image": "shopify:\/\/shop_images\/Gynecologist_Talking_About_Skincare_Down_There.jpg",
+        "featured_article_excerpt": "Dr. Ruth Arumala, Board Certified Gynecologist, took over the Bushbalm Instagram for a Q&A session.",
+        "cta_text": "Read",
+        "display_blog_carousel": true,
+        "carousel_heading": "Articles by Topic"
+      }
+    }
+  },
+  "order": [
+    "blog-articles"
+  ]
+}

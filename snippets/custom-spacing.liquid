@@ -1,0 +1,192 @@
+{% comment %}
+  ====================================================
+                    CUSTOM SPACING
+  ====================================================
+
+  1. Render the snippet:
+  ====================================================
+  {% render 'custom-spacing' with
+    section_name: 'section-name'
+  %}
+
+
+  2. Ensure the section has appropriate parent class:
+  ====================================================
+  class="section-name--{{ section.id }}"
+
+
+  3. Add the following settings to the section:
+  ====================================================
+  {
+    "type": "header",
+    "content": "Custom Spacing"
+  },
+  {
+    "type": "select",
+    "id": "margin_top_mobile",
+    "label": "Top Margin | Mobile",
+    "options": [
+      {
+        "value": "default",
+        "label": "Default"
+      },
+      {
+        "value": "0",
+        "label": "None"
+      },
+      {
+        "value": "16px",
+        "label": "16px"
+      },
+      {
+        "value": "24px",
+        "label": "24px"
+      },
+      {
+        "value": "32px",
+        "label": "32px"
+      },
+      {
+        "value": "64px",
+        "label": "64px"
+      }
+    ],
+    "default": "default"
+  },
+  {
+    "type": "select",
+    "id": "margin_bottom_mobile",
+    "label": "Bottom Margin | Mobile",
+    "options": [
+      {
+        "value": "default",
+        "label": "Default"
+      },
+      {
+        "value": "0",
+        "label": "None"
+      },
+      {
+        "value": "16px",
+        "label": "16px"
+      },
+      {
+        "value": "24px",
+        "label": "24px"
+      },
+      {
+        "value": "32px",
+        "label": "32px"
+      },
+      {
+        "value": "64px",
+        "label": "64px"
+      }
+    ],
+    "default": "default"
+  },
+  {
+    "type": "select",
+    "id": "margin_top_desktop",
+    "label": "Top Margin | Desktop",
+    "options": [
+      {
+        "value": "default",
+        "label": "Default"
+      },
+      {
+        "value": "0",
+        "label": "None"
+      },
+      {
+        "value": "16px",
+        "label": "16px"
+      },
+      {
+        "value": "24px",
+        "label": "24px"
+      },
+      {
+        "value": "32px",
+        "label": "32px"
+      },
+      {
+        "value": "64px",
+        "label": "64px"
+      },
+      {
+        "value": "96px",
+        "label": "96px"
+      },
+      {
+        "value": "104px",
+        "label": "104px"
+      }
+    ],
+    "default": "default"
+  },
+  {
+    "type": "select",
+    "id": "margin_bottom_desktop",
+    "label": "Bottom Margin | Desktop",
+    "options": [
+      {
+        "value": "default",
+        "label": "Default"
+      },
+      {
+        "value": "0",
+        "label": "None"
+      },
+      {
+        "value": "16px",
+        "label": "16px"
+      },
+      {
+        "value": "24px",
+        "label": "24px"
+      },
+      {
+        "value": "32px",
+        "label": "32px"
+      },
+      {
+        "value": "64px",
+        "label": "64px"
+      },
+      {
+        "value": "96px",
+        "label": "96px"
+      },
+      {
+        "value": "104px",
+        "label": "104px"
+      }
+    ],
+    "default": "default"
+  }
+  ====================================================
+{% endcomment %}
+
+{% style %}
+  @media (max-width: {{ breakpoint | default: 750 }}px) {
+    .{{ section_name }}--{{ section.id }} {
+      {% unless section.settings.margin_top_mobile == 'default' %}
+        margin-top: {{ section.settings.margin_top_mobile }} !important;
+      {% endunless %}
+      {% unless section.settings.margin_bottom_mobile == 'default' %}
+        margin-bottom: {{ section.settings.margin_bottom_mobile }} !important;
+      {% endunless %}
+    }
+  }
+  @media (min-width: {{ breakpoint | default: 750 }}px) {
+    .{{ section_name }}--{{ section.id }} {
+      {% unless section.settings.margin_top_desktop == 'default' %}
+        margin-top: {{ section.settings.margin_top_desktop }} !important;
+      {% endunless %}
+      {% unless section.settings.margin_bottom_desktop == 'default' %}
+        margin-bottom: {{ section.settings.margin_bottom_desktop }} !important;
+      {% endunless %}
+    }
+  }
+{% endstyle %}

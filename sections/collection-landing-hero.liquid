@@ -1,0 +1,57 @@
+<script src="{{ 'collection-landing-hero.js' | asset_url }}" defer="defer"></script>
+{{ 'collection-landing-hero.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign desktop_image = section.settings.bg_image | default: 'none'
+  assign mobile_image = section.settings.bg_image_mobile | default: 'none'
+-%}
+
+<section class="collection-landing-hero wrapper
+  {% if section.settings.bg_image == blank %}collection-landing-hero--no-image-desktop{% endif %}
+  {% if section.settings.bg_image_mobile == blank %}collection-landing-hero--no-image-mobile{% endif %}">
+  <div class="collection-landing-hero__image lazyload"
+    data-bgset="{% render 'responsive-bg-image', image: desktop_image, mobile_image: mobile_image  %}"
+  >
+    <h1 class="collection-landing-hero__heading">{{ section.settings.heading | default: page.title }}</h1>
+  </div>
+
+  <div class="collection-landing-hero__content">
+    {% if section.settings.copy != blank %}
+      <p>{{ section.settings.copy | newline_to_br }}</p>
+    {% elsif page.content != blank %}
+      {{ page.content }}
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Hero",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "heading",
+        "label": "Heading",
+        "info": "Will use page title by default"
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy",
+        "info": "Will use page content by default"
+      },
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Background Image - Desktop",
+        "info": "327 x 160"
+      },
+      {
+        "type": "image_picker",
+        "id": "bg_image_mobile",
+        "label": "Background Image - Mobile",
+        "info": "1599 x 284"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,655 @@
+{
+  "sections": {
+    "home_hero_options_7DreTx": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Subscribe + Save",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>Never run out of your favorite products again - your skincare everywhere routine will thank you!<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/All_Product_Lineup_Fun_4fd9cde0-06bb-463c-a5ac-47439de99ed1.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/All_Product_Lineup_Fun_4fd9cde0-06bb-463c-a5ac-47439de99ed1.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.5",
+        "review_count": 250,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16474639365c6d3545": {
+      "type": "content",
+      "blocks": {
+        "eb0027e1-02d1-4bfa-9c57-47c289283294": {
+          "type": "content_block",
+          "settings": {
+            "title": "Save up to 15% Off",
+            "copy": "Every subscription order comes with savings of up to 15% off. Saving you money & time!",
+            "icon": "shopify:\/\/shop_images\/icon_Check_Mark_1062dc5c-ad5c-4658-bd5f-70029d6f56e2.png"
+          }
+        },
+        "ff8507a0-2ff5-401e-a539-cf6ba59bf992": {
+          "type": "content_block",
+          "settings": {
+            "title": "Delivery Schedule",
+            "copy": "Choose between 1, 2 and 3 month deliveries giving you full control of your skincare routine.",
+            "icon": "shopify:\/\/shop_images\/icon_Check_Mark_1062dc5c-ad5c-4658-bd5f-70029d6f56e2.png"
+          }
+        },
+        "3b819579-589a-47cc-91f2-5f8e563803cb": {
+          "type": "content_block",
+          "settings": {
+            "title": "Never Run Out!",
+            "copy": "Results start with your routine! By subscribing you'll never stock out. Consider this your skincare insurance.",
+            "icon": "shopify:\/\/shop_images\/icon_Check_Mark_1062dc5c-ad5c-4658-bd5f-70029d6f56e2.png"
+          }
+        },
+        "73a9f432-992b-40a8-981d-7e74a7c7e534": {
+          "type": "content_block",
+          "settings": {
+            "title": "Full Control",
+            "copy": "Skip, push or add new items to your subscription. You have full control — we're just here to help!\n<br><br><br>",
+            "icon": "shopify:\/\/shop_images\/icon_Check_Mark_1062dc5c-ad5c-4658-bd5f-70029d6f56e2.png"
+          }
+        }
+      },
+      "block_order": [
+        "eb0027e1-02d1-4bfa-9c57-47c289283294",
+        "ff8507a0-2ff5-401e-a539-cf6ba59bf992",
+        "3b819579-589a-47cc-91f2-5f8e563803cb",
+        "73a9f432-992b-40a8-981d-7e74a7c7e534"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#fafafa",
+        "increase_spacing": false,
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "",
+        "copy": "<br>",
+        "subheading": "Subscription Benefits",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "simple_html_LhjmhJ": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<h3>Featured Subscription Plans<\/h3>"
+      }
+    },
+    "featured_products_BfNFf9": {
+      "type": "featured-products",
+      "blocks": {
+        "featured_product_6Qqn8m": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-ultimate-ingrown-hair-routine",
+            "title": "",
+            "copy": "chemical exfoliant for ingrowns + bumps",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/the-ultimate-ingrown-hair-routine",
+            "badge_text": "Save 12% off"
+          }
+        },
+        "featured_product_WVqU9D": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-minimzer-kit",
+            "title": "",
+            "copy": "exfoliate + soothe the skin",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/ingrown-hair-minimzer-kit",
+            "badge_text": "Save 12% off"
+          }
+        },
+        "featured_product_TpizNt": {
+          "type": "featured_product",
+          "settings": {
+            "product": "roller-rescue-soothing-serum",
+            "title": "",
+            "copy": "serum refill plan",
+            "rating": 4.5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/roller-rescue-soothing-serum",
+            "badge_text": "Save 10% off"
+          }
+        },
+        "featured_product_bWba9j": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair",
+            "title": "",
+            "copy": "trimmer replacement plan",
+            "rating": 4.5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/the-francesca-bikini-trimmer-for-pubic-hair",
+            "badge_text": "Save 10% off"
+          }
+        }
+      },
+      "block_order": [
+        "featured_product_6Qqn8m",
+        "featured_product_WVqU9D",
+        "featured_product_TpizNt",
+        "featured_product_bWba9j"
+      ],
+      "settings": {
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "simple_html_xFGkmk": {
+      "type": "simple-html",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "html": "<h3>2 Step Routines<\/h3>"
+      }
+    },
+    "featured_products_UYK7xi": {
+      "type": "featured-products",
+      "blocks": {
+        "featured_product_ceVeHQ": {
+          "type": "featured_product",
+          "settings": {
+            "product": "routine-ingrown-treatment",
+            "title": "",
+            "copy": "exfoliate + soothe the skin",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/routine-ingrown-treatment",
+            "badge_text": "Save 12% off"
+          }
+        },
+        "featured_product_9GmCig": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "title": "",
+            "copy": "exfoliate + brighten the skin",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": "Save 12% off"
+          }
+        },
+        "featured_product_MYeeWW": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-keratosis-pilaris-bump-eraser",
+            "title": "",
+            "copy": "exfoliate + soothe the skin",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-keratosis-pilaris-bump-eraser",
+            "badge_text": "Save 12% off"
+          }
+        },
+        "featured_product_ckEgLc": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-hyperpigmentation-products",
+            "title": "",
+            "copy": "exfoliate + brighten the skin",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/2-step-hyperpigmentation-products",
+            "badge_text": "Save 12% off"
+          }
+        }
+      },
+      "block_order": [
+        "featured_product_ceVeHQ",
+        "featured_product_9GmCig",
+        "featured_product_MYeeWW",
+        "featured_product_ckEgLc"
+      ],
+      "settings": {
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "164657908928936c34": {
+      "type": "image-carousel",
+      "blocks": {
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e9c8c440-0741-436c-94e9-7851b19970d5": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_-_Dark_Spot_Oil_for_All_Skin_Types_e0e2553e-d215-4d44-840c-b4ae0ce91822.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_Reviews_Tush_Cream_2d3bc290-fd7e-473d-92a8-00691310d98c.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "6efb635d-1c90-4b01-972a-7b100a712f04": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "f856ea87-a6db-41fb-99b8-ef78252bed7d",
+        "94a7bb75-5248-4ec4-870a-ee57f78a884e",
+        "e9c8c440-0741-436c-94e9-7851b19970d5",
+        "bbb5c30f-9092-4e0d-a9de-b77aeec0cc30",
+        "3184bb8a-97e5-4acd-9f24-ff733a1a6542",
+        "0b998874-a8d5-445a-ba76-e37635a4a4d8",
+        "96c5a312-d5c3-4e82-9b64-6ffef2a9a71d",
+        "e422fb8f-091e-4d09-bc43-f513974a7b8c",
+        "6efb635d-1c90-4b01-972a-7b100a712f04"
+      ],
+      "settings": {
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "simple_html_6QigJ6": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<h3>Soothing Oils<\/h3>"
+      }
+    },
+    "16503222260c8b8e63": {
+      "type": "featured-products",
+      "blocks": {
+        "ee781eee-3690-4693-8546-f28dc8a0ed52": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "title": "",
+            "copy": "soothe + soften",
+            "rating": 5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+            "badge_text": "Save 15% off"
+          }
+        },
+        "aeb9d27c-f956-411c-a9c2-86f1298fefd8": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "",
+            "copy": "rejuvenate + brighten",
+            "rating": 5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Save 15% off"
+          }
+        },
+        "c4690e12-7d80-4d02-8260-f1b9d3705589": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sweet-escape-oil",
+            "title": "Sweet Escape Ingrown Hair Oil",
+            "copy": "soothe + soften",
+            "rating": 5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/sweet-escape-oil",
+            "badge_text": "Save 15% off"
+          }
+        },
+        "featured_product_By3jGy": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-corrector",
+            "title": "",
+            "copy": "rejuvenate + brighten",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/dark-spot-corrector",
+            "badge_text": "Save 15% off"
+          }
+        }
+      },
+      "block_order": [
+        "ee781eee-3690-4693-8546-f28dc8a0ed52",
+        "aeb9d27c-f956-411c-a9c2-86f1298fefd8",
+        "c4690e12-7d80-4d02-8260-f1b9d3705589",
+        "featured_product_By3jGy"
+      ],
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "simple_html_NkeWan": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<h3>Exfoliating Scrubs<\/h3>"
+      }
+    },
+    "1650322866d13118c0": {
+      "type": "featured-products",
+      "blocks": {
+        "713d6e58-f680-4e52-8752-6c165adbfff4": {
+          "type": "featured_product",
+          "settings": {
+            "product": "nude-exfoliating-scrub",
+            "title": "Nude Exfoliating Scrub",
+            "copy": "clear pores + hydrate",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/nude-exfoliating-scrub",
+            "badge_text": "Save 15% off"
+          }
+        },
+        "fb7de4d0-2b61-49ec-af51-18c6aef197c0": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant",
+            "title": "Dark Spot Exfoliating Scrub",
+            "copy": "clear pores + brighten",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/bermuda-dark-spot-exfoliant",
+            "badge_text": "Save 15% off"
+          }
+        },
+        "765fa657-317f-4dfa-85e3-3be96d6f81d3": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sweet-escape-scrub",
+            "title": "Sweet Escape Exfoliating Scrub",
+            "copy": "clear pores + hydrate",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/sweet-escape-scrub",
+            "badge_text": "Save 15% off"
+          }
+        },
+        "featured_product_4gERKw": {
+          "type": "featured_product",
+          "settings": {
+            "product": "brightening-body-scrub",
+            "title": "",
+            "copy": "clear pores + hydrate",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/brightening-body-scrub",
+            "badge_text": "Save 15% off"
+          }
+        }
+      },
+      "block_order": [
+        "713d6e58-f680-4e52-8752-6c165adbfff4",
+        "fb7de4d0-2b61-49ec-af51-18c6aef197c0",
+        "765fa657-317f-4dfa-85e3-3be96d6f81d3",
+        "featured_product_4gERKw"
+      ],
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "simple_html_pajiac": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<h3>Auto-Replenish<\/h3>"
+      }
+    },
+    "featured_products_ALRWML": {
+      "type": "featured-products",
+      "blocks": {
+        "featured_product_9Hqww4": {
+          "type": "featured_product",
+          "settings": {
+            "product": "tush-firming-cream",
+            "title": "",
+            "copy": "firm + re-energize",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/tush-firming-cream",
+            "badge_text": "Save 15% off"
+          }
+        },
+        "featured_product_HFrCrd": {
+          "type": "featured_product",
+          "settings": {
+            "product": "trimmer-head-replacement",
+            "title": "",
+            "copy": "grooming",
+            "rating": 4.5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/trimmer-head-replacement",
+            "badge_text": "Save 15% off"
+          }
+        },
+        "featured_product_r6MMVa": {
+          "type": "featured_product",
+          "settings": {
+            "product": "roller-rescue-refill",
+            "title": "",
+            "copy": "save + recycle",
+            "rating": 5,
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/products\/roller-rescue-refill",
+            "badge_text": "Save 10% off"
+          }
+        }
+      },
+      "block_order": [
+        "featured_product_9Hqww4",
+        "featured_product_HFrCrd",
+        "featured_product_r6MMVa"
+      ],
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter By Concern",
+            "group_title": "Concerns",
+            "group_title_mobile": "By Concern",
+            "tags_list": "dark-spots, ingrown-hairs, razor-burn, keratosis-pilaris, stretchmarks, hyperpigmentation"
+          }
+        }
+      },
+      "block_order": [
+        "8dd9e96c-dd06-410b-a113-53d7a5366e69"
+      ],
+      "disabled": true,
+      "settings": {
+        "pagination_count": 25
+      }
+    },
+    "1646578893a810ad61": {
+      "type": "press-highlights",
+      "blocks": {
+        "e3d6f8dd-2963-4799-8f17-4e70acc49752": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/forbes_14ef8883-1bcd-4086-8da4-3dd17c9fea35.png",
+            "logo_height": 23,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "0e206093-cb56-4eee-bc23-76dbcd95eda5": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Women's Health",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo": "shopify:\/\/shop_images\/womens-health-logo_8e16cad1-c1c0-448d-974b-7d2e3475787e.png",
+            "logo_height": 23,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        },
+        "82b51b70-b5fa-4c00-b666-854b5691f910": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo": "shopify:\/\/shop_images\/cha_2a57250a-c2b9-4d30-a006-b9cd91d35f42.png",
+            "logo_height": 22,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#ffffff",
+            "invert_logos": false
+          }
+        },
+        "752e0f78-fb3b-4dd1-8ab4-e9dcf505758d": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Elle",
+            "copy": "“The irresistibly creamy formula can be used anywhere you want a little extra firming action”",
+            "logo": "shopify:\/\/shop_images\/l-elle_5ffd084d-0256-4bdc-9b45-ae0a87760cc4.png",
+            "logo_height": 24,
+            "bg_color": "#7a482a",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "e3d6f8dd-2963-4799-8f17-4e70acc49752",
+        "0e206093-cb56-4eee-bc23-76dbcd95eda5",
+        "82b51b70-b5fa-4c00-b666-854b5691f910",
+        "752e0f78-fb3b-4dd1-8ab4-e9dcf505758d"
+      ],
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "home_hero_options_7DreTx",
+    "16474639365c6d3545",
+    "simple_html_LhjmhJ",
+    "featured_products_BfNFf9",
+    "simple_html_xFGkmk",
+    "featured_products_UYK7xi",
+    "164657908928936c34",
+    "simple_html_6QigJ6",
+    "16503222260c8b8e63",
+    "simple_html_NkeWan",
+    "1650322866d13118c0",
+    "simple_html_pajiac",
+    "featured_products_ALRWML",
+    "main",
+    "1646578893a810ad61"
+  ]
+}

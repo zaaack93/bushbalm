@@ -1,0 +1,26 @@
+{% comment %}
+  ====================================================
+                      STAR RATING
+  ====================================================
+
+
+  Example of rendering snippet:
+  ====================================================
+  {% render 'star-rating' with rating: rating %}
+  ====================================================
+
+
+  Properties:
+  ====================================================
+  rating: REQUIRED (number) Example: 4 or 4.5 or '4.5'
+  ====================================================
+{% endcomment %}
+
+{% assign rating_rounded = rating | floor %}
+{% assign leftover = rating | modulo: rating_rounded | ceil %}
+{% for i in (1..rating_rounded) %}
+  {% render 'icon-star' %}
+{% endfor %}
+{% if leftover > 0 %}
+  {% render 'icon-star-half' %}
+{% endif %}

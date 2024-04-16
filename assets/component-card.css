@@ -1,0 +1,67 @@
+.link-bar .media--circle {
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+
+.link-bar .card {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.link-bar .card .icon-wrap {
+  margin-left: 0.8rem;
+  white-space: nowrap;
+  transition: transform var(--duration-short) ease;
+  overflow: hidden;
+}
+
+.link-bar .card--media {
+  display: block;
+  text-decoration: none;
+}
+
+.link-bar .card--stretch {
+  height: 100%;
+}
+
+.link-bar .card__text-spacing {
+  padding: 3rem;
+}
+
+/* TO DO: Card Colored might not be needed.  */
+
+/* .link-bar .card-colored.color-background-1 {
+  background-color: rgba(var(--color-foreground), 0.04);
+} */
+
+.link-bar .card--media .card__text-spacing {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 750px) {
+  .link-bar .card--media .card__text-spacing {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: none;
+  }
+}
+
+.link-bar .card__text-spacing > * {
+  margin: 0;
+}
+
+.link-bar .card__text-spacing > *:not(.overlay-card) + * {
+  margin-top: 1.5rem;
+}
+
+.link-bar .card__text {
+  margin: 0;
+  word-break: break-word;
+}
+
+@media screen and (min-width: 990px) {
+  .link-bar .card .media.media--hover-effect > img:only-child {
+    transition: transform var(--duration-long) ease;
+  }
+}

@@ -1,0 +1,38 @@
+{% if shop.metafields.custom_fields["collection_item_badges"] != blank %}
+  {% for item in shop.metafields.custom_fields["collection_item_badges"] %}
+    {% if product.tags contains item["product_tag"] %}
+      {%- liquid
+        assign show_badge = true
+
+        if item['display_conditionally'] == '1'
+          if request.page_type == 'product' and item["display_on_product_page"] == '0'
+            assign show_badge = false
+          elsif request.page_type == 'collection' and item["display_on_collection_page"] == '0'
+            assign show_badge = false
+          elsif request.page_type == 'index' and item["display_on_home_page"] == '0'
+            assign show_badge = false
+          endif
+
+          if item["display_on_custom_urls"] contains request.path
+            assign show_badge = true
+          endif
+        endif
+      -%}
+
+      {% if show_badge %}
+        {% if item["badge_image"] != blank %}
+          <img src="{{ item["badge_image"] }}" alt="{{ item["badge_image_alt_text"] }}" class="collection-item__custom-badge">
+        {% else %}
+          <!-- HC - Start: Two columns on mobile - added hc-collection-item__badge--heart class - 23 Feb '23 -->
+          <p class="hc-collection-item__badge--heart collection-item__badge collection-item__badge--{{ item["style"] | handleize | default: 'default' }}"
+            style="background-color: {{ item["background_color"] | default: '#271710' }}; color: {{ item["text_color"] | default: '#FFFFFF' }};"
+          >
+            {{ item["badge_text"] }}
+          </p>
+        {% endif %}
+      {% endif %}
+
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}

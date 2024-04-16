@@ -1,0 +1,426 @@
+{
+  "sections": {
+    "165711201921e7d6d0": {
+      "type": "2-up-content",
+      "blocks": {
+        "d9b7243b-7a50-48f3-9751-29a7a67157df": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_c26b3cde-1e86-4c19-95fd-ec36ffe9eb92.jpg"
+          }
+        },
+        "3f290ab3-c813-4ab1-a44b-820da5eab73d": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.jpg"
+          }
+        },
+        "f5d26628-a607-4b8b-b5d4-9b5342486bd6": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_01c604bf-baf6-4a25-a92d-1507f8c6914e.jpg"
+          }
+        },
+        "d6921842-ff64-424b-b246-8cce7b7a910c": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_43c0554f-6c2c-48c7-87d2-c149d842ae24.jpg"
+          }
+        },
+        "9cace25a-bfeb-41ce-bcde-48a6521c4cc4": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_1841193c-adf2-4c89-91dd-7c86cd6c1c25.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d9b7243b-7a50-48f3-9751-29a7a67157df",
+        "3f290ab3-c813-4ab1-a44b-820da5eab73d",
+        "f5d26628-a607-4b8b-b5d4-9b5342486bd6",
+        "d6921842-ff64-424b-b246-8cce7b7a910c",
+        "9cace25a-bfeb-41ce-bcde-48a6521c4cc4"
+      ],
+      "settings": {
+        "intro": "July 10th, 2022",
+        "title": "Piña Colada Launch",
+        "content": "Our #1 selling line for brightening and dark spots just got a new scent. Get on the VIP waitlist, so you don't miss out!",
+        "cta_text": "Subscribe",
+        "cta_link": "https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?a=Q7rXBN&g=VEGbez"
+      }
+    },
+    "1644936192146c5d81": {
+      "type": "newsletter-signup",
+      "settings": {
+        "klaviyo_list_id": "VEGbez",
+        "heading": "Piña Colada Launch",
+        "subheading": "Get Early Access",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1644856134d3fd8cff": {
+      "type": "overlay-hero",
+      "disabled": true,
+      "settings": {
+        "heading": "Spring Break Sale",
+        "use_h1": false,
+        "copy": "25% Off — While Supplies Last!",
+        "cta_text": "Shop Now",
+        "cta_url": "shopify:\/\/collections\/dark-spots",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": true
+      }
+    },
+    "16448560070d612359": {
+      "type": "featured-products",
+      "blocks": {
+        "c65bb58f-27ed-44c6-afc4-786175f56d14": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda Dark Spot Oil",
+            "copy": "rejuvenate + brighten",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Viral Hit"
+          }
+        },
+        "a6aa2a9b-1bed-4c88-a9ce-1c1cdfb350f1": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant",
+            "title": "Bermuda Dark Spot Exfoliating Scrub",
+            "copy": "clear pores + brighten",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/bermuda-dark-spot-exfoliant",
+            "badge_text": ""
+          }
+        },
+        "f3f73baa-9d07-4f92-b737-e19e9aaf42fb": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "title": "2 Step Routine",
+            "copy": "10% off all routines",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": "Bundle & Save"
+          }
+        }
+      },
+      "block_order": [
+        "c65bb58f-27ed-44c6-afc4-786175f56d14",
+        "a6aa2a9b-1bed-4c88-a9ce-1c1cdfb350f1",
+        "f3f73baa-9d07-4f92-b737-e19e9aaf42fb"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "164486074805c0abea": {
+      "type": "trust-bar",
+      "blocks": {
+        "dcc44e29-20a8-47f5-be1b-e5f708861d6a": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/recommended.svg?v=1635795607",
+            "title": "Waxing Salon Recommended"
+          }
+        },
+        "b335d032-689a-419c-aac6-e1b11cd06526": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/vegan.svg?v=1635795607",
+            "title": "Vegan"
+          }
+        },
+        "f6d5127c-9b77-43dc-acad-d809398a2c04": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/cruelty.svg?v=1635795607",
+            "title": "Cruelty Free"
+          }
+        },
+        "e7c0540a-986c-47ef-abc6-0974833781c1": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/conscious.svg?v=1635795607",
+            "title": "pH Conscious"
+          }
+        },
+        "c4d66126-a559-414f-a536-678c2699317a": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/gyno.svg?v=1635795607",
+            "title": "Gyno Approved"
+          }
+        },
+        "044a84c3-a9ad-4c6a-97f9-8b6afbdcde11": {
+          "type": "trust_block",
+          "settings": {
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/clean.svg?v=1635795607",
+            "title": "Clean Ingredients"
+          }
+        }
+      },
+      "block_order": [
+        "dcc44e29-20a8-47f5-be1b-e5f708861d6a",
+        "b335d032-689a-419c-aac6-e1b11cd06526",
+        "f6d5127c-9b77-43dc-acad-d809398a2c04",
+        "e7c0540a-986c-47ef-abc6-0974833781c1",
+        "c4d66126-a559-414f-a536-678c2699317a",
+        "044a84c3-a9ad-4c6a-97f9-8b6afbdcde11"
+      ],
+      "disabled": true,
+      "settings": {
+        "speed": 8000,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16448611164b2d5398": {
+      "type": "who-we-are",
+      "blocks": {
+        "925d6a5d-951a-49c0-aec5-7e0f9a0cc3b6": {
+          "type": "list_item",
+          "settings": {
+            "text": "Formulated with natural ingredients"
+          }
+        },
+        "71d0dc14-02fd-4ffc-92d9-dad5607d2e96": {
+          "type": "list_item",
+          "settings": {
+            "text": "Reduces the appearance of hyperpigmentation \nand dark spots"
+          }
+        },
+        "416dfe84-82e3-4f1b-861e-71fe7d729784": {
+          "type": "list_item",
+          "settings": {
+            "text": "Effective on all skin types"
+          }
+        }
+      },
+      "block_order": [
+        "925d6a5d-951a-49c0-aec5-7e0f9a0cc3b6",
+        "71d0dc14-02fd-4ffc-92d9-dad5607d2e96",
+        "416dfe84-82e3-4f1b-861e-71fe7d729784"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Who We Are",
+        "subheading": "Bushbalm was founded on the promise to solve ingrown hairs, razor burn and dark spots with natural products.",
+        "list_heading": "Why Bermuda",
+        "cta_text": "Get Started",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "image_mobile": "shopify:\/\/shop_images\/Artboard_2cartoon23.jpg",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16448614917632d723": {
+      "type": "before-and-after",
+      "blocks": {
+        "aa36fb42-1521-4e2e-ae53-cbe6b8cff7d0": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "2-step-routine-hyperpigmentation-dark-spots",
+            "product_title": "2 Step Routine",
+            "product_copy": "Bermuda Collection",
+            "cta_text": "Shop Now",
+            "image_1_testimonial": "BEFORE",
+            "image_2_testimonial": "AFTER",
+            "image_3_testimonial": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa36fb42-1521-4e2e-ae53-cbe6b8cff7d0"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Dark_Spot_Oil.png",
+        "heading": "Gallery",
+        "subheading": "Before and After Photos",
+        "cta_text": "See the Results",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#000000",
+        "gradient_angle_mobile": 180,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#000000",
+        "gradient_angle_desktop": 0,
+        "enable_cta_slide": true,
+        "cta_slide_title": "",
+        "cta_slide_copy": "",
+        "cta_slide_cta_link": "",
+        "cta_slide_cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164485693843dd53d6": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align_desktop": "left",
+        "text_align_mobile": "left",
+        "enable_truncate": false,
+        "truncate_threshold": 25,
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "dbbb2237-1f68-48e6-956b-0320f6a1db09": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "",
+            "group_title": "",
+            "group_title_mobile": "",
+            "tags_list": ""
+          }
+        }
+      },
+      "block_order": [
+        "dbbb2237-1f68-48e6-956b-0320f6a1db09"
+      ],
+      "disabled": true,
+      "settings": {
+        "pagination_count": 6
+      }
+    },
+    "1644862083c8c00cc4": {
+      "type": "shop-by-concern",
+      "blocks": {
+        "9a1803fe-75bb-4fb2-a728-047f510f758b": {
+          "type": "link",
+          "settings": {
+            "cta_text": "ingrown hairs",
+            "cta_link": "shopify:\/\/collections\/ingrown-hairs"
+          }
+        },
+        "3ed93b87-cc9c-4fe0-aca4-d2e900c8d5c3": {
+          "type": "link",
+          "settings": {
+            "cta_text": "keratosis pilaris",
+            "cta_link": "shopify:\/\/collections\/keratosis-pilaris"
+          }
+        },
+        "06170b86-4c0d-42f4-8974-dd732cda88ee": {
+          "type": "link",
+          "settings": {
+            "cta_text": "razor burn",
+            "cta_link": "shopify:\/\/collections\/razor-burn"
+          }
+        },
+        "11fa8813-39ef-4f98-b139-30dd222cf7fb": {
+          "type": "link",
+          "settings": {
+            "cta_text": "stretchmarks",
+            "cta_link": "shopify:\/\/collections\/stretch-marks"
+          }
+        },
+        "11badd98-8b61-45c0-8f2a-a22fcd30f4c4": {
+          "type": "link",
+          "settings": {
+            "cta_text": "dark spots",
+            "cta_link": "shopify:\/\/collections\/dark-spots"
+          }
+        },
+        "d85d3324-ab14-40d2-bcaa-fd11408131cd": {
+          "type": "link",
+          "settings": {
+            "cta_text": "hyperpigmentation",
+            "cta_link": "shopify:\/\/collections\/hyperpigmentation"
+          }
+        },
+        "0537f737-2ca3-44c8-a720-2c46eed3a248": {
+          "type": "link",
+          "settings": {
+            "cta_text": "pubic hair",
+            "cta_link": "shopify:\/\/products\/the-francesca-bikini-trimmer-for-pubic-hair"
+          }
+        }
+      },
+      "block_order": [
+        "9a1803fe-75bb-4fb2-a728-047f510f758b",
+        "3ed93b87-cc9c-4fe0-aca4-d2e900c8d5c3",
+        "06170b86-4c0d-42f4-8974-dd732cda88ee",
+        "11fa8813-39ef-4f98-b139-30dd222cf7fb",
+        "11badd98-8b61-45c0-8f2a-a22fcd30f4c4",
+        "d85d3324-ab14-40d2-bcaa-fd11408131cd",
+        "0537f737-2ca3-44c8-a720-2c46eed3a248"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skincare_Bikini_Line.png",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skincare_Bikini_Line.png",
+        "heading": "Shop Concerns",
+        "subheading": "Whatever your skin concerns, we can help.",
+        "speed_mobile": 700,
+        "delay_mobile": 1000,
+        "speed_desktop": 1000,
+        "delay_desktop": 2000,
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16448623640eb72065": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Skincare Everywhere",
+        "headline": "Ready to start your skincare journey?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "View Before & Afters",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_2_text": "Build A Routine",
+        "cta_2_link": "shopify:\/\/pages\/routines",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "165711201921e7d6d0",
+    "1644936192146c5d81",
+    "1644856134d3fd8cff",
+    "16448560070d612359",
+    "164486074805c0abea",
+    "16448611164b2d5398",
+    "16448614917632d723",
+    "164485693843dd53d6",
+    "main",
+    "1644862083c8c00cc4",
+    "16448623640eb72065"
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "sections": {
+    "1660049326097c3f80": {
+      "type": "promo-banner",
+      "blocks": {
+        "9eff56e6-97d1-4769-a0ce-39b733b127d9": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Bikini Brightening Kit<\/p>"
+          }
+        },
+        "5b2ac143-6e2d-46fd-b368-1302ce592dbe": {
+          "type": "promo_countdown_timer",
+          "settings": {
+            "countdown_timer_type": "repeating",
+            "countdown_timer_time_repeating": "05:47",
+            "countdown_timer_time_set": ""
+          }
+        },
+        "63bb4437-8732-46cb-b949-6db2fbf053f7": {
+          "type": "promo_product_list",
+          "disabled": true,
+          "settings": {
+            "product_list": [
+              "2-step-hyperpigmentation-products",
+              "2-step-routine-hyperpigmentation-dark-spots"
+            ]
+          }
+        },
+        "c0dd402e-df8c-46ca-9fb6-cef7b2f5ee7b": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p><strong>Save $20<\/strong> on the best seller for <\/p><p>Hyperpigmentation & Brightening<\/p>"
+          }
+        },
+        "fecc3f5f-6339-4c38-b962-13c6e399188d": {
+          "type": "promo_cta",
+          "settings": {
+            "cta_text": "VIEW DEAL",
+            "cta_link": "shopify:\/\/products\/the-brightening-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "9eff56e6-97d1-4769-a0ce-39b733b127d9",
+        "5b2ac143-6e2d-46fd-b368-1302ce592dbe",
+        "63bb4437-8732-46cb-b949-6db2fbf053f7",
+        "c0dd402e-df8c-46ca-9fb6-cef7b2f5ee7b",
+        "fecc3f5f-6339-4c38-b962-13c6e399188d"
+      ],
+      "settings": {
+        "bg_color": "#f7efa1",
+        "enable_gradient": true,
+        "bg_gradient": "linear-gradient(270deg, rgba(247, 239, 161, 1), rgba(250, 250, 250, 1) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "166005164028f76907": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "the-brightening-bikini-bundle",
+        "overwrite_heading": "<p>Special Offer <\/p>",
+        "subheading_enable": true,
+        "subheading": "",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "article",
+      "settings": {
+        "enable_sharing": true,
+        "enable_twitter_share": true,
+        "enable_facebook_share": true,
+        "enable_pinterest_share": true,
+        "enable_link_share": true
+      }
+    },
+    "164588719397d2f43d": {
+      "type": "content-nav",
+      "blocks": {
+        "a61d669b-9dd5-4543-bdaf-b4462b918d75": {
+          "type": "link",
+          "settings": {
+            "uid": "what-causes-bikini-line-dark-spots",
+            "text": "Causes of Dark Spots"
+          }
+        },
+        "fa5d3b76-96a4-4c3e-8b81-19ce904d6431": {
+          "type": "link",
+          "settings": {
+            "uid": "spot",
+            "text": "Dark Spot Routine"
+          }
+        },
+        "679d2bab-2b02-4c54-9c1a-f06d8b56b7a5": {
+          "type": "link",
+          "settings": {
+            "uid": "hero-ingredients",
+            "text": "Dark Spot Treatments"
+          }
+        }
+      },
+      "block_order": [
+        "a61d669b-9dd5-4543-bdaf-b4462b918d75",
+        "fa5d3b76-96a4-4c3e-8b81-19ce904d6431",
+        "679d2bab-2b02-4c54-9c1a-f06d8b56b7a5"
+      ],
+      "settings": {
+      }
+    },
+    "16458981045c2d7270": {
+      "type": "back-link",
+      "disabled": true,
+      "settings": {
+        "link_text": "back to all blogs",
+        "link_url": "shopify:\/\/blogs\/how-to-guides",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16470058545034ec3b": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_mobile": "shopify:\/\/shop_images\/NUDE_SCRUB-006_1_5dd22fcd-4872-447b-841f-070a23e99b09.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/NUDE_SCRUB-006_1_5dd22fcd-4872-447b-841f-070a23e99b09.jpg",
+        "image_offset": -56,
+        "preheading": "INISIGHTS",
+        "heading": "Bikini Line Dark Spots",
+        "copy": "<p>From why you get bikini line dark spots to how you treat them.<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "164589754355f62b8c": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "what-causes-bikini-line-dark-spots",
+        "alignment": "left",
+        "bg_color": "#fafafa",
+        "image_offset": true,
+        "image_desktop": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+        "heading": "What causes dark spots on the bikini line?",
+        "copy": "Dark spots refer to patches of skin that are darker in color than the skin surrounding it. The contrast of light and dark patches creates the appearance of an uneven skin tone. This (very common) skin condition affects all races.\n\n[break] \n\nDark spots are caused by the overproduction of melanin in the skin; melanin is a brown pigment that attempts to protect the skin from harsh effects such as wounds and\/or UV radiation. When the body produces extra melanin, portions of the pigment will inevitably be deposited in the same area. These melanin deposits create the dark spots that appear on the surface of the skin.\n\n[break] Dark spots most commonly occur in area of increased friction. This is why dark spots on your bikini line and inner thighs are very common.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "164588714879dac2b0": {
+      "type": "content",
+      "blocks": {
+        "48f31c00-ed39-4f6f-b43e-3b228fb74b0c": {
+          "type": "content_block",
+          "settings": {
+            "title": "1. Exfoliate with a brightening body scrub",
+            "copy": "Treat your dark spots to a gentle yet effective scrubbing in the shower. The Bermuda Scrub is infused with essential oils and nourishing ingredients, such as lemon essential oil, that will lighten and brighten the skin. Take a small handful of scrub and gently massage it in a circular motion onto your dark spots. For the best results, use in the shower 2-3 times a week - depending on how sensitive your skin is."
+          }
+        },
+        "6b59554f-0745-4050-b6bc-826eeac5d485": {
+          "type": "content_block",
+          "settings": {
+            "title": "2. Nourish and hydrate the skin",
+            "copy": "The Bermuda Dark Spot Oil will replenish your skin and treat your dark spots. This formula contains essential oils that will lighten the skin and fade the appearance of dark spots. We recommend gently massaging the Bermuda Oil into your dark spots after showering. For the best results, use twice daily."
+          }
+        },
+        "ab2cb6ad-7372-43fe-940c-47f5fcc97059": {
+          "type": "content_block",
+          "settings": {
+            "title": "3. Repeat your dark spot routine daily",
+            "copy": "With consistent use of products in the dark spot collection you will reduce the appearance of dark spots and help prevent future occurrences of dark spots."
+          }
+        },
+        "f8640712-3375-4a26-8da1-63068ecb99c6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Common Locations of Dark Spots",
+            "copy": "Bikini line, underarms, legs, neck or anywhere else skin is experiencing dark spots, hyperpigmentation or discoloration."
+          }
+        }
+      },
+      "block_order": [
+        "48f31c00-ed39-4f6f-b43e-3b228fb74b0c",
+        "6b59554f-0745-4050-b6bc-826eeac5d485",
+        "ab2cb6ad-7372-43fe-940c-47f5fcc97059",
+        "f8640712-3375-4a26-8da1-63068ecb99c6"
+      ],
+      "settings": {
+        "uid": "dark-spot-routine",
+        "alignment": "right",
+        "bg_color": "#f8e2c9",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Reviews_-_Bermuda_Scrub.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/dark-spot-oil-by-bushbalm-skincare.png",
+        "image_size": "small",
+        "image_offset": -45,
+        "heading": "The routine for bikini line dark spots",
+        "copy": "Naturally fading dark spots and sun spots requires a consistent body care routine. Here is our recommended regimen to target and treat your dark spots:",
+        "subheading": "",
+        "cta_link": "shopify:\/\/collections\/dark-spot-routine",
+        "cta_text": "VIEW DARK SPOT ROUTINE",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "16470070319ac66b55": {
+      "type": "ingredient-faqs",
+      "blocks": {
+        "1b533e3c-0eb9-4c10-9fcf-e68a92d8f42f": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Prolonged Sun Exposure",
+            "copy": "Typically you'll notice dark spots on your face, which is commonly caused by exposure to the sun."
+          }
+        },
+        "c525a483-ad21-4ca4-a6fc-f1134c046318": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Skin Inflammation or Irritation",
+            "copy": "Most commonly explained as chafing, your skin can develop dark spots to protect itself. This is why dark spots on your bikini line and underarms are very common"
+          }
+        },
+        "beda6df3-5b5d-449b-9376-f52384196e3a": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Hair Removal (Waxing, Shaving, etc)",
+            "copy": "The stress of hair removal can cause the skin to again protext itself. This leads to dark spots, scarring and hyperpigmentation forming. Dark spots in your underarms are a sure sign of this due to the common stress of shaving."
+          }
+        },
+        "e634a329-458c-4302-8252-eff8dc03ac88": {
+          "type": "faq",
+          "settings": {
+            "question": "Where is most common to get dark spots?",
+            "answer": "Face, bikini line and underarms are the most common. In recent years we've seen more visibility into dark spots on the bikini line."
+          }
+        },
+        "65d63060-dd9c-4f1d-9552-75f3c6f0e32d": {
+          "type": "faq",
+          "settings": {
+            "question": "What are the best ingredients to look for in a dark spot treatment?",
+            "answer": "We recommend using natural ingredients. One in particular is lemon peel oil, as it's natural abilities to soften the appearance of dark spots."
+          }
+        },
+        "5469c5bc-fdb8-4ac5-bceb-8e3c3c3b8e5c": {
+          "type": "faq",
+          "settings": {
+            "question": "Will exfoliating speed up removing dark spots?",
+            "answer": "Yes! Exfoliating your bikini line dark spots regularly will diminish the appearance at a much faster rate."
+          }
+        }
+      },
+      "block_order": [
+        "1b533e3c-0eb9-4c10-9fcf-e68a92d8f42f",
+        "c525a483-ad21-4ca4-a6fc-f1134c046318",
+        "beda6df3-5b5d-449b-9376-f52384196e3a",
+        "e634a329-458c-4302-8252-eff8dc03ac88",
+        "65d63060-dd9c-4f1d-9552-75f3c6f0e32d",
+        "5469c5bc-fdb8-4ac5-bceb-8e3c3c3b8e5c"
+      ],
+      "settings": {
+        "heading_faq": "Dark Spot FAQs",
+        "heading_ingredients": "Most Common Causes of Dark Spots",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16459022665be88fbd": {
+      "type": "content",
+      "blocks": {
+        "03c96ce6-c5a3-4885-9bc2-1a97cc0f64f9": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 1",
+            "copy": "Remove the pump and lid from the bottle. The lid can't be recycled due to it's components."
+          }
+        },
+        "75f5b707-3f2c-405a-8db0-d0a3001b9647": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 2",
+            "copy": "Rinse and clean the empty bottle. The container has to be clean and should have no remaining product left."
+          }
+        },
+        "6ba5b303-3c1e-41df-b3a2-0cd7ea8230c9": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 3",
+            "copy": "The bottle can now be recycled. Recycle the bottle, but dispose of the lid."
+          }
+        },
+        "f369a7e2-b5c0-4c0b-b7f4-8cec01637233": {
+          "type": "content_block",
+          "settings": {
+            "title": "You did it!",
+            "copy": "Thanks for taking the time to recycle!  At Bushbalm we know we aren't perfect, but are making strides to reduce our impact on the earth."
+          }
+        }
+      },
+      "block_order": [
+        "03c96ce6-c5a3-4885-9bc2-1a97cc0f64f9",
+        "75f5b707-3f2c-405a-8db0-d0a3001b9647",
+        "6ba5b303-3c1e-41df-b3a2-0cd7ea8230c9",
+        "f369a7e2-b5c0-4c0b-b7f4-8cec01637233"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "how-to-recycle",
+        "alignment": "left",
+        "bg_color": "#cca181",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+        "image_desktop": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+        "image_size": "small",
+        "image_offset": -180,
+        "heading": "How to Recycle",
+        "copy": "Help us keep the earth a little cleaner. Follow these steps to appropriately recycle your empty Bushbalm skincare products.",
+        "subheading": "Steps",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1645885072a421d2c7": {
+      "type": "content",
+      "blocks": {
+        "e3833214-5a54-4594-8856-837fbaee03d7": {
+          "type": "content_block",
+          "settings": {
+            "title": "Jojoba Seed Oil",
+            "copy": "Helps soften skin while increasing hydration and smoothness.",
+            "icon": "shopify:\/\/shop_images\/Jojoba_825dc920-6f06-4c7f-9937-723bf8331ea2.png"
+          }
+        },
+        "8ff91c7f-c63d-4484-a3cb-1128130db2f3": {
+          "type": "content_block",
+          "settings": {
+            "title": "Lemon Peel Oil",
+            "copy": "Acts as a natural exfoliant and helps brightens skin, while reducing the appearance of dark spots.",
+            "icon": "shopify:\/\/shop_images\/Lemon.png"
+          }
+        },
+        "d6ca68d2-2a0f-4290-be23-0139498a1bf6": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tea Tree Oil",
+            "copy": "Fresh and revitalizing, helps calms skin and reduces redness after inflammation.",
+            "icon": "shopify:\/\/shop_images\/Tea_Tree.png"
+          }
+        },
+        "8fa1a8d4-e4ed-41e5-9448-a2199c75588b": {
+          "type": "content_block",
+          "settings": {
+            "title": "Grapeseed Oil",
+            "copy": "High in vitamin A & E; Grape seed Oil infuses skin and body hair with intense, soothing moisture.",
+            "icon": "shopify:\/\/shop_images\/Grapdeseed.png"
+          }
+        }
+      },
+      "block_order": [
+        "e3833214-5a54-4594-8856-837fbaee03d7",
+        "8ff91c7f-c63d-4484-a3cb-1128130db2f3",
+        "d6ca68d2-2a0f-4290-be23-0139498a1bf6",
+        "8fa1a8d4-e4ed-41e5-9448-a2199c75588b"
+      ],
+      "settings": {
+        "uid": "hero-ingredients",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": true,
+        "image_mobile": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Dark Spot Oil & Ingredients",
+        "copy": "Formulated with 6 natural ingredients to help improve the look of dark spots found anywhere on the body. The proprietary blend of botanical and essential oils acts as a natural exfoliant, brightens and softens skin while reducing the appearance of dark spots.",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "cta_text": "View Bermuda",
+        "cta_alignment": "left",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1645886685ca379c03": {
+      "type": "featured-reviews",
+      "settings": {
+        "intro": "",
+        "headline": "Verified Review",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"10164299470, 6798599454776, 6798599618616\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16458860213f812f21": {
+      "type": "featured-products",
+      "blocks": {
+        "e74ac24d-e943-4bba-9a6e-4538f428245e": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda  Dark Spot Oil",
+            "copy": "vitamin C + jojoba",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Best Seller"
+          }
+        },
+        "416fae57-9e1d-4882-94c9-5d333aed86cb": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "title": "2 Step Routine",
+            "copy": "soften + soothe",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": ""
+          }
+        },
+        "ce73ff40-c206-443c-a5e4-dc8ad242d5ac": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-bikini-line-kit",
+            "title": "3 Step Routine",
+            "copy": "bundle + save",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-bikini-line-kit",
+            "badge_text": "Best Value"
+          }
+        }
+      },
+      "block_order": [
+        "e74ac24d-e943-4bba-9a6e-4538f428245e",
+        "416fae57-9e1d-4882-94c9-5d333aed86cb",
+        "ce73ff40-c206-443c-a5e4-dc8ad242d5ac"
+      ],
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164589715870b52dc6": {
+      "type": "testimonials",
+      "blocks": {
+        "ceba1576-a7f8-4a14-b4a6-90fb57385356": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm_-_Dark_Spot_Oil_for_All_Skin_Types_e0e2553e-d215-4d44-840c-b4ae0ce91822.png",
+            "content": "\"I am a huge fan of this oil, and it smells fantastic!  Paired with the Bermuda Scrub, it effectively diminishes dark spots.\"",
+            "name": "- Jane B",
+            "product": "dark-spot-treatment",
+            "product_image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Oil_by_Bushbalm.jpg",
+            "cta_text": "VIEW DARK SPOT OIL"
+          }
+        },
+        "4e0cda3c-cf3d-41d8-a44b-ae7a06f698c4": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spot_Oil_by_Bushbalm_Bermuda_Scent_9b02668d-faae-47dd-9e50-321f908ea15f.png",
+            "content": "\"I purchased the bundle pack where this oil came with the exfoliator and have been using it for a month and have seen great improvements.  If only the oil came in a bigger size!\"",
+            "name": "Dark Spot Routine",
+            "product": "dark-spot-bikini-line-kit",
+            "product_image": "shopify:\/\/shop_images\/3_Step_Routine_for_dark_spots.png",
+            "cta_text": "VIEW DARK SPOT ROUTINE"
+          }
+        },
+        "a9712be6-1421-442b-8ae4-c1d025aa6e4b": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda_Dark_Spot_Scrub_8aaf43be-eefd-4152-8c5d-7257974cb694.png",
+            "content": "\"This set really makes a difference in such a sort amount of time! I love it and my mom did too!\"",
+            "name": "- Melissa",
+            "product": "dark-spot-bikini-line-kit",
+            "product_image": "shopify:\/\/shop_images\/3_Step_Routine_for_dark_spots_d6629768-2510-4682-9752-edd764154477.png",
+            "cta_text": "VIEW DARK SPOT ROUTINE"
+          }
+        }
+      },
+      "block_order": [
+        "ceba1576-a7f8-4a14-b4a6-90fb57385356",
+        "4e0cda3c-cf3d-41d8-a44b-ae7a06f698c4",
+        "a9712be6-1421-442b-8ae4-c1d025aa6e4b"
+      ],
+      "disabled": true,
+      "settings": {
+        "intro": "Testimonials",
+        "title": ""
+      }
+    },
+    "1645903101282b3b06": {
+      "type": "image-carousel",
+      "blocks": {
+        "43950189-d951-4117-ad63-585e86c81486": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/underarm-darkening-before-and-after-dark-spot-oil.jpg",
+            "link": "",
+            "link_title": "Before and After Picture of Dark Underarms"
+          }
+        },
+        "690ca172-2c27-4ab5-946f-7dfe47eb1cc6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_4.jpg",
+            "link": "",
+            "link_title": "Before and after photo of hyperpigmentation in the underarms"
+          }
+        },
+        "4264da5c-da8f-4f8c-924d-f6664d7fe06a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_3.jpg",
+            "link": "",
+            "link_title": "close up image of before and after of dark spots on the bikini line"
+          }
+        },
+        "1825790c-b006-4492-b2c9-613683e5069b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_a4a1366f-5de8-49a0-8447-9fdcdd5fa00c.png",
+            "link": "",
+            "link_title": "before and after of ingrown hairs and dark spots on the bikini line"
+          }
+        },
+        "c57f547b-164d-48e7-8fbd-487e677f9049": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-After-Picture-Dark-Spot-Oil.jpg",
+            "link": "",
+            "link_title": "hyperpigmentation before and after on the bikini line"
+          }
+        },
+        "546edb62-8f7a-40f5-bb16-dc956b4952eb": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dark-spot-oil-underarm-darkening.jpg",
+            "link": "",
+            "link_title": "underarm darkening before and after"
+          }
+        },
+        "4cd4fff3-a70c-4bb5-bcbe-c439bea623a2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-And-After-Dark-Under-Arms-Dark-Spot-Oil.jpg",
+            "link": "",
+            "link_title": "before and after underarm discoloration"
+          }
+        }
+      },
+      "block_order": [
+        "43950189-d951-4117-ad63-585e86c81486",
+        "690ca172-2c27-4ab5-946f-7dfe47eb1cc6",
+        "4264da5c-da8f-4f8c-924d-f6664d7fe06a",
+        "1825790c-b006-4492-b2c9-613683e5069b",
+        "c57f547b-164d-48e7-8fbd-487e677f9049",
+        "546edb62-8f7a-40f5-bb16-dc956b4952eb",
+        "4cd4fff3-a70c-4bb5-bcbe-c439bea623a2"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1645897539bad36590": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "TESTIMONIALS",
+        "headline": "Top Bikini Line Dark Spot Treatment Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"10164299470\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1645897024f6cecc9f": {
+      "type": "all-reviews",
+      "disabled": true,
+      "settings": {
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"full-page\" data-take=\"5\" data-style-color-star=\"#f8a086\" data-style-color-verified=\"#271710\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-product-ids=\"10164299470, 6798599454776, 6798599618616\"><\/div>",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1637963148de8f9c5a": {
+      "type": "related-articles",
+      "blocks": {
+        "5d711475-a501-4be8-a801-a9a3826dfda3": {
+          "type": "article",
+          "settings": {
+            "article": "skincare-everywhere\/how-to-relieve-itchy-armpits"
+          }
+        },
+        "a559d9f3-d80e-4048-a056-505790a0d0f2": {
+          "type": "article",
+          "settings": {
+            "article": "skincare-everywhere\/3-reasons-why-your-pubic-hair-itches-after-you-trim-it"
+          }
+        },
+        "e6bbe4ad-e972-4199-8580-c7692c030268": {
+          "type": "article",
+          "settings": {
+            "article": "how-to-guides\/bermuda-dark-spot-oil"
+          }
+        }
+      },
+      "block_order": [
+        "5d711475-a501-4be8-a801-a9a3826dfda3",
+        "a559d9f3-d80e-4048-a056-505790a0d0f2",
+        "e6bbe4ad-e972-4199-8580-c7692c030268"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Related Dark Spot & Hyperpigmentation Articles",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1645897817a64ecdb5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": true,
+        "intro": "ABOUT US",
+        "headline": "We make bikini line skincare products you'll fall in love with.",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "View The Dark Spot Oil",
+        "cta_link": "shopify:\/\/collections\/dark-spot-routine",
+        "cta_2_text": "View Before & Afters",
+        "cta_2_link": "shopify:\/\/blogs\/before-and-after",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1660049326097c3f80",
+    "166005164028f76907",
+    "main",
+    "164588719397d2f43d",
+    "16458981045c2d7270",
+    "16470058545034ec3b",
+    "164589754355f62b8c",
+    "164588714879dac2b0",
+    "16470070319ac66b55",
+    "16459022665be88fbd",
+    "1645885072a421d2c7",
+    "1645886685ca379c03",
+    "16458860213f812f21",
+    "164589715870b52dc6",
+    "1645903101282b3b06",
+    "1645897539bad36590",
+    "1645897024f6cecc9f",
+    "1637963148de8f9c5a",
+    "1645897817a64ecdb5"
+  ]
+}

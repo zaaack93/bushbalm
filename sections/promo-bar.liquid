@@ -1,0 +1,96 @@
+<script src="{{ 'promo-bar.js' | asset_url }}" defer="defer"></script>
+{{ 'promo-bar.css' | asset_url | stylesheet_tag }}
+
+<div class="promo-bar promo-bar--{{ section.id }}">
+  <div class="promo-bar__container swiper-container"{% if section.blocks.size > 1 %} data-promo-bar{% endif %}>
+    <div class="promo-bar__wrapper swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="promo-bar__content swiper-slide">
+          {% if block.settings.link_desktop != blank and block.settings.link_mobile != blank %}
+            <a href="{{ block.settings.link_desktop }}"
+              title="{{ block.settings.text_desktop }}"
+              class="small--hide">
+              {{- block.settings.text_desktop -}}
+            </a>
+            <a href="{{ block.settings.link_mobile }}"
+              title="{{ block.settings.text_mobile }}"
+              class="medium-up--hide">
+              {{- block.settings.text_mobile -}}
+            </a>
+          {% else %}
+            <p class="small--hide">
+              {{- block.settings.text_desktop -}}
+            </p>
+            <p class="medium-up--hide">
+              {{- block.settings.text_mobile -}}
+            </p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% style %}
+  .promo-bar--{{ section.id }} .promo-bar__content {
+    background-color: {{ section.settings.bg_color | color_modify: 'alpha', 0.75 }};
+    color: {{ section.settings.color }};
+  }
+
+  @media (min-width: 750px) {
+    .promo-bar--{{ section.id }} .promo-bar__content {
+      background-color: {{ section.settings.bg_color }};
+      color: {{ section.settings.color }};
+    }
+  }
+{% endstyle %}
+
+{% schema %}
+  {
+    "name": "Promo Bar",
+    "blocks": [
+      {
+        "type": "promo_message",
+        "name": "Promo Message",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "text",
+            "id": "text_desktop",
+            "label": "Text | Desktop"
+          },
+          {
+            "type": "url",
+            "id": "link_desktop",
+            "label": "Link | Desktop"
+          },
+          {
+            "type": "text",
+            "id": "text_mobile",
+            "label": "Text | Mobile"
+          },
+          {
+            "type": "url",
+            "id": "link_mobile",
+            "label": "Link | Mobile"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color",
+        "default": "#F8E2C9",
+        "info": "Will be 75% opacity on mobile"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Text Color",
+        "default": "#271710"
+      }
+    ]
+  }
+{% endschema %}

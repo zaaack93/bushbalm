@@ -1,0 +1,66 @@
+<script src="{{ 'search.js' | asset_url }}" defer="defer"></script>
+{{ 'search.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign items_per_page = 24
+  assign search_placeholder = 'general.search.placeholder' | t
+  if search.types contains 'article'
+    assign items_per_page = 8
+    assign search_placeholder = 'general.search.placeholder_blog' | t
+  endif
+-%}
+
+{% style %}
+  .search-page .grid--uniform {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 870px){
+    .search-page .grid--uniform {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 600px){
+    .search-page .grid--uniform {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+{% endstyle %}
+
+<div class="search-page">
+  {% paginate search.results by items_per_page %}
+    <div class="search-page-title wrapper">
+      <div class="search-page-title__row">
+        <h1 class="search-page-title__title">
+          {{ 'general.search.results_with_count' | t: count: search.results_count, terms: search.terms }}
+        </h1>
+
+        {% assign placeholder = 'general.search.placeholder_blog' | t %}
+        {% render 'search-bar' with placeholder: search_placeholder, search_type: search.types %}
+      </div>
+    </div>
+
+    <div class="search-page__results wrapper">
+      {% if search.performed %}
+        {% if search.results_count == 0 %}
+          <p class="text-center">{{ 'general.search.no_results_html' | t: terms: search.terms }}</p>
+        {% else %}
+          {% if search.types contains 'article' %}
+            <div class="article-grid">
+              {% render 'article-item' for search.results as article %}
+            </div>
+          {% else %}
+            <div class="grid--uniform">
+              {% render 'collection-item' for search.results as product %}
+            </div>
+          {% endif %}
+
+          {% if paginate.pages > 1 %}
+            {% render 'pagination', paginate: paginate %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    </div>
+  {% endpaginate %}
+</div>

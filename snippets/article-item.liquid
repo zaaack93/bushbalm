@@ -1,0 +1,52 @@
+{%- liquid
+  assign image = image | default: article.image
+  assign meta_image = article.metafields.custom_fields["preview_image"]
+-%}
+
+<article class="article-item{% if featured %} article-item--featured{% endif %}">
+  {% if image != blank or meta_image != blank %}
+    <a class="article-item__image img-cover" href="{{ article.url }}" title="{{ article.title }}">
+      {% if meta_image != blank %}
+        <img src="{{ meta_image }}" alt="{{ article.title }}" loading="lazy" width="100%">
+      {% else %}
+        {% render 'responsive-img' with
+          image: image,
+          max_width: 1024,
+          max_height: 1024
+        %}
+      {% endif %}
+    </a>
+  {% endif %}
+
+  <div class="article-item__content">
+    {% if article.metafields.custom_fields["custom_pill_text"] != blank %}
+      <span class="article-item__tag ui-subtitle">{{ article.metafields.custom_fields["custom_pill_text"] }}</span>
+    {% elsif article.tags != blank %}
+      <span class="article-item__tag ui-subtitle">{{ article.tags | first }}</span>
+    {% endif %}
+
+    <h3 class="article-item__title">{{ article.title }}</h3>
+
+    {% if featured %}
+      <div class="article-item__excerpt">
+        {% if excerpt != blank %}
+          <p>{{ excerpt | truncatewords: 30 }}</p>
+        {% elsif article.excerpt.size > 0 %}
+          {{ article.excerpt | truncatewords: 30 }}
+        {% else %}
+          <p>{{ article.content | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <p class="article-item__author">{{ article.author }}</p>
+
+    <a class="btn" href="{{ article.url }}" title="{{ article.title }} {{ 'blogs.article.read_more' | t }}">
+      {%- if section.settings.cta_text != blank -%}
+        {{- section.settings.cta_text -}}
+      {%- else -%}
+        {{- 'blogs.article.read_more' | t -}}
+      {%- endif -%}
+    </a>
+  </div>
+</article>

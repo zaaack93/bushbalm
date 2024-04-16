@@ -1,0 +1,122 @@
+<script src="{{ '2-up-content.js' | asset_url }}" defer="defer"></script>
+{{ '2-up-content.css' | asset_url | stylesheet_tag }}
+
+<div class="two-up-content" role="region" aria-label="2-up-content" data-two-up-content>
+  <div class="two-up-content__desktop-block two-up-content__mobile-header large--hide">
+    <div class="wrapper">
+      <small class="ui-label">{{ section.settings.intro }}</small>
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="grid">
+      <div class="two-up-content__carousel-wrapper grid__item large--6">
+        <div class="swiper-container" data-two-up-content-carousel>
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+              <div class="swiper-slide" data-image="{{ block.settings.product_image | img_url: '512x512' }}" data-alt-text="{{ block.settings.product_image.alt | default: 'product image' }}">
+                {% render 'responsive-image' with
+                  image: block.settings.image,
+                  max_width: 512,
+                  max_height: 512,
+                  image_attributes: 'data-two-up-content-carousel-image'
+                %}
+              </div>
+            {% endfor %}
+          </div>
+          <button class="two-up-content__control two-up-content__control--prev"
+              aria-label="{{ 'general.accessibility.slider_prev' | t }}"
+              title="{{ 'general.accessibility.slider_prev' | t }}"
+              data-two-up-content-carousel-prev
+            >
+              {% render 'icon-chevron-left' %}
+            </button>
+            <button class="two-up-content__control two-up-content__control--next"
+              aria-label="{{ 'general.accessibility.slider_next' | t }}"
+              title="{{ 'general.accessibility.slider_next' | t }}"
+              data-two-up-content-carousel-next
+            >
+              {% render 'icon-chevron-right' %}
+            </button>
+        </div>
+      </div>
+
+      <div class="two-up-content__mobile-block two-up-content__mobile-header large--hide">
+        <small class="ui-label">{{ section.settings.intro }}</small>
+        <h2>{{ section.settings.title }}</h2>
+      </div>
+
+      <div class="two-up-content__content-wrapper grid__item large--6">
+        <div class="two-up-content__content">
+          <small class="medium-down--hide ui-label">{{ section.settings.intro }}</small>
+          <h1 class="medium-down--hide">{{ section.settings.title }}</h1>
+          {% assign content_paragraphs = section.settings.content | split: '<br>' %}
+          {% for paragraph in content_paragraphs %}
+            <p data-two-up-content-content>{{ paragraph }}</p>
+          {% endfor %}
+          <a class="btn btn--full" href="{{ section.settings.cta_link }}" title="{{ section.settings.cta_text }}" data-two-up-content-cta>
+            {{ section.settings.cta_text | upcase }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "text",
+        "id": "intro",
+        "label": "Intro",
+        "default": "Our Products",
+        "info": "Recommended character limit: 20"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Title Placeholder",
+        "info": "Recommended character limit: 15"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content",
+        "info": "Use '<br>' to start a new paragraph"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "default": "Learn More"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "carousel-image",
+        "name": "Carousel Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Carousel Image",
+            "info": "Dimensions 512 x 512"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "2-up Content Block"
+      }
+    ]
+  }
+{% endschema %}

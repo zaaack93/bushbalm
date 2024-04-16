@@ -1,0 +1,674 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content",
+      "settings": {
+      }
+    },
+    "9c9da9ed-9f49-4409-b909-c92032b709c9": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Say Goodbye to Razor Burn + Bumps",
+        "heading_tag": "h2",
+        "title_sizing": "title_medium",
+        "subtitle": "",
+        "copy": "<p>From your underarms to your bikini line — razor burn has met it's match! <\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Solve Razor Burn",
+        "cta_link": "shopify:\/\/collections\/razor-burn",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Hero_Image.png",
+        "image_desktop": "shopify:\/\/shop_images\/Hero_Image.png",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4788,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_58ddd728-1cb4-4243-b948-361287d462e6.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "05765392-c0db-4605-9f7e-37922dfd2c08": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/2_4bdc82d8-398b-4ac2-8925-fb8f1df200f0.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/2_a11e9bc2-76db-4f46-9b42-665b0a5d7e90.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "31aa2022-465a-4761-9483-a64a89e076b4": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "discovery-kit",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p><\/p><p>Not sure where to start? Try out all three of our bestselling oils to find your match with The Starter Kit.<\/p><p><\/p><p>Formulated with natural, vegan ingredients that are gyno-approved, esthetcian loved.<\/p><p><\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": false,
+        "image_1": "shopify:\/\/shop_images\/gyno-derm-approved_1.png",
+        "image_2": "shopify:\/\/shop_images\/for-all-skin-types.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "c60f93da-d8d3-4a06-b855-83e9536b49f5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#fbefe2",
+        "padding": true,
+        "intro": "Not Sure Where to Start?",
+        "headline": "Take Our Skin Quiz",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "shopify:\/\/pages\/quiz",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "49dfb62d-faef-4487-b231-2676ca342342": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<div class=\"octane-ai-quiz \" data-quiz-id=\"TkAG1iWBlfYT1foL\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/euqkhkdccgflmqpl\/quiz.js\" async=\"\" defer><\/script>"
+      }
+    },
+    "e5fe76cf-5825-457c-86ca-38791fb87bdc": {
+      "type": "before-and-after",
+      "blocks": {
+        "4a4f5ae7-fb6e-4698-822a-157590b8ec02": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "sweet-escape-oil",
+            "product_title": "Sweet Escape Ingrown Hair Oil",
+            "product_copy": "Formulated to soothe razor burn + bumps",
+            "cta_text": "Shop Sweet Escape",
+            "image_1": "shopify:\/\/shop_images\/Tajah_Russell_Before.jpg",
+            "image_1_testimonial": "",
+            "image_2": "shopify:\/\/shop_images\/Tajah_Russell_After.jpg",
+            "image_2_testimonial": "",
+            "image_3_testimonial": ""
+          }
+        },
+        "7b670024-1a17-49d3-a9e7-7e8e711f2eee": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "3-step-routine-ingrown-hair-razor-burn-prevention",
+            "product_title": "3 Step Ingrown Hair Routine",
+            "product_copy": "Formulated to reduce the apperance of ingrown hairs + bikini line bumps",
+            "cta_text": "Shop Ingrown Hair Routine",
+            "image_1": "shopify:\/\/shop_images\/Bushbalm_Before_Ingrown.jpg",
+            "image_1_testimonial": "",
+            "image_2": "shopify:\/\/shop_images\/Bushbalm_Results.jpg",
+            "image_2_testimonial": "",
+            "image_3_testimonial": ""
+          }
+        },
+        "5346d291-ade0-44a9-9310-758106062585": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "pubic-hair-trimmer-holiday-kit",
+            "product_title": "The Trimmer Kit",
+            "product_copy": "Prep + pamper skin for wherever you groom",
+            "cta_text": "Shop Trimmer Kit",
+            "image_1": "shopify:\/\/shop_images\/3_2483f9d7-13dc-44fd-a01d-09bb09f3ce49.jpg",
+            "image_1_testimonial": "",
+            "image_2": "shopify:\/\/shop_images\/4_1bb2ad0f-cf62-4799-a261-f0197eee01f4.jpg",
+            "image_2_testimonial": "",
+            "image_3_testimonial": ""
+          }
+        },
+        "5a355b9d-5dbd-4e0b-b075-3a61761fb6cd": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "vajacial-hydrogel-mask-set",
+            "product_title": "Hydrogel Vajacial Mask",
+            "product_copy": "Formulated to soothe redness + hydrate skin",
+            "cta_text": "Shop Vajacial",
+            "image_1": "shopify:\/\/shop_images\/19_106db6d2-31db-4433-b752-e6e452c5e463.jpg",
+            "image_1_testimonial": "",
+            "image_2": "shopify:\/\/shop_images\/20.jpg",
+            "image_2_testimonial": "",
+            "image_3_testimonial": ""
+          }
+        },
+        "b41e3269-8d4b-4403-aadc-8fb2b5bdf5d8": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "2-step-routine-keratosis-pilaris-bump-eraser",
+            "product_title": "Sweet Escape 2 Step Routine",
+            "product_copy": "Formulated to reduce the appearance of razor burn + bumps",
+            "cta_text": "Shop Razor Burn Routine",
+            "image_1": "shopify:\/\/shop_images\/12_5688aa3f-65ee-4f36-8bff-fa9b7ddfe275.jpg",
+            "image_1_testimonial": "",
+            "image_2": "shopify:\/\/shop_images\/11_5755b7a3-d3a7-4e30-9f1d-29faf69d23a4.jpg",
+            "image_2_testimonial": "",
+            "image_3_testimonial": ""
+          }
+        }
+      },
+      "block_order": [
+        "4a4f5ae7-fb6e-4698-822a-157590b8ec02",
+        "7b670024-1a17-49d3-a9e7-7e8e711f2eee",
+        "5346d291-ade0-44a9-9310-758106062585",
+        "5a355b9d-5dbd-4e0b-b075-3a61761fb6cd",
+        "b41e3269-8d4b-4403-aadc-8fb2b5bdf5d8"
+      ],
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/2_6b96fdb7-6e56-462c-9faa-9d0d85507b67.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Before_and_After_Results.jpg",
+        "heading": "Our Results Do The Talking",
+        "subheading": "View hundreds of before and after results for every skin concern.",
+        "cta_text": "View Results",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#000000",
+        "gradient_angle_mobile": 180,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#000000",
+        "gradient_angle_desktop": 0,
+        "enable_cta_slide": true,
+        "cta_slide_title": "Every Body is unique",
+        "cta_slide_copy": "Razor burn? Ingrown hairs? Take our quiz to find out what products are perfect for your specific skin concerns.",
+        "cta_slide_cta_link": "shopify:\/\/pages\/quiz",
+        "cta_slide_cta_text": "Find My Routine",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "6ae1b5ea-176d-445e-92b5-5434c091e2ce": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/1_c02dcb61-62f6-48be-8972-b8f7e0b508d7.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/4_bf737378-04ea-453d-8566-94be1d44f595.jpg",
+        "image_offset": 0,
+        "preheading": "Before + After",
+        "heading": "Our Results Do The Talking",
+        "copy": "<p>View hundreds of before and after results for every skin concern. <\/p>",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_text": "VIEW MORE",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "d881fe88-d085-4161-8281-c51af7127805": {
+      "type": "about-principles",
+      "blocks": {
+        "bec827c2-f010-420f-a3fa-15e10e5df452": {
+          "type": "principle",
+          "settings": {
+            "text": "Solve Skin Concerns, Everywhere"
+          }
+        },
+        "63fb6a4c-6eb6-40b3-90b4-b742255dd378": {
+          "type": "principle",
+          "settings": {
+            "text": "Use Natural, Or Naturally Derived Ingredients"
+          }
+        },
+        "fa5aeb80-577c-46e3-a67c-0a609e5ae9ee": {
+          "type": "principle",
+          "settings": {
+            "text": "Formulate For All Skin Types"
+          }
+        },
+        "eef8e711-d33e-4fd9-a43f-5bb05ed496fa": {
+          "type": "principle",
+          "settings": {
+            "text": "Do More Of #1."
+          }
+        }
+      },
+      "block_order": [
+        "bec827c2-f010-420f-a3fa-15e10e5df452",
+        "63fb6a4c-6eb6-40b3-90b4-b742255dd378",
+        "fa5aeb80-577c-46e3-a67c-0a609e5ae9ee",
+        "eef8e711-d33e-4fd9-a43f-5bb05ed496fa"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Who-We-Are-At-Bushbalm-Skincare-About-Us-Page_540x_4a74edb2-8f60-4911-ae4f-ecc88e0a4db7.webp",
+        "alignment": "bottom",
+        "headline": "Hi, We're Bushbalm!",
+        "subheading": "",
+        "content": "At Bushbalm we care deeply about you and your skin. We do this by providing high quality ingredients, thoughtful routines and results you can see and feel.",
+        "intro": "Our Promise",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "0aa1d382-302c-40bf-a736-073e94201947": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "b52cb326-933c-40bf-afb4-7aabe7a7287b": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-keratosis-pilaris-bump-eraser",
+            "enable_sub_text": false
+          }
+        },
+        "5bfbc28b-aaa9-4ec0-a500-46989813c261": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sexy-scents-bundle",
+            "enable_sub_text": false
+          }
+        },
+        "a0da485b-0480-40b7-be99-2615eb4c1e30": {
+          "type": "featured_product",
+          "settings": {
+            "product": "routine-ingrown-treatment",
+            "enable_sub_text": false
+          }
+        },
+        "b34cab31-bce5-40ab-84ec-d0aceb4dbe43": {
+          "type": "featured_product",
+          "settings": {
+            "product": "nude-exfoliating-scrub",
+            "enable_sub_text": false
+          }
+        }
+      },
+      "block_order": [
+        "b52cb326-933c-40bf-afb4-7aabe7a7287b",
+        "5bfbc28b-aaa9-4ec0-a500-46989813c261",
+        "a0da485b-0480-40b7-be99-2615eb4c1e30",
+        "b34cab31-bce5-40ab-84ec-d0aceb4dbe43"
+      ],
+      "settings": {
+        "heading": "Bestsellers",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "6e707e37-628a-463b-ac22-6a47b12187c1": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center><a href=\"https:\/\/bushbalm.com\/collections\/all\" class=\"btn btn-primary\">Shop All Products<\/a><\/center>"
+      }
+    },
+    "5f90e3dd-6206-4314-88d5-b60c742f1dba": {
+      "type": "testimonials",
+      "blocks": {
+        "50fdc8fa-bea1-4238-be97-779ffeceb8a2": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_BA.webp",
+            "content": "This Ingrown hair oil is the best thing I’ve ever purchased for myself. It absorbs into the skin and feels so nice when you massage it into the areas it’s needed. Oh and the scent, it’s delicious!",
+            "name": "- Cassandra L.",
+            "product": "sweet-escape-oil",
+            "product_image": "shopify:\/\/shop_images\/sweet_escape_ingrown_hair_oil.png",
+            "cta_text": "Shop Sweet Escape"
+          }
+        },
+        "a52f35ab-1e4e-4179-911c-7977a34e41d8": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_2.jpg",
+            "content": "I definitely recommend this whole set. I wish I had found a product like this a loooong time ago! I’ll 100% be ordering again",
+            "name": "- Amy H.",
+            "product": "pubic-hair-trimmer-holiday-kit",
+            "product_image": "shopify:\/\/shop_images\/TRIMMER_KIKT.png",
+            "cta_text": "Shop Trimmer Kit"
+          }
+        },
+        "1a07e918-87ef-45d4-9086-90d6cf8f9796": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Step_Nude.png",
+            "content": "Love this entire kit, using it regularly helps so much! My razor burn on my bikini line has also diminished like crazy. Definitely recommend the oil especially during the summer",
+            "name": "- Sara B.",
+            "product": "3-step-routine-ingrown-hair-razor-burn-prevention",
+            "product_image": "shopify:\/\/shop_images\/ude_3_step.png",
+            "cta_text": "Shop Nude 3 step routine"
+          }
+        },
+        "21d9d4cd-b11a-49db-8fd9-d367b69329a4": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_2_dbf54765-e4ee-494f-a26c-5bdb8766d2f7.jpg",
+            "content": "Worth its weight in gold. These products are completely non-irritating and are the only products I’ve tried that actually soothe, reduce pigmentation and redness, and prevent ingrown hairs.",
+            "name": "- Julie S.",
+            "product": "2-step-routine-keratosis-pilaris-bump-eraser",
+            "product_image": "shopify:\/\/shop_images\/Untitled_design_4_128de7cf-0f08-42c2-ae9d-817f0370c865.png",
+            "cta_text": "Shop Sweet Escape 2 step Routine"
+          }
+        },
+        "a9a7ff06-55cd-4d56-93ab-a03e87c10d1d": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_After_-_Vajacial_3.jpg",
+            "content": "Never knew I needed this!\nThis is perfectly cooling and freshening for after a shave and it’s so calming for down there the itch went away. My skin felt so fresh and clean!",
+            "name": "- Kate R.",
+            "product": "vajacial-hydrogel-mask-set",
+            "product_image": "shopify:\/\/shop_images\/vajacial-flatlay.png",
+            "cta_text": "Shop Vajacial"
+          }
+        }
+      },
+      "block_order": [
+        "50fdc8fa-bea1-4238-be97-779ffeceb8a2",
+        "a52f35ab-1e4e-4179-911c-7977a34e41d8",
+        "1a07e918-87ef-45d4-9086-90d6cf8f9796",
+        "21d9d4cd-b11a-49db-8fd9-d367b69329a4",
+        "a9a7ff06-55cd-4d56-93ab-a03e87c10d1d"
+      ],
+      "disabled": true,
+      "settings": {
+        "intro": "",
+        "title": "Join 5,000+ others who love BushBalm"
+      }
+    },
+    "bdcb70ab-78eb-40d5-8490-b542f770977c": {
+      "type": "image-link-carousel",
+      "disabled": true,
+      "settings": {
+        "carousel_heading": "Shop By Collection"
+      }
+    },
+    "c0ffb170-d7e0-4862-9b21-f2969834e764": {
+      "type": "featured-reviews",
+      "disabled": true,
+      "settings": {
+        "intro": "ingrown hair collection",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\" data-product-ids=\"10164299470, 6798600077368, 1931313381432, 6798600077368\" data-limit-words=\"50\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1672621589e2196354": {
+      "type": "apps",
+      "blocks": {
+        "bc44182a-39c7-4419-b28d-2f4a9b9ac938": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "title": "Join the 5,000+ People Who Love Bushbalm",
+            "auto_play": false,
+            "take": 30,
+            "color_title": "#271710",
+            "color_star": "#f7efa1",
+            "color_text": "#271710",
+            "color_link": "#271710",
+            "review_ids": "",
+            "product_ids": "7607933468728, 7607933599800, 7607933698104, 7607932977208, 7607933435960, 7607933501496, 7607932911672, 7607934025784, 7607930880056",
+            "category": "",
+            "product_brand": "",
+            "tags": "",
+            "min_rating": "none",
+            "fill_empty": false,
+            "random": false,
+            "with_photos": false
+          }
+        }
+      },
+      "block_order": [
+        "bc44182a-39c7-4419-b28d-2f4a9b9ac938"
+      ],
+      "settings": {
+      }
+    },
+    "cbeaa0e0-e6a2-475d-82d5-f3ce1545cfd7": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_boxed",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Gyno + Derm Approved",
+        "heading_tag": "h2",
+        "title_sizing": "title_medium",
+        "subtitle": "",
+        "copy": "<p>We work with gynecologists and dermatologists to formulate best in class products that are effective and safe to use, everywhere. <\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Get Started",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/BFCM_Home_Hero_2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Dr._Arumala_Gyno_Approved_afc64c74-ea21-45fa-8b3d-125dea2729da.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "67f153c4-3a33-4256-8a68-45aba6fe1959": {
+      "type": "image-carousel",
+      "blocks": {
+        "7928f248-9deb-42c4-abc7-5c226732db79": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer_680x_1314b180-d05d-4563-a5b4-c025625384a4.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "a5f3e7cf-651f-4895-ac4b-0df106c8250a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer_680x_5c0e68aa-2b32-4b72-ab8d-d299197ed184.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "319e4955-6372-494c-a784-1e1af908875b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-Bushbalm-Influencer_1_680x_db9918ef-27f1-4432-9a6e-f18dc55a7e5f.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "d36019a3-d2dc-4129-aeca-d0bb6cce6f6e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer_680x_da2e1887-6f90-4a2a-b2c1-c49a009e078b.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "406b9051-9304-4d6d-8428-71c0c1c0f234": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer_680x_7a7e6959-5611-42da-832d-51a171dd6a94.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "834775cb-6636-4f08-8368-09f8c0c9d43e": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_512x_34b9f404-61ea-4408-87b9-c21868b0e286.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "f6fb8775-eb62-4607-b690-1f13a0e2e184": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6-bushbalm-influencer_680x_bd7b3e9c-8f21-46b1-9a94-9cd071ea514d.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "05da36a3-fc72-4a1e-bd92-2d70408ff436": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7-bushbalm-influencer_680x_0990ad33-4d97-4109-b220-0806eb003ef7.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "9f930583-7c12-4af7-92be-7a2564225bea": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-bushbalm-influencer_680x_6a357df6-0345-4930-9082-f27a6d69f319.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "901d0168-8a9d-48ac-ae88-7516d9a60a87": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13-bushbalm-influencer_680x_8ea3341f-3324-4711-a766-933296d30498.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "ffe4074e-8040-4a71-a7b8-f1f1d2c73bad": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14-bushbalm-influencer_680x_16f174d7-d85a-464c-97fe-9dc87723fd1a.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "7364830f-9717-4531-80b4-6f6f9d710508": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15-bushbalm-influencer_680x_4195a941-2221-46ce-8a10-874e86ac050a.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cb77c1d1-0fc2-4e67-8383-b26b88afd55c": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16-bushbalm-influencer_680x_f43fdf12-2ea8-4e2d-97c1-2fee27de889f.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cf667432-e3bb-498f-b7ae-e9f6b3cfa20b": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17-bushbalm-influencer_680x_f22d4f63-d86f-4fb0-a6ef-f1d543f1f6f1.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "0140739d-b433-4883-abe3-478e942d19d6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/18-bushbalm-influencer_680x_43d5315a-0a0c-4c79-b14a-f03ab40dfc9f.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "befc451f-1f4a-4182-b93b-3243b98e9f36": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19-bushbalm-influencer_680x_3bd3b8c0-e1d4-41ef-8aad-a164d87f7101.webp",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "7928f248-9deb-42c4-abc7-5c226732db79",
+        "a5f3e7cf-651f-4895-ac4b-0df106c8250a",
+        "319e4955-6372-494c-a784-1e1af908875b",
+        "d36019a3-d2dc-4129-aeca-d0bb6cce6f6e",
+        "406b9051-9304-4d6d-8428-71c0c1c0f234",
+        "834775cb-6636-4f08-8368-09f8c0c9d43e",
+        "f6fb8775-eb62-4607-b690-1f13a0e2e184",
+        "05da36a3-fc72-4a1e-bd92-2d70408ff436",
+        "9f930583-7c12-4af7-92be-7a2564225bea",
+        "901d0168-8a9d-48ac-ae88-7516d9a60a87",
+        "ffe4074e-8040-4a71-a7b8-f1f1d2c73bad",
+        "7364830f-9717-4531-80b4-6f6f9d710508",
+        "cb77c1d1-0fc2-4e67-8383-b26b88afd55c",
+        "cf667432-e3bb-498f-b7ae-e9f6b3cfa20b",
+        "0140739d-b433-4883-abe3-478e942d19d6",
+        "befc451f-1f4a-4182-b93b-3243b98e9f36"
+      ],
+      "settings": {
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "6c4c799f-750e-4365-bf3b-441b2ab2d56e": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center> \n<h2> Skincare, Everywhere.<\/h2>\n<p> We're on a mission to save your bikini line one ingrown hair at a time. <\/p> \n<center>\n<br><a href=\"https:\/\/bushbalm.com\/collections\/all\" class=\"btn btn-primary\">Shop All Products<\/a>\n<\/center>\n<\/center>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9c9da9ed-9f49-4409-b909-c92032b709c9",
+    "05765392-c0db-4605-9f7e-37922dfd2c08",
+    "31aa2022-465a-4761-9483-a64a89e076b4",
+    "c60f93da-d8d3-4a06-b855-83e9536b49f5",
+    "49dfb62d-faef-4487-b231-2676ca342342",
+    "e5fe76cf-5825-457c-86ca-38791fb87bdc",
+    "6ae1b5ea-176d-445e-92b5-5434c091e2ce",
+    "d881fe88-d085-4161-8281-c51af7127805",
+    "0aa1d382-302c-40bf-a736-073e94201947",
+    "6e707e37-628a-463b-ac22-6a47b12187c1",
+    "5f90e3dd-6206-4314-88d5-b60c742f1dba",
+    "bdcb70ab-78eb-40d5-8490-b542f770977c",
+    "c0ffb170-d7e0-4862-9b21-f2969834e764",
+    "1672621589e2196354",
+    "cbeaa0e0-e6a2-475d-82d5-f3ce1545cfd7",
+    "67f153c4-3a33-4256-8a68-45aba6fe1959",
+    "6c4c799f-750e-4365-bf3b-441b2ab2d56e"
+  ]
+}

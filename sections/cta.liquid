@@ -1,0 +1,269 @@
+{{ 'cta.css' | asset_url | stylesheet_tag }}
+
+<div class="cta cta--{{ section.id }}{% if section.settings.padding %} cta--padding{% endif %}"
+  role="region" aria-label="CTA">
+  <div class="wrapper">
+    <small class="ui-label">{{ section.settings.intro }}</small>
+
+    <h3>{{ section.settings.headline }}</h3>
+
+    {% if section.settings.cta_style == 'button' %}
+      {% assign button_class = 'btn btn--chocolate' %}
+      {% assign button_class_2 = 'btn btn--2 btn--chocolate' %}
+    {% else %}
+      {% assign button_class = 'link-text' %}
+      {% assign button_class_2 = 'link-text link-text--2' %}
+    {% endif %}
+
+    {% if section.settings.subline != blank %}
+      <h4>{{ section.settings.subline }}</h4>
+    {% endif %}
+
+    <a class="{{ button_class }}" href="{{ section.settings.cta_link }}" title="{{ section.settings.cta_text }}">
+      {{ section.settings.cta_text }}
+    </a>
+
+    {% if section.settings.cta_2_text != blank %}
+      <a class="{{ button_class_2 }}" href="{{ section.settings.cta_2_link }}" title="{{ section.settings.cta_2_text }}">
+        {{ section.settings.cta_2_text }}
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+{% style %}
+  .cta--{{ section.id }} {
+    --cta-bg-color: {{ section.settings.bg_color }};
+  }
+{% endstyle %}
+
+{% render 'custom-spacing' with
+  section_name: 'cta'
+%}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "checkbox",
+        "id": "padding",
+        "label": "Top/Bottom Padding",
+        "default": false,
+        "info": "Adds additional padding to top and bottom"
+      },
+      {
+        "type": "text",
+        "id": "intro",
+        "label": "Intro"
+      },
+      {
+        "type": "text",
+        "id": "headline",
+        "label": "Headline"
+      },
+      {
+        "type": "text",
+        "id": "subline",
+        "label": "Subline",
+        "info": "Displays above CTA(s)"
+      },
+      {
+        "type": "select",
+        "id": "cta_style",
+        "label": "CTA Style",
+        "options": [
+          {
+            "value": "button",
+            "label": "Button"
+          },
+          {
+            "value": "link",
+            "label": "Link"
+          }
+        ],
+        "default": "button"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "info": "Recommended character limit: 20"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link"
+      },
+      {
+        "type": "text",
+        "id": "cta_2_text",
+        "label": "CTA 2 Text",
+        "info": "Recommended character limit: 20"
+      },
+      {
+        "type": "url",
+        "id": "cta_2_link",
+        "label": "CTA 2 Link"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "CTA"
+      }
+    ]
+  }
+{% endschema %}

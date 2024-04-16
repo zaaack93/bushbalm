@@ -1,0 +1,462 @@
+<script src="{{ 'home-hero.js' | asset_url }}" defer="defer"></script>
+{{ 'home-hero.css' | asset_url | stylesheet_tag }}
+
+<div class="home-hero home-hero--{{ section.id }}" role="region" aria-label="Hero">
+  <div class="home-hero__container
+    home-hero__container--mobile-{{ section.settings.position_mobile }}
+    home-hero__container--desktop-{{ section.settings.position_desktop }}">
+    <div class="home-hero__content">
+      {% if section.settings.title != blank %}
+        <h1>{{ section.settings.title }}</h1>
+      {% endif %}
+      {% if section.settings.copy != blank %}
+        <p>{{ section.settings.copy }}</p>
+      {% endif %}
+      {% if section.settings.review_enable %}
+        <div class="home-hero__review">
+          {% render 'responsive-image' with
+            image: section.settings.review_icon,
+            max_width: 104,
+            max_height: 104,
+            wrapper_class: 'home-hero__review-icon'
+          %}
+          <div class="home-hero__review-content"
+            aria-label="{{ 'general.accessibility.rating_label' | t: rating: section.settings.review_score }}">
+            {% assign review_count = section.settings.review_count %}
+            {% if section.settings.review_animation %}
+              {% assign review_count = '<span data-reviews-count-animated>'
+                | append: section.settings.review_count
+                | append: '</span>'
+              %}
+            {% endif %}
+            {% assign review_score = section.settings.review_score %}
+            {% assign review_copy = section.settings.review_copy
+              | replace: '[score]', section.settings.review_score
+              | replace: '[count]', review_count
+            %}
+            {% render 'star-rating' with rating: review_score %}
+            <p>{{ review_copy }}</p>
+          </div>
+        </div>
+      {% endif %}
+      {% if section.settings.cta_text != blank and section.settings.cta_link != blank %}
+        <a href="{{ section.settings.cta_link }}" class="btn" title="{{ section.settings.cta_text }}">
+          {{- section.settings.cta_text -}}
+        </a>
+      {% endif %}
+    </div>
+    <div class="home-hero__imagery">
+      {% if section.settings.video_url_desktop != blank %}
+        <video class="small--hide" autoplay loop muted playsinline aria-hidden="true">
+          <source src="{{ section.settings.video_url_desktop }}" type="video/mp4" />
+          {{ 'general.accessibility.video_unsupported' | t }}
+        </video>
+      {% elsif section.settings.image_desktop != blank %}
+        {% render 'responsive-image' with
+          image: section.settings.image_desktop,
+          max_width: 1568,
+          max_height: 1310,
+          wrapper_class: 'home-hero__imagery-image small--hide'
+        %}
+      {% endif %}
+      {% if section.settings.video_url_mobile != blank %}
+        <video class="medium-up--hide" autoplay loop muted playsinline aria-hidden="true">
+          <source src="{{ section.settings.video_url_mobile }}" type="video/mp4" />
+          {{ 'general.accessibility.video_unsupported' | t }}
+        </video>
+      {% elsif section.settings.image_mobile != blank %}
+        {% render 'responsive-image' with
+          image: section.settings.image_mobile,
+          max_width: 750,
+          max_height: 1370,
+          wrapper_class: 'home-hero__imagery-image medium-up--hide'
+        %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% if section.settings.gradient_enable_mobile or section.settings.gradient_enable_desktop %}
+  {% style %}
+    {% if section.settings.gradient_enable_mobile %}
+      @media (max-width: 750px) {
+        .home-hero--{{ section.id }} .home-hero__imagery::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(
+            {{ section.settings.gradient_angle_mobile }}deg,
+            {{ section.settings.gradient_color_mobile | color_modify: 'alpha', 0.5 }} 0%,
+            {{ section.settings.gradient_color_mobile | color_modify: 'alpha', 0 }} 100%
+          );
+          content: '';
+        }
+      }
+    {% endif %}
+    {% if section.settings.gradient_enable_desktop %}
+      @media (min-width: 750px) {
+        .home-hero--{{ section.id }} .home-hero__imagery::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(
+            {{ section.settings.gradient_angle_desktop }}deg,
+            {{ section.settings.gradient_color_desktop | color_modify: 'alpha', 0.5 }} 0%,
+            {{ section.settings.gradient_color_desktop | color_modify: 'alpha', 0 }} 100%
+          );
+          border-radius: 16px;
+          content: '';
+        }
+      }
+    {% endif %}
+  {% endstyle %}
+{% endif %}
+
+{% render 'custom-spacing' with
+  section_name: 'home-hero'
+%}
+
+{% schema %}
+  {
+    "name": "Home Hero",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link"
+      },
+      {
+        "type": "header",
+        "content": "Alignment"
+      },
+      {
+        "type": "select",
+        "id": "position_desktop",
+        "label": "Content Position | Desktop",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      },
+      {
+        "type": "select",
+        "id": "position_mobile",
+        "label": "Content Position | Mobile",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          }
+        ],
+        "default": "bottom"
+      },
+      {
+        "type": "header",
+        "content": "Images"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image | Desktop",
+        "info": "Dimensions: 1568 x 1310"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image | Mobile",
+        "info": "Dimensions: 750 x 1370"
+      },
+      {
+        "type": "header",
+        "content": "Video",
+        "info": "Replaces Images"
+      },
+      {
+        "type": "text",
+        "id": "video_url_desktop",
+        "label": "Video URL | Desktop",
+        "info": "Paste video file URL from Files (if > 20mb use Vimeo)"
+      },
+      {
+        "type": "text",
+        "id": "video_url_mobile",
+        "label": "Video URL | Mobile",
+        "info": "Paste video file URL from Files (if > 20mb use Vimeo)"
+      },
+      {
+        "type": "header",
+        "content": "Overlay",
+        "info": "Overlays Images/Videos"
+      },
+      {
+        "type": "checkbox",
+        "id": "gradient_enable_mobile",
+        "label": "Enable Gradient Overlay | Mobile",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "gradient_color_mobile",
+        "label": "Gradient Color | Mobile",
+        "default": "#271710"
+      },
+      {
+        "type": "range",
+        "id": "gradient_angle_mobile",
+        "label": "Gradient Angle | Mobile",
+        "min": 0,
+        "max": 360,
+        "step": 5,
+        "unit": "deg",
+        "default": 360
+      },
+      {
+        "type": "checkbox",
+        "id": "gradient_enable_desktop",
+        "label": "Enable Gradient Overlay | Desktop",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "gradient_color_desktop",
+        "label": "Gradient Color | Desktop",
+        "default": "#271710"
+      },
+      {
+        "type": "range",
+        "id": "gradient_angle_desktop",
+        "label": "Gradient Angle | Desktop",
+        "min": 0,
+        "max": 360,
+        "step": 5,
+        "unit": "deg",
+        "default": 360
+      },
+      {
+        "type": "header",
+        "content": "Reviews"
+      },
+      {
+        "type": "checkbox",
+        "id": "review_enable",
+        "label": "Enable"
+      },
+      {
+        "type": "text",
+        "id": "review_score",
+        "label": "Review Score"
+      },
+      {
+        "type": "number",
+        "id": "review_count",
+        "label": "Review Count"
+      },
+      {
+        "type": "checkbox",
+        "id": "review_animation",
+        "label": "Enable Review Animation",
+        "info": "Review Count animates in"
+      },
+      {
+        "type": "textarea",
+        "id": "review_copy",
+        "label": "Review Copy",
+        "info": "Use [count] and [score] to replace with values set above",
+        "default": "Stamped score [score] • [count]+ reviews"
+      },
+      {
+        "type": "image_picker",
+        "id": "review_icon",
+        "label": "Review Icon",
+        "info": "Dimensions: 104 x 104"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Hero"
+      }
+    ]
+  }
+{% endschema %}

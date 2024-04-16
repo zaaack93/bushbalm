@@ -1,0 +1,622 @@
+<script src="{{ 'home-hero-options.js' | asset_url }}" defer="defer"></script>
+{{ 'home-hero-options.css' | asset_url | stylesheet_tag }}
+
+<div class="home-hero-options home-hero-options--{{ section.id }}
+  mobile-{{ section.settings.hero_options_mobile }}
+  desktop-{{ section.settings.hero_options_desktop }}" role="region" aria-label="Hero Layout"
+>
+  <div class="home-hero-options__container
+    home-hero-options__container--desktop-{{ section.settings.position_desktop }}
+    home-hero-options__container--mobile-{{ section.settings.hero_options_mobile }}
+    home-hero-options__container--desktop-{{ section.settings.hero_options_desktop }}"
+  >
+    <div class="home-hero-options__imagery
+      home-hero-options__imagery--mobile-{{ section.settings.hero_options_mobile }}
+      home-hero-options__imagery--desktop-{{ section.settings.hero_options_desktop }}"
+    >
+      {% if section.settings.video_url_mobile != blank %}
+        <video class="medium-up--hide" autoplay loop muted playsinline preload="none" aria-hidden="true">
+          <source src="{{ section.settings.video_url_mobile }}" type="video/mp4" />
+          {{ 'general.accessibility.video_unsupported' | t }}
+        </video>
+      {% elsif section.settings.image_mobile != blank %}
+        {{ section.settings.image_mobile | image_url: width: 750 | image_tag: widths: '350, 750', class: 'home-hero-options__imagery-image medium-up--hide' }}
+      {% endif %}
+      {% if section.settings.video_url_desktop != blank %}
+        <video class="small--hide" autoplay loop muted playsinline preload="none" aria-hidden="true">
+          <source src="{{ section.settings.video_url_desktop }}" type="video/mp4" />
+          {{ 'general.accessibility.video_unsupported' | t }}
+        </video>
+      {% elsif section.settings.image_desktop != blank %}
+        {{ section.settings.image_desktop | image_url: width: 1920 | image_tag: widths: '960, 1920', class: 'home-hero-options__imagery-image small--hide' }}
+      {% endif %}
+    </div>
+
+    <div class="home-hero-options__content
+      home-hero-options__content--{{ section.settings.copy_alignment }}
+      home-hero-options__content--desktop-{{ section.settings.position_desktop }}
+      home-hero-options__content--mobile-{{ section.settings.hero_options_mobile }}
+      home-hero-options__content--desktop-{{ section.settings.hero_options_desktop }}"
+    >
+      {% if section.settings.top_icon != blank %}
+        <div class="home-hero-options__content--top-icon">
+          {% render 'responsive-image' with
+            image: section.settings.top_icon,
+            max_width: 150,
+            max_height: 50,
+            wrapper_class: 'top-icon'
+          %}
+        </div>
+      {% endif %}
+      {% if section.settings.subtitle != blank %}
+        <p class="subtitle">{{ section.settings.subtitle | upcase }}</p>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <{{ section.settings.heading_tag }} class="home-hero-options__content--{{ section.settings.title_sizing }}">{{ section.settings.title }}</{{ section.settings.heading_tag }}>
+      {% endif %}
+      {% if section.settings.copy != blank %}
+        {{ section.settings.copy }}
+      {% endif %}
+      {% if section.settings.review_enable %}
+        <div class="home-hero-options__review">
+          {% render 'responsive-image' with
+            image: section.settings.review_icon,
+            max_width: 104,
+            max_height: 104,
+            wrapper_class: 'home-hero-options__review-icon'
+          %}
+          <div class="home-hero-options__review-content"
+            aria-label="{{ 'general.accessibility.rating_label' | t: rating: section.settings.review_score }}">
+            {% assign review_count = section.settings.review_count %}
+            {% if section.settings.review_animation %}
+              {% assign review_count = '<span data-reviews-count-animated>'
+                | append: section.settings.review_count
+                | append: '</span>'
+              %}
+            {% endif %}
+            {% assign review_score = section.settings.review_score %}
+            {% assign review_copy = section.settings.review_copy
+              | replace: '[score]', section.settings.review_score
+              | replace: '[count]', review_count
+            %}
+            {% render 'star-rating' with rating: review_score %}
+            <p>{{ review_copy }}</p>
+          </div>
+        </div>
+      {% endif %}
+      {% if section.settings.cta_text != blank and section.settings.cta_link != blank %}
+        <div class="home-hero-options__button">
+          <a href="{{ section.settings.cta_link }}" class="btn" title="{{ section.settings.cta_text }}" tabindex="0">
+            {{- section.settings.cta_text -}}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+
+    {% if section.settings.hero_options_mobile == 'two_up_png_overlay' or section.settings.hero_options_mobile == 'background_png_overlay' %}
+      <div class="home-hero-options__png_overlay__wrapper medium-up--hide
+        mobile-{{ section.settings.hero_options_mobile }}"
+      >
+        <div class="home-hero-options__png_overlay">
+          {% if section.settings.png_overlay_mobile != blank %}
+            {{ section.settings.png_overlay_mobile | image_url: width: 648 | image_tag: widths: '350, 750', class: 'png_overlay-image medium-up--hide' }}
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+    {% if section.settings.hero_options_desktop == 'background_png_overlay' %}
+      <div class="home-hero-options__png_overlay__wrapper small--hide
+        desktop-{{ section.settings.hero_options_desktop }}"
+      >
+        <div class="home-hero-options__png_overlay">
+          {% if section.settings.png_overlay_desktop != blank %}
+            {{ section.settings.png_overlay_desktop | image_url: width: 960 | image_tag: widths: '960, 1920', class: 'png_overlay-image small--hide' }}
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'home-hero-options'
+%}
+
+{% style %}
+  {% if section.settings.gradient_enable_mobile %}
+    @media (max-width: 750px) {
+      .home-hero-options--{{ section.id }} .home-hero-options__imagery::after {
+        background: linear-gradient(
+          {{ section.settings.gradient_angle_mobile }}deg,
+          {{ section.settings.gradient_color_mobile | color_modify: 'alpha', 0.5 }} 0%,
+          {{ section.settings.gradient_color_mobile | color_modify: 'alpha', 0 }} 100%
+        );
+      }
+    }
+  {% endif %}
+  {% if section.settings.gradient_enable_desktop %}
+    @media (min-width: 750px) {
+      .home-hero-options--{{ section.id }} .home-hero-options__imagery::after {
+        background: linear-gradient(
+          {{ section.settings.gradient_angle_desktop }}deg,
+          {{ section.settings.gradient_color_desktop | color_modify: 'alpha', 0.5 }} 0%,
+          {{ section.settings.gradient_color_desktop | color_modify: 'alpha', 0 }} 100%
+        );
+      }
+    }
+  {% endif %}
+{% endstyle %}
+
+{% schema %}
+  {
+    "name": "Home Hero Alt Layouts",
+    "settings": [
+      {
+        "type": "select",
+        "id": "hero_options_mobile",
+        "label": "Hero Options | Mobile",
+        "options": [
+          {
+            "value": "two_up_boxed",
+            "label": "2-up hero - Boxed"
+          },
+          {
+            "value": "two_up_full",
+            "label": "2-up hero - Full width"
+          },
+          {
+            "value": "two_up_png_overlay",
+            "label": "2-up hero - PNG overlay"
+          },
+          {
+            "value": "background_full",
+            "label": "Background hero - Full width"
+          },
+          {
+            "value": "background_png_overlay",
+            "label": "Background hero - PNG overlay"
+          }
+        ],
+        "default": "two_up_boxed"
+      },
+      {
+        "type": "select",
+        "id": "hero_options_desktop",
+        "label": "Hero Options | Desktop",
+        "options": [
+          {
+            "value": "two_up_boxed",
+            "label": "2-up hero - Boxed"
+          },
+          {
+            "value": "two_up_full",
+            "label": "2-up hero - Full width"
+          },
+          {
+            "value": "background_png_overlay",
+            "label": "Background hero - PNG overlay"
+          }
+        ],
+        "default": "two_up_boxed"
+      },
+      {
+        "type": "image_picker",
+        "id": "top_icon",
+        "label": "Top Icon",
+        "info": "Dimensions: 104 x 104"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "select",
+        "id": "heading_tag",
+        "label": "Heading Tag",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          }
+        ],
+        "default": "h1"
+      },
+      {
+        "type": "select",
+        "id": "title_sizing",
+        "label": "Title Size",
+        "options": [
+          {
+            "value": "title_largest",
+            "label": "Largest"
+          },
+          {
+            "value": "title_large",
+            "label": "Large"
+          },
+          {
+            "value": "title_medium",
+            "label": "Medium"
+          },
+          {
+            "value": "title_small",
+            "label": "Small"
+          },
+          {
+            "value": "title_smallest",
+            "label": "Smallest"
+          }
+        ],
+        "default": "title_largest"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "type": "richtext",
+        "id": "copy",
+        "label": "Copy"
+      },
+      {
+        "type": "select",
+        "id": "copy_alignment",
+        "label": "Copy Alignment",
+        "options": [
+          {
+            "value": "copy_left",
+            "label": "left"
+          },
+          {
+            "value": "copy_center",
+            "label": "center"
+          },
+          {
+            "value": "copy_right",
+            "label": "right"
+          }
+        ],
+        "default": "copy_left"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "default": "Learn more"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link"
+      },
+      {
+        "type": "header",
+        "content": "Alignment"
+      },
+      {
+        "type": "select",
+        "id": "position_desktop",
+        "label": "Content Position | Desktop",
+        "info": "Applies to the 2-up - Boxed and 2-up - Full width hero options",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      },
+      {
+        "type": "header",
+        "content": "Images"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image | Mobile",
+        "info": "Dimensions: 750 x 1370 (GIFs accepted)"
+      },
+      {
+        "type": "image_picker",
+        "id": "png_overlay_mobile",
+        "label": "PNG Overlay | Mobile",
+        "info": "Dimensions: 420 x 433 (GIFs accepted)"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image | Desktop",
+        "info": "Dimensions: 1568 x 1310 (GIFs accepted)"
+      },
+      {
+        "type": "image_picker",
+        "id": "png_overlay_desktop",
+        "label": "PNG Overlay | Desktop",
+        "info": "Dimensions: 650 x 767 (GIFs accepted)"
+      },
+      {
+        "type": "header",
+        "content": "Video",
+        "info": "Replaces Images"
+      },
+      {
+        "type": "text",
+        "id": "video_url_mobile",
+        "label": "Video URL | Mobile",
+        "info": "Paste video file URL from Files"
+      },
+      {
+        "type": "text",
+        "id": "video_url_desktop",
+        "label": "Video URL | Desktop",
+        "info": "Paste video file URL from Files"
+      },
+      {
+        "type": "header",
+        "content": "Overlay",
+        "info": "Overlays Images/Videos"
+      },
+      {
+        "type": "checkbox",
+        "id": "gradient_enable_mobile",
+        "label": "Enable Gradient Overlay | Mobile",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "gradient_color_mobile",
+        "label": "Gradient Color | Mobile",
+        "default": "#271710"
+      },
+      {
+        "type": "range",
+        "id": "gradient_angle_mobile",
+        "label": "Gradient Angle | Mobile",
+        "min": 0,
+        "max": 360,
+        "step": 5,
+        "unit": "deg",
+        "default": 360
+      },
+      {
+        "type": "checkbox",
+        "id": "gradient_enable_desktop",
+        "label": "Enable Gradient Overlay | Desktop",
+        "default": true
+      },
+      {
+        "type": "color",
+        "id": "gradient_color_desktop",
+        "label": "Gradient Color | Desktop",
+        "default": "#271710"
+      },
+      {
+        "type": "range",
+        "id": "gradient_angle_desktop",
+        "label": "Gradient Angle | Desktop",
+        "min": 0,
+        "max": 360,
+        "step": 5,
+        "unit": "deg",
+        "default": 360
+      },
+      {
+        "type": "header",
+        "content": "Reviews"
+      },
+      {
+        "type": "checkbox",
+        "id": "review_enable",
+        "label": "Enable"
+      },
+      {
+        "type": "text",
+        "id": "review_score",
+        "label": "Review Score"
+      },
+      {
+        "type": "number",
+        "id": "review_count",
+        "label": "Review Count"
+      },
+      {
+        "type": "checkbox",
+        "id": "review_animation",
+        "label": "Enable Review Animation",
+        "info": "Review Count animates in"
+      },
+      {
+        "type": "textarea",
+        "id": "review_copy",
+        "label": "Review Copy",
+        "info": "Use [count] and [score] to replace with values set above",
+        "default": "Stamped score [score] • [count]+ reviews"
+      },
+      {
+        "type": "image_picker",
+        "id": "review_icon",
+        "label": "Review Icon",
+        "info": "Dimensions: 104 x 104"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "80px",
+            "label": "16px"
+          },
+          {
+            "value": "88px",
+            "label": "24px"
+          },
+          {
+            "value": "96px",
+            "label": "32px"
+          },
+          {
+            "value": "128px",
+            "label": "64px"
+          },
+          {
+            "value": "160px",
+            "label": "96px"
+          },
+          {
+            "value": "192px",
+            "label": "128px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "-140px",
+            "label": "None"
+          },
+          {
+            "value": "-124px",
+            "label": "16px"
+          },
+          {
+            "value": "-116px",
+            "label": "24px"
+          },
+          {
+            "value": "-108px",
+            "label": "32px"
+          },
+          {
+            "value": "-76px",
+            "label": "64px"
+          },
+          {
+            "value": "-44px",
+            "label": "96px"
+          },
+          {
+            "value": "-12px",
+            "label": "128px"
+          },
+          {
+            "value": "20px",
+            "label": "160px"
+          },
+          {
+            "value": "52px",
+            "label": "192px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Hero Alt Layouts"
+      }
+    ]
+  }
+{% endschema %}

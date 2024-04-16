@@ -1,0 +1,27 @@
+<div class="image-link-carousel" data-image-link-carousel>
+  <div class="wrapper">
+    <h2 class="image-link-carousel__heading">{{ section.settings.carousel_heading }}</h2>
+
+    <div class="image-link-carousel__inner">
+      <div class="swiper-container" data-image-link-carousel-slider>
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <a class="image-link-carousel-item swiper-slide lazyload" href="{{ block.settings.url }}" data-bgset="{% render 'responsive-bg-image', image: block.settings.image %}">
+              <span class="image-link-carousel-item__heading ui-subtitle">{{ block.settings.heading }}</span>
+              <span class="image-link-carousel-item__cta">{{ block.settings.cta_text }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <button class="image-link-carousel-item__controls image-link-carousel-item__controls--prev small--hide" data-image-link-carousel-prev
+        aria-label="{{ 'general.accessibility.slider_prev' | t }}" title="{{ 'general.accessibility.slider_prev' | t }}">
+        {% render 'icon-chevron-left' %}
+      </button>
+      <button class="image-link-carousel-item__controls image-link-carousel-item__controls--next small--hide" data-image-link-carousel-next
+        aria-label="{{ 'general.accessibility.slider_next' | t }}" title="{{ 'general.accessibility.slider_next' | t }}">
+        {% render 'icon-chevron-right' %}
+      </button>
+    </div>
+  </div>
+</div>

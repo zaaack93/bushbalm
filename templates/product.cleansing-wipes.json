@@ -1,0 +1,414 @@
+{
+  "sections": {
+    "9a63bf4f-d786-4452-a260-3e77695edfed": {
+      "type": "promo-banner",
+      "blocks": {
+        "43cd8144-95eb-4e1f-b4dd-118efba44b71": {
+          "type": "single_image",
+          "disabled": true,
+          "settings": {
+            "single_image_width_mobile": 170,
+            "single_image_width_desktop": 250
+          }
+        },
+        "a10e1a59-8cd1-4e13-a3be-4f889fdfb89d": {
+          "type": "promo_product_list",
+          "settings": {
+            "product_list": [
+              "the-body-rock",
+              "tush-cream-100ml"
+            ]
+          }
+        },
+        "0428dc28-017e-4881-89de-7947466a314f": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>SPEND $90 GET Body Rock<\/p><p>SPEND $150 GET Body Rock + Tush <\/p>",
+            "subheading_color": "#271710"
+          }
+        },
+        "582b8914-e298-4739-a821-f180e4a2c9a5": {
+          "type": "promo_cta",
+          "disabled": true,
+          "settings": {
+            "cta_text": "Shop now",
+            "cta_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "43cd8144-95eb-4e1f-b4dd-118efba44b71",
+        "a10e1a59-8cd1-4e13-a3be-4f889fdfb89d",
+        "0428dc28-017e-4881-89de-7947466a314f",
+        "582b8914-e298-4739-a821-f180e4a2c9a5"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#fde9e3",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default",
+        "reduce_size_on_mobile": true
+      }
+    },
+    "main": {
+      "type": "product",
+      "custom_css": [
+        ".ingredient-structure-container {margin-top: 15px; border: none;}",
+        ".button-container {display: flex; flex-direction: row; padding: 12px; background-color: #f8e2c9; justify-content: left; align-items: left;}",
+        ".ingredient-cta {font-family: \"Mont Regular\"; font-weight: bold; font-size: 15px; font-color: #271010; padding-left: 25px; padding-right: 35px;}"
+      ],
+      "settings": {
+        "enable_paybright_widget": true,
+        "promo_banner_enable": true,
+        "promo_banner_always": true,
+        "promo_banner_klaviyo": "https:\/\/bushbalm.com\/pages\/wholesale-application",
+        "promo_banner_discount": 15,
+        "promo_banner_text": "Are you a waxing salon or retail store? <br>Want to be a stockist?",
+        "promo_banner_cta": "Apply Today",
+        "product_form_enable": true,
+        "product_details_enable": true,
+        "info_accordion_enable": true,
+        "product_icons_enable": true,
+        "product_video_enable": true,
+        "ingredients_accordion_enable": true,
+        "ingredients_accordion_view": "View Full Ingredients",
+        "ingredients_accordion_hide": "Hide Full Ingredients",
+        "bundle_upsells_enable": true,
+        "bundle_upsells_heading": "Save with Bundles",
+        "checkout_buttons": false,
+        "hide_before_and_after_images": true
+      }
+    },
+    "1659987476c8281db6": {
+      "type": "image-carousel",
+      "blocks": {
+        "afc8d4a2-477a-44a4-bf6b-c252c4f32167": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Intimate_Refreshing_Wipes.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "364a5d24-9607-4738-b64d-844257b34e53": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleansing_Wipes_Pack_Bushbalm.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cdc841a6-a9f6-4215-88df-f656418eb247": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vaginal_Wipes.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "14380d9e-487c-42ac-82b8-bae00e792d65": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PH_Intimate_Wipes.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "afc8d4a2-477a-44a4-bf6b-c252c4f32167",
+        "364a5d24-9607-4738-b64d-844257b34e53",
+        "cdc841a6-a9f6-4215-88df-f656418eb247",
+        "14380d9e-487c-42ac-82b8-bae00e792d65"
+      ],
+      "settings": {
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "24px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16649779748bdc89c3": {
+      "type": "apps",
+      "blocks": {
+        "29ede649-f8dc-4c7c-97ff-a78cb6266423": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "29ede649-f8dc-4c7c-97ff-a78cb6266423"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "30b7afc2-5cdf-4178-bdea-23b85a0bf0ef": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "reviews_heading": "Customer Reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1672624000da93941a": {
+      "type": "apps",
+      "blocks": {
+        "c7307c0f-08f4-459c-8d2a-7295d2e379de": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "c7307c0f-08f4-459c-8d2a-7295d2e379de"
+      ],
+      "settings": {
+      }
+    },
+    "1640358772a04f298c": {
+      "type": "product-testimonial",
+      "disabled": true,
+      "settings": {
+        "testimonial_heading": "Why Our Customers Love Bushbalm",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1639422528f153a1af": {
+      "type": "related-products",
+      "blocks": {
+        "7659479a-4d2c-4b0f-8a98-8aef57ccc58b": {
+          "type": "related_product",
+          "settings": {
+            "product": "sweet-escape-oil"
+          }
+        },
+        "7c539845-d16a-4d67-9c68-10cc74f7a8f9": {
+          "type": "related_product",
+          "settings": {
+            "product": "the-body-rock"
+          }
+        },
+        "eec47424-74a1-4f29-ba7d-0263532987ba": {
+          "type": "related_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair"
+          }
+        }
+      },
+      "block_order": [
+        "7659479a-4d2c-4b0f-8a98-8aef57ccc58b",
+        "7c539845-d16a-4d67-9c68-10cc74f7a8f9",
+        "eec47424-74a1-4f29-ba7d-0263532987ba"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "You'll Also Love",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "165998729779233821": {
+      "type": "press-highlights",
+      "blocks": {
+        "9d143d8a-e1b6-49be-961f-92d409ddb80c": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo_height": 20,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "a9f264b6-1540-4886-9ef5-8c2bf8e9b2ba": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo_height": 26,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "28cfb99d-516b-4f13-ac74-2435e45af064": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo_height": 28,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "9d143d8a-e1b6-49be-961f-92d409ddb80c",
+        "a9f264b6-1540-4886-9ef5-8c2bf8e9b2ba",
+        "28cfb99d-516b-4f13-ac74-2435e45af064"
+      ],
+      "disabled": true,
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1640359527307f5762": {
+      "type": "product-faqs",
+      "settings": {
+        "faqs_heading": "Frequently Asked Questions",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664207522758f0f03": {
+      "type": "promo-banner",
+      "blocks": {
+        "5923918b-56fc-4be8-8e1e-52ef074a8639": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Top Picks<\/p>",
+            "heading_color": "#271710"
+          }
+        }
+      },
+      "block_order": [
+        "5923918b-56fc-4be8-8e1e-52ef074a8639"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default",
+        "reduce_size_on_mobile": true
+      }
+    },
+    "1664207448eb27e55e": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "0cbc2c1e-1274-4d29-94b0-b7f56898854e": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "enable_sub_text": true
+          }
+        },
+        "92697d93-3d30-45da-baf0-2f74fc14bee1": {
+          "type": "featured_product",
+          "settings": {
+            "product": "trim-treat-bundle",
+            "enable_sub_text": true
+          }
+        },
+        "a4b7a087-56fb-4df2-b7c0-5080b341b962": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-hydrogel-mask",
+            "enable_sub_text": true
+          }
+        },
+        "ea2a190a-e34b-4622-b1af-6e8b1f02aa6d": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "0cbc2c1e-1274-4d29-94b0-b7f56898854e",
+        "92697d93-3d30-45da-baf0-2f74fc14bee1",
+        "a4b7a087-56fb-4df2-b7c0-5080b341b962",
+        "ea2a190a-e34b-4622-b1af-6e8b1f02aa6d"
+      ],
+      "settings": {
+        "heading": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "1640359978313819a2": {
+      "type": "product-stats",
+      "disabled": true,
+      "settings": {
+        "stats_ba_image_pills": true,
+        "stats_preheading": "Skin Concerns",
+        "stats_heading": "You aren't alone!",
+        "stats_subtext": "*Based on data from our 2021 Annual Customer Survey",
+        "stat_percentage_1": "94%",
+        "stat_copy_1": "Say they are actively struggling with ingrown hairs.",
+        "stat_percentage_2": "56%",
+        "stat_copy_2": "Say they are actively struggling with dark spots and hyperpigmentation.",
+        "stat_percentage_3": "54%",
+        "stat_copy_3": "Say they are actively struggling with razor burn.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "104px"
+      }
+    }
+  },
+  "order": [
+    "9a63bf4f-d786-4452-a260-3e77695edfed",
+    "main",
+    "1659987476c8281db6",
+    "16649779748bdc89c3",
+    "30b7afc2-5cdf-4178-bdea-23b85a0bf0ef",
+    "1672624000da93941a",
+    "1640358772a04f298c",
+    "1639422528f153a1af",
+    "165998729779233821",
+    "1640359527307f5762",
+    "1664207522758f0f03",
+    "1664207448eb27e55e",
+    "1640359978313819a2"
+  ]
+}

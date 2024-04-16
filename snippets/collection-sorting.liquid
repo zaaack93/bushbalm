@@ -1,0 +1,40 @@
+<div class="collection__sort"
+  data-collection-sort="{{ collection.sort_by | default: collection.default_sort_by }}">
+  <button type="button"
+    class="collection__sort-toggle"
+    aria-label="{{ 'collections.sorting.label' | t }}"
+    aria-controls="sort-dropdown"
+    aria-expanded="false"
+    data-collection-sort-toggle>
+    {{- 'collections.sorting.title' | t -}}
+    &nbsp;<span class="small--hide" data-collection-sort-current></span>
+    {%- render 'icon-chevron-down' -%}
+  </button>
+
+  <div id="sort-dropdown"
+    class="collection__sort-options"
+    aria-hidden="true"
+    data-collection-sort-options>
+    <p class="small--hide">{{ 'collections.sorting.label' | t }}</p>
+    <button type="button"
+      class="collection__sort-option"
+      data-collection-sort-option="manual">
+      {{- 'collections.sorting.featured' | t -}}
+    </button>
+    <button type="button"
+      class="collection__sort-option"
+      data-collection-sort-option="best-selling">
+      {{- 'collections.sorting.best_selling' | t -}}
+    </button>
+    <button type="button"
+      class="collection__sort-option"
+      data-collection-sort-option="price-ascending">
+      {{- 'collections.sorting.price_ascending' | t -}}
+    </button>
+    <button type="button"
+      class="collection__sort-option"
+      data-collection-sort-option="price-descending">
+      {{- 'collections.sorting.price_descending' | t -}}
+    </button>
+  </div>
+</div>

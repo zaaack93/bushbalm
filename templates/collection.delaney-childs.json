@@ -1,0 +1,795 @@
+{
+  "sections": {
+    "1657197272286070f1": {
+      "type": "wholesale-hero",
+      "disabled": true,
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/Kayla_Nicole_and_Bushbalm.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Kayla_Nicole_and_Bushbalm.jpg",
+        "heading": "Want early access?",
+        "copy": "Get exclusive and early access to Kayla Nicole’s go-to essentials for dark spots, hyperpigmentation and irritation around the bikini line. Skip the sell out! Shop now before the official launch.",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_link_2": "",
+        "cta_text_2": "",
+        "account_cta_heading": "",
+        "account_cta_text": "",
+        "account_cta_link": "",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1657197034dfa47212": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#faf7d8",
+        "image_offset": true,
+        "image_mobile": "shopify:\/\/shop_images\/Kayla_Nicole_and_Bushbalm.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Kayla_Nicole_and_Bushbalm.jpg",
+        "heading": "Want early access?",
+        "copy": "Get exclusive and early access to Kayla Nicole’s go-to essentials for dark spots, hyperpigmentation and irritation around the bikini line. Skip the sell out! Shop now before the official launch.",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16633521697053e3dc": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/DB93FA6D-8E04-47FF-85A2-14D1A661FB47_2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/DB93FA6D-8E04-47FF-85A2-14D1A661FB47_2.jpg",
+        "heading": "Delaney Childs",
+        "copy": "Delaney's Dark Spot and Hyperpigmentation Essentials.\nImprove the look of dark spots, hyperpigmentation and ingrown hairs down there and everywhere with Delaney's bikini line essentials.\n<br>\n<b>Use code DELANEY25 for 25% off <\/b>",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "24px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1656950100ea3cf0c8": {
+      "type": "2-up-content",
+      "blocks": {
+        "f8821b32-e86e-4690-8843-7af4bc127567": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kayla_Nicole_and_Bushbalm.jpg"
+          }
+        },
+        "0534054a-2f78-40ec-a521-c1fdce520f08": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.jpg"
+          }
+        },
+        "c2c08a5b-4df1-4cf8-acca-1d19e6372ace": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_01c604bf-baf6-4a25-a92d-1507f8c6914e.jpg"
+          }
+        },
+        "8d4d4bc0-9722-48a9-8e99-3a3ca9eb352b": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_c26b3cde-1e86-4c19-95fd-ec36ffe9eb92.jpg"
+          }
+        },
+        "002689fc-edd3-431d-bf21-bb4197a6b2bf": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_43c0554f-6c2c-48c7-87d2-c149d842ae24.jpg"
+          }
+        },
+        "4968ce50-ed86-4331-9b23-bbadf9081fc4": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_1841193c-adf2-4c89-91dd-7c86cd6c1c25.jpg"
+          }
+        },
+        "031a93b9-6f87-44f8-8bf6-43871320a507": {
+          "type": "carousel-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_54a49fe9-c42c-427f-b076-a3e596778211.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f8821b32-e86e-4690-8843-7af4bc127567",
+        "0534054a-2f78-40ec-a521-c1fdce520f08",
+        "c2c08a5b-4df1-4cf8-acca-1d19e6372ace",
+        "8d4d4bc0-9722-48a9-8e99-3a3ca9eb352b",
+        "002689fc-edd3-431d-bf21-bb4197a6b2bf",
+        "4968ce50-ed86-4331-9b23-bbadf9081fc4",
+        "031a93b9-6f87-44f8-8bf6-43871320a507"
+      ],
+      "disabled": true,
+      "settings": {
+        "intro": "Kayla Nicole",
+        "title": "Early Access Link",
+        "content": "Get exclusive and early access to Kayla Nicole’s go-to essentials for dark spots, hyperpigmentation and irritation around the bikini line. Skip the sell out! Shop now before the official launch.\n<br> \n<b>NOTE:<\/b> This product does not launch to the general public until July 10th. \n<br> \nReady to get started? Shop Kayla's 2 step routine today.",
+        "cta_text": "",
+        "cta_link": ""
+      }
+    },
+    "1656950097fd2c28cf": {
+      "type": "home-hero-options",
+      "disabled": true,
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "",
+        "heading_tag": "h1",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "",
+        "copy_alignment": "copy_left",
+        "cta_text": "",
+        "cta_link": "",
+        "position_desktop": "right",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1644856134d3fd8cff": {
+      "type": "overlay-hero",
+      "disabled": true,
+      "settings": {
+        "heading": "Spring Break Sale",
+        "use_h1": false,
+        "copy": "25% Off — While Supplies Last!",
+        "cta_text": "Claim Offer",
+        "cta_url": "shopify:\/\/collections\/best-sellers",
+        "text_align_mobile": "left",
+        "content_position_desktop": "left",
+        "display_overlay": true
+      }
+    },
+    "1644936192146c5d81": {
+      "type": "newsletter-signup",
+      "disabled": true,
+      "settings": {
+        "klaviyo_list_id": "WjpuMv",
+        "heading": "Claim Your Code",
+        "subheading": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16448560070d612359": {
+      "type": "featured-products",
+      "blocks": {
+        "c65bb58f-27ed-44c6-afc4-786175f56d14": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda Dark Spot Oil",
+            "copy": "rejuvenate + brighten",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "VIRAL"
+          }
+        },
+        "a6aa2a9b-1bed-4c88-a9ce-1c1cdfb350f1": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant",
+            "title": "Bermuda Dark Spot Exfoliating Scrub",
+            "copy": "clear pores + brighten",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/bermuda-dark-spot-exfoliant",
+            "badge_text": ""
+          }
+        },
+        "f3f73baa-9d07-4f92-b737-e19e9aaf42fb": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "title": "2 Step Routine",
+            "copy": "10% off all routines",
+            "rating": 5,
+            "cta_text": "Shop Now",
+            "cta_link": "shopify:\/\/products\/2-step-routine-hyperpigmentation-dark-spots",
+            "badge_text": "Bundle & Save"
+          }
+        }
+      },
+      "block_order": [
+        "c65bb58f-27ed-44c6-afc4-786175f56d14",
+        "a6aa2a9b-1bed-4c88-a9ce-1c1cdfb350f1",
+        "f3f73baa-9d07-4f92-b737-e19e9aaf42fb"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "16448611164b2d5398": {
+      "type": "who-we-are",
+      "blocks": {
+        "925d6a5d-951a-49c0-aec5-7e0f9a0cc3b6": {
+          "type": "list_item",
+          "settings": {
+            "text": "Formulated with natural ingredients"
+          }
+        },
+        "71d0dc14-02fd-4ffc-92d9-dad5607d2e96": {
+          "type": "list_item",
+          "settings": {
+            "text": "Reduces the appearance of hyperpigmentation \nand dark spots"
+          }
+        },
+        "416dfe84-82e3-4f1b-861e-71fe7d729784": {
+          "type": "list_item",
+          "settings": {
+            "text": "Effective on all skin types"
+          }
+        }
+      },
+      "block_order": [
+        "925d6a5d-951a-49c0-aec5-7e0f9a0cc3b6",
+        "71d0dc14-02fd-4ffc-92d9-dad5607d2e96",
+        "416dfe84-82e3-4f1b-861e-71fe7d729784"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Who We Are",
+        "subheading": "Bushbalm was founded on the promise to solve ingrown hairs, razor burn and dark spots with natural products.",
+        "list_heading": "Why Bermuda",
+        "cta_text": "Get Started",
+        "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+        "image_mobile": "shopify:\/\/shop_images\/Artboard_2cartoon23.jpg",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16448614917632d723": {
+      "type": "before-and-after",
+      "blocks": {
+        "aa36fb42-1521-4e2e-ae53-cbe6b8cff7d0": {
+          "type": "testimonial_story",
+          "settings": {
+            "social_handle": "",
+            "product_ref": "2-step-routine-hyperpigmentation-dark-spots",
+            "product_title": "2 Step Routine",
+            "product_copy": "Bermuda Collection",
+            "cta_text": "Shop Now",
+            "image_1_testimonial": "BEFORE",
+            "image_2_testimonial": "AFTER",
+            "image_3_testimonial": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa36fb42-1521-4e2e-ae53-cbe6b8cff7d0"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Dark_Spot_Oil.png",
+        "heading": "Gallery",
+        "subheading": "Before and After Photos",
+        "cta_text": "See the Results",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#000000",
+        "gradient_angle_mobile": 180,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#000000",
+        "gradient_angle_desktop": 0,
+        "enable_cta_slide": true,
+        "cta_slide_title": "",
+        "cta_slide_copy": "",
+        "cta_slide_cta_link": "",
+        "cta_slide_cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "164485693843dd53d6": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align_desktop": "left",
+        "text_align_mobile": "left",
+        "enable_truncate": false,
+        "truncate_threshold": 25,
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "dbbb2237-1f68-48e6-956b-0320f6a1db09": {
+          "type": "tag_filter_group",
+          "settings": {
+            "toggle_text": "Filter by Product",
+            "group_title": "Filter by Type",
+            "group_title_mobile": "Type",
+            "tags_list": "bundles-and-sets, bestsellers, exfoliating-scrubs, firming-creams, soothing-oils, tools-and-accessories, body-cleanser"
+          }
+        }
+      },
+      "block_order": [
+        "dbbb2237-1f68-48e6-956b-0320f6a1db09"
+      ],
+      "settings": {
+        "pagination_count": 20
+      }
+    },
+    "1657197360dd6f7336": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "background_full",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Say Goodbye to Dark Spots & Irritation",
+        "heading_tag": "h1",
+        "title_sizing": "title_small",
+        "subtitle": "",
+        "copy": "<p>Plant Derived. Clean Ingredients. <\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/products\/dark-spot-corrector",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Kayla_Nicole_and_Bushbalm.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Kayla_Nicole_and_Bushbalm.jpg",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3ccc74d04c4f446080684b35db056651.mp4",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0bd305cf9644442d9e12ac25626e9b07.mp4",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16448623640eb72065": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "",
+        "headline": "\"This is for anyone who struggles with unevenness, darkspots, and texture on their body. These are the only products that have ever made a difference for my skin. They’re also great for the bikini line, ingrown hairs, razor bumps, everything!\"",
+        "subline": "- Delaney Childs",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16572180576251147c": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Dr._Arumala.png",
+        "image_desktop": "shopify:\/\/shop_images\/Dr._Arumala.png",
+        "heading": "Gyno & Derm Approved",
+        "copy": "Get the results you want with the ingredients you need. We work with professionals and experts to formulate products your skin will love.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "1657217254155977c5": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/13.webp",
+        "image_desktop": "shopify:\/\/shop_images\/13.webp",
+        "heading": "Our Results",
+        "copy": "At Bushbalm we focus on results. View our before and after gallery to see more result photos from real customers. \n\n[break] \nFrom dark spots to ingrown hairs, our product line is formulated to solve your most frustrating skin concerns.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16449411197db763c3": {
+      "type": "image-carousel",
+      "blocks": {
+        "b3578af7-cec7-426b-9821-7bcf75dcdcaa": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-razor-burn-bikini-line.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "e4eee155-1729-4856-a0fb-d6af56d36cc4": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dark-spot-oil-underarm-darkening.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "07bb5e09-80fa-4132-8c6a-d18c1f87ab60": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-underarms-ingrown-hairs-and-razor-burn.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cc9c0d95-3e32-4965-931f-9beb5443ad6c": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/underarm-darkening-before-and-after-dark-spot-oil.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "6d333238-45ac-4d42-a79c-b4402f59a3a6": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16_6eb23632-2b39-4e5e-b55d-6d7ab588ac9e.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "cf030a89-38d8-4054-8bed-e4612e15518c": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before_and_After_Dark_Underarm_Treatment.jpg",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "098f3328-2ab5-48db-90c9-af45c2f174df": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.webp",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "b3578af7-cec7-426b-9821-7bcf75dcdcaa",
+        "e4eee155-1729-4856-a0fb-d6af56d36cc4",
+        "07bb5e09-80fa-4132-8c6a-d18c1f87ab60",
+        "cc9c0d95-3e32-4965-931f-9beb5443ad6c",
+        "6d333238-45ac-4d42-a79c-b4402f59a3a6",
+        "cf030a89-38d8-4054-8bed-e4612e15518c",
+        "098f3328-2ab5-48db-90c9-af45c2f174df"
+      ],
+      "settings": {
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "16px",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "16px"
+      }
+    },
+    "165721141481029aaa": {
+      "type": "who-we-are",
+      "blocks": {
+        "f31420b7-2a6a-47c8-9955-97817a56cfe7": {
+          "type": "list_item",
+          "settings": {
+            "text": "Solve common skin concerns, everywhere."
+          }
+        },
+        "bcc7711d-bbad-4e2b-9c40-5eb66f5887ee": {
+          "type": "list_item",
+          "settings": {
+            "text": "Use natural, or naturally derived ingredients."
+          }
+        },
+        "07169918-7b97-4af0-bb06-73f7dca43f75": {
+          "type": "list_item",
+          "settings": {
+            "text": "Formulate for all skin types."
+          }
+        },
+        "a2ce8d1f-b09a-460c-a0f8-665fa25f802d": {
+          "type": "list_item",
+          "settings": {
+            "text": "Do more of #1."
+          }
+        }
+      },
+      "block_order": [
+        "f31420b7-2a6a-47c8-9955-97817a56cfe7",
+        "bcc7711d-bbad-4e2b-9c40-5eb66f5887ee",
+        "07169918-7b97-4af0-bb06-73f7dca43f75",
+        "a2ce8d1f-b09a-460c-a0f8-665fa25f802d"
+      ],
+      "settings": {
+        "heading": "Why Bushbalm?",
+        "subheading": "Bushbalm was founded on the promise to solve ingrown hairs, razor burn and dark spots with natural products.",
+        "list_heading": "Our Focus",
+        "cta_text": "Get Started",
+        "cta_link": "",
+        "image_desktop": "shopify:\/\/shop_images\/Untitled_design_28.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/7.jpg",
+        "full_width": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16572115915655e1e5": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#f8e2c9",
+        "featured_product": "dark-spot-treatment",
+        "overwrite_heading": "<p>Bermuda Oil <\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Brightens + Fades Dark Spots <\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "image_1": "shopify:\/\/shop_images\/Untitled_design.jpg",
+        "image_2": "shopify:\/\/shop_images\/Textures_2_400_x_2_400.jpg",
+        "margin_top_mobile": "272px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "254px"
+      }
+    },
+    "1657212108d4f29a43": {
+      "type": "featured-collection-carousel",
+      "settings": {
+        "featured_collection": "the-bermuda-collection",
+        "background_color": "#ffffff",
+        "overwrite_heading": "Shop Delaney's Routine",
+        "cta_url": "shopify:\/\/collections\/the-bermuda-collection",
+        "cta_text": "View Now",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16572116628ea02d62": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "brightening-body-scrub",
+        "overwrite_heading": "<p>Piña Colada Exfoliating Scrub<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Clears Pores + Brightens <\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "272px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "254px"
+      }
+    },
+    "16572117511e11ceb2": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#f7efa1",
+        "featured_product": "2-step-hyperpigmentation-products",
+        "overwrite_heading": "<p>Bundle & Save<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>Kayla's 2 Step Routine<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "272px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "254px"
+      }
+    },
+    "1657198670d682b9f5": {
+      "type": "ingredient-faqs",
+      "blocks": {
+        "73ff8655-fba9-4061-a6d5-142ea27c0076": {
+          "type": "ingredient",
+          "settings": {
+            "title": "July 10th, 2022",
+            "copy": "You get early access thanks to Kayla Nicole. General public can shop on Sunday."
+          }
+        },
+        "26b85416-a5a3-430e-8076-179c45e73a57": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Why does Kayla have early access?",
+            "copy": "She's one of our favorites! We've been working with her for over a year and wanted to share this perk with her followers."
+          }
+        },
+        "123bf398-dce4-4a89-b546-cf850379e923": {
+          "type": "faq",
+          "settings": {
+            "question": "Does it help lighten?",
+            "answer": "Yes. Our dark spot line softens the appearance of dark spots and hyperpigmentation"
+          }
+        },
+        "2b3c672e-79db-4bd2-8f75-cca3139f0aee": {
+          "type": "faq",
+          "settings": {
+            "question": "Where can I use the oil and scrub?",
+            "answer": "Bikini Line, Body and Everywhere. The line was formulated for your most sensitive areas, specifically you bikini line."
+          }
+        },
+        "89d0b443-6236-40a4-8883-906ec389c9b1": {
+          "type": "faq",
+          "settings": {
+            "question": "What is the difference between Bermuda?",
+            "answer": "Our Bermuda line has the same great benefits, but a softer scent. The Piña Colada collection has a new, fresh scent you'll love."
+          }
+        }
+      },
+      "block_order": [
+        "73ff8655-fba9-4061-a6d5-142ea27c0076",
+        "26b85416-a5a3-430e-8076-179c45e73a57",
+        "123bf398-dce4-4a89-b546-cf850379e923",
+        "2b3c672e-79db-4bd2-8f75-cca3139f0aee",
+        "89d0b443-6236-40a4-8883-906ec389c9b1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_faq": "FAQs",
+        "heading_ingredients": "Launch Details",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1644857088ebfcfbbb": {
+      "type": "press-highlights",
+      "blocks": {
+        "6b7112f5-e4c1-4663-9081-5af94342f0a7": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "\"This Oil & Exfoliant Saved My Bikini Line\"",
+            "logo": "shopify:\/\/shop_images\/Refinery29_logo_2.png",
+            "logo_height": 42,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "8d7a156a-ba82-4eef-8ea9-b9b21936f796": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the Products Has Been Created to Take Care of Our Most Sensitive Areas That Have Been Largely Forgotten by Mainstream Beauty brands.\"",
+            "logo": "shopify:\/\/shop_images\/l-forbes_2d56a80b-d29f-401b-b7a0-7c75513dc8ed.png",
+            "logo_height": 17,
+            "bg_color": "#f7efa1",
+            "color": "#271710",
+            "cta_bg_color": "#fafafa",
+            "invert_logos": false
+          }
+        },
+        "2db2f34f-70a6-450e-b2c8-3af0c8dd49b3": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Think Lusciously Scented Oil Blends and Scrubs Packed With Nourishing Ingredients Like Jojoba and Copaiba Oils”",
+            "logo": "shopify:\/\/shop_images\/l-chate_aa3b5b77-a6dd-4ea9-befe-5f301429adcf.png",
+            "logo_height": 14,
+            "bg_color": "#f7efa1",
+            "color": "#271710",
+            "cta_bg_color": "#ffffff",
+            "invert_logos": false
+          }
+        },
+        "62a73cd3-be50-45b2-8505-e8b832b09b27": {
+          "type": "testimonial",
+          "settings": {
+            "title": "",
+            "copy": "“Their Result-Driven Collection of Products Targets Such Grievances as Ingrown Hair Revention, Dark Spot Treatment, and Razor Burn relief.”",
+            "logo": "shopify:\/\/shop_images\/l-buzz_bc421365-b61c-4ea4-9a73-0ab267bd8d56.png",
+            "logo_height": 18,
+            "bg_color": "#f7efa1",
+            "color": "#271710",
+            "cta_bg_color": "#ffffff",
+            "invert_logos": false
+          }
+        }
+      },
+      "block_order": [
+        "6b7112f5-e4c1-4663-9081-5af94342f0a7",
+        "8d7a156a-ba82-4eef-8ea9-b9b21936f796",
+        "2db2f34f-70a6-450e-b2c8-3af0c8dd49b3",
+        "62a73cd3-be50-45b2-8505-e8b832b09b27"
+      ],
+      "settings": {
+        "cta_text": "See All Press",
+        "cta_link": "shopify:\/\/pages\/old-url-structre",
+        "bg_color": "#f8e2c9",
+        "cta_bg_color": "#ffffff",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1657197272286070f1",
+    "1657197034dfa47212",
+    "16633521697053e3dc",
+    "1656950100ea3cf0c8",
+    "1656950097fd2c28cf",
+    "1644856134d3fd8cff",
+    "1644936192146c5d81",
+    "16448560070d612359",
+    "16448611164b2d5398",
+    "16448614917632d723",
+    "164485693843dd53d6",
+    "main",
+    "1657197360dd6f7336",
+    "16448623640eb72065",
+    "16572180576251147c",
+    "1657217254155977c5",
+    "16449411197db763c3",
+    "165721141481029aaa",
+    "16572115915655e1e5",
+    "1657212108d4f29a43",
+    "16572116628ea02d62",
+    "16572117511e11ceb2",
+    "1657198670d682b9f5",
+    "1644857088ebfcfbbb"
+  ]
+}

@@ -1,0 +1,6 @@
+<svg class="icon-number icon-number--2" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+  role="img" aria-labelledby="icon-number-2-title icon-number-2-desc">
+  <title id="icon-number-2-title">Number Two</title>
+  <desc id="icon-number-2-desc">A bold number 2 icon with brown outline</desc>
+  <path d="M37.4427 42.4491C46.1557 32.4355 47.7623 29.3878 47.7623 23.7902C47.7623 15.9534 41.4593 10.6667 32.0665 10.6667C22.1794 10.6667 16.5561 16.0156 16.5561 25.3451V25.967H29.1622V25.0963C29.1622 22.8572 30.2127 21.6133 32.1283 21.6133C33.735 21.6133 34.8473 22.795 34.8473 24.5365C34.8473 27.3354 32.4991 30.5074 16 50.0992V53.3334H48.6275V42.4491H37.4427Z" stroke="#CCA181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,116 @@
+<script src="{{ 'overlay-hero.js' | asset_url }}" defer="defer"></script>
+{{ 'overlay-hero.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign heading_tag = 'h2'
+  if section.settings.use_h1
+    assign heading_tag = 'h1'
+  endif
+-%}
+
+<div class="overlay-hero lazyload{% if section.settings.display_overlay %} overlay-hero--overlay{% endif %}" role="region" aria-label="Hero" data-bgset="{% render 'responsive-bg-image', image: section.settings.image_desktop, mobile_image: section.settings.image_mobile %}">
+  <div class="overlay-hero__wrapper overlay-hero__wrapper--content-{{ section.settings.content_position_desktop }} wrapper">
+    <div class="overlay-hero__content overlay-hero__content--{{ section.settings.text_align_mobile }}">
+      <{{ heading_tag }} class="overlay-hero__heading">{{ section.settings.heading | newline_to_br }}</{{ heading_tag }}>
+      <p class="overlay-hero__copy">{{ section.settings.copy }}</p>
+      {% if section.settings.cta_text != blank %}
+        <a class="btn" href="{{ section.settings.cta_url }}">{{ section.settings.cta_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Overlay Hero",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_h1",
+        "label": "Use h1 tag",
+        "default": true,
+        "info": "If checked, the heading will use an h1 tag. Should be checked if this is the first section on the page."
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "info": "Leave empty to hide CTA button"
+      },
+      {
+        "type": "url",
+        "id": "cta_url",
+        "label": "CTA URL"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image - Desktop",
+        "info": "3840 x 1396"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image - Mobile",
+        "info": "750 x 554"
+      },
+      {
+        "type": "select",
+        "id": "text_align_mobile",
+        "label": "Text Align - Mobile",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "radio",
+        "id": "content_position_desktop",
+        "label": "Content Position - Desktop",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "display_overlay",
+        "label": "Display Overlay",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Overlay Hero"
+      }
+    ]
+  }
+{% endschema %}

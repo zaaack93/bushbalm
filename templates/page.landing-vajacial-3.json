@@ -1,0 +1,755 @@
+{
+  "sections": {
+    "1664205201c2c4dff0": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "One Vajacial away from a good mood",
+        "heading_tag": "h2",
+        "title_sizing": "title_large",
+        "subtitle": "Hydrogel Vajacial Mask",
+        "copy": "<p>Save 30% off for a limited time!<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Shop Our Vajacials",
+        "cta_link": "shopify:\/\/products\/november-2nd-2022",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/4_10abb1e5-860b-40ee-8d6d-8934a2906844.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Screen_Shot_2022-10-17_at_5.10.56_PM.png",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4789,
+        "review_animation": false,
+        "review_copy": "Rated [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_f4b5ef13-c142-4859-a9b3-fe92cb763170.png",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "a30a5aff-d131-4bfb-8fa3-869850746051": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#d8ebe6",
+        "featured_product": "vajacial-hydrogel-mask-set",
+        "overwrite_heading": "<p>Hydrogel Vajacial  <\/p><p>Mask Set<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p><\/p><p><\/p><p><\/p><p>Formulated with Hyaluronic Acid, and Aloe Vera to calm and reduce the look of redness after hair removal, and leave skin feeling hydrated and rejuvenated.<\/p><p><\/p><p><strong>Each set comes with: <\/strong><\/p><p>✓ 3 triangle shaped masks<\/p><p>✓ 6 side stripes for the inner thighs<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "image_0": "shopify:\/\/shop_images\/Untitled_design_9.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16639669102e483464": {
+      "type": "home-hero-image",
+      "disabled": true,
+      "settings": {
+        "linkable_image_link_mobile": "",
+        "linkable_image_link_desktop": "",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/Landing_Page_-_Hero_-_Mobile_36af5005-79b8-4bee-bb30-38bf23bc9ade.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/Homepage_-_Desktop_-_Header_2.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "165729895083c253b7": {
+      "type": "home-hero",
+      "disabled": true,
+      "settings": {
+        "title": "Skincare, Everywere.",
+        "copy": "Natural solutions to treat common skin concerns that aren’t often talked about.",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all",
+        "position_desktop": "right",
+        "position_mobile": "bottom",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skin.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/2_b3753e69-ce0a-4f80-98ad-64752f5cf2e8.jpg",
+        "video_url_desktop": "",
+        "video_url_mobile": "",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4000,
+        "review_animation": true,
+        "review_copy": "Rating [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_c09e937a-9d63-40ba-9e19-00be3563281e.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "166396155263cb2c50": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "shopify:\/\/collections\/all",
+        "linkable_image_link_desktop": "shopify:\/\/collections\/all",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/2_4bdc82d8-398b-4ac2-8925-fb8f1df200f0.webp",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/2_a11e9bc2-76db-4f46-9b42-665b0a5d7e90.webp",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "39048bf3-6c99-42b6-afa0-141705c348bb": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "Experience the Luxury for yourself",
+        "html": "<center> <h3> 3 reasons you need our hydrogel vajacial <\/h3> <\/center>"
+      }
+    },
+    "d30f7ccf-81fb-4178-b2b5-559e4ed8813d": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Mask_2_1f3df353-e0d2-4a55-a36d-043ed51fa064.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Mask_2_1f3df353-e0d2-4a55-a36d-043ed51fa064.jpg",
+        "heading": "<h4>1. It can re-invent your skincare routine<\/h4>",
+        "copy": "Your vulva deserves the same level of care as your face which is why we created the 1st ever hydrogel mask made specifically for down there.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "ec364f11-44d2-4dd4-a326-159dadd0e92a": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Mask_f04b114a-b705-49f1-b52c-c64907352369.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Mask_f04b114a-b705-49f1-b52c-c64907352369.jpg",
+        "heading": "2. A whole new bikini line in 10 minutes",
+        "copy": "Experience the Hydrogel Vajacial Mask in the comfort of your own home for as little as 10 minutes. Add our soothing oils for additional hydration.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "a65ef84d-ad6f-4926-ad89-95bef1de0dc6": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Hydrogel_Mask_59e66048-6557-4804-833c-bf467c526f0f.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Hydrogel_Mask_59e66048-6557-4804-833c-bf467c526f0f.jpg",
+        "heading": "<h4>3. Made with clean ingredients that are good for the skin<\/h4>",
+        "copy": "We use clean ingredients that are gyno-approved for the skin. Starring Hyaluronic acid + Aloe to hydrate and moisturize, and Green Tea to calm the skin.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "11f51e41-a994-498d-b6c7-f0ae26abdf36": {
+      "type": "testimonials",
+      "blocks": {
+        "e52b5c35-78d5-4c9b-a86a-4f5a1bf460cf": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VajacialReview.jpg",
+            "content": "“I’m shocked at how cooling it feels!”",
+            "name": "",
+            "product": "vajacial-hydrogel-mask-set",
+            "product_image": "shopify:\/\/shop_images\/Untitled_design_53.png",
+            "cta_text": "Shop Now - Limited stock"
+          }
+        },
+        "51645f0b-8314-4dfa-953e-df1a55d52520": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VajacialTestimonial.jpg",
+            "content": "“I never thought I’d use a hydrogel down there. Wow”",
+            "name": "",
+            "product": "vajacial-hydrogel-mask-set",
+            "product_image": "shopify:\/\/shop_images\/Untitled_design_53.png",
+            "cta_text": "Shop Now - Limited Stock"
+          }
+        },
+        "d143fa40-54d2-45c7-927f-07c9d0f63007": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VajacialHype.jpg",
+            "content": "“My esthetician does vajacials at the spa. Now I can do them at home!”",
+            "name": "",
+            "product": "vajacial-hydrogel-mask-set",
+            "product_image": "shopify:\/\/shop_images\/Untitled_design_53.png",
+            "cta_text": "Shop Now - Limited Stock"
+          }
+        }
+      },
+      "block_order": [
+        "e52b5c35-78d5-4c9b-a86a-4f5a1bf460cf",
+        "51645f0b-8314-4dfa-953e-df1a55d52520",
+        "d143fa40-54d2-45c7-927f-07c9d0f63007"
+      ],
+      "settings": {
+        "intro": "Reviews are in",
+        "title": "The hype is real!"
+      }
+    },
+    "7bf169ee-8219-48c7-93e3-1fe5981a6d80": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<center>\n<br><a href=\"https:\/\/bushbalm.com\/collections\/vajacial\" class=\"btn btn-primary\">Shop All Vajacials<\/a>\n<\/center>"
+      }
+    },
+    "df1a9789-b4ed-4e06-bad1-f3d8f2eefda3": {
+      "type": "about-principles",
+      "blocks": {
+        "aea40acf-6803-43d6-819e-8d89d150831c": {
+          "type": "principle",
+          "settings": {
+            "text": "Unfold mask, remove backing on one side and place hydrogel on bikini area."
+          }
+        },
+        "3168dc29-6665-4183-b69a-e41356f5e1f3": {
+          "type": "principle",
+          "settings": {
+            "text": "Once placed, remove backing on opposite side."
+          }
+        },
+        "a28b16ab-7132-41ee-9e67-7c5d7acbf6e9": {
+          "type": "principle",
+          "settings": {
+            "text": "Relax for 10-15 minutes"
+          }
+        },
+        "09dab5fa-46fa-4cb9-8a51-e82bf7662f34": {
+          "type": "principle",
+          "settings": {
+            "text": "Remove the mask, rub remaining product into skin and live your best life."
+          }
+        }
+      },
+      "block_order": [
+        "aea40acf-6803-43d6-819e-8d89d150831c",
+        "3168dc29-6665-4183-b69a-e41356f5e1f3",
+        "a28b16ab-7132-41ee-9e67-7c5d7acbf6e9",
+        "09dab5fa-46fa-4cb9-8a51-e82bf7662f34"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/5_40a39247-7d6b-4d66-8b81-f061e51df383.jpg",
+        "alignment": "bottom",
+        "headline": "Self-care down there",
+        "subheading": "",
+        "content": "How to use our Hydrogel Vajacial Mask like a pro.",
+        "intro": "",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "94bf4a2d-2c8c-4838-b2e9-58b44985ed91": {
+      "type": "content",
+      "blocks": {
+        "de6dd5a9-92bd-4d2a-b82c-53592bd671b8": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 1",
+            "copy": "Gently unfold mask, remove backing on one side and place hydrogel on bikini area. Note: this product is for external use only."
+          }
+        },
+        "1ea9ec2d-b3f5-4ebf-ab1b-5959e143f37e": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 2",
+            "copy": "Once placed, remove backing on opposite side."
+          }
+        },
+        "47a86dc5-5b27-48d3-84dc-dbef01b58865": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 3",
+            "copy": "Relax for 10-15 minutes"
+          }
+        },
+        "6657bb22-90d4-4f54-9848-4633bfe4ea2a": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 4",
+            "copy": "Remove the mask, rub remaining product into skin and live your best life."
+          }
+        }
+      },
+      "block_order": [
+        "de6dd5a9-92bd-4d2a-b82c-53592bd671b8",
+        "1ea9ec2d-b3f5-4ebf-ab1b-5959e143f37e",
+        "47a86dc5-5b27-48d3-84dc-dbef01b58865",
+        "6657bb22-90d4-4f54-9848-4633bfe4ea2a"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/5_40a39247-7d6b-4d66-8b81-f061e51df383.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/5_40a39247-7d6b-4d66-8b81-f061e51df383.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Self-Care Routine",
+        "copy": "How to use our Hydrogel Vajacial Mask like a pro.",
+        "subheading": "",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "22f711e5-7fd0-4bce-929b-10719a73f0f3": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#b8ddd6",
+        "image_mobile": "shopify:\/\/shop_images\/Dr_Arumala_80c1f363-839a-4033-a8b1-0f0f9c5f3964.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Gyno_and_Derm_Approved.jpg",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "Gyno appoved, esthetican loved",
+        "copy": "<p>Re-imagining Bikini Line Skincare —  Naturally<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1663931263b799a410": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "156ef553-f4ef-4ef5-891e-c8641d4795df": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-hydrogel-mask-set",
+            "enable_sub_text": false
+          }
+        },
+        "9f80e8d9-f803-4dcc-8e1e-e4890420bd3d": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-at-home-kit",
+            "enable_sub_text": false
+          }
+        },
+        "af34ea26-5008-4a2f-9b34-f161a5e0bdab": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-3-step-at-home-kit",
+            "enable_sub_text": false
+          }
+        }
+      },
+      "block_order": [
+        "156ef553-f4ef-4ef5-891e-c8641d4795df",
+        "9f80e8d9-f803-4dcc-8e1e-e4890420bd3d",
+        "af34ea26-5008-4a2f-9b34-f161a5e0bdab"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Shop Our Vajacials",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "16px"
+      }
+    },
+    "664ed3ba-19e0-4142-a29d-19c49ab3834d": {
+      "type": "newsletter-signup",
+      "disabled": true,
+      "settings": {
+        "klaviyo_list_id": "SqDVUD",
+        "heading": "Win Today!",
+        "subheading": "Signup for a Chance to Win",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1663961664dd24d4fb": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_mobile": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_654_x_482_px.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Before_After_-_Side_by_Side_654_x_482_px.jpg",
+        "image_offset": 0,
+        "preheading": "After just 10 minutes",
+        "heading": "Instant Hydration",
+        "copy": "<p>Experience the Vajacial Results for Yourself<\/p>",
+        "cta_link": "shopify:\/\/products\/november-2nd-2022",
+        "cta_text": "Shop Now",
+        "margin_top_mobile": "24px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "16639639187d2b2300": {
+      "type": "before-and-after-slider",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "Our Results Do The Talking",
+        "copy": "<p>View hundreds of before and after results<\/p>",
+        "cta_text": "View More",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_bg_color": "#f8e2c9",
+        "content_position": "right",
+        "before_image": "shopify:\/\/shop_images\/Dark_Spot_Before_and_After.jpg",
+        "after_image": "shopify:\/\/shop_images\/Ingrown_Hair_Before_and_After.jpg",
+        "image_container_width": 550,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16573037198c1a1b65": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Pina_Colada_Dark_spot_Corrector.png",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Pina_Colada_Dark_spot_Corrector.png",
+        "heading": "<small> <b>NEW<\/b><\/small><br>Piña Colada",
+        "copy": "Delight your senses with the fresh tropical scent of Piña Colada. Perfect for summer, the playful notes of pineapple and coconut will make you feel like you’re on vacation with every use. [break]\nNow available in our signature Dark Spot Oil and Dark Spot Scrub.",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1635450892683f480c": {
+      "type": "featured-products",
+      "blocks": {
+        "01f75a4d-18bb-4690-8a30-8a08e11003da": {
+          "type": "featured_product",
+          "settings": {
+            "product": "dark-spot-treatment",
+            "title": "Bermuda Dark Spot Oil",
+            "copy": "Naturally reduces the look of dark spots and discoloration",
+            "rating": 4.5,
+            "cta_text": "Shop Bermuda Oil",
+            "cta_link": "shopify:\/\/products\/dark-spot-treatment",
+            "badge_text": "Best Seller"
+          }
+        },
+        "b7cbc24c-8c0c-4eb7-8aa8-adbb1c62a3fb": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "title": "Nude Ingrown Hair Oil",
+            "copy": "Naturally softens the appearance of ingrown hairs and razor burn",
+            "rating": 5,
+            "cta_text": "Shop Nude",
+            "cta_link": "shopify:\/\/products\/ingrown-hair-oil",
+            "badge_text": "Most Loved"
+          }
+        },
+        "e9cbf3df-2d0d-477d-9813-668eeefeceed": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-francesca-bikini-trimmer-for-pubic-hair",
+            "title": "The Francesca Trimmer",
+            "copy": "The most convenient and effective pubic and body trimmer",
+            "rating": 4.5,
+            "cta_text": "Shop Francesca",
+            "cta_link": "shopify:\/\/products\/the-francesca-bikini-trimmer-for-pubic-hair",
+            "badge_text": "Buzzing"
+          }
+        }
+      },
+      "block_order": [
+        "01f75a4d-18bb-4690-8a30-8a08e11003da",
+        "b7cbc24c-8c0c-4eb7-8aa8-adbb1c62a3fb",
+        "e9cbf3df-2d0d-477d-9813-668eeefeceed"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1662418336d54e2400": {
+      "type": "skin-dictionary",
+      "blocks": {
+        "8efcb923-2441-44ba-8ee4-7e893c85e478": {
+          "type": "faq",
+          "settings": {
+            "question": "Hyaluronic Acid",
+            "answer": "Helps provide skin with intense hydration and helps it appear supple and smooth.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "a1ce1154-cac7-4d88-8e1a-3ba1840060de": {
+          "type": "faq",
+          "settings": {
+            "question": "Aloe Vera",
+            "answer": "Helps to refresh, hydrate and energize skin while reducing the appearance of redness on skin.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        },
+        "1f20e063-5ceb-479f-bc7e-e96df9e92d18": {
+          "type": "faq",
+          "settings": {
+            "question": "Green Tea Extract",
+            "answer": "An antioxidant-rich powerhouse that fights visible signs of aging and soothes the look of redness after hair removal.",
+            "cta_link": "",
+            "cta_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "8efcb923-2441-44ba-8ee4-7e893c85e478",
+        "a1ce1154-cac7-4d88-8e1a-3ba1840060de",
+        "1f20e063-5ceb-479f-bc7e-e96df9e92d18"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "heading": "",
+        "copy": "",
+        "heading_faqs": "Ingredients Dictionary",
+        "cta_link": "shopify:\/\/collections\/vajacial",
+        "cta_text": "Shop All Vajacials",
+        "image_mobile": "shopify:\/\/shop_images\/4_10abb1e5-860b-40ee-8d6d-8934a2906844.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/4_10abb1e5-860b-40ee-8d6d-8934a2906844.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1647373152c464ae88": {
+      "type": "image-carousel",
+      "blocks": {
+        "76f4fa9c-a9ff-493a-bc05-56dbfc0d7219": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-After-Picture-Dark-Spot-Oil_2f7dee7d-ff7f-4b31-871e-e53f78466aa8.jpg",
+            "link": "shopify:\/\/collections\/dark-spots",
+            "link_title": ""
+          }
+        },
+        "9aa049f1-dc2a-40fe-9e81-8e0ba231283a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-And-After-Dark-Under-Arms-Dark-Spot-Oil_a4777e8e-0784-4217-bc9f-a80a5c19db53.jpg",
+            "link": "shopify:\/\/collections\/hyperpigmentation",
+            "link_title": ""
+          }
+        },
+        "6a91ee53-5020-4dea-b341-2959234b30ff": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Before-And-After-Photo-Ingrown-Hairs-Razor-Burn_1731c993-8d3e-43da-9504-c7b980d303ac.jpg",
+            "link": "shopify:\/\/collections\/razor-burn",
+            "link_title": ""
+          }
+        },
+        "073449b7-6afb-4495-8771-1f9ccce6d0b8": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-underarms-ingrown-hairs-and-razor-burn_15d76a55-f008-4d16-b66b-56d0aeccbef5.jpg",
+            "link": "shopify:\/\/collections\/ingrown-hairs",
+            "link_title": ""
+          }
+        },
+        "f0cababb-b0c1-4e92-aaa7-914982e55b30": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/underarm-darkening-before-and-after-dark-spot-oil_75b9a9a1-c12f-4232-b8c0-8cdc15d8e792.jpg",
+            "link": "shopify:\/\/collections\/dark-spots",
+            "link_title": ""
+          }
+        },
+        "9082e434-6415-4980-9a27-0ab8c5a237fe": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-razor-burn-on-bikini-line_4076509b-d552-4248-814b-7a1e2b21adb7.jpg",
+            "link": "shopify:\/\/collections\/razor-burn",
+            "link_title": ""
+          }
+        },
+        "60c50fdf-3736-4e0e-9ce9-99be70193fb7": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before-and-after-razor-burn-bikini-line_47da761d-b7e6-4758-935a-6d4ca0312d45.jpg",
+            "link": "shopify:\/\/collections\/razor-burn",
+            "link_title": ""
+          }
+        },
+        "17399693-62c4-49e8-937a-44c8a0e0994a": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/razor-burn-on-thighs-before-and-after_a10c046e-1f45-4560-9c57-8af0fb22841e.jpg",
+            "link": "shopify:\/\/collections\/razor-burn",
+            "link_title": ""
+          }
+        },
+        "5b8da50b-ae50-420e-a9be-8c4de1091365": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dark-spot-oil-underarm-darkening_a241097e-6a23-430d-89f2-b16473c07a15.jpg",
+            "link": "shopify:\/\/collections\/hyperpigmentation",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "76f4fa9c-a9ff-493a-bc05-56dbfc0d7219",
+        "9aa049f1-dc2a-40fe-9e81-8e0ba231283a",
+        "6a91ee53-5020-4dea-b341-2959234b30ff",
+        "073449b7-6afb-4495-8771-1f9ccce6d0b8",
+        "f0cababb-b0c1-4e92-aaa7-914982e55b30",
+        "9082e434-6415-4980-9a27-0ab8c5a237fe",
+        "60c50fdf-3736-4e0e-9ce9-99be70193fb7",
+        "17399693-62c4-49e8-937a-44c8a0e0994a",
+        "5b8da50b-ae50-420e-a9be-8c4de1091365"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "d57ba30f-4758-49a1-90e9-f3c35cc5d360": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center> \n<h3> Save 30% On Bestsellers<\/h3>\n<\/center>"
+      }
+    },
+    "dc7b949f-dae4-4e66-b82f-ad7409f9467b": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "8be78de4-15af-4b45-8a63-fc6d71fa03ec": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-hydrogel-mask-set",
+            "enable_sub_text": true
+          }
+        },
+        "07a595ce-6e12-45a8-9f01-e0a4aa96751c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-at-home-kit",
+            "enable_sub_text": true
+          }
+        },
+        "c7f98325-42ea-4fd4-b696-41f1c9468908": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-3-step-at-home-kit",
+            "enable_sub_text": true
+          }
+        },
+        "c5c957bb-8286-47d0-83e9-8b7bf84b7eab": {
+          "type": "featured_product",
+          "settings": {
+            "product": "ingrown-hair-oil",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "8be78de4-15af-4b45-8a63-fc6d71fa03ec",
+        "07a595ce-6e12-45a8-9f01-e0a4aa96751c",
+        "c7f98325-42ea-4fd4-b696-41f1c9468908",
+        "c5c957bb-8286-47d0-83e9-8b7bf84b7eab"
+      ],
+      "settings": {
+        "heading": "",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "16px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1664409965e03af427": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center> \n<h2> Skincare, Everywhere.<\/h2>\n<p> We're on a mission to save your bikini line one ingrown hair at a time. <\/p> \n<center>\n<br><a href=\"https:\/\/bushbalm.com\/collections\/all\" class=\"btn btn-primary\">Shop All Products<\/a>\n<\/center>\n<\/center>"
+      }
+    }
+  },
+  "order": [
+    "1664205201c2c4dff0",
+    "a30a5aff-d131-4bfb-8fa3-869850746051",
+    "16639669102e483464",
+    "165729895083c253b7",
+    "166396155263cb2c50",
+    "39048bf3-6c99-42b6-afa0-141705c348bb",
+    "d30f7ccf-81fb-4178-b2b5-559e4ed8813d",
+    "ec364f11-44d2-4dd4-a326-159dadd0e92a",
+    "a65ef84d-ad6f-4926-ad89-95bef1de0dc6",
+    "11f51e41-a994-498d-b6c7-f0ae26abdf36",
+    "7bf169ee-8219-48c7-93e3-1fe5981a6d80",
+    "df1a9789-b4ed-4e06-bad1-f3d8f2eefda3",
+    "94bf4a2d-2c8c-4838-b2e9-58b44985ed91",
+    "22f711e5-7fd0-4bce-929b-10719a73f0f3",
+    "1663931263b799a410",
+    "664ed3ba-19e0-4142-a29d-19c49ab3834d",
+    "1663961664dd24d4fb",
+    "16639639187d2b2300",
+    "16573037198c1a1b65",
+    "1635450892683f480c",
+    "1662418336d54e2400",
+    "1647373152c464ae88",
+    "d57ba30f-4758-49a1-90e9-f3c35cc5d360",
+    "dc7b949f-dae4-4e66-b82f-ad7409f9467b",
+    "1664409965e03af427"
+  ]
+}

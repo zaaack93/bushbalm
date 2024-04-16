@@ -1,0 +1,247 @@
+{% comment %}
+  ====================================================
+                    SOCIAL OVERLAY
+  ====================================================
+
+
+  Snippet has no properties to pass
+  (Uses section settings and blocks)
+
+  Example render:
+  ====================================================
+  {% render 'social-overlay' %}
+  ====================================================
+
+
+  To open the social overlay at least one trigger
+  is required. The [data-social-overlay-trigger-slide]
+  attribute is set as the starting slide index.
+
+  Example: "0" will open the overlay to the 1st slide
+
+  Required trigger element(s):
+  ====================================================
+  <button type="button" title="Example Title"
+    data-social-overlay-trigger="{{ section.id }}"
+    data-social-overlay-trigger-slide="0">
+    {{- section.settings.cta_text -}}
+  </button>
+  ====================================================
+
+
+  Required block settings:
+  ====================================================
+  "blocks": [
+    {
+      "type": "example_block_type",
+      "name": "Example Block Name,
+      "settings": [
+        {
+          "type": "text",
+          "id": "social_handle",
+          "label": "Social Handle"
+        },
+        {
+          "type": "product",
+          "id": "product_ref",
+          "label": "Product"
+        },
+        {
+          "type": "text",
+          "id": "product_title",
+          "label": "Product Title"
+        },
+        {
+          "type": "textarea",
+          "id": "product_copy",
+          "label": "Product Copy"
+        },
+        {
+          "type": "text",
+          "id": "cta_text",
+          "label": "CTA Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Image 1",
+          "info": "Dimensions: 750 x 1498"
+        },
+        {
+          "type": "textarea",
+          "id": "image_1_testimonial",
+          "label": "Image 1 Testimonial",
+          "info": "Use pipe character (|) to separate lines"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Image 2",
+          "info": "Dimensions: 750 x 1498"
+        },
+        {
+          "type": "textarea",
+          "id": "image_2_testimonial",
+          "label": "Image 2 Testimonial",
+          "info": "Use pipe character (|) to separate lines"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_3",
+          "label": "Image 3",
+          "info": "Dimensions: 750 x 1498"
+        },
+        {
+          "type": "textarea",
+          "id": "image_3_testimonial",
+          "label": "Image 3 Testimonial",
+          "info": "Use pipe character (|) to separate lines"
+        }
+      ]
+    }
+  ]
+  ====================================================
+
+
+  An optional CTA can be added to the slider as the
+  final slide. If the CTA does not exist or is not
+  enabled the overlay will close after the final
+  social story slide is finished playing.
+
+  Optional section settings:
+  ====================================================
+  {
+    "type": "header",
+    "content": "CTA Slide",
+    "info": "Final slide in Testimonial Stories slider"
+  },
+  {
+    "type": "checkbox",
+    "id": "enable_cta_slide",
+    "label": "Enable",
+    "default": true
+  },
+  {
+    "type": "text",
+    "id": "cta_slide_title",
+    "label": "Title"
+  },
+  {
+    "type": "textarea",
+    "id": "cta_slide_copy",
+    "label": "Copy"
+  },
+  {
+    "type": "url",
+    "id": "cta_slide_cta_link",
+    "label": "CTA Link"
+  },
+  {
+    "type": "text",
+    "id": "cta_slide_cta_text",
+    "label": "CTA Text"
+  }
+  ====================================================
+{% endcomment %}
+
+<div class="social-overlay" data-social-overlay="{{ section.id }}">
+  <div class="social-overlay__container swiper-container" data-social-overlay-container>
+    <div class="social-overlay__wrapper swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="social-story swiper-slide">
+          <div class="social-story__container" data-social-overlay-story-container>
+            <div class="social-story__info">
+              <div class="social-story__progress">
+                {% for i in (1..3) %}
+                  {% assign image_ref_string = 'image_' | append: i %}
+                  {% if block.settings[image_ref_string] != blank %}
+                    <div class="social-story__progress-indicator"
+                      data-social-overlay-progress="{{ forloop.index }}">
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <p class="social-story__handle">{{ block.settings.social_handle }}</p>
+            </div>
+
+            <div class="social-story__slides" data-social-overlay-slide-container>
+              {% for i in (1..3) %}
+                {% assign image_ref_string = 'image_' | append: i %}
+                {% assign testimonial_string = image_ref_string | append: '_testimonial' %}
+
+                {% if block.settings[image_ref_string] != blank %}
+                  <div class="social-story__slide{% if i == 1 %} active{% endif %}" data-social-overlay-slide>
+                    {% render 'responsive-image' with
+                      image: block.settings[image_ref_string],
+                      max_width: 750,
+                      max_height: 1498,
+                      wrapper_class: 'social-story__image'
+                    %}
+                    {% if block.settings[testimonial_string] != blank %}
+                      <div class="social-story__testimonial">
+                        {% assign product_testimonial_lines = block.settings[testimonial_string] | split: '|' %}
+                        {% for testimonial_line in product_testimonial_lines %}
+                          <p>{{ testimonial_line | strip }}</p>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+
+            {% assign product_ref = all_products[block.settings.product_ref] %}
+            <div class="social-story__product">
+              <div class="social-story__product-container">
+                <p class="social-story__product-title">
+                  {{- block.settings.product_title | default: product_ref.title -}}
+                </p>
+                <p class="social-story__product-copy">
+                  {{- block.settings.product_copy | default: product_ref.description -}}
+                </p>
+                <p class="social-story__product-price">
+                  {{- product_ref.price | money_without_trailing_zeros -}}
+                </p>
+              </div>
+              <a href="{{ product_ref.url }}"
+                class="social-story__product-cta btn btn--full"
+                title="{{ product_ref.title }}">
+                {{- block.settings.cta_text -}}
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+      {% if section.settings.enable_cta_slide %}
+        <div class="social-story social-story--cta swiper-slide">
+          <div class="social-story__container" data-social-overlay-story-container data-social-overlay-cta-slide>
+            <h3>{{ section.settings.cta_slide_title }}</h3>
+            {% if section.settings.cta_slide_copy != blank %}
+              <p>{{ section.settings.cta_slide_copy }}</p>
+            {% endif %}
+            {% if section.settings.cta_slide_cta_link != blank and section.settings.cta_slide_cta_text != blank %}
+              <a href="{{ section.settings.cta_slide_cta_link }}"
+                class="btn btn--sienna"
+                title="{{ section.settings.cta_slide_cta_text }}">
+                {{- section.settings.cta_slide_cta_text -}}
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+    <div class="swiper-pagination" data-social-overlay-pagination></div>
+    <button class="social-overlay__nav social-overlay__nav--prev small--hide" data-social-overlay-nav-prev>
+      {% render 'icon-chevron-left' %}
+    </button>
+    <button class="social-overlay__nav social-overlay__nav--next small--hide" data-social-overlay-nav-next>
+      {% render 'icon-chevron-right' %}
+    </button>
+    <button class="social-overlay__close"
+      title="{{ 'general.accessibility.social_overlay_close' | t }}"
+      data-social-overlay-close>
+      {% render 'icon-close' %}
+    </button>
+  </div>
+</div>

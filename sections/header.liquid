@@ -1,0 +1,265 @@
+<header class="site-header" role="banner" aria-label="Site Header" data-site-header>
+  <div class="site-header__container">
+    <div class="site-header__hamburger">
+      <button type="button" aria-label="Menu" data-drawer-toggle="menu">
+        {% render 'icon-hamburger' %}
+      </button>
+    </div>
+    <div class="site-header__menu site-header__menu--left">
+      <nav class="site-nav" role="navigation">
+        <ul>
+          {% for link in linklists[section.settings.menu_left].links %}
+            {% assign child_list_handle = link.title | handleize %}
+            {% if linklists[child_list_handle].links != blank %}
+              <li class="{% if link.active %}site-nav--has-dropdown site-nav--active{% else %}site-nav--has-dropdown{% endif %}" tabindex="0">
+                <a class="site-nav__link desktop-nav-l1 {% if forloop.first %}site-nav__link--first{% endif %}" href="{{ link.url }}" title="{{ link.title }}">
+                  {{ link.title }}
+                  {% render 'icon-chevron-down' %}
+                </a>
+                <div class="site-nav__dropdown">
+                  <div class="site-nav__dropdown-container">
+                    {% for childlink in linklists[child_list_handle].links %}
+                      <ul>
+                        <li {% if childlink.active %} class="site-nav--active"{% endif %}>
+                          <p class="site-nav__link site-nav__link--parent">{{ childlink.title }}</p>
+                        </li>
+                        {% if childlink.links != blank %}
+                          {% for sublink in childlink.links %}
+                            {% if sublink.title contains '--' %}
+                              {% assign sublink_all_title = sublink.title | replace: '--', '' %}
+                              <li {% if sublink.active %} class="site-nav--active"{% endif %}>
+                                <a class="site-nav__link site-nav__link--all desktop-nav-l2" href="{{ sublink.url }}" title="{{ sublink_all_title }}">
+                                  {{- sublink_all_title -}}
+                                </a>
+                              </li>
+                            {% else %}
+                              {% assign nav_hover_img = sublink.object.metafields.custom_fields["nav_hover_image"] %}
+                              <li {% if sublink.active %} class="site-nav--active"{% endif %}>
+                                <a class="site-nav__link desktop-nav-l2" href="{{ sublink.url }}" title="{{ sublink.title }}"
+                                  {% if nav_hover_img != blank %} data-nav-hover-image-link="{{ nav_hover_img }}"{% endif %}>
+                                  {{- sublink.title -}}
+                                </a>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                      </ul>
+                    {% endfor %}
+                    {% if section.settings.enable_shop_cta %}
+                      <div class="site-nav__shop-cta">
+                        <p>{{ section.settings.shop_text }}</p>
+                        <a href="{{ section.settings.shop_cta_link }}" title="{{ section.settings.shop_cta_text }}">
+                          {% render 'responsive-image' with
+                            image: section.settings.shop_image,
+                            max_width: 654,
+                            max_height: 654,
+                            wrapper_class: 'site-nav__shop-cta-image'
+                          %}
+                        </a>
+                        <a class="btn" href="{{ section.settings.shop_cta_link }}" title="{{ section.settings.shop_cta_text }}">
+                          {{- section.settings.shop_cta_text -}}
+                        </a>
+                        <div class="site-nav__shop-cta-hover">
+                          <img src="{{ section.settings.shop_image }}" alt="{{ section.settings.shop_cta_text }}"
+                            data-nav-hover-image>
+                        </div>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </li>
+            {% else %}
+              <li {% if link.active %} class="site-nav--active"{% endif %}>
+                <a class="site-nav__link desktop-nav-l1 {% if forloop.first %}site-nav__link--first{% endif %}" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+
+    <div class="site-header__logo">
+      <a href="{{ routes.root_url }}" title="{{ shop.name }} Logo">
+        {% if section.settings.logo != blank %}
+          <img src="{{ section.settings.logo | img_url: '88x' }}" alt="{{ shop.name }} Logo">
+        {% else %}
+          {% render 'icon-bushbalm-logo' %}
+        {% endif %}
+      </a>
+    </div>
+
+    <div class="site-header__menu site-header__menu--right">
+      <nav class="site-nav" role="navigation">
+        <ul>
+          {% for link in linklists[section.settings.menu_right].links %}
+            {% assign child_list_handle = link.title | handleize %}
+            {% if linklists[child_list_handle].links != blank %}
+              <li class="{% if link.active %}site-nav--has-dropdown site-nav--active{% else %}site-nav--has-dropdown{% endif %}" tabindex="0">
+                <a class="site-nav__link desktop-nav-l1 {% if forloop.first %}site-nav__link--first{% endif %}" href="{{ link.url }}" title="{{ link.title }}">
+                  {{ link.title }}
+                  {% render 'icon-chevron-down' %}
+                </a>
+                <div class="site-nav__dropdown">
+                  <div class="site-nav__dropdown-container">
+                    {% for childlink in linklists[child_list_handle].links %}
+                      <ul>
+                        <li {% if childlink.active %} class="site-nav--active"{% endif %}>
+                          <p class="site-nav__link site-nav__link--parent">{{ childlink.title }}</p>
+                        </li>
+
+                        {% if childlink.links != blank %}
+                          {% for sublink in childlink.links %}
+                            <li {% if sublink.active %} class="site-nav--active"{% endif %}>
+                              <a class="site-nav__link desktop-nav-l2" href="{{ sublink.url }}" title="{{ sublink.title }}">{{ sublink.title }}</a>
+                            </li>
+                          {% endfor %}
+                        {% endif %}
+                      </ul>
+                    {% endfor %}
+                  </div>
+                </div>
+              </li>
+            {% else %}
+              <li {% if link.active %} class="site-nav--active"{% endif %}>
+                <a class="site-nav__link desktop-nav-l1 {% if forloop.first %}site-nav__link--first{% endif %}" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+          <li>
+            <a class="site-nav__link desktop-nav-l1" href="{{ routes.account_url }}">
+              {{- 'layout.customer.account' | t -}}
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="hc-nav-flex">
+      <div class="hc-icon-search">
+        <svg width="25" height="25" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.25 12.4998C10.1495 12.4998 12.5 10.1493 12.5 7.24976C12.5 4.35026 10.1495 1.99976 7.25 1.99976C4.35051 1.99976 2 4.35026 2 7.24976C2 10.1493 4.35051 12.4998 7.25 12.4998Z" stroke="#271710" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10.9619 10.9622L13.9995 13.9997" stroke="#271710" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="site-header__bag">
+        {% if settings.ajaxcart == true %}
+          <button type="button" aria-label="Cart" data-drawer-toggle="cart">
+            {% render 'icon-bag' %}
+            <span class="site-header__bag-count" aria-hidden data-cart-count>
+              {% render 'cart-count' %}
+            </span>
+          </button>
+        {% else %}
+          <a href="{{ routes.cart_url }}" title="{{ 'cart.general.title' | t }}">
+            {% render 'icon-bag' %}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- HC - Start: HC - mobile nav - 24 eb '23 -->
+  {%- if template contains 'product' and section.settings.show_link_bar == true -%}
+    {% render 'hc-mobile-nav' %}
+  {%- endif -%}
+  <!-- HC - End: HC - mobile nav - 24 eb '23 -->            
+</header>
+
+<div class="nav-modal hc-none">
+  <div class="hc-search-nav">
+    {% include 'search-bar' %}
+    <svg class="icon-close" width="25" height="25" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M31.25 8.75L8.75 31.25" stroke="#271710" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M31.25 31.25L8.75 8.75" stroke="#271710" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</div>
+
+<!-- search nav bar - HC - 12 Jan '23 -->
+<script>
+  searchBar = document.querySelector('.nav-modal');
+  icon = document.querySelector('.hc-icon-search');
+  close = document.querySelector('.hc-search-nav .icon-close')
+
+  function showSearch() {
+    icon.addEventListener ("click", function () {
+      searchBar.classList.toggle("hc-none");
+    });
+  };
+
+  close.onclick = function() {
+    searchBar.classList.toggle("hc-none");
+  }
+
+  showSearch();
+</script>
+
+{% schema %}
+  {
+    "name": "Header",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo",
+        "info": "(Optional - Replaces SVG Logo) Dimensions: 88 x 106"
+      },
+      {
+        "type": "header",
+        "content": "Menus"
+      },
+      {
+        "type": "link_list",
+        "id": "menu_left",
+        "label": "Menu Left | Desktop"
+      },
+      {
+        "type": "link_list",
+        "id": "menu_right",
+        "label": "Menu Right | Desktop"
+      },
+      {
+        "type": "header",
+        "content": "Shop CTA"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_shop_cta",
+        "label": "Enable",
+        "info": "Adds Shop CTA to nav dropdown in Menu Left | Desktop",
+        "default": true
+      },
+      {
+        "type": "textarea",
+        "id": "shop_text",
+        "label": "Text"
+      },
+      {
+        "type": "image_picker",
+        "id": "shop_image",
+        "label": "Image",
+        "info": "Dimensions: 654 x 654"
+      },
+      {
+        "type": "text",
+        "id": "shop_cta_text",
+        "label": "CTA Text"
+      },
+      {
+        "type": "url",
+        "id": "shop_cta_link",
+        "label": "CTA Link"
+      },
+      {
+        "type": "checkbox", 
+        "id": "show_link_bar",
+        "label": "Show Link Bar",
+        "default": false
+      }
+    ]
+  }
+{% endschema %}

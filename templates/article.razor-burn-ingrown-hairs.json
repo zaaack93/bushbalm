@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "1660055249ebfa6acd": {
+      "type": "promo-banner",
+      "blocks": {
+        "4e7c9acf-4ada-4176-8928-684a9ae2491a": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p>Special Offer<\/p>"
+          }
+        },
+        "ae35d7ed-0c34-466d-b8ec-3521df5134b5": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>Save 10% Today Only<\/p>"
+          }
+        },
+        "8d1c1f8d-3e98-4c59-9a7c-c5491b3b6a0e": {
+          "type": "promo_countdown_timer",
+          "settings": {
+            "countdown_timer_type": "repeating",
+            "countdown_timer_time_repeating": "08:46",
+            "countdown_timer_time_set": ""
+          }
+        },
+        "776fb77f-55c9-4365-a2ba-ac1495be8b19": {
+          "type": "promo_subheading",
+          "settings": {
+            "subheading": "<p>Ingrown Hairs & Razor Burn Kit<\/p>"
+          }
+        },
+        "9f60e635-c288-426a-81a4-48ebd0cd0426": {
+          "type": "promo_cta",
+          "settings": {
+            "cta_text": "Claim Now",
+            "cta_link": "shopify:\/\/products\/3-step-routine-ingrown-hair-razor-burn-prevention"
+          }
+        }
+      },
+      "block_order": [
+        "4e7c9acf-4ada-4176-8928-684a9ae2491a",
+        "ae35d7ed-0c34-466d-b8ec-3521df5134b5",
+        "8d1c1f8d-3e98-4c59-9a7c-c5491b3b6a0e",
+        "776fb77f-55c9-4365-a2ba-ac1495be8b19",
+        "9f60e635-c288-426a-81a4-48ebd0cd0426"
+      ],
+      "settings": {
+        "bg_color": "#F8E2C9",
+        "enable_gradient": true,
+        "bg_gradient": "linear-gradient(270deg, rgba(248, 226, 201, 1), rgba(250, 255, 248, 0.5) 100%)",
+        "color": "#271710"
+      }
+    },
+    "main": {
+      "type": "article",
+      "settings": {
+        "enable_sharing": true,
+        "enable_twitter_share": true,
+        "enable_facebook_share": true,
+        "enable_pinterest_share": true,
+        "enable_link_share": true
+      }
+    },
+    "16379492308b6f383e": {
+      "type": "related-products",
+      "blocks": {
+        "a407af35-8eca-4b77-af15-acebfef4e4c3": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-treatment"
+          }
+        },
+        "e01c8fc1-8eec-46a0-848d-b08101853b22": {
+          "type": "related_product",
+          "settings": {
+            "product": "dark-spot-corrector"
+          }
+        },
+        "f412f636-22c5-4374-b212-e06aaca745d1": {
+          "type": "related_product",
+          "settings": {
+            "product": "pubic-hair-trimmer-holiday-kit"
+          }
+        }
+      },
+      "block_order": [
+        "a407af35-8eca-4b77-af15-acebfef4e4c3",
+        "e01c8fc1-8eec-46a0-848d-b08101853b22",
+        "f412f636-22c5-4374-b212-e06aaca745d1"
+      ],
+      "settings": {
+        "title": "Related Products",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1637963148de8f9c5a": {
+      "type": "related-articles",
+      "blocks": {
+        "5d711475-a501-4be8-a801-a9a3826dfda3": {
+          "type": "article",
+          "settings": {
+            "article": "how-to-guides\/francesca-trimmer"
+          }
+        },
+        "a559d9f3-d80e-4048-a056-505790a0d0f2": {
+          "type": "article",
+          "settings": {
+            "article": "skincare-everywhere\/menopause-and-skincare"
+          }
+        },
+        "e6bbe4ad-e972-4199-8580-c7692c030268": {
+          "type": "article",
+          "settings": {
+            "article": "dark-spots\/how-to-get-rid-of-ingrown-hair-scars"
+          }
+        },
+        "0ecfd80f-af92-4f00-bd1b-9992b7156498": {
+          "type": "article",
+          "settings": {
+            "article": "skincare-everywhere\/what-is-a-vajacial"
+          }
+        }
+      },
+      "block_order": [
+        "5d711475-a501-4be8-a801-a9a3826dfda3",
+        "a559d9f3-d80e-4048-a056-505790a0d0f2",
+        "e6bbe4ad-e972-4199-8580-c7692c030268",
+        "0ecfd80f-af92-4f00-bd1b-9992b7156498"
+      ],
+      "settings": {
+        "title": "Related Articles",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1647206499578f6b09": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "About Us",
+        "headline": "From razor burn to dark spots — we're here to help.",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "View Reviews",
+        "cta_2_link": "shopify:\/\/pages\/reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "1660055249ebfa6acd",
+    "main",
+    "16379492308b6f383e",
+    "1637963148de8f9c5a",
+    "1647206499578f6b09"
+  ]
+}

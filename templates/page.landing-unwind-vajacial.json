@@ -1,0 +1,664 @@
+{
+  "sections": {
+    "9fde19a2-d5bf-4717-af9f-64c2d4c1d2eb": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Relaxation Essentials",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>Self-care for down there and everywhere.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Shop Self-care",
+        "cta_link": "shopify:\/\/collections\/best-sellers",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Selfcare.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Relaxation_Selfcare.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 320,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.84",
+        "review_count": 4305,
+        "review_animation": false,
+        "review_copy": "Rating [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_73d39c2c-07da-43bb-a49e-7451eba49c35.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "06f270c1-33cc-4087-803e-353db3067d7a": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "https:\/\/bushbalm.com\/products\/vajacial-hydrogel-mask",
+        "linkable_image_link_desktop": "https:\/\/bushbalm.com\/products\/vajacial-hydrogel-mask",
+        "linkable_image_mobile": "shopify:\/\/shop_images\/2_4bdc82d8-398b-4ac2-8925-fb8f1df200f0.jpg",
+        "linkable_image_desktop": "shopify:\/\/shop_images\/2_a11e9bc2-76db-4f46-9b42-665b0a5d7e90.jpg",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "e1a8a36e-a924-4067-8020-e4411190f7a4": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "vajacial-hydrogel-mask",
+        "overwrite_heading": "<p>Hydrogel Vajacial Mask Set<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p>Formulated with Hyaluronic Acid, and Aloe Vera to calm and reduce the look of redness after hair removal, and leave skin feeling hydrated and rejuvenated.<\/p><p><\/p><p><strong>Each set comes with: <\/strong><\/p><p>✓ 1 triangle shaped masks<\/p><p>✓ 2 side stripes for the inner thighs<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "page-content",
+      "settings": {
+      }
+    },
+    "164140706257e7febd": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#d8ebe6",
+        "image_mobile": "shopify:\/\/shop_images\/sh-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/sh-d.png",
+        "image_offset": 80,
+        "preheading": "★★★★★ 4.84 (4553 reviews)",
+        "heading": "Meet the secret to a flawless bikini line",
+        "copy": "",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1e53aa98-d0c1-42b4-87e5-89e874d0c4d9": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "",
+        "html": "<center><h3> Your New Relaxation Routine <\/h3><\/center>"
+      }
+    },
+    "c61ec6bd-ac1a-42ba-840a-c1e6f218c439": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/vajacial_chest.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/vajacial_chest.jpg",
+        "heading": "1. Take 10 Minutes For Yourself",
+        "copy": "Relax, the holidays are over! You can finally slow down and have some you-time. \n[break]\nPro-Tip: Take this time to disconnect. We recommend putting your phone away so nothing gets in the way of your relaxation.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "0196938e-cfcb-4744-88f0-2e167ef88bbe": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Body_Cleanser_by_Bushbalm_Spa_Day_0d88c325-f645-4bdb-bddb-231ed65852a8.png",
+        "image_desktop": "shopify:\/\/shop_images\/Body_Cleanser_by_Bushbalm_Spa_Day_0d88c325-f645-4bdb-bddb-231ed65852a8.png",
+        "heading": "2. Set the mood",
+        "copy": "Whether you light a candle, take a steamy shower or throw on a robe - a calm environment will help you relax, feel at peace and get in the self-care mood. \n[break]\nPro-tip: Use our Spa Day Nourishing Body Wash in the shower to transport yourself to a spa with our signature mood-boosting scent of citrus and luxurious notes of eucalyptus.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "88714f28-dc76-4de9-a2a2-cde16a2a5730": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "80cdeddf-5522-4164-b362-90d39eb48707": {
+          "type": "featured_product",
+          "settings": {
+            "product": "spa-day-nourishing-body-wash",
+            "enable_sub_text": true
+          }
+        },
+        "b1c10e26-ec27-4bfe-8fae-c7c125c27b18": {
+          "type": "featured_product",
+          "disabled": true,
+          "settings": {
+            "product": "sensitive-skin-essentials",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "80cdeddf-5522-4164-b362-90d39eb48707",
+        "b1c10e26-ec27-4bfe-8fae-c7c125c27b18"
+      ],
+      "settings": {
+        "heading": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "5042ef2a-9aeb-4f20-b1bc-171aa7af8a78": {
+      "type": "featured-products",
+      "blocks": {
+        "1fb9397b-d04c-4a16-923f-bdb23123b7b4": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sensitive-skin-essentials",
+            "title": "",
+            "copy": "soothe+cleanse",
+            "rating": 5,
+            "cta_text": "",
+            "cta_link": "",
+            "badge_text": ""
+          }
+        },
+        "3918dc51-6c75-4783-90ca-1ce5c9abe5f8": {
+          "type": "featured_product",
+          "settings": {
+            "product": "",
+            "title": "",
+            "copy": "",
+            "rating": 5,
+            "cta_text": "",
+            "cta_link": "",
+            "badge_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1fb9397b-d04c-4a16-923f-bdb23123b7b4",
+        "3918dc51-6c75-4783-90ca-1ce5c9abe5f8"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "8a5e4300-c69b-4e3e-b8f2-f5d174c548c8": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/HydrogelVajacialMaskAtHome_4.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/HydrogelVajacialMaskAtHome_4.jpg",
+        "heading": "3.  Try a Vajacial",
+        "copy": "Start the year fresh with an at-home vajacial - a <i>'vajacial and chill'<\/i>, if you will. [break]Watch an episode of your fave show, have a meditation sesh, or take a quick nap while you let our Hydrogel Vajacial Mask work its magic.\n[break]\nPro-Tip: We recommend shaving it all off before using the vajacial for optimal relaxation.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641416815c9c72777": {
+      "type": "content",
+      "blocks": {
+        "f71d570f-0946-43d2-8cf9-2e0d1941e0f8": {
+          "type": "content_block",
+          "settings": {
+            "title": "1) New & Innovative Bikini Line Skincare",
+            "copy": "We're taking professional grade skincare and bringing it your most delicate parts.",
+            "icon": "shopify:\/\/shop_images\/vajacial_2.png"
+          }
+        },
+        "db458da7-2665-4a22-a85d-2ae745abc276": {
+          "type": "content_block",
+          "settings": {
+            "title": "2) Hyaluronic Acid + Aloe Vera",
+            "copy": "Advanced ingredients for intense hydration on your bikini line.",
+            "icon": "shopify:\/\/shop_images\/hyaluronic_acid_1.png"
+          }
+        },
+        "59bcfc06-71ca-4b7e-b889-a1b651465b1d": {
+          "type": "content_block",
+          "settings": {
+            "title": "3) Loved By Your Local Waxing Salon",
+            "copy": "Formulated with estheticians, and approved by gynecologists.",
+            "icon": "shopify:\/\/shop_images\/trusted-by-estheticians.png"
+          }
+        }
+      },
+      "block_order": [
+        "f71d570f-0946-43d2-8cf9-2e0d1941e0f8",
+        "db458da7-2665-4a22-a85d-2ae745abc276",
+        "59bcfc06-71ca-4b7e-b889-a1b651465b1d"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "product-guide",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Mask.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Mask.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "3 Reasons You'll Swear By Vajacials",
+        "copy": "",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/vajacial-hydrogel-mask-set",
+        "cta_text": "Get Yours Today",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "2f82d57e-1d8f-43d5-a49f-878db366bfec": {
+      "type": "about-principles",
+      "blocks": {
+        "064df9d6-1bb3-450b-8fb8-9fff35f47bce": {
+          "type": "principle",
+          "settings": {
+            "text": "The Leader In Bikini Line Skincare"
+          }
+        },
+        "e53ce9ae-d77d-4426-b381-ab41d6145655": {
+          "type": "principle",
+          "settings": {
+            "text": "Gyno & Derm Approved Product Line"
+          }
+        },
+        "89fc9dc3-b9b7-457c-9691-1ebcf500f81a": {
+          "type": "principle",
+          "settings": {
+            "text": "Proven Before & After Results"
+          }
+        },
+        "5a75177a-c3b2-492e-b38c-3ff1a4d8f546": {
+          "type": "principle",
+          "settings": {
+            "text": "Trusted by Thousands of Waxing Salons"
+          }
+        }
+      },
+      "block_order": [
+        "064df9d6-1bb3-450b-8fb8-9fff35f47bce",
+        "e53ce9ae-d77d-4426-b381-ab41d6145655",
+        "89fc9dc3-b9b7-457c-9691-1ebcf500f81a",
+        "5a75177a-c3b2-492e-b38c-3ff1a4d8f546"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Vajacial_Mask.jpg",
+        "alignment": "bottom",
+        "headline": "3 reasons you'll love Bushbalm",
+        "subheading": "",
+        "content": "",
+        "intro": "",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "479d8191-775a-4efb-bcf6-e19c781e2cee": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_boxed",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "",
+        "heading_tag": "h2",
+        "title_sizing": "title_medium",
+        "subtitle": "results in just 10 minutes",
+        "copy": "<p>\"Ok, so this is the holy grail of products I never knew I needed in my life. Trust me when I say BUY THIS. I used it last night after a wax and I've never felt softer down under. Amazing products! I love you Bushbalm!\"<\/p><p>- Hayley N.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Shop Vajacial",
+        "cta_link": "shopify:\/\/products\/vajacial-3-step-at-home-kit",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Before_and_After_Photo_3c7bdba1-4b3b-4125-a2d8-3ebb29daae40.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Before_and_After_Photo_3c7bdba1-4b3b-4125-a2d8-3ebb29daae40.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "96px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "6acbb354-41a2-488e-9fbb-35aa867a0939": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#d8ebe6",
+        "image_offset": true,
+        "image_mobile": "shopify:\/\/shop_images\/Product_Image_Pictures_20.jpg",
+        "heading": "\"If you get a lot of razor burn, and ingrown hairs Bushbalm has the products to help you!\"",
+        "copy": "- KGMTL",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "d6b9c194-6ff3-4df7-8e5f-0eac4431c221": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "2810ab09-d4a0-4be6-92ef-0e3a2ccb1c9f": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-hydrogel-mask",
+            "enable_sub_text": true
+          }
+        },
+        "13ef4ea4-a689-4a6e-bfe4-953cac9e207c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-at-home-kit",
+            "enable_sub_text": true
+          }
+        },
+        "70f79923-52d7-416d-8a80-752c60562180": {
+          "type": "featured_product",
+          "settings": {
+            "product": "vajacial-3-step-at-home-kit",
+            "enable_sub_text": true
+          }
+        },
+        "233edd04-8c72-4e93-9350-b25993a8872c": {
+          "type": "featured_product",
+          "settings": {
+            "product": "festival-prep-kit",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "2810ab09-d4a0-4be6-92ef-0e3a2ccb1c9f",
+        "13ef4ea4-a689-4a6e-bfe4-953cac9e207c",
+        "70f79923-52d7-416d-8a80-752c60562180",
+        "233edd04-8c72-4e93-9350-b25993a8872c"
+      ],
+      "settings": {
+        "heading": "Self-Care Essentials",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "1641416862ca4ca90a": {
+      "type": "content",
+      "blocks": {
+        "429eabfc-770b-4c01-b75d-f84a37b34f79": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 1 | Prep",
+            "copy": "Prior to showering begin your routine by dry brushing. Follow your dry brush by hopping in the showering and cleaning the skin with our Nourishing Body Wash.",
+            "icon": "shopify:\/\/shop_images\/icon-brush.png"
+          }
+        },
+        "8e3e8ad1-ae50-4f2d-928a-4a769c600c95": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 2 | Exfoliate",
+            "copy": "While in the shower grab your favorite Bushbalm scrub and exfoliate away dead skin cells and rejuvenate skin.",
+            "icon": "shopify:\/\/shop_images\/icon-scrub.png"
+          }
+        },
+        "86ab3f9f-1270-41f2-8165-877088f4ce20": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 3 | Soothe",
+            "copy": "Use your daily soothing oil to soften the skin and hair. Our top selling oils help reduce the appearance of ingrown hairs, dark spots, razor burn and more.",
+            "icon": "shopify:\/\/shop_images\/icon-oil.png"
+          }
+        },
+        "be7cda66-4b81-462e-a614-9e90b76b5d42": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 4 | Moisturize",
+            "copy": "As a final step you should lock in all the moisture you can. Grab our firming body cream and apply it where you need an extra lift.",
+            "icon": "shopify:\/\/shop_images\/icon-cream.png"
+          }
+        }
+      },
+      "block_order": [
+        "429eabfc-770b-4c01-b75d-f84a37b34f79",
+        "8e3e8ad1-ae50-4f2d-928a-4a769c600c95",
+        "86ab3f9f-1270-41f2-8165-877088f4ce20",
+        "be7cda66-4b81-462e-a614-9e90b76b5d42"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "routine-guide",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/rg-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/rg-d.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Routine Guide",
+        "copy": "The skincare everywhere routine is designed to leave you with smooth skin, head to toe and front to back.",
+        "subheading": "Recommended Routine Steps",
+        "cta_link": "shopify:\/\/pages\/routines",
+        "cta_text": "Shop Our Routines",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641499882f58975c7": {
+      "type": "skin-dictionary",
+      "blocks": {
+        "d4e00827-8337-4707-996e-c6bd987371a2": {
+          "type": "faq",
+          "settings": {
+            "question": "Ingrown Hair & Razor Burn",
+            "answer": "An ingrown hair occurs when a shaved or tweezed hair grows back into the skin. It can cause inflammation, pain and tiny bumps in the area where the hair was removed. Ingrown hair is a common condition that results from hair removal.",
+            "cta_link": "shopify:\/\/collections\/ingrown-hair-routine",
+            "cta_text": "View the Routine"
+          }
+        },
+        "9a62e037-8af7-4a3d-a9f0-03022a8819f6": {
+          "type": "faq",
+          "settings": {
+            "question": "Dark Spots & Hyperpigmentation",
+            "answer": "Dark spots refer to patches of skin that are darker in color than the skin surrounding it. The contrast of light and dark patches creates the appearance of an uneven skin tone. This is a very common skin concern.",
+            "cta_link": "shopify:\/\/collections\/dark-spot-routine",
+            "cta_text": "View the Routine"
+          }
+        },
+        "6e02b7b3-0ea0-4299-9515-52a5530fccf7": {
+          "type": "faq",
+          "settings": {
+            "question": "Keratosis Pilaris",
+            "answer": "Keratosis Pilaris, also known as KP or \"chicken skin\", is a very common skin condition that creates small, hard bumps on the surface of the skin. These bumps form as a result of an excess buildup of keratin; keratin is a protein that is part of the skin and hair. Currently, it is unknown what causes this buildup in the first place. Nonetheless, the extra keratin clogs the pores and causes a bumpy rash to appear. KP is commonly found on the upper arms, thighs, chest, elbows, and the tush.",
+            "cta_link": "shopify:\/\/collections\/keratosis-pilaris-routine",
+            "cta_text": "View the Routine"
+          }
+        },
+        "1dc91679-c233-4a49-9301-bc520af9ab24": {
+          "type": "faq",
+          "settings": {
+            "question": "Razor Burn & Bumps",
+            "answer": "Razor burn is the result of an unpleasant interaction between the razor blade, body hair, and skin. The symptoms of razor burn include; redness, irritation, discomfort, and stinging.",
+            "cta_link": "shopify:\/\/collections\/razor-burn-routine",
+            "cta_text": "View the Routine"
+          }
+        }
+      },
+      "block_order": [
+        "d4e00827-8337-4707-996e-c6bd987371a2",
+        "9a62e037-8af7-4a3d-a9f0-03022a8819f6",
+        "6e02b7b3-0ea0-4299-9515-52a5530fccf7",
+        "1dc91679-c233-4a49-9301-bc520af9ab24"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "skin-dictionary",
+        "alignment": "left",
+        "heading": "Skin Dictionary",
+        "copy": "Common skin concerns the beauty industry has often ignored. Find the definition and recommended routine.",
+        "heading_faqs": "Skin Concerns Defined",
+        "cta_link": "shopify:\/\/pages\/routines",
+        "cta_text": "Shop By Skin Concern",
+        "image_mobile": "shopify:\/\/shop_images\/sd-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/sd-d.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "b2224e36-508c-4575-af68-073206b9fa33": {
+      "type": "product-testimonial",
+      "disabled": true,
+      "settings": {
+        "testimonial_heading": "Why Our Customers Love Bushbalm",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "a96a48ea-d7c7-4404-92ca-94bf26169abc": {
+      "type": "product-testimonial",
+      "settings": {
+        "testimonial_heading": "Why Our Customers Love Bushbalm",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "caf3f921-ee98-45a8-94cf-21018a504701": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#d8ebe6",
+        "image_mobile": "shopify:\/\/shop_images\/Dr_Arumala_80c1f363-839a-4033-a8b1-0f0f9c5f3964.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Dr_Arumala_80c1f363-839a-4033-a8b1-0f0f9c5f3964.jpg",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "Gyno approved, esthetician loved ",
+        "copy": "<p>Re-imagining bikini line skincare —  naturally<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "04d8a733-ed6c-4458-8885-d49989463655": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "",
+        "copy": "",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641845067211255f4": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "Bushbalm",
+        "headline": "Skin Confidence, Everywhere.",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "b37810cf-58ab-41ac-b20a-dff9a757ed95": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": "<center> \n<h2> Skincare, Everywhere.<\/h2>\n<p> Read more about KGMTL's love Bushbalm on her blog GirlsLivingWell <\/p> \n<center>\n<br><a href=\"https:\/\/girlslivingwell.com\/\">Learn More <\/a>\n<\/center>\n<\/center>"
+      }
+    }
+  },
+  "order": [
+    "9fde19a2-d5bf-4717-af9f-64c2d4c1d2eb",
+    "06f270c1-33cc-4087-803e-353db3067d7a",
+    "e1a8a36e-a924-4067-8020-e4411190f7a4",
+    "main",
+    "164140706257e7febd",
+    "1e53aa98-d0c1-42b4-87e5-89e874d0c4d9",
+    "c61ec6bd-ac1a-42ba-840a-c1e6f218c439",
+    "0196938e-cfcb-4744-88f0-2e167ef88bbe",
+    "88714f28-dc76-4de9-a2a2-cde16a2a5730",
+    "5042ef2a-9aeb-4f20-b1bc-171aa7af8a78",
+    "8a5e4300-c69b-4e3e-b8f2-f5d174c548c8",
+    "1641416815c9c72777",
+    "2f82d57e-1d8f-43d5-a49f-878db366bfec",
+    "479d8191-775a-4efb-bcf6-e19c781e2cee",
+    "6acbb354-41a2-488e-9fbb-35aa867a0939",
+    "d6b9c194-6ff3-4df7-8e5f-0eac4431c221",
+    "1641416862ca4ca90a",
+    "1641499882f58975c7",
+    "b2224e36-508c-4575-af68-073206b9fa33",
+    "a96a48ea-d7c7-4404-92ca-94bf26169abc",
+    "caf3f921-ee98-45a8-94cf-21018a504701",
+    "04d8a733-ed6c-4458-8885-d49989463655",
+    "1641845067211255f4",
+    "b37810cf-58ab-41ac-b20a-dff9a757ed95"
+  ]
+}

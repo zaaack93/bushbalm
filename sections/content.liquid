@@ -1,0 +1,413 @@
+<script src="{{ 'content.js' | asset_url }}" defer="defer"></script>
+{{ 'content.css' | asset_url | stylesheet_tag }}
+
+<div class="content content--{{ section.id }}
+  {% if section.settings.increase_spacing %} content--increase-spacing{% endif %}"
+  data-scroll-to-uid="{{ section.settings.uid }}">
+  <div class="content__wrapper content__wrapper--{{ section.settings.alignment }}">
+    <div class="content__container">
+      {% if section.settings.heading != blank %}
+        <h2>{{ section.settings.heading }}</h2>
+      {% endif %}
+      {% if section.settings.copy != blank %}
+        <p>{{ section.settings.copy }}</p>
+      {% endif %}
+      {% if section.settings.subheading != blank %}
+        <h3>{{ section.settings.subheading }}</h3>
+      {% endif %}
+      {% if section.blocks.size > 0 %}
+        <div class="content__blocks">
+          {% for block in section.blocks %}
+            <div class="content__block">
+              <div class="content__block-content">
+                {% if block.settings.title != blank %}
+                  <p>{{ block.settings.title }}</p>
+                {% endif %}
+                {% if block.settings.copy != blank %}
+                  <p>{{ block.settings.copy }}</p>
+                {% endif %}
+              </div>
+              {% if block.settings.icon != blank %}
+                <div class="content__block-image">
+                  {% render 'responsive-image' with
+                    image: block.settings.icon,
+                    max_width: 128,
+                    max_height: 128,
+                    wrapper_class: 'content__block-icon'
+                  %}
+                </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if section.settings.cta_text != blank and section.settings.cta_link != blank %}
+        <div class="content__cta">
+          <a href="{{ section.settings.cta_link }}" class="btn btn--chocolate">
+            {{- section.settings.cta_text -}}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+    <div class="content__image content__image--{{ section.settings.image_size }}">
+      {% if section.settings.image_mobile != blank %}
+        {% render 'responsive-image' with
+          image: section.settings.image_mobile,
+          max_width: 654,
+          max_height: 482,
+          wrapper_class: 'content__image-wrapper large--hide'
+        %}
+      {% endif %}
+      {% if section.settings.image_desktop != blank %}
+        {% if section.settings.image_size == 'small' %}
+          {% render 'responsive-image' with
+            image: section.settings.image_desktop,
+            max_width: 1294,
+            max_height: 952,
+            wrapper_class: 'content__image-wrapper medium-down--hide'
+          %}
+        {% else %}
+          {% render 'responsive-image' with
+            image: section.settings.image_desktop,
+            max_width: 1294,
+            max_height: 1756,
+            wrapper_class: 'content__image-wrapper medium-down--hide'
+          %}
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% style %}
+  .content--{{ section.id }} {
+    --content-bg-color: {{ section.settings.bg_color }};
+    --content-img-offset: {{ section.settings.image_offset }}px;
+    --content-cta-alignment: {{ section.settings.cta_alignment }};
+  }
+{% endstyle %}
+
+{% render 'custom-spacing' with
+  section_name: 'content'
+%}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "header",
+        "content": "Unique Identifier",
+        "info": "For Content Nav Section"
+      },
+      {
+        "type": "text",
+        "id": "uid",
+        "label": "Unique ID",
+        "info": "No spaces (Example: product-guide)"
+      },
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "select",
+        "id": "alignment",
+        "label": "Alignment | Desktop",
+        "options": [
+          {
+            "value": "left",
+            "label": "Content Left, Image Right"
+          },
+          {
+            "value": "right",
+            "label": "Content Right, Image Left"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "checkbox",
+        "id": "increase_spacing",
+        "label": "Increase Spacing",
+        "default": false,
+        "info": "Increases spacing between elements and adds top/bottom padding"
+      },
+      {
+        "type": "header",
+        "content": "Imagery"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image | Mobile",
+        "info": "Dimensions: 654 x 482"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image | Desktop",
+        "info": "Dimensions: Defined in Image Size below"
+      },
+      {
+        "type": "select",
+        "id": "image_size",
+        "label": "Image Size | Desktop",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small - 1294 x 952"
+          },
+          {
+            "value": "large",
+            "label": "Large - 1294 x 1756"
+          }
+        ],
+        "default": "small"
+      },
+      {
+        "type": "range",
+        "id": "image_offset",
+        "label": "Image Offset | Desktop",
+        "min": -180,
+        "max": 180,
+        "step": 45,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "info": "Recommended character limit: 25"
+      },
+      {
+        "type": "select",
+        "id": "cta_alignment",
+        "label": "CTA Alignment | Desktop",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "content_block",
+        "name": "Content Block",
+        "limit": 4,
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "textarea",
+            "id": "copy",
+            "label": "Copy"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Icon",
+            "info": "Dimensions: 128 x 128"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Content Section"
+      }
+    ]
+  }
+{% endschema %}

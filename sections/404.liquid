@@ -1,0 +1,88 @@
+<script src="{{ '404.js' | asset_url }}" defer="defer"></script>
+{{ '404.css' | asset_url | stylesheet_tag }}
+
+<div class="page-not-found" role="region" aria-label="404 Error">
+  <div class="page-not-found__wrapper wrapper">
+    <div class="page-not-found__content">
+      <h1>{{ section.settings.preheading | default: "Page Not Found" }}</h1>
+      {% if section.settings.heading != blank %}
+        <h2>{{ section.settings.heading }}</h2>
+      {% endif %}
+      {% if section.settings.copy != blank %}
+        <p>{{ section.settings.copy }}</p>
+      {% endif %}
+      <a class="btn btn--chocolate" href="{{ section.settings.cta_link }}" title="{{ section.settings.cta_text }}">
+        {{- section.settings.cta_text -}}
+      </a>
+    </div>
+    <div class="page-not-found__image">
+      {% render 'responsive-image' with
+        image: section.settings.image_mobile,
+        max_width: 750,
+        max_height: 1437,
+        wrapper_class: 'page-not-found__image-mobile medium-up--hide'
+      %}
+      {% render 'responsive-image' with
+        image: section.settings.image_desktop,
+        max_width: 3200,
+        max_height: 1498,
+        wrapper_class: 'page-not-found__image-desktop small--hide'
+      %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "404",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image | Mobile",
+        "info": "Dimensions: 654 x 382"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image | Desktop",
+        "info": "Dimensions: 1296 x 954"
+      },
+      {
+        "type": "text",
+        "id": "preheading",
+        "label": "Preheading",
+        "default": "Page Not Found"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Oops!"
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy",
+        "default": "We’re not being cheeky, there really is nothing else back here."
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "default": "Back To Shop",
+        "info": "Recommended character limit: 20"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link",
+        "default": "/"
+      }
+    ]
+  }
+{% endschema %}
+
+{% if shop.permanent_domain contains 'bushbalm' %}
+  <script id="esc-redirects-404-script" src="https://redirects.eastsideco.io/js/app.js"></script><script id="esc-redirects-404-script" src="https://easyredirects.esc-apps-cdn.com/app.js"></script>
+{% endif %}

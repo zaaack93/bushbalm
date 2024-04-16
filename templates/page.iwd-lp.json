@@ -1,0 +1,333 @@
+{
+  "sections": {
+    "home_hero_options_bYBQmw": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Skincare Everywhere, For Everyone.",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "International Women's Day",
+        "copy": "<p>At Bushbalm, we are committed to fostering an environment that inspires, empowers, and uplifts women.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/careers-hero-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/careers-hero-d.png",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "52px"
+      }
+    },
+    "about-intro": {
+      "type": "about-intro",
+      "blocks": {
+        "e5a5dda6-fc90-40ef-ab75-93918ab0089b": {
+          "type": "word",
+          "settings": {
+            "word": "stretch marks"
+          }
+        },
+        "6fa7ac5c-8c28-4ae5-a595-2763ada27d04": {
+          "type": "word",
+          "settings": {
+            "word": "dark spots"
+          }
+        },
+        "defa49f4-0f79-448c-94d8-06a9b00bf375": {
+          "type": "word",
+          "settings": {
+            "word": "ingrown hairs"
+          }
+        },
+        "a93ec1ad-bedc-4c15-8a9a-5b3819be2b2f": {
+          "type": "word",
+          "settings": {
+            "word": "razor burn"
+          }
+        },
+        "8b955326-bbc6-4051-9779-3bd31f8fcc63": {
+          "type": "word",
+          "settings": {
+            "word": "keratosis pilaris"
+          }
+        }
+      },
+      "block_order": [
+        "e5a5dda6-fc90-40ef-ab75-93918ab0089b",
+        "6fa7ac5c-8c28-4ae5-a595-2763ada27d04",
+        "defa49f4-0f79-448c-94d8-06a9b00bf375",
+        "a93ec1ad-bedc-4c15-8a9a-5b3819be2b2f",
+        "8b955326-bbc6-4051-9779-3bd31f8fcc63"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare.jpg",
+        "intro": "About us",
+        "headline": "Skincare,\nEverywhere",
+        "content": "No matter how niche of a skin concern, we're working on a solution.",
+        "static_word": "Think",
+        "speed_mobile": 700,
+        "delay_mobile": 1000,
+        "speed_desktop": 1000,
+        "delay_desktop": 2000
+      }
+    },
+    "about-story": {
+      "type": "about-story",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bushbalm_Founders_Who_Are_They.jpg",
+        "background_color": "#fbf0e4",
+        "headline_1": "Who We Are",
+        "content_1": "<p>Bushbalm is a skincare brand that solves common skin challenges that aren't often talked about, and we're proud of it!<\/p><p><br\/><\/p><p>We have an evolving natural skincare product line - specifically, but not limited to, targeting areas that are commonly ignored. Think bikini line, underarms, legs, tush, or anywhere else on the body that deserves extra care.<\/p><p><br\/><\/p><p>Whether you trim, groom, remove – or let your body hair grow our products were created to take care of your most sensitive areas while making sure you feel confident in your skin down there and everywhere with results that you will see and feel.<\/p><p><br\/><\/p><p>Face quality skincare. Targeted results. Everywhere.<\/p>",
+        "headline_2": "Our Story",
+        "content_2": "<p>The idea behind Bushbalm was created by accident like many great ideas are. While on their honeymoon one of the founding couples was getting ready for a little cross-pollination when the husband put an oil down there to \"freshen up\", only to realize the skin benefits that could come of this unintentional discovery.<br\/><\/p><p>Fast forward a number of years and countless hours of research and Bushbalm is now taking face quality skincare to areas and skin concerns that have seemingly been ignored by the beauty industry. Think the likes of ingrown hairs, razor burn, dark spots, and more.<\/p><p><br\/><\/p><p>Since founding, Bushbalm has become The Skincare, Everywhere Company focused on providing natural products for your most frustrating skin concerns, wherever they are!<\/p>"
+      }
+    },
+    "about-stats": {
+      "type": "about-stats",
+      "blocks": {
+        "258e72b7-232f-474e-a935-9dcc50cc0875": {
+          "type": "stat",
+          "settings": {
+            "intro": "Did you know",
+            "number": "94%",
+            "content": "of our customers have their confidence impacted by ingrown hairs or razor burn.",
+            "supporting_title": "At Bushbalm, We're Here to Reverse That Trend!",
+            "supporting_content": "We're building the next generation a safe space to learn, grow and become their best naturally brave selves.",
+            "background_color": "#fde7e0"
+          }
+        },
+        "00747eec-602a-4d48-b856-8d32f59bed7a": {
+          "type": "content",
+          "settings": {
+            "title": "Inspiring Inclusion",
+            "content": "<p>Join us in celebrating #InternationalWomensDay with our commitment to inspiring inclusion! <\/p><p>This year’s IWD theme is ‘inspiring inclusion’. Inclusion is inherently at the heart of Bushbalm and we strive to always inspire, empower and uplift women.<\/p>",
+            "logo_max_width": 50,
+            "background_color": "#c2d6ed"
+          }
+        }
+      },
+      "block_order": [
+        "258e72b7-232f-474e-a935-9dcc50cc0875",
+        "00747eec-602a-4d48-b856-8d32f59bed7a"
+      ],
+      "settings": {
+      }
+    },
+    "featured_product_DynyNP": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "daily-essentials-bundle",
+        "overwrite_heading": "<p>The Daily Essentials<\/p>",
+        "subheading_enable": true,
+        "subheading": "<p>A portion of proceeds from the Daily Essentials kit will be donated to <strong>Catalyst<\/strong>, a nonprofit organization that helps build workplaces that work for women.<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "image_0": "shopify:\/\/shop_images\/DailyEssentialsBundle.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "home_hero_options_HY6Tzx": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_boxed",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Esthetician Community",
+        "heading_tag": "h2",
+        "title_sizing": "title_medium",
+        "subtitle": "",
+        "copy": "<p>We didn’t have to look far to find a group of confident women that represent International Women’s Day. We support small female founded businesses each month by giving them a platform with our professional program.<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/IWD_Esties.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Women_s_Day.jpg",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "image_carousel_3K8BJ9": {
+      "type": "image-carousel",
+      "blocks": {
+        "image_block_MjFydw": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16-bushbalm-influencer_680x_f43fdf12-2ea8-4e2d-97c1-2fee27de889f.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "image_block_cPETxM": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Bushbalm-Influencer_680x_3cd7d517-1258-4030-bb34-459552cdae5a.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "image_block_RxdtYF": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-bushbalm-influencer_70d471b0-d889-4d64-aafb-1902aa1dcbfb.png",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "image_block_yTBEDf": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-bushbalm-influencer_680x_da2e1887-6f90-4a2a-b2c1-c49a009e078b.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "image_block_U8XMh9": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-Bushbalm-influencer_680x_5c0e68aa-2b32-4b72-ab8d-d299197ed184.webp",
+            "link": "",
+            "link_title": ""
+          }
+        },
+        "image_block_qQQAxE": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7-bushbalm-influencer_3bb5b63b-2a0b-455c-9d8b-5ce0e5910c13.png",
+            "link": "",
+            "link_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_block_MjFydw",
+        "image_block_cPETxM",
+        "image_block_RxdtYF",
+        "image_block_yTBEDf",
+        "image_block_U8XMh9",
+        "image_block_qQQAxE"
+      ],
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "about-principles": {
+      "type": "about-principles",
+      "blocks": {
+        "8844e852-af8a-41cf-b690-355a6e0e0ee3": {
+          "type": "principle",
+          "settings": {
+            "text": "Solve Skin Concerns\nEverywhere, for Everyone"
+          }
+        },
+        "22de24ff-80f5-4614-98aa-46c5b997dddf": {
+          "type": "principle",
+          "settings": {
+            "text": "Break taboos surrounding discussions on body hair + hair removal"
+          }
+        },
+        "f6f112f3-b8cf-4b92-9b1e-aa57de793418": {
+          "type": "principle",
+          "settings": {
+            "text": "Formulate For All \nSkin Types"
+          }
+        },
+        "0758ac42-8525-4d7e-909b-c8ce97e7a4b8": {
+          "type": "principle",
+          "settings": {
+            "text": "Do More Of #1."
+          }
+        }
+      },
+      "block_order": [
+        "8844e852-af8a-41cf-b690-355a6e0e0ee3",
+        "22de24ff-80f5-4614-98aa-46c5b997dddf",
+        "f6f112f3-b8cf-4b92-9b1e-aa57de793418",
+        "0758ac42-8525-4d7e-909b-c8ce97e7a4b8"
+      ],
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/Bushbalm-Skincare-Routine-Photo.jpg",
+        "image_2": "shopify:\/\/shop_images\/Who-We-Are-At-Bushbalm-Skincare-About-Us-Page.jpg",
+        "alignment": "top",
+        "headline": "What We Value",
+        "subheading": "",
+        "content": "At Bushbalm we care deeply about you and your skin. We do this by providing high quality ingredients, thoughtful routines and results you can see and feel.",
+        "intro": "Our Principles",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641492588c7c9e95d": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f5f5f5",
+        "padding": true,
+        "intro": "What’s next",
+        "headline": "Ready to get started on your new skincare journey?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "SHOP our products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "Take our quiz",
+        "cta_2_link": "shopify:\/\/pages\/quiz",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "0"
+      }
+    }
+  },
+  "order": [
+    "home_hero_options_bYBQmw",
+    "about-intro",
+    "about-story",
+    "about-stats",
+    "featured_product_DynyNP",
+    "home_hero_options_HY6Tzx",
+    "image_carousel_3K8BJ9",
+    "about-principles",
+    "1641492588c7c9e95d"
+  ]
+}

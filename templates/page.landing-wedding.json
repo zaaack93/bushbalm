@@ -1,0 +1,693 @@
+{
+  "sections": {
+    "9fde19a2-d5bf-4717-af9f-64c2d4c1d2eb": {
+      "type": "home-hero-options",
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_full",
+        "title": "Get Wedding Ready",
+        "heading_tag": "h2",
+        "title_sizing": "title_large",
+        "subtitle": "",
+        "copy": "<p>Whether you're the bridge, MOH or a guest, here are 3 ways to feel confident in your skin this wedding season.<br\/><\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Wedding Shop",
+        "cta_link": "shopify:\/\/collections",
+        "position_desktop": "right",
+        "image_desktop": "shopify:\/\/shop_images\/Festival_Background.png",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 320,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.84",
+        "review_count": 4305,
+        "review_animation": false,
+        "review_copy": "Rating [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "06f270c1-33cc-4087-803e-353db3067d7a": {
+      "type": "home-hero-image",
+      "settings": {
+        "linkable_image_link_mobile": "https:\/\/bushbalm.com\/products\/vajacial-hydrogel-mask",
+        "linkable_image_link_desktop": "https:\/\/bushbalm.com\/products\/vajacial-hydrogel-mask",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "e1a8a36e-a924-4067-8020-e4411190f7a4": {
+      "type": "featured-product",
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "dark-spot-bikini-line-kit",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p><\/p><p>Everything you need to get your skin smooth and glowing for wedding szn.<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": true,
+        "image_1": "shopify:\/\/shop_images\/BermudaOilTextureShot_f272c22f-f78d-4a25-ac93-59fc8caef990.jpg",
+        "image_2": "shopify:\/\/shop_images\/Scrub_on_Bikini_Line_Pink.jpg",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "main": {
+      "type": "page-content",
+      "settings": {
+      }
+    },
+    "164140706257e7febd": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#d8ebe6",
+        "image_mobile": "shopify:\/\/shop_images\/sh-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/sh-d.png",
+        "image_offset": 80,
+        "preheading": "★★★★★ 4.84 (4553 reviews)",
+        "heading": "Meet the secret to a flawless bikini line",
+        "copy": "",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1e53aa98-d0c1-42b4-87e5-89e874d0c4d9": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "Festival szn prep",
+        "html": "<center><h3> How to Rock Festival Season\n<\/h3><\/center><br><center><p> Enjoy your music festival experience to the fullest this summer by following these skincare tips.<\/p><\/center>"
+      }
+    },
+    "0196938e-cfcb-4744-88f0-2e167ef88bbe": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Nordic_Dry_Brush_Lifestyle_2.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Nordic_Dry_Brush_Lifestyle_2.jpg",
+        "heading": "1. Dry Brush",
+        "copy": "The dry brushing process is most known for removing dead skin cells, improving skin texture, and reducing cellulite's appearance. Your skin will look visibly re-energize.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "5042ef2a-9aeb-4f20-b1bc-171aa7af8a78": {
+      "type": "featured-products",
+      "blocks": {
+        "1fb9397b-d04c-4a16-923f-bdb23123b7b4": {
+          "type": "featured_product",
+          "settings": {
+            "product": "sensitive-skin-essentials",
+            "title": "",
+            "copy": "soothe+cleanse",
+            "rating": 5,
+            "cta_text": "",
+            "cta_link": "",
+            "badge_text": ""
+          }
+        },
+        "3918dc51-6c75-4783-90ca-1ce5c9abe5f8": {
+          "type": "featured_product",
+          "settings": {
+            "product": "",
+            "title": "",
+            "copy": "",
+            "rating": 5,
+            "cta_text": "",
+            "cta_link": "",
+            "badge_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1fb9397b-d04c-4a16-923f-bdb23123b7b4",
+        "3918dc51-6c75-4783-90ca-1ce5c9abe5f8"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "88714f28-dc76-4de9-a2a2-cde16a2a5730": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "b1c10e26-ec27-4bfe-8fae-c7c125c27b18": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bikini-dry-brush",
+            "enable_sub_text": true
+          }
+        },
+        "80cdeddf-5522-4164-b362-90d39eb48707": {
+          "type": "featured_product",
+          "disabled": true,
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "enable_sub_text": true
+          }
+        },
+        "45049a49-9b43-417d-b55a-926160ae229c": {
+          "type": "featured_product",
+          "disabled": true,
+          "settings": {
+            "product": "2-step-hyperpigmentation-products",
+            "enable_sub_text": true
+          }
+        },
+        "acc3bb36-781c-4ff0-a58a-11117b3e1d5a": {
+          "type": "featured_product",
+          "disabled": true,
+          "settings": {
+            "product": "vajacial-3-step-at-home-kit",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "b1c10e26-ec27-4bfe-8fae-c7c125c27b18",
+        "80cdeddf-5522-4164-b362-90d39eb48707",
+        "45049a49-9b43-417d-b55a-926160ae229c",
+        "acc3bb36-781c-4ff0-a58a-11117b3e1d5a"
+      ],
+      "settings": {
+        "heading": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "8a5e4300-c69b-4e3e-b8f2-f5d174c548c8": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Bermuda_Scrub.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bermuda_Scrub.jpg",
+        "heading": "2. Exfoliate",
+        "copy": "Within the shower, take a small handful of scrub and rub it in a circular motion on all desired areas including the underarms and bikini line. Rinse the body scrub thoroughly after.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "b8736700-11e9-47d0-8da0-3a94c9724b0d": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "e6d2e5bb-399a-49dd-9bb9-ce36aec0b9cd": {
+          "type": "featured_product",
+          "settings": {
+            "product": "bermuda-dark-spot-exfoliant",
+            "enable_sub_text": true
+          }
+        },
+        "103448e4-2a28-4f16-80ee-e3248b2110d6": {
+          "type": "featured_product",
+          "settings": {
+            "product": "brightening-body-scrub",
+            "enable_sub_text": true
+          }
+        },
+        "4fb0231b-6387-4af7-a393-7b9fa01624be": {
+          "type": "featured_product",
+          "disabled": true,
+          "settings": {
+            "product": "2-step-hyperpigmentation-products",
+            "enable_sub_text": true
+          }
+        },
+        "4b06fbe9-eb1a-4761-87d9-c5023d05b711": {
+          "type": "featured_product",
+          "disabled": true,
+          "settings": {
+            "product": "vajacial-3-step-at-home-kit",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "e6d2e5bb-399a-49dd-9bb9-ce36aec0b9cd",
+        "103448e4-2a28-4f16-80ee-e3248b2110d6",
+        "4fb0231b-6387-4af7-a393-7b9fa01624be",
+        "4b06fbe9-eb1a-4761-87d9-c5023d05b711"
+      ],
+      "settings": {
+        "heading": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "c61ec6bd-ac1a-42ba-840a-c1e6f218c439": {
+      "type": "content-simple",
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "image_offset": false,
+        "image_mobile": "shopify:\/\/shop_images\/Oiling_Armpit.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Oiling_Armpit.jpg",
+        "heading": "3. Brighten Skin",
+        "copy": "Add a few drops of Bermuda Dark Spot Oil onto clean skin and massage gently until it begins to absorb. For best results, apply the oils within 2 minutes of showering or bathing.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "a59aba49-bfaf-4022-bef6-647c956548d2": {
+      "type": "hc-featured-products",
+      "blocks": {
+        "20f88424-4259-4505-9ce1-cb94c5fb88f6": {
+          "type": "featured_product",
+          "settings": {
+            "product": "3-step-routine-pina-colada-dark-spots-minimizer-kit",
+            "enable_sub_text": true
+          }
+        },
+        "6748c207-70d3-481f-8dad-1a61d677e8ca": {
+          "type": "featured_product",
+          "settings": {
+            "product": "2-step-routine-hyperpigmentation-dark-spots",
+            "enable_sub_text": true
+          }
+        },
+        "235e59f2-1e81-485f-968f-cc6c0ae45068": {
+          "type": "featured_product",
+          "settings": {
+            "product": "the-brightening-bundle",
+            "enable_sub_text": true
+          }
+        }
+      },
+      "block_order": [
+        "20f88424-4259-4505-9ce1-cb94c5fb88f6",
+        "6748c207-70d3-481f-8dad-1a61d677e8ca",
+        "235e59f2-1e81-485f-968f-cc6c0ae45068"
+      ],
+      "settings": {
+        "heading": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "2c4ec1d9-74ed-46b8-b761-7ab79ca9786b": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "festival-survival-kit",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p><strong>New<\/strong><\/p><p>This power-packed kit  includes our newest product launch + three best-selling oils in a convenient travel size  to keep your bikini line looking bright and bump free.<\/p><p><\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "80px"
+      }
+    },
+    "b6662c11-ea5f-4a07-b49e-92944db7787c": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "VIP EARLY ACCESS",
+        "headline": "Get on our product launch list",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Get on the list",
+        "cta_link": "https:\/\/bushbalm.ca\/pages\/new-coming-soon",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "104px"
+      }
+    },
+    "1641416815c9c72777": {
+      "type": "content",
+      "blocks": {
+        "f71d570f-0946-43d2-8cf9-2e0d1941e0f8": {
+          "type": "content_block",
+          "settings": {
+            "title": "1) New & Innovative Bikini Line Skincare",
+            "copy": "We're taking professional grade skincare and bringing it your most delicate parts."
+          }
+        },
+        "db458da7-2665-4a22-a85d-2ae745abc276": {
+          "type": "content_block",
+          "settings": {
+            "title": "2) Hyaluronic Acid + Aloe Vera",
+            "copy": "Advanced ingredients for intense hydration on your bikini line."
+          }
+        },
+        "59bcfc06-71ca-4b7e-b889-a1b651465b1d": {
+          "type": "content_block",
+          "settings": {
+            "title": "3) Loved By Your Local Waxing Salon",
+            "copy": "Formulated with estheticians, and approved by gynecologists."
+          }
+        }
+      },
+      "block_order": [
+        "f71d570f-0946-43d2-8cf9-2e0d1941e0f8",
+        "db458da7-2665-4a22-a85d-2ae745abc276",
+        "59bcfc06-71ca-4b7e-b889-a1b651465b1d"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "product-guide",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Vajacial_Mask.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Vajacial_Mask.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "3 Reasons You'll Swear By Vajacials",
+        "copy": "",
+        "subheading": "",
+        "cta_link": "shopify:\/\/products\/vajacial-hydrogel-mask-set",
+        "cta_text": "Get Yours Today",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "2f82d57e-1d8f-43d5-a49f-878db366bfec": {
+      "type": "about-principles",
+      "blocks": {
+        "064df9d6-1bb3-450b-8fb8-9fff35f47bce": {
+          "type": "principle",
+          "settings": {
+            "text": "The Leader In Bikini Line Skincare"
+          }
+        },
+        "e53ce9ae-d77d-4426-b381-ab41d6145655": {
+          "type": "principle",
+          "settings": {
+            "text": "Gyno & Derm Approved Product Line"
+          }
+        },
+        "89fc9dc3-b9b7-457c-9691-1ebcf500f81a": {
+          "type": "principle",
+          "settings": {
+            "text": "Proven Before & After Results"
+          }
+        },
+        "5a75177a-c3b2-492e-b38c-3ff1a4d8f546": {
+          "type": "principle",
+          "settings": {
+            "text": "Trusted by Thousands of Waxing Salons"
+          }
+        }
+      },
+      "block_order": [
+        "064df9d6-1bb3-450b-8fb8-9fff35f47bce",
+        "e53ce9ae-d77d-4426-b381-ab41d6145655",
+        "89fc9dc3-b9b7-457c-9691-1ebcf500f81a",
+        "5a75177a-c3b2-492e-b38c-3ff1a4d8f546"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Vajacial_Mask.jpg",
+        "alignment": "bottom",
+        "headline": "3 reasons you'll love Bushbalm",
+        "subheading": "",
+        "content": "",
+        "intro": "",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641416862ca4ca90a": {
+      "type": "content",
+      "blocks": {
+        "429eabfc-770b-4c01-b75d-f84a37b34f79": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 1 | Prep",
+            "copy": "Prior to showering begin your routine by dry brushing.",
+            "icon": "shopify:\/\/shop_images\/icon-brush.png"
+          }
+        },
+        "8e3e8ad1-ae50-4f2d-928a-4a769c600c95": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 2 | Exfoliate",
+            "copy": "While in the shower grab your favorite Bushbalm scrub and exfoliate away dead skin cells, rejuvenate and prep the skin.",
+            "icon": "shopify:\/\/shop_images\/icon-scrub.png"
+          }
+        },
+        "be7cda66-4b81-462e-a614-9e90b76b5d42": {
+          "type": "content_block",
+          "disabled": true,
+          "settings": {
+            "title": "Step 3 | Vajacial",
+            "copy": "Cool and soothe any redness or irritation after your wax with our Hydrogel Vajacial, results in just 10 minutes.",
+            "icon": "shopify:\/\/shop_images\/icon-cream.png"
+          }
+        },
+        "86ab3f9f-1270-41f2-8165-877088f4ce20": {
+          "type": "content_block",
+          "settings": {
+            "title": "Step 3 | Soothe",
+            "copy": "Post Wax, use your daily soothing oil to soften the skin and hair. Our top selling oils help reduce the appearance of ingrown hairs, dark spots, razor burn and more.",
+            "icon": "shopify:\/\/shop_images\/icon-oil.png"
+          }
+        }
+      },
+      "block_order": [
+        "429eabfc-770b-4c01-b75d-f84a37b34f79",
+        "8e3e8ad1-ae50-4f2d-928a-4a769c600c95",
+        "be7cda66-4b81-462e-a614-9e90b76b5d42",
+        "86ab3f9f-1270-41f2-8165-877088f4ce20"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "routine-guide",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/rg-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/rg-d.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Routine Guide",
+        "copy": "The skincare everywhere routine is designed to leave you with smooth skin, head to toe and front to back.",
+        "subheading": "Recommended Routine Steps",
+        "cta_link": "shopify:\/\/pages\/routines",
+        "cta_text": "Shop Our Routines",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1641499882f58975c7": {
+      "type": "skin-dictionary",
+      "blocks": {
+        "d4e00827-8337-4707-996e-c6bd987371a2": {
+          "type": "faq",
+          "settings": {
+            "question": "Ingrown Hair & Razor Burn",
+            "answer": "An ingrown hair occurs when a shaved or tweezed hair grows back into the skin. It can cause inflammation, pain and tiny bumps in the area where the hair was removed. Ingrown hair is a common condition that results from hair removal.",
+            "cta_link": "shopify:\/\/collections\/ingrown-hair-routine",
+            "cta_text": "View the Routine"
+          }
+        },
+        "9a62e037-8af7-4a3d-a9f0-03022a8819f6": {
+          "type": "faq",
+          "settings": {
+            "question": "Dark Spots & Hyperpigmentation",
+            "answer": "Dark spots refer to patches of skin that are darker in color than the skin surrounding it. The contrast of light and dark patches creates the appearance of an uneven skin tone. This is a very common skin concern.",
+            "cta_link": "shopify:\/\/collections\/dark-spot-routine",
+            "cta_text": "View the Routine"
+          }
+        },
+        "6e02b7b3-0ea0-4299-9515-52a5530fccf7": {
+          "type": "faq",
+          "settings": {
+            "question": "Keratosis Pilaris",
+            "answer": "Keratosis Pilaris, also known as KP or \"chicken skin\", is a very common skin condition that creates small, hard bumps on the surface of the skin. These bumps form as a result of an excess buildup of keratin; keratin is a protein that is part of the skin and hair. Currently, it is unknown what causes this buildup in the first place. Nonetheless, the extra keratin clogs the pores and causes a bumpy rash to appear. KP is commonly found on the upper arms, thighs, chest, elbows, and the tush.",
+            "cta_link": "shopify:\/\/collections\/keratosis-pilaris-routine",
+            "cta_text": "View the Routine"
+          }
+        },
+        "1dc91679-c233-4a49-9301-bc520af9ab24": {
+          "type": "faq",
+          "settings": {
+            "question": "Razor Burn & Bumps",
+            "answer": "Razor burn is the result of an unpleasant interaction between the razor blade, body hair, and skin. The symptoms of razor burn include; redness, irritation, discomfort, and stinging.",
+            "cta_link": "shopify:\/\/collections\/razor-burn-routine",
+            "cta_text": "View the Routine"
+          }
+        }
+      },
+      "block_order": [
+        "d4e00827-8337-4707-996e-c6bd987371a2",
+        "9a62e037-8af7-4a3d-a9f0-03022a8819f6",
+        "6e02b7b3-0ea0-4299-9515-52a5530fccf7",
+        "1dc91679-c233-4a49-9301-bc520af9ab24"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "skin-dictionary",
+        "alignment": "left",
+        "heading": "Skin Dictionary",
+        "copy": "Common skin concerns the beauty industry has often ignored. Find the definition and recommended routine.",
+        "heading_faqs": "Skin Concerns Defined",
+        "cta_link": "shopify:\/\/pages\/routines",
+        "cta_text": "Shop By Skin Concern",
+        "image_mobile": "shopify:\/\/shop_images\/sd-m.png",
+        "image_desktop": "shopify:\/\/shop_images\/sd-d.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "caf3f921-ee98-45a8-94cf-21018a504701": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f5f5f5",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "Gyno approved, esthetician loved ",
+        "copy": "<p>Re-imagining bikini line skincare —  naturally<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "16px",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "04d8a733-ed6c-4458-8885-d49989463655": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_offset": 0,
+        "preheading": "",
+        "heading": "",
+        "copy": "",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "26693d4a-f145-473a-bdbc-4907c528cf96": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": true,
+        "intro": "",
+        "headline": "Skincare Confidence, Everywhere.",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Get Started",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "Read Reviews",
+        "cta_2_link": "shopify:\/\/pages\/reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "20012d6a-f71a-439b-82b2-d8deda229fdb": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "featured_product": "3-step-routine-ingrown-hair-razor-burn-prevention",
+        "overwrite_heading": "",
+        "subheading_enable": true,
+        "subheading": "<p><strong>Back in stock<\/strong><\/p><p>Our 3-step routine is formulated to leave skin hydrated and soft while reducing the appearance of ingrown hairs, razor burn, and bumps.<\/p>",
+        "price_enable": true,
+        "cta_button_enable": true,
+        "cta_button_2_enable": true,
+        "enable_negative_margin_desktop": false,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "9fde19a2-d5bf-4717-af9f-64c2d4c1d2eb",
+    "06f270c1-33cc-4087-803e-353db3067d7a",
+    "e1a8a36e-a924-4067-8020-e4411190f7a4",
+    "main",
+    "164140706257e7febd",
+    "1e53aa98-d0c1-42b4-87e5-89e874d0c4d9",
+    "0196938e-cfcb-4744-88f0-2e167ef88bbe",
+    "5042ef2a-9aeb-4f20-b1bc-171aa7af8a78",
+    "88714f28-dc76-4de9-a2a2-cde16a2a5730",
+    "8a5e4300-c69b-4e3e-b8f2-f5d174c548c8",
+    "b8736700-11e9-47d0-8da0-3a94c9724b0d",
+    "c61ec6bd-ac1a-42ba-840a-c1e6f218c439",
+    "a59aba49-bfaf-4022-bef6-647c956548d2",
+    "2c4ec1d9-74ed-46b8-b761-7ab79ca9786b",
+    "b6662c11-ea5f-4a07-b49e-92944db7787c",
+    "1641416815c9c72777",
+    "2f82d57e-1d8f-43d5-a49f-878db366bfec",
+    "1641416862ca4ca90a",
+    "1641499882f58975c7",
+    "caf3f921-ee98-45a8-94cf-21018a504701",
+    "04d8a733-ed6c-4458-8885-d49989463655",
+    "26693d4a-f145-473a-bdbc-4907c528cf96",
+    "20012d6a-f71a-439b-82b2-d8deda229fdb"
+  ]
+}

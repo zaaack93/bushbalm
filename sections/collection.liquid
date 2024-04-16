@@ -1,0 +1,102 @@
+<script src="{{ 'collection.js' | asset_url }}" defer="defer"></script>
+{{ 'collection.css' | asset_url | stylesheet_tag }}
+
+<div class="collection">
+  {% paginate collection.products by section.settings.pagination_count %}
+    <div class="collection__filtering wrapper">
+      {% render 'collection-filters' %}
+      {% render 'collection-sorting' %}
+    </div>
+
+    {% if current_tags.size > 0 %}
+      <div class="collection__selected-filters wrapper" data-collection-filters-selected>
+        {% for tag in current_tags %}
+          {% assign tag_string = tag | replace: '-', ' ' | replace: ' and ', ' & ' %}
+          {% assign title_replace = 'tag ' | append: tag %}
+          <div class="collection__selected-filter">
+            {{- tag_string | link_to_remove_tag: tag | replace: title_replace, tag_string -}}
+          </div>
+        {% endfor %}
+        <a href="/collections/{{ collection.handle }}"
+          class="collection__clear-filters"
+          title="{{ 'collections.filtering.clear_all_label' | t }}"
+          aria-label="{{ 'collections.filtering.clear_all_label' | t }}">
+          {{- 'collections.filtering.clear_all' | t -}}
+        </a>
+      </div>
+    {% endif %}
+
+    <div class="wrapper" data-collection-container>
+      <div class="collection__grid grid grid--uniform">
+        {% if collection.all_products_count >= 1 %}
+          {% for product in collection.products %}
+            <!-- HC - Start: Two columns on mobile - added small--6 class - 23 Feb '23 -->
+            <div class="collection__grid-item grid__item medium-up--4 small--6">
+              {% render 'collection-item' with product: product %}
+            </div>
+          {% endfor %}
+        {% else %}
+          <div class="grid__item">
+            <h3 class="text-center">{{ 'collections.general.no_matches' | t }}</h3>
+          </div>
+        {% endif %}
+      </div>
+
+      {% if paginate.pages > 1 %}
+        {% render 'pagination', paginate: paginate %}
+      {% endif %}
+
+      {% if collection.metafields.custom_fields["enable_seo_section"] %}
+        {% render 'seo-text' %}
+      {% endif %}
+    </div>
+  {% endpaginate %}
+</div>
+
+{% schema %}
+  {
+    "name": "Collection",
+    "blocks": [
+      {
+        "type": "tag_filter_group",
+        "name": "Tag Filter Group",
+        "settings": [
+          {
+            "type": "text",
+            "id": "toggle_text",
+            "label": "Toggle Text",
+            "info": "(appears on Desktop only)"
+          },
+          {
+            "type": "text",
+            "id": "group_title",
+            "label": "Filter Group Title | Desktop"
+          },
+          {
+            "type": "text",
+            "id": "group_title_mobile",
+            "label": "Filter Group Title | Mobile"
+          },
+          {
+            "type": "textarea",
+            "id": "tags_list",
+            "label": "Tags",
+            "info": "Comma separated list of product tags"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "header",
+        "content": "Pagination"
+      },
+      {
+        "type": "number",
+        "id": "pagination_count",
+        "label": "Products Per Page",
+        "default": 9
+      }
+    ]
+  }
+{% endschema %}

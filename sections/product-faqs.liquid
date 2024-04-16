@@ -1,0 +1,224 @@
+{{ 'product-faqs.css' | asset_url | stylesheet_tag }}
+
+{% if product.metafields.custom_fields["faqs_items"] != blank %}
+  <div class="product-faqs product-faqs--{{ section.id }}">
+    <div class="product-faqs__container">
+      {% if product.metafields.custom_fields["faqs_image"] != blank %}
+        <div class="product-faqs__image small--hide">
+          <img class="lazyload"
+            alt="{{ product.title }}"
+            src="{{ product.metafields.custom_fields["faqs_image"] }}"
+            data-src="{{ product.metafields.custom_fields["faqs_image"] }}">
+        </div>
+      {% endif %}
+
+      <div class="product-faqs__content">
+        <h3>{{ section.settings.faqs_heading }}</h3>
+        <div class="product-faqs__accordion">
+          {% for item in product.metafields.custom_fields["faqs_items"] %}
+            <div class="product__accordion" data-accordion>
+              <div class="product__accordion-trigger">
+                <button id="product-faq-{{ forloop.index }}"
+                  class="product-faq-gt"
+                  title="{{ item["question"] }}"
+                  aria-label="{{ item["question"] }}"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-{{ forloop.index }}"
+                  data-accordion-trigger>
+                  <span>{{ item["question"] }}</span>
+                  <div aria-hidden class="product-faq-gt">
+                    {%- render 'icon-plus' -%}
+                    {%- render 'icon-minus' -%}
+                  </div>
+                </button>
+              </div>
+              <div id="faq-answer-{{ forloop.index }}"
+                class="product__accordion-content"
+                aria-labelledby="product-faq-{{ forloop.index }}"
+                data-accordion-content>
+                <div class="product__accordion-item">
+                  <p class="product__accordion-copy">{{ item["answer"] }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% render 'custom-spacing' with
+    section_name: 'product-faqs'
+  %}
+{% endif %}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "header",
+        "content": "FAQs",
+        "info": "Set up with Product Metafields"
+      },
+      {
+        "type": "text",
+        "id": "faqs_heading",
+        "label": "Heading",
+        "default": "Frequently Asked Questions"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product FAQs"
+      }
+    ]
+  }
+{% endschema %}

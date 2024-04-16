@@ -1,0 +1,13 @@
+{% assign discount_percentage = section.settings.promo_banner_discount | times: 1.0 | divided_by: 100 %}
+{% assign promo_discount = product.price | times: discount_percentage %}
+{% assign discounted_promo_price = product.price | minus: promo_discount | money_without_currency | prepend: '$' %}
+
+<div class="product__promo{% unless section.settings.promo_banner_always %} hide{% endunless %}"
+  data-product-promo>
+  <p>
+    {{- section.settings.promo_banner_text | replace: '[]', discounted_promo_price -}}
+    <a href="{{ section.settings.promo_banner_klaviyo }}" target="_blank">
+      {{- section.settings.promo_banner_cta -}}
+    </a>
+  </p>
+</div>

@@ -1,0 +1,436 @@
+<script src="{{ 'wholesale-application.js' | asset_url }}" defer="defer"></script>
+{{ 'wholesale-application.css' | asset_url | stylesheet_tag }}
+
+<div class="wholesale-application wholesale-application--{{ section.id }}">
+  <div class="wholesale-application__wrapper wrapper">
+    <div class="wholesale-application__content">
+      {% render 'responsive-image' with
+        image: section.settings.image,
+        max_width: 880,
+        max_height: 496,
+        wrapper_class: 'wholesale-application__image-wrapper'
+      %}
+      <div class="wholesale-application__content-wrapper">
+        {% if section.settings.heading != blank %}
+          <h2>{{ section.settings.heading }}</h2>
+        {% endif %}
+        {% if section.settings.copy != blank %}
+          <p class="wholesale-application__copy">{{ section.settings.copy }}</p>
+        {% endif %}
+        {% if section.settings.list_heading != blank %}
+          <h3>{{ section.settings.list_heading }}</h3>
+        {% endif %}
+        {% assign list_items = section.settings.list_items | newline_to_br | split: '<br />' %}
+        {% if list_items.size > 0 %}
+          <ul>
+            {% for list_item in list_items %}
+              <li>{% render 'icon-circle-checked' %}<span>{{ list_item }}</span></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+    <div class="wholesale-application__form">
+      {% if section.settings.form_preheading != blank %}
+        <h2>{{ section.settings.form_preheading }}</h2>
+      {% endif %}
+      {% if section.settings.form_heading != blank %}
+        <h3>{{ section.settings.form_heading }}</h3>
+      {% endif %}
+      {% if section.settings.form_copy != blank %}
+        <p>{{ section.settings.form_copy }}</p>
+      {% endif %}
+      <div class="wholesale-application__form-wrapper" data-wholesale-application-form-wrapper>
+        {% form 'contact', data-validation-required: '' %}
+          {% if form.posted_successfully? %}
+            <p class="form-success">
+              {{ 'contact.form.post_success' | t }}
+            </p>
+          {% elsif form.errors %}
+            <div class="form-errors">
+              {{ form.errors | default_errors }}
+            </div>
+          {% endif %}
+
+          <label for="wholesaleApplicationFormName" class="visually-hidden">{{ 'contact.form.name' | t }}</label>
+          <div data-required-field-wrapper>
+            <input type="text"
+              name="contact[name]"
+              id="wholesaleApplicationFormName"
+              placeholder="{{ 'contact.form.name' | t }}"
+              value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+              data-required-field>
+            <span>&times;</span>
+          </div>
+
+          <label for="wholesaleApplicationFormEmail" class="visually-hidden">{{ 'contact.form.email' | t }}</label>
+          <div data-required-field-wrapper>
+            <input type="email"
+              name="contact[email]"
+              id="wholesaleApplicationFormEmail"
+              placeholder="{{ 'contact.form.email' | t }}"
+              value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+              spellcheck="false"
+              autocomplete="off"
+              autocapitalize="off"
+              data-required-field="valid email is required"
+              data-required-field-pattern="^\w+([.-/+/-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$">
+            <span>&times;</span>
+          </div>
+
+          <label for="wholesaleApplicationFormCountry" class="visually-hidden">{{ 'contact.form.country' | t }}</label>
+          <select data-address-country
+            name="contact[country]"
+            id="wholesaleApplicationFormCountry"
+            {% if form.country != blank %}data-default="{{ form.country }}"{% endif %}>
+          </select>
+
+          <div class="hide" data-address-province-wrapper>
+            <label for="wholesaleApplicationFormProvince" class="visually-hidden">{{ 'contact.form.province' | t }}</label>
+            <select data-address-province
+              name="contact[province]"
+              id="wholesaleApplicationFormProvince"
+              {% if form.province != blank %}data-default="{{ form.province }}"{% endif %}>
+            </select>
+          </div>
+
+          <label for="wholesaleApplicationFormPhone" class="visually-hidden">{{ 'contact.form.phone' | t }}</label>
+          <div data-required-field-wrapper>
+            <input type="tel"
+              name="contact[phone]"
+              id="wholesaleApplicationFormPhone"
+              placeholder="{{ 'contact.form.phone' | t }}"
+              value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+              pattern="[0-9\-]*"
+              data-required-field>
+            <span>&times;</span>
+          </div>
+
+          <label for="wholesaleApplicationFormAddress" class="visually-hidden">{{ 'contact.form.address' | t }}</label>
+          <div data-required-field-wrapper>
+            <input type="text"
+              name="contact[address]"
+              id="wholesaleApplicationFormAddress"
+              placeholder="{{ 'contact.form.address' | t }}"
+              data-required-field>
+            <span>&times;</span>
+          </div>
+
+          <label for="wholesaleApplicationFormBusinessName" class="visually-hidden">{{ 'contact.form.business_name' | t }}</label>
+          <div data-required-field-wrapper>
+            <input type="text"
+              name="contact[business_name]"
+              id="wholesaleApplicationFormBusinessName"
+              placeholder="{{ 'contact.form.business_name' | t }}"
+              data-required-field>
+            <span>&times;</span>
+          </div>
+
+          {% if section.settings.business_type_heading %}
+            <label for="wholesaleApplicationFormBusinessType" aria-label="{{ section.settings.business_type_heading }}">
+              <span>{{ section.settings.business_type_heading }}</span>
+              {% if section.settings.business_type_subheading %}
+                <span>{{ section.settings.business_type_subheading }}</span>
+              {% endif %}
+            </label>
+          {% else %}
+            <label for="wholesaleApplicationFormBusinessType" class="visually-hidden">{{ 'contact.form.business_type' | t }}</label>
+          {% endif %}
+          <select name="contact[business_type]" id="wholesaleApplicationFormBusinessType">
+            <option value="" disabled selected>{{ 'contact.form.select_placeholder' | t }}</option>
+            {% assign business_type_options = section.settings.business_type_options | newline_to_br | split: '<br />' %}
+            {% for option in business_type_options %}
+              <option value="{{ option | handleize }}">{{ option }}</option>
+            {% endfor %}
+          </select>
+
+          <label for="wholesaleApplicationFormSocials" class="visually-hidden">{{ 'contact.form.socials' | t }}</label>
+          <div data-required-field-wrapper>
+            <input type="text"
+              name="contact[socials]"
+              id="wholesaleApplicationFormSocials"
+              placeholder="{{ 'contact.form.socials' | t }}"
+              data-required-field>
+            <span>&times;</span>
+          </div>
+
+          {% if section.settings.more_info_heading %}
+            <label for="wholesaleApplicationFormMessage">{{ section.settings.more_info_heading }}</label>
+          {% else %}
+            <label for="wholesaleApplicationFormMessage" class="visually-hidden">{{ 'contact.form.message' | t }}</label>
+          {% endif %}
+          <div data-required-field-wrapper>
+            <textarea rows="5"
+              name="contact[body]"
+              id="wholesaleApplicationFormMessage"
+              data-required-field>
+              {%- if form.body -%}
+                {{ form.body }}
+              {%- endif -%}
+            </textarea>
+            <span>&times;</span>
+          </div>
+
+          {% if section.settings.about_us_placeholder != blank and section.settings.about_us_options != blank %}
+            <label for="wholesaleApplicationFormAbout" class="visually-hidden">{{ section.settings.about_us_placeholder }}</label>
+            <select name="contact[heard_about]" id="wholesaleApplicationFormAbout">
+              <option value="" disabled selected>{{ section.settings.about_us_placeholder }}</option>
+              {% assign about_us_options = section.settings.about_us_options | newline_to_br | split: '<br />' %}
+              {% for option in about_us_options %}
+                <option value="{{ option | handleize }}">{{ option }}</option>
+              {% endfor %}
+            </select>
+          {% endif %}
+
+          <button type="submit" class="btn btn--chocolate">{{ 'contact.form.submit_wholesale' | t }}</button>
+        {% endform %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'wholesale-application'
+%}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image",
+        "info": "Dimensions: 880 x 496"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy"
+      },
+      {
+        "type": "text",
+        "id": "list_heading",
+        "label": "List Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "list_items",
+        "label": "List Items",
+        "info": "One per line (separated by line breaks)"
+      },
+      {
+        "type": "header",
+        "content": "Form"
+      },
+      {
+        "type": "text",
+        "id": "form_preheading",
+        "label": "Preheading"
+      },
+      {
+        "type": "text",
+        "id": "form_heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "form_copy",
+        "label": "Copy"
+      },
+      {
+        "type": "text",
+        "id": "business_type_heading",
+        "label": "Business Type Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "business_type_subheading",
+        "label": "Business Type Subheading"
+      },
+      {
+        "type": "textarea",
+        "id": "business_type_options",
+        "label": "Business Type Options",
+        "info": "One per line (separated by line breaks)"
+      },
+      {
+        "type": "text",
+        "id": "more_info_heading",
+        "label": "More Info Heading"
+      },
+      {
+        "type": "text",
+        "id": "about_us_placeholder",
+        "label": "How Did You Hear About Us - Placeholder"
+      },
+      {
+        "type": "textarea",
+        "id": "about_us_options",
+        "label": "How Did You Hear About Us - Options",
+        "info": "One per line (separated by line breaks)"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Wholesale Application"
+      }
+    ]
+  }
+{% endschema %}

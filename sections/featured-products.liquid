@@ -1,0 +1,241 @@
+<script src="{{ 'featured-products.js' | asset_url }}" defer="defer"></script>
+{{ 'featured-products.css' | asset_url | stylesheet_tag }}
+
+<div class="featured-products featured-products--{{ section.id }} swiper-container" data-featured-products-slider>
+  <div class="featured-products__container swiper-wrapper">
+    {% for block in section.blocks %}
+      {% render 'collection-item-simple' with
+        additional_classes: 'swiper-slide',
+        product_ref: block.settings.product,
+        title: block.settings.title,
+        copy: block.settings.copy,
+        rating: block.settings.rating,
+        cta_text: block.settings.cta_text,
+        cta_link: block.settings.cta_link,
+        badge_text: block.settings.badge_text
+      %}
+    {% endfor %}
+  </div>
+  <button class="featured-products__controls featured-products__controls--prev" data-featured-products-slider-prev
+    aria-label="{{ 'general.accessibility.slider_prev' | t }}" title="{{ 'general.accessibility.slider_prev' | t }}">
+    {% render 'icon-chevron-left' %}
+  </button>
+  <button class="featured-products__controls featured-products__controls--next" data-featured-products-slider-next
+    aria-label="{{ 'general.accessibility.slider_next' | t }}" title="{{ 'general.accessibility.slider_next' | t }}">
+    {% render 'icon-chevron-right' %}
+  </button>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'featured-products'
+%}
+
+{% schema %}
+  {
+    "name": "Featured Products",
+    "blocks": [
+      {
+        "type": "featured_product",
+        "name": "Featured Product",
+        "limit": 5,
+        "settings": [
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "textarea",
+            "id": "copy",
+            "label": "Copy"
+          },
+          {
+            "type": "range",
+            "id": "rating",
+            "label": "Rating",
+            "min": 0,
+            "max": 5,
+            "step": 0.5,
+            "default": 5
+          },
+          {
+            "type": "text",
+            "id": "cta_text",
+            "label": "CTA Text"
+          },
+          {
+            "type": "url",
+            "id": "cta_link",
+            "label": "CTA Link"
+          },
+          {
+            "type": "text",
+            "id": "badge_text",
+            "label": "Badge Text",
+            "info": "Overrides Collection Item Badge setup in Global Custom Fields"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Products"
+      }
+    ]
+  }
+{% endschema %}

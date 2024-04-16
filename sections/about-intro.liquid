@@ -1,0 +1,131 @@
+<script src="{{ 'about-intro.js' | asset_url }}" defer="defer"></script>
+{{ 'about-intro.css' | asset_url | stylesheet_tag }}
+
+<div class="about-intro">
+  <div class="wrapper">
+    <div class="grid">
+      <div class="grid__item medium-up--6 large--7">
+        {% render 'responsive-image' with
+          image: section.settings.image,
+          max_width: 919,
+          max_height: 678
+        %}
+      </div>
+
+      <div class="grid__item medium-up--6 large--5">
+        <div class="about-intro__content">
+          <small>
+            {{ section.settings.intro }}
+          </small>
+
+          <h1>
+            {{ section.settings.headline | newline_to_br }}
+          </h1>
+
+          <p>
+            {{ section.settings.content }}
+          </p>
+        </div>
+
+        <div class="about-intro__words swiper-container"
+          data-about-intro-words
+          data-about-intro-words-speed-mobile="{{ section.settings.speed_mobile }}"
+          data-about-intro-words-speed-desktop="{{ section.settings.speed_desktop }}"
+          data-about-intro-words-delay-mobile="{{ section.settings.delay_mobile }}"
+          data-about-intro-words-delay-desktop="{{ section.settings.delay_desktop }}">
+
+          <span class="about-intro__static-word">
+            {{ section.settings.static_word }}
+          </span>
+
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+              <span class="about-intro__word swiper-slide" data-about-intro-word>
+                {{- block.settings.word -}}
+              </span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Intro",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image",
+        "info": "Dimensions 1838 x 1356"
+      },
+      {
+        "type": "text",
+        "id": "intro",
+        "label": "Intro"
+      },
+      {
+        "type": "textarea",
+        "id": "headline",
+        "label": "Headline"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content"
+      },
+      {
+        "type": "header",
+        "content": "Carousel"
+      },
+      {
+        "type": "text",
+        "id": "static_word",
+        "label": "Static Word"
+      },
+      {
+        "type": "number",
+        "id": "speed_mobile",
+        "label": "Speed | Mobile",
+        "default": 700,
+        "info": "in milliseconds"
+      },
+      {
+        "type": "number",
+        "id": "delay_mobile",
+        "label": "Delay | Mobile",
+        "default": 1000,
+        "info": "in milliseconds"
+      },
+      {
+        "type": "number",
+        "id": "speed_desktop",
+        "label": "Speed | Desktop",
+        "default": 1000,
+        "info": "in milliseconds"
+      },
+      {
+        "type": "number",
+        "id": "delay_desktop",
+        "label": "Delay | Desktop",
+        "default": 2000,
+        "info": "in milliseconds"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "word",
+        "name": "Word",
+        "settings": [
+          {
+            "type": "text",
+            "id": "word",
+            "label": "Word"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

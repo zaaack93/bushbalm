@@ -1,0 +1,38 @@
+<script src="{{ 'results-article.js' | asset_url }}" defer="defer"></script>
+{{ 'results-article.css' | asset_url | stylesheet_tag }}
+
+<div data-results-article>
+  <div class="results-article">
+    <div class="results-article__content">
+      <div class="results-article__content-wrapper">
+        {% if article.metafields.custom_fields["concern"] != blank or article.tags != blank %}
+          <p class="results-article__concern">{{ article.metafields.custom_fields["concern"] | default: article.tags[0] }}</p>
+        {% endif %}
+        <p class="results-article__copy">{{ article.content }}</p>
+        <p class="results-article__customer">–&nbsp;{{ article.metafields.custom_fields["customer_name"] | default: 'Anonymous' }}</p>
+      </div>
+      {% if article.metafields.custom_fields["related_products"] != blank %}
+        <div class="results-article__upsells">
+          <p class="results-article__upsells-title">{{ 'blogs.article.products_used' | t }}</p>
+          {% assign product_refs = article.metafields.custom_fields["related_products"] | split: '|' %}
+          {% for handle in product_refs %}
+            {% assign product = all_products[handle] %}
+            {% render 'collection-item' with product: product %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="results-article__image">
+      {% render 'responsive-image' with
+        image: article.image,
+        max_width: 1328,
+        max_height: 1328,
+        wrapper_class: 'results-article__image-wrapper'
+      %}
+      {% unless article.metafields.custom_fields["hide_before_after_pills"] == 1 %}
+        <span aria-hidden>{{ 'blogs.article.before_badge' | t }}</span>
+        <span aria-hidden>{{ 'blogs.article.after_badge' | t }}</span>
+      {% endunless %}
+    </div>
+  </div>
+</div>

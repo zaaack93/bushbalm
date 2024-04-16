@@ -1,0 +1,289 @@
+<script src="{{ 'before-and-after-slider.js' | asset_url }}" defer="defer"></script>
+{{ 'before-and-after-slider.css' | asset_url | stylesheet_tag }}
+
+<div class="before-and-after-slider before-and-after-slider--{{ section.id }} wrapper" role="region" aria-label="before and after comparison" data-before-and-after-slider>
+  <div class="before-and-after-slider__container content-position--{{ section.settings.content_position }}">
+    <div class="before-and-after-slider__slider">
+      <div class="beer-slider beer-after" data-beer-label="after" data-beer-slider="{{ section.id }}">
+        {% if section.settings.after_image != blank %}
+          {{ section.settings.after_image | image_url: width: 778 | image_tag: loading: 'lazy' }}
+        {% endif %}
+        <div class="beer-reveal beer-before" data-beer-label="before">
+          {% if section.settings.before_image != blank %}
+            {{ section.settings.before_image | image_url: width: 778 | image_tag: loading: 'lazy' }}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="before-and-after-slider__content">
+      {% if section.settings.subtitle != blank %}
+        <p class="subtitle">{{ section.settings.subtitle | upcase }}</p>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <h3 class="title">{{ section.settings.title }}</h3>
+      {% endif %}
+      {% if section.settings.copy != blank %}
+          <div class="copy">{{ section.settings.copy }}</div>
+      {% endif %}
+      {% if section.settings.cta_link != blank %}
+        <div class="before-and-after-slider__button">
+          <a href="{{ section.settings.cta_link }}" class="btn btn-primary" title="{{ section.settings.cta_text }}" tabindex="0">
+            {{ section.settings.cta_text }}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'before-and-after-slider'
+%}
+
+{% style %}
+  .before-and-after-slider--{{ section.id }} .before-and-after-slider__button a {
+    --cta-bg-color: {{ section.settings.cta_bg_color | default: '#F8E2C9' }};
+  }
+  .before-and-after-slider--{{ section.id }} .before-and-after-slider__slider {
+    --max-width: {{ section.settings.image_container_width | default: 550 }}px;
+  }
+{% endstyle %}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "copy",
+        "label": "Copy"
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "default": "Learn More"
+      },
+      {
+        "type": "url",
+        "id": "cta_link",
+        "label": "CTA Link"
+      },
+      {
+        "type": "color",
+        "id": "cta_bg_color",
+        "label": "CTA Background Color",
+        "default": "#F8E2C9"
+      },
+      {
+        "type": "header",
+        "content": "Alignment"
+      },
+      {
+        "type": "select",
+        "id": "content_position",
+        "label": "Content Position | Desktop",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      },
+      {
+        "type": "header",
+        "content": "Images"
+      },
+      {
+        "type": "image_picker",
+        "id": "before_image",
+        "label": "Before Image",
+        "info": "Before and After images should have the same dimensions"
+      },
+      {
+        "type": "image_picker",
+        "id": "after_image",
+        "label": "After Image",
+        "info": "Before and After images should have the same dimensions"
+      },
+      {
+        "type": "range",
+        "id": "image_container_width",
+        "label": "Image Container Max-Width | Desktop",
+        "min": 400,
+        "max": 795,
+        "step": 5,
+        "unit": "px",
+        "default": 550
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Before and After Slider"
+      }
+    ]
+  }
+{% endschema %}

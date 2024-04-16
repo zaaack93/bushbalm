@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "36967ba6-134c-4c0b-8f9d-53c5682a64f2": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#f5f5f5",
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_At_Ulta_Beauty.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_At_Ulta_Beauty.jpg",
+        "image_offset": 40,
+        "preheading": "GET STARTED",
+        "heading": "Ulta Beauty",
+        "copy": "<p>Bushbalm is now available at over 990 Ulta Stores nationwide.<\/p>",
+        "cta_link": "",
+        "cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+      }
+    },
+    "95b42b97-4a1e-4671-91ec-28884247845c": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "",
+        "headline": "",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "Other Featured Retailers",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "104px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "d45c07c5-2628-493a-bb01-3e905b793f43": {
+      "type": "simple-html",
+      "settings": {
+        "heading": "Other Featured Retailers",
+        "html": ""
+      }
+    },
+    "dcaab9ab-c833-4b30-9364-3ab9f76c795c": {
+      "type": "image-carousel",
+      "blocks": {
+        "671221c0-5d4a-4229-b02a-7b0862736f5d": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amazon_logo.jpg",
+            "link": "https:\/\/www.amazon.com\/stores\/page\/BE988270-6D60-4A10-B4F6-56DE67288965?store_ref=storeRecs_sa__x&amp=&ref_=nb_sb_ss_w_stores-v2-t1_k0_11_9_1_1&crid=2PFI293YBKELC&amp=&sprefix=bushbalm+&amp=&redirect_store_id=BE988270-6D60-4A10-B4F6-56DE67288965",
+            "link_title": "Amazon"
+          }
+        },
+        "6c10ffd3-3f5d-4f6c-80d2-ea615f6c9f99": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_335172d6-a48f-4018-8cea-896a99446110.jpg",
+            "link": "https:\/\/www.anthropologie.com\/en-ca\/brands\/bushbalm",
+            "link_title": "Anthropologie"
+          }
+        },
+        "6d9664f8-0383-477c-b3a4-97fd2a9380d2": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fff_logo.jpg",
+            "link": "https:\/\/fabfitfun.com\/get-the-box",
+            "link_title": "Fab Fit Fun"
+          }
+        }
+      },
+      "block_order": [
+        "671221c0-5d4a-4229-b02a-7b0862736f5d",
+        "6c10ffd3-3f5d-4f6c-80d2-ea615f6c9f99",
+        "6d9664f8-0383-477c-b3a4-97fd2a9380d2"
+      ],
+      "settings": {
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "0",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "36967ba6-134c-4c0b-8f9d-53c5682a64f2",
+    "main",
+    "95b42b97-4a1e-4671-91ec-28884247845c",
+    "d45c07c5-2628-493a-bb01-3e905b793f43",
+    "dcaab9ab-c833-4b30-9364-3ab9f76c795c"
+  ]
+}

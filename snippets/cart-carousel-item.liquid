@@ -1,0 +1,106 @@
+{% assign bundle_metafields = product.metafields.custom_fields["routine_bundle_options"] %}
+{% assign bundle_discount = product.metafields.custom_fields.bundle_upsell_items["bundle_discount_percentage"] | times: 1.0 | divided_by: 100 %}
+
+<div class="cart-carousel-item"
+  data-cart-carousel-item
+  data-cart-carousel-item-discount="{{ bundle_discount }}">
+
+  <div class="hide" aria-hidden>
+    {% for variant in product.variants %}
+      <span data-cart-carousel-item-variant="{{ variant.title }}"
+        data-cart-carousel-item-variant-id="{{ variant.id }}"></span>
+    {% endfor %}
+
+    {% for product_option in product.options_with_values %}
+      {% assign this_step_metafields = bundle_metafields | where: "option_name", product_option.name | first %}
+      {% for value in product_option.values %}
+        {% assign this_step_product = this_step_metafields.products | where: "product_option_value", value | first %}
+        {% assign product_option_ref = all_products[this_step_product.product_reference] %}
+        {% if product_option_ref != blank %}
+          {% if item["bundle_child_products"] contains product_option_ref.handle %}
+            <span data-cart-carousel-item-child="{{ product_option_ref.variants[0].id }}"
+              data-cart-carousel-item-child-title="{{ value }}"
+              data-cart-carousel-item-parent-title="{{ product.title }}">
+              {{ product_option_ref.title }}
+            </span>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+
+  <a class="cart-carousel-item__block-link"
+    href="{{ product.url | within: collection }}"
+    title="{{ product.title }} - {{ product.price | money }}">
+
+    <div class="cart-carousel-item__image">
+      {% render 'responsive-img' with
+        image: product.featured_image,
+        max_width: 210,
+        max_height: 210
+      %}
+    </div>
+
+    {% if shop.metafields.custom_fields["collection_item_badges"] != blank %}
+      {% for item in shop.metafields.custom_fields["collection_item_badges"] %}
+        {% if product.tags contains item["product_tag"] %}
+          <p class="cart-carousel-item__badge">
+            {{ item["badge_text"] }}
+          </p>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    <div class="cart-carousel-item__info">
+      <p class="product-name">
+        {% capture carousel_product_name %}carousel_product_name_{{ index }}{% endcapture %}
+        {% if section.settings[carousel_product_name] != blank %}
+          {{ section.settings[carousel_product_name] }}
+        {% else %}
+          {{ product.title }}
+        {% endif %}
+      </p>
+      {% capture carousel_product_desc %}carousel_product_desc_{{ index }}{% endcapture %}
+      {% if section.settings[carousel_product_desc] != blank %}
+        {{ section.settings[carousel_product_desc] }}
+      {% else %}
+        <p class="product-price">
+          {%- liquid
+            if product.compare_at_price > product.price
+              assign bundle_savings = product.compare_at_price | minus: product.price | money_without_currency
+            endif
+          -%}
+          &dollar;{{ product.price | money_without_currency }}&nbsp;
+          {%- if bundle_savings -%}
+            <span>{{ 'products.product.save_money' | t: value: bundle_savings }}</span>
+          {% endif %}
+        </p>
+      {% endif %}
+    </div>
+
+    <div class="cart-carousel-item__reviews">
+      <!-- Stamped - Begin Star Rating Badge -->
+      <span
+      class="stamped-product-reviews-badge stamped-main-badge"
+      data-id="{{ product.id }}"
+      data-product-sku="{{ product.selected_or_first_available_variant.sku }}"
+      data-product-title="{{ product.title }}"
+      data-product-type="{{ product.type }}"
+      style="display: block;">
+      </span>
+      <script>setTimeout(function(){StampedFn.loadBadges()},2000);</script>
+      <script> window.stamped_force_jquery = true; </script>
+      <!-- Stamped - End Star Rating Badge -->
+    </div>
+
+    <form class="cart-carousel-item__button" data-product-form>
+      <input name="id" type="hidden" value="{{ product.first_available_variant.id }}">
+      <button type="button"
+        class="btn btn--chocolate btn--full"
+        data-product-submit
+        data-cart-carousel-item-atc>
+        {{- 'products.product.add_to_cart' | t -}}
+      </button>
+    </form>
+  </a>
+</div>

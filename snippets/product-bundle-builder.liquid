@@ -1,0 +1,31 @@
+{% assign bundle_metafields = product.metafields.custom_fields["routine_bundle_options"] %}
+
+<div class="product-bundle-builder"
+  data-product-bundle-builder
+  data-product-bundle-builder-discount="{{ shop.metafields.custom_fields["bundle_discount_percentage"] | times: 1.0 | divided_by: 100 }}">
+  {% for product_option in product.options_with_values %}
+    {% assign step_count = forloop.index %}
+    {% assign this_step_metafields = bundle_metafields | where: "option_name", product_option.name | first %}
+
+    <div class="product-bundle-builder__step{% if product_option.values.size == 1 %} hide{% endif %}"
+      data-product-bundle-builder-step>
+      <p>{{ this_step_metafields.option_select_label | default: product_option.name }}</p>
+
+      <div class="product-bundle-builder__options">
+        {% for value in product_option.values %}
+          {% assign this_step_product = this_step_metafields.products | where: "product_option_value", value | first %}
+          {% assign product_option_ref = all_products[this_step_product.product_reference] %}
+          <button class="product-bundle-builder__option{% if product_option.selected_value == value %} active{% endif %}"
+            data-product-bundle-builder-option="{{ value }}"
+            data-product-bundle-builder-option-id="{{ product_option_ref.variants[0].id }}"
+            data-product-bundle-builder-parent-title="{{ product.title }}">
+            <img class="lazyload"
+              alt="{{ product_option_ref.title }}"
+              src="{{ product_option_ref.featured_image | img_url: '50x' }}"
+              data-src="{{ product_option_ref.featured_image | img_url: '208x' }}">
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

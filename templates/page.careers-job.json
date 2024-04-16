@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "16466668612606003d": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#f8e2c9",
+        "image_offset": true,
+        "image_mobile": "shopify:\/\/shop_images\/Francesca_Bikini_Line_Trimmer_1.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Francesca_Bikini_Line_Trimmer_1.jpg",
+        "heading": "Bushbalm Careers",
+        "copy": "Apply Below",
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1657844987e9b26f45": {
+      "type": "promo-banner",
+      "blocks": {
+        "7f68db34-e700-40a2-a86e-0a1b5fe802fb": {
+          "type": "promo_heading",
+          "settings": {
+            "heading": "<p><strong>OPEN ROLE<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7f68db34-e700-40a2-a86e-0a1b5fe802fb"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "enable_gradient": false,
+        "bg_gradient": "linear-gradient(270deg, rgba(216, 235, 230, 0.5), rgba(172, 198, 159, 0.5) 100%)",
+        "color": "#271710"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+      }
+    },
+    "16453079722cd2a215": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#f8e2c9",
+        "padding": true,
+        "intro": "",
+        "headline": "Apply Today",
+        "subline": "careers@mybushbalm.com",
+        "cta_style": "link",
+        "cta_text": "Email Your Application",
+        "cta_link": "mailto:careers@mybushbalm.com",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1645312636b73f0d52": {
+      "type": "ingredient-faqs",
+      "blocks": {
+        "f39ad2b7-a187-4e28-8377-ef9fd0fdb11b": {
+          "type": "faq",
+          "settings": {
+            "question": "Where is the company located?",
+            "answer": "Ottawa, Canada \n\n<br> <br> \n\nWe do have staff who work remotely, but our HQ is in downtown Ottawa."
+          }
+        },
+        "1d518347-283c-4ba3-99ee-547b64091496": {
+          "type": "faq",
+          "settings": {
+            "question": "How large is the company?",
+            "answer": "We're still a small, tight knit team. Most of our team is located in Ottawa, Canada, but we now have employees spanning across the world remotely. \n\n<br> <br> \n\nTo date, Bushbalm is in over 1,000 waxing salons, on the shelves of Indigo, Urban Outfitters and more."
+          }
+        },
+        "78704188-abe2-4e27-97a8-e1dc94eedeea": {
+          "type": "faq",
+          "settings": {
+            "question": "What departments do you have?",
+            "answer": "We're growing our team and departments at a fast pace. Our most mature departments are Marketing and Product Development. \n\n<br> <br> \n\nOther departments that are well established include Operations, Customer Service, Design and Finance."
+          }
+        },
+        "a5f98c8d-ecec-4c66-8d89-dc274f15ea7b": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Our Mission",
+            "copy": "Bushbalm is on a mission to solve common skin concerns the beauty industry has long ignored. <br> <br> Think ingrown hairs, dark spots, razor burn and more. \n\n<br> <br> \n\nWe're striving to be the #1 product line focused on bikini line skincare."
+          }
+        },
+        "6a8cf120-fced-4834-b462-d80e3dd1498d": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Why Join Us",
+            "copy": "Since 2016 we've grown our team with industry experts and skincare enthusiasts. Bushbalm is in such a unique place, as we're in the heart of beauty and crossed with e-commerce. \n\n<br> <br> By joining you'll understand what goes into a fast growing direct-to-consumer beauty company."
+          }
+        },
+        "ad0ea56f-ffae-47fe-aa02-eadfc56e37e4": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer remote or in-person roles?",
+            "answer": "Our team is primarily headquartered in Ottawa, Canada. \n\n<br> <br> \n\nWe're open to remote candidates, but would like to hire first in Ottawa, so we can gather easily. In regards to your workday, we are a flex model and allow employees to work remote when they wish."
+          }
+        }
+      },
+      "block_order": [
+        "f39ad2b7-a187-4e28-8377-ef9fd0fdb11b",
+        "1d518347-283c-4ba3-99ee-547b64091496",
+        "78704188-abe2-4e27-97a8-e1dc94eedeea",
+        "a5f98c8d-ecec-4c66-8d89-dc274f15ea7b",
+        "6a8cf120-fced-4834-b462-d80e3dd1498d",
+        "ad0ea56f-ffae-47fe-aa02-eadfc56e37e4"
+      ],
+      "settings": {
+        "heading_faq": "FAQs",
+        "heading_ingredients": "About Bushbalm",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "96px",
+        "margin_bottom_desktop": "0"
+      }
+    }
+  },
+  "order": [
+    "16466668612606003d",
+    "1657844987e9b26f45",
+    "main",
+    "16453079722cd2a215",
+    "1645312636b73f0d52"
+  ]
+}

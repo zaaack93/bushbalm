@@ -1,0 +1,121 @@
+<div class="drawer drawer--left drawer--full" role="region" aria-label="Menu" data-drawer="menu" style="z-index:1000001">
+  <div class="drawer__outside">
+    <div class="drawer__header">
+      <button type="button" class="drawer__close" aria-label="Close Menu" data-drawer-close>
+        {% render 'icon-close' %}
+      </button>
+    </div>
+    <div class="drawer__inside">
+      <ul class="mobile-nav">
+        {% if section.settings.title != blank %}
+          <li class="mobile-nav__title">{{ section.settings.title }}</li>
+        {% endif %}
+
+        {% for link in linklists[section.settings.menu].links %}
+          {% assign child_list_handle = link.title | handleize %}
+          {% if linklists[child_list_handle].links != blank %}
+            {% if linklists[child_list_handle].links[0].links != blank %}
+              <li class="mobile-nav__link">
+                <a class="mobile-nav__link-main mobile-nav-l1" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+                <button type="button" class="mobile-nav__submenu-open" aria-label="Open {{ link.title }} Submenu" data-mobile-nav-submenu-open>
+                  {% render 'icon-chevron-down' %}
+                </button>
+                <button type="button" class="mobile-nav__submenu-close hide" aria-label="Close {{ link.title }} Submenu" data-mobile-nav-submenu-close>
+                  {% render 'icon-chevron-up' %}
+                </button>
+                <ul class="mobile-nav__submenu mobile-nav__submenu--grouped hide" data-mobile-nav-submenu>
+                  {% for childlink in linklists[child_list_handle].links %}
+                    <li class="mobile-nav__submenu-group">
+                      <a class="mobile-nav__submenu-title" href="{{ childlink.url }}" title="{{ childlink.title }}">
+                        {{- childlink.title -}}
+                      </a>
+                      <ul>
+                        {% for sublink in childlink.links %}
+                          {% if sublink.title contains '--' %}
+                            <li>
+                              <a href="{{ sublink.url }}" class="secondary-link mobile-nav-l2" title="{{ sublink.title }}">
+                                {{- sublink.title | replace: '--', '' -}}
+                              </a>
+                            </li>
+                          {% else %}
+                            <li><a href="{{ sublink.url }}" class="mobile-nav-l2" title="{{ sublink.title }}">{{ sublink.title }}</a></li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="mobile-nav__link{% if forloop.last %} mobile-nav__link--last{% endif %}">
+                <a class="mobile-nav__link-main mobile-nav-l1" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+                <button type="button" class="mobile-nav__submenu-open" aria-label="Open {{ link.title }} Submenu" data-mobile-nav-submenu-open>
+                  {% render 'icon-chevron-down' %}
+                </button>
+                <button type="button" class="mobile-nav__submenu-close hide" aria-label="Close {{ link.title }} Submenu" data-mobile-nav-submenu-close>
+                  {% render 'icon-chevron-up' %}
+                </button>
+                <ul class="mobile-nav__submenu hide" data-mobile-nav-submenu>
+                  {% for childlink in linklists[child_list_handle].links %}
+                    <li>
+                      <a href="{{ childlink.url }}" title="{{ childlink.title }}">{{ childlink.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endif %}
+          {% else %}
+            <li class="mobile-nav__link">
+              <a class="mobile-nav__link-main mobile-nav-l1" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+
+        {% for link in linklists[section.settings.sublinks].links %}
+          <li class="mobile-nav__menu-sublink">
+            <a class="mobile-nav-l3" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+
+        {% if shop.customer_accounts_enabled %}
+          <li class="mobile-nav__menu-sublink">
+            <a class="mobile-nav-l3" href="{{ routes.account_url }}">{{ 'layout.customer.account' | t }}</a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Mobile Nav",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Copy"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Shop By"
+      },
+      {
+        "type": "header",
+        "content": "Menus"
+      },
+      {
+        "type": "link_list",
+        "id": "menu",
+        "label": "Menu",
+        "default": "main-menu"
+      },
+      {
+        "type": "link_list",
+        "id": "sublinks",
+        "label": "Sublinks"
+      }
+    ]
+  }
+{% endschema %}

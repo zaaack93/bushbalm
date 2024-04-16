@@ -1,0 +1,12 @@
+<div class="seo-text">
+  {% if collection.metafields.custom_fields["seo_section_title"] != blank %}
+    <p class="seo-text__title">
+      {{- collection.metafields.custom_fields["seo_section_title"] -}}
+    </p>
+  {% endif %}
+  {% if collection.metafields.custom_fields["seo_section_content"] != blank %}
+    <p class="seo-text__content">
+      {{- collection.metafields.custom_fields["seo_section_content"] -}}
+    </p>
+  {% endif %}
+</div>

@@ -1,0 +1,144 @@
+<script src="{{ 'order.js' | asset_url }}" defer="defer"></script>
+{{ 'order.css' | asset_url | stylesheet_tag }}
+
+<div class="account">
+  <div class="account__container wrapper">
+    <h1 class="medium-up--hide">
+      {{ 'customer.order.title' | t: name: order.name | replace: '#', 'No.' }}
+    </h1>
+
+    {% if order.cancelled %}
+      {% assign cancelled_at = order.cancelled_at | date: "%B %d, %Y %I:%M%p" %}
+      <p>{{ 'customer.order.cancelled' | t: date: cancelled_at }}</p>
+      <p>{{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason }}</p>
+    {% endif %}
+
+    {% capture account_dropdown_content %}
+      <option value="{{ routes.account_url }}" {% if request.path == routes.account_url or request.path contains 'orders' %}selected{% endif %}>{{ 'customer.orders.title' | t }}</option>
+      <option value="{{ routes.account_addresses_url }}" {% if request.path == routes.account_addresses_url %}selected{% endif %}>{{ 'customer.addresses.title' | t }}</option>
+      {% if customer.metafields.subscriptions.customer_string %}
+        <option value="/tools/recurring/login">{{ 'customer.account.manage_subscriptions' | t }}</option>
+      {% endif %}
+      <option value="{{ routes.account_logout_url }}">{{ 'layout.customer.log_out' | t }}</option>
+    {% endcapture %}
+
+    <div class="medium-up--hide">
+      {% render 'custom-dropdown' with
+        dropdown_content: account_dropdown_content,
+        attrs: 'data-account-page-selector'
+      %}
+    </div>
+
+    <div class="account__main account__order-table">
+      <h1 class="small--hide">
+        {{ 'customer.order.title' | t: name: order.name | replace: '#', 'No.' }}
+      </h1>
+
+      <p class="account__order-date">
+        <strong>{{ 'customer.order.date_label' | t }}</strong>
+        &nbsp;{{- 'customer.order.date' | t: date: order.created_at | date: "%B %d, %Y %I:%M%p" -}}
+      </p>
+      <table class="responsive-table">
+        <thead>
+          <tr>
+            <th>{{ 'customer.order.product' | t }}</th>
+            <th>{{ 'customer.order.sku' | t }}</th>
+            <th>{{ 'customer.order.price' | t }}</th>
+            <th>{{ 'customer.order.quantity' | t }}</th>
+            <th>{{ 'customer.order.total' | t }}</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for line_item in order.line_items %}
+            <tr id="{{ line_item.key }}" class="responsive-table-row">
+              <td data-label="{{ 'customer.order.product' | t }}">
+                {{ line_item.title | link_to: line_item.product.url }}
+                {% if line_item.fulfillment %}
+                  <dl>
+                    <dt>{{ 'customer.order.fulfilled_at' | t }}</dt>
+                    <dd>{{ line_item.fulfillment.created_at | date: format: 'month_day_year' }}</dd>
+
+                    {% if line_item.fulfillment.tracking_url %}
+                      <dt>{{ 'customer.order.tracking_url' | t }}</dt>
+                      <dd>
+                        <a href="{{ line_item.fulfillment.tracking_url }}" title="{{ 'customer.order.track_shipment' | t }}">
+                          {{ 'customer.order.track_shipment' | t }}
+                        </a>
+                      </dd>
+                    {% endif %}
+
+                    <dt>{{ 'customer.order.tracking_company' | t }}</dt>
+                    <dd>{{ line_item.fulfillment.tracking_company }}</dd>
+
+                    {% if line_item.fulfillment.tracking_number %}
+                      <dt>{{ 'customer.order.tracking_number' | t }}</dt>
+                      <dd>{{ line_item.fulfillment.tracking_number }}</dd>
+                    {% endif %}
+                  </dl>
+                {% endif %}
+              </td>
+              <td data-label="{{ 'customer.order.sku' | t }}">{{ line_item.sku }}</td>
+              <td data-label="{{ 'customer.order.price' | t }}">{{ line_item.price | money }}</td>
+              <td data-label="{{ 'customer.order.quantity' | t }}">{{ line_item.quantity }}</td>
+              <td data-label="{{ 'customer.order.total' | t }}">{{ line_item.quantity | times: line_item.price | money }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+
+        <tfoot>
+          <tr class="responsive-table-row">
+            <td colspan="4" class="small--hide">{{ 'customer.order.subtotal' | t }}</td>
+            <td data-label="{{ 'customer.order.subtotal' | t }}">{{ order.subtotal_price | money }}</td>
+          </tr>
+
+          {% for discount in order.discounts %}
+            <tr>
+              <td colspan="4" class="small--hide">{{ discount.code }} {{ 'customer.order.discount' | t }}</td>
+              <td data-label="{{ 'customer.order.discount' | t }}">{{ discount.savings | money }}</td>
+            </tr>
+          {% endfor %}
+
+          {% for shipping_method in order.shipping_methods %}
+            <tr>
+              <td colspan="4" class="small--hide">{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})</td>
+              <td data-label="{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})">{{ shipping_method.price | money }}</td>
+            </tr>
+          {% endfor %}
+
+          {% for tax_line in order.tax_lines %}
+            <tr>
+              <td colspan="4" class="small--hide">{{ 'customer.order.tax' | t }} ({{ tax_line.title }} {{ tax_line.rate | times: 100 }}%)</td>
+              <td data-label="{{ 'customer.order.tax' | t }} ({{ tax_line.title }} {{ tax_line.rate | times: 100 }}%)">{{ tax_line.price | money }}</td>
+            </tr>
+          {% endfor %}
+
+          <tr>
+            <td colspan="4" class="small--hide">{{ 'customer.order.total' | t }}</td>
+            <td data-label="{{ 'customer.order.total' | t }}">{{ order.total_price | money }} {{ order.currency }}</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <a class="account__order-back" href="{{ routes.account_url }}" title="{{ 'customer.account.view_order_history' | t }}">
+        {{- 'customer.order.back' | t -}}
+      </a>
+    </div>
+
+    <div class="account__nav-desktop small--hide">
+      <span>{{ 'customer.account.order_history' | t }}</span>
+      <a href="{{ routes.account_addresses_url }}" title="{{ 'customer.account.view_addresses' | t }}">
+        {{- 'customer.addresses.title' | t -}}&nbsp;({{- customer.addresses_count -}})
+      </a>
+      {% if customer.metafields.subscriptions.customer_string %}
+        <a href="/tools/recurring/login" title="{{ 'customer.account.manage_subscriptions' | t }}">
+          {{- 'customer.account.manage_subscriptions' | t -}}
+        </a>
+      {% endif %}
+      <a href="{{ routes.account_logout_url }}" title="{{ 'layout.customer.log_out' | t }}">
+        {{- 'layout.customer.log_out' | t -}}
+      </a>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,1066 @@
+{
+  "sections": {
+    "cta_eqjt6q": {
+      "type": "cta",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#f5f5f5",
+        "padding": true,
+        "intro": "Explore",
+        "headline": "Our Scents",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "home_hero_EQBBUA": {
+      "type": "home-hero",
+      "settings": {
+        "title": "Our Scents",
+        "copy": "Explore our top selling scents and find your perfect match!",
+        "cta_text": "",
+        "cta_link": "",
+        "position_desktop": "right",
+        "position_mobile": "bottom",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0c194c5a3ca846a39e641cb49b5022e3.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0c194c5a3ca846a39e641cb49b5022e3.mp4",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.84",
+        "review_count": 3000,
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/Stamped_de418c45-596c-4219-bd6b-3f6b79140609.png",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "content_9aCjA4": {
+      "type": "content",
+      "blocks": {
+        "content_block_6zLeMz": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tangerine",
+            "copy": "Experience the zesty, refreshing burst of tangerine, invigorating your senses with citrusy sweetness.",
+            "icon": "shopify:\/\/shop_images\/icon_Lemon_Peel_Extract.png"
+          }
+        },
+        "content_block_tWB6mr": {
+          "type": "content_block",
+          "settings": {
+            "title": "Vanilla",
+            "copy": "Indulge in the warm, comforting embrace of vanilla, evoking a cozy, sweet serenity.",
+            "icon": "shopify:\/\/shop_images\/icon_Jojoba_Oil.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_6zLeMz",
+        "content_block_tWB6mr"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/sweet_escape_2_step_f9.png",
+        "image_desktop": "shopify:\/\/shop_images\/sweet_escape_2_step_f9.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Sweet Escape",
+        "copy": "A soft aroma of tangerine and vanilla to leave you soft, smooth and smelling fresh.",
+        "subheading": "Scent Notes",
+        "cta_link": "shopify:\/\/collections\/the-sweet-escape-collection",
+        "cta_text": "Shop Now",
+        "cta_alignment": "right",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "content_cff8CL": {
+      "type": "content",
+      "blocks": {
+        "content_block_xef7Nz": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tea Tree",
+            "copy": "Discover the crisp, invigorating essence of tea tree, offering a clean, herbal freshness.",
+            "icon": "shopify:\/\/shop_images\/tea-tree-oil.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_xef7Nz"
+      ],
+      "settings": {
+        "uid": "nude",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/nude2stepf9.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/nude2stepf9.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Nude",
+        "copy": "Our signature barely-there tea tree scent that leaves the skin feeling clean and smelling fresh.",
+        "subheading": "Scent Notes",
+        "cta_link": "shopify:\/\/collections\/the-nude-collection",
+        "cta_text": "Shop Now",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "content_nav_Uc8eji": {
+      "type": "content-nav",
+      "blocks": {
+        "link_b3wfEK": {
+          "type": "link",
+          "settings": {
+            "uid": "bermuda",
+            "text": "Bermuda"
+          }
+        },
+        "link_xD3c8n": {
+          "type": "link",
+          "settings": {
+            "uid": "pina-colada",
+            "text": "Piña Colada"
+          }
+        },
+        "link_CNTTDb": {
+          "type": "link",
+          "settings": {
+            "uid": "summer-vacay",
+            "text": "Summer Vacay"
+          }
+        },
+        "link_UrKhYL": {
+          "type": "link",
+          "settings": {
+            "uid": "spa-day",
+            "text": "Spa Day"
+          }
+        }
+      },
+      "block_order": [
+        "link_b3wfEK",
+        "link_xD3c8n",
+        "link_CNTTDb",
+        "link_UrKhYL"
+      ],
+      "settings": {
+      }
+    },
+    "content_eemrMn": {
+      "type": "content",
+      "blocks": {
+        "content_block_fTgLrA": {
+          "type": "content_block",
+          "settings": {
+            "title": "Lemon",
+            "copy": "Indulge in the zesty, invigorating scent of lemon, offering a bright, citrusy freshness.",
+            "icon": "shopify:\/\/shop_images\/icon_Lemon_Peel_Extract.png"
+          }
+        },
+        "content_block_pUCmYW": {
+          "type": "content_block",
+          "settings": {
+            "title": "Tea Tree",
+            "copy": "Breathe in the crisp, purifying essence of tea tree, with its distinct, herbal aroma.",
+            "icon": "shopify:\/\/shop_images\/tea-tree-oil.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_fTgLrA",
+        "content_block_pUCmYW"
+      ],
+      "settings": {
+        "uid": "",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Bermuda_6c7886b3-4c0f-45a9-9557-6864b28367b9.png",
+        "image_desktop": "shopify:\/\/shop_images\/Bermuda_6c7886b3-4c0f-45a9-9557-6864b28367b9.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Bermuda",
+        "copy": "Our signature piece of paradise scent with clean and refreshing hints of lemon.",
+        "subheading": "Scent Notes",
+        "cta_link": "shopify:\/\/collections\/the-bermuda-collection",
+        "cta_text": "Shop Now",
+        "cta_alignment": "right",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "content_TBPGMg": {
+      "type": "content",
+      "blocks": {
+        "content_block_AGQCPr": {
+          "type": "content_block",
+          "settings": {
+            "title": "Coconut",
+            "copy": "Savor the tropical, creamy richness of coconut, transporting you to sun-kissed beaches.",
+            "icon": "shopify:\/\/shop_images\/icon_Fractionated_Coconut_Oil.png"
+          }
+        },
+        "content_block_hDFBRK": {
+          "type": "content_block",
+          "settings": {
+            "title": "Pineapple",
+            "copy": "Delight in the vibrant, juicy sweetness of pineapple, exuding a refreshing tropical zest.",
+            "icon": "shopify:\/\/shop_images\/icon_Relieves_Irritation.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_AGQCPr",
+        "content_block_hDFBRK"
+      ],
+      "settings": {
+        "uid": "pina-colada",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm-Pina-Colada-Dark-Spots_3_1512x_d960bcc3-09cb-4c2f-8c0c-a3a15bb82c45.png",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm-Pina-Colada-Dark-Spots_3_1512x_d960bcc3-09cb-4c2f-8c0c-a3a15bb82c45.png",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Piña Colada",
+        "copy": "Our signature fresh tropical scent with playful notes of pineapple and coconut.",
+        "subheading": "Scent Notes",
+        "cta_link": "shopify:\/\/collections\/pina-colada-collection",
+        "cta_text": "Shop Now",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "content_7wbitb": {
+      "type": "content",
+      "blocks": {
+        "content_block_jwQfyf": {
+          "type": "content_block",
+          "settings": {
+            "title": "Warm Almond",
+            "copy": "Immerse yourself in the cozy, nutty warmth of almond, radiating comforting, sweet undertones.",
+            "icon": "shopify:\/\/shop_images\/icon_Jojoba_Oil_99926c0e-0619-4e82-8c52-ed7a114ff45e.png"
+          }
+        },
+        "content_block_fi3fcK": {
+          "type": "content_block",
+          "settings": {
+            "title": "Vanilla Blossom",
+            "copy": "Embrace the delicate, floral sweetness of vanilla blossom, offering a softly enticing aroma.",
+            "icon": "shopify:\/\/shop_images\/icon_Grapeseed_Oil_1bf69c59-e6d2-45be-a27d-f50ce30f20bf.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_jwQfyf",
+        "content_block_fi3fcK"
+      ],
+      "settings": {
+        "uid": "summer-vacay",
+        "alignment": "left",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Curve.webp",
+        "image_desktop": "shopify:\/\/shop_images\/Curve.webp",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Summer Vacay",
+        "copy": "A soft aroma of fresh vanilla blossom and warm almond to transport you to a warm summer day.",
+        "subheading": "Scent Notes",
+        "cta_link": "shopify:\/\/collections\/stretch-marks",
+        "cta_text": "Shop Now",
+        "cta_alignment": "right",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "32px"
+      }
+    },
+    "content_YxadTd": {
+      "type": "content",
+      "blocks": {
+        "content_block_hiBgcC": {
+          "type": "content_block",
+          "settings": {
+            "title": "Eucalyptus",
+            "copy": "Experience the revitalizing, clean scent of eucalyptus, with its cool, refreshing herbal notes.",
+            "icon": "shopify:\/\/shop_images\/icon_Relieves_Irritation.png"
+          }
+        },
+        "content_block_4qFVeh": {
+          "type": "content_block",
+          "settings": {
+            "title": "Fresh Citrus",
+            "copy": "Enjoy the lively, zingy aroma of fresh citrus, awakening your senses with vibrant zest.",
+            "icon": "shopify:\/\/shop_images\/icon_Lemon_Peel_Extract.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_hiBgcC",
+        "content_block_4qFVeh"
+      ],
+      "settings": {
+        "uid": "spa-day",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/Spa_Day_1.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Spa_Day_1.jpg",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Spa Day",
+        "copy": "Our signature mood-boosting scent with a fresh blend of citrus and luxurious notes of eucalyptus.",
+        "subheading": "Scent Notes",
+        "cta_link": "shopify:\/\/collections\/body-cleansers",
+        "cta_text": "Shop Now",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "64px",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "cta_CDqUWL": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#d8e8f6",
+        "padding": true,
+        "intro": "A New Scent",
+        "headline": "Coming Soon",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "Learn More",
+        "cta_link": "shopify:\/\/pages\/waitlist",
+        "cta_2_text": "",
+        "cta_2_link": "shopify:\/\/collections\/all",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "hero_intro_mXGz8V": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#fde2da",
+        "image_mobile": "shopify:\/\/shop_images\/Watermelon_Sugar_1.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Watermelon_Sugar_1.jpg",
+        "image_offset": 48,
+        "preheading": "Coming Soon",
+        "heading": "New Scent",
+        "copy": "<p>Join the waitlist to find out first<\/p>",
+        "cta_link": "shopify:\/\/pages\/waitlist",
+        "cta_text": "Join Waitlist",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "24px"
+      }
+    },
+    "simple_html_HwFwCh": {
+      "type": "simple-html",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "html": ""
+      }
+    },
+    "hero_intro_44jr9Q": {
+      "type": "hero-intro",
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "bg_color": "{{ page.metafields.custom.background_color.value }}",
+        "image_mobile": "{{ page.metafields.custom.new_scent_waitlist_image.value }}",
+        "image_desktop": "{{ page.metafields.custom.new_scent_waitlist_image.value }}",
+        "image_offset": -24,
+        "preheading": "{{ page.metafields.custom.waitlist_amount_left.value }} Waitlist Spots Left",
+        "heading": "New Scent",
+        "copy": "<p>{{ page.metafields.custom.scent_tagline.value }}<\/p>",
+        "cta_link": "{{ page.metafields.custom.back_in_stock_sms_link.value }}",
+        "cta_text": "Join the Waitlist",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "16px"
+      }
+    },
+    "image_link_carousel_bWr89p": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "topic_EijPem": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Summer_vacay_oil_block.jpg",
+            "heading": "Summer Vacay",
+            "cta_text": "Join Waitlist",
+            "url": "{{ page.metafields.custom.back_in_stock_sms_link.value }}"
+          }
+        },
+        "topic_T9txdw": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Spa_Day_Giveaway.jpg",
+            "heading": "Spa Day",
+            "cta_text": "Join Waitlist",
+            "url": "{{ page.metafields.custom.back_in_stock_sms_link.value }}"
+          }
+        },
+        "topic_EmLda3": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/frostedcranberry_0917b690-c1fa-4121-89c7-fd521680f92c.jpg",
+            "heading": "Frosted Cranberry",
+            "cta_text": "Join Waitlist",
+            "url": "{{ page.metafields.custom.back_in_stock_sms_link.value }}"
+          }
+        },
+        "topic_RVQFeq": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pumpkin.jpg",
+            "heading": "Pumpkin Spice",
+            "cta_text": "Join Waitlist",
+            "url": "{{ page.metafields.custom.back_in_stock_sms_link.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "topic_EijPem",
+        "topic_T9txdw",
+        "topic_EmLda3",
+        "topic_RVQFeq"
+      ],
+      "disabled": true,
+      "settings": {
+        "carousel_heading": "Past Sell Outs"
+      }
+    },
+    "home_hero_aydYpJ": {
+      "type": "home-hero",
+      "disabled": true,
+      "settings": {
+        "title": "Join the watilist",
+        "copy": "",
+        "cta_text": "",
+        "cta_link": "",
+        "position_desktop": "right",
+        "position_mobile": "bottom",
+        "video_url_desktop": "",
+        "video_url_mobile": "",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "bd839b02-455f-4891-aa32-4d250ec9cdbf": {
+      "type": "home-hero-options",
+      "disabled": true,
+      "settings": {
+        "hero_options_mobile": "two_up_full",
+        "hero_options_desktop": "two_up_boxed",
+        "title": "Hi, We're Bushbalm.",
+        "heading_tag": "h2",
+        "title_sizing": "title_largest",
+        "subtitle": "",
+        "copy": "<p>We solve common skin concerns that aren't often talked about and we're proud of it!<\/p>",
+        "copy_alignment": "copy_left",
+        "cta_text": "Learn more",
+        "cta_link": "",
+        "position_desktop": "right",
+        "image_mobile": "shopify:\/\/shop_images\/Who-We-Are-At-Bushbalm-Skincare-About-Us-Page_540x_4a74edb2-8f60-4911-ae4f-ecc88e0a4db7.webp",
+        "image_desktop": "shopify:\/\/shop_images\/Who-We-Are-At-Bushbalm-Skincare-About-Us-Page_540x_4a74edb2-8f60-4911-ae4f-ecc88e0a4db7.webp",
+        "video_url_mobile": "",
+        "video_url_desktop": "",
+        "gradient_enable_mobile": false,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": false,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": false,
+        "review_score": "",
+        "review_animation": false,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "about-intro": {
+      "type": "about-intro",
+      "blocks": {
+        "e5a5dda6-fc90-40ef-ab75-93918ab0089b": {
+          "type": "word",
+          "settings": {
+            "word": "stretch marks"
+          }
+        },
+        "6fa7ac5c-8c28-4ae5-a595-2763ada27d04": {
+          "type": "word",
+          "settings": {
+            "word": "dark spots"
+          }
+        },
+        "defa49f4-0f79-448c-94d8-06a9b00bf375": {
+          "type": "word",
+          "settings": {
+            "word": "ingrown hairs"
+          }
+        },
+        "a93ec1ad-bedc-4c15-8a9a-5b3819be2b2f": {
+          "type": "word",
+          "settings": {
+            "word": "razor burn"
+          }
+        },
+        "8b955326-bbc6-4051-9779-3bd31f8fcc63": {
+          "type": "word",
+          "settings": {
+            "word": "keratosis pilaris"
+          }
+        }
+      },
+      "block_order": [
+        "e5a5dda6-fc90-40ef-ab75-93918ab0089b",
+        "6fa7ac5c-8c28-4ae5-a595-2763ada27d04",
+        "defa49f4-0f79-448c-94d8-06a9b00bf375",
+        "a93ec1ad-bedc-4c15-8a9a-5b3819be2b2f",
+        "8b955326-bbc6-4051-9779-3bd31f8fcc63"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ingrown_Hair_Oil_FAQs.jpg",
+        "intro": "",
+        "headline": "Hi, We're Bushbalm.",
+        "content": "We create the best smelling body care products.",
+        "static_word": "Think",
+        "speed_mobile": 700,
+        "delay_mobile": 1000,
+        "speed_desktop": 1000,
+        "delay_desktop": 2000
+      }
+    },
+    "most_loved_grid_k8GcAX": {
+      "type": "most-loved-grid",
+      "blocks": {
+        "most_loved_product_VPx3nz": {
+          "type": "most_loved_product",
+          "settings": {
+            "product_ref": "dark-spot-corrector",
+            "pos_x_direction": "left",
+            "pos_x_desktop": 23,
+            "pos_y_desktop": 5,
+            "pos_x_mobile": 6,
+            "pos_y_mobile": 0,
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/badge-ph.svg?v=1635888823",
+            "icon_info": "",
+            "badge_position": "top-left"
+          }
+        },
+        "most_loved_product_GHtzAb": {
+          "type": "most_loved_product",
+          "settings": {
+            "product_ref": "sweet-escape-oil",
+            "pos_x_direction": "left",
+            "pos_x_desktop": 8,
+            "pos_y_desktop": 41,
+            "pos_x_mobile": 6,
+            "pos_y_mobile": 61,
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/badge-gyno.svg?v=1635888823",
+            "icon_info": "",
+            "badge_position": "top-left"
+          }
+        },
+        "most_loved_product_xAhEnb": {
+          "type": "most_loved_product",
+          "settings": {
+            "product_ref": "ingrown-hair-oil",
+            "pos_x_direction": "right",
+            "pos_x_desktop": 25,
+            "pos_y_desktop": 0,
+            "pos_x_mobile": 6,
+            "pos_y_mobile": 6,
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/badge-trusted.svg?v=1635888823",
+            "icon_info": "",
+            "badge_position": "top-right"
+          }
+        },
+        "most_loved_product_hqFwaq": {
+          "type": "most_loved_product",
+          "settings": {
+            "product_ref": "tush-firming-cream",
+            "image": "shopify:\/\/shop_images\/Curve.webp",
+            "pos_x_direction": "right",
+            "pos_x_desktop": 11,
+            "pos_y_desktop": 36,
+            "pos_x_mobile": 6,
+            "pos_y_mobile": 53,
+            "icon_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/badge-mag.svg?v=1635888823",
+            "icon_info": "",
+            "badge_position": "top-right"
+          }
+        }
+      },
+      "block_order": [
+        "most_loved_product_VPx3nz",
+        "most_loved_product_GHtzAb",
+        "most_loved_product_xAhEnb",
+        "most_loved_product_hqFwaq"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Most Loved",
+        "subheading": "Our iconic scent collection",
+        "cta_text": "Shop All",
+        "cta_link": "shopify:\/\/collections\/best-sellers",
+        "height_mobile": 671,
+        "height_desktop": 734,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "0e544050-60c6-447d-9b07-3d540dc43fb7": {
+      "type": "content",
+      "blocks": {
+        "content_block_3JRBgN": {
+          "type": "content_block",
+          "settings": {
+            "title": "Dermatologist Approved",
+            "copy": "Unleash your skin's true potential with scientifically proven, safe, and effective skincare.",
+            "icon": "shopify:\/\/shop_images\/GYNO.png"
+          }
+        },
+        "content_block_fDGdNh": {
+          "type": "content_block",
+          "settings": {
+            "title": "Gynecologist Approved",
+            "copy": "Expertly crafted for intimate wellness: gentle, balanced, trusted by gynecologists.",
+            "icon": "shopify:\/\/shop_images\/icon-ph.png"
+          }
+        },
+        "content_block_RRrPnD": {
+          "type": "content_block",
+          "settings": {
+            "title": "Clean Formulations",
+            "copy": "Pure, clean formulations meet nature-inspired skincare for everyday",
+            "icon": "shopify:\/\/shop_images\/NATURAL.png"
+          }
+        },
+        "content_block_fPm8BM": {
+          "type": "content_block",
+          "settings": {
+            "title": "Targeted Solutions",
+            "copy": "Revitalize Your Bikini Line and Underarms with specialized, soothing, and effective treatments",
+            "icon": "shopify:\/\/shop_images\/icon_Check_Mark_1062dc5c-ad5c-4658-bd5f-70029d6f56e2.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_3JRBgN",
+        "content_block_fDGdNh",
+        "content_block_RRrPnD",
+        "content_block_fPm8BM"
+      ],
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#ffffff",
+        "increase_spacing": false,
+        "image_mobile": "shopify:\/\/shop_images\/a.webp",
+        "image_desktop": "shopify:\/\/shop_images\/a.webp",
+        "image_size": "small",
+        "image_offset": 0,
+        "heading": "Clean Skincare, Everywhere.",
+        "copy": "Whether you trim, groom, remove – or let your body hair grow, our products were created to take care of your most sensitive areas while making sure you feel confident in your skin down there and everywhere with results that you will see and feel.",
+        "subheading": "",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_alignment": "left",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "about-story": {
+      "type": "about-story",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About-Us-Bushbalm-Skincare-Pubic-Oil.jpg",
+        "background_color": "#fbf0e4",
+        "headline_1": "Who We Are",
+        "content_1": "<p>Bushbalm is a skincare brand that solves common skin challenges that aren't often talked about, and we're proud of it!<\/p><p><br\/><\/p><p>We have an evolving natural skincare product line - specifically, but not limited to, targeting areas that are commonly ignored. Think bikini line, underarms, legs, tush, or anywhere else on the body that deserves extra care.<\/p><p><br\/><\/p><p>Whether you trim, groom, remove – or let your body hair grow our products were created to take care of your most sensitive areas while making sure you feel confident in your skin down there and everywhere with results that you will see and feel.<\/p><p><br\/><\/p><p>Face quality skincare. Targeted results. Everywhere.<\/p>",
+        "headline_2": "Our Story",
+        "content_2": "<p>The idea behind Bushbalm was created by accident like many great ideas are. While on their honeymoon one of the founding couples was getting ready for a little cross-pollination when the husband put an oil down there to \"freshen up\", only to realize the skin benefits that could come of this unintentional discovery.<\/p><p><br\/><\/p><p>Fast forward a number of years and countless hours of research and Bushbalm is now taking face quality skincare to areas and skin concerns that have seemingly been ignored by the beauty industry. Think the likes of ingrown hairs, razor burn, dark spots, and more.<\/p><p><br\/><\/p><p>Since founding, Bushbalm has become The Skincare, Everywhere Company focused on providing natural products for your most frustrating skin concerns, wherever they are!<\/p>"
+      }
+    },
+    "featured_collections_RdLJGx": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured_collection_XaFTFp": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingrown_Hairs_60f4b5eb-615e-4140-a2e0-35ca55b572aa.jpg",
+            "bg_color": "#8ebee6",
+            "bg_color_desktop": "#8ebee6",
+            "marquee_text": "Ingrown Hairs",
+            "cta_text": "Shop Ingrown Hairs",
+            "cta_link": "shopify:\/\/collections\/ingrown-hairs",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "featured_collection_PQNKai": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spots_4b89aec0-6ca7-4609-bd40-1e08c4c57f2d.jpg",
+            "bg_color": "#f5f5f5",
+            "bg_color_desktop": "#f5f5f5",
+            "marquee_text": "Dark Spots",
+            "cta_text": "Shop Dark Spots",
+            "cta_link": "shopify:\/\/collections\/dark-spots",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "featured_collection_RgwDMp": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Razor_Burn_70ad6944-3841-4993-a9db-a44c4b1663a3.jpg",
+            "bg_color": "#b8ddd6",
+            "bg_color_desktop": "#b8ddd6",
+            "marquee_text": "Razor Burn",
+            "cta_text": "Shop Razor Burn",
+            "cta_link": "shopify:\/\/collections\/razor-burn",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "featured_collection_LKBRRP": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Creams.jpg",
+            "bg_color": "#f8a086",
+            "bg_color_desktop": "#f8a086",
+            "marquee_text": "Stretch Marks",
+            "cta_text": "Shop Stretch Marks",
+            "cta_link": "shopify:\/\/collections\/stretch-marks",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "featured_collection_ndQJ9g": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trimmer_a4d2f0c9-14a5-47eb-a3f1-891b6d6e08d3.jpg",
+            "bg_color": "#f8e2c9",
+            "bg_color_desktop": "#f8e2c9",
+            "marquee_text": "Bikini Trimming",
+            "cta_text": "Shop Francesca Trimmer",
+            "cta_link": "shopify:\/\/collections\/the-francesca-trimmer",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        },
+        "featured_collection_JCiVHY": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pH_and_Wipes.jpg",
+            "bg_color": "#95e1bf",
+            "bg_color_desktop": "#95e1bf",
+            "marquee_text": "Intimate Wipes + Care",
+            "cta_text": "Shop Intimate",
+            "cta_link": "shopify:\/\/collections\/body-cleansers",
+            "cta_color": "#ffffff",
+            "cta_color_desktop": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_XaFTFp",
+        "featured_collection_PQNKai",
+        "featured_collection_RgwDMp",
+        "featured_collection_LKBRRP",
+        "featured_collection_ndQJ9g",
+        "featured_collection_JCiVHY"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_top_mobile": "64px",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "about-stats": {
+      "type": "about-stats",
+      "blocks": {
+        "00747eec-602a-4d48-b856-8d32f59bed7a": {
+          "type": "content",
+          "settings": {
+            "title": "Dermatologist Approved",
+            "content": "<p>We work with industry experts to formulate and approve all of our products. <br\/><br\/>Gynecologist and Dermatologist's are at the heart of what we do at Bushbalm. Try our best selling bikini line skincare, and find out for yourself.<\/p>",
+            "logo": "shopify:\/\/shop_images\/Gyno.webp",
+            "logo_max_width": 100,
+            "background_color": "#c2d6ed"
+          }
+        },
+        "258e72b7-232f-474e-a935-9dcc50cc0875": {
+          "type": "stat",
+          "settings": {
+            "intro": "Did you know",
+            "number": "93%",
+            "content": "of people lose confidence due to ingrown hairs and razor burn.",
+            "supporting_title": "Our Mission",
+            "supporting_content": "We're on a mission to give more women confidence in a bikini.",
+            "background_color": "#fde7e0"
+          }
+        }
+      },
+      "block_order": [
+        "00747eec-602a-4d48-b856-8d32f59bed7a",
+        "258e72b7-232f-474e-a935-9dcc50cc0875"
+      ],
+      "settings": {
+      }
+    },
+    "1641492588c7c9e95d": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#f5f5f5",
+        "padding": true,
+        "intro": "Get Started",
+        "headline": "Ready to start your skincare journey?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "Shop All Products",
+        "cta_link": "shopify:\/\/collections\/all",
+        "cta_2_text": "View Before & Afters",
+        "cta_2_link": "shopify:\/\/blogs\/before-and-after",
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "0",
+        "margin_top_desktop": "64px",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "image_link_carousel_33dg9R": {
+      "type": "image-link-carousel",
+      "blocks": {
+        "topic_FQTgjK": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SweetEscapeIngrownHairOil_9803b5b4-76a9-4aa7-b47b-a4eb4553dee3.jpg",
+            "heading": "Tangerine & Vanilla",
+            "cta_text": "View Sweet Escape",
+            "url": "shopify:\/\/collections\/the-sweet-escape-collection"
+          }
+        },
+        "topic_tYbfxB": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Curve.webp",
+            "heading": "Warm Vanilla Almond",
+            "cta_text": "Shop Summer Vacay",
+            "url": "shopify:\/\/products\/tush-firming-cream"
+          }
+        },
+        "topic_VHViww": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bushbalm-Pina-Colada-Dark-Spot-Oil_1_1512x_e5bc5000-4af3-4198-b936-f27e9cbae0d9.png",
+            "heading": "Pineapple + Coconut",
+            "cta_text": "Shop Piña Colada",
+            "url": "shopify:\/\/collections\/pina-colada-collection"
+          }
+        },
+        "topic_AipLHH": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nudeingrownhairoil.jpg",
+            "heading": "Tea Tree",
+            "cta_text": "Shop Nude",
+            "url": "shopify:\/\/collections\/the-nude-collection"
+          }
+        },
+        "topic_fGrnet": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bermuda.webp",
+            "heading": "Lemon Twist",
+            "cta_text": "Shop Bermuda",
+            "url": "shopify:\/\/collections\/the-bermuda-collection"
+          }
+        },
+        "topic_P9N3zA": {
+          "type": "topic",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Spa_Day_1.jpg",
+            "heading": "Eucalyptus + Citrus",
+            "cta_text": "Shop Spa Day",
+            "url": "shopify:\/\/products\/spa-day-nourishing-body-wash"
+          }
+        }
+      },
+      "block_order": [
+        "topic_FQTgjK",
+        "topic_tYbfxB",
+        "topic_VHViww",
+        "topic_AipLHH",
+        "topic_fGrnet",
+        "topic_P9N3zA"
+      ],
+      "settings": {
+        "carousel_heading": ""
+      }
+    },
+    "press_highlights_t3CQHD": {
+      "type": "press-highlights",
+      "blocks": {
+        "testimonial_PzBK9m": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/l-forbes.png",
+            "logo_height": 23,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "testimonial_AykYbm": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Womens Health",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo": "shopify:\/\/shop_images\/womens-health-logo.png",
+            "logo_height": 19,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        },
+        "testimonial_qkWt3C": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo": "shopify:\/\/shop_images\/l-chate.png",
+            "logo_height": 18,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#ffffff",
+            "invert_logos": false
+          }
+        },
+        "testimonial_gjU9JQ": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Elle",
+            "copy": "“The irresistibly creamy formula can be used anywhere you want a little extra firming action”",
+            "logo": "shopify:\/\/shop_images\/l-elle.png",
+            "logo_height": 28,
+            "bg_color": "#7a482a",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_PzBK9m",
+        "testimonial_AykYbm",
+        "testimonial_qkWt3C",
+        "testimonial_gjU9JQ"
+      ],
+      "settings": {
+        "cta_text": "View All Press",
+        "cta_link": "shopify:\/\/pages\/press",
+        "bg_color": "#f8e2c9",
+        "cta_bg_color": "#fff",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "32px",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "cta_eqjt6q",
+    "home_hero_EQBBUA",
+    "content_9aCjA4",
+    "content_cff8CL",
+    "content_nav_Uc8eji",
+    "content_eemrMn",
+    "content_TBPGMg",
+    "content_7wbitb",
+    "content_YxadTd",
+    "cta_CDqUWL",
+    "hero_intro_mXGz8V",
+    "simple_html_HwFwCh",
+    "hero_intro_44jr9Q",
+    "image_link_carousel_bWr89p",
+    "home_hero_aydYpJ",
+    "bd839b02-455f-4891-aa32-4d250ec9cdbf",
+    "about-intro",
+    "most_loved_grid_k8GcAX",
+    "0e544050-60c6-447d-9b07-3d540dc43fb7",
+    "about-story",
+    "featured_collections_RdLJGx",
+    "about-stats",
+    "1641492588c7c9e95d",
+    "image_link_carousel_33dg9R",
+    "press_highlights_t3CQHD"
+  ]
+}

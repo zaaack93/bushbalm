@@ -1,0 +1,169 @@
+{% liquid
+  assign page_types = 'collection,page,product,blog,article' | split: ','
+  assign hide_banner_urls = section.settings.hide_banner_urls | newline_to_br | strip_newlines | split: '<br />'
+  assign is_hidden = false
+  for url in hide_banner_urls
+    if request.path == url
+      assign is_hidden = true
+    endif
+  endfor
+  for type in page_types
+    assign setting_key = 'disable_' | append: type
+    if section.settings[setting_key] == true and request.page_type == type
+      assign is_hidden = true
+      break
+    endif
+  endfor
+  if section.settings.hide_all == true
+    assign is_hidden = true
+  endif
+%}
+
+{% unless is_hidden %}
+  {% for block in section.blocks %}
+    {% if block.settings.countdown_timer_type == 'repeating' %}
+      {% unless block.settings.countdown_timer_time_repeating == blank %}
+        {% assign countdown_datetime_raw = block.settings.countdown_timer_time_repeating | split: ':' %}
+        {% capture countdown_datetime %}
+        {{ countdown_datetime_raw[0] }}:{{ countdown_datetime_raw[1] }}
+        {% endcapture %}
+      {% endunless %}
+    {% else %}
+      {% unless block.settings.countdown_timer_time_set == blank %}
+        {% assign countdown_datetime_raw = block.settings.countdown_timer_time_set | split: ' ' %}
+        {% assign countdown_date_parts = countdown_datetime_raw[0] | split: '-' %}
+        {% assign countdown_time_parts = countdown_datetime_raw[1] | split: ':' %}
+        {% capture countdown_datetime %}
+          {{ countdown_date_parts[1] }}-{{ countdown_date_parts[0] }}-{{ countdown_date_parts[2] }} {{ countdown_time_parts[0] }}:{{ countdown_time_parts[1] }}
+        {% endcapture %}
+        {% capture countdown_strftime %}
+          {{ countdown_date_parts[2] }}-{{ countdown_date_parts[0] }}-{{ countdown_date_parts[1] }} {{ countdown_time_parts[0] }}:{{ countdown_time_parts[1] }}
+        {% endcapture %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign heading_exists = false %}
+
+  <div class="promo-banner promo-banner--{{ section.id }}">
+    <div class="promo-banner__container" data-promo-banner-sticky data-promo-banner-sticky-enabled='{% if section.settings.enable_sticky_mobile %}mobile{% endif %}{% if section.settings.enable_sticky_desktop %}desktop{% endif %}'>
+      {% for block in section.blocks %}
+        {% unless block.settings.heading == blank %}
+          {% assign heading_exists = true %}
+          {% style %}
+            .promo-banner--heading {
+              color: {{ block.settings.heading_color }};
+            }
+          {% endstyle %}
+          <div class="promo-banner--heading">{{ block.settings.heading }}</div>
+        {% endunless %}
+
+        {% unless block.settings.subheading == blank %}
+          {% style %}
+            .promo-banner--subheading {
+              color: {{ block.settings.subheading_color }};
+            }
+          {% endstyle %}
+          <div class="promo-banner--subheading {% unless heading_exists %}subheading-first{% endunless %}">
+            {{ block.settings.subheading | upcase }}
+          </div>
+        {% endunless %}
+
+        {% unless block.settings.product_list == blank %}
+          <div class="promo-banner--product-images">
+            {% for product_item in block.settings.product_list %}
+              <img src="{{ product_item.featured_image | image_url: width: 69, height: 69 }}" alt="{{ product_item.title }}">
+            {% endfor %}
+          </div>
+        {% endunless %}
+
+        {% unless block.settings.single_image == blank %}
+          <div class="promo-banner--single-image">
+            <img src="{{ block.settings.single_image | image_url: width: auto, height: auto }}" alt="{{ product_item.title }}">
+          </div>
+        {% endunless %}
+
+        {% unless block.settings.countdown_timer_time_repeating == blank and block.settings.countdown_timer_time_set == blank %}
+          {% comment %} Loading the initial state of the timer while JS processes the logic {% endcomment %}
+          {% liquid
+            if block.settings.countdown_timer_type == 'repeating' and block.type == 'promo_countdown_timer'
+              assign days = "00"
+              assign seconds = "00"
+              if block.settings.countdown_timer_time_repeating == blank
+                assign hours = "00"
+                assign minutes = "00"
+              else
+                assign hours = countdown_datetime_raw[0] | prepend: 0 | slice: -2, 2
+                assign minutes = countdown_datetime_raw[1] | prepend: 0 | slice: -2, 2
+              endif
+            elsif block.type == 'promo_countdown_timer'
+              assign dateNow = "now" | date: '%s'
+              assign setDate = countdown_strftime | date: '%s'
+              assign distance = setDate | minus: dateNow | date: '%s'
+              if block.settings.countdown_timer_time_set == blank
+                assign days = '00'
+                assign hours = '00'
+                assign minutes = '00'
+                assign seconds = '00'
+              else
+                assign days = distance | divided_by: 86400 | prepend: 0 | slice: -3, 3
+                assign daysValue = days | times: 1
+                if daysValue < 100
+                  assign days = days | slice: -2, 2
+                endif
+                assign hours = distance | modulo: 86400 | divided_by: 3600 | prepend: 0 | slice: -2, 2
+                assign minutes = distance | modulo: 3600 | divided_by: 60 | prepend: 0 | slice: -2, 2
+                assign seconds = distance | modulo: 60 | prepend: 0 | slice: -2, 2
+              endif
+            endif
+          %}
+          <div class="countdown-timer" data-countdown-timer="{{ countdown_datetime | date: '%d-%B-%Y %H:%M' }}" data-countdown-timer-firefox="{{ countdown_datetime | date: '%d-%B%Y %H:%M' }}" data-countdown-type="{{ block.settings.countdown_timer_type }}">
+            <span class="visually-hidden">Countdown Timer - Counting down to {{ countdown_datetime | date: '%d-%B-%Y  %H:%M' }}</span>
+            <div id="countdown_timer__days" class="countdown__box"><h3>{{ days }}</h3><small>Days</small></div>
+            <div id="countdown_timer__hours" class="countdown__box"><h3>{{ hours }}</h3><small>Hours</small></div>
+            <div id="countdown_timer__minutes" class="countdown__box"><h3>{{ minutes }}</h3><small>Minutes</small></div>
+            <div id="countdown_timer__seconds" class="countdown__box"><h3>{{ seconds }}</h3><small>Seconds</small></div>
+          </div>
+        {% endunless %}
+
+        {% unless block.settings.cta_link == blank %}
+          <a class="promo-banner--btn" href="{{ block.settings.cta_link }}">
+            <button type="button" class="btn btn--chocolate btn--full">
+              {{ block.settings.cta_text | upcase }}
+            </button>
+          </a>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+
+   {% render 'custom-spacing' with
+      section_name: 'promo-banner'
+    %}
+
+  {% style %}
+    .promo-banner--{{ section.id }} .promo-banner__container {
+      background-color: {% if section.settings.enable_gradient %}{% else %}{{ section.settings.bg_color | color_modify: 'alpha', 0.75 }}{% endif %};
+      color: {{ section.settings.color }};
+      {% if section.settings.enable_gradient %}background: {{ section.settings.bg_gradient }}{% endif %}
+    }
+    @media (max-width: 750px) {
+      .promo-banner--{{ section.id }} .promo-banner--single-image img {
+        {% for block in section.blocks %}
+          {% unless block.settings.single_image == blank %}
+            width: {{ block.settings.single_image_width_mobile }}px;
+          {% endunless %}
+        {% endfor %}
+      }
+    }
+    @media (min-width: 750px) {
+      .promo-banner--{{ section.id }} .promo-banner--single-image img {
+        {% for block in section.blocks %}
+          {% unless block.settings.single_image == blank %}
+            width: {{ block.settings.single_image_width_desktop }}px;
+          {% endunless %}
+        {% endfor %}
+      }
+    }
+  {% endstyle %}
+{% endunless %}

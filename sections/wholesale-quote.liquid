@@ -1,0 +1,297 @@
+<script src="{{ 'wholesale-quote.js' | asset_url }}" defer="defer"></script>
+{{ 'wholesale-quote.css' | asset_url | stylesheet_tag }}
+
+<div class="wholesale-quote wholesale-quote--{{ section.id }}">
+  <div class="wholesale-quote__wrapper wrapper">
+    <div class="wholesale-quote__header">
+      {% if section.settings.preheading != blank %}
+        <h2>{{ section.settings.preheading }}</h2>
+      {% endif %}
+      {% if section.settings.heading != blank %}
+        <h3>{{ section.settings.heading }}</h3>
+      {% endif %}
+      {% if section.settings.copy != blank %}
+        <p class="wholesale-quote__copy">{{ section.settings.copy }}</p>
+      {% endif %}
+    </div>
+    <div class="wholesale-quote__form" data-wholesale-quote-form-wrapper>
+      {% form 'contact', data-validation-required: '' %}
+        {% if form.posted_successfully? %}
+          <p class="form-success">
+            {{ 'contact.form.post_success' | t }}
+          </p>
+        {% elsif form.errors %}
+          <div class="form-errors">
+            {{ form.errors | default_errors }}
+          </div>
+        {% endif %}
+
+        <label for="wholesaleQuoteFormName" class="visually-hidden">{{ 'contact.form.name' | t }}</label>
+        <div data-required-field-wrapper>
+          <input type="text"
+            name="contact[name]"
+            id="wholesaleQuoteFormName"
+            placeholder="{{ 'contact.form.name' | t }}"
+            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+            data-required-field>
+          <span>&times;</span>
+        </div>
+
+        <label for="wholesaleQuoteFormEmail" class="visually-hidden">{{ 'contact.form.email' | t }}</label>
+        <div data-required-field-wrapper>
+          <input type="email"
+            name="contact[email]"
+            id="wholesaleQuoteFormEmail"
+            placeholder="{{ 'contact.form.email' | t }}"
+            value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+            spellcheck="false"
+            autocomplete="off"
+            autocapitalize="off"
+            data-required-field="valid email is required"
+            data-required-field-pattern="^\w+([.-/+/-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$">
+          <span>&times;</span>
+        </div>
+
+        <label for="wholesaleQuoteFormCountry" class="visually-hidden">{{ 'contact.form.country' | t }}</label>
+        <select data-address-country
+          name="contact[country]"
+          id="wholesaleQuoteFormCountry"
+          {% if form.country != blank %}data-default="{{ form.country }}"{% endif %}>
+        </select>
+
+        <div class="hide" data-address-province-wrapper>
+          <label for="wholesaleQuoteFormProvince" class="visually-hidden">{{ 'contact.form.province' | t }}</label>
+          <select data-address-province
+            name="contact[province]"
+            id="wholesaleQuoteFormProvince"
+            {% if form.province != blank %}data-default="{{ form.province }}"{% endif %}>
+          </select>
+        </div>
+
+        {% if section.settings.items_heading %}
+          <label for="wholesaleQuoteFormItems">{{ section.settings.items_heading }}</label>
+        {% else %}
+          <label for="wholesaleQuoteFormItems" class="visually-hidden">{{ 'contact.form.items' | t }}</label>
+        {% endif %}
+        <div data-required-field-wrapper>
+          <input type="text"
+            name="contact[body]"
+            id="wholesaleQuoteFormItems"
+            placeholder="{{ section.settings.items_placeholder }}"
+            data-required-field>
+          <span>&times;</span>
+        </div>
+
+        <button type="submit" class="btn btn--chocolate">
+          {%- if section.settings.submit_text != blank -%}
+            {{- section.settings.submit_text -}}
+          {%- else -%}
+            {{- 'contact.form.submit' | t -}}
+          {%- endif -%}
+        </button>
+      {% endform %}
+    </div>
+  </div>
+</div>
+
+{% render 'custom-spacing' with
+  section_name: 'wholesale-quote'
+%}
+
+{% schema %}
+  {
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "text",
+        "id": "preheading",
+        "label": "Preheading"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "copy",
+        "label": "Copy"
+      },
+      {
+        "type": "header",
+        "content": "Form"
+      },
+      {
+        "type": "text",
+        "id": "items_heading",
+        "label": "Items Heading"
+      },
+      {
+        "type": "text",
+        "id": "items_placeholder",
+        "label": "Items Placeholder"
+      },
+      {
+        "type": "text",
+        "id": "submit_text",
+        "label": "Submit Text"
+      },
+      {
+        "type": "header",
+        "content": "Custom Spacing"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_mobile",
+        "label": "Top Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_mobile",
+        "label": "Bottom Margin | Mobile",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_top_desktop",
+        "label": "Top Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      },
+      {
+        "type": "select",
+        "id": "margin_bottom_desktop",
+        "label": "Bottom Margin | Desktop",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "0",
+            "label": "None"
+          },
+          {
+            "value": "16px",
+            "label": "16px"
+          },
+          {
+            "value": "24px",
+            "label": "24px"
+          },
+          {
+            "value": "32px",
+            "label": "32px"
+          },
+          {
+            "value": "64px",
+            "label": "64px"
+          },
+          {
+            "value": "96px",
+            "label": "96px"
+          },
+          {
+            "value": "104px",
+            "label": "104px"
+          }
+        ],
+        "default": "default"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Wholesale Quote"
+      }
+    ]
+  }
+{% endschema %}

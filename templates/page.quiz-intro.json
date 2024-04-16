@@ -1,0 +1,344 @@
+{
+  "sections": {
+    "header": {
+      "type": "collection-landing-hero",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop Routines",
+        "copy": "When it comes to results, consistency is key. Start your new routine today!",
+        "bg_image_mobile": "shopify:\/\/shop_images\/routines-mobile-hero.jpg"
+      }
+    },
+    "1650314755dc48b2cf": {
+      "type": "hero-intro",
+      "settings": {
+        "alignment": "left",
+        "bg_color": "#fafafa",
+        "image_mobile": "shopify:\/\/shop_images\/3_4e2968c0-2ad4-4e38-9ec3-d11bd2f9b3b1.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/3_4e2968c0-2ad4-4e38-9ec3-d11bd2f9b3b1.jpg",
+        "image_offset": 48,
+        "preheading": "Quiz",
+        "heading": "Skincare, Everywhere",
+        "copy": "<p>Solving your most frustrating skin concerns!<\/p>",
+        "cta_link": "shopify:\/\/pages\/quiz",
+        "cta_text": "Take the Quiz",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    },
+    "164666017446d7977d": {
+      "type": "home-hero",
+      "disabled": true,
+      "settings": {
+        "title": "Our Routines",
+        "copy": "Save 10% & get the best results!",
+        "cta_text": "",
+        "cta_link": "",
+        "position_desktop": "right",
+        "position_mobile": "bottom",
+        "image_desktop": "shopify:\/\/shop_images\/Francesca_Bikini_Line_Trimmer_1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/2_b3753e69-ce0a-4f80-98ad-64752f5cf2e8.jpg",
+        "video_url_desktop": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/Bushbalm-Routines.mp4?v=1646660333",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/s\/files\/1\/1674\/9095\/files\/Bushbalm-Routines.mp4?v=1646660333",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#271710",
+        "gradient_angle_mobile": 360,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#271710",
+        "gradient_angle_desktop": 360,
+        "review_enable": true,
+        "review_score": "4.8",
+        "review_count": 4000,
+        "review_animation": true,
+        "review_copy": "Stamped score [score] • [count]+ reviews",
+        "review_icon": "shopify:\/\/shop_images\/stamped_264fec9e-8eb6-4b3d-a9fd-b61de515650e.png",
+        "margin_top_mobile": "16px",
+        "margin_bottom_mobile": "32px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "16503153165e47580e": {
+      "type": "content-simple",
+      "disabled": true,
+      "settings": {
+        "uid": "",
+        "alignment": "right",
+        "bg_color": "#f8e2c9",
+        "image_offset": true,
+        "image_mobile": "shopify:\/\/shop_images\/Bushbalm_Skincare_c3d92cf3-9044-4d5a-a692-00eb33751ebc.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/Bushbalm_Skincare_c3d92cf3-9044-4d5a-a692-00eb33751ebc.jpg",
+        "heading": "Already know your skin concern?",
+        "copy": "Shop our most popular concerns.",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "24px",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1650315520cd34a60e": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#ffffff",
+        "padding": false,
+        "intro": "SHOP BY CONCERN",
+        "headline": "Already know your concern?",
+        "subline": "",
+        "cta_style": "link",
+        "cta_text": "",
+        "cta_link": "",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "0"
+      }
+    },
+    "1637355745571a6ceb": {
+      "type": "cta-block-grid",
+      "blocks": {
+        "d736c380-109b-444c-ba87-73ae349b84c8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trimming_1.jpg",
+            "heading": "Hair Removal",
+            "heading_mobile": "",
+            "copy": "Waxing, shaving, trimming & more.",
+            "url": "shopify:\/\/pages\/hair-removal-routines"
+          }
+        },
+        "8730feeb-026a-4bc3-807c-429a572391c5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ingrown-hair.jpg",
+            "heading": "Ingrown Hair",
+            "heading_mobile": "Ingrown Hair & Razor Burn",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/ingrown-hair-routine"
+          }
+        },
+        "3b9ae99c-7e1a-42a2-9746-a742106ee4e9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dark_Spots_Routine_8d246cd8-ba00-4d30-83e3-6519aaffb6e9.jpg",
+            "heading": "Dark Spots",
+            "heading_mobile": "",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/dark-spot-routine"
+          }
+        },
+        "a6b62731-c84e-4d6f-83fb-d3e313899d75": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hyperpigmentation_Routine.jpg",
+            "heading": "Hyperpigmentation",
+            "heading_mobile": "Hyperpigmentation",
+            "copy": "3 Step Routine",
+            "url": "shopify:\/\/collections\/hyperpigmentation-routine"
+          }
+        },
+        "fcb72fee-f98f-4772-a0ac-6e8b9eb032b2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Keratosis_Pilaris_Routine_20a2f74f-2219-4a33-a19d-c10bd0ef0a6c.jpg",
+            "heading": "Keratosis Pilaris",
+            "heading_mobile": "Keratosis Pilaris",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/keratosis-pilaris-routine"
+          }
+        },
+        "8338c42d-2fdc-44b3-b309-21873657a54b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/razor-burn.jpg",
+            "heading": "Razor Burn",
+            "heading_mobile": "",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/razor-burn-routine"
+          }
+        },
+        "3dcef7fa-c8bb-43ae-8dbb-166847ce03b6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stretch_Marks_d8d7b21b-a9d9-429a-8781-a6abaec3767b.jpg",
+            "heading": "Stretch Marks",
+            "heading_mobile": "",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/stretch-marks-routine"
+          }
+        }
+      },
+      "block_order": [
+        "d736c380-109b-444c-ba87-73ae349b84c8",
+        "8730feeb-026a-4bc3-807c-429a572391c5",
+        "3b9ae99c-7e1a-42a2-9746-a742106ee4e9",
+        "a6b62731-c84e-4d6f-83fb-d3e313899d75",
+        "fcb72fee-f98f-4772-a0ac-6e8b9eb032b2",
+        "8338c42d-2fdc-44b3-b309-21873657a54b",
+        "3dcef7fa-c8bb-43ae-8dbb-166847ce03b6"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "margin_top_mobile": "0",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "64px"
+      }
+    },
+    "1650315970337580dc": {
+      "type": "before-and-after",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "cta_text": "",
+        "gradient_enable_mobile": true,
+        "gradient_color_mobile": "#000000",
+        "gradient_angle_mobile": 180,
+        "gradient_enable_desktop": true,
+        "gradient_color_desktop": "#000000",
+        "gradient_angle_desktop": 0,
+        "enable_cta_slide": true,
+        "cta_slide_title": "",
+        "cta_slide_copy": "",
+        "cta_slide_cta_link": "",
+        "cta_slide_cta_text": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16503164059d46c1d1": {
+      "type": "featured-reviews",
+      "settings": {
+        "intro": "Featured",
+        "headline": "Customer Reviews",
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"carousel\" data-style-color-title=\"#271710\" data-style-color-star=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\" data-with-photos=\"? string:#f8a086 ?\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1650316365f6b8ce21": {
+      "type": "all-reviews",
+      "settings": {
+        "stamped_widget": "<div id=\"stamped-reviews-widget\" data-widget-type=\"full-page\" data-take=\"5\" data-style-color-star=\"#f8a086\" data-style-color-verified=\"#f8a086\" data-style-color-text=\"#271710\" data-style-color-link=\"#271710\"><\/div>",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "16466603938ca41f5d": {
+      "type": "press-highlights",
+      "blocks": {
+        "095cfaaa-8cfb-46f9-8e04-153b5d9d4da0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Forbes",
+            "copy": "“Each of the products has been created to take care of our most sensitive areas that have been largely forgotten by mainstream beauty brands.”",
+            "logo": "shopify:\/\/shop_images\/forbes_14ef8883-1bcd-4086-8da4-3dd17c9fea35.png",
+            "logo_height": 23,
+            "bg_color": "#cca181",
+            "color": "#271710",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": false
+          }
+        },
+        "42c55196-4b3d-41de-a2a8-58fa25899929": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Women's Health",
+            "copy": "\"For those looking to naturally brighten the skin without harsh bleaching products, this is a go-to,\" says dermatologist Dr. Tiffany Clay.",
+            "logo": "shopify:\/\/shop_images\/womens-health-logo_8e16cad1-c1c0-448d-974b-7d2e3475787e.png",
+            "logo_height": 23,
+            "bg_color": "#f8e2c9",
+            "color": "#271710",
+            "cta_bg_color": "#ffffff",
+            "invert_logos": false
+          }
+        },
+        "9f05bfcc-aaf8-4409-91dd-14322522430a": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Chatelaine",
+            "copy": "“Think lusciously scented oil blends and scrubs packed with nourishing ingredients like jojoba and copaiba oils”",
+            "logo": "shopify:\/\/shop_images\/cha_2a57250a-c2b9-4d30-a006-b9cd91d35f42.png",
+            "logo_height": 24,
+            "bg_color": "#271710",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        },
+        "fd1f6f42-11ad-4f30-b982-c4c2ccaa6380": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Elle",
+            "copy": "“The irresistibly creamy formula can be used anywhere you want a little extra firming action”",
+            "logo": "shopify:\/\/shop_images\/l-elle_5ffd084d-0256-4bdc-9b45-ae0a87760cc4.png",
+            "logo_height": 25,
+            "bg_color": "#7a482a",
+            "color": "#ffffff",
+            "cta_bg_color": "#f8e2c9",
+            "invert_logos": true
+          }
+        }
+      },
+      "block_order": [
+        "095cfaaa-8cfb-46f9-8e04-153b5d9d4da0",
+        "42c55196-4b3d-41de-a2a8-58fa25899929",
+        "9f05bfcc-aaf8-4409-91dd-14322522430a",
+        "fd1f6f42-11ad-4f30-b982-c4c2ccaa6380"
+      ],
+      "disabled": true,
+      "settings": {
+        "cta_text": "",
+        "cta_link": "",
+        "bg_color": "#cca181",
+        "cta_bg_color": "#f8e2c9",
+        "margin_top_mobile": "32px",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1650316445bd90d2c5": {
+      "type": "cta",
+      "settings": {
+        "bg_color": "#fafafa",
+        "padding": true,
+        "intro": "",
+        "headline": "Seeing is believing! Want to see before & afters?",
+        "subline": "",
+        "cta_style": "button",
+        "cta_text": "VIew Before & Afters",
+        "cta_link": "shopify:\/\/blogs\/before-and-after",
+        "cta_2_text": "",
+        "cta_2_link": "",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "1650314755dc48b2cf",
+    "164666017446d7977d",
+    "16503153165e47580e",
+    "1650315520cd34a60e",
+    "1637355745571a6ceb",
+    "1650315970337580dc",
+    "16503164059d46c1d1",
+    "1650316365f6b8ce21",
+    "16466603938ca41f5d",
+    "1650316445bd90d2c5"
+  ]
+}

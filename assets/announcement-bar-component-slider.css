@@ -1,0 +1,182 @@
+.announcement-bar-dynamic slider-component {
+  position: relative;
+  display: block;
+}
+
+.announcement-bar-dynamic slider-component ul {
+  margin-top: 0 !important;
+}
+
+@media screen and (max-width: 989px) {
+  .no-js .announcement-bar-dynamic slider-component .slider {
+    padding-bottom: 3rem;
+  }
+}
+
+.announcement-bar-dynamic .slider__slide {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.announcement-bar-dynamic .grid.slider--everywhere {
+  position: relative;
+  flex-wrap: inherit;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1rem;
+}
+
+@media (prefers-reduced-motion) {
+  .announcement-bar-dynamic .slider--everywhere {
+    scroll-behavior: auto;
+  }
+}
+
+.announcement-bar-dynamic .slider.slider--everywhere .slider__slide {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  scroll-snap-align: center;
+}
+
+/* Scrollbar */
+
+.announcement-bar-dynamic .slider {
+  scrollbar-color: rgb(var(--color-foreground))
+    rgba(var(--color-foreground), 0.04);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.announcement-bar-dynamic .slider::-webkit-scrollbar {
+  height: 0.4rem;
+  width: 0.4rem;
+  display: none;
+}
+
+.announcement-bar-dynamic .no-js .slider {
+  -ms-overflow-style: auto;
+  scrollbar-width: auto;
+}
+
+.no-js .announcement-bar-dynamic .slider::-webkit-scrollbar {
+  display: initial;
+}
+
+.announcement-bar-dynamic .slider::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--color-foreground));
+  border-radius: 0.4rem;
+  border: 0;
+}
+
+.announcement-bar-dynamic .slider::-webkit-scrollbar-track {
+  background: rgba(var(--color-foreground), 0.04);
+  border-radius: 0.4rem;
+}
+
+.announcement-bar-dynamic .slider-counter {
+  margin: 0 1.2rem;
+  display: flex;
+  min-width: 2rem;
+}
+
+.announcement-bar-dynamic .slider-counter__link {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 749px) {
+  .announcement-bar-dynamic .slider-counter__link {
+    padding: 0.7rem;
+  }
+}
+
+.announcement-bar-dynamic .slider-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.announcement-bar-dynamic .slider-buttons button {
+  pointer-events: auto;
+}
+
+@media screen and (min-width: 990px) {
+  .announcement-bar-dynamic .slider:not(.slider--everywhere) + .slider-buttons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .announcement-bar-dynamic .slider--mobile + .slider-buttons {
+    display: none;
+  }
+}
+
+.announcement-bar-dynamic .slider-button {
+  color: rgba(var(--color-base-accent-1));
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.announcement-bar-dynamic .slider-button:not([disabled]):hover {
+  color: rgb(var(--color-foreground));
+}
+
+.announcement-bar-dynamic .slider-button .icon {
+  height: 0.6rem;
+}
+
+.announcement-bar-dynamic .slider-button[disabled] .icon {
+  color: rgba(var(--color-foreground), 0.3);
+  cursor: not-allowed;
+}
+
+.announcement-bar-dynamic .slider-button--next .icon {
+  transform: rotate(-90deg);
+}
+
+.announcement-bar-dynamic .slider-button--prev .icon {
+  transform: rotate(90deg);
+}
+
+.announcement-bar-dynamic .slider-button--next:not([disabled]):hover .icon {
+  transform: rotate(-90deg) scale(1.1);
+}
+
+.announcement-bar-dynamic .slider-button--prev:not([disabled]):hover .icon {
+  transform: rotate(90deg) scale(1.1);
+}
+
+.announcement-bar-dynamic .slider-button[disabled] {
+  background-color: transparent;
+  cursor: not-allowed;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+  .announcement-bar-dynamic .slider-button {
+    color: rgba(var(--color-base-accent-1));
+    background: rgba(var(--color-base-background-1));
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(var(--color-base-accent-1));
+  }
+
+  .announcement-bar-dynamic .slider-buttons .slider-counter {
+    align-self: flex-end;
+    padding-bottom: 11px;
+  }
+}

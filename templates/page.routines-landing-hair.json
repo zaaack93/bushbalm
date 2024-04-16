@@ -1,0 +1,124 @@
+{
+  "sections": {
+    "header": {
+      "type": "collection-landing-hero",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop Routines",
+        "copy": "When It Comes to Skincare, Consistency Is Key. Establishing a Skincare Routine Is an Effective Way to Experience Long Term Results.",
+        "bg_image_mobile": "shopify:\/\/shop_images\/routines-mobile-hero.jpg"
+      }
+    },
+    "1645112280e9f988e8": {
+      "type": "back-link",
+      "settings": {
+        "link_text": "Back to all routines",
+        "link_url": "shopify:\/\/pages\/routines",
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "default"
+      }
+    },
+    "1637355745571a6ceb": {
+      "type": "cta-block-grid",
+      "blocks": {
+        "d736c380-109b-444c-ba87-73ae349b84c8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bikini_Line_Trimming.jpg",
+            "heading": "Trimming",
+            "heading_mobile": "Trimming",
+            "copy": "3 Step Routine",
+            "url": "shopify:\/\/collections\/trimming-routine"
+          }
+        },
+        "8730feeb-026a-4bc3-807c-429a572391c5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Waxing_or_Sugaring_1.jpg",
+            "heading": "Waxing \/ Sugaring",
+            "heading_mobile": "Waxing \/ Sugaring",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/waxing-routine"
+          }
+        },
+        "3b9ae99c-7e1a-42a2-9746-a742106ee4e9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shaving_Routine_2.jpg",
+            "heading": "Shaving",
+            "heading_mobile": "Shaving",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/shaving-routine"
+          }
+        },
+        "a6b62731-c84e-4d6f-83fb-d3e313899d75": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hyperpigmentation.jpg",
+            "heading": "Hyperpigmentation",
+            "heading_mobile": "Hyperpigmentation",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/hyperpigmentation-routine"
+          }
+        },
+        "fcb72fee-f98f-4772-a0ac-6e8b9eb032b2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/keratosis-pilarsis.jpg",
+            "heading": "Keratosis Pilaris",
+            "heading_mobile": "Keratosis Pilaris",
+            "copy": "3 Step Routine",
+            "url": "shopify:\/\/collections\/keratosis-pilaris-routine"
+          }
+        },
+        "8338c42d-2fdc-44b3-b309-21873657a54b": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/razor-burn.jpg",
+            "heading": "Razor Burn",
+            "heading_mobile": "",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/razor-burn-routine"
+          }
+        },
+        "3dcef7fa-c8bb-43ae-8dbb-166847ce03b6": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stretch-marks.jpg",
+            "heading": "Stretch Marks",
+            "heading_mobile": "",
+            "copy": "2 Step Routine",
+            "url": "shopify:\/\/collections\/stretch-marks-routine"
+          }
+        }
+      },
+      "block_order": [
+        "d736c380-109b-444c-ba87-73ae349b84c8",
+        "8730feeb-026a-4bc3-807c-429a572391c5",
+        "3b9ae99c-7e1a-42a2-9746-a742106ee4e9",
+        "a6b62731-c84e-4d6f-83fb-d3e313899d75",
+        "fcb72fee-f98f-4772-a0ac-6e8b9eb032b2",
+        "8338c42d-2fdc-44b3-b309-21873657a54b",
+        "3dcef7fa-c8bb-43ae-8dbb-166847ce03b6"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "margin_top_mobile": "default",
+        "margin_bottom_mobile": "default",
+        "margin_top_desktop": "default",
+        "margin_bottom_desktop": "96px"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "1645112280e9f988e8",
+    "1637355745571a6ceb"
+  ]
+}

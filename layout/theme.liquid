@@ -1,0 +1,618 @@
+<!doctype html>
+<html data-site-html lang="{{ request.locale.iso_code }}" class="theme--{{ template | handleize }}">
+  <head>
+	{% render 'pandectes-rules' %}
+	
+	
+<!-- Start of Shoplift scripts -->
+{% render 'shoplift' %}
+<!-- End of Shoplift scripts -->
+
+    {% render 'replo-head' %}
+
+    <!-- Start VWO Async SmartCode -->
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+    <script type='text/javascript' id='vwoCode'>
+    window._vwo_code || (function() {
+    var account_id=778042,
+    version=2.0,
+    settings_tolerance=2000,
+    hide_element='body',
+    hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important',
+     /* DO NOT EDIT BELOW THIS LINE */
+     f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+'_settings',cc={};try{var c=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=c&&typeof c==='object'?c:{}}catch(e){}var stT=cc.stT==='session'?w.sessionStorage:w.localStorage;code={use_existing_jquery:function(){return typeof use_existing_jquery!=='undefined'?use_existing_jquery:undefined},library_tolerance:function(){return typeof library_tolerance!=='undefined'?library_tolerance:undefined},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){return typeof cc.hE==='string'?cc.hE:hide_element},getVersion:function(){return version},finish:function(){if(!f){f=true;var e=d.getElementById('_vis_opt_path_hides');if(e)e.parentNode.removeChild(e)}},finished:function(){return f},load:function(e){var t=this.getSettings(),n=d.createElement('script'),i=this;if(t){n.textContent=t;d.getElementsByTagName('head')[0].appendChild(n);if(!w.VWO||VWO.caE){stT.removeItem(cK);i.load(e)}}else{n.fetchPriority='high';n.src=e;n.type='text/javascript';n.onerror=function(){_vwo_code.finish()};d.getElementsByTagName('head')[0].appendChild(n)}},getSettings:function(){try{var e=stT.getItem(cK);if(!e){return}e=JSON.parse(e);if(Date.now()>e.e){stT.removeItem(cK);return}return e.s}catch(e){return}},init:function(){if(d.URL.indexOf('__vwo_disable__')>-1)return;var e=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish();stT.removeItem(cK)},e);var t=d.currentScript,n=d.createElement('style'),i=this.hide_element(),r=t&&!t.async&&i?i+this.hide_element_style():'',c=d.getElementsByTagName('head')[0];n.setAttribute('id','_vis_opt_path_hides');v&&n.setAttribute('nonce',v.nonce);n.setAttribute('type','text/css');if(n.styleSheet)n.styleSheet.cssText=r;else n.appendChild(d.createTextNode(r));c.appendChild(n);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&vn='+version)}};w._vwo_code=code;code.init();})();
+     </script>
+     <!-- End VWO Async SmartCode -->
+
+    <!-- Begin BlackCrow Script Tag: DO NOT MODIFY! -->
+    <script
+      type="text/javascript"
+      async
+      src="https://shopify-init.blackcrow.ai/js/core/bushbalm.js?shopify_app_version=1.0.237&shop=bushbalm.myshopify.com"
+    ></script>
+    <!-- End BlackCrow Script Tag -->
+
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "kyo7utt5hf");
+    </script>	
+
+    <script src="https://kit.fontawesome.com/05c6fbd31e.js" crossorigin="anonymous" async></script>
+
+    <script>
+      /* >> TriplePixel :: start*/
+      ~(function (W, H, A, L, E) {
+        try {
+          A.setItem(H, 1 + (0 | A.getItem(H) || 0)),
+            W.includes('⇈') && A.setItem(H + 'Stg', 1 + (0 | A.getItem(H + 'Stg') || 0));
+        } catch (e) {}
+        function O(T, R) {
+          void 0 === R && (R = !1),
+            (H = new XMLHttpRequest()),
+            H.open('GET', '//triplewhale-pixel.web.app/triplepx.txt?' + ~(Date.now() / 9e7), !0),
+            H.send(null),
+            (H.onreadystatechange = function () {
+              4 === H.readyState && 200 === H.status
+                ? setTimeout(function () {
+                    return eval(H.responseText);
+                  }, 50)
+                : (299 < H.status || H.status < 200) && T && !R && ((R = !0), O(T - 1));
+            });
+        }
+        (A = window),
+          A[H] ||
+            ((L = function () {
+              return 'tp..' + Date.now().toString(36) + Math.random().toString(36);
+            }),
+            (E = A[H] =
+              function (t, e, n) {
+                return (W = L()), (E._q = E._q || []).push([W, e, n]), W;
+              }),
+            (E.ch = W),
+            O(5));
+      })('', 'TriplePixel', localStorage);
+      /* << TriplePixel :: end*/
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {% if settings.favicon != blank %}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '64x64' }}" type="image/png">
+    {% endif %}
+
+    <title>
+      {{ page_title }}
+      {% if current_tags -%}
+        {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+      {%- endif %}
+      {% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}
+      {% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+    </title>
+
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}">
+    {% endif %}
+
+    {% render 'og-tags' %}
+    {% render 'style-fonts' %}
+    {% render 'script-tags', layout: 'theme' %}
+    {% render 'style-tags', layout: 'theme' %}
+
+    {% comment %}
+      🚨🚨🚨🚨🚨🚨🚨🚨
+      Please do not edit minified CSS files such as theme.css!
+      All custom styles can be put in custom-style.css.liquid located in the assets folder
+      🚨🚨🚨🚨🚨🚨🚨🚨
+    {% endcomment %}
+    <link type="text/css" href="{{ 'custom-styles.css' | asset_url }}" rel="stylesheet">
+
+    <script type="text/javascript">
+      window.theme = {
+        strings: {
+          addToCart: {{ 'products.product.add_to_cart' | t | json }},
+          soldOut: {{ 'products.product.sold_out' | t | json }},
+          unavailable: {{ 'products.product.unavailable' | t | json }}
+        },
+        moneyFormat: {{ shop.money_format | json | replace: ' CAD', '' }}
+      };
+
+      {% if template.directory == 'customers' or canonical_url contains '/apps/store-locator' or template == 'page.wholesale-application' %}
+        theme.allCountryOptionTags = {{ all_country_option_tags | json }};
+      {% endif %}
+    </script>
+
+    {% if settings.additional_scripts != blank %}
+      {{- settings.additional_scripts -}}
+    {% endif %}
+
+    {{ content_for_header }}
+
+    {% render 'shogun-head' %}
+    {% render 'digismoothie-candyrack' %}
+    {% include 'sca.freegifts' %}
+
+    <script type="text/javascript" id="loop-subscription-script" src="{{ 'loop-widget.js' | asset_url }}"></script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-K5L5W4J');
+    </script>
+    <!-- End Google Tag Manager -->
+
+  
+<script type="text/javascript">
+ var _conv_page_type = "{{ request.page_type }}";
+ var _conv_category_id = "{{ collection.id }}";
+ var _conv_category_name = "{{ collection.title }}";
+ var _conv_product_sku = "{{ product.selected_or_first_available_variant.sku }}";
+ var _conv_product_name = '{{ product.title }}';
+ var _conv_product_price = "{{ product.price_min | money_without_currency }}";
+ var _conv_customer_id = "{{ customer.id }}";
+ var _conv_custom_v1 = "{{ product.tags.first }}";
+ var _conv_custom_v2 = "{{ collection.current_type }}";
+ var _conv_custom_v3 = "{{ cart.item_count }}";
+ var _conv_custom_v4 = "{{ cart.total_price | money_without_currency }}";
+</script>
+{% render 'convert' %}
+
+</head>
+
+  <style class="loop-style">
+    {% render 'loop-widget.css' %}
+  </style>
+
+<script src="{{ 'loop_bundle.js' | asset_url }}"></script>
+<script>
+  /*
+    function removeBundleItems() {
+        const bundleDivs = document.querySelectorAll('div[class*="_bundleid"]');
+        bundleDivs.forEach(ele => ele.remove())
+        console.log("rtx Removing bundle items");
+    }
+
+    function addBtnEventListener() {
+        const btns = document.querySelector('.ajaxcart__carousel').querySelectorAll('.btn.btn--chocolate.btn--full');
+        const removeBtns = document.querySelector('.ajaxcart__content')?.querySelectorAll('.cart-item__remove');
+        const plusBtns = document.querySelector('.ajaxcart__content')?.querySelectorAll('.quantity-selector__plus');
+        const minusBtns = document.querySelector('.ajaxcart__content')?.querySelectorAll('.quantity-selector__minus');
+        const inputsItems = document.querySelector('.ajaxcart__content')?.querySelectorAll('.quantity-selector__input');
+      
+        console.log("rtx btns", btns)
+        console.log("rtx removeBtns", removeBtns)
+        console.log("rtx plusBtns", plusBtns)
+        console.log("rtx minusBtns", minusBtns);
+        console.log("rtx inputsItems", inputsItems);
+      
+        
+        btns.forEach((btn) => {
+            console.log("rtx carausel btn adding listener", btn);
+            btn.addEventListener("click", () => {
+                console.log("rtx carausel btn was clicked");
+                setTimeout(() => {
+                    // window.location.href = window.location.href;
+                    addBundleItems();
+                }, 1500)
+            })
+        });
+        removeBtns.forEach((btn) => {
+              console.log("rtx remove btn adding listener", btn);
+              btn.addEventListener("click", () => {
+                console.log("rtx remove btn was clicked");
+                  setTimeout(() => {
+                      // window.location.href = window.location.href;
+                      addBundleItems();
+                  }, 1500)
+              })
+          });
+          plusBtns.forEach((btn) => {
+              console.log("rtx plus btn adding listener", btn);
+              btn.addEventListener("click", () => {
+                console.log("rtx plus btn was clicked");
+                  setTimeout(() => {
+                      // window.location.href = window.location.href;
+                      addBundleItems();
+                  }, 1500)
+              })
+          });
+          minusBtns.forEach((btn) => {
+              console.log("rtx minus btn adding listener", btn);
+              btn.addEventListener("click", () => {
+                console.log("rtx minus btn was clicked");
+                  setTimeout(() => {
+                      // window.location.href = window.location.href;
+                      addBundleItems();
+                  }, 1500)
+              })
+          });
+          inputsItems.forEach((btn) => {
+              console.log("rtx input btn adding listener", btn);
+              btn.addEventListener("change", () => {
+                console.log("rtx input btn was changed");
+                  setTimeout(() => {
+                      // window.location.href = window.location.href;
+                      addBundleItems();
+                  }, 1500)
+              })
+          });
+    }
+    
+    async function addBundleItems() {
+        const tryToAddBundleItems = async () => {
+            const loader = document.querySelector('.ajaxcart__loading-item');
+            const updatingItems = document.querySelectorAll('.cart-item-wrap.updating');
+            if (loader.classList.contains('hide') && updatingItems.length === 0) {
+                removeBundleItems();
+                clearInterval(retryInterval); // Stop retrying once conditions are met
+                window.Loop = {};
+                window.Loop.bundleCartAllItems = await getCartItems();
+                bootstrap('ajaxcart__items');
+                console.log("rtx Adding bundle items");
+                setTimeout(()=>{
+                  // addBtnEventListener();
+                }, 2000)
+            }
+        };
+        const retryInterval = setInterval(tryToAddBundleItems, 20);
+        setTimeout(() => {
+            clearInterval(retryInterval);
+        }, 9000)
+    }
+
+    async function getCartItems() {
+        const url = `https://bushbalm.com/cart.js`;
+        const response = await fetch(url);
+        const data = await response.json();
+        return data?.items ?? [];
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const intervalId = setInterval(checkCartDrawerStatus, 10);
+        function checkCartDrawerStatus() {
+            const targetNode = document.querySelector('.ajaxcart');
+            console.log("rtx targetNode", targetNode)
+            if (targetNode) {
+                clearInterval(intervalId);
+                const config = { attributes: true, attributeFilter: ['class'], attributeOldValue: true };
+                const callback = function (mutationsList, observer) {
+                    for (const mutation of mutationsList) {
+                        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                            const oldClassState = mutation.oldValue.includes('active');
+                            const currentClassState = targetNode.classList.contains('active');
+                            if (!oldClassState && currentClassState) {
+                                addBundleItems();
+                            } else if (oldClassState && !currentClassState) {
+                                removeBundleItems();
+                            }
+                        }
+                    }
+                };
+                const observer = new MutationObserver(callback);
+                observer.observe(targetNode, { ...config, attributeOldValue: true });
+            }
+        }
+    })*/
+  
+</script>
+ <script>
+
+    // function removeBundleItems() {
+    //     const bundleDivs = document.querySelectorAll('div[class*="_bundleid"]');
+    //     bundleDivs.forEach(ele => ele.style.display='none' )
+    //     console.log("rtx Removing bundle items");
+    // }
+   function removeBundleItems() {
+    const bundleDivs = document.querySelectorAll('div[class*="_bundleid"]');
+    Array.from(bundleDivs).forEach(ele => ele.style.display='none');
+    console.log("rtx Removing bundle items");
+}
+
+   /*
+    function addBtnEventListener() {
+        const btns = document.querySelector('.ajaxcart__carousel').querySelectorAll('.btn.btn--chocolate.btn--full');
+        const removeBtns = document.querySelector('.ajaxcart__content')?.querySelectorAll('.cart-item__remove');
+        const plusBtns = document.querySelector('.ajaxcart__content')?.querySelectorAll('.quantity-selector__plus');
+        const minusBtns = document.querySelector('.ajaxcart__content')?.querySelectorAll('.quantity-selector__minus');
+        const inputsItems = document.querySelector('.ajaxcart__content')?.querySelectorAll('.quantity-selector__input');
+      
+        console.log("rtx btns", btns)
+        console.log("rtx removeBtns", removeBtns)
+        console.log("rtx plusBtns", plusBtns)
+        console.log("rtx minusBtns", minusBtns);
+        console.log("rtx inputsItems", inputsItems);
+      
+        
+        btns.forEach((btn) => {
+            console.log("rtx carausel btn adding listener", btn);
+            btn.addEventListener("click", () => {
+                console.log("rtx carausel btn was clicked");
+                setTimeout(() => {
+                    // window.location.href = window.location.href;
+                    addBundleItems();
+                }, 1500)
+            })
+        });
+        removeBtns.forEach((btn) => {
+              console.log("rtx remove btn adding listener", btn);
+              btn.addEventListener("click", () => {
+                console.log("rtx remove btn was clicked");
+                  setTimeout(() => {
+                      // window.location.href = window.location.href;
+                      addBundleItems();
+                  }, 1500)
+              })
+          });
+          plusBtns.forEach((btn) => {
+              console.log("rtx plus btn adding listener", btn);
+              btn.addEventListener("click", () => {
+                console.log("rtx plus btn was clicked");
+                  setTimeout(() => {
+                      // window.location.href = window.location.href;
+                      addBundleItems();
+                  }, 1500)
+              })
+          });
+          minusBtns.forEach((btn) => {
+              console.log("rtx minus btn adding listener", btn);
+              btn.addEventListener("click", () => {
+                console.log("rtx minus btn was clicked");
+                  setTimeout(() => {
+                      // window.location.href = window.location.href;
+                      addBundleItems();
+                  }, 1500)
+              })
+          });
+          inputsItems.forEach((btn) => {
+              console.log("rtx input btn adding listener", btn);
+              btn.addEventListener("change", () => {
+                console.log("rtx input btn was changed");
+                  setTimeout(() => {
+                      // window.location.href = window.location.href;
+                      addBundleItems();
+                  }, 1500)
+              })
+          });
+    }
+
+    async function addBundleItems() {
+        const tryToAddBundleItems = async () => {
+            const loader = document.querySelector('.ajaxcart__loading-item');
+            const updatingItems = document.querySelectorAll('.cart-item-wrap.updating');
+            if (loader.classList.contains('hide') && updatingItems.length === 0) {
+                removeBundleItems();
+                clearInterval(retryInterval); // Stop retrying once conditions are met
+                window.Loop = {};
+                window.Loop.bundleCartAllItems = await getCartItems();
+                bootstrap('ajaxcart__items');
+                console.log("rtx Adding bundle items");
+                setTimeout(()=>{
+                  // addBtnEventListener();
+                }, 2000)
+            }
+        };
+        const retryInterval = setInterval(tryToAddBundleItems, 20);
+        setTimeout(() => {
+            clearInterval(retryInterval);
+        }, 9000)
+    }
+    */
+   async function addBundleItems() {
+     removeBundleItems()
+                window.Loop = {};
+                window.Loop.bundleCartAllItems = await getCartItems();
+                bootstrap('ajaxcart__items');
+    }
+    async function getCartItems() {
+        const url = `https://bushbalm.com/cart.js`;
+        const response = await fetch(url);
+        const data = await response.json();
+        return data?.items ?? [];
+    }
+/*
+    document.addEventListener('DOMContentLoaded', () => {
+        const intervalId = setInterval(checkCartDrawerStatus, 10);
+        function checkCartDrawerStatus() {
+            const targetNode = document.querySelector('.ajaxcart');
+            console.log("rtx targetNode", targetNode)
+            if (targetNode) {
+                clearInterval(intervalId);
+                const config = { attributes: true, attributeFilter: ['class'], attributeOldValue: true };
+                const callback = function (mutationsList, observer) {
+                    for (const mutation of mutationsList) {
+                        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                            const oldClassState = mutation.oldValue.includes('active');
+                            const currentClassState = targetNode.classList.contains('active');
+                            if (!oldClassState && currentClassState) {
+                                addBundleItems();
+                            } else if (oldClassState && !currentClassState) {
+                                removeBundleItems();
+                            }
+                        }
+                    }
+                };
+                const observer = new MutationObserver(callback);
+                observer.observe(targetNode, { ...config, attributeOldValue: true });
+            }
+        }
+    })
+   */
+</script>
+
+  <body
+    id="{{ page_title | handle }}"
+    class="template-{{ template.name | handle }} {% if template.suffix %}template-{{ template.suffix }}{% endif %}"
+    data-site-body
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K5L5W4J"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <a class="visually-hidden skip-link" href="#siteContent" title="{{ 'general.accessibility.skip_to_content' | t }}">
+      {{- 'general.accessibility.skip_to_content' | t -}}
+    </a>
+
+    {% section 'mobile-nav' %}
+    {% section 'ajaxcart' %}
+
+    <div class="site-overlay" data-site-overlay></div>
+
+    <div class="site-container" data-site-container>
+      {% section 'promo-bar' %}
+      {% section 'header' %}
+      {% section 'sr-sl-quick-nav-1-1' %}
+      {% section 'promo-banner-global' %}
+
+      <main id="siteContent" class="site-content" role="main">
+        {% if canonical_url contains '/apps/store-locator' %}
+          <div class="locations wrapper">
+            {% section 'locations-header' %}
+            <div class="locations__widget">
+              {%- if request.path contains 'loop_subscriptions/bundle'
+                or request.path contains 'loop_subscriptions/customer'
+              -%}
+                {% render 'loop_loader' %}
+              {%- endif -%}
+
+              {{ content_for_layout }}
+              <div class="locations__widget-legend">
+                <h3>{{ 'general.store_locator.legend_title' | t }}</h3>
+                <div>
+                  <img src="/apps/store-locator/markers/map-pin-lightblue2.png" alt="Blue Map Pin">
+                  <p>{{ 'general.store_locator.blue_pin_label' | t }}</p>
+                </div>
+                <div>
+                  <img src="/apps/store-locator/markers/map-pin-pink.png" alt="Pink Map Pin">
+                  <p>{{ 'general.store_locator.pink_pin_label' | t }}</p>
+                </div>
+              </div>
+            </div>
+            {% section 'locations-contact' %}
+          </div>
+        {% else %}
+          {%- if request.path contains 'loop_subscriptions/bundle'
+            or request.path contains 'loop_subscriptions/customer'
+          -%}
+            {% render 'loop_loader' %}
+          {%- endif -%}
+
+          {{ content_for_layout }}
+        {% endif %}
+      </main>
+
+      {% section 'footer' %}
+    </div>
+
+    <style>
+      #stamped-reviews-widget[data-widget-type='full-page'] .stamped-widget-buttons {
+        display: none !important;
+      }
+    </style>
+    <script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'option_selection.js' | shopify_asset_url }}" defer="defer"></script>
+
+    {% comment %}For Development{% endcomment %}
+    {% assign theme_handled = theme.name | handleize %}
+    {% if theme_handled contains 'dev' %}
+      {% style %}
+        #preview-bar-iframe {
+          display: none !important;
+        }
+
+        html {
+          padding-bottom: 0 !important;
+        }
+      {% endstyle %}
+    {% endif %}
+
+    {% render 'schema' %}
+    {% include 'smile-initializer' %}
+
+    {% style %}
+      [class*=' stamped-fa-']:before,
+      [class*=' stamped-icon-']:before,
+      [class^='fa-']:before,
+      [class^='stamped-fa-']:before,
+      [class^='stamped-icon-']:before {
+        font-family: 'FontAwesome' !important;
+        font-size: 14px;
+        margin-right: 4.5px !important;
+      }
+
+      div[data-widget-style] .summary-rating:nth-child(1) .summary-rating-title:before,
+      div[data-widget-style] .summary-rating:nth-child(2) .summary-rating-title:before,
+      div[data-widget-style] .summary-rating:nth-child(3) .summary-rating-title:before,
+      div[data-widget-style] .summary-rating:nth-child(4) .summary-rating-title:before,
+      div[data-widget-style] .summary-rating:nth-child(5) .summary-rating-title:before {
+        font-family: 'FontAwesome' !important;
+        font-size: 12px !important;
+        width: 200px !important;
+        letter-spacing: 7px !important;
+      }
+
+      div[data-widget-style*='standard'] .stamped-summary-starrating i:before {
+        font-size: 18px !important;
+      }
+    {% endstyle %}
+
+    <!-- Stamped - Begin script -->
+    <script>
+      function myInit() {
+        StampedFn.init({ apiKey: 'pubkey-8Njsqy94dg8WJo5b0Hbl7021BrHcxN', sId: '30033' });
+      }
+    </script>
+    <script async onload="myInit()" type="text/javascript" src="https://cdn1.stamped.io/files/widget.min.js"></script>
+    <!-- Stamped - End script -->
+
+    <!-- START Klaviyo - Add to Cart Script -->
+    {% render 'klaviyo-add-to-cart-track' %}
+    <!-- END Klaviyo - Add to Cart Script -->
+
+    {% comment %}
+      <!-- Start Klaviyo - Viewed Product Script - Retention.com -->
+      {% if product %}
+      <script type="text/javascript">
+          var item = {
+              Name: {{ product.title|json }},
+              ProductID: {{ product.id|json }},
+              ImageURL: "https:{{ product.featured_image.src|img_url:'grande' }}",
+              URL: "{{ shop.secure_url }}{{ product.url }}",
+              Brand: {{ product.vendor|json }},
+              Price: {{ product.price|money|json }},
+              CompareAtPrice: {{ product.compare_at_price_max|money|json }}
+          };
+      geq.event('Viewed Product Reclaim', item);
+      </script>
+      {% endif %}
+      <!-- END Klaviyo - Viewed Product Script - Retention.com -->
+    {% endcomment %}
+
+    <script>
+      window.addEventListener('load', function () {
+        jQuery('body').on('click', '[class="btn btn--chocolate btn--full init"]', function () {
+          gtag('event', 'conversion', { send_to: 'AW-823070530/CcvLCLStpZ0YEMKevIgD' });
+        });
+      });
+    </script>
+  </body>
+</html>

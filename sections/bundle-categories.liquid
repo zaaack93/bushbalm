@@ -1,0 +1,105 @@
+<script src="{{ 'bundle-categories.js' | asset_url }}" defer="defer"></script>
+{{ 'bundle-categories.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign all_bundles = 'All Bundles'
+  assign bundle_categories = all_bundles
+  for block in section.blocks
+    assign bundle_categories = bundle_categories | append: ',' | append: block.settings.bundle_category_name
+  endfor
+  assign bundle_categories = bundle_categories | split: ','
+  assign index = 0
+-%}
+
+{% style %}
+  html {
+    scroll-behavior: smooth;
+  }
+{% endstyle %}
+
+<div class="bundle-categories" data-bundle-categories>
+  <nav class="bundle-categories-nav" data-bundle-categories-nav>
+    <div class="wrapper">
+      <ul class="bundle-categories-nav__list">
+        {%- for category in bundle_categories -%}
+          {% unless section.settings.all_bundles_enabled == false and category == all_bundles %}
+            {% assign index = index | plus: 1 %}
+            <li class="bundle-categories-nav__link{% if index == 1 %} bundle-categories-nav__link--active{% endif %}"
+              data-bundle-categories-nav-item data-bundle-categories-nav-item-name="{{ category | handleize }}"
+            >
+              <a class="text-link" href="#{{ category | handleize }}" title="{{ category | handleize }}">
+                {{- category -}}
+              </a>
+            </li>
+          {% endunless %}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </nav>
+
+  <div id="all-bundles" class="wrapper" data-collection-container>
+    {%- for block in section.blocks -%}
+      <div class="bundle-categories__wrapper" data-bundle-category data-bundle-category-name="{{ block.settings.bundle_category_name }}">
+        <h3 id="{{ block.settings.bundle_category_name | handleize }}" class="category-name">{{ block.settings.bundle_category_name }}</h3>
+
+        {% if block.settings.bundle_category_list != blank and block.settings.bundle_category_name != blank %}
+          <div class="bundle-categories__grid grid grid--uniform">
+            {% for bundle_product in block.settings.bundle_category_list %}
+              <!-- HC - Start: Two columns on mobile - added small--6 class - 24 Feb '23 -->
+              <div class="bundle-categories__grid-item grid__item medium-up--4 small--6">
+                {% render 'collection-item' with product: bundle_product %}
+              </div>
+            {% endfor %}
+          </div>
+        {% elsif block.settings.bundle_category_list == blank and block.settings.bundle_category_name != blank %}
+          <div class="grid__item category-empty">
+            <h3 class="text-center">{{ 'collections.general.no_matches' | t }}</h3>
+          </div>
+        {% endif %}
+      </div>
+    {%- endfor -%}
+
+    {% if collection.metafields.custom_fields["enable_seo_section"] %}
+      {% render 'seo-text' %}
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Bundle Categories",
+    "blocks": [
+      {
+        "type": "bundle_category",
+        "name": "Bundle Category",
+        "settings": [
+          {
+            "type": "text",
+            "id": "bundle_category_name",
+            "label": "Bundle Category Name"
+          },
+          {
+            "type": "product_list",
+            "id": "bundle_category_list",
+            "label": "Bundle Category List",
+            "info": "The list of products to be displayed in the bundle category"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "all_bundles_enabled",
+        "label": "Display All Bundles Header",
+        "info": "The header anchors to the bundle categories section",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Bundle Categories"
+      }
+    ]
+  }
+{% endschema %}
